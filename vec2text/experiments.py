@@ -33,7 +33,7 @@ from vec2text.tokenize_data import (
     tokenize_function,
     tokenize_function_llama_chat,
 )
-from vec2text.utils import MockEmbedder, dataset_map_multi_worker
+from vec2text.utils import MockEmbedder, dataset_map_multi_worker, get_num_proc
 
 # Allow W&B to start slowly.
 os.environ["WANDB__SERVICE_WAIT"] = "300"
@@ -47,6 +47,7 @@ os.environ["TOKENIZERS_PARALLELISM"] = "False"
 # os.environ["TOKENIZERS_PARALLELISM"] = "True"
 
 device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
+
 logger = logging.getLogger(__name__)
 
 # We maintain our own cache because huggingface datasets caching
@@ -295,11 +296,16 @@ class Experiment(abc.ABC):
                 id=self.kwargs_hash,
                 resume=True,
             )
+            training_args = vars(self.training_args)
+            # deepspeed kwargs are not json serializable
+            training_args = {
+                k: v for k, v in training_args.items() if "deepspeed" not in k
+            }
             wandb.config.update(
                 {
                     **vars(self.model_args),
                     **vars(self.data_args),
-                    **vars(self.training_args),
+                    **training_args,
                 },
                 allow_val_change=True,
             )
@@ -394,6 +400,10 @@ class Experiment(abc.ABC):
                     "text",
                     self.model_args.max_seq_length,
                     padding=False,
+                    prefix="search_document"
+                    if self.model_args.embedder_model_name
+                    == "nomic-ai/nomic-embed-text-v1"
+                    else None,
                 ),
                 batched=True,
                 num_proc=_get_num_proc(self._world_size),
@@ -477,6 +487,7 @@ class Experiment(abc.ABC):
                 batched=True,
                 batch_size=1024,
                 num_proc=_get_num_proc(self._world_size),
+                # num_proc=get_num_proc(),
                 desc="Running tokenizer on dataset",
             )
 

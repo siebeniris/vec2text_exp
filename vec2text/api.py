@@ -7,25 +7,52 @@ import transformers
 import vec2text
 from vec2text.models.model_utils import device
 
-SUPPORTED_MODELS = ["text-embedding-ada-002"]
+SUPPORTED_MODELS = ["text-embedding-ada-002", "gtr-base"]
 
 
-def load_corrector(embedder: str) -> vec2text.trainers.Corrector:
+def load_pretrained_corrector(embedder: str) -> vec2text.trainers.Corrector:
     """Gets the Corrector object for the given embedder.
 
-    For now, we just support inverting OpenAI Ada 002 embeddings; we plan to
+    For now, we just support inverting OpenAI Ada 002 and gtr-base embeddings; we plan to
     expand this support over time.
     """
     assert (
         embedder in SUPPORTED_MODELS
     ), f"embedder to invert `{embedder} not in list of supported models: {SUPPORTED_MODELS}`"
 
-    inversion_model = vec2text.models.InversionModel.from_pretrained(
-        "jxm/vec2text__openai_ada002__msmarco__msl128__hypothesizer"
-    )
-    model = vec2text.models.CorrectorEncoderModel.from_pretrained(
-        "jxm/vec2text__openai_ada002__msmarco__msl128__corrector"
-    )
+    if embedder == "text-embedding-ada-002":
+        inversion_model = vec2text.models.InversionModel.from_pretrained(
+            "jxm/vec2text__openai_ada002__msmarco__msl128__hypothesizer"
+        )
+        model = vec2text.models.CorrectorEncoderModel.from_pretrained(
+            "jxm/vec2text__openai_ada002__msmarco__msl128__corrector"
+        )
+    elif embedder == "gtr-base":
+        inversion_model = vec2text.models.InversionModel.from_pretrained(
+            "jxm/gtr__nq__32"
+        )
+        model = vec2text.models.CorrectorEncoderModel.from_pretrained(
+            "jxm/gtr__nq__32__correct"
+        )
+    else:
+        raise NotImplementedError(f"embedder `{embedder}` not implemented")
+
+    return load_corrector(inversion_model, model)
+
+
+def load_corrector(
+    inversion_model: vec2text.models.InversionModel,
+    corrector_model: vec2text.models.CorrectorEncoderModel,
+) -> vec2text.trainers.Corrector:
+    """Load in the inversion and corrector models
+
+    Args:
+        inversion_model (vec2text.models.InversionModel): _description_
+        corrector_model (vec2text.models.CorrectorEncoderModel): _description_
+
+    Returns:
+        vec2text.trainers.Corrector: Corrector model to invert an embedding back to text
+    """
 
     inversion_trainer = vec2text.trainers.InversionTrainer(
         model=inversion_model,
@@ -38,9 +65,9 @@ def load_corrector(embedder: str) -> vec2text.trainers.Corrector:
     )
 
     # backwards compatibility stuff
-    model.config.dispatch_batches = None
+    corrector_model.config.dispatch_batches = None
     corrector = vec2text.trainers.Corrector(
-        model=model,
+        model=corrector_model,
         inversion_trainer=inversion_trainer,
         args=None,
         data_collator=vec2text.collator.DataCollatorForCorrection(
@@ -89,6 +116,39 @@ def invert_embeddings(
         regenerated, skip_special_tokens=True
     )
     return output_strings
+
+
+def invert_embeddings_and_return_hypotheses(
+    embeddings: torch.Tensor,
+    corrector: vec2text.trainers.Corrector,
+    num_steps: int = None,
+    sequence_beam_width: int = 0,
+) -> List[str]:
+    corrector.inversion_trainer.model.eval()
+    corrector.model.eval()
+
+    gen_kwargs = copy.copy(corrector.gen_kwargs)
+    gen_kwargs["min_length"] = 1
+    gen_kwargs["max_length"] = 128
+
+    corrector.return_best_hypothesis = sequence_beam_width > 0
+
+    regenerated, hypotheses = corrector.generate_with_hypotheses(
+        inputs={
+            "frozen_embeddings": embeddings,
+        },
+        generation_kwargs=gen_kwargs,
+        num_recursive_steps=num_steps,
+        sequence_beam_width=sequence_beam_width,
+    )
+
+    output_strings = []
+    for hypothesis in regenerated:
+        output_strings.append(
+            corrector.tokenizer.batch_decode(hypothesis, skip_special_tokens=True)
+        )
+
+    return output_strings, hypotheses
 
 
 def invert_strings(

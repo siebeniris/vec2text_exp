@@ -24,6 +24,7 @@ EMBEDDER_MODEL_NAMES = [
     "meta-llama/Llama-2-13b-hf",
     "meta-llama/Llama-2-7b-chat-hf",
     "meta-llama/Llama-2-13b-chat-hf",
+    "nomic-ai/nomic-embed-text-v1",
     "gpt2",
     "gpt2-medium",
     "gpt2-large",
@@ -133,9 +134,7 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
         )
         tokenizer = transformers.AutoTokenizer.from_pretrained("bert-base-uncased")
     elif name == "bert__random_init":
-        config = transformers.AutoConfig.from_pretrained(
-            "bert-base-uncased"
-        )
+        config = transformers.AutoConfig.from_pretrained("bert-base-uncased")
         model = transformers.AutoModel.from_config(config)
         tokenizer = transformers.AutoTokenizer.from_pretrained("bert-base-uncased")
     elif name == "gtr_base":
@@ -232,6 +231,11 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
         tokenizer.pad_token = tokenizer.eos_token
     elif name.startswith("sentence-transformers/"):
         model = SentenceTransformer(name)
+        tokenizer = model.tokenizer
+    elif name.startswith("nomic-ai/nomic-embed-text-v1"):
+        model = SentenceTransformer(
+            "nomic-ai/nomic-embed-text-v1", trust_remote_code=True
+        )
         tokenizer = model.tokenizer
     else:
         print(f"WARNING: Trying to initialize from unknown embedder {name}")

@@ -31,11 +31,24 @@ pre-commit run --all
 
 The library can be used to embed text and then invert it, or invert directly from embeddings. First you'll need to construct a `Corrector` object which wraps the necessary models, embedders, and tokenizers:
 
-### Load a model via `load_corrector`
+### Load a model via `load_pretrained_corrector`
 
 ```python
-corrector = vec2text.load_corrector("text-embedding-ada-002")
+corrector = vec2text.load_pretrained_corrector("text-embedding-ada-002")
 ```
+
+### Load a model via `load_corrector`
+
+If you have trained you own custom models using vec2text, you can load them in using the `load_corrector` function.
+
+```python
+inversion_model = vec2text.models.InversionModel.from_pretrained("jxm/gtr__nq__32")
+corrector_model = vec2text.models.CorrectorEncoderModel.from_pretrained("jxm/gtr__nq__32__correct")
+
+corrector = vec2text.load_corrector(inversion_model, corrector_model)
+```
+
+Both `vec2text.models.InversionModel` and `vec2text.models.CorrectorEncoderModel` classes inherit `transformers.PreTrainedModel` therefore you can pass in a huggingface model name or path to a local directory.
 
 ### Invert text with `invert_strings`
 
@@ -92,7 +105,8 @@ If you only have embeddings, you can invert them directly:
 import torch
 
 def get_embeddings_openai(text_list, model="text-embedding-ada-002") -> torch.Tensor:
-    response = openai.Embedding.create(
+    client = openai.OpenAI()
+    response = client.embeddings.create(
         input=text_list,
         model=model,
         encoding_format="float",  # override default base64 encoding...
@@ -116,6 +130,51 @@ vec2text.invert_embeddings(
 ```
 
 This function also takes the same optional hyperparameters, `num_steps` and `sequence_beam_width`.
+
+### Similarly, you can invert gtr-base embeddings with the following example:
+
+```python
+import vec2text
+import torch
+from transformers import AutoModel, AutoTokenizer, PreTrainedTokenizer, PreTrainedModel
+
+
+def get_gtr_embeddings(text_list,
+                       encoder: PreTrainedModel,
+                       tokenizer: PreTrainedTokenizer) -> torch.Tensor:
+
+    inputs = tokenizer(text_list,
+                       return_tensors="pt",
+                       max_length=128,
+                       truncation=True,
+                       padding="max_length",).to("cuda")
+
+    with torch.no_grad():
+        model_output = encoder(input_ids=inputs['input_ids'], attention_mask=inputs['attention_mask'])
+        hidden_state = model_output.last_hidden_state
+        embeddings = vec2text.models.model_utils.mean_pool(hidden_state, inputs['attention_mask'])
+
+    return embeddings
+
+
+encoder = AutoModel.from_pretrained("sentence-transformers/gtr-t5-base").encoder.to("cuda")
+tokenizer = AutoTokenizer.from_pretrained("sentence-transformers/gtr-t5-base")
+corrector = vec2text.load_pretrained_corrector("gtr-base")
+
+embeddings = get_gtr_embeddings([
+       "Jack Morris is a PhD student at Cornell Tech in New York City",
+       "It was the best of times, it was the worst of times, it was the age of wisdom, it was the age of foolishness, it was the epoch of belief, it was the epoch of incredulity"
+], encoder, tokenizer)
+
+vec2text.invert_embeddings(
+    embeddings=embeddings.cuda(),
+    corrector=corrector,
+    num_steps=20,
+)
+['Jack Morris Morris is a PhD student at  Cornell Tech in New York City ',
+'It was the best of times, it was the worst of times, it was the age of wisdom, it was the epoch of foolishness']
+
+```
 
 ### Interpolation
 
@@ -201,24 +260,7 @@ Our models come in one of two forms: a zero-step 'hypothesizer' model that makes
 
 ```pre-commit run --all```
 
-
-
-### Cite our paper
-
-please cite our paper!
-
-```
-@misc{morris2023text,
-      title={Text Embeddings Reveal (Almost) As Much As Text},
-      author={John X. Morris and Volodymyr Kuleshov and Vitaly Shmatikov and Alexander M. Rush},
-      year={2023},
-      eprint={2310.06816},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL}
-}
-```
-
-#### Evaluate the model from the paper
+#### Evaluate the models from the papers
 
 Here's how to load and evaluate the sequence-length 32 GTR inversion model in the paper:
 
@@ -248,4 +290,70 @@ trainer.evaluate(
 ```
 
 
-#### Trouble shooing
+
+### Sample model-training command for Language Model Inversion
+
+This repository was also used to train language model inverters for our paper *Language Model Inversion*.
+
+This is the dataset of prompts used for training (referred two as "Two Million Instructions" in the manuscript but One Million Instructions on HuggingFace): https://huggingface.co/datasets/wentingzhao/one-million-instructions
+
+Here is a sample command for training a language model inverter:
+```bash
+python vec2text/run.py --per_device_train_batch_size 16 --per_device_eval_batch_size 16 --max_seq_length 128 --num_train_epochs 100 --max_eval_samples 1000 --eval_steps 25000 --warmup_steps 100000 --learning_rate 0.0002 --dataset_name one_million_instructions --model_name_or_path t5-base --use_wandb=0 --embedder_model_name gpt2 --experiment inversion_from_logits_emb --bf16=1 --embedder_torch_dtype float16 --lr_scheduler_type constant_with_warmup --use_frozen_embeddings_as_input 1 --mock_embedder 0
+```
+
+#### Pre-trained models
+
+The models used for our Language Model Inversion paper are available for download from HuggingFace. Here is the [LLAMA-2 base inverter](https://huggingface.co/jxm/t5-base__llama-7b__one-million-instructions__emb) and the [LLAMA-2 chat inverter](https://huggingface.co/jxm/t5-base__llama-7b-chat__one-million-instructions__emb). Those models can also be pre-trained from scratch using this repository (everything you need should be downloaded automatically from HuggingFace). 
+
+The training dataset of 2.33M prompts is available here: https://huggingface.co/datasets/wentingzhao/one-million-instructions
+As well as our Private Prompts synthetic evaluation data: https://huggingface.co/datasets/jxm/private_prompts
+
+#### Example
+
+Here's an example of how to evaluate on the Python-Alpaca dataset:
+
+```python
+from vec2text import analyze_utils
+experiment, trainer = analyze_utils.load_experiment_and_trainer_from_pretrained(
+    "jxm/t5-base__llama-7b__one-million-instructions__emb"
+)
+trainer.model.use_frozen_embeddings_as_input = False
+trainer.args.per_device_eval_batch_size = 16
+trainer.evaluate(
+    eval_dataset=trainer.eval_dataset["python_code_alpaca"].remove_columns("frozen_embeddings").select(range(200))
+)
+```
+
+
+### Citations
+
+if you benefit from the code or the research, please cite our papers! 
+
+This repository includes code for two papers:
+
+**Text Embeddings Reveal (Almost) As Much As Text (EMNLP 2023)**
+
+```
+@misc{morris2023text,
+      title={Text Embeddings Reveal (Almost) As Much As Text},
+      author={John X. Morris and Volodymyr Kuleshov and Vitaly Shmatikov and Alexander M. Rush},
+      year={2023},
+      eprint={2310.06816},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
+
+**Language Model Inversion (ICLR 2024)**
+
+```
+@misc{morris2023language,
+      title={Language Model Inversion}, 
+      author={John X. Morris and Wenting Zhao and Justin T. Chiu and Vitaly Shmatikov and Alexander M. Rush},
+      year={2023},
+      eprint={2311.13647},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+```
