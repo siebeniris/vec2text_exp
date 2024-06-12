@@ -1,15 +1,4 @@
 #!/bin/bash -e
-#SBATCH --job-name=inverter
-#SBATCH --account=project_465000909
-#SBATCH --nodes=1
-#SBATCH --partition=standard-g
-#SBATCH --gpus-per-node=8
-#SBATCH --tasks-per-node=8
-#SBATCH --cpus-per-task=6
-#SBATCH --mem=480G
-#SBATCH --time=2-00:00:00
-#SBATCH --output=inverter_%j.out
-#SBATCH --error=inverter_%j.err
 
 set -x
 
@@ -28,7 +17,7 @@ OVERWRITE_OUTPUT_DIR=${10}
 wd=$(pwd)
 echo "working directory ${wd}"
 
-export OPENAI_API_KEY=sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK
+export OPENAI_API_KEY="sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
 export HF_HOME="/scratch/project_465000909/.cache"
 export HF_DATASETS_CACHE="/scratch/project_465000909/.cache/datasets"
 export DATASET_CACHE_PATH="/scratch/project_465000909/.cache"
@@ -111,7 +100,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --use_wandb 1 \
-          --learning_rate ${LEARNING_RATE} --exp_server lumi\
+          --learning_rate ${LEARNING_RATE} \
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
@@ -130,5 +119,5 @@ else
           --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --use_wandb 1 \
-          --learning_rate ${LEARNING_RATE} --exp_server lumi"
+          --learning_rate ${LEARNING_RATE}"
 fi
