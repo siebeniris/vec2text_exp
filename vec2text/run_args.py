@@ -33,7 +33,7 @@ class ModelArguments:
         ###
         ## huggingface.co/facebook/dpr-ctx_encoder-single-nq-base
         ###
-        default="mt5-base",
+        default="google/mt5-base",
         metadata={
             "help": (
                 "The model checkpoint for weights initialization .Don't set if you want to train a model from scratch."
