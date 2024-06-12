@@ -12,6 +12,9 @@ import multiprocessing
 import datasets
 import torch
 import transformers
+from typing import Dict, Optional
+from transformers import EarlyStoppingCallback
+import numpy as np
 
 import vec2text
 from vec2text.collator import DataCollatorForCorrection
@@ -33,7 +36,7 @@ from vec2text.tokenize_data import (
     tokenize_function,
     tokenize_function_llama_chat,
 )
-from vec2text.utils import MockEmbedder, dataset_map_multi_worker
+from vec2text.utils import MockEmbedder, dataset_map_multi_worker, set_cpu_affinity_lumi
 
 # Allow W&B to start slowly.
 os.environ["WANDB__SERVICE_WAIT"] = "300"
@@ -51,9 +54,19 @@ logger = logging.getLogger(__name__)
 
 # We maintain our own cache because huggingface datasets caching
 # doesn't always work properly.
+cwd = os.getcwd()
 DATASET_CACHE_PATH = os.environ.get(
-    "VEC2TEXT_CACHE", os.path.expanduser("~/.cache/inversion")
+    "VEC2TEXT_CACHE", os.path.expanduser(f"{cwd}/.cache/inversion")
 )
+
+rank = int(os.environ["RANK"])
+local_rank = int(os.environ["LOCAL_RANK"])
+world_size = int(os.environ["WORLD_SIZE"])
+local_world_size = int(os.environ["LOCAL_WORLD_SIZE"])
+device = torch.device("cuda", local_rank)
+# print("lumi set the cpu affinity...")
+set_cpu_affinity_lumi(local_rank)
+
 
 # Noisy compilation from torch.compile
 try:
@@ -177,6 +190,9 @@ class Experiment(abc.ABC):
                 os.path.join(training_args.output_dir, "model_args.bin"),
             )
 
+        # self.training_args = training_args
+        print("checkpoint directory:", os.listdir(checkpoint))
+        print(f"world size {self._world_size} device {training_args.device}")
         # train.   :)
         print(f"train() called – resume-from_checkpoint = {checkpoint}")
         train_result = trainer.train(resume_from_checkpoint=checkpoint)
@@ -281,8 +297,10 @@ class Experiment(abc.ABC):
             self.training_args.exp_name,
             self.model_args.model_name_or_path,
             self.model_args.embedder_model_name,
+            self.model_args.max_seq_length,
+
         ]
-        name_args = [n for n in name_args if ((n is not None) and len(n))]
+        name_args = [str(n) for n in name_args if ((n is not None) and len(str(n)))]
         return "__".join(name_args)
 
     def _consider_init_wandb(self) -> None:
@@ -372,6 +390,7 @@ class Experiment(abc.ABC):
         column_names = list(raw_datasets["train"].features)
         ALLOWED_COLUMN_NAMES = {"frozen_embeddings"}
         column_names = [c for c in column_names if c not in ALLOWED_COLUMN_NAMES]
+        print(f"allowed columns {column_names}")
 
         # this argument allows us to *train* on less data (for example 1% of our training set).
         if data_args.use_less_data and (data_args.use_less_data > 0):
@@ -394,6 +413,8 @@ class Experiment(abc.ABC):
                     "text",
                     self.model_args.max_seq_length,
                     padding=False,
+                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    else None,
                 ),
                 batched=True,
                 num_proc=_get_num_proc(self._world_size),
@@ -472,6 +493,8 @@ class Experiment(abc.ABC):
                     text_column_name="text",
                     max_seq_length=self.model_args.max_seq_length,
                     padding=False,
+                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    else None,
                 ),
                 remove_columns=["text"],
                 batched=True,
@@ -484,6 +507,7 @@ class Experiment(abc.ABC):
         val_datasets_dict = val_datasets_dict.filter(lambda ex: ex["length"] > 1)
 
         if self.model_args.use_frozen_embeddings_as_input:
+            print("Using Frozen Embeddings as Input -- Val datasets")
             assert torch.cuda.is_available()
             model = model.to(device)
 
@@ -573,7 +597,8 @@ class Experiment(abc.ABC):
         ######################################################################
         val_dataset_kwargs = {
             "dataset_name": "__".join(
-                ["ag_news", "arxiv", "xsum_doc", "xsum_summ", "wikibio"]
+                # ["ag_news", "arxiv", "xsum_doc", "xsum_summ", "wikibio"]
+                ["mt-ms"]
             ),
             **dataset_kwargs,
         }
@@ -583,7 +608,7 @@ class Experiment(abc.ABC):
         assert val_dataset_path != train_dataset_path
         if os.path.exists(val_dataset_path):
             val_datasets_dict = datasets.load_from_disk(val_dataset_path)
-            print("loaded dict of val datasets from", val_dataset_path)
+            print("loaded dict of val datasets from", val_dataset_path)
         else:
             val_datasets_dict = self._load_val_datasets_uncached(
                 model=model,

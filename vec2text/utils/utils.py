@@ -3,14 +3,13 @@ import os
 import shutil
 from concurrent.futures import ThreadPoolExecutor
 from typing import Callable
-
+import psutil
 import datasets
 import numpy as np
 import torch
 import tqdm
 import transformers
 from tenacity import retry, stop_after_attempt, wait_fixed
-
 datasets.disable_caching()
 
 
@@ -74,6 +73,37 @@ def embed_all_tokens(model: torch.nn.Module, tokenizer: transformers.AutoTokeniz
         p=2, dim=1, keepdim=True
     )
     return all_token_embeddings_tensor
+
+
+def get_world_size() -> int:
+    try:
+        return torch.distributed.get_world_size()
+    except (RuntimeError, ValueError):
+        return 1
+
+
+def set_cpu_affinity_lumi(local_rank):
+    """
+    Set up affinity cpus for LUMI.
+    """
+    LUMI_GPU_CPU_map = {
+        # A mapping from GCD to the closest CPU cores in a LUMI-G node
+        # Note that CPU cores 0, 8, 16, 24, 32, 40, 48, 56 are reserved for the
+        # system and not available for the user
+        # See https://docs.lumi-supercomputer.eu/hardware/lumig/
+        0: [49, 50, 51, 52, 53, 54, 55],
+        1: [57, 58, 59, 60, 61, 62, 63],
+        2: [17, 18, 19, 20, 21, 22, 23],
+        3: [25, 26, 27, 28, 29, 30, 31],
+        4: [1, 2, 3, 4, 5, 6, 7],
+        5: [9, 10, 11, 12, 13, 14, 15],
+        6: [33, 34, 35, 36, 37, 38, 39],
+        7: [41, 42, 43, 44, 45, 46, 47],
+    }
+    cpu_list = LUMI_GPU_CPU_map[local_rank]
+    # print(f"Rank {rank} (local {local_rank}) binding to cpus: {cpu_list}")
+    psutil.Process().cpu_affinity(cpu_list)
+
 
 
 def torch_main_worker_finish_first(func: Callable):

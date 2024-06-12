@@ -3,6 +3,7 @@ import os
 import random
 from typing import Dict, List
 
+import yaml
 import datasets
 import torch
 
@@ -82,12 +83,37 @@ def load_luar_reddit() -> datasets.Dataset:
     d = d.rename_column("embedding", "frozen_embeddings")
     return d
 
+def load_xnli(lang) -> datasets.Dataset:
+    def concat_pre_hyp(sample):
+        sample["text"] = sample["premise"] + " " + sample["hypothesis"]
+        return sample
+
+    dataset = datasets.load_dataset("xnli", lang)
+    dataset = dataset.map(concat_pre_hyp, remove_columns=["premise", "hypothesis"])
+    return dataset
+
+
+def load_xnli_test(lang) -> datasets.Dataset:
+    def concat_pre_hyp(sample):
+        sample["text"] = sample["premise"] + " " + sample["hypothesis"]
+        return sample
+
+    dataset = datasets.load_dataset("xnli", lang)
+    dataset = dataset.map(concat_pre_hyp, remove_columns=["premise", "hypothesis"])["test"]
+    return dataset
+
 
 def dataset_from_args(data_args: DataArguments) -> datasets.DatasetDict:
     """Loads a dataset from data_args create in `run_args`."""
     if data_args.dataset_name == "nq":
         raw_datasets = load_nq_dpr_corpus()
         raw_datasets["validation"] = raw_datasets["dev"]
+    elif data_args.dataset_name.startswith("mt-ms"):
+        # 12.06.2024 mt-ms dataset.
+        assert "_" in data_args.dataset_name  # mt-ms_lat_scrp
+        lang = data_args.dataset_name.replace("mt-ms_", "")
+        assert len(lang) == 8
+        raw_datasets = load_mt_ms(lang)
     elif data_args.dataset_name == "msmarco":
         raw_datasets = load_msmarco_corpus()
         raw_datasets = raw_datasets.train_test_split(test_size=0.01)
@@ -239,17 +265,50 @@ def load_beir_datasets() -> datasets.DatasetDict:
     return datasets.DatasetDict({k: load_beir_dataset(k) for k in all_beir_datasets})
 
 
+def load_mt_ms(lang) -> datasets.DatasetDict:
+    # load multilingual multi-script dataset
+    with open("vec2text/lang2file.yaml") as f:
+        lang2file = yaml.safe_load(f)
+
+    file = lang2file[lang]
+    print(f"loading data from {file} for {lang}")
+    train_dataset = datasets.load_dataset(file)["train"]
+    # loading the validation dataset.
+    validation_file = file.replace("_train", "_dev")
+    print(f"loading data from {validation_file} for {lang}")
+    validation_dataset = datasets.load_dataset(validation_file)["train"]
+    raw_datasets = datasets.DatasetDict(
+        {
+            "train": train_dataset,
+            "validation": validation_dataset,
+        }
+    )
+    return raw_datasets
+
+
+def load_mt_ms_test() -> datasets.DatasetDict:
+    """
+    Multilingual multi-script test dataset.
+    """
+    test_dataset = datasets.load_dataset("yiyic/mt_ms_test")
+    return test_dataset
+
+
 def load_standard_val_datasets() -> datasets.DatasetDict:
     """Loads a pre-defined set of standard val datasets."""
-    d = {
-        "ag_news": load_ag_news_test(),
-        "anthropic_toxic_prompts": load_anthropic_toxic_prompts(),
-        "arxiv": load_arxiv_val(),
-        "python_code_alpaca": load_python_code_instructions_18k_alpaca(),
-        # "xsum_doc": load_xsum_val("document"),
-        # "xsum_summ": load_xsum_val("summary"),
-        "wikibio": load_wikibio_val(),
-    }
-    d = {k: retain_dataset_columns(v, ["text"]) for k, v in d.items()}
+    # d = {
+    #     "ag_news": load_ag_news_test(),
+    #     "anthropic_toxic_prompts": load_anthropic_toxic_prompts(),
+    #     "arxiv": load_arxiv_val(),
+    #     "python_code_alpaca": load_python_code_instructions_18k_alpaca(),
+    #     # "xsum_doc": load_xsum_val("document"),
+    #     # "xsum_summ": load_xsum_val("summary"),
+    #     "wikibio": load_wikibio_val(),
+    # }
+    # langs = ["ar", "bg", "de", "el", "en", "es", "fr", "hi", "ru", "sw", "th", "tr", "ur", "vi", "zh"]
+    # d = {f"nxli_{lang}": load_xnli_test(lang) for lang in langs}
+    # d = {k: retain_dataset_columns(v, ["text"]) for k, v in d.items()}
 
-    return datasets.DatasetDict(d)
+    d = load_mt_ms_test()
+
+    return d
