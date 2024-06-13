@@ -24,7 +24,6 @@ EPOCHS=$8
 EARLY_STOPPING=$9
 OVERWRITE_OUTPUT_DIR=${10}
 
-
 wd=$(pwd)
 echo "working directory ${wd}"
 
@@ -72,7 +71,6 @@ export NCCL_NET_GDR_LEVEL=3
 #export SINGULARITYENV_CXI_FORK_SAFE=0
 #export SINGULARITYENV_CXI_FORK_SAFE_HP=0
 
-
 export MASTER_PORT=25900
 export WORLD_SIZE=$SLURM_NPROCS
 export LOCAL_WORLD_SIZE=$SLURM_GPUS_PER_NODE
@@ -94,14 +92,13 @@ echo $SIF
 chmod +x $HF_HOME
 chmod +x $HF_DATASETS_CACHE
 
-
 if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
   srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
-      -B /scratch/project_465000909:/scratch/project_465000909 \
-      -B ${wd}:${wd} \
-      -B ${HF_HOME}:${HF_HOME} \
-      -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
-      ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
+    -B /scratch/project_465000909:/scratch/project_465000909 \
+    -B ${wd}:${wd} \
+    -B ${HF_HOME}:${HF_HOME} \
+    -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
+    ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
@@ -111,16 +108,16 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
-	  --ddp_find_unused_parameters True \
+          --ddp_find_unused_parameters True \
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
-  srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec  \
-      -B /scratch/project_465000909:/scratch/project_465000909 \
-      -B ${wd}:${wd} \
-      -B ${HF_HOME}:${HF_HOME} \
-      -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
-      ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
+  srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
+    -B /scratch/project_465000909:/scratch/project_465000909 \
+    -B ${wd}:${wd} \
+    -B ${HF_HOME}:${HF_HOME} \
+    -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
+    ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
@@ -129,6 +126,6 @@ else
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
           --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
-	  --ddp_find_unused_parameters True \
+          --ddp_find_unused_parameters True \
           --learning_rate ${LEARNING_RATE} "
 fi
