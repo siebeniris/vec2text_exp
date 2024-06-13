@@ -11,7 +11,7 @@ import tqdm
 import transformers
 from tenacity import retry, stop_after_attempt, wait_fixed
 datasets.disable_caching()
-
+import multiprocessing
 
 def emb(
     model: torch.nn.Module, input_ids: torch.Tensor, attention_mask: torch.Tensor
@@ -105,6 +105,15 @@ def set_cpu_affinity_lumi(local_rank):
     psutil.Process().cpu_affinity(cpu_list)
 
 
+def get_num_proc() -> int:
+    world_size: int = get_world_size()
+    try:
+        # os.sched_getaffinity respects schedulers, unlike cpu_count(), but it's only available
+        # on some Unix platforms, so we support both!
+        return len(os.sched_getaffinity(0)) // world_size  # type: ignore[attr-defined]
+    except AttributeError:
+        return multiprocessing.cpu_count() // world_size
+
 
 def torch_main_worker_finish_first(func: Callable):
     def wrapper(*args, **kwargs):
@@ -141,11 +150,34 @@ def dataset_map_multi_worker(
         rank = torch.distributed.get_rank()
         world_size = torch.distributed.get_world_size()
         # If not specified, use all of the CPUs we have available.
-        kwargs["num_proc"] = kwargs.get(
-            "num_proc", len(os.sched_getaffinity(0)) // world_size
-        )
+        try:
+            num_proc = kwargs.get(
+                "num_proc", len(os.sched_getaffinity(0)) // world_size
+            )
+
+        except AttributeError:  # for MacOS
+            num_proc = kwargs.get(
+                "num_proc", multiprocessing.cpu_count() // world_size
+            )
+
+        if isinstance(num_proc, int) and num_proc > 0:
+            kwargs["num_proc"] = num_proc
+        else:
+            kwargs["num_proc"] = 7  # nr of CPUs surrounding one GPU.
+
+        print(f" rank {rank}, world_size {world_size}, kwargs {kwargs}")
+
     except (RuntimeError, ValueError):
-        kwargs["num_proc"] = kwargs.get("num_proc", len(os.sched_getaffinity(0)))
+        num_proc = kwargs.get("num_proc", get_num_proc())
+
+        if isinstance(num_proc, int) and num_proc > 0:
+            kwargs["num_proc"] = num_proc
+        else:
+            kwargs["num_proc"] = 0  # multi-gpus training without CPUS, LUMI.
+        print("dataset kwargs:", kwargs)
+        # world_size = 8  # nr. of gpus.
+        # kwargs: {'batched': True, 'batch_size': 256, 'desc': 'Precomputing hypotheses for data', 'num_proc': 6}
+
         return dataset.map(map_fn, *args, **kwargs)
     datasets.disable_caching()
 
