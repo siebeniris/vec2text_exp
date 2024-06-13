@@ -8,8 +8,47 @@ ARGS_DICT = {
     # "openai_msmarco__msl128__100epoch": "--per_device_train_batch_size 128 --per_device_eval_batch_size 128 --max_seq_length 128 --model_name_or_path t5-base --embedder_model_name gtr_base --num_repeat_tokens 16 --embedder_no_grad True --learning_rate 0.0002 --freeze_strategy none --embedder_fake_with_zeros False --encoder_dropout_disabled False --decoder_dropout_disabled False --use_less_data 1000000 --num_train_epochs 100 --max_eval_samples 500 --eval_steps 50000 --warmup_steps 20000 --bf16=1 --use_lora=0 --use_wandb=0 --embedder_model_api text-embedding-ada-002 --use_frozen_embeddings_as_input True --exp_group_name jun3-openai-4gpu-ddp-3",
 }
 
+lumi_dir = "/scratch/project_465000909/v2t/vec2text_private"
+
 # Dictionary mapping model names
 CHECKPOINT_FOLDERS_DICT = {
+    ####################################################################
+    ######################## Multilingual e5 base #########################
+    ####################################################################
+
+    # by script.
+    "arab_script_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_ara_scrp_32",
+    "cyrl_script_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32",
+    "latn_script_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_lat_scrp_32",
+
+    # one language
+
+    "deu_Latn_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_deu_Latn_32",
+    "heb_Hebr_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32",
+    "cmn_Hani_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32",
+
+    # by family
+    "indo-aryan_fami_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32",
+    "semitic_fami_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32",
+    "turkic_fami_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_tur_fami_32",
+
+    # correctors
+    # by script
+    "arab_script_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32",
+    "cyrl_script_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32",
+    "latn_script_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_lat_scrp_32",
+
+    # one language
+
+    "deu_Latn_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_deu_Latn_32",
+    "heb_Hebr_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32",
+    "cmn_Hani_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32",
+
+    # by family
+    "indo-aryan_fami_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_ind_fami_32",
+    "semitic_fami_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32",
+    "turkic_fami_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32",
+
     ####################################################################
     ######################## Natural Questions #########################
     ####################################################################

@@ -101,13 +101,15 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
     ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
+          --model_name_or_path google/mt5-base \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 500 \
-          --eval_steps 20000 --warmup_steps 10000 --experiment inversion \
+          --eval_steps 20000 --warmup_steps 10000 --experiment corrector \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
+          --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
+          --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
           --overwrite_output_dir"
 else
@@ -120,12 +122,14 @@ else
     ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
+          --model_name_or_path google/mt5-base \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 500 \
-          --eval_steps 20000 --warmup_steps 10000 --experiment inversion \
+          --eval_steps 20000 --warmup_steps 10000 --experiment corrector \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
+          --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
+          --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
           --learning_rate ${LEARNING_RATE} "
 fi
