@@ -1,5 +1,5 @@
 #!/bin/bash -e
-#SBATCH --job-name=inverter
+#SBATCH --job-name=corrector
 #SBATCH --account=project_465000909
 #SBATCH --partition=small-g
 #SBATCH --nodes=1
@@ -8,8 +8,8 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --mem=480G
 #SBATCH --time=3-00:00:00
-#SBATCH --output=inverter_%j.out
-#SBATCH --error=inverter_%j.err
+#SBATCH --output=corrector_%j.out
+#SBATCH --error=corrector_%j.err
 
 set -x
 
@@ -20,9 +20,10 @@ EXP_GROUP_NAME=$4
 BATCH_SIZE=$5
 MAX_LENGTH=$6
 LEARNING_RATE=$7
-EPOCHS=$8
-EARLY_STOPPING=$9
-OVERWRITE_OUTPUT_DIR=${10}
+CORRECTOR_ALIAS=$8
+EPOCHS=$9
+EARLY_STOPPING=${10}
+OVERWRITE_OUTPUT_DIR=${11}
 
 wd=$(pwd)
 echo "working directory ${wd}"
