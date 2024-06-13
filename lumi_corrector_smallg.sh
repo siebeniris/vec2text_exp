@@ -1,5 +1,5 @@
 #!/bin/bash -e
-#SBATCH --job-name=inverter
+#SBATCH --job-name=corrector
 #SBATCH --account=project_465000909
 #SBATCH --partition=small-g
 #SBATCH --nodes=1
@@ -8,8 +8,8 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --mem=480G
 #SBATCH --time=3-00:00:00
-#SBATCH --output=inverter_%j.out
-#SBATCH --error=inverter_%j.err
+#SBATCH --output=corrector_%j.out
+#SBATCH --error=corrector_%j.err
 
 set -x
 
