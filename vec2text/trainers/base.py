@@ -3,10 +3,10 @@ import copy
 import logging
 import os
 import random
-
+from time import time
 # import statistics
 from typing import Callable, Dict, List, Tuple, Union
-
+import pandas as pd
 import evaluate
 import nltk
 import numpy as np
@@ -72,6 +72,9 @@ class BaseTrainer(transformers.Trainer):
             "do_sample": False,
             "no_repeat_ngram_size": 0,
         }
+
+        # added, for output embeddings and decoded sequences.
+        self.output_save_dir = self.args.output_dir
 
     def enable_emb_cos_sim_metric(self) -> None:
         self.additional_metrics.append(vec2text.metrics.EmbeddingCosineSimilarity())
@@ -403,6 +406,19 @@ class BaseTrainer(transformers.Trainer):
         print("\n\n")
         print("[pred]", decoded_preds[2])
         print("[true]", decoded_labels[2])
+
+        # print out the decoded_preds and decoded_labels (added)
+        # using when training also, we can see what is going on with language decoding.
+        timestamp = int(time())
+        eval_outputdir = os.path.join(self.output_save_dir, f"decoded_eval_{timestamp}")
+        if not os.path.exists(eval_outputdir):
+            os.makedirs(eval_outputdir)
+
+        outputfile = os.path.join(eval_outputdir, f"decoded_sequences.csv")
+        print("outptufile for decoded sequences: ", outputfile)
+        df = pd.DataFrame({"pred": decoded_preds, "labels": decoded_labels})
+        df.to_csv(outputfile)
+
 
         # Compute sims of eval data using embedder.
         preds_sample = torch.tensor(preds_sample_list, device=self.args.device)[:128]
