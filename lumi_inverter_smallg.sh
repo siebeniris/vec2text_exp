@@ -101,7 +101,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
       -B ${wd}:${wd} \
       -B ${HF_HOME}:${HF_HOME} \
       -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
-      ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID --
+      ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID -- $(taskset -p $$) \
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
@@ -120,7 +120,7 @@ else
       -B ${wd}:${wd} \
       -B ${HF_HOME}:${HF_HOME} \
       -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
-      ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
+      ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID -- $(taskset -p $$) \
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
