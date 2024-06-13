@@ -385,7 +385,8 @@ class TrainingArguments(transformers.TrainingArguments):
         # num_workers = torch.cuda.device_count()
 
         # this should be the cpu not gpu.
-        num_workers = 56  # set lower number to avoid out-of-memory
+        num_workers = os.cpu_count()  # set lower number to avoid out-of-memory
+        print(f"num_workers {num_workers}")
         #  Number of subprocesses to use for data loading (PyTorch only). 0 means that the data will be loaded in the
         #  main process.
 
