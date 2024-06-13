@@ -5,7 +5,7 @@
 #SBATCH --partition=standard-g
 #SBATCH --gpus-per-node=8
 #SBATCH --tasks-per-node=8
-#SBATCH --cpus-per-task=6
+#SBATCH --cpus-per-task=7
 #SBATCH --mem=480G
 #SBATCH --time=2-00:00:00
 #SBATCH --output=inverter_%j.out
