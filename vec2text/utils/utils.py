@@ -163,7 +163,7 @@ def dataset_map_multi_worker(
         if isinstance(num_proc, int) and num_proc > 0:
             kwargs["num_proc"] = num_proc
         else:
-            kwargs["num_proc"] = 7  # nr of CPUs surrounding one GPU.
+            kwargs["num_proc"] = 0  # 7
 
         print(f" rank {rank}, world_size {world_size}, kwargs {kwargs}")
 
@@ -173,7 +173,7 @@ def dataset_map_multi_worker(
         if isinstance(num_proc, int) and num_proc > 0:
             kwargs["num_proc"] = num_proc
         else:
-            kwargs["num_proc"] = 0  # multi-gpus training without CPUS, LUMI.
+            kwargs["num_proc"] = 0  # multi-gpus training without CPUS, LUMI., 0
         print("dataset kwargs:", kwargs)
         # world_size = 8  # nr. of gpus.
         # kwargs: {'batched': True, 'batch_size': 256, 'desc': 'Precomputing hypotheses for data', 'num_proc': 6}
