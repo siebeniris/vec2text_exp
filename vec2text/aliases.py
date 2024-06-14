@@ -31,6 +31,7 @@ CHECKPOINT_FOLDERS_DICT = {
     "indo-aryan_fami_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32",
     "semitic_fami_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32",
     "turkic_fami_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_tur_fami_32",
+    "atlatic_fami_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_atl_fami_32",
 
     # correctors
     # by script
