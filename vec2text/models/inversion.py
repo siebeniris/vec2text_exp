@@ -73,6 +73,9 @@ class InversionModel(transformers.PreTrainedModel):
         num_repeat_tokens = config.num_repeat_tokens
         embedder_no_grad = config.embedder_no_grad
 
+        # add whitening
+        self.whitening = config.whitening
+
         self.encoder_decoder = encoder_decoder  # .to_bettertransformer()
         ######################################################
         self.num_repeat_tokens = num_repeat_tokens
@@ -118,6 +121,8 @@ class InversionModel(transformers.PreTrainedModel):
         self.embeddings_from_layer_n = embeddings_from_layer_n
         self.noise_level = 0
 
+
+
     def _freeze_encoder(self):
         freeze_params(self.encoder_decoder.encoder)
 
@@ -161,6 +166,14 @@ class InversionModel(transformers.PreTrainedModel):
                 ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
                 hidden_state = outputs.hidden_states[self.embeddings_from_layer_n]
                 embeddings = mean_pool(hidden_state, attention_mask)
+            elif self.whitening is not None:
+                print("output the first+last embeddings.")
+                assert hasattr(
+                    outputs, "hidden_states"
+                ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
+                hidden_states = outputs.hidden_states
+                last_first_avg = (hidden_states[-1] + hidden_states[1]).mean(dim=1, keepdim=True)
+                embeddings = mean_pool(last_first_avg, attention_mask)
             else:
                 hidden_state = outputs.last_hidden_state
                 embeddings = mean_pool(hidden_state, attention_mask)

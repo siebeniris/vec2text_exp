@@ -35,6 +35,8 @@ from vec2text.tokenize_data import (
     embed_dataset_batch,
     tokenize_function,
     tokenize_function_llama_chat,
+    whiten_embeddings,
+    update_whitening_batch
 )
 from vec2text.utils import MockEmbedder, dataset_map_multi_worker, set_cpu_affinity_lumi
 
@@ -66,7 +68,6 @@ local_world_size = int(os.environ["LOCAL_WORLD_SIZE"])
 device = torch.device("cuda", local_rank)
 # print("lumi set the cpu affinity...")
 set_cpu_affinity_lumi(local_rank)
-
 
 # Noisy compilation from torch.compile
 try:
@@ -450,6 +451,39 @@ class Experiment(abc.ABC):
                     num_proc=1,
                 )
             tokenized_datasets = datasets.DatasetDict(new_tokenized_datasets)
+
+            if self.model_args.whitening:
+                # whitening.
+                print(f"whitening training dataset")
+                # get the whole embedding
+                train_dataset = tokenized_datasets["train"]
+
+                train_embeddings = torch.tensor(
+                    np.array([d.detach().numpy() for d in train_dataset["frozen_embeddings"]]))
+
+                train_embeddings_whitened, mu, S, U = whiten_embeddings(train_embeddings)
+
+                # embeddings are retrieved as the average of the first and last hidden layers , see models/inversion.py
+                torch.save(train_embeddings, f"{self.training_args.output_dir}/train_embeddings_first_last_avg.pt")
+                # torch.save(train_embeddings_whitened, f"{self.training_args.output_dir}/train_embeddings_whitened.pt")
+
+                whitening_params = {"X_whitened": train_embeddings_whitened,
+                                    "mu": mu,
+                                    "S": S,
+                                    "U": U}
+                print(
+                    f"whitening params shape: X {train_embeddings_whitened.shape} mu {mu.shape} U {U.shape} S {S.shape}")
+                torch.save(whitening_params, f"{self.training_args.output_dir}/whitening_params.pt")
+
+                # convert tensor into list of tensors.
+                def add_new_column(example):
+                    example["frozen_embeddings"] = train_embeddings_whitened[example["idx"]]
+                    return example
+
+                # add a new column of whitened embeddings.
+                print("whitening and saving to frozen_embeddings...")
+                tokenized_datasets["train"] = train_dataset.map(add_new_column)
+                tokenized_datasets["train"].set_format("pt")
         ###########################################################################
         max_eval_samples = min(
             len(tokenized_datasets["validation"]), self.data_args.max_eval_samples
@@ -462,6 +496,46 @@ class Experiment(abc.ABC):
         )
         tokenized_datasets["validation"].set_format("pt")
         ###########################################################################
+        if self.model_args.whitening:
+            print(f"whitening validation dataset")
+            # get the whole embedding
+            val_dataset = tokenized_datasets["validation"]
+            val_embeddings = torch.tensor(
+                np.array([d.detach().numpy() for d in val_dataset["frozen_embeddings"]]))
+
+            # perhaps remove `frozen_embeddings` to just avoid repeating ?
+
+            # load X, mu, S, u from here f"{self.training_args.output_dir}/whitening_params.pt"
+            if whitening_params:
+                print("using the existing whitening params")
+                X = whitening_params["X_whitened"]
+                mu = whitening_params["mu"]
+                S = whitening_params["S"]
+                U = whitening_params["U"]
+                val_embeddings_whitened, _, _, _ = update_whitening_batch(X, mu, S, U, val_embeddings)
+
+            elif os.path.exists(f"{self.training_args.output_dir}/whitening_params.pt"):
+                print(f"loading the whitening params pt file")
+                whitening_params = torch.load(f"{self.training_args.output_dir}/whitening_params.pt")
+                X = whitening_params["X_whitened"]
+                mu = whitening_params["mu"]
+                S = whitening_params["S"]
+                U = whitening_params["U"]
+                val_embeddings_whitened, _, _, _ = update_whitening_batch(X, mu, S, U, val_embeddings)
+
+            else:
+                print("whitening val embeddings alone.")
+                val_embeddings_whitened, _, _, _ = whiten_embeddings(val_embeddings)
+
+            # convert tensor into list of tensors.
+            def add_new_column(example):
+                example["frozen_embeddings"] = val_embeddings_whitened[example["idx"]]
+                return example
+
+            # add a new column of whitened embeddings.
+            tokenized_datasets["validation"] = val_dataset.map(add_new_column)
+            tokenized_datasets["validation"].set_format("pt")
+
         return tokenized_datasets
 
     def _prepare_val_datasets_dict(
@@ -523,7 +597,39 @@ class Experiment(abc.ABC):
                     ),
                     num_proc=1,
                 )
+
+                if self.model_args.whitening:
+                    # get the whole embedding
+                    print(f"whitening test dataset {key} ")
+                    new_dataset = new_tokenized_datasets[key]
+                    new_dataset_embeddings = torch.tensor(
+                        np.array([d.detach().numpy() for d in new_dataset["frozen_embeddings"]]))
+
+                    if os.path.exists(f"{self.training_args.output_dir}/whitening_params.pt"):
+                        print("loading the whitening whitening params")
+                        whitening_params = torch.load(f"{self.training_args.output_dir}/whitening_params.pt")
+                        X = whitening_params["X_whitened"]
+                        mu= whitening_params["mu"]
+                        S= whitening_params["S"]
+                        U = whitening_params["U"]
+                        dataset_embeddings_whitened, _, _, _ = update_whitening_batch(X, mu, S, U, new_dataset_embeddings)
+
+                    else:
+                        print("whitening dataset embeddings alone.")
+                        dataset_embeddings_whitened, _, _, _ = whiten_embeddings(new_dataset_embeddings)
+
+
+                    # convert tensor into list of tensors.
+                    def add_new_column(example):
+                        example["frozen_embeddings"] = dataset_embeddings_whitened[example["idx"]]
+                        return example
+
+                    # add a new column of whitened embeddings.
+                    new_tokenized_datasets[key] = new_dataset.map(add_new_column)
+                    new_tokenized_datasets[key].set_format("pt", device=device)
+
             val_datasets_dict = datasets.DatasetDict(new_tokenized_datasets)
+
         return val_datasets_dict
 
     def _load_val_datasets_uncached(

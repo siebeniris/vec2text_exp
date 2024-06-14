@@ -164,3 +164,61 @@ def get_tokenizer_mapping(
         f"Mapped tokenizer {lm} to {inverter}. Preserved {preservation*100:.1f}% of unique tokens."
     )
     return mapping
+
+
+def whiten_embeddings(X: torch.Tensor):
+    """
+    Whitening the embeddings with SVD.
+    """
+    # Step 1: Compute the mean
+    mu = torch.mean(X, dim=0, keepdim=True)
+
+    # Step 2: Center the data
+    X_centered = X - mu
+
+    # Step 3: Compute the covariance matrix
+    covariance_matrix = torch.cov(X_centered.T)
+
+    # Step 4: Singular Value Decomposition (SVD)
+    U, S, V = torch.linalg.svd(covariance_matrix)
+
+    # Step 5: Whiten the data
+    whitening_matrix = U @ torch.diag(1.0 / torch.sqrt(S)) @ U.T
+    X_whitened = torch.mm(X_centered, whitening_matrix)
+
+    return X_whitened, mu, S, U
+
+
+def update_whitening_batch(X_whitened, mu, S, U, X_new):
+    """
+    Whitening new embeddings.
+    """
+    n = X_whitened.size(0)
+    m = X_new.size(0)
+
+    # Update mean
+    mu_new = (n * mu + torch.sum(X_new, dim=0)) / (n + m)
+
+    # Center the new embeddings
+    X_new_centered = X_new - mu_new
+
+    # Reconstruct the original centered data
+    X_centered = X_whitened @ torch.inverse(U @ torch.diag(1.0 / torch.sqrt(S)) @ U.T)
+
+    # Combine the original and new centered data
+    X_combined = torch.cat((X_centered, X_new_centered), dim=0)
+
+    # Compute the new covariance matrix
+    covariance_matrix_new = torch.cov(X_combined.T)
+
+    # Singular Value Decomposition (SVD) of the updated covariance matrix
+    U_new, S_new, V_new = torch.linalg.svd(covariance_matrix_new)
+
+    # Whiten the new embeddings
+    whitening_matrix_new = U_new @ torch.diag(1.0 / torch.sqrt(S_new)) @ U_new.T
+    X_new_whitened = torch.mm(X_new_centered, whitening_matrix_new)
+
+    # Whiten the existing embeddings with the updated whitening transformation
+    # X_whitened_new = torch.mm(X_centered, whitening_matrix_new)
+
+    return X_new_whitened, mu_new, S_new, U_new

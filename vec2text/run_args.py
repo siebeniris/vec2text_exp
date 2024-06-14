@@ -176,6 +176,12 @@ class ModelArguments:
             "choices": FREEZE_STRATEGIES,
         },
     )
+    whitening: str = field(
+        default=None,
+        metadata={
+            "help": "the whitening strategy applied to embeddings"
+        }
+    )
 
     def __post_init__(self):
         if self.config_overrides is not None and (

@@ -181,7 +181,7 @@ def dataset_map_multi_worker(
         return dataset.map(map_fn, *args, **kwargs)
     datasets.disable_caching()
 
-    cwd= os.getcwd()
+    cwd = os.getcwd()
     cache_path = os.environ.get(
         "VEC2TEXT_CACHE", os.path.expanduser(f"{cwd}/.cache/inversion")
     )
