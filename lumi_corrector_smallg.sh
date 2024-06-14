@@ -117,6 +117,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --learning_rate ${LEARNING_RATE} \
           --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
+          --whitening first_last \
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
@@ -137,5 +138,6 @@ else
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
+          --whitening first_last
           --learning_rate ${LEARNING_RATE} "
 fi

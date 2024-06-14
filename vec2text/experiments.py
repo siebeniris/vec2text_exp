@@ -669,6 +669,10 @@ class Experiment(abc.ABC):
             # people's caches.
             dataset_kwargs["suffix_conditioning"] = "False"
 
+            if self.model_args.whitening:
+                print("adding whitening to dataset args.")
+                dataset_kwargs["whitening"] = "True"
+
         # os.environ["TOKENIZERS_PARALLELISM"] = "True"
         print(
             "Loading datasets with TOKENIZERS_PARALLELISM =",

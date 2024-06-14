@@ -109,6 +109,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
           --ddp_find_unused_parameters True \
+          --whitening first_last \
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
@@ -127,5 +128,6 @@ else
           --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --ddp_find_unused_parameters True \
+          --whitening first_last \
           --learning_rate ${LEARNING_RATE} "
 fi
