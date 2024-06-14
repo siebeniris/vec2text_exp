@@ -25,6 +25,7 @@ EPOCHS=$9
 EARLY_STOPPING=${10}
 OVERWRITE_OUTPUT_DIR=${11}
 
+
 wd=$(pwd)
 echo "working directory ${wd}"
 
