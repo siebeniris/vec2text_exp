@@ -59,6 +59,7 @@ class Corrector(BaseTrainer):
         )
         self.tokenizer = self.inversion_trainer.model.tokenizer
         self.embedder_tokenizer = self.inversion_trainer.model.embedder_tokenizer
+        self.embedder = self.inversion_trainer.model.embedder
         self.call_embedding_model = self.inversion_trainer.model.call_embedding_model
 
         self.initial_hypothesis_str = None
@@ -86,7 +87,7 @@ class Corrector(BaseTrainer):
 
         metric_key_prefix = kwargs["metric_key_prefix"]
         output = super().evaluation_loop(dataloader=dataloader, *args, **kwargs)  # type: ignore
-        if metric_key_prefix in {"eval_msmarco", "eval_nq"}:
+        if metric_key_prefix in {"eval_msmarco", "eval_nq", "eval_mtg", "eval_mt-ms"}:
             n_rounds = 5
             self.num_gen_recursive_steps = n_rounds
             multi_round_generation_metrics = self.eval_generation_metrics(
