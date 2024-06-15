@@ -117,6 +117,11 @@ class Experiment(abc.ABC):
         if training_args.output_dir is None:
             training_args.output_dir = os.path.join("saves", self.kwargs_hash)
         print(f"Experiment output_dir = {training_args.output_dir}")
+        if training_args.local_rank <= 0:
+            print(f"creating the output directory {training_args.output_dir}")
+            if not os.path.exists(training_args.output_dir):
+                os.makedirs(training_args.output_dir)
+
         # Set up output_dir and wandb.
         self._setup_logging()
         self._consider_init_wandb()
@@ -414,8 +419,8 @@ class Experiment(abc.ABC):
                     "text",
                     self.model_args.max_seq_length,
                     padding=False,
-                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
-                    else None,
+                    # prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    # else None,
                 ),
                 batched=True,
                 num_proc=_get_num_proc(self._world_size),
@@ -568,8 +573,8 @@ class Experiment(abc.ABC):
                     text_column_name="text",
                     max_seq_length=self.model_args.max_seq_length,
                     padding=False,
-                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
-                    else None,
+                    # prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    # else None,
                 ),
                 remove_columns=["text"],
                 batched=True,
