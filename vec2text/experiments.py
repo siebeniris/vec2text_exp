@@ -6,14 +6,12 @@ import logging
 import os
 import resource
 import sys
-from typing import Dict, Optional
 import multiprocessing
 
 import datasets
 import torch
 import transformers
 from typing import Dict, Optional
-from transformers import EarlyStoppingCallback
 import numpy as np
 
 import vec2text
@@ -116,9 +114,11 @@ class Experiment(abc.ABC):
 
         if training_args.output_dir is None:
             training_args.output_dir = os.path.join("saves", self.kwargs_hash)
+
         print(f"Experiment output_dir = {training_args.output_dir}")
+
         if training_args.local_rank <= 0:
-            print(f"creating the output directory {training_args.output_dir}")
+            print(f"on rank 0, output dir: {training_args.output_dir}")
             if not os.path.exists(training_args.output_dir):
                 os.makedirs(training_args.output_dir)
 

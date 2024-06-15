@@ -484,6 +484,7 @@ class BaseTrainer(transformers.Trainer):
                 preds_sample_labels_retokenized = self.embedder_tokenizer(
                     decoded_labels, padding=True, truncation=False, return_tensors="pt"
                 )["input_ids"].to(preds_sample.device)
+
                 preds_sample_labels_retokenized = preds_sample_labels_retokenized[
                     : self.args.per_device_eval_batch_size, :
                 ]
