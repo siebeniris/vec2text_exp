@@ -455,6 +455,11 @@ class Experiment(abc.ABC):
             if self.model_args.whitening:
                 # whitening.
                 print(f"whitening training dataset")
+
+                if not os.path.exists(self.training_args.output_dir):
+                    print(f"making the output dir {self.training_args.output_dir}")
+                    os.makedirs(self.training_args.output_dir)
+
                 # get the whole embedding
                 train_dataset = tokenized_datasets["train"]
 
@@ -669,9 +674,9 @@ class Experiment(abc.ABC):
             # people's caches.
             dataset_kwargs["suffix_conditioning"] = "False"
 
-            if self.model_args.whitening:
-                print("adding whitening to dataset args.")
-                dataset_kwargs["whitening"] = "True"
+        if self.model_args.whitening:
+            print("adding whitening to dataset args.")
+            dataset_kwargs["whitening"] = "True"
 
         # os.environ["TOKENIZERS_PARALLELISM"] = "True"
         print(
