@@ -627,7 +627,7 @@ class Experiment(abc.ABC):
 
                     # add a new column of whitened embeddings.
                     new_tokenized_datasets[key] = new_dataset.map(add_new_column)
-                    new_tokenized_datasets[key].set_format("pt", device=device)
+                    new_tokenized_datasets[key].set_format("pt")
 
             val_datasets_dict = datasets.DatasetDict(new_tokenized_datasets)
 
