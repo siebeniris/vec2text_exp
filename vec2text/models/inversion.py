@@ -157,7 +157,17 @@ class InversionModel(transformers.PreTrainedModel):
         outputs: transformers.modeling_outputs.BaseModelOutput,
         attention_mask: torch.Tensor,
     ) -> torch.Tensor:
-        if hasattr(outputs, "pooler_output") and (outputs.pooler_output is not None):
+        if self.whitening is not None:
+            print("output the first+last embeddings for whitening.")
+            assert hasattr(
+                outputs, "hidden_states"
+            ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
+            hidden_states = outputs.hidden_states
+            last_first_avg = (hidden_states[-1] + hidden_states[1]).mean(dim=1, keepdim=True)
+            embeddings = mean_pool(last_first_avg, attention_mask)
+            return embeddings
+        elif hasattr(outputs, "pooler_output") and (outputs.pooler_output is not None):
+            # cls token
             return outputs.pooler_output
         else:
             if self.embeddings_from_layer_n is not None:
@@ -166,14 +176,6 @@ class InversionModel(transformers.PreTrainedModel):
                 ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
                 hidden_state = outputs.hidden_states[self.embeddings_from_layer_n]
                 embeddings = mean_pool(hidden_state, attention_mask)
-            elif self.whitening is not None:
-                print("output the first+last embeddings.")
-                assert hasattr(
-                    outputs, "hidden_states"
-                ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
-                hidden_states = outputs.hidden_states
-                last_first_avg = (hidden_states[-1] + hidden_states[1]).mean(dim=1, keepdim=True)
-                embeddings = mean_pool(last_first_avg, attention_mask)
             else:
                 hidden_state = outputs.last_hidden_state
                 embeddings = mean_pool(hidden_state, attention_mask)
