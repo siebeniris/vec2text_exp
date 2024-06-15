@@ -73,8 +73,8 @@ class InversionModel(transformers.PreTrainedModel):
         num_repeat_tokens = config.num_repeat_tokens
         embedder_no_grad = config.embedder_no_grad
 
-        # add whitening
-        self.whitening = config.whitening
+        # add
+        self.embedding_output = config.embedding_output
 
         self.encoder_decoder = encoder_decoder  # .to_bettertransformer()
         ######################################################
@@ -157,8 +157,8 @@ class InversionModel(transformers.PreTrainedModel):
         outputs: transformers.modeling_outputs.BaseModelOutput,
         attention_mask: torch.Tensor,
     ) -> torch.Tensor:
-        if self.whitening is not None:
-            print("output the first+last embeddings for whitening.")
+        if self.embedding_output == "first_last":
+            print("output the first+last embeddings")
             assert hasattr(
                 outputs, "hidden_states"
             ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"

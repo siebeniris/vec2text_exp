@@ -176,10 +176,10 @@ class ModelArguments:
             "choices": FREEZE_STRATEGIES,
         },
     )
-    whitening: str = field(
+    embedding_output: str = field(
         default=None,
         metadata={
-            "help": "the whitening strategy applied to embeddings"
+            "help": "the embedding output strategy applied to embeddings"
         }
     )
 
