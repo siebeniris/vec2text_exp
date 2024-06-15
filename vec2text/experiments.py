@@ -456,10 +456,6 @@ class Experiment(abc.ABC):
                 # whitening.
                 print(f"whitening training dataset")
 
-                if not os.path.exists(self.training_args.output_dir):
-                    print(f"making the output dir {self.training_args.output_dir}")
-                    os.makedirs(self.training_args.output_dir)
-
                 # get the whole embedding
                 train_dataset = tokenized_datasets["train"]
 
