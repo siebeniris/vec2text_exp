@@ -424,10 +424,13 @@ class Corrector(BaseTrainer):
             if sequence_beam_width == 1:
                 # This is "regular" beam search.
                 beam_width = int(gen_text_ids.shape[0] / batch_size)
+                # TODO: dot product.
+                # perhaps torch.nn.dot?
                 distances_per_beam = torch.nn.CosineSimilarity(dim=2)(
                     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
                     inputs["frozen_embeddings"][:, None, :],
                 )
+
                 if self.return_best_hypothesis:
                     scores = distances_per_beam
                 else:
@@ -454,6 +457,7 @@ class Corrector(BaseTrainer):
                     .repeat((1, num_return_sequences, 1))
                     .reshape((batch_size, beam_width, -1))
                 )
+                # TODO: dot product
                 distances_per_beam = torch.nn.CosineSimilarity(dim=2)(
                     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
                     frozen_embeddings_per_beam,
@@ -500,6 +504,7 @@ class Corrector(BaseTrainer):
                         )
                     )
 
+                # TODO: dot product.
                 distances_per_beam = torch.nn.CosineSimilarity(dim=2)(
                     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
                     frozen_embeddings_per_beam,
