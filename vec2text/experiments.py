@@ -419,8 +419,8 @@ class Experiment(abc.ABC):
                     "text",
                     self.model_args.max_seq_length,
                     padding=False,
-                    # prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
-                    # else None,
+                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    else None,
                 ),
                 batched=True,
                 num_proc=_get_num_proc(self._world_size),
@@ -573,8 +573,8 @@ class Experiment(abc.ABC):
                     text_column_name="text",
                     max_seq_length=self.model_args.max_seq_length,
                     padding=False,
-                    # prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
-                    # else None,
+                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    else None,
                 ),
                 remove_columns=["text"],
                 batched=True,
