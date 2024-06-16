@@ -158,7 +158,7 @@ class InversionModel(transformers.PreTrainedModel):
         attention_mask: torch.Tensor,
     ) -> torch.Tensor:
         if self.embedding_output == "first_last":
-            print("output the first+last embeddings")
+            # print("output the first+last embeddings")
             assert hasattr(
                 outputs, "hidden_states"
             ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"

@@ -12,7 +12,7 @@ import datasets
 import torch
 import transformers
 from typing import Dict, Optional
-import numpy as np
+
 
 import vec2text
 from vec2text.collator import DataCollatorForCorrection
@@ -417,8 +417,8 @@ class Experiment(abc.ABC):
                     "text",
                     self.model_args.max_seq_length,
                     padding=False,
-                    # prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
-                    # else None,
+                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    else None,
                 ),
                 batched=True,
                 num_proc=_get_num_proc(self._world_size),
@@ -498,8 +498,8 @@ class Experiment(abc.ABC):
                     text_column_name="text",
                     max_seq_length=self.model_args.max_seq_length,
                     padding=False,
-                    # prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
-                    # else None,
+                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    else None,
                 ),
                 remove_columns=["text"],
                 batched=True,
@@ -574,6 +574,7 @@ class Experiment(abc.ABC):
         if self.model_args.embedding_output:
             print("adding embedding type to dataset args.")
             dataset_kwargs["embedding_output"] = "True"
+            dataset_kwargs["me5_prefix"] = "True"
 
         # os.environ["TOKENIZERS_PARALLELISM"] = "True"
         print(
