@@ -611,18 +611,18 @@ class Experiment(abc.ABC):
                     new_dataset_embeddings = torch.tensor(
                         np.array([d.detach().numpy() for d in new_dataset["frozen_embeddings"]]))
 
-                    if os.path.exists(f"{self.training_args.output_dir}/whitening_params.pt"):
-                        print("loading the whitening whitening params")
-                        whitening_params = torch.load(f"{self.training_args.output_dir}/whitening_params.pt")
-                        X = whitening_params["X_whitened"]
-                        mu= whitening_params["mu"]
-                        S= whitening_params["S"]
-                        U = whitening_params["U"]
-                        dataset_embeddings_whitened, _, _, _ = update_whitening_batch(X, mu, S, U, new_dataset_embeddings)
+                    # if os.path.exists(f"{self.training_args.output_dir}/whitening_params.pt"):
+                    #     print("loading the whitening whitening params")
+                    #     whitening_params = torch.load(f"{self.training_args.output_dir}/whitening_params.pt")
+                    #     X = whitening_params["X_whitened"]
+                    #     mu= whitening_params["mu"]
+                    #     S= whitening_params["S"]
+                    #     U = whitening_params["U"]
+                    #     dataset_embeddings_whitened, _, _, _ = update_whitening_batch(X, mu, S, U, new_dataset_embeddings)
 
-                    else:
-                        print("whitening dataset embeddings alone.")
-                        dataset_embeddings_whitened, _, _, _ = whiten_embeddings(new_dataset_embeddings)
+
+                    print("whitening dataset embeddings alone")
+                    dataset_embeddings_whitened, _, _, _ = whiten_embeddings(new_dataset_embeddings)
 
 
                     # convert tensor into list of tensors.
