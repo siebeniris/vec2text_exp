@@ -8,7 +8,7 @@ ARGS_DICT = {
     # "openai_msmarco__msl128__100epoch": "--per_device_train_batch_size 128 --per_device_eval_batch_size 128 --max_seq_length 128 --model_name_or_path t5-base --embedder_model_name gtr_base --num_repeat_tokens 16 --embedder_no_grad True --learning_rate 0.0002 --freeze_strategy none --embedder_fake_with_zeros False --encoder_dropout_disabled False --decoder_dropout_disabled False --use_less_data 1000000 --num_train_epochs 100 --max_eval_samples 500 --eval_steps 50000 --warmup_steps 20000 --bf16=1 --use_lora=0 --use_wandb=0 --embedder_model_api text-embedding-ada-002 --use_frozen_embeddings_as_input True --exp_group_name jun3-openai-4gpu-ddp-3",
 }
 
-lumi_dir = "/scratch/project_465000909/vec2text_exp"
+lumi_dir = "/scratch/project_465000909/whitening/vec2text_exp"
 
 # Dictionary mapping model names
 CHECKPOINT_FOLDERS_DICT = {
