@@ -32,8 +32,8 @@ class Corrector(BaseTrainer):
     _hypothesis_cache: Dict[str, Tuple[torch.Tensor, torch.Tensor, torch.Tensor]]
 
     # If set, only take hypothesis if it improves our distance to ground-truth.
-    return_best_hypothesis: bool = False
-    # return_best_hypothesis: bool = True  # turn here.
+    # return_best_hypothesis: bool = False
+    return_best_hypothesis: bool = True  # turn here.
 
     # Initialize from this hypothesis, if set
     initial_hypothesis_str: Optional[str] = None
@@ -70,9 +70,9 @@ class Corrector(BaseTrainer):
         self.sequence_beam_width = 1
 
         # If set, return closest (in embedding space) hypothesis we see during generation
-        self.return_best_hypothesis = False
+        # self.return_best_hypothesis = False
         # changed here.
-        # self.return_best_hypothesis = True
+        self.return_best_hypothesis = True
 
         # Need to train with same device as the inversion model to avoid weird errors.
         assert self.args.fp16 == self.inversion_trainer.args.fp16
@@ -522,7 +522,7 @@ class Corrector(BaseTrainer):
                 # pairwise distances instead of cosine similarity
                 # distances_per_beam = torch.nn.PairwiseDistance(p=2)(
                 #     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
-                #     frozen_embeddings_per_beam,
+                #     frozen_embeddings_per_beam
                 # )
                 if self.return_best_hypothesis:
                     scores = distances_per_beam
