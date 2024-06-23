@@ -33,6 +33,7 @@ class Corrector(BaseTrainer):
 
     # If set, only take hypothesis if it improves our distance to ground-truth.
     return_best_hypothesis: bool = False
+    # return_best_hypothesis: bool = True  # turn here.
 
     # Initialize from this hypothesis, if set
     initial_hypothesis_str: Optional[str] = None
@@ -70,6 +71,8 @@ class Corrector(BaseTrainer):
 
         # If set, return closest (in embedding space) hypothesis we see during generation
         self.return_best_hypothesis = False
+        # changed here.
+        # self.return_best_hypothesis = True
 
         # Need to train with same device as the inversion model to avoid weird errors.
         assert self.args.fp16 == self.inversion_trainer.args.fp16
@@ -428,6 +431,11 @@ class Corrector(BaseTrainer):
                     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
                     inputs["frozen_embeddings"][:, None, :],
                 )
+                # using pairwise distance instead of cosine similarity
+                # distances_per_beam = torch.nn.PairwiseDistance(p=2)(
+                #     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
+                #     inputs["frozen_embeddings"][:, None, :],
+                # )
                 if self.return_best_hypothesis:
                     scores = distances_per_beam
                 else:
@@ -458,11 +466,18 @@ class Corrector(BaseTrainer):
                     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
                     frozen_embeddings_per_beam,
                 )
+                # pairwise distance instead of cosine similarity
+                # distances_per_beam = torch.nn.PairwiseDistance(p=2)(
+                #     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
+                #     frozen_embeddings_per_beam,
+                # )
                 if self.return_best_hypothesis:
                     scores = distances_per_beam
                 else:
                     scores = gen_text_scores.reshape((batch_size, beam_width))
                 best_idx_in_beam = scores.argmax(dim=1)
+                # pairwise distance needs a minimal value.
+                # best_idx_in_beam = scores.argmin(dim=1)
                 # print("best_idx_in_beam:", best_idx_in_beam)
                 # print("avg_distances:", distances_per_beam.mean(1).tolist(), "max_distances:", distances_per_beam.max(1).values.tolist())
                 hypothesis_embedding = hypothesis_embedding.reshape(
@@ -504,7 +519,11 @@ class Corrector(BaseTrainer):
                     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
                     frozen_embeddings_per_beam,
                 )
-
+                # pairwise distances instead of cosine similarity
+                # distances_per_beam = torch.nn.PairwiseDistance(p=2)(
+                #     hypothesis_embedding.reshape((batch_size, beam_width, -1)),
+                #     frozen_embeddings_per_beam,
+                # )
                 if self.return_best_hypothesis:
                     scores = distances_per_beam
                 else:
@@ -516,6 +535,7 @@ class Corrector(BaseTrainer):
                 # print()
 
                 # take top *unique* things in beam.
+                # TODO: ?
                 best_idx_in_beam_total = scores.topk(dim=1, k=beam_width).indices
                 hypothesis_embedding = hypothesis_embedding.reshape(
                     (batch_size, beam_width, -1)
@@ -553,6 +573,8 @@ class Corrector(BaseTrainer):
 
             # print scores for any type of beam search
             best_scores = scores.max(1).values.cpu()
+            # for pairwise distances instead of cosine similarities
+            # best_scores = scores.min(1).values.cpu()
         # make sure we reshape correctly
         # (can't do a shape check on gen_text_ids because of the dynamic length.)
         assert hypothesis_embedding.shape[-1] == inputs["frozen_embeddings"].shape[-1]
