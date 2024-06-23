@@ -177,7 +177,7 @@ class ModelArguments:
         },
     )
     embedding_output: str = field(
-        default=None,
+        default="first_last",
         metadata={
             "help": "the embedding output strategy applied to embeddings"
         }

@@ -118,6 +118,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
           --use_frozen_embeddings_as_input True \
+          --embedding_output first_last \
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
@@ -139,5 +140,6 @@ else
           --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
           --use_frozen_embeddings_as_input True \
+          --embedding_output first_last \
           --learning_rate ${LEARNING_RATE} "
 fi
