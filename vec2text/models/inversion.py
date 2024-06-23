@@ -73,6 +73,9 @@ class InversionModel(transformers.PreTrainedModel):
         num_repeat_tokens = config.num_repeat_tokens
         embedder_no_grad = config.embedder_no_grad
 
+        # add
+        self.embedding_output = config.embedding_output
+
         self.encoder_decoder = encoder_decoder  # .to_bettertransformer()
         ######################################################
         self.num_repeat_tokens = num_repeat_tokens
@@ -118,6 +121,8 @@ class InversionModel(transformers.PreTrainedModel):
         self.embeddings_from_layer_n = embeddings_from_layer_n
         self.noise_level = 0
 
+
+
     def _freeze_encoder(self):
         freeze_params(self.encoder_decoder.encoder)
 
@@ -152,7 +157,17 @@ class InversionModel(transformers.PreTrainedModel):
         outputs: transformers.modeling_outputs.BaseModelOutput,
         attention_mask: torch.Tensor,
     ) -> torch.Tensor:
-        if hasattr(outputs, "pooler_output") and (outputs.pooler_output is not None):
+        if self.embedding_output == "first_last":
+            # print("output the first+last embeddings")
+            assert hasattr(
+                outputs, "hidden_states"
+            ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
+            hidden_states = outputs.hidden_states
+            last_first_avg = (hidden_states[-1] + hidden_states[1]).mean(dim=1, keepdim=True)
+            embeddings = mean_pool(last_first_avg, attention_mask)
+            return embeddings
+        elif hasattr(outputs, "pooler_output") and (outputs.pooler_output is not None):
+            # cls token
             return outputs.pooler_output
         else:
             if self.embeddings_from_layer_n is not None:

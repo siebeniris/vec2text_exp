@@ -176,6 +176,12 @@ class ModelArguments:
             "choices": FREEZE_STRATEGIES,
         },
     )
+    embedding_output: str = field(
+        default="first_last",
+        metadata={
+            "help": "the embedding output strategy applied to embeddings"
+        }
+    )
 
     def __post_init__(self):
         if self.config_overrides is not None and (

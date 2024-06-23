@@ -111,7 +111,7 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
     # name = "gpt2" #### <--- TEMP. For debugging. Delete!
     model_kwargs = {
         "low_cpu_mem_usage": True,  # Not compatible with DeepSpeed
-        "output_hidden_states": False,  # change later
+        "output_hidden_states": True,  # change later
     }
 
     if name == "dpr":
