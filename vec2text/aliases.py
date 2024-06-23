@@ -36,7 +36,6 @@ CHECKPOINT_FOLDERS_DICT = {
 
 
     # correctors with cosine similarity.
-    #
     # by script
     "arab_script_32_me5_corrector": f"{lumi_dir_cos}/saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32",
     "cyrl_script_32_me5_corrector": f"{lumi_dir_cos}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32",
