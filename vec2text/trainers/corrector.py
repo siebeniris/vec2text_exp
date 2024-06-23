@@ -160,8 +160,8 @@ class Corrector(BaseTrainer):
         # Note that the dataset fingerprint changes with calls to select()
         # so we won't overwrite the big dataset files when we use tiny subsets
         # during testing.
-        cwd = os.getcwd()
-        cache_dir = os.environ.get("VEC2TEXT_CACHE", os.path.expanduser(f"{cwd}/.cache/inversion"))
+        # cwd = os.getcwd()
+        cache_dir = os.environ.get("VEC2TEXT_CACHE", "/scratch/project_465000909/whitening/vec2text_exp/.cache/inversion")
         assert os.path.exists(cache_dir)
         ####
         cache_path = os.path.join(cache_dir, f"{dataset._fingerprint}_hypotheses.cache")
