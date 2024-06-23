@@ -51,6 +51,26 @@ CHECKPOINT_FOLDERS_DICT = {
     "turkic_fami_32_me5_corrector_2layers": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix",
     "atlatic_fami_32_me5_corrector_2layers": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_atl_fami_32_2layers_prefix",
 
+    # correctors with dot product.
+    # by script
+    "arab_script_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layer_prefix",
+    "cyrl_script_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix",
+    "latn_script_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_lat_scrp_32_2layers_prefix",
+
+    # one language
+
+    "deu_Latn_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_deu_Latn_32_2layers_prefix",
+    "heb_Hebr_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32_2layers_prefix",
+    "cmn_Hani_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix",
+
+    # by family
+    "indo-aryan_fami_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix_dot",
+    "semitic_fami_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix_dot",
+    "turkic_fami_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix_dot",
+    "atlatic_fami_32_me5_corrector_2layers_dot": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_atl_fami_32_2layers_prefix_dot",
+
+
+
     ####################################################################
     ######################## Natural Questions #########################
     ####################################################################
