@@ -1,5 +1,5 @@
 #!/bin/bash -e
-#SBATCH --job-name=corrector
+#SBATCH --job-name=inverter
 #SBATCH --account=project_465000909
 #SBATCH --partition=small-g
 #SBATCH --nodes=1
@@ -8,11 +8,8 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --mem=480G
 #SBATCH --time=3-00:00:00
-#SBATCH --output=corrector_all_layers_%j.out
-#SBATCH --error=corrector_all_layers_%j.err
-
-
-
+#SBATCH --output=inverter_all_layers_%j.out
+#SBATCH --error=inverter_all_layers_%j.err
 
 set -x
 
@@ -23,12 +20,9 @@ EXP_GROUP_NAME=$4
 BATCH_SIZE=$5
 MAX_LENGTH=$6
 LEARNING_RATE=$7
-CORRECTOR_ALIAS=$8
-EPOCHS=$9
-EARLY_STOPPING=${10}
-OVERWRITE_OUTPUT_DIR=${11}
-
-
+EPOCHS=$8
+EARLY_STOPPING=$9
+OVERWRITE_OUTPUT_DIR=${10}
 
 wd=$(pwd)
 echo "working directory ${wd}"
@@ -107,15 +101,13 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
     ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
-          --model_name_or_path google/mt5-base \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 500 \
-          --eval_steps 20000 --warmup_steps 10000 --experiment corrector \
+          --eval_steps 20000 --warmup_steps 10000 --experiment inversion \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_all_layers --save_steps 2000 \
+          --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_2layers_prefix --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
-          --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
           --use_frozen_embeddings_as_input True \
           --embedding_output all_layers_avg \
@@ -130,14 +122,12 @@ else
     ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
-          --model_name_or_path google/mt5-base \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 500 \
-          --eval_steps 20000 --warmup_steps 10000 --experiment corrector \
+          --eval_steps 20000 --warmup_steps 10000 --experiment inversion \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_all_layers --save_steps 2000 \
+          --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_2layers_prefix --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
-          --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
           --use_frozen_embeddings_as_input True \
           --embedding_output all_layers_avg \
