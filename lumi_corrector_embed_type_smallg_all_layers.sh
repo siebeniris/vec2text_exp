@@ -112,7 +112,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 500 \
           --eval_steps 20000 --warmup_steps 10000 --experiment corrector \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_2layers_prefix_cos --save_steps 2000 \
+          --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_all_layers --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
           --corrector_model_alias ${CORRECTOR_ALIAS} \
@@ -135,7 +135,7 @@ else
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 500 \
           --eval_steps 20000 --warmup_steps 10000 --experiment corrector \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_2layers_prefix_cos --save_steps 2000 \
+          --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_all_layers --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
