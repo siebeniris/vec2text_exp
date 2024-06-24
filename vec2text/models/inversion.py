@@ -166,7 +166,16 @@ class InversionModel(transformers.PreTrainedModel):
             last_first_avg = (hidden_states[-1] + hidden_states[1]).mean(dim=1, keepdim=True)
             embeddings = mean_pool(last_first_avg, attention_mask)
             return embeddings
-        elif hasattr(outputs, "pooler_output") and (outputs.pooler_output is not None):
+        elif self.embedding_output == "all_layers_avg":
+            assert hasattr(
+                outputs, "hidden_states"
+            ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
+            hidden_states = outputs.hidden_states
+            all_layers_avg = sum(hidden_states).mean(dim=1, keepdim=True)
+            embeddings = mean_pool(all_layers_avg, attention_mask)
+            return embeddings
+        elif self.embedding_output == "pooler_output":
+            assert (hasattr(outputs, "pooler_output",) and (outputs.pooler_output is not None)), "output missing pooler_output"
             # cls token
             return outputs.pooler_output
         else:
