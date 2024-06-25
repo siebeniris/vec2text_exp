@@ -592,6 +592,13 @@ class Corrector(BaseTrainer):
     def _get_hypothesis_uncached(self, inputs: Dict[str, torch.Tensor]) -> torch.Tensor:
         if "frozen_embeddings" in inputs:
             frozen_embeddings = inputs["frozen_embeddings"]
+        elif "embedder_input_ids" in inputs:
+            # call the inversion model to get embeddings
+            # sanity decode.
+            frozen_embeddings = self.get_frozen_embeddings(
+                embedder_input_ids=inputs["embedder_input_ids"],
+                embedder_attention_mask=inputs["embedder_attention_mask"],
+            )
         else:
             assert (
                 "embedder_input_ids" in inputs
