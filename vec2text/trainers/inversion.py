@@ -13,6 +13,7 @@ class InversionTrainer(BaseTrainer):
         super().__init__(*args, **kwargs)
         ######################################################
         self.tokenizer = self.model.tokenizer
+        self.embedder = self.model.embedder
         self.embedder_tokenizer = self.model.embedder_tokenizer
         self.call_embedding_model = self.model.call_embedding_model
 
