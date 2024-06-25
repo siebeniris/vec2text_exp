@@ -167,6 +167,7 @@ def get_tokenizer_mapping(
 def whiten_embeddings(X: torch.Tensor):
     """
     Whitening the embeddings with SVD.
+    https://github.com/Jun-jie-Huang/WhiteningBERT/blob/main/sentence_transformers/pooling_utils.py
     """
     # Step 1: Compute the mean
     mu = torch.mean(X, dim=0, keepdim=True)
@@ -175,16 +176,16 @@ def whiten_embeddings(X: torch.Tensor):
     X_centered = X - mu
 
     # Step 3: Compute the covariance matrix
-    covariance_matrix = torch.cov(X_centered.T)
+    covariance_matrix = torch.mm(X_centered.t(), X_centered)
 
     # Step 4: Singular Value Decomposition (SVD)
-    U, S, V = torch.linalg.svd(covariance_matrix)
+    u, s, _ = torch.linalg.svd(covariance_matrix)
 
     # Step 5: Whiten the data
-    whitening_matrix = U @ torch.diag(1.0 / torch.sqrt(S)) @ U.T
-    X_whitened = torch.mm(X_centered, whitening_matrix)
+    W = torch.mm(u, torch.diag(1/torch.sqrt(s)))
+    X_whitened = torch.mm(X_centered, W)
 
-    return X_whitened, mu, S, U
+    return X_whitened, mu, s, u
 
 
 def update_whitening_batch(X_whitened, mu, S, U, X_new):
@@ -201,7 +202,8 @@ def update_whitening_batch(X_whitened, mu, S, U, X_new):
     X_new_centered = X_new - mu_new
 
     # Reconstruct the original centered data
-    X_centered = X_whitened @ torch.inverse(U @ torch.diag(1.0 / torch.sqrt(S)) @ U.T)
+    # X_centered = X_whitened @ torch.inverse(U @ torch.diag(1.0 / torch.sqrt(S)) @ U.T)
+    X_centered = X_whitened @ torch.inverse(torch.mm(U, torch.diag(1/torch.sqrt(S))))
 
     # Combine the original and new centered data
     X_combined = torch.cat((X_centered, X_new_centered), dim=0)
@@ -210,10 +212,12 @@ def update_whitening_batch(X_whitened, mu, S, U, X_new):
     covariance_matrix_new = torch.cov(X_combined.T)
 
     # Singular Value Decomposition (SVD) of the updated covariance matrix
-    U_new, S_new, V_new = torch.linalg.svd(covariance_matrix_new)
+    U_new, S_new, _ = torch.linalg.svd(covariance_matrix_new)
 
     # Whiten the new embeddings
-    whitening_matrix_new = U_new @ torch.diag(1.0 / torch.sqrt(S_new)) @ U_new.T
+    whitening_matrix_new = torch.mm(U_new, torch.diag(1/torch.sqrt(S_new)))
+
+    # whitening_matrix_new = U_new @ torch.diag(1.0 / torch.sqrt(S_new)) @ U_new.T
     X_new_whitened = torch.mm(X_new_centered, whitening_matrix_new)
 
     # Whiten the existing embeddings with the updated whitening transformation
