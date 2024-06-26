@@ -13,7 +13,6 @@ import torch
 import transformers
 from typing import Dict, Optional
 
-
 import vec2text
 from vec2text.collator import DataCollatorForCorrection
 from vec2text.data_helpers import dataset_from_args, load_standard_val_datasets
@@ -47,7 +46,6 @@ os.environ["_WANDB_STARTUP_DEBUG"] = "true"
 os.environ["TOKENIZERS_PARALLELISM"] = "False"
 # os.environ["TOKENIZERS_PARALLELISM"] = "True"
 
-device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 logger = logging.getLogger(__name__)
 
 # We maintain our own cache because huggingface datasets caching
@@ -57,13 +55,17 @@ DATASET_CACHE_PATH = os.environ.get(
     "VEC2TEXT_CACHE", os.path.expanduser(f"{cwd}/.cache/inversion")
 )
 
-rank = int(os.environ["RANK"])
-local_rank = int(os.environ["LOCAL_RANK"])
-world_size = int(os.environ["WORLD_SIZE"])
-local_world_size = int(os.environ["LOCAL_WORLD_SIZE"])
-device = torch.device("cuda", local_rank)
-# print("lumi set the cpu affinity...")
-set_cpu_affinity_lumi(local_rank)
+if os.getenv("RANK"):
+    rank = int(os.environ["RANK"])
+    local_rank = int(os.environ["LOCAL_RANK"])
+    world_size = int(os.environ["WORLD_SIZE"])
+    local_world_size = int(os.environ["LOCAL_WORLD_SIZE"])
+    device = torch.device("cuda", local_rank)
+    # print("lumi set the cpu affinity...")
+    set_cpu_affinity_lumi(local_rank)
+else:
+    device = torch.device(
+        "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 
 # Noisy compilation from torch.compile
 try:
@@ -528,7 +530,6 @@ class Experiment(abc.ABC):
                     ),
                     num_proc=1,
                 )
-
 
             val_datasets_dict = datasets.DatasetDict(new_tokenized_datasets)
 
