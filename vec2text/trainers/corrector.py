@@ -193,6 +193,14 @@ class Corrector(BaseTrainer):
                     batch_size=1024,
                 )
                 print(f"filtered {old_length} datapoints to {len(dataset)}")
+
+            #### DO THE WHITENING HERE.
+            # whitening the embeddings here first for training dataset
+            # then for val_dataset.
+            # TODO: whitening.
+
+
+
             dataset.save_to_disk(cache_path)
         else:
             logging.info("Loading hypotheses from path %s", cache_path)
@@ -620,6 +628,7 @@ class Corrector(BaseTrainer):
         hypothesis_embedding = self.embed_generated_hypothesis(
             input_ids=hypothesis_input_ids
         )
+
         return (
             frozen_embeddings,
             hypothesis_input_ids,
