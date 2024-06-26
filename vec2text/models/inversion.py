@@ -157,8 +157,8 @@ class InversionModel(transformers.PreTrainedModel):
         outputs: transformers.modeling_outputs.BaseModelOutput,
         attention_mask: torch.Tensor,
     ) -> torch.Tensor:
-        if self.whitening is not None:
-            print("output the first+last embeddings for whitening.")
+        if self.whitening:
+            # print("output the first+last embeddings for whitening.")
             assert hasattr(
                 outputs, "hidden_states"
             ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
