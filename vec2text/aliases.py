@@ -23,9 +23,9 @@ CHECKPOINT_FOLDERS_DICT = {
 
     # one language
 
-    "deu_Latn_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_deu_Latn_32",
-    "heb_Hebr_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32",
-    "cmn_Hani_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32",
+    "deu_Latn_32_me5_whitening": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_deu_Latn_32_2layer_whitening",
+    "heb_Hebr_32_me5_whitening": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32_2layer_whitening",
+    "cmn_Hani_32_me5_whitening": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layer_whitening",
 
     # by family
     "indo-aryan_fami_32_me5": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32",
@@ -41,9 +41,9 @@ CHECKPOINT_FOLDERS_DICT = {
 
     # one language
 
-    "deu_Latn_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_deu_Latn_32",
-    "heb_Hebr_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32",
-    "cmn_Hani_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32",
+    "deu_Latn_32_me5_whitening_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_deu_Latn_32_2layer_whitening",
+    "heb_Hebr_32_me5_whitening_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32_2layer_whitening",
+    "cmn_Hani_32_me5_whitening_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layer_whitening",
 
     # by family
     "indo-aryan_fami_32_me5_corrector": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_ind_fami_32",

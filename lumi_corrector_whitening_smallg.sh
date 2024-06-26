@@ -116,9 +116,9 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
           --corrector_model_alias ${CORRECTOR_ALIAS} \
-          --ddp_find_unused_parameters True \
-          --use_frozen_embeddings_as_input True \
-          --whitening first_last \
+          --ddp_find_unused_parameters  \
+          --use_frozen_embeddings_as_input  \
+          --whitening  \
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
@@ -138,8 +138,8 @@ else
           --output_dir ./saves/correctors/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --corrector_model_alias ${CORRECTOR_ALIAS} \
-          --ddp_find_unused_parameters True \
-          --use_frozen_embeddings_as_input True \
-          --whitening first_last
+          --ddp_find_unused_parameters  \
+          --use_frozen_embeddings_as_input  \
+          --whitening
           --learning_rate ${LEARNING_RATE} "
 fi

@@ -78,7 +78,7 @@ class ModelArguments:
         default=None,
         metadata={
             "help": "If training from scratch, pass a model type from the list: "
-            + ", ".join(MODEL_TYPES)
+                    + ", ".join(MODEL_TYPES)
         },
     )
     config_overrides: Optional[str] = field(
@@ -176,16 +176,10 @@ class ModelArguments:
             "choices": FREEZE_STRATEGIES,
         },
     )
-    whitening: str = field(
-        default=None,
-        metadata={
-            "help": "the whitening strategy applied to embeddings"
-        }
-    )
 
     def __post_init__(self):
         if self.config_overrides is not None and (
-            self.config_name is not None or self.model_name_or_path is not None
+                self.config_name is not None or self.model_name_or_path is not None
         ):
             raise ValueError(
                 "--config_overrides can't be used in combination with --config_name or --model_name_or_path"
@@ -251,7 +245,12 @@ class TrainingArguments(transformers.TrainingArguments):
             "help": "When set, will interpolate true with pred train hypothesis for 'closer' training data"
         },
     )
-
+    whitening: bool = field(
+        default=False,
+        metadata={
+            "help": "the whitening strategy applied to embeddings"
+        }
+    )
     steps_per_epoch: int = field(
         default=500_000,
         metadata={"required": False, "help": "Size of pseudo-training set."},
@@ -376,8 +375,6 @@ class TrainingArguments(transformers.TrainingArguments):
 
     include_inputs_for_metrics: bool = True
 
-
-
     def __setattr__(self, name, value):
         super(transformers.TrainingArguments, self).__setattr__(name, value)
 
@@ -403,7 +400,6 @@ class TrainingArguments(transformers.TrainingArguments):
         os.environ["RAYON_RS_NUM_CPUS"] = str(
             num_workers
         )  # Sets threads for hf tokenizers
-
 
         self.dataloader_num_workers = num_workers
         print(f"Set num workers to {num_workers}")

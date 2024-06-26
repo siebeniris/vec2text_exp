@@ -12,6 +12,11 @@ from vec2text.models import CorrectorEncoderModel
 from vec2text.models.model_utils import freeze_params
 from vec2text.run_args import TrainingArguments
 from vec2text.utils import dataset_map_multi_worker
+from vec2text.tokenize_data import (
+    whiten_embeddings,
+    update_whitening_batch
+)
+import numpy as np
 
 from .base import BaseTrainer
 from .inversion import InversionTrainer
@@ -52,7 +57,7 @@ class Corrector(BaseTrainer):
         self.inversion_trainer.model.use_frozen_embeddings_as_input = True
         super().__init__(
             model=model,
-            args=args,
+            args=args, # training_args
             train_dataset=self.inversion_trainer.train_dataset,
             eval_dataset=self.inversion_trainer.eval_dataset,
             **kwargs,
@@ -70,6 +75,11 @@ class Corrector(BaseTrainer):
 
         # If set, return closest (in embedding space) hypothesis we see during generation
         self.return_best_hypothesis = False
+
+        # for whitening.
+        self.output_dir = self.args.output_dir
+        self.whitening = self.args.whitening
+
 
         # Need to train with same device as the inversion model to avoid weird errors.
         assert self.args.fp16 == self.inversion_trainer.args.fp16
@@ -162,6 +172,7 @@ class Corrector(BaseTrainer):
         assert os.path.exists(cache_dir)
         ####
         cache_path = os.path.join(cache_dir, f"{dataset._fingerprint}_hypotheses.cache")
+        print(f"hypotheses cache path: {cache_path}")
         if not os.path.exists(cache_path):
             print(f"\t[{dataset.builder_name}] Saving hypotheses to path {cache_path}")
 
@@ -177,6 +188,7 @@ class Corrector(BaseTrainer):
             )
 
             if filter_correct_examples:
+                # true for train dataset, false for val dataset.
                 old_length = len(dataset)
 
                 def embedding_is_not_correct(ex):
@@ -194,12 +206,45 @@ class Corrector(BaseTrainer):
                 )
                 print(f"filtered {old_length} datapoints to {len(dataset)}")
 
-            #### DO THE WHITENING HERE.
-            # whitening the embeddings here first for training dataset
-            # then for val_dataset.
-            # TODO: whitening.
+            # whitening the hypotheses
+            if self.whitening:
+                whitened_params_file = f"{self.args.output_dir}/train_hypothesis_whitening_params.pt"
+                train_hypothesis_params_file = f"{self.args.output_dir}/train_hypothesis_embeddings.pt"
+                if not os.path.exists(whitened_params_file):
+                    # when the file does not exist. no whitening has been done on train dataset.
+                    hypothesis_embeddings = torch.tensor(
+                        np.array([d.detach().numpy() for d in dataset["hypothesis_embedding"]]))
+                    hypothesis_embeddings_whitened, mu, S, U = whiten_embeddings(hypothesis_embeddings)
+                    whitening_params={
+                        "Hypothesis_whitened": hypothesis_embeddings_whitened,
+                        "mu": mu,
+                        "S": S,
+                        "U": U
+                    }
+                    print(
+                        f"whitening params shape:  Hypothesis {hypothesis_embeddings_whitened.shape} mu {mu.shape} U {U.shape} S {S.shape}")
+                    torch.save(hypothesis_embeddings, train_hypothesis_params_file)
+                    torch.save(whitening_params, whitened_params_file)
 
 
+                else:
+                    # when the file exists,
+                    print(f"loading the whitening params pt file")
+                    whitening_params = torch.load(whitened_params_file)
+                    hypothesis_embeddings = torch.tensor(
+                        np.array([d.detach().numpy() for d in dataset["hypothesis_embedding"]]))
+
+                    X = whitening_params["Hypothesis_whitened"]
+                    mu = whitening_params["mu"]
+                    S = whitening_params["S"]
+                    U = whitening_params["U"]
+                    hypothesis_embeddings_whitened, _, _, _ = update_whitening_batch(X, mu, S, U, hypothesis_embeddings)
+
+                # update the hypothesis_embedding with whitened hypothesis_embeddings
+                print("whitening and saving to hypothesis_embedding...")
+                dataset = dataset.map(
+                        lambda example, idx: {"hypothesis_embedding": hypothesis_embeddings_whitened[idx]},
+                        with_indices=True)
 
             dataset.save_to_disk(cache_path)
         else:
@@ -218,10 +263,11 @@ class Corrector(BaseTrainer):
         useful for outside processes.
         """
         logger.info("Precomputing frozen embedding & hypotheses before training")
-
+        print("Getting train dataset...")
         self.train_dataset, train_cache_path = self._preprocess_dataset_hypotheses(
             dataset=self.train_dataset, filter_correct_examples=True
         )
+        print("Getting val dataset")
         for k, v in self.eval_dataset.items():
             self.eval_dataset[k], _ = self._preprocess_dataset_hypotheses(
                 dataset=v, filter_correct_examples=False

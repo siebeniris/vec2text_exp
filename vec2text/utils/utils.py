@@ -112,7 +112,8 @@ def get_num_proc() -> int:
         # on some Unix platforms, so we support both!
         return len(os.sched_getaffinity(0)) // world_size  # type: ignore[attr-defined]
     except AttributeError:
-        return multiprocessing.cpu_count() // world_size
+        return multiprocessing.cpu_count()
+    # // world_size, LUMI try out.
 
 
 def torch_main_worker_finish_first(func: Callable):
@@ -149,16 +150,7 @@ def dataset_map_multi_worker(
     try:
         rank = torch.distributed.get_rank()
         world_size = torch.distributed.get_world_size()
-        # If not specified, use all of the CPUs we have available.
-        try:
-            num_proc = kwargs.get(
-                "num_proc", len(os.sched_getaffinity(0)) // world_size
-            )
-
-        except AttributeError:  # for MacOS
-            num_proc = kwargs.get(
-                "num_proc", multiprocessing.cpu_count() // world_size
-            )
+        num_proc = kwargs.get("num_proc", get_num_proc())
 
         if isinstance(num_proc, int) and num_proc > 0:
             kwargs["num_proc"] = num_proc
@@ -173,7 +165,7 @@ def dataset_map_multi_worker(
         if isinstance(num_proc, int) and num_proc > 0:
             kwargs["num_proc"] = num_proc
         else:
-            kwargs["num_proc"] = 1  # multi-gpus training without CPUS, LUMI., 0
+            kwargs["num_proc"] = 1  # multi-gpus training on LUMI.
         print("dataset kwargs:", kwargs)
         # world_size = 8  # nr. of gpus.
         # kwargs: {'batched': True, 'batch_size': 256, 'desc': 'Precomputing hypotheses for data', 'num_proc': 6}

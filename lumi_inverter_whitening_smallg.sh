@@ -108,9 +108,9 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_2layer_whitening --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
-          --ddp_find_unused_parameters True \
-          --use_frozen_embeddings_as_input True \
-          --whitening first_last \
+          --ddp_find_unused_parameters  \
+          --use_frozen_embeddings_as_input  \
+          --whitening \
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
@@ -128,8 +128,8 @@ else
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
           --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_2layer_whitening --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
-          --ddp_find_unused_parameters True \
-          --use_frozen_embeddings_as_input True \
-          --whitening first_last \
+          --ddp_find_unused_parameters  \
+          --use_frozen_embeddings_as_input  \
+          --whitening \
           --learning_rate ${LEARNING_RATE} "
 fi
