@@ -199,7 +199,7 @@ class InversionModel(transformers.PreTrainedModel):
         self,
         input_ids: torch.Tensor,
         attention_mask: torch.Tensor,
-        # token_type_ids: Optional[torch.Tensor] = None, # not used
+        token_type_ids: Optional[torch.Tensor] = None,  # not used
     ) -> torch.Tensor:
         embedder = self.embedder
         # print("** call_embedding_model")
