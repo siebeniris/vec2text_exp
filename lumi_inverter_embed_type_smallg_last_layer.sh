@@ -110,7 +110,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --learning_rate ${LEARNING_RATE} \
           --ddp_find_unused_parameters True \
           --use_frozen_embeddings_as_input True \
-          --embedding_output first_last \
+          --embedding_output last_hidden_state \
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
@@ -130,6 +130,6 @@ else
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --ddp_find_unused_parameters True \
           --use_frozen_embeddings_as_input True \
-          --embedding_output first_last \
+          --embedding_output last_hidden_state \
           --learning_rate ${LEARNING_RATE} "
 fi
