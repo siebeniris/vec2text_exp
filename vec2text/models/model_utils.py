@@ -33,7 +33,10 @@ EMBEDDER_MODEL_NAMES = [
     "xlmr_base",
     "bert-base-multilingual-uncased",
     "multi_sbert",
-    "mt5-base"
+    "mt5-base",
+    "text2vec-base-cmn",
+    "alephbert"
+
 ]
 
 
@@ -242,6 +245,14 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
         tokenizer = transformers.AutoTokenizer.from_pretrained(
             "sentence-transformers/distiluse-base-multilingual-cased-v2"
         )
+    elif name == "text2vec-base-cmn":
+        # no hidden state.
+        tokenizer = transformers.AutoTokenizer.from_pretrained('shibing624/text2vec-base-chinese-paraphrase')
+        # pad token = "PAD"
+        model = transformers.AutoModel.from_pretrained('shibing624/text2vec-base-chinese-paraphrase')
+    elif name == "alephbert":
+        model = transformers.AutoModel.from_pretrained('imvladikon/sentence-transformers-alephbert')
+        tokenizer = transformers.AutoTokenizer.from_pretrained('imvladikon/sentence-transformers-alephbert')
     elif name.startswith("sentence-transformers/"):
         model = SentenceTransformer(name)
         tokenizer = model.tokenizer
@@ -250,7 +261,6 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
         model = transformers.AutoModel.from_pretrained(name, **model_kwargs)
         tokenizer = transformers.AutoTokenizer.from_pretrained(name)
 
-    # model = torch.compile(model)
     return model, tokenizer
 
 

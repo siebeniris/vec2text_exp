@@ -159,25 +159,30 @@ class InversionModel(transformers.PreTrainedModel):
     ) -> torch.Tensor:
         if self.embedding_output == "first_last":
             # print("output the first+last embeddings")
-            assert hasattr(
-                outputs, "hidden_states"
-            ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
+            assert (hasattr(outputs, "hidden_states") and (outputs.hidden_states is not None)), \
+                "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
             hidden_states = outputs.hidden_states
             last_first_avg = (hidden_states[-1] + hidden_states[1]).mean(dim=1, keepdim=True)
             embeddings = mean_pool(last_first_avg, attention_mask)
             return embeddings
         elif self.embedding_output == "all_layers_avg":
-            assert hasattr(
-                outputs, "hidden_states"
-            ), "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
+            assert (hasattr(outputs, "hidden_states") and (outputs.hidden_states is not None)),\
+                "output missing hidden states - did you remember to initialize the model with output_hidden_states=True?"
             hidden_states = outputs.hidden_states
             all_layers_avg = sum(hidden_states).mean(dim=1, keepdim=True)
             embeddings = mean_pool(all_layers_avg, attention_mask)
             return embeddings
         elif self.embedding_output == "pooler_output":
             assert (hasattr(outputs, "pooler_output",) and (outputs.pooler_output is not None)), "output missing pooler_output"
-            # cls token
+            # cls token and overall pooling.
             return outputs.pooler_output
+        elif self.embedding_output == "last_hidden_state":
+            # for sentence transformers.
+            assert (hasattr(outputs, "last_hidden_state") and (outputs.last_hidden_state is not None)), \
+                "output missing last hidden state"
+            hidden_state = outputs.last_hidden_state
+            embeddings = mean_pool(hidden_state, attention_mask)
+            return embeddings
         else:
             if self.embeddings_from_layer_n is not None:
                 assert hasattr(
