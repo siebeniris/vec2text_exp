@@ -162,6 +162,8 @@ class CorrectorEncoderModel(transformers.PreTrainedModel):
             hypothesis_embedding=inputs["hypothesis_embedding"],
         )
 
+        ######### conditionGeneration
+
         if "decoder_input_ids" in inputs:
             return self.encoder_decoder.generate(
                 # required: input embeddings
