@@ -82,6 +82,7 @@ def eval_one_model(model_name, batch_size=8):
     trainer.args.per_device_eval_batch_size = batch_size
 
     for name, val_dataset in val_datasets.items():
+        trainer.args.eval_lang = name
         print(f"evaluating {name} val_dataset")
         if "corrector" in model_name:
             print("evaluating corrector ")

@@ -75,6 +75,7 @@ class BaseTrainer(transformers.Trainer):
 
         # added, for output embeddings and decoded sequences.
         self.output_save_dir = self.args.output_dir
+        self.eval_lang = self.args.eval_lang
 
     def enable_emb_cos_sim_metric(self) -> None:
         self.additional_metrics.append(vec2text.metrics.EmbeddingCosineSimilarity())
@@ -410,7 +411,7 @@ class BaseTrainer(transformers.Trainer):
         # print out the decoded_preds and decoded_labels (added)
         # using when training also, we can see what is going on with language decoding.
         timestamp = int(time())
-        eval_outputdir = os.path.join(self.output_save_dir, f"decoded_eval_{timestamp}")
+        eval_outputdir = os.path.join(self.output_save_dir, f"{self.eval_lang}_decoded_eval_{timestamp}")
         if not os.path.exists(eval_outputdir):
             os.makedirs(eval_outputdir)
 

@@ -375,7 +375,14 @@ class TrainingArguments(transformers.TrainingArguments):
     )
 
     include_inputs_for_metrics: bool = True
-
+    eval_lang: Optional[str] = field(
+        default="",
+        metadata={
+            "help": (
+                "used to control the output directory of evaluating val_datasets"
+            )
+        }
+    )
 
 
     def __setattr__(self, name, value):
