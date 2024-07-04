@@ -3,10 +3,10 @@ import copy
 import logging
 import os
 import random
-
+from time import time
 # import statistics
 from typing import Callable, Dict, List, Tuple, Union
-
+import pandas as pd
 import evaluate
 import nltk
 import numpy as np
@@ -72,6 +72,9 @@ class BaseTrainer(transformers.Trainer):
             "do_sample": False,
             "no_repeat_ngram_size": 0,
         }
+
+        # added, for output embeddings and decoded sequences.
+        self.output_save_dir = self.args.output_dir
 
     def enable_emb_cos_sim_metric(self) -> None:
         self.additional_metrics.append(vec2text.metrics.EmbeddingCosineSimilarity())
@@ -404,6 +407,19 @@ class BaseTrainer(transformers.Trainer):
         print("[pred]", decoded_preds[2])
         print("[true]", decoded_labels[2])
 
+        # print out the decoded_preds and decoded_labels (added)
+        # using when training also, we can see what is going on with language decoding.
+        timestamp = int(time())
+        eval_outputdir = os.path.join(self.output_save_dir, f"decoded_eval_{timestamp}")
+        if not os.path.exists(eval_outputdir):
+            os.makedirs(eval_outputdir)
+
+        outputfile = os.path.join(eval_outputdir, f"decoded_sequences.csv")
+        print("outptufile for decoded sequences: ", outputfile)
+        df = pd.DataFrame({"pred": decoded_preds, "labels": decoded_labels})
+        df.to_csv(outputfile)
+
+
         # Compute sims of eval data using embedder.
         preds_sample = torch.tensor(preds_sample_list, device=self.args.device)[:128]
         preds_sample_labels = torch.tensor(
@@ -468,6 +484,7 @@ class BaseTrainer(transformers.Trainer):
                 preds_sample_labels_retokenized = self.embedder_tokenizer(
                     decoded_labels, padding=True, truncation=False, return_tensors="pt"
                 )["input_ids"].to(preds_sample.device)
+
                 preds_sample_labels_retokenized = preds_sample_labels_retokenized[
                     : self.args.per_device_eval_batch_size, :
                 ]
@@ -478,6 +495,19 @@ class BaseTrainer(transformers.Trainer):
                     ),
                 )
                 emb_cos_sims = torch.nn.CosineSimilarity(dim=1)(preds_emb, labels_emb)
+
+                ###########################
+                print("saving embeddings for preds and labels ....")
+                print(f"saving embeddings for preds and labels to {eval_outputdir}")
+                outfile_emb_preds = os.path.join(eval_outputdir, f"embeddings_preds.npy")
+                outfile_emb_labels = os.path.join(eval_outputdir, f"embeddings_labels.npy")
+
+                preds_emb_cpu = preds_emb.cpu()
+                labels_emb_cpu = labels_emb.cpu()
+                np.save(outfile_emb_preds, preds_emb_cpu)
+                np.save(outfile_emb_labels, labels_emb_cpu)
+                #####################################
+
                 emb_topk_equal = (
                     (preds_emb[:, :32000].argmax(1) == labels_emb[:, :32000].argmax(1))
                     .float()

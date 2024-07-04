@@ -6,6 +6,7 @@ from . import (  # noqa: F401; analyze_utils,
     prompts,
     trainers,
     trainers_baseline,
+    analyze_utils
 )
 from .api import (  # noqa: F401
     invert_embeddings,

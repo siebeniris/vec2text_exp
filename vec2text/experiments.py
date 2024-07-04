@@ -6,12 +6,12 @@ import logging
 import os
 import resource
 import sys
-from typing import Dict, Optional
 import multiprocessing
 
 import datasets
 import torch
 import transformers
+from typing import Dict, Optional
 
 import vec2text
 from vec2text.collator import DataCollatorForCorrection
@@ -31,9 +31,9 @@ from vec2text.run_args import DataArguments, ModelArguments, TrainingArguments
 from vec2text.tokenize_data import (
     embed_dataset_batch,
     tokenize_function,
-    tokenize_function_llama_chat,
+    tokenize_function_llama_chat
 )
-from vec2text.utils import MockEmbedder, dataset_map_multi_worker, get_num_proc
+from vec2text.utils import MockEmbedder, dataset_map_multi_worker, set_cpu_affinity_lumi
 
 # Allow W&B to start slowly.
 os.environ["WANDB__SERVICE_WAIT"] = "300"
@@ -46,15 +46,26 @@ os.environ["_WANDB_STARTUP_DEBUG"] = "true"
 os.environ["TOKENIZERS_PARALLELISM"] = "False"
 # os.environ["TOKENIZERS_PARALLELISM"] = "True"
 
-device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
-
 logger = logging.getLogger(__name__)
 
 # We maintain our own cache because huggingface datasets caching
 # doesn't always work properly.
+cwd = os.getcwd()
 DATASET_CACHE_PATH = os.environ.get(
-    "VEC2TEXT_CACHE", os.path.expanduser("~/.cache/inversion")
+    "VEC2TEXT_CACHE", os.path.expanduser(f"{cwd}/.cache/inversion")
 )
+
+if os.getenv("RANK"):
+    rank = int(os.environ["RANK"])
+    local_rank = int(os.environ["LOCAL_RANK"])
+    world_size = int(os.environ["WORLD_SIZE"])
+    local_world_size = int(os.environ["LOCAL_WORLD_SIZE"])
+    device = torch.device("cuda", local_rank)
+    # print("lumi set the cpu affinity...")
+    set_cpu_affinity_lumi(local_rank)
+else:
+    device = torch.device(
+        "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 
 # Noisy compilation from torch.compile
 try:
@@ -103,7 +114,14 @@ class Experiment(abc.ABC):
 
         if training_args.output_dir is None:
             training_args.output_dir = os.path.join("saves", self.kwargs_hash)
+
         print(f"Experiment output_dir = {training_args.output_dir}")
+
+        if training_args.local_rank <= 0:
+            print(f"on rank 0, output dir: {training_args.output_dir}")
+            if not os.path.exists(training_args.output_dir):
+                os.makedirs(training_args.output_dir)
+
         # Set up output_dir and wandb.
         self._setup_logging()
         self._consider_init_wandb()
@@ -178,6 +196,9 @@ class Experiment(abc.ABC):
                 os.path.join(training_args.output_dir, "model_args.bin"),
             )
 
+        # self.training_args = training_args
+        print("checkpoint directory:", os.listdir(checkpoint))
+        print(f"world size {self._world_size} device {training_args.device}")
         # train.   :)
         print(f"train() called – resume-from_checkpoint = {checkpoint}")
         train_result = trainer.train(resume_from_checkpoint=checkpoint)
@@ -282,8 +303,10 @@ class Experiment(abc.ABC):
             self.training_args.exp_name,
             self.model_args.model_name_or_path,
             self.model_args.embedder_model_name,
+            self.model_args.max_seq_length,
+
         ]
-        name_args = [n for n in name_args if ((n is not None) and len(n))]
+        name_args = [str(n) for n in name_args if ((n is not None) and len(str(n)))]
         return "__".join(name_args)
 
     def _consider_init_wandb(self) -> None:
@@ -378,6 +401,7 @@ class Experiment(abc.ABC):
         column_names = list(raw_datasets["train"].features)
         ALLOWED_COLUMN_NAMES = {"frozen_embeddings"}
         column_names = [c for c in column_names if c not in ALLOWED_COLUMN_NAMES]
+        print(f"allowed columns {column_names}")
 
         # this argument allows us to *train* on less data (for example 1% of our training set).
         if data_args.use_less_data and (data_args.use_less_data > 0):
@@ -400,9 +424,7 @@ class Experiment(abc.ABC):
                     "text",
                     self.model_args.max_seq_length,
                     padding=False,
-                    prefix="search_document"
-                    if self.model_args.embedder_model_name
-                    == "nomic-ai/nomic-embed-text-v1"
+                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
                     else None,
                 ),
                 batched=True,
@@ -439,6 +461,7 @@ class Experiment(abc.ABC):
                     num_proc=1,
                 )
             tokenized_datasets = datasets.DatasetDict(new_tokenized_datasets)
+
         ###########################################################################
         max_eval_samples = min(
             len(tokenized_datasets["validation"]), self.data_args.max_eval_samples
@@ -450,7 +473,7 @@ class Experiment(abc.ABC):
             "idx", range(len(tokenized_datasets["validation"]))
         )
         tokenized_datasets["validation"].set_format("pt")
-        ###########################################################################
+
         return tokenized_datasets
 
     def _prepare_val_datasets_dict(
@@ -482,6 +505,8 @@ class Experiment(abc.ABC):
                     text_column_name="text",
                     max_seq_length=self.model_args.max_seq_length,
                     padding=False,
+                    prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
+                    else None,
                 ),
                 remove_columns=["text"],
                 batched=True,
@@ -495,6 +520,7 @@ class Experiment(abc.ABC):
         val_datasets_dict = val_datasets_dict.filter(lambda ex: ex["length"] > 1)
 
         if self.model_args.use_frozen_embeddings_as_input:
+            print("Using Frozen Embeddings as Input -- Val datasets")
             assert torch.cuda.is_available()
             model = model.to(device)
 
@@ -510,7 +536,9 @@ class Experiment(abc.ABC):
                     ),
                     num_proc=1,
                 )
+
             val_datasets_dict = datasets.DatasetDict(new_tokenized_datasets)
+
         return val_datasets_dict
 
     def _load_val_datasets_uncached(
@@ -550,6 +578,11 @@ class Experiment(abc.ABC):
             # people's caches.
             dataset_kwargs["suffix_conditioning"] = "False"
 
+        if self.model_args.embedding_output:
+            print("adding embedding type to dataset args.")
+            dataset_kwargs["embedding_output"] = "True"
+            dataset_kwargs["me5_prefix"] = "True"
+
         # os.environ["TOKENIZERS_PARALLELISM"] = "True"
         print(
             "Loading datasets with TOKENIZERS_PARALLELISM =",
@@ -584,7 +617,8 @@ class Experiment(abc.ABC):
         ######################################################################
         val_dataset_kwargs = {
             "dataset_name": "__".join(
-                ["ag_news", "arxiv", "xsum_doc", "xsum_summ", "wikibio"]
+                # ["ag_news", "arxiv", "xsum_doc", "xsum_summ", "wikibio"]
+                ["mt-ms"]
             ),
             **dataset_kwargs,
         }
@@ -594,7 +628,7 @@ class Experiment(abc.ABC):
         assert val_dataset_path != train_dataset_path
         if os.path.exists(val_dataset_path):
             val_datasets_dict = datasets.load_from_disk(val_dataset_path)
-            print("loaded dict of val datasets from", val_dataset_path)
+            print("loaded dict of val datasets from", val_dataset_path)
         else:
             val_datasets_dict = self._load_val_datasets_uncached(
                 model=model,

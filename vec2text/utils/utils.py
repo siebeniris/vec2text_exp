@@ -4,16 +4,15 @@ import os
 import shutil
 from concurrent.futures import ThreadPoolExecutor
 from typing import Callable
-
+import psutil
 import datasets
 import numpy as np
 import torch
 import tqdm
 import transformers
 from tenacity import retry, stop_after_attempt, wait_fixed
-
 datasets.disable_caching()
-
+import multiprocessing
 
 def emb(
     model: torch.nn.Module, input_ids: torch.Tensor, attention_mask: torch.Tensor
@@ -94,6 +93,46 @@ def embed_all_tokens(model: torch.nn.Module, tokenizer: transformers.AutoTokeniz
     return all_token_embeddings_tensor
 
 
+def get_world_size() -> int:
+    try:
+        return torch.distributed.get_world_size()
+    except (RuntimeError, ValueError):
+        return 1
+
+
+def set_cpu_affinity_lumi(local_rank):
+    """
+    Set up affinity cpus for LUMI.
+    """
+    LUMI_GPU_CPU_map = {
+        # A mapping from GCD to the closest CPU cores in a LUMI-G node
+        # Note that CPU cores 0, 8, 16, 24, 32, 40, 48, 56 are reserved for the
+        # system and not available for the user
+        # See https://docs.lumi-supercomputer.eu/hardware/lumig/
+        0: [49, 50, 51, 52, 53, 54, 55],
+        1: [57, 58, 59, 60, 61, 62, 63],
+        2: [17, 18, 19, 20, 21, 22, 23],
+        3: [25, 26, 27, 28, 29, 30, 31],
+        4: [1, 2, 3, 4, 5, 6, 7],
+        5: [9, 10, 11, 12, 13, 14, 15],
+        6: [33, 34, 35, 36, 37, 38, 39],
+        7: [41, 42, 43, 44, 45, 46, 47],
+    }
+    cpu_list = LUMI_GPU_CPU_map[local_rank]
+    # print(f"Rank {rank} (local {local_rank}) binding to cpus: {cpu_list}")
+    psutil.Process().cpu_affinity(cpu_list)
+
+
+def get_num_proc() -> int:
+    world_size: int = get_world_size()
+    try:
+        # os.sched_getaffinity respects schedulers, unlike cpu_count(), but it's only available
+        # on some Unix platforms, so we support both!
+        return len(os.sched_getaffinity(0)) // world_size  # type: ignore[attr-defined]
+    except AttributeError:
+        return multiprocessing.cpu_count() // world_size
+
+
 def torch_main_worker_finish_first(func: Callable):
     def wrapper(*args, **kwargs):
         # Get local rank (need to support non-DDP).
@@ -128,15 +167,41 @@ def dataset_map_multi_worker(
     try:
         rank = torch.distributed.get_rank()
         world_size = torch.distributed.get_world_size()
-        kwargs["num_proc"] = kwargs.get("num_proc", get_num_proc())
+        # If not specified, use all of the CPUs we have available.
+        try:
+            num_proc = kwargs.get(
+                "num_proc", len(os.sched_getaffinity(0)) // world_size
+            )
+
+        except AttributeError:  # for MacOS
+            num_proc = kwargs.get(
+                "num_proc", multiprocessing.cpu_count() // world_size
+            )
+
+        if isinstance(num_proc, int) and num_proc > 0:
+            kwargs["num_proc"] = num_proc
+        else:
+            kwargs["num_proc"] = 1  # 7
+
+        print(f" rank {rank}, world_size {world_size}, kwargs {kwargs}")
+
     except (RuntimeError, ValueError):
-        # In non-distributed mode, just run regular map()
-        kwargs["num_proc"] = kwargs.get("num_proc", get_num_proc())
+        num_proc = kwargs.get("num_proc", get_num_proc())
+
+        if isinstance(num_proc, int) and num_proc > 0:
+            kwargs["num_proc"] = num_proc
+        else:
+            kwargs["num_proc"] = 1  # multi-gpus training without CPUS, LUMI., 0
+        print("dataset kwargs:", kwargs)
+        # world_size = 8  # nr. of gpus.
+        # kwargs: {'batched': True, 'batch_size': 256, 'desc': 'Precomputing hypotheses for data', 'num_proc': 6}
+
         return dataset.map(map_fn, *args, **kwargs)
     datasets.disable_caching()
 
+    cwd = os.getcwd()
     cache_path = os.environ.get(
-        "VEC2TEXT_CACHE", os.path.expanduser("~/.cache/inversion")
+        "VEC2TEXT_CACHE", os.path.expanduser(f"{cwd}/.cache/inversion")
     )
     ds_shard_filepaths = [
         os.path.join(cache_path, f"{dataset._fingerprint}_subshard_{w}.cache")

@@ -29,6 +29,16 @@ EMBEDDER_MODEL_NAMES = [
     "gpt2-medium",
     "gpt2-large",
     "gpt2-xl",
+    "sentence-transformers/distiluse-base-multilingual-cased-v2",
+    "sgpt_bloom",
+    "multilingual_e5_base",
+    "xlmr_base",
+    "bert-base-multilingual-uncased",
+    "multi_sbert",
+    "mt5-base",
+    "text2vec-base-cmn",
+    "alephbert"
+
 ]
 
 
@@ -106,7 +116,7 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
     # name = "gpt2" #### <--- TEMP. For debugging. Delete!
     model_kwargs = {
         "low_cpu_mem_usage": True,  # Not compatible with DeepSpeed
-        "output_hidden_states": False,
+        "output_hidden_states": True,  # True output hidden states, for embedding last and first .
     }
 
     if name == "dpr":
@@ -229,6 +239,33 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
         #     model.to_bettertransformer()
         tokenizer = transformers.AutoTokenizer.from_pretrained(name)
         tokenizer.pad_token = tokenizer.eos_token
+    elif name == "multilingual_e5_base":
+        # for multilingual experiment.
+        # 768 (dim)
+        model = transformers.AutoModel.from_pretrained("intfloat/multilingual-e5-base", **model_kwargs)
+        tokenizer = transformers.AutoTokenizer.from_pretrained("intfloat/multilingual-e5-base")
+        tokenizer.pad_token = tokenizer.eos_token  # set the pad token to eos
+    elif name == "xlmr_base":
+        # for crosslingual cross-script experiment.
+        model = transformers.AutoModel.from_pretrained("FacebookAI/xlm-roberta-base", **model_kwargs)
+        tokenizer = transformers.AutoTokenizer.from_pretrained("FacebookAI/xlm-roberta-base")
+        tokenizer.pad_token = tokenizer.eos_token  # set the pad token to eos
+    elif name == "multi_sbert":
+        # https://huggingface.co/sentence-transformers/distiluse-base-multilingual-cased-v2
+        model = transformers.AutoModel.from_pretrained(
+            "sentence-transformers/distiluse-base-multilingual-cased-v2", **model_kwargs
+        )
+        tokenizer = transformers.AutoTokenizer.from_pretrained(
+            "sentence-transformers/distiluse-base-multilingual-cased-v2"
+        )
+    elif name == "text2vec-base-cmn":
+        # no hidden state.
+        tokenizer = transformers.AutoTokenizer.from_pretrained('shibing624/text2vec-base-chinese-paraphrase')
+        # pad token = "PAD"
+        model = transformers.AutoModel.from_pretrained('shibing624/text2vec-base-chinese-paraphrase')
+    elif name == "alephbert":
+        model = transformers.AutoModel.from_pretrained('imvladikon/sentence-transformers-alephbert')
+        tokenizer = transformers.AutoTokenizer.from_pretrained('imvladikon/sentence-transformers-alephbert')
     elif name.startswith("sentence-transformers/"):
         model = SentenceTransformer(name)
         tokenizer = model.tokenizer
@@ -242,7 +279,6 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
         model = transformers.AutoModel.from_pretrained(name, **model_kwargs)
         tokenizer = transformers.AutoTokenizer.from_pretrained(name)
 
-    # model = torch.compile(model)
     return model, tokenizer
 
 
