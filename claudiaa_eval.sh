@@ -9,7 +9,6 @@
 set -x
 
 MODEL_NAME=$1
-BATCH_SIZE=$2
 
 
 wd=$(pwd)
@@ -34,7 +33,7 @@ SIF=/home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
 echo "sif ${SIF}"
 
 
-echo "launch evaluation ${MODEL_NAME} with batch size ${BATCH_SIZE}"
+echo "launch evaluation ${MODEL_NAME}"
 
 srun singularity exec --nv --cleanenv --bind ${wd}:${wd} ${SIF} \
-  python -m evaluation ${MODEL_NAME} ${BATCH_SIZE}
+  python -m evaluation ${MODEL_NAME}
