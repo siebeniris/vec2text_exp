@@ -97,5 +97,7 @@ def eval_one_model(model_name):
 
 if __name__ == '__main__':
     import plac
+
+    os.environ["OPENAI_API_KEY"] = "sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
     plac.call(eval_one_model)
 

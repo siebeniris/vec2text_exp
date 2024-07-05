@@ -16,7 +16,6 @@ from vec2text.run_args import DataArguments, ModelArguments, TrainingArguments
 
 device = torch.device("cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
 transformers.logging.set_verbosity_error()
-os.environ["OPENAI_API_KEY"]= "sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
 
 #############################################################################
 
