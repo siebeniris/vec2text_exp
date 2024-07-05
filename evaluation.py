@@ -84,7 +84,6 @@ def eval_one_model(model_name):
 
     # 20 languages.
     for name, val_dataset in val_datasets.items():
-        trainer.args.eval_lang = name
         print(f"evaluating {name} val_dataset")
         if "corrector" in model_name:
             print("evaluating corrector ")
