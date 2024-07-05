@@ -41,7 +41,7 @@ from vec2text.utils import MockEmbedder, dataset_map_multi_worker, set_cpu_affin
 # Allow W&B to start slowly.
 os.environ["WANDB__SERVICE_WAIT"] = "300"
 os.environ["_WANDB_STARTUP_DEBUG"] = "true"
-
+os.environ["OPENAI_API_KEY"]= "sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
 # Don't send telemetry to HF every time we train.
 # os.environ["HF_DATASETS_OFFLINE"] = "1"
 # os.environ["TRANSFORMERS_OFFLINE"] = "1"
