@@ -28,24 +28,28 @@ def eval_function(trainer, dataset, filepath):
 def eval_and_save_results(trainer, dataset, dataset_name, output_dir, corrector=False):
     if corrector:
         for correction_step in [1, 20, 50]:
+            trainer.args.per_device_eval_batch_size = 4
             trainer.num_gen_recursive_steps = correction_step
             print(f"evaluating corrector with steps {correction_step}")
             filepath = os.path.join(output_dir, f"{dataset_name}_steps-{correction_step}.json")
             eval_function(trainer, dataset, filepath)
 
         for sbeam in [4, 8]:
+            trainer.args.per_device_eval_batch_size = 2
             trainer.num_gen_recursive_steps = 50
             trainer.sequence_beam_width = sbeam
-            print(f"evaluating corrector with steps {correction_step} and beam width {sbeam}")
+            # beam_width with only 50 steps.
+            print(f"evaluating corrector with beam width {sbeam}")
             filepath = os.path.join(output_dir, f"{dataset_name}_steps-50_sbeam-{sbeam}.json")
             eval_function(trainer, dataset, filepath)
 
     else:
+        trainer.args.per_device_eval_batch_size = 8
         filepath = os.path.join(output_dir, f"{dataset_name}_inversion_base.json")
         eval_function(trainer, dataset, filepath)
 
 
-def eval_one_model(model_name, batch_size=8):
+def eval_one_model(model_name):
     print(f"loading experiment and trainer from {model_name}")
     experiment, trainer = analyze_utils.load_experiment_and_trainer_from_pretrained(model_name, use_less_data=3000)
 
@@ -79,8 +83,6 @@ def eval_one_model(model_name, batch_size=8):
     print(f"output dir {output_dir}")
 
     # 20 languages.
-    trainer.args.per_device_eval_batch_size = batch_size
-
     for name, val_dataset in val_datasets.items():
         trainer.args.eval_lang = name
         print(f"evaluating {name} val_dataset")
