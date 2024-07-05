@@ -44,7 +44,7 @@ CHECKPOINT_FOLDERS_DICT = {
 
     # correctors
     # by script
-    "arab_script_32_me5_corrector_2layers": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layer_prefix",
+    "arab_script_32_me5_corrector_2layers": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix",
     "cyrl_script_32_me5_corrector_2layers": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix",
     "latn_script_32_me5_corrector_2layers": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_lat_scrp_32_2layers_prefix",
 
