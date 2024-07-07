@@ -28,13 +28,14 @@ CHECKPOINT_FOLDERS_DICT = {
     "cmn_Hani_32_me5_2layers": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix",
 
     # monolingual models
-    "deu_Latn_32_me5_last_layer": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_deu_Latn_32_last_layer",
-    "heb_Hebr_32_me5_last_layer": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32_last_layer",
-    "cmn_Hani_32_me5_last_layer": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_last_layer",
+    # last layers
+    "deu_Latn_32_me5_last_layer": f"{lumi_dir}/saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer",
+    "heb_Hebr_32_me5_last_layer": f"{lumi_dir}/saves/inverters/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer",
+    "cmn_Hani_32_me5_last_layer": f"{lumi_dir}/saves/inverters/mt5_text2vec-base-cmn_mt-ms_cmn_Hani_32_last_layer",
 
-    "deu_Latn_32_me5_corrector_last_layer": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_deu_Latn_32_last_layer",
-    "heb_Hebr_32_me5_corrector_last_layer": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_heb_Hebr_32_last_layer",
-    "cmn_Hani_32_me5_corrector_last_layer": f"{lumi_dir}/saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_last_layer",
+    "deu_Latn_32_me5_corrector_last_layer": f"{lumi_dir}/saves/correctors/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer",
+    "heb_Hebr_32_me5_corrector_last_layer": f"{lumi_dir}/saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer",
+    "cmn_Hani_32_me5_corrector_last_layer": f"{lumi_dir}/saves/correctors/mt5_text2vec-base-cmn_mt-ms_cmn_Hani_32_last_layer",
 
     # by family
     "indo-aryan_fami_32_me5_2layers": f"{lumi_dir}/saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix",
