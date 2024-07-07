@@ -1,6 +1,7 @@
 import re
 import json
 import os
+from collections import defaultdict
 
 
 # Log data as a string (assuming you have it stored in a variable or a file)
@@ -51,8 +52,6 @@ def get_log_info_eval_inverter(filepath):
                     if current_eval:
                         parsed_data['evaluations'].append(current_eval)
                         current_eval = {}
-                        current_preds = []
-                        current_trues = []
                     current_eval['dataset'] = match.group(1)
                 elif key == 'output_file':
                     current_eval['output_file'] = match.group(1)
@@ -67,7 +66,10 @@ def get_log_info_eval_inverter(filepath):
         parsed_data['evaluations'].append(current_eval)
 
     # Save the parsed data to a JSON file for further use
-    parsed_json_path = 'parsed_log_data.json'
+    model_name = parsed_data["model"].replace("yiyic/", "")
+
+
+    parsed_json_path = f'eval_logs/eval_{model_name}.json'
     with open(parsed_json_path, 'w') as json_file:
         json.dump(parsed_data, json_file, indent=4)
 
@@ -76,89 +78,132 @@ def get_log_info_eval_inverter(filepath):
 
 def get_log_info_eval_corrector(log_file_path):
     # Define a pattern to match each type of information
-    patterns={
-    'output_dir': re.compile(r'output dir (.+)'),
-    'model_params': re.compile(r'model (.+) parameters (\d+)'),
-    'evaluating_corrector': re.compile(r'evaluating (\w+_\w+) val_dataset with steps (\d+)'),
-    'beam_width': re.compile(r'beam width (\d+)'),
-    'output_file': re.compile(r'outptufile for decoded sequences: (.+)'),
-    'saved_embeddings': re.compile(r'saving embeddings for preds and labels to (.+)'),
-    'results': re.compile(r'saving results to (.+)'),
-    'cuda_error': re.compile(r'CUDA out of memory')}
+    patterns = {
+        'output_dir': re.compile(r'output dir (.+)'),
+        'model_params': re.compile(r'model (.+) parameters (\d+)'),
+        'evaluating_corrector': re.compile(r'evaluating (\w+_\w+) val_dataset'),
+        "correction_steps": re.compile(r'evaluating corrector with (.+)'),
+        'output_file': re.compile(r'outptufile for decoded sequences: (.+)'),
+        'saved_embeddings': re.compile(r'saving embeddings for preds and labels to (.+)'),
+        'results': re.compile(r'saving results to (.+)'),
+        'cuda_error': re.compile(r'CUDA out of memory'),
+        'results_exist': re.compile(r'(.+) already exists')
+    }
 
     # Container to hold the parsed data
     parsed_data = {
-    'output_dir': None,
-    'model': None,
-    'parameters': None,
-    'evaluations': []
+        'output_dir': None,
+        'model': None,
+        'parameters': None,
+        'evaluations': defaultdict(dict)
     }
 
-    try:
-        # Read the log data from the file
-        with open(log_file_path, 'r') as file:
-            log_data = file.read()
+    def parse_one_file(log_file_path):
+        try:
+            # Read the log data from the file
+            with open(log_file_path, 'r') as file:
+                log_data = file.read()
 
-        # Split the log into lines
-        log_lines = log_data.strip().split('\n')
+            # Split the log into lines
+            log_lines = log_data.strip().split('\n')
 
-        # Temporary variables to hold intermediate data
-        current_eval = {}
+            # Temporary variables to hold intermediate data
+            # {"1": {"output_files":xx, "embeddings_files":xxx, "results_files":xxx}}
+            current_eval_step = {
+                "output_files": None,
+                "embeddings_files": None,
+                "results_files": None
+            }
+            cuda_error_detected = False
+            dataset = None
+            correction_step = None
+            results_exist= False
+            for line in log_lines:
+                # Match patterns
+                for key, pattern in patterns.items():
+                    match = pattern.match(line)
+                    if match:
+                        if key == 'output_dir':
+                            parsed_data['output_dir'] = match.group(1)
+                        elif key == 'model_params':
+                            parsed_data['model'] = match.group(1)
+                            parsed_data['parameters'] = match.group(2)
+                        elif key == "evaluating_corrector":
+                            dataset = match.group(1)
+                        elif key == 'correction_steps':
+                            if results_exist:
+                                correction_step = match.group(1)
+                                current_eval_step = {
+                                    "output_files": None,
+                                    "embeddings_files": None,
+                                    "results_files": None
+                                }
+                                parsed_data['evaluations'][dataset][correction_step] = current_eval_step
 
-        cuda_error_detected = False
 
-        # Process each line
-        for line in log_lines:
-            # Match patterns
-            for key, pattern in patterns.items():
-                match = pattern.match(line)
-                if match:
-                    if key == 'output_dir':
-                        parsed_data['output_dir'] = match.group(1)
-                    elif key == 'model_params':
-                        parsed_data['model'] = match.group(1)
-                        parsed_data['parameters'] = match.group(2)
-                    elif key == 'evaluating_corrector':
-                        # If there's already an evaluation in progress, save it
-                        if current_eval:
+                            else:
 
-                            parsed_data['evaluations'].append(current_eval)
-                            current_eval = {}
-                        current_eval['dataset'] = match.group(1)
-                        current_eval['steps'] = match.group(2)
-                        cuda_error_detected = False
-                    elif key == 'beam_width':
-                        current_eval['beam_width'] = match.group(1)
-                    elif key == 'output_file' and not cuda_error_detected:
-                        current_eval['output_file'] = match.group(1)
-                    elif key == 'saved_embeddings':
-                        current_eval['embeddings_file'] = match.group(1)
-                    elif key == 'results':
-                        current_eval['results_file'] = match.group(1)
-                    elif key == 'cuda_error':
-                        cuda_error_detected = True
-                    break
+                                if current_eval_step["output_files"]:
+                                    parsed_data['evaluations'][dataset][correction_step] = current_eval_step
+                                    current_eval_step = {
+                                        "output_files": None,
+                                        "embeddings_files": None,
+                                        "results_files": None
+                                    }
 
-        # Save the last evaluation in progress
-        if current_eval:
+                                correction_step = match.group(1)
+                            results_exist = False
 
-            parsed_data['evaluations'].append(current_eval)
+
+                        elif key == 'output_file':
+                            current_eval_step["output_files"] = match.group(1)
+                        elif key == 'saved_embeddings':
+                            current_eval_step["embeddings_files"] = match.group(1)
+
+                        elif key == 'results':
+                            current_eval_step["results_files"] = match.group(1)
+                        elif key == 'cuda_error':
+                            cuda_error_detected = True
+                        elif key == 'results_exist':
+                            results_exist = True
+                        break
+
+        except Exception as e:
+            print(f"Exception {e}")
+
+
+    if "," in log_file_path:
+        # the later files come first
+        logfile_names = sorted([int(x) for x in log_file_path.split(",")], reverse=True)
+        file_paths = [f"eval_{x}.out" for x in logfile_names]
+        for filepath in file_paths:
+            print(filepath)
+            parse_one_file(filepath)
+            # print(parsed_data)
+    else:
+        parse_one_file(f"eval_{log_file_path}.out")
 
         # Save the parsed data to a JSON file for further use
-        parsed_json_path = 'parsed_log_data_corrector.json'
+    if parsed_data["model"]:
+        model_name = parsed_data["model"].replace("yiyic/", "")
+        parsed_json_path = f'eval_logs/eval_{model_name}.json'
         with open(parsed_json_path, 'w') as json_file:
             json.dump(parsed_data, json_file, indent=4)
 
 
-    except Exception as e:
-        # Handle exceptions silently
-        pass
+
 
 
 def main(filepath, model_type):
+    # file path can be multiples.
+    output_folder = "eval_logs"
+    if not os.path.exists(output_folder):
+        os.makedirs(output_folder)
+
     if model_type == "inverter":
         get_log_info_eval_inverter(filepath)
     elif model_type == "corrector":
+        print("evaluating corrector")
         get_log_info_eval_corrector(filepath)
     else:
         print("choose model type between inverter and corrector")
