@@ -27,7 +27,8 @@ def eval_function(trainer, dataset, filepath):
 
 def eval_and_save_results(trainer, dataset, dataset_name, output_dir, corrector=False):
     if corrector:
-        for correction_step in [1, 20, 50]:
+        # for correction_step in [1, 20, 50]:
+        for correction_step in [1]:
             if correction_step == 1:
                 trainer.args.per_device_eval_batch_size = 4
             else:
@@ -37,7 +38,8 @@ def eval_and_save_results(trainer, dataset, dataset_name, output_dir, corrector=
             filepath = os.path.join(output_dir, f"{dataset_name}_steps-{correction_step}.json")
             eval_function(trainer, dataset, filepath)
 
-        for sbeam in [4, 8]:
+        # for sbeam in [4, 8]:
+        for sbeam in [8]:
             trainer.args.per_device_eval_batch_size = 2
             trainer.num_gen_recursive_steps = 50
             trainer.sequence_beam_width = sbeam
