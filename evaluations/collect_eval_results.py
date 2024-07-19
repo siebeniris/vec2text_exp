@@ -54,13 +54,13 @@ def read_results_files(lingual="monolingual", metric="eval_bleu_score", outputfo
 
                     for step, eval_files in eval_steps.items():
                         if "steps 1" in step:
-                            with open(eval_files["results_file"]) as f:
+                            with open(eval_files["results_files"]) as f:
                                 results = json.load(f)
                             metric_result = results[metric]
                             results_model_dict[model][eval_dataset]["Step1"] = metric_result
 
                         if "beam width 8" in step:
-                            with open(eval_files["results_file"]) as f:
+                            with open(eval_files["results_files"]) as f:
                                 results = json.load(f)
                             metric_result = results[metric]
                             results_model_dict[model][eval_dataset]["Step50_sbeam8"] = metric_result
