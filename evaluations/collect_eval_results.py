@@ -19,6 +19,9 @@ def read_one_file(filepath, metric="eval_bleu_score"):
 
 def read_results_files(lingual="monolingual", metric="eval_bleu_score", outputfolder="results/mt5_me5"):
     results_model_dict = defaultdict(dict)
+
+    if not os.path.exists(outputfolder):
+        os.makedirs(outputfolder)
     # {model:{deu_latn:{"base":x1, "step1":x2, "50+sbeam8":x3}...}...}
     for file in os.listdir(f"eval_logs/{lingual}/"):
         if file.endswith(".json"):
