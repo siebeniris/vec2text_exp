@@ -46,25 +46,24 @@ def read_results_files(lingual="monolingual", metric="eval_bleu_score", outputfo
                     results_model_dict[model][eval_dataset]["Base"] = metric_result
 
             else:
-                for eval in eval_files["evaluations"].items():
+                for eval_dataset, eval_steps in eval_files["evaluations"].items():
                     # eval_dataset: {eval_step: results}
-                    for eval_dataset, eval_steps in eval.items():
-                        eval_dataset = eval["dataset"]
-                        if eval_dataset not in results_model_dict[model]:
-                            results_model_dict[model][eval_dataset] = dict()
+                    eval_dataset = eval_dataset["dataset"]
+                    if eval_dataset not in results_model_dict[model]:
+                        results_model_dict[model][eval_dataset] = dict()
 
-                        for step, eval_files in eval_steps.items():
-                            if "steps 1" in step:
-                                with open(eval_files["results_file"]) as f:
-                                    results = json.load(f)
-                                metric_result = results[metric]
-                                results_model_dict[model][eval_dataset]["Step1"] = metric_result
+                    for step, eval_files in eval_steps.items():
+                        if "steps 1" in step:
+                            with open(eval_files["results_file"]) as f:
+                                results = json.load(f)
+                            metric_result = results[metric]
+                            results_model_dict[model][eval_dataset]["Step1"] = metric_result
 
-                            if "beam width 8" in step:
-                                with open(eval_files["results_file"]) as f:
-                                    results = json.load(f)
-                                metric_result = results[metric]
-                                results_model_dict[model][eval_dataset]["Step50_sbeam8"] = metric_result
+                        if "beam width 8" in step:
+                            with open(eval_files["results_file"]) as f:
+                                results = json.load(f)
+                            metric_result = results[metric]
+                            results_model_dict[model][eval_dataset]["Step50_sbeam8"] = metric_result
     outputfile = os.path.join(outputfolder, f"{lingual}_{metric}.json")
     print(f"saving to {outputfile}")
     with open(outputfile, "w") as f:
