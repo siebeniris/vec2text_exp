@@ -1,0 +1,643 @@
+working directory /home/cs.aau.dk/ng78zb/vec2text_exp
+sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
+launch evaluation yiyic/mt5_me5_ara-script_32_2layers_corrector
+loading experiment and trainer from yiyic/mt5_me5_ara-script_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_ara-script_32_2layers_corrector
+on rank 0, output dir: saves/yiyic__mt5_me5_ara-script_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_arab-script_32_2layers_inverter
+on rank 0, output dir: saves/yiyic__mt5_me5_arab-script_32_2layers_inverter
+adding embedding type to dataset args.
+Loading datasets with TOKENIZERS_PARALLELISM = False
+loading train dataset from path: /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/dfad573e7568eae48c7cb218b18b61e3.arrow
+loaded dict of val datasets from /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/b7c2d88873c9bb4061ee54b83d4d22ce.arrow
+07/08/2024 11:04:32 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+07/08/2024 11:05:32 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+data arguments for experiment: DataArguments(dataset_name='mt-ms_ara_scrp', max_eval_samples=500, use_less_data=3000)
+model yiyic/mt5_me5_ara-script_32_2layers_corrector parameters 890566656
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+Using Frozen Embeddings as Input -- Val datasets
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '24e7b7ef1b0606ddc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7cf9deee5c6ee34dc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7d3c7a3fdc899099c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a808a07212534aa6c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '1835610d5c7fc595c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '74575508bfab4c9cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'af6bef1b30e3c5dbc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'bfa2f55e85bb2562c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd839c9a8871bbce8c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '67555e67fd16afc9c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '48ec325196197014c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a20c740ae5a0d86bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'cc2235accdffe49bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '104320b250ecc6cac111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd7b432ef61da1e93c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'c06e214a198bcc2cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '3ae3df71733802abc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '18a40ab4beb7f210c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '96cd5258a58b461bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7ee1e04e96a3faa2c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+output dir ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations
+evaluating deu_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-50_sbeam-8.json already exists
+evaluating ydd_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-50_sbeam-8.json already exists
+evaluating heb_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-50_sbeam-8.json already exists
+evaluating arb_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+[pred] query: فساتين الزفاف من أزياء الميكيّة تشكّل زفافًا أنيقًا بالأزهار
+[true] query: فستان زفاف أنيق بقصّة الأميرة من نسيج الميكادو، مُزيّن بالأزهار
+
+
+
+[pred] query: الرئيس التنفيذي لمجموعة القمة الإسلامية د. رشيد الدين العيسى يطلق منصة 20 
+[true] query: رئيس القمة الدينية لمجموعة العشرين الشيخ د.محمد العيسى يطلق منصة R20 
+
+
+
+[pred] query: تسعى كلية العلوم الإسلامية إلى تحول مكانة وسمعة مرموقة بين جامعات العالم، 
+[true] query: تسعى كلية العلوم الإسلامية إلى تبوأ مكانة وسمعة مرموقة بين جامعات العالم، 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720439608/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720439608
+{'eval_loss': 1.2515853643417358, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.6072621879754231, 'eval_token_set_recall': 0.6250835561411406, 'eval_token_set_f1': 0.6149961276765924, 'eval_token_set_f1_sem': 0.00861632713318865, 'eval_n_ngrams_match_1': 9.446, 'eval_n_ngrams_match_2': 5.18, 'eval_n_ngrams_match_3': 3.09, 'eval_num_true_words': 15.48, 'eval_num_pred_words': 15.292, 'eval_bleu_score': 28.72559847356535, 'eval_bleu_score_sem': 1.120705610972135, 'eval_rouge_score': 0.9468150793650795, 'eval_exact_match': 0.05, 'eval_exact_match_sem': 0.009756555783754993, 'eval_emb_cos_sim': 0.9243035316467285, 'eval_emb_cos_sim_sem': 0.04575118377527292, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9980.521, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-50_sbeam-8.json
+evaluating amh_Ethi val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: Mar 20, 2020· سمندری تہذیب 'ڈیمرے' and their colonies سمندر ہمالیہ
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: وحدت کی جدوجہد - Ikhwan Wiki وحدت کی جدوجہد - Ikhwan Wiki ہم
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: ہفتے کھیلے جانے والے20 مشتعل کھلاڑیؤں کی بنگلہ دیش کو روانہ
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720439739/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720439739
+{'eval_loss': 8.100285530090332, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2527721549949884, 'eval_token_set_recall': 0.27018502146288564, 'eval_token_set_f1': 0.25656650528307323, 'eval_token_set_f1_sem': 0.003525282459922829, 'eval_n_ngrams_match_1': 2.98, 'eval_n_ngrams_match_2': 1.186, 'eval_n_ngrams_match_3': 0.08, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 13.92, 'eval_bleu_score': 6.801923196133967, 'eval_bleu_score_sem': 0.12322166477161099, 'eval_rouge_score': 0.5583273388788715, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8485461473464966, 'eval_emb_cos_sim_sem': 0.012779922224581242, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 130.7669, 'eval_samples_per_second': 3.824, 'eval_steps_per_second': 0.956}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-1.json
+evaluating corrector with steps 20
+[pred] query: March 20, 2020·جزائر ہمالیہ کی تہذیب and heritage جزائر ہمالیہ کی تہذیب
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: وحدت کی حکمت عملی - Ikhwan Wiki وحدت کی حکمت عملی - Ikhwan Wiki
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: کھیلے جانے والے20 مشتعل کھلاڑیوں کی ہفتے بنگلہ دیش سے رجوع ←
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720443724/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720443724
+{'eval_loss': 8.100419044494629, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24526321981252397, 'eval_token_set_recall': 0.27970259302101425, 'eval_token_set_f1': 0.25407645582274135, 'eval_token_set_f1_sem': 0.0032477174756639516, 'eval_n_ngrams_match_1': 2.886, 'eval_n_ngrams_match_2': 1.17, 'eval_n_ngrams_match_3': 0.068, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 13.842, 'eval_bleu_score': 6.545879994773398, 'eval_bleu_score_sem': 0.1066031320213252, 'eval_rouge_score': 0.5255728870103891, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8613585829734802, 'eval_emb_cos_sim_sem': 0.01905220759774531, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 3984.2414, 'eval_samples_per_second': 0.125, 'eval_steps_per_second': 0.063}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-20.json
+evaluating corrector with steps 50
+[pred] query: March 20, 2020·جزائر ہمالیہ کی تہذیب and heritage جزائر ہمالیہ کی تہذیب
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: وحدت کی حکمت عملی - Ikhwan Wiki وحدت کی حکمت عملی - Ikhwan Wiki
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: کھیلے جانے والے20 مشتعل کھلاڑیوں کی ہفتے بنگلہ دیش سے رجوع ←
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720453618/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720453618
+{'eval_loss': 8.100419044494629, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24526321981252397, 'eval_token_set_recall': 0.27970259302101425, 'eval_token_set_f1': 0.25407645582274135, 'eval_token_set_f1_sem': 0.0032477174756639516, 'eval_n_ngrams_match_1': 2.886, 'eval_n_ngrams_match_2': 1.17, 'eval_n_ngrams_match_3': 0.068, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 13.842, 'eval_bleu_score': 6.545879994773398, 'eval_bleu_score_sem': 0.1066031320213252, 'eval_rouge_score': 0.5255728870103891, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8613585829734802, 'eval_emb_cos_sim_sem': 0.01905220759774531, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 9894.0425, 'eval_samples_per_second': 0.051, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-50.json
+evaluating corrector with beam width 4
+[pred] query: Mar 20, 2020· سمندر کے تہذیب 'ڈیمرے' and their colonies سمندر کے تہذ
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: وحدت کی حکمت عملی - Ikhwan Wiki وحدت کی حکمت عملی - Ikhwan Wiki
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: کھیلے جانے والے20 مشھور کھلاڑیوں کی ووہان سے روانگی Last updated March 20, 2020
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720458714/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720458714
+{'eval_loss': 8.100419044494629, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24630410535457042, 'eval_token_set_recall': 0.27223070474417255, 'eval_token_set_f1': 0.25239022103138475, 'eval_token_set_f1_sem': 0.0032601073409197164, 'eval_n_ngrams_match_1': 2.906, 'eval_n_ngrams_match_2': 1.158, 'eval_n_ngrams_match_3': 0.066, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 13.776, 'eval_bleu_score': 6.557314919202652, 'eval_bleu_score_sem': 0.1142606295495961, 'eval_rouge_score': 0.5059134624049175, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8606750965118408, 'eval_emb_cos_sim_sem': 0.008751839191402704, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 5096.5228, 'eval_samples_per_second': 0.098, 'eval_steps_per_second': 0.049}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-50_sbeam-4.json
+evaluating corrector with beam width 8
+[pred] query: March 20, 2020·جزائر ہمالیہ کی تہذیب and heritage جزائر ہمالیہ کی تہذیب
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: وحدت کی حکمت عملی - Ikhwan Wiki وحدت کی حکمت عملی - Ikhwan Wiki
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: کھیلے جانے والے20 مشتعل کھلاڑیوں کی ہفتے بنگلہ دیش سے رجوع ←
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720468597/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720468597
+{'eval_loss': 8.100419044494629, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24526321981252397, 'eval_token_set_recall': 0.27970259302101425, 'eval_token_set_f1': 0.25407645582274135, 'eval_token_set_f1_sem': 0.0032477174756639516, 'eval_n_ngrams_match_1': 2.886, 'eval_n_ngrams_match_2': 1.17, 'eval_n_ngrams_match_3': 0.068, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 13.842, 'eval_bleu_score': 6.545879994773398, 'eval_bleu_score_sem': 0.1066031320213252, 'eval_rouge_score': 0.5255728870103891, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8613585829734802, 'eval_emb_cos_sim_sem': 0.01905220759774531, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 9882.7002, 'eval_samples_per_second': 0.051, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-50_sbeam-8.json
+evaluating mlt_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: Muscle Problems - Muscle Problems - Muscle Problems - Anatomic and Ergonomic Discussions
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: 'Mijn-e-Chitral' – First reported vaccine report for a pandemic in Pakistan, reported by
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: 'Mlg' يُسمح لمؤلف لعبة غير 'Mlg' who is not an
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720468727/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720468727
+{'eval_loss': 5.519445419311523, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2451350781657285, 'eval_token_set_recall': 0.33281048969949945, 'eval_token_set_f1': 0.2741577412438166, 'eval_token_set_f1_sem': 0.0039208706838051895, 'eval_n_ngrams_match_1': 3.504, 'eval_n_ngrams_match_2': 1.196, 'eval_n_ngrams_match_3': 0.092, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 14.028, 'eval_bleu_score': 6.383980861949858, 'eval_bleu_score_sem': 0.10819416617500104, 'eval_rouge_score': 0.14500855105766194, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9031293392181396, 'eval_emb_cos_sim_sem': 0.01700703054666519, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.28867512941360474, 'eval_runtime': 129.8462, 'eval_samples_per_second': 3.851, 'eval_steps_per_second': 0.963}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-1.json
+evaluating corrector with steps 20
+[pred] query: Muscle Problems in Musculation - Technical Dialogues Muscle Problems in Musculation - Technical Dialogues
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: 'Mijn-e-Chitral' – First report for a new coronavirus diagnosis in Sweden, says reporting,
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: 'Mlg' يُسمح لمن لا يهتم بلعبه 'Mlg' is not
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720472704/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720472704
+{'eval_loss': 5.51935338973999, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23700132429490034, 'eval_token_set_recall': 0.3366424241049633, 'eval_token_set_f1': 0.26815087760743217, 'eval_token_set_f1_sem': 0.003725507484483299, 'eval_n_ngrams_match_1': 3.358, 'eval_n_ngrams_match_2': 1.164, 'eval_n_ngrams_match_3': 0.076, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 14.054, 'eval_bleu_score': 6.0570260797706625, 'eval_bleu_score_sem': 0.11373544561363452, 'eval_rouge_score': 0.13829102085996361, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9195611476898193, 'eval_emb_cos_sim_sem': 0.022733896817120867, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 3976.7808, 'eval_samples_per_second': 0.126, 'eval_steps_per_second': 0.063}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-20.json
+evaluating corrector with steps 50
+[pred] query: Muscle Problems in Musculation - Technical Dialogues Muscle Problems in Musculation - Technical Dialogues
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: 'Mijn-e-Chitral' – First report for a new coronavirus diagnosis in Sweden, says reporting,
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: 'Mlg' يُسمح لمن لا يهتم بلعبه 'Mlg' is not
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720482580/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720482580
+{'eval_loss': 5.51935338973999, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23715517044874648, 'eval_token_set_recall': 0.3365515150140542, 'eval_token_set_f1': 0.2682223061788607, 'eval_token_set_f1_sem': 0.003730522972170171, 'eval_n_ngrams_match_1': 3.36, 'eval_n_ngrams_match_2': 1.164, 'eval_n_ngrams_match_3': 0.076, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 14.056, 'eval_bleu_score': 6.056788147055293, 'eval_bleu_score_sem': 0.11372992579542772, 'eval_rouge_score': 0.1382975073326353, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9195611476898193, 'eval_emb_cos_sim_sem': 0.022733896817120867, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9876.4611, 'eval_samples_per_second': 0.051, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-50.json
+evaluating corrector with beam width 4
+[pred] query: Dictional Problems in Muscular Movements and Exercises - Technical Lessons and Practical Tools ل
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: 'Mijn-e-Chitral' – First reported report for a new coronavirus in Pakistan, says reporting,
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: 'Mlgm' ينحدر لمن لا يلعب 'Mlgm' is not me,
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720487675/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720487675
+{'eval_loss': 5.51935338973999, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2431392164251302, 'eval_token_set_recall': 0.3349724191615062, 'eval_token_set_f1': 0.2716497828137342, 'eval_token_set_f1_sem': 0.0038182427263989595, 'eval_n_ngrams_match_1': 3.472, 'eval_n_ngrams_match_2': 1.2, 'eval_n_ngrams_match_3': 0.09, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 13.998, 'eval_bleu_score': 6.245645982261116, 'eval_bleu_score_sem': 0.10976213686875633, 'eval_rouge_score': 0.14935157122604303, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.922987699508667, 'eval_emb_cos_sim_sem': 0.02670207528798218, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 5094.7863, 'eval_samples_per_second': 0.098, 'eval_steps_per_second': 0.049}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-50_sbeam-4.json
+evaluating corrector with beam width 8
+[pred] query: Muscle Problems in Musculation - Technical Dialogues Muscle Problems in Musculation - Technical Dialogues
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: 'Mijn-e-Chitral' – First report for a new coronavirus diagnosis in Sweden, says reporting,
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: 'Mlg' يُسمح لمن لا يهتم بلعبه 'Mlg' is not
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720497551/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720497551
+{'eval_loss': 5.51935338973999, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23715517044874648, 'eval_token_set_recall': 0.3365515150140542, 'eval_token_set_f1': 0.2682223061788607, 'eval_token_set_f1_sem': 0.003730522972170171, 'eval_n_ngrams_match_1': 3.36, 'eval_n_ngrams_match_2': 1.164, 'eval_n_ngrams_match_3': 0.076, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 14.056, 'eval_bleu_score': 6.056788147055293, 'eval_bleu_score_sem': 0.11372992579542772, 'eval_rouge_score': 0.1382975073326353, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9195611476898193, 'eval_emb_cos_sim_sem': 0.022733896817120867, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9876.297, 'eval_samples_per_second': 0.051, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-50_sbeam-8.json
+evaluating hin_Deva val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: Breaking News : مسلمان غلط نہ کر لیں!!! : مسلمان غلط نہ کر لیں 
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Urdu Solutions for Class 11 - RBSE Solutions for Class 11 - RBSE Solutions for Class 11 - RBSE Solutions for
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: بھارتی صدر نریندر مودی کا صدارتی انتخابات کا وقت صرف 14 دن ہی ہونا ہے,
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720497681/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720497681
+{'eval_loss': 6.784603118896484, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22125081033032, 'eval_token_set_recall': 0.25661178734779855, 'eval_token_set_f1': 0.23471290267817116, 'eval_token_set_f1_sem': 0.005075806438111031, 'eval_n_ngrams_match_1': 4.026, 'eval_n_ngrams_match_2': 1.426, 'eval_n_ngrams_match_3': 0.214, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 17.204, 'eval_bleu_score': 6.269606972034502, 'eval_bleu_score_sem': 0.19678446749440295, 'eval_rouge_score': 0.5250953928670994, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.908606231212616, 'eval_emb_cos_sim_sem': 0.010564135387539864, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 129.5809, 'eval_samples_per_second': 3.859, 'eval_steps_per_second': 0.965}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-1.json
+evaluating corrector with steps 20
+[pred] query: Multilingual News : مسلمان غلط نہ کر لیں!! : مسلمان غلط نہ کر لیں!! 
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Urdu Solutions for Class 9 - RBSE Solutions for Class 9 - RBSE Solutions for Class 9 Urdu Solutions for Class 9
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: نئی دہلی میں صدر مملکت نریندر مودی کا 14 ماہ مکمل ہونے کا صرف time
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720501678/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720501678
+{'eval_loss': 6.784678936004639, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22421175743536803, 'eval_token_set_recall': 0.25850320250784675, 'eval_token_set_f1': 0.2375133001174414, 'eval_token_set_f1_sem': 0.00526003884886274, 'eval_n_ngrams_match_1': 4.098, 'eval_n_ngrams_match_2': 1.464, 'eval_n_ngrams_match_3': 0.24, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 17.372, 'eval_bleu_score': 6.346017658860526, 'eval_bleu_score_sem': 0.207005207279268, 'eval_rouge_score': 0.5135143110896923, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9195365905761719, 'eval_emb_cos_sim_sem': 0.019220829236103302, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 3997.4255, 'eval_samples_per_second': 0.125, 'eval_steps_per_second': 0.063}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-20.json
+evaluating corrector with steps 50
+[pred] query: Multilingual News : مسلمان غلط نہ کر لیں!! : مسلمان غلط نہ کر لیں!! 
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Urdu Solutions for Class 9 - RBSE Solutions for Class 9 - RBSE Solutions for Class 9 Urdu Solutions for Class 9
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: نئی دہلی میں صدر مملکت نریندر مودی کا 14 ماہ مکمل ہونے کا صرف time
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720511613/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720511613
+{'eval_loss': 6.784678936004639, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22421175743536803, 'eval_token_set_recall': 0.25850320250784675, 'eval_token_set_f1': 0.2375133001174414, 'eval_token_set_f1_sem': 0.00526003884886274, 'eval_n_ngrams_match_1': 4.098, 'eval_n_ngrams_match_2': 1.464, 'eval_n_ngrams_match_3': 0.24, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 17.372, 'eval_bleu_score': 6.346017658860526, 'eval_bleu_score_sem': 0.207005207279268, 'eval_rouge_score': 0.513618649285386, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9195365905761719, 'eval_emb_cos_sim_sem': 0.019220829236103302, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9934.5402, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-50.json
+evaluating corrector with beam width 4
+[pred] query: Islamic News : مسلمان غلط نہ کرتے!!! : مسلمان غلط نہ کرتے!!! : 
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Solutions for Class 11 - Basharat Urdu Solutions for Class 11 - Basharat Urdu Solutions for Class 11 RBSE
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: نئی دہلی میں صدر مملکت نریندر مودی کا 14 ماہ مکمل ہونے کا صرف time
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720516719/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720516719
+{'eval_loss': 6.784678936004639, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2246614590697143, 'eval_token_set_recall': 0.25822613894608154, 'eval_token_set_f1': 0.23727376710398465, 'eval_token_set_f1_sem': 0.005215604498718619, 'eval_n_ngrams_match_1': 4.072, 'eval_n_ngrams_match_2': 1.45, 'eval_n_ngrams_match_3': 0.23, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 17.412, 'eval_bleu_score': 6.33046573122488, 'eval_bleu_score_sem': 0.19816702233600234, 'eval_rouge_score': 0.5149998658592088, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9296824932098389, 'eval_emb_cos_sim_sem': 0.009775549263239872, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 5105.9587, 'eval_samples_per_second': 0.098, 'eval_steps_per_second': 0.049}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-50_sbeam-4.json
+evaluating corrector with beam width 8
+[pred] query: Multilingual News : مسلمان غلط نہ کر لیں!! : مسلمان غلط نہ کر لیں!! 
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Urdu Solutions for Class 9 - RBSE Solutions for Class 9 - RBSE Solutions for Class 9 Urdu Solutions for Class 9
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: نئی دہلی میں صدر مملکت نریندر مودی کا 14 ماہ مکمل ہونے کا صرف time
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720526659/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720526659
+{'eval_loss': 6.784678936004639, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22421175743536803, 'eval_token_set_recall': 0.25850320250784675, 'eval_token_set_f1': 0.2375133001174414, 'eval_token_set_f1_sem': 0.00526003884886274, 'eval_n_ngrams_match_1': 4.098, 'eval_n_ngrams_match_2': 1.464, 'eval_n_ngrams_match_3': 0.24, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 17.372, 'eval_bleu_score': 6.346017658860526, 'eval_bleu_score_sem': 0.207005207279268, 'eval_rouge_score': 0.513618649285386, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9195365905761719, 'eval_emb_cos_sim_sem': 0.019220829236103302, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9940.0585, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-50_sbeam-8.json
+evaluating urd_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: رؤف کلاسرا سے قائد اعظم تک۔۔رؤف کلاسرا مرکزی صفحہ/ لکھاری
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: سنسنی خیز سوناکشی سوشل میڈیا کے مداحوں میں مبتلا ہو چکی نہ صرف اپنی 
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: نئی دہلی:مہاراشٹر میں گزشتہ 14سالوں میں 3,500 کسانوں نے خود(2018-19
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720526789/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720526789
+{'eval_loss': 0.865215539932251, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.6983972070510359, 'eval_token_set_recall': 0.725134992183599, 'eval_token_set_f1': 0.7103932879648674, 'eval_token_set_f1_sem': 0.007007072796203609, 'eval_n_ngrams_match_1': 11.952, 'eval_n_ngrams_match_2': 7.232, 'eval_n_ngrams_match_3': 4.618, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 16.832, 'eval_bleu_score': 36.904546677108925, 'eval_bleu_score_sem': 1.1038694752941927, 'eval_rouge_score': 0.9041209893821356, 'eval_exact_match': 0.036, 'eval_exact_match_sem': 0.008339490043664344, 'eval_emb_cos_sim': 0.9617598652839661, 'eval_emb_cos_sim_sem': 0.011384987272322178, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.28867512941360474, 'eval_runtime': 130.2852, 'eval_samples_per_second': 3.838, 'eval_steps_per_second': 0.959}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-1.json
+evaluating corrector with steps 20
+[pred] query: قائداعظم سے نہرو تک۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری / ر
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: سوناکشی مایہ ناز اداکارہ خود سوشل میڈیا کے دھندے میں مبتلا ہو گئیں نہ صرف
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: نئی دہلی: مہاراشٹر میں پچھلے14سالوں میں 3,500 کسانوں نے خود(2018-19
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720530816/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720530816
+{'eval_loss': 0.8648465871810913, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.7876532547409512, 'eval_token_set_recall': 0.7992667121126129, 'eval_token_set_f1': 0.7927371817298736, 'eval_token_set_f1_sem': 0.007931433036337488, 'eval_n_ngrams_match_1': 13.518, 'eval_n_ngrams_match_2': 9.178, 'eval_n_ngrams_match_3': 6.706, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 16.908, 'eval_bleu_score': 50.14172957394301, 'eval_bleu_score_sem': 1.3817012693598478, 'eval_rouge_score': 0.9279957353963549, 'eval_exact_match': 0.15, 'eval_exact_match_sem': 0.0159847121351649, 'eval_emb_cos_sim': 0.9831848740577698, 'eval_emb_cos_sim_sem': 0.009391844354396694, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 4027.0876, 'eval_samples_per_second': 0.124, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-20.json
+evaluating corrector with steps 50
+[pred] query: قائداعظم سے نہرو تک۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری / ر
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: سوناکشی مایہ ناز اداکارہ خود سوشل میڈیا کے دھندے میں مبتلا ہو گئیں نہ صرف
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: نئی دہلی: مہاراشٹر میں پچھلے14سالوں میں 3,500 کسانوں نے خود(2018-19
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720540820/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720540820
+{'eval_loss': 0.8648465871810913, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.7873865880742845, 'eval_token_set_recall': 0.7992835188353019, 'eval_token_set_f1': 0.7926164920747012, 'eval_token_set_f1_sem': 0.007933654207983455, 'eval_n_ngrams_match_1': 13.514, 'eval_n_ngrams_match_2': 9.174, 'eval_n_ngrams_match_3': 6.704, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 16.902, 'eval_bleu_score': 50.1345632909681, 'eval_bleu_score_sem': 1.3817612977816087, 'eval_rouge_score': 0.9279957353963549, 'eval_exact_match': 0.15, 'eval_exact_match_sem': 0.0159847121351649, 'eval_emb_cos_sim': 0.9831848740577698, 'eval_emb_cos_sim_sem': 0.009391844354396694, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 10003.7497, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-50.json
+evaluating corrector with beam width 4
+[pred] query: قائداعظم سے نہرو تک۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری / ر
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: سوناکشی سنہا سوشل میڈیا کے مداحوں میں خودکشی نشانہ ہو گئیں نہ صرف مینس
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: نئی دہلی:مہاراشٹر میں پچھلے 14سالوں میں 3,500 کسانوں نے خود(2018-19
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720545941/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720545941
+{'eval_loss': 0.8648465871810913, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.7632728770291194, 'eval_token_set_recall': 0.7777043587826603, 'eval_token_set_f1': 0.7696294539717252, 'eval_token_set_f1_sem': 0.0078993638034692, 'eval_n_ngrams_match_1': 13.11, 'eval_n_ngrams_match_2': 8.52, 'eval_n_ngrams_match_3': 6.03, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 16.882, 'eval_bleu_score': 45.92249358518307, 'eval_bleu_score_sem': 1.3185618757254414, 'eval_rouge_score': 0.923063581138504, 'eval_exact_match': 0.118, 'eval_exact_match_sem': 0.014441922942480794, 'eval_emb_cos_sim': 0.9901559352874756, 'eval_emb_cos_sim_sem': 0.0024207829402919023, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 5121.6736, 'eval_samples_per_second': 0.098, 'eval_steps_per_second': 0.049}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-50_sbeam-4.json
+evaluating corrector with beam width 8
+[pred] query: قائداعظم سے نہرو تک۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری / ر
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: سوناکشی مایہ ناز اداکارہ خود سوشل میڈیا کے دھندے میں مبتلا ہو گئیں نہ صرف
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: نئی دہلی: مہاراشٹر میں پچھلے14سالوں میں 3,500 کسانوں نے خود(2018-19
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720555949/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720555949
+{'eval_loss': 0.8648465871810913, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.7873865880742845, 'eval_token_set_recall': 0.7992835188353019, 'eval_token_set_f1': 0.7926164920747012, 'eval_token_set_f1_sem': 0.007933654207983455, 'eval_n_ngrams_match_1': 13.514, 'eval_n_ngrams_match_2': 9.174, 'eval_n_ngrams_match_3': 6.704, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 16.902, 'eval_bleu_score': 50.1345632909681, 'eval_bleu_score_sem': 1.3817612977816087, 'eval_rouge_score': 0.9279957353963549, 'eval_exact_match': 0.15, 'eval_exact_match_sem': 0.0159847121351649, 'eval_emb_cos_sim': 0.9831848740577698, 'eval_emb_cos_sim_sem': 0.009391844354396694, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 10007.2992, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-50_sbeam-8.json
+evaluating guj_Gujr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 'ہمارے شادی کے موقع پر بھائی کیوں؟'- ماں باپ کو خطاب کرتے '
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: وزیراعظم جاوید چودھری کا سفر آج سے شروع, read this article here! - Showing all events,
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: ہدایتکار ہربھون کا شاہ رخ ڈرامے 3 میں ملیں گے | Khabrain Group Pakistan ہد
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720556081/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720556081
+{'eval_loss': 8.666765213012695, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.21877994328512954, 'eval_token_set_recall': 0.21845302845589296, 'eval_token_set_f1': 0.21522541933245923, 'eval_token_set_f1_sem': 0.0031723036680693355, 'eval_n_ngrams_match_1': 2.96, 'eval_n_ngrams_match_2': 1.082, 'eval_n_ngrams_match_3': 0.018, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 15.074, 'eval_bleu_score': 5.992047083805606, 'eval_bleu_score_sem': 0.07509376056287821, 'eval_rouge_score': 0.5705866586337642, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9096004962921143, 'eval_emb_cos_sim_sem': 0.00849490612745285, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 132.5244, 'eval_samples_per_second': 3.773, 'eval_steps_per_second': 0.943}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-1.json
+evaluating corrector with steps 20
+[pred] query: 'ہمارے شادی کے موقع پر بھائی کو خطاب کیوں کرتے؟'-ماں باپ کہا
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: وزیراعظم چودھری شجاعت کا دورہ آج سے شروع, read all activities here! - Jhelum Updates
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: شاہ رخ خان کا ڈرامہ ڈرون 3 میں دیکھیں گے | FikroKhabar شاہ رخ خان
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720560071/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720560071
+{'eval_loss': 8.66630744934082, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22154953704706068, 'eval_token_set_recall': 0.22062356155196747, 'eval_token_set_f1': 0.21742898970140248, 'eval_token_set_f1_sem': 0.003212534801880409, 'eval_n_ngrams_match_1': 3.0, 'eval_n_ngrams_match_2': 1.078, 'eval_n_ngrams_match_3': 0.02, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 15.27, 'eval_bleu_score': 5.863380445922668, 'eval_bleu_score_sem': 0.08123324235153073, 'eval_rouge_score': 0.5388400345405489, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9226433634757996, 'eval_emb_cos_sim_sem': 0.001091897498873033, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 3990.1112, 'eval_samples_per_second': 0.125, 'eval_steps_per_second': 0.063}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-20.json
+evaluating corrector with steps 50
+[pred] query: 'ہمارے شادی کے موقع پر بھائی کو خطاب کیوں کرتے؟'-ماں باپ کہا
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: وزیراعظم چودھری شجاعت کا دورہ آج سے شروع, read all activities here! - Jhelum Updates
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: شاہ رخ خان کا ڈرامہ ڈرون 3 میں دیکھیں گے | FikroKhabar شاہ رخ خان
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720569985/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720569985
+{'eval_loss': 8.66630744934082, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22154953704706068, 'eval_token_set_recall': 0.2207614403398463, 'eval_token_set_f1': 0.21751210658451942, 'eval_token_set_f1_sem': 0.0032205410718216644, 'eval_n_ngrams_match_1': 3.0, 'eval_n_ngrams_match_2': 1.078, 'eval_n_ngrams_match_3': 0.02, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 15.262, 'eval_bleu_score': 5.8664443944791635, 'eval_bleu_score_sem': 0.08120713772093786, 'eval_rouge_score': 0.5388400345405489, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9226433634757996, 'eval_emb_cos_sim_sem': 0.001091897498873033, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9913.9728, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-50.json
+evaluating corrector with beam width 4
+[pred] query: شادی کے موقع پر ماں-بھائی کو 'ہمارے ساتھیوں' کیوں کہا؟ - kara
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: آج سے چوہدری شجاعت کالاہور پریس کانفرنس کا سفر شروع, read everything here! - J
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: شاہ رخ خان کا ڈرامہ ڈرون 3 میں دیکھیں گے | FikroKhabar شاہ رخ خان
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720575092/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720575092
+{'eval_loss': 8.66630744934082, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22083698436066906, 'eval_token_set_recall': 0.21790378713993316, 'eval_token_set_f1': 0.21627391407362076, 'eval_token_set_f1_sem': 0.0032361181125734086, 'eval_n_ngrams_match_1': 2.996, 'eval_n_ngrams_match_2': 1.078, 'eval_n_ngrams_match_3': 0.01, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 15.208, 'eval_bleu_score': 5.86675328588526, 'eval_bleu_score_sem': 0.06354777205660762, 'eval_rouge_score': 0.5250875278174683, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9283334016799927, 'eval_emb_cos_sim_sem': 0.004935622170664183, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 5106.5088, 'eval_samples_per_second': 0.098, 'eval_steps_per_second': 0.049}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-50_sbeam-4.json
+evaluating corrector with beam width 8
+[pred] query: 'ہمارے شادی کے موقع پر بھائی کو خطاب کیوں کرتے؟'-ماں باپ کہا
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: وزیراعظم چودھری شجاعت کا دورہ آج سے شروع, read all activities here! - Jhelum Updates
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: شاہ رخ خان کا ڈرامہ ڈرون 3 میں دیکھیں گے | FikroKhabar شاہ رخ خان
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720585014/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720585014
+{'eval_loss': 8.66630744934082, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22154953704706068, 'eval_token_set_recall': 0.2207614403398463, 'eval_token_set_f1': 0.21751210658451942, 'eval_token_set_f1_sem': 0.0032205410718216644, 'eval_n_ngrams_match_1': 3.0, 'eval_n_ngrams_match_2': 1.078, 'eval_n_ngrams_match_3': 0.02, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 15.262, 'eval_bleu_score': 5.8664443944791635, 'eval_bleu_score_sem': 0.08120713772093786, 'eval_rouge_score': 0.5388400345405489, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9226433634757996, 'eval_emb_cos_sim_sem': 0.001091897498873033, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9922.1566, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-50_sbeam-8.json
+evaluating sin_Sinh val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: لوگ دیکھتے رہے ⬅️⬅️⬅️⬅️ استاد دیکھتے رہے 16 مارچ جب ایک
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: سجیلا موٹائی... سجیلا موٹائی... سجیلا موٹائی... Posted on March 24, 2017 March
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: ننھی لڑکی کے معاملے میں ہو گئے... سری لنکا - Jaun News ننھی لڑ
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720585143/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720585143
+{'eval_loss': 8.418585777282715, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23744957326814922, 'eval_token_set_recall': 0.25496673267393066, 'eval_token_set_f1': 0.24332855945305956, 'eval_token_set_f1_sem': 0.0038594940292374673, 'eval_n_ngrams_match_1': 3.43, 'eval_n_ngrams_match_2': 1.278, 'eval_n_ngrams_match_3': 0.118, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 15.652, 'eval_bleu_score': 6.464015675374056, 'eval_bleu_score_sem': 0.16169697533131183, 'eval_rouge_score': 0.5945628395551146, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9169343113899231, 'eval_emb_cos_sim_sem': 0.008865582756698132, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 129.2498, 'eval_samples_per_second': 3.868, 'eval_steps_per_second': 0.967}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-1.json
+evaluating corrector with steps 20
+[pred] query: تعلیم ⬅️⬅️⬅️ استاد دیکھتے دیکھتے لوگ ہمارے پاس ہیں مارچ 16, 2016
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: سیکوئی میلے... قلم Posted by سیکوئی میلے... قلم Posted by سیکوئی میلے...
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: ننھی لڑکی کے عین ہوتے ہی... سری لنکا - Jaun News ننھی لڑکی کے
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720589148/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720589148
+{'eval_loss': 8.419111251831055, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23397712235305138, 'eval_token_set_recall': 0.2515746698949488, 'eval_token_set_f1': 0.23994155943123388, 'eval_token_set_f1_sem': 0.0037101863225857436, 'eval_n_ngrams_match_1': 3.374, 'eval_n_ngrams_match_2': 1.272, 'eval_n_ngrams_match_3': 0.114, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 15.91, 'eval_bleu_score': 6.314389049053952, 'eval_bleu_score_sem': 0.15469818413899156, 'eval_rouge_score': 0.5697869600773092, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9072641730308533, 'eval_emb_cos_sim_sem': 0.009788453442873794, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 4004.8521, 'eval_samples_per_second': 0.125, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-20.json
+evaluating corrector with steps 50
+[pred] query: تعلیم ⬅️⬅️⬅️ استاد دیکھتے دیکھتے لوگ ہمارے پاس ہیں مارچ 16, 2016
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: سیکوئی میلے... قلم Posted by سیکوئی میلے... قلم Posted by سیکوئی میلے...
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: ننھی لڑکی کے عین ہوتے ہی... سری لنکا - Jaun News ننھی لڑکی کے
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720599111/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1720599111
+{'eval_loss': 8.419111251831055, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23397712235305138, 'eval_token_set_recall': 0.25152125109153, 'eval_token_set_f1': 0.23991533714694707, 'eval_token_set_f1_sem': 0.003711695598543704, 'eval_n_ngrams_match_1': 3.374, 'eval_n_ngrams_match_2': 1.272, 'eval_n_ngrams_match_3': 0.114, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 15.912, 'eval_bleu_score': 6.313949676265727, 'eval_bleu_score_sem': 0.15471170218691355, 'eval_rouge_score': 0.5697869600773092, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9072641730308533, 'eval_emb_cos_sim_sem': 0.009788453442873794, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 9963.0503, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-50.json
+evaluating corrector with beam width 4

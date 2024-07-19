@@ -1,0 +1,463 @@
+working directory /home/cs.aau.dk/ng78zb/vec2text_exp
+sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
+launch evaluation yiyic/mt5_me5_ara-script_32_2layers_corrector
+loading experiment and trainer from yiyic/mt5_me5_ara-script_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_ara-script_32_2layers_corrector
+on rank 0, output dir: saves/yiyic__mt5_me5_ara-script_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_arab-script_32_2layers_inverter
+on rank 0, output dir: saves/yiyic__mt5_me5_arab-script_32_2layers_inverter
+adding embedding type to dataset args.
+Loading datasets with TOKENIZERS_PARALLELISM = False
+loading train dataset from path: /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/dfad573e7568eae48c7cb218b18b61e3.arrow
+loaded dict of val datasets from /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/b7c2d88873c9bb4061ee54b83d4d22ce.arrow
+07/16/2024 17:40:55 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+07/16/2024 17:42:05 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+data arguments for experiment: DataArguments(dataset_name='mt-ms_ara_scrp', max_eval_samples=500, use_less_data=3000)
+model yiyic/mt5_me5_ara-script_32_2layers_corrector parameters 890566656
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+Using Frozen Embeddings as Input -- Val datasets
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '24e7b7ef1b0606ddc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7cf9deee5c6ee34dc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7d3c7a3fdc899099c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a808a07212534aa6c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '1835610d5c7fc595c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '74575508bfab4c9cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'af6bef1b30e3c5dbc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'bfa2f55e85bb2562c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd839c9a8871bbce8c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '67555e67fd16afc9c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '48ec325196197014c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a20c740ae5a0d86bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'cc2235accdffe49bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '104320b250ecc6cac111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd7b432ef61da1e93c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'c06e214a198bcc2cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '3ae3df71733802abc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '18a40ab4beb7f210c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '96cd5258a58b461bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7ee1e04e96a3faa2c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+output dir ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations
+evaluating deu_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-50_sbeam-8.json already exists
+evaluating ydd_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-50_sbeam-8.json already exists
+evaluating heb_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-50_sbeam-8.json already exists
+evaluating arb_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-50_sbeam-8.json already exists
+evaluating amh_Ethi val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-50_sbeam-8.json already exists
+evaluating mlt_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-50_sbeam-8.json already exists
+evaluating hin_Deva val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-50_sbeam-8.json already exists
+evaluating urd_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-50_sbeam-8.json already exists
+evaluating guj_Gujr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-50_sbeam-8.json already exists
+evaluating sin_Sinh val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-1.json already exists
+evaluating corrector with beam width 8
+[pred] query: تعلیم ⬅️⬅️⬅️ استاد دیکھتے دیکھتے لوگ ہمارے پاس ہیں مارچ 16, 2016
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: سیکوئی میلے... قلم Posted by سیکوئی میلے... قلم Posted by سیکوئی میلے...
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: ننھی لڑکی کے عین ہوتے ہی... سری لنکا - Jaun News ننھی لڑکی کے
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721161840/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721161840
+{'eval_loss': 8.418535232543945, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2342721003282925, 'eval_token_set_recall': 0.2521174208058885, 'eval_token_set_f1': 0.24020305435970593, 'eval_token_set_f1_sem': 0.003712304777154234, 'eval_n_ngrams_match_1': 3.376, 'eval_n_ngrams_match_2': 1.266, 'eval_n_ngrams_match_3': 0.114, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 15.878, 'eval_bleu_score': 6.296014448958167, 'eval_bleu_score_sem': 0.15327589266672603, 'eval_rouge_score': 0.5701861950007896, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9040465354919434, 'eval_emb_cos_sim_sem': 0.012727498727874698, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17193.1, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-50_sbeam-8.json
+evaluating pan_Guru val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: ہڑتالوں کی وجہ سے کھانا فیکٹری کھل گئے تانا فیکٹری کھل گئے
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: مودی کے خوابوں کو ٹھیک کرنے کیلئے 'اے پی پی' تیار - Parhlo Urdu
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: جاں بحق شہدا کے تصاویر ہائوس میں بھیجے جانے کی ضرورت : 
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721162065/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721162065
+{'eval_loss': 8.808919906616211, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2299281512948699, 'eval_token_set_recall': 0.23357746275052785, 'eval_token_set_f1': 0.22999457716917704, 'eval_token_set_f1_sem': 0.0035367004865493427, 'eval_n_ngrams_match_1': 3.002, 'eval_n_ngrams_match_2': 1.086, 'eval_n_ngrams_match_3': 0.026, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 14.53, 'eval_bleu_score': 6.1191715559474815, 'eval_bleu_score_sem': 0.0568621160015194, 'eval_rouge_score': 0.7779528614253043, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9055724143981934, 'eval_emb_cos_sim_sem': 0.007265924476087093, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 224.2248, 'eval_samples_per_second': 2.23, 'eval_steps_per_second': 0.557}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/pan_Guru_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: ہڑتالوں کی وجہ سے کھانا فیکٹری کھل گئے تانا فیکٹری کھل گئے
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: مودی کے خوابوں کو ٹھیک کرنے کیلئے 'اے پی سی' شروع - Dunya Pakistan م
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: جاں بحق شہدا کی تصاویر ہائوس میں بھیجنے کے لئے ہدایات:
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721179227/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721179227
+{'eval_loss': 8.810132026672363, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22975195167749393, 'eval_token_set_recall': 0.22986333082122612, 'eval_token_set_f1': 0.22796838749107826, 'eval_token_set_f1_sem': 0.0036157894593916553, 'eval_n_ngrams_match_1': 3.006, 'eval_n_ngrams_match_2': 1.098, 'eval_n_ngrams_match_3': 0.03, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 14.93, 'eval_bleu_score': 5.95954446460417, 'eval_bleu_score_sem': 0.06045770642167649, 'eval_rouge_score': 0.7425593865781845, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9087625741958618, 'eval_emb_cos_sim_sem': 0.02220702169806421, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 17161.7106, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/pan_Guru_steps-50_sbeam-8.json
+evaluating tur_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: haberler | TRT Cumhuriyet Gazetesi haberler | TRT Cumhuriyet Gazetesi haber 15... ترک حزب اختلاف ایک بار
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: Fenerbahçe - Dinamo Zagreb Fenerbahçe - Dinamo Zagreb: Dinamo Zagreb: Hakem Hakem Açıklaması
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: Çocuk Kitapları Çocuk Kitapları Çocuk Kitapları Çocuk – Çocuk eğitimi öğrenme 7 – 14 yaşındaki çocuklar
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721179449/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721179449
+{'eval_loss': 3.250201940536499, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23913500350960012, 'eval_token_set_recall': 0.3587907222464505, 'eval_token_set_f1': 0.2792534231274141, 'eval_token_set_f1_sem': 0.004157760012846743, 'eval_n_ngrams_match_1': 3.964, 'eval_n_ngrams_match_2': 1.306, 'eval_n_ngrams_match_3': 0.124, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 16.696, 'eval_bleu_score': 5.9498964746936815, 'eval_bleu_score_sem': 0.10104428186296553, 'eval_rouge_score': 0.20270748984968567, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8946282863616943, 'eval_emb_cos_sim_sem': 0.013901345431804657, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.28867512941360474, 'eval_runtime': 222.5737, 'eval_samples_per_second': 2.246, 'eval_steps_per_second': 0.562}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/tur_Latn_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: | TRT Cumhuriyet Gazetesi | TRT Cumhuriyet Gazetesi | TRT Cumhuriyet Gazetesi... ترک تحریک ایک بار پھ
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: Fenerbahçe - Dinamo Zagreb: Dinamo Zagreb vs Danimarka Hakem Kurulu Kurulu haberleşmiştir. 07:13
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: Çocuk eğitimi kitapları Çocuk eğitimi kitapları 7 – 14 yaşındaki çocuklar Beslenme & alışveriş Alışkanlığı D
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721196619/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721196619
+{'eval_loss': 3.250377893447876, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22852211918889848, 'eval_token_set_recall': 0.3461160177369932, 'eval_token_set_f1': 0.2673076138535628, 'eval_token_set_f1_sem': 0.004112099489579676, 'eval_n_ngrams_match_1': 3.772, 'eval_n_ngrams_match_2': 1.3, 'eval_n_ngrams_match_3': 0.11, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 16.608, 'eval_bleu_score': 5.824206739571382, 'eval_bleu_score_sem': 0.11147415331904732, 'eval_rouge_score': 0.19327010097745953, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9230207204818726, 'eval_emb_cos_sim_sem': 0.022875636668663, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17169.939, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/tur_Latn_steps-50_sbeam-8.json
+evaluating kaz_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: MİMAĞRIS AĞRIS AĞRIS MİMAĞRIS ASSOCIATION آرگنائزیشن اور حفاظتی
+[true] query: ҚМГ АЛТЫН ЕРЕЖЕЛЕРІ - ЕҢбек қауіпсіздігі және еңбекті қОРҒау жиналыстарын
+
+
+
+[pred] query: Методика репертуарی для тестирования психотипы психотипы психотипы дата 18.07.2018 2018-08-18 а
+[true] query: психометриялық тестілеу кестесі инструкция по приму апелляциялық ведомость 18.10.2018 ж No 578 бұйры
+
+
+
+[pred] query: İsa Mirza - Yazarları - Tarix - Dawn News عظیم الشان لکھاری،
+[true] query: Ыбырай Алтынсарин - Ы - Ұлы заман Тұлғалары - Скачать Рефераты,
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721196841/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721196841
+{'eval_loss': 5.426908016204834, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2284174904730634, 'eval_token_set_recall': 0.27220468063927855, 'eval_token_set_f1': 0.24286431067854652, 'eval_token_set_f1_sem': 0.0037095465446149137, 'eval_n_ngrams_match_1': 3.544, 'eval_n_ngrams_match_2': 1.148, 'eval_n_ngrams_match_3': 0.076, 'eval_num_true_words': 15.352, 'eval_num_pred_words': 16.5, 'eval_bleu_score': 5.69138459239863, 'eval_bleu_score_sem': 0.08314428813772695, 'eval_rouge_score': 0.4458315720562498, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9064117670059204, 'eval_emb_cos_sim_sem': 0.011050061322748661, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 221.903, 'eval_samples_per_second': 2.253, 'eval_steps_per_second': 0.563}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/kaz_Cyrl_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: MAĞMAĞMAĞMAĞMAĞMAĞM فورم کا آئینہ ہے حفاظتی کارروائیاں اور
+[true] query: ҚМГ АЛТЫН ЕРЕЖЕЛЕРІ - ЕҢбек қауіпсіздігі және еңбекті қОРҒау жиналыстарын
+
+
+
+[pred] query: Памятка психометрию атауы аз 18.05.2018 Памятка психометрию атауы аз 18.05.2018 психометрию атауы
+[true] query: психометриялық тестілеу кестесі инструкция по приму апелляциялық ведомость 18.10.2018 ж No 578 бұйры
+
+
+
+[pred] query: Ibn Asir - Qalamkar - Tarix - Tariq e Qalamkar عظیم شاعر ہیں
+[true] query: Ыбырай Алтынсарин - Ы - Ұлы заман Тұлғалары - Скачать Рефераты,
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721214037/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721214037
+{'eval_loss': 5.430337429046631, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22900248799188455, 'eval_token_set_recall': 0.26728361626333785, 'eval_token_set_f1': 0.24088582684891355, 'eval_token_set_f1_sem': 0.0038214585949698783, 'eval_n_ngrams_match_1': 3.546, 'eval_n_ngrams_match_2': 1.172, 'eval_n_ngrams_match_3': 0.082, 'eval_num_true_words': 15.352, 'eval_num_pred_words': 16.676, 'eval_bleu_score': 5.503366967067914, 'eval_bleu_score_sem': 0.09523608733388658, 'eval_rouge_score': 0.44836177460571736, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9021005630493164, 'eval_emb_cos_sim_sem': 0.005339384040314738, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17195.6781, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/kaz_Cyrl_steps-50_sbeam-8.json
+evaluating cmn_Hani val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: [摘要]一季度,一季度,一季度,一季度,一季度,一季度,一季度,一季度,一季度,一季度,一季度 تراجع حاد
+[true] query: 下行以及现货成交偏弱拖累,市场主导地区价格继续快速调低,邯郸中板价格重
+
+
+
+[pred] query: 产品编号:2018-12-12吊吊吊吊吊吊吊吊吊吊吊吊吊吊吊厂家具有很好的优势的特点,在全国范围内
+[true] query: 每日彩票 珍珠棉的包装定位是一种具有高强的缓冲吸震抗震作用的有明显环保效力的包装
+
+
+
+[pred] query: cryptocurrency公司开发了 cryptocurrency的方式,可以设置了 cryptocurrency的方式,可以设置了美元(美元)的市场资金. حاليا
+[true] query: 火币云于上个月刚刚推出,允许用户开发他们自己的类似火币网的数字货币交易平台,其中包括钱
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721214257/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721214257
+{'eval_loss': 5.055638790130615, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 31.9140625, 'eval_token_set_precision': 0.3623710102762745, 'eval_token_set_recall': 0.3440562187640368, 'eval_token_set_f1': 0.32867857929145566, 'eval_token_set_f1_sem': 0.00489960723659923, 'eval_n_ngrams_match_1': 2.538, 'eval_n_ngrams_match_2': 1.004, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 7.802, 'eval_num_pred_words': 14.398, 'eval_bleu_score': 6.029138733105708, 'eval_bleu_score_sem': 0.19773784770579125, 'eval_rouge_score': 0.551373069454622, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8656671047210693, 'eval_emb_cos_sim_sem': 0.027138251811265945, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 219.7147, 'eval_samples_per_second': 2.276, 'eval_steps_per_second': 0.569}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/cmn_Hani_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: [center]حالة تراجع شديدة,حالة تراجع شديدة,حالة تراجع شديدة,حالة توقف
+[true] query: 下行以及现货成交偏弱拖累,市场主导地区价格继续快速调低,邯郸中板价格重
+
+
+
+[pred] query: <% if( today_view > 0 today_view > 0》》》》》》》》》》》》》》
+[true] query: 每日彩票 珍珠棉的包装定位是一种具有高强的缓冲吸震抗震作用的有明显环保效力的包装
+
+
+
+[pred] query: {%D8%B1%D8%B1%D8%B1%D8%B1%D8%B1%D8%B1%D8%
+[true] query: 火币云于上个月刚刚推出,允许用户开发他们自己的类似火币网的数字货币交易平台,其中包括钱
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721231419/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721231419
+{'eval_loss': 5.057102203369141, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 31.9140625, 'eval_token_set_precision': 0.34607829743356167, 'eval_token_set_recall': 0.31163827884362016, 'eval_token_set_f1': 0.29965212509855715, 'eval_token_set_f1_sem': 0.004529113905639794, 'eval_n_ngrams_match_1': 2.358, 'eval_n_ngrams_match_2': 1.002, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 7.802, 'eval_num_pred_words': 17.814, 'eval_bleu_score': 4.567474513399423, 'eval_bleu_score_sem': 0.15677657885664203, 'eval_rouge_score': 0.48419100310612806, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.7793337106704712, 'eval_emb_cos_sim_sem': 0.02123844628952437, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17162.4375, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/cmn_Hani_steps-50_sbeam-8.json
+evaluating jpn_Jpan val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 时间:星期天,星期天,星期天,星期天. دروازے سے باہر نکلتے ہوئے موسم
+[true] query: 花立山荘では夜半から雨が降り続いていて、朝にちょっとだけ雨脚が弱くなったときに出発。 しばらく
+
+
+
+[pred] query: صخرے کی عکّف، قبل ازیں صخرے کی عکّف، قبل ازیں صخرے میں
+[true] query: 今シーズン初の凍結した桧原湖の湖上撮影です。 かなり結氷は進んでいましたが、まだワカサギ
+
+
+
+[pred] query: There are some people who are strongly against Twitter’s target="_blank" target="_blank" target="_blank" target="_blank
+[true] query: まず少なくともこの人たちチームにネット周りが強い人間がいることは間違いなくて、YouTubeのメタタグ(メタタグって?って人はこの記事
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721231642/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721231642
+{'eval_loss': 6.785732746124268, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5489680296311867, 'eval_token_set_recall': 0.20682638398416855, 'eval_token_set_f1': 0.27126962185163167, 'eval_token_set_f1_sem': 0.004008520734425792, 'eval_n_ngrams_match_1': 2.366, 'eval_n_ngrams_match_2': 1.022, 'eval_n_ngrams_match_3': 0.012, 'eval_num_true_words': 4.93, 'eval_num_pred_words': 17.91, 'eval_bleu_score': 4.814376562905716, 'eval_bleu_score_sem': 0.13976627864168878, 'eval_rouge_score': 0.34489824114580203, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8820750713348389, 'eval_emb_cos_sim_sem': 0.009815774857997894, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 223.2326, 'eval_samples_per_second': 2.24, 'eval_steps_per_second': 0.56}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/jpn_Jpan_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ رات کے دوران
+[true] query: 花立山荘では夜半から雨が降り続いていて、朝にちょっとだけ雨脚が弱くなったときに出発。 しばらく
+
+
+
+[pred] query: صخرے کی عکّف شروع ہوئی، آبدوز میں پہلے ہی کیڑے توڑے ہوئے ہیں۔
+[true] query: 今シーズン初の凍結した桧原湖の湖上撮影です。 かなり結氷は進んでいましたが、まだワカサギ
+
+
+
+[pred] query: There are some people who know that Twitter's target="_blank" target="_blank">Matterbox کی ٹیم کے پیچھے
+[true] query: まず少なくともこの人たちチームにネット周りが強い人間がいることは間違いなくて、YouTubeのメタタグ(メタタグって?って人はこの記事
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721248747/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721248747
+{'eval_loss': 6.784358501434326, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5445135601240852, 'eval_token_set_recall': 0.2219070996722138, 'eval_token_set_f1': 0.28136113343381025, 'eval_token_set_f1_sem': 0.004517146388272503, 'eval_n_ngrams_match_1': 2.322, 'eval_n_ngrams_match_2': 1.018, 'eval_n_ngrams_match_3': 0.008, 'eval_num_true_words': 4.93, 'eval_num_pred_words': 19.01, 'eval_bleu_score': 4.499789393948543, 'eval_bleu_score_sem': 0.1384927525355918, 'eval_rouge_score': 0.3592684376129307, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.7900636196136475, 'eval_emb_cos_sim_sem': 0.0895968663825198, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17104.4249, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/jpn_Jpan_steps-50_sbeam-8.json
+evaluating kor_Hang val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: Prev – Early-set – healthy-body.com Next – Early-set – healthy-body.com Posted
+[true] query: 세일 중 – Natural Health {% if first_available_variant.compare_at_price > first_available_variant.price
+
+
+
+[pred] query: | | | | | | | | | | خبر وجواب | خبر وجواب درباره اختراع درباره اختراع Winning Test
+[true] query: 신용위험 결정요인 과 관련 - 토토사이트 검증사이트 메이저토토사이트 - 토토탐정 - 신
+
+
+
+[pred] query: Samsung - Android - Google Play - Android - Google Play - Samsung - Android - تايلند الآن
+[true] query: 안드로이드 : 삼성바다폰 영국 온라인 등록 - 타이젠 - 안드로이드 스마트폰과 태블릿 새
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721248969/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721248969
+{'eval_loss': 6.917433738708496, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2077480481420888, 'eval_token_set_recall': 0.2755267249090784, 'eval_token_set_f1': 0.2294935337235676, 'eval_token_set_f1_sem': 0.0035053763863287656, 'eval_n_ngrams_match_1': 2.944, 'eval_n_ngrams_match_2': 1.062, 'eval_n_ngrams_match_3': 0.026, 'eval_num_true_words': 14.33, 'eval_num_pred_words': 16.944, 'eval_bleu_score': 4.9134501310742715, 'eval_bleu_score_sem': 0.08043743672812816, 'eval_rouge_score': 0.3938936675567548, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9136341214179993, 'eval_emb_cos_sim_sem': 0.02218356914818287, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.28867512941360474, 'eval_runtime': 222.749, 'eval_samples_per_second': 2.245, 'eval_steps_per_second': 0.561}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/kor_Hang_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: Prev / Next / Early-set – healthy-body.com Prev / Next / Early-set –
+[true] query: 세일 중 – Natural Health {% if first_available_variant.compare_at_price > first_available_variant.price
+
+
+
+[pred] query: :: اختصاص اختصاص اختصاص اختصاص اختصاص اختصاص اختصاص اختصاص اختصاص اختصاص اختصاص اختصاص :: www.
+[true] query: 신용위험 결정요인 과 관련 - 토토사이트 검증사이트 메이저토토사이트 - 토토탐정 - 신
+
+
+
+[pred] query: آن لائن : Samsung Galaxy S1 ، HTC Unicorn ، Samsung Galaxy S1 ، Samsung Galaxy S1 
+[true] query: 안드로이드 : 삼성바다폰 영국 온라인 등록 - 타이젠 - 안드로이드 스마트폰과 태블릿 새
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721266155/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721266155
+{'eval_loss': 6.916163444519043, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.19873321411990202, 'eval_token_set_recall': 0.2723119254326692, 'eval_token_set_f1': 0.2203935804297492, 'eval_token_set_f1_sem': 0.0034127312404747387, 'eval_n_ngrams_match_1': 2.816, 'eval_n_ngrams_match_2': 1.074, 'eval_n_ngrams_match_3': 0.034, 'eval_num_true_words': 14.33, 'eval_num_pred_words': 18.42, 'eval_bleu_score': 4.659069733936034, 'eval_bleu_score_sem': 0.08080483400440922, 'eval_rouge_score': 0.3975228118505658, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9305912256240845, 'eval_emb_cos_sim_sem': 0.01769319168713464, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17185.3332, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/kor_Hang_steps-50_sbeam-8.json
+evaluating mon_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: خام تیل کے استحکام کیلیے ایشیائی دولت بڑھ رہی ہے۔55.8 ملین ڈالر نے
+[true] query: Алтны олборлолт амжилтад хүрнэ ОХУын гадаад өр 56 тэрбум ам.доллар болж өсчээ
+
+
+
+[pred] query: دیکھیں 3 changes that affect Google's page lines in Google Chrome | تبصرہ نگار | تبصرہ 
+[true] query: Google Текстийн зарын өөрчлөлтийг анхаарч үзэх 3 зүйл | Martech Zone Google Текстийн зарын
+
+
+
+[pred] query: (-) (-) (-) (-) (-) (-) (-) (-) سكس إثار
+[true] query: » СЕКС (1085550) » ШАР МЭДЭЭ (805751) » ӨГҮҮЛЛЭГ (906359) хөлийг 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721266377/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721266377
+{'eval_loss': 7.269867420196533, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20496895262460327, 'eval_token_set_recall': 0.23325073339972766, 'eval_token_set_f1': 0.21290270786170187, 'eval_token_set_f1_sem': 0.0030832674824406874, 'eval_n_ngrams_match_1': 2.926, 'eval_n_ngrams_match_2': 1.082, 'eval_n_ngrams_match_3': 0.046, 'eval_num_true_words': 14.004, 'eval_num_pred_words': 15.3, 'eval_bleu_score': 5.996951429318819, 'eval_bleu_score_sem': 0.11576914774024827, 'eval_rouge_score': 0.45612775609725975, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8914672136306763, 'eval_emb_cos_sim_sem': 0.012484367936849594, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 222.5607, 'eval_samples_per_second': 2.247, 'eval_steps_per_second': 0.562}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mon_Cyrl_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: ایشیائی دولت کے استحکام کیلئے آلودہ تیل بڑھ چکا ہے۔ إنھوں نے 56 million
+[true] query: Алтны олборлолт амжилтад хүрнэ ОХУын гадаад өр 56 тэрбум ам.доллар болж өсчээ
+
+
+
+[pred] query: غور کریں 3 changes that affect Google's page lines at Google Chrome | تبصرہ غور کریں 3 changes that
+[true] query: Google Текстийн зарын өөрчлөлтийг анхаарч үзэх 3 зүйл | Martech Zone Google Текстийн зарын
+
+
+
+[pred] query: (-) (-) (-) (-) (-) (-) (-) (-) سائیکل ڈیسک
+[true] query: » СЕКС (1085550) » ШАР МЭДЭЭ (805751) » ӨГҮҮЛЛЭГ (906359) хөлийг 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721283488/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721283488
+{'eval_loss': 7.269519329071045, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20597107696225406, 'eval_token_set_recall': 0.22448692055278796, 'eval_token_set_f1': 0.21057418207164807, 'eval_token_set_f1_sem': 0.0030963349766670507, 'eval_n_ngrams_match_1': 2.926, 'eval_n_ngrams_match_2': 1.104, 'eval_n_ngrams_match_3': 0.06, 'eval_num_true_words': 14.004, 'eval_num_pred_words': 15.566, 'eval_bleu_score': 5.934179761513013, 'eval_bleu_score_sem': 0.12006891096476797, 'eval_rouge_score': 0.44816550075019745, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9080230593681335, 'eval_emb_cos_sim_sem': 0.0008401274547106993, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17111.0067, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mon_Cyrl_steps-50_sbeam-8.json
+evaluating hun_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: آلية علاج ألم أصابعه üğğğğğğğğğğğğğğğğğ
+[true] query: Ultrahang kezelés: Fájdalomcsillapítás tűszűrás nélkül [teljes útmutató] Ízületi fájdalom fono
+
+
+
+[pred] query: "The new team" - Mike Tyson. الأربعاء, 15 أغسطس 2019 - 12:00:AM. Mike Ty
+[true] query: Az új Mike Tyson | SamanSport.hu 2019. 12. 13., Péntek, 18:40 Gervonta "Tank" Davis hatalmas
+
+
+
+[pred] query: Torch Equipment Co., Ltd – Torch Equipment Co., Ltd – Torch Equipment Co., Ltd أهلا بكم من
+[true] query: Járművek | Hobbi Zóna - Part 2 TankChair – az Off Road tolószék A rendkívüli gépezet
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721283721/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721283721
+{'eval_loss': 5.65802526473999, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.18820962471481098, 'eval_token_set_recall': 0.37361859604963366, 'eval_token_set_f1': 0.24260951979904066, 'eval_token_set_f1_sem': 0.0033433903684654217, 'eval_n_ngrams_match_1': 3.014, 'eval_n_ngrams_match_2': 1.062, 'eval_n_ngrams_match_3': 0.034, 'eval_num_true_words': 16.376, 'eval_num_pred_words': 15.042, 'eval_bleu_score': 4.869078709734886, 'eval_bleu_score_sem': 0.07243925397968314, 'eval_rouge_score': 0.10047655546523662, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8564601540565491, 'eval_emb_cos_sim_sem': 0.006553748622536659, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.28867512941360474, 'eval_runtime': 233.0412, 'eval_samples_per_second': 2.146, 'eval_steps_per_second': 0.536}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hun_Latn_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: علاج تهتز أصابع الأذن (ultrazvuk) Instrukcja: лечение تهتز أصابع الأذن (ultrazvuk) без
+[true] query: Ultrahang kezelés: Fájdalomcsillapítás tűszűrás nélkül [teljes útmutató] Ízületi fájdalom fono
+
+
+
+[pred] query: "The new team" - Mike Tyson. السبت, 15 أغسطس 2019 - 12:00:AM. Ertug
+[true] query: Az új Mike Tyson | SamanSport.hu 2019. 12. 13., Péntek, 18:40 Gervonta "Tank" Davis hatalmas
+
+
+
+[pred] query: Torch Machinery Co., Ltd. - Part 2 Torch Machinery Co., Ltd. هو أمام أجهزة
+[true] query: Járművek | Hobbi Zóna - Part 2 TankChair – az Off Road tolószék A rendkívüli gépezet
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721300840/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721300840
+{'eval_loss': 5.658881187438965, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17920475833935634, 'eval_token_set_recall': 0.3699094142183928, 'eval_token_set_f1': 0.23313795608844076, 'eval_token_set_f1_sem': 0.0031914920115282295, 'eval_n_ngrams_match_1': 2.856, 'eval_n_ngrams_match_2': 1.078, 'eval_n_ngrams_match_3': 0.042, 'eval_num_true_words': 16.376, 'eval_num_pred_words': 14.792, 'eval_bleu_score': 4.695171512680269, 'eval_bleu_score_sem': 0.0824347262197533, 'eval_rouge_score': 0.09972859558542312, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8750885725021362, 'eval_emb_cos_sim_sem': 0.005683898965487866, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 17118.6456, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/hun_Latn_steps-50_sbeam-8.json
+evaluating mhr_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: میرے چچا غم میں ٹوٹ گیا, qırış qırış qırış qırış beş gün
+[true] query: Тургым жапыште, шошо ага годым, кеч ик гана Кугу Качак ялыште лияш
+
+
+
+[pred] query: е́е́е́е́е́е́е́е́е? Якупта عمر рано قد تدلي
+[true] query: Мо тыгай Агавайрем? Кузе тудо эрта? Тиде да моло йодышлан вашмутым Марий в
+
+
+
+[pred] query: Достоевский — Достоевский — Достоевский — Достоевский «море» قد رؤیت رؤوس
+[true] query: Коряк рвезе Пётр Нестеров дене мый Наро-Фоминск олаште эртыше «По
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721301061/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_ara-script_32_2layers_corrector/decoded_eval_1721301061
+{'eval_loss': 6.186654090881348, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.21900101320248425, 'eval_token_set_recall': 0.3201119444281214, 'eval_token_set_f1': 0.2531441541018229, 'eval_token_set_f1_sem': 0.003367168701694529, 'eval_n_ngrams_match_1': 3.1, 'eval_n_ngrams_match_2': 1.158, 'eval_n_ngrams_match_3': 0.104, 'eval_num_true_words': 13.858, 'eval_num_pred_words': 13.316, 'eval_bleu_score': 6.55400851291298, 'eval_bleu_score_sem': 0.1029190112225661, 'eval_rouge_score': 0.664184697085295, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.887384295463562, 'eval_emb_cos_sim_sem': 0.010837942361831665, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 221.0765, 'eval_samples_per_second': 2.262, 'eval_steps_per_second': 0.565}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_ara_scrp_32_2layers_prefix/evaluations/mhr_Cyrl_steps-1.json
+evaluating corrector with beam width 8

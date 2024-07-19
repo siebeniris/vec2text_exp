@@ -1,0 +1,515 @@
+working directory /home/cs.aau.dk/ng78zb/vec2text_exp
+sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
+launch evaluation yiyic/mt5_alephbert_heb_Hebr_32_corrector
+loading experiment and trainer from yiyic/mt5_alephbert_heb_Hebr_32_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector
+on rank 0, output dir: saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_alephbert_heb_Hebr_32_inverter
+on rank 0, output dir: saves/yiyic__mt5_alephbert_heb_Hebr_32_inverter
+adding embedding type to dataset args.
+Loading datasets with TOKENIZERS_PARALLELISM = False
+loading data from yiyic/CulturaX_he_train for heb_Hebr
+loading data from yiyic/CulturaX_he_dev for heb_Hebr
+allowed columns ['text']
+>> using fast tokenizers: True True
+dataset kwargs: {'batched': True, 'num_proc': 6, 'remove_columns': ['text'], 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'batched': True, 'num_proc': 6, 'remove_columns': ['text'], 'desc': 'Running tokenizer on dataset'}
+[Precomputing embeddings with batch size: 256]
+	saving precomputed embeddings to file: da0f848caf19bfa87f9a3f494dfbfee088d24871f2e00380
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'da0f848caf19bfa87f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+	saving precomputed embeddings to file: 68ac4ed8002d4a1a7f9a3f494dfbfee088d24871f2e00380
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '68ac4ed8002d4a1a7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+saving train_dataset to path: /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/213679cf36447f274bbad10a36629707.arrow
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+Using Frozen Embeddings as Input -- Val datasets
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'a8f97b8af1da9d1c7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '6bb10316f9b7b4057f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '0ca74d6651dd27c97f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '76b417ae1add30db7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '68e099a9faea3a167f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '6b6e6cde192774857f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'ad882d8d4c7c930f7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '4476275476934cdb7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '7d896b06beab5dfb7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'd7d5dad9939b2db47f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'a35471167b4a15b07f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '7893ccb4a51c0b127f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '09cd78e8912ceb567f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '783218728895b8f77f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '7e4455b4142a3d757f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'de6fbe712ef86cad7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '60ab111c651703407f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'b741e46e6feaa0f57f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '08f85c7d791829797f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '39378dcbb789a3b87f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+saving val_dataset to path: /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/05ff101d74efb425aabdff16685969ac.arrow
+07/08/2024 12:21:42 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+07/08/2024 12:23:07 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+data arguments for experiment: DataArguments(dataset_name='mt-ms_heb_Hebr', max_eval_samples=500, use_less_data=3000)
+model yiyic/mt5_alephbert_heb_Hebr_32_corrector parameters 738499584
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+Using Frozen Embeddings as Input -- Val datasets
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd40acbc34dac02767f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '41b9adba9016443f7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'dbf8f15a66a20dd37f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '731965c7535e211b7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '4068af69c2b130c57f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '51d80ec104a4c62a7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '9bc2bc39c804f7447f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'e33d6f57080076667f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'af73b4e4b710b9e87f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '9147c51d631d73ba7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '372f215f503994d67f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '79d192a070857fb87f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7452c8ee210755067f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '233a94331855f5fa7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '2e051e14dbc9baa07f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '78b2c85e5afe40eb7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '0729e548f13d516b7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '08fcf80d08ce19117f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '08bfe2552e383cee7f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'cc9e080b34a637157f9a3f494dfbfee088d24871f2e00380', 'num_proc': 1}
+output dir ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations
+evaluating deu_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] Eine neue Geschichte und das Leben in der Zukunft. Einer Bericht über das Leben und das Leben in der Zukunft. Einer Bericht über
+[true] In unserem Themenverzeichnis finden Sie alle wichtigen Informationen zum Thema Conveniencestore. Die Artikel sind nach Relevanz sortiert und 
+
+
+
+[pred] Eine schöner Schönheit und ein schöner Schönheit - Eine schöner Schönheit und ein schöner Schönheit. Eine schöner
+[true] Unser Hair and Beauty Studio bietet Ihnen eine grosse Palette an Dienstleistungen rund um Wellness und Beauty. Dabei geht es aber nicht
+
+
+
+[pred] Posted in a new york city in the new york city in the new york city in the new york city. Posted in
+[true] ❱ Unsere Bestenliste Dec/2022 ᐅ Ausführlicher Produkttest ☑ Ausgezeichnete Produkte ☑ Aktuelle Angebote ☑
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720434528/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720434528
+{'eval_loss': 5.056003570556641, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.06690459975330762, 'eval_token_set_recall': 0.1288516372516375, 'eval_token_set_f1': 0.08339262991566473, 'eval_token_set_f1_sem': 0.003379974804500028, 'eval_n_ngrams_match_1': 1.412, 'eval_n_ngrams_match_2': 0.036, 'eval_n_ngrams_match_3': 0.002, 'eval_num_true_words': 19.116, 'eval_num_pred_words': 17.09, 'eval_bleu_score': 1.6809734609452753, 'eval_bleu_score_sem': 0.05157067182664536, 'eval_rouge_score': 0.05174572289088017, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.7287217378616333, 'eval_emb_cos_sim_sem': 0.10019603371620178, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 208.6213, 'eval_samples_per_second': 2.397, 'eval_steps_per_second': 0.599}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/deu_Latn_steps-1.json
+evaluating corrector with beam width 8
+[pred] persönliche und persönliche Beratung für das Leben und das Leben in der Nähe wohnen. Das Leben und das Leben in der Nähe wohn
+[true] In unserem Themenverzeichnis finden Sie alle wichtigen Informationen zum Thema Conveniencestore. Die Artikel sind nach Relevanz sortiert und 
+
+
+
+[pred] Ein schönes Mädchen und ein schönes Mädchen und ein schönes Mädchen und ein schönes Mädchen. Ein schönes Mädchen und ein schönes Mädchen und ein
+[true] Unser Hair and Beauty Studio bietet Ihnen eine grosse Palette an Dienstleistungen rund um Wellness und Beauty. Dabei geht es aber nicht
+
+
+
+[pred] Posted in a new version of the new version of the new version of the new version of the new version of the new version of the new version
+[true] ❱ Unsere Bestenliste Dec/2022 ᐅ Ausführlicher Produkttest ☑ Ausgezeichnete Produkte ☑ Aktuelle Angebote ☑
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720451263/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720451263
+{'eval_loss': 5.0568037033081055, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.048826821039447243, 'eval_token_set_recall': 0.12770552178161312, 'eval_token_set_f1': 0.06684043565678599, 'eval_token_set_f1_sem': 0.003345075993342333, 'eval_n_ngrams_match_1': 1.116, 'eval_n_ngrams_match_2': 0.026, 'eval_n_ngrams_match_3': 0.002, 'eval_num_true_words': 19.116, 'eval_num_pred_words': 18.802, 'eval_bleu_score': 1.2434868447930876, 'eval_bleu_score_sem': 0.053578310972679115, 'eval_rouge_score': 0.03582569097123051, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.7574714422225952, 'eval_emb_cos_sim_sem': 0.07014176520605772, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16734.5758, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/deu_Latn_steps-50_sbeam-8.json
+evaluating ydd_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] עמוד און ליין עמוד און ליין עמוד און ליין עמוד און ליין עמוד
+[true] טשיינאַ (מעריאַט / הילטאָן) האָטעל קאַלעקשאַן עוראָטאָפּ 5 שטערן האָטעל מאַטראַס מאַני
+
+
+
+[pred] חודש אדר, תשע״ט, תשע״ט. חודש אדר, תשע״ט - Hebrew Hebrew 
+[true] חול־המועד סוכּות, תּשע״ז - yiddish.forward.com חול־המועד סוכּות, 
+
+
+
+[pred] עמוד אין אין אין אין אין אין אין אין אין אין סאטמאר סאטמאר
+[true] איראן פראוואקירט טראמפ: מיר וועלן אויסברייטערן דעם מיסיל פראגראם טראץ אפמאך ~ איד
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720451480/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720451480
+{'eval_loss': 5.14750337600708, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.05179083505074214, 'eval_token_set_recall': 0.17964023898806514, 'eval_token_set_f1': 0.07631141022010249, 'eval_token_set_f1_sem': 0.004570037122448871, 'eval_n_ngrams_match_1': 0.842, 'eval_n_ngrams_match_2': 0.076, 'eval_n_ngrams_match_3': 0.052, 'eval_num_true_words': 13.82, 'eval_num_pred_words': 12.336, 'eval_bleu_score': 1.490041228859656, 'eval_bleu_score_sem': 0.11486327147054747, 'eval_rouge_score': 0.004881843646549529, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.47317442297935486, 'eval_emb_cos_sim_sem': 0.08219045400619507, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 217.6396, 'eval_samples_per_second': 2.297, 'eval_steps_per_second': 0.574}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/ydd_Hebr_steps-1.json
+evaluating corrector with beam width 8
+[pred] וואן וואן וואן וואן וואן וואן וואן וואן וואן וואן וואן וואן וואן וואן וואן ווא
+[true] טשיינאַ (מעריאַט / הילטאָן) האָטעל קאַלעקשאַן עוראָטאָפּ 5 שטערן האָטעל מאַטראַס מאַני
+
+
+
+[pred] חודש אדר, תשע״ז — Hebrew News - Hebrew News - Hebrew News - Hebrew News - 
+[true] חול־המועד סוכּות, תּשע״ז - yiddish.forward.com חול־המועד סוכּות, 
+
+
+
+[pred] אין אין אין אין אין וואטסאפ וואטסאפ וואטסאפ וואטסאפ וואטסאפ וואטסאפ וואטסאפ
+[true] איראן פראוואקירט טראמפ: מיר וועלן אויסברייטערן דעם מיסיל פראגראם טראץ אפמאך ~ איד
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720468007/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720468007
+{'eval_loss': 5.147608280181885, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.04298058022129229, 'eval_token_set_recall': 0.1270562563040824, 'eval_token_set_f1': 0.060634577204698066, 'eval_token_set_f1_sem': 0.004334109127717561, 'eval_n_ngrams_match_1': 0.708, 'eval_n_ngrams_match_2': 0.092, 'eval_n_ngrams_match_3': 0.07, 'eval_num_true_words': 13.82, 'eval_num_pred_words': 12.538, 'eval_bleu_score': 1.3007678754976297, 'eval_bleu_score_sem': 0.13574331929307096, 'eval_rouge_score': 0.007015367965367965, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.4763526916503906, 'eval_emb_cos_sim_sem': 0.20203087619012203, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16526.905, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/ydd_Hebr_steps-50_sbeam-8.json
+evaluating heb_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] מכיוון שלא עסקתי בנושאים שפורסמו באחרונה (ובפרט בנושאים אחרים) רציתי להרחיב
+[true] במחקר שהתפרסם לאחרונה (ואני מתנצל שלא הגעתי לדון בו עד כה מפאת עניינים אחרים...) ג
+
+
+
+[pred] תוכנית לימודים בישראל היא לא רק תוכנית ריאליטי. היא למעשה תוכנית חינוך,
+[true] תוכנית ריאליטי בישראל היא לא רק תוכנית ריאליטי. היא שיעור באזרחות, מדיניות ממש
+
+
+
+[pred] בפני בקשה לפיצוי אשר ניתן לפני יום 30.6.20 אשר על ידו ניתן פסק הדין אשר
+[true] בפני בקשה לעיכוב ביצוע פסק הדין אשר ניתן ביום 20.4.11 ואשר במסגרתו חויבה המבקש
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720468228/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720468228
+{'eval_loss': 1.9190841913223267, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.3424941566087849, 'eval_token_set_recall': 0.3891283319621559, 'eval_token_set_f1': 0.3627364209304988, 'eval_token_set_f1_sem': 0.006759585026142427, 'eval_n_ngrams_match_1': 5.544, 'eval_n_ngrams_match_2': 1.764, 'eval_n_ngrams_match_3': 0.688, 'eval_num_true_words': 15.47, 'eval_num_pred_words': 14.484, 'eval_bleu_score': 9.947563795062305, 'eval_bleu_score_sem': 0.464877735390221, 'eval_rouge_score': 0.02462669172932331, 'eval_exact_match': 0.002, 'eval_exact_match_sem': 0.002, 'eval_emb_cos_sim': 0.8773176670074463, 'eval_emb_cos_sim_sem': 0.028587501496076584, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 221.1315, 'eval_samples_per_second': 2.261, 'eval_steps_per_second': 0.565}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/heb_Hebr_steps-1.json
+evaluating corrector with beam width 8
+[pred] מכיוון שלא עסקתי בנושאים שפורסמו באחרונה (בפרט בנושא הזה עד כה...) רציתי לה
+[true] במחקר שהתפרסם לאחרונה (ואני מתנצל שלא הגעתי לדון בו עד כה מפאת עניינים אחרים...) ג
+
+
+
+[pred] תוכנית ריאליטי בישראל היא לא רק תוכנית חינוך. היא ממש תוכנית פוליטיקה, 
+[true] תוכנית ריאליטי בישראל היא לא רק תוכנית ריאליטי. היא שיעור באזרחות, מדיניות ממש
+
+
+
+[pred] במסגרת פסק הדין אשר ניתן לפני יום 19.3.20 אשר על ידו ניתן סעד זמני 
+[true] בפני בקשה לעיכוב ביצוע פסק הדין אשר ניתן ביום 20.4.11 ואשר במסגרתו חויבה המבקש
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720484891/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720484891
+{'eval_loss': 1.9185267686843872, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.36400156014436197, 'eval_token_set_recall': 0.40030514501838094, 'eval_token_set_f1': 0.379800157400898, 'eval_token_set_f1_sem': 0.007069852568710969, 'eval_n_ngrams_match_1': 5.876, 'eval_n_ngrams_match_2': 1.884, 'eval_n_ngrams_match_3': 0.76, 'eval_num_true_words': 15.47, 'eval_num_pred_words': 14.656, 'eval_bleu_score': 10.560047139346295, 'eval_bleu_score_sem': 0.4855026317422203, 'eval_rouge_score': 0.02979325396825397, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9017850756645203, 'eval_emb_cos_sim_sem': 0.038347125725174694, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16662.677, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/heb_Hebr_steps-50_sbeam-8.json
+evaluating arb_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] لَبَيْرَبَيْرَبَيْرَبَيْرَبَيْ
+[true] فستان زفاف أنيق بقصّة الأميرة من نسيج الميكادو، مُزيّن بالأزهار النّاعم
+
+
+
+[pred] הلغة العربية اللغة العربية اللغة العربية اللغة العربية اللغة العربية ولغة اللغة العربية. עמוד
+[true] رئيس القمة الدينية لمجموعة العشرين الشيخ د.محمد العيسى يطلق منصة R20 مجموعة تواصل
+
+
+
+[pred] המועצה הארצית لتدريب وتدريب. الמועצה הארצית لتدريب وتدريب لتدريب
+[true] تسعى كلية العلوم الإسلامية إلى تبوأ مكانة وسمعة مرموقة بين جامعات العالم، عبر التعريف
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720485107/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720485107
+{'eval_loss': 5.0115251541137695, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.011082353130185945, 'eval_token_set_recall': 0.030471184371184352, 'eval_token_set_f1': 0.015578041969947028, 'eval_token_set_f1_sem': 0.0019852355907008868, 'eval_n_ngrams_match_1': 0.202, 'eval_n_ngrams_match_2': 0.008, 'eval_n_ngrams_match_3': 0.002, 'eval_num_true_words': 14.93, 'eval_num_pred_words': 9.946, 'eval_bleu_score': 0.43554989982758324, 'eval_bleu_score_sem': 0.05526231048176174, 'eval_rouge_score': 0.00016666666666666666, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.6653864979743958, 'eval_emb_cos_sim_sem': 0.029441354796290398, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 215.9982, 'eval_samples_per_second': 2.315, 'eval_steps_per_second': 0.579}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/arb_Arab_steps-1.json
+evaluating corrector with beam width 8
+[pred] رَبَيْبَيْبَيْبَيْبَيْبَيْبَيْ
+[true] فستان زفاف أنيق بقصّة الأميرة من نسيج الميكادو، مُزيّن بالأزهار النّاعم
+
+
+
+[pred] العربية اللغة العربية اللغة العربية اللغة العربية اللغة العربية اللغة العربية اللغة العربية اللغة العربية اللغ
+[true] رئيس القمة الدينية لمجموعة العشرين الشيخ د.محمد العيسى يطلق منصة R20 مجموعة تواصل
+
+
+
+[pred] המועצה האזורית لتدريب وتدريب وتدريب. המועצה האזורית لتدريب وتدريب 
+[true] تسعى كلية العلوم الإسلامية إلى تبوأ مكانة وسمعة مرموقة بين جامعات العالم، عبر التعريف
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720501786/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720501786
+{'eval_loss': 5.01154899597168, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.007575672684728416, 'eval_token_set_recall': 0.023717338217338218, 'eval_token_set_f1': 0.01089414030180119, 'eval_token_set_f1_sem': 0.0016048924489088022, 'eval_n_ngrams_match_1': 0.122, 'eval_n_ngrams_match_2': 0.008, 'eval_n_ngrams_match_3': 0.002, 'eval_num_true_words': 14.93, 'eval_num_pred_words': 9.956, 'eval_bleu_score': 0.24800064072167272, 'eval_bleu_score_sem': 0.04046702327929691, 'eval_rouge_score': 0.00016666666666666666, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.5921531319618225, 'eval_emb_cos_sim_sem': 0.038938343276839295, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16679.1556, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/arb_Arab_steps-50_sbeam-8.json
+evaluating amh_Ethi val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] Leave a comment on דצמבר 29, 2021 דצמבר 29, 2021 דצמבר 29, 2021 דצמבר 29, 2021 
+[true] ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤርትራና
+
+
+
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ አንድነት
+
+
+
+[pred] p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p
+[true] ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው ታውቀ
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720502002/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720502002
+{'eval_loss': 9.356409072875977, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.014816636304871593, 'eval_token_set_recall': 0.03451769791456697, 'eval_token_set_f1': 0.01893113142295056, 'eval_token_set_f1_sem': 0.0022964313831736155, 'eval_n_ngrams_match_1': 0.214, 'eval_n_ngrams_match_2': 0.006, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 11.006, 'eval_num_pred_words': 9.578, 'eval_bleu_score': 0.5590840092746641, 'eval_bleu_score_sem': 0.059878680168838974, 'eval_rouge_score': 0.004815305282952341, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.2874423861503601, 'eval_emb_cos_sim_sem': 0.048854708671569824, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 216.2898, 'eval_samples_per_second': 2.312, 'eval_steps_per_second': 0.578}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/amh_Ethi_steps-1.json
+evaluating corrector with beam width 8
+[pred] דצמבר 27, 2021 דצמבר 27, 2021 דצמבר 27, 2021 דצמבר 27, 2021 דצמבר 27, 2021 
+[true] ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤርትራና
+
+
+
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ አንድነት
+
+
+
+[pred] p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p
+[true] ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው ታውቀ
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720518679/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720518679
+{'eval_loss': 9.356377601623535, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.01139909747115629, 'eval_token_set_recall': 0.022602814031846285, 'eval_token_set_f1': 0.01381353680297952, 'eval_token_set_f1_sem': 0.0017911803265317906, 'eval_n_ngrams_match_1': 0.16, 'eval_n_ngrams_match_2': 0.0, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 11.006, 'eval_num_pred_words': 10.176, 'eval_bleu_score': 0.3745284489785784, 'eval_bleu_score_sem': 0.04709127399320509, 'eval_rouge_score': 0.0035529080176139004, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.2635209858417511, 'eval_emb_cos_sim_sem': 0.06190809912658319, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16676.3208, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/amh_Ethi_steps-50_sbeam-8.json
+evaluating mlt_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] Archives Archives Archives Archives Archives Archives Archives Archives Archives Archives Archives Archives Archives Archives Archives 
+[true] Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders L-Aw
+
+
+
+[pred] rnrnrnrnrnrnrnrnrnrnrnrnrnrnrn
+[true] test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar minn erba
+
+
+
+[pred] Alibaba.com - Alibaba.com - Alibaba.com - Alibaba.com - Alibaba.com - 
+[true] 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum.com.
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720518900/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720518900
+{'eval_loss': 6.7454118728637695, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.022024383004336553, 'eval_token_set_recall': 0.10434134199134205, 'eval_token_set_f1': 0.03351802421520684, 'eval_token_set_f1_sem': 0.0030167809558756605, 'eval_n_ngrams_match_1': 0.364, 'eval_n_ngrams_match_2': 0.004, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 13.258, 'eval_num_pred_words': 10.138, 'eval_bleu_score': 0.5877921567250364, 'eval_bleu_score_sem': 0.06350051258729521, 'eval_rouge_score': 0.006794478912485234, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.44113340973854065, 'eval_emb_cos_sim_sem': 0.03289691358804703, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 221.8593, 'eval_samples_per_second': 2.254, 'eval_steps_per_second': 0.563}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/mlt_Latn_steps-1.json
+evaluating corrector with beam width 8
+[pred] Choose a suitable suitable suitable suitable suitable suitable suitable suitable suitable
+[true] Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders L-Aw
+
+
+
+[pred] p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p
+[true] test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar minn erba
+
+
+
+[pred] Alibaba.com - Alibaba.com - Alibaba.com - Alibaba.com - Alibaba.com - 
+[true] 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum.com.
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720535570/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720535570
+{'eval_loss': 6.745051860809326, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.016111074907204925, 'eval_token_set_recall': 0.0594773615273615, 'eval_token_set_f1': 0.023410747943638132, 'eval_token_set_f1_sem': 0.0025877548950404105, 'eval_n_ngrams_match_1': 0.28, 'eval_n_ngrams_match_2': 0.004, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 13.258, 'eval_num_pred_words': 11.988, 'eval_bleu_score': 0.440804277240994, 'eval_bleu_score_sem': 0.0664202344945981, 'eval_rouge_score': 0.004966548949232399, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.424919992685318, 'eval_emb_cos_sim_sem': 0.11135419701204097, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16669.8659, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/mlt_Latn_steps-50_sbeam-8.json
+evaluating hin_Deva val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] Welcome to the site. Welcome to the site. Welcome to the site. Welcome to the site. Welcome to the site. 
+[true] Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! Posted by DR
+
+
+
+[pred] You are here: Home Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us
+[true] RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9 Hindi Sparsh
+
+
+
+[pred] Welcome to us Welcome to us Welcome to us Welcome to us Welcome to us Welcome to us 
+[true] नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बाकी रह ग
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720535787/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720535787
+{'eval_loss': 7.756748676300049, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.01638394010119342, 'eval_token_set_recall': 0.04251287383926702, 'eval_token_set_f1': 0.02222287054022555, 'eval_token_set_f1_sem': 0.0025248072060711376, 'eval_n_ngrams_match_1': 0.378, 'eval_n_ngrams_match_2': 0.02, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 16.83, 'eval_num_pred_words': 15.786, 'eval_bleu_score': 0.41952670900656075, 'eval_bleu_score_sem': 0.042634495564636256, 'eval_rouge_score': 0.01307832753682372, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.3471131920814514, 'eval_emb_cos_sim_sem': 0.046189647167921066, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 216.9413, 'eval_samples_per_second': 2.305, 'eval_steps_per_second': 0.576}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/hin_Deva_steps-1.json
+evaluating corrector with beam width 8
+[pred] Welcome to the world! Welcome to the world! Welcome to the world! Welcome to the world! Welcome to the world! 
+[true] Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! Posted by DR
+
+
+
+[pred] You are here: Home Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us Contact Us
+[true] RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9 Hindi Sparsh
+
+
+
+[pred] Welcome to us, Welcome to us, Welcome to us, Welcome to us, Welcome to us, 
+[true] नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बाकी रह ग
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720552591/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720552591
+{'eval_loss': 7.756484031677246, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.016909669282199218, 'eval_token_set_recall': 0.040723394699555666, 'eval_token_set_f1': 0.022392218976739063, 'eval_token_set_f1_sem': 0.0024564469982786023, 'eval_n_ngrams_match_1': 0.382, 'eval_n_ngrams_match_2': 0.012, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 16.83, 'eval_num_pred_words': 17.078, 'eval_bleu_score': 0.38911116230746434, 'eval_bleu_score_sem': 0.0384925185823056, 'eval_rouge_score': 0.013245866717636025, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.4050508737564087, 'eval_emb_cos_sim_sem': 0.04113483418951863, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16803.5027, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/hin_Deva_steps-50_sbeam-8.json
+evaluating urd_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] Русский Русский Русский Русский Русский Русский Русский Русский Русский Русский Русский Русский Русский Русский Русский 
+[true] قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ رؤف کلا
+
+
+
+[pred] العربية Русский Русский Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano Italiano
+[true] سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود میمز 
+
+
+
+[pred] $(function(){setImageBanner() {setImageBanner() {setImageBanner() {setImageBanner() {setImageBanner() {setImageBanner
+[true] نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خودکشی کی ہے۔
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720552807/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720552807
+{'eval_loss': 7.277245044708252, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.0017650383500228699, 'eval_token_set_recall': 0.007515384615384616, 'eval_token_set_f1': 0.0026886151281456955, 'eval_token_set_f1_sem': 0.0008935223006430868, 'eval_n_ngrams_match_1': 0.038, 'eval_n_ngrams_match_2': 0.0, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 16.742, 'eval_num_pred_words': 14.674, 'eval_bleu_score': 0.05753662978713617, 'eval_bleu_score_sem': 0.015178073513353457, 'eval_rouge_score': 0.00038095238095238096, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.40247103571891785, 'eval_emb_cos_sim_sem': 0.02431735396385193, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 215.7995, 'eval_samples_per_second': 2.317, 'eval_steps_per_second': 0.579}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/urd_Arab_steps-1.json
+evaluating corrector with beam width 8
+[pred] 繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文繁體中文
+[true] قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ رؤف کلا
+
+
+
+[pred] English Bahasa Indonesia Bahasa Indonesia Bahasa Indonesia Bahasa Indonesia Bahasa Indonesia Bahasa Indonesia Bahasa Indonesia Bahasa Indonesia Bahasa Indonesia Bahasa Indonesia
+[true] سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود میمز 
+
+
+
+[pred] $(function(){setImageBanner() {setImageBanner() {setImageBanner() } $(function(){setImageBanner() {setImageBanner() }
+[true] نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خودکشی کی ہے۔
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720569627/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720569627
+{'eval_loss': 7.277050971984863, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.002164343456680918, 'eval_token_set_recall': 0.009704761904761904, 'eval_token_set_f1': 0.0034173239396768805, 'eval_token_set_f1_sem': 0.0009008775838662721, 'eval_n_ngrams_match_1': 0.05, 'eval_n_ngrams_match_2': 0.0, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 16.742, 'eval_num_pred_words': 12.792, 'eval_bleu_score': 0.05890379547947, 'eval_bleu_score_sem': 0.01497271286810621, 'eval_rouge_score': 0.0, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.4245583117008209, 'eval_emb_cos_sim_sem': 0.06477731432759112, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16820.4996, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/urd_Arab_steps-50_sbeam-8.json
+evaluating guj_Gujr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બાપ પર હ
+
+
+
+[pred] Leave a comment on a reply on a reply on a reply on a rnrnrnr
+[true] આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here Arvind kej
+
+
+
+[pred] Leave a comment on aooooooooooooooooooooooo
+[true] ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn Back As 
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720569843/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720569843
+{'eval_loss': 10.899322509765625, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.013643763950188088, 'eval_token_set_recall': 0.03706501831501831, 'eval_token_set_f1': 0.01906000678501688, 'eval_token_set_f1_sem': 0.0023676016977401825, 'eval_n_ngrams_match_1': 0.208, 'eval_n_ngrams_match_2': 0.012, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 12.404, 'eval_num_pred_words': 12.63, 'eval_bleu_score': 0.5586240734109379, 'eval_bleu_score_sem': 0.0699398918923594, 'eval_rouge_score': 0.004654370288857318, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.31752848625183105, 'eval_emb_cos_sim_sem': 0.07243070006370544, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 215.4082, 'eval_samples_per_second': 2.321, 'eval_steps_per_second': 0.58}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/guj_Gujr_steps-1.json
+evaluating corrector with beam width 8
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બાપ પર હ
+
+
+
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here Arvind kej
+
+
+
+[pred] p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p p
+[true] ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn Back As 
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720586546/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720586546
+{'eval_loss': 10.899767875671387, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.013287511018393363, 'eval_token_set_recall': 0.03980638268541495, 'eval_token_set_f1': 0.017986544649574436, 'eval_token_set_f1_sem': 0.0025314879333666065, 'eval_n_ngrams_match_1': 0.194, 'eval_n_ngrams_match_2': 0.02, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 12.404, 'eval_num_pred_words': 13.128, 'eval_bleu_score': 0.30741983393169175, 'eval_bleu_score_sem': 0.04681559560881673, 'eval_rouge_score': 0.00477903140909233, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.18828590214252472, 'eval_emb_cos_sim_sem': 0.006643757220375538, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16703.853, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/guj_Gujr_steps-50_sbeam-8.json
+evaluating sin_Sinh val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආකර්ශනයක්
+
+
+
+[pred] Posted by דצמבר 12, 2020 @ 7:00 pm | Posted in חדשות | Tags: דצמבר 12, 2020 @ 7:00
+[true] සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0 527 ස්
+
+
+
+[pred] מזל טוב!.............
+[true] නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැදි වුණේ
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720586769/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720586769
+{'eval_loss': 10.285480499267578, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.021727390411446123, 'eval_token_set_recall': 0.06753544233544231, 'eval_token_set_f1': 0.030279648517858665, 'eval_token_set_f1_sem': 0.0030118432594663973, 'eval_n_ngrams_match_1': 0.376, 'eval_n_ngrams_match_2': 0.03, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 14.062, 'eval_num_pred_words': 11.432, 'eval_bleu_score': 1.0649898871619476, 'eval_bleu_score_sem': 0.13417431989167233, 'eval_rouge_score': 0.014860678881276726, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.4558616280555725, 'eval_emb_cos_sim_sem': 0.09089911729097366, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 222.7992, 'eval_samples_per_second': 2.244, 'eval_steps_per_second': 0.561}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/sin_Sinh_steps-1.json
+evaluating corrector with beam width 8
+[pred] · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · ·
+[true] මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආකර්ශනයක්
+
+
+
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0 527 ස්
+
+
+
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැදි වුණේ
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720603540/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720603540
+{'eval_loss': 10.285796165466309, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.016387034774650873, 'eval_token_set_recall': 0.0432226719517042, 'eval_token_set_f1': 0.021777277803164224, 'eval_token_set_f1_sem': 0.0025724109018500836, 'eval_n_ngrams_match_1': 0.292, 'eval_n_ngrams_match_2': 0.018, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 14.062, 'eval_num_pred_words': 12.178, 'eval_bleu_score': 0.5814071687792904, 'eval_bleu_score_sem': 0.08584490723070418, 'eval_rouge_score': 0.012233821480663584, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.22887033224105835, 'eval_emb_cos_sim_sem': 0.023545437019376163, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 16770.6477, 'eval_samples_per_second': 0.03, 'eval_steps_per_second': 0.015}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/sin_Sinh_steps-50_sbeam-8.json
+evaluating pan_Guru val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] ☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀☀
+[true] ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋਲ੍ਹਣ 
+
+
+
+[pred] Alibaba.com / Alibaba.com / Alibaba.com / ממתקים ממתקים ממתקים ממתקים מ
+[true] ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - PanjabiLok.
+
+
+
+[pred] עִבְרִית עִבְרִית עִבְרִית<?xml:namespace prefix = "
+[true] ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ : The Tribune
+outptufile for decoded sequences:  saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720603762/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_alephbert_heb_Hebr_32_corrector/decoded_eval_1720603762
+{'eval_loss': 10.088859558105469, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.01289545074808232, 'eval_token_set_recall': 0.049427727827727835, 'eval_token_set_f1': 0.018864147660230115, 'eval_token_set_f1_sem': 0.0024522531693060468, 'eval_n_ngrams_match_1': 0.2, 'eval_n_ngrams_match_2': 0.014, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 12.258, 'eval_num_pred_words': 12.128, 'eval_bleu_score': 0.5299096793484, 'eval_bleu_score_sem': 0.09962258419795049, 'eval_rouge_score': 0.0038859416662048243, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.3694695234298706, 'eval_emb_cos_sim_sem': 0.04637859761714935, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 222.1218, 'eval_samples_per_second': 2.251, 'eval_steps_per_second': 0.563}
+saving results to ./saves/correctors/mt5_alephbert_mt-ms_heb_Hebr_32_last_layer/evaluations/pan_Guru_steps-1.json
+evaluating corrector with beam width 8

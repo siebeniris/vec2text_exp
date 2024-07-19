@@ -1,0 +1,541 @@
+working directory /home/cs.aau.dk/ng78zb/vec2text_exp
+sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
+launch evaluation yiyic/mt5_me5_cyrl-script_32_2layers_corrector
+loading experiment and trainer from yiyic/mt5_me5_cyrl-script_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector
+on rank 0, output dir: saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_cyrl-script_32_2layers_inverter
+on rank 0, output dir: saves/yiyic__mt5_me5_cyrl-script_32_2layers_inverter
+adding embedding type to dataset args.
+Loading datasets with TOKENIZERS_PARALLELISM = False
+loading train dataset from path: /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/ba3118a6cc6bd0713dd32a64df09e3eb.arrow
+loaded dict of val datasets from /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/b7c2d88873c9bb4061ee54b83d4d22ce.arrow
+07/08/2024 11:05:06 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+07/08/2024 11:05:50 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+data arguments for experiment: DataArguments(dataset_name='mt-ms_cyr_scrp', max_eval_samples=500, use_less_data=3000)
+model yiyic/mt5_me5_cyrl-script_32_2layers_corrector parameters 890566656
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+Using Frozen Embeddings as Input -- Val datasets
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '24e7b7ef1b0606ddc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7cf9deee5c6ee34dc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7d3c7a3fdc899099c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a808a07212534aa6c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '1835610d5c7fc595c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '74575508bfab4c9cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'af6bef1b30e3c5dbc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'bfa2f55e85bb2562c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd839c9a8871bbce8c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '67555e67fd16afc9c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '48ec325196197014c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a20c740ae5a0d86bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'cc2235accdffe49bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '104320b250ecc6cac111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd7b432ef61da1e93c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'c06e214a198bcc2cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '3ae3df71733802abc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '18a40ab4beb7f210c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '96cd5258a58b461bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7ee1e04e96a3faa2c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+output dir ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations
+evaluating deu_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/deu_Latn_steps-50_sbeam-8.json already exists
+evaluating ydd_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/ydd_Hebr_steps-50_sbeam-8.json already exists
+evaluating heb_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/heb_Hebr_steps-50_sbeam-8.json already exists
+evaluating arb_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/arb_Arab_steps-50_sbeam-8.json already exists
+evaluating amh_Ethi val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-1.json already exists
+evaluating corrector with steps 20
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-20.json already exists
+evaluating corrector with steps 50
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-50.json already exists
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+[pred] query: Mar 20, 2016·ÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎÎ Îс орны халықтары
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: Хүчирхэг байдал - Unegui.mn Хүчирхэг байдал Unegui.mn қоғам
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: 20 тоглогчийг зугтаахаар шийдвэрлэжээ 20 тоглогчийг зугтаахаар шийдвэрлэжээ Жұма,
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720439613/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720439613
+{'eval_loss': 7.643068790435791, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.27246697512154205, 'eval_token_set_recall': 0.293720134440723, 'eval_token_set_f1': 0.2771644766445725, 'eval_token_set_f1_sem': 0.0038073542822616236, 'eval_n_ngrams_match_1': 3.236, 'eval_n_ngrams_match_2': 1.24, 'eval_n_ngrams_match_3': 0.088, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 13.228, 'eval_bleu_score': 7.274233944597279, 'eval_bleu_score_sem': 0.12381975913230422, 'eval_rouge_score': 0.49873072083575254, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8040054440498352, 'eval_emb_cos_sim_sem': 0.019671738611986116, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 9961.0799, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/amh_Ethi_steps-50_sbeam-8.json
+evaluating mlt_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-1.json already exists
+evaluating corrector with steps 20
+[pred] query: Musculosal deficiencies - TutorialCup Musculosal deficiencies Musculosal deficiencies - fundamental issues and solutions
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: 'Covid-19' – a first test of pneumonia in a nation Өмнөд Зүүнбаян хийж,
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: "I'm'n'n'n'n'n'n'n'n'n'n'n' mob
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720443616/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720443616
+{'eval_loss': 5.391722202301025, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.25990804440657406, 'eval_token_set_recall': 0.33650895669518016, 'eval_token_set_f1': 0.2868601321182265, 'eval_token_set_f1_sem': 0.0039930786793765695, 'eval_n_ngrams_match_1': 3.668, 'eval_n_ngrams_match_2': 1.286, 'eval_n_ngrams_match_3': 0.124, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 12.798, 'eval_bleu_score': 7.112225184744578, 'eval_bleu_score_sem': 0.15047391161638815, 'eval_rouge_score': 0.16720738193530688, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9173809289932251, 'eval_emb_cos_sim_sem': 0.035058736408123625, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 4003.0347, 'eval_samples_per_second': 0.125, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-20.json
+evaluating corrector with steps 50
+[pred] query: Musculosal deficiencies - TutorialCup Musculosal deficiencies Musculosal deficiencies - fundamental issues and solutions
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: 'Covid-19' – a first test of pneumonia in a nation Өмнөд Зүүнбаян хийж,
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: "I'm'n'n'n'n'n'n'n'n'n'n'n' mob
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720453551/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720453551
+{'eval_loss': 5.391722202301025, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.25990804440657406, 'eval_token_set_recall': 0.3363978455840691, 'eval_token_set_f1': 0.28682679878489314, 'eval_token_set_f1_sem': 0.003991045756242126, 'eval_n_ngrams_match_1': 3.668, 'eval_n_ngrams_match_2': 1.286, 'eval_n_ngrams_match_3': 0.124, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 12.796, 'eval_bleu_score': 7.111865272828383, 'eval_bleu_score_sem': 0.1504710860631366, 'eval_rouge_score': 0.16720738193530688, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9173809289932251, 'eval_emb_cos_sim_sem': 0.035058736408123625, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9935.1066, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-50.json
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+[pred] query: Musculosal deficiencies - TutorialCup Musculosal deficiencies Musculosal deficiencies - fundamental issues and solutions
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: 'Covid-19' – a first test of pneumonia in a nation Өмнөд Зүүнбаян хийж,
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: "I'm'n'n'n'n'n'n'n'n'n'n'n' mob
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720463493/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720463493
+{'eval_loss': 5.391722202301025, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.25990804440657406, 'eval_token_set_recall': 0.3363978455840691, 'eval_token_set_f1': 0.28682679878489314, 'eval_token_set_f1_sem': 0.003991045756242126, 'eval_n_ngrams_match_1': 3.668, 'eval_n_ngrams_match_2': 1.286, 'eval_n_ngrams_match_3': 0.124, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 12.796, 'eval_bleu_score': 7.111865272828383, 'eval_bleu_score_sem': 0.1504710860631366, 'eval_rouge_score': 0.16720738193530688, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9173809289932251, 'eval_emb_cos_sim_sem': 0.035058736408123625, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9942.3694, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/mlt_Latn_steps-50_sbeam-8.json
+evaluating hin_Deva val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-1.json already exists
+evaluating corrector with steps 20
+[pred] query: ISLAMIC BLOG : ISLAMIC BLOG : ISLAMIC BLOG : ялагдашгүй ялагдашгүй
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Algebra 9 Chapter for teenagers - RAST Solutions Algebra 9 Chapter for teenagers - RAST Solutions
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: Одоогоор монгол улсын ерөнхийлөгч Николас Мадуро 14 сараас 14 сар хүртэлх хугацаа бол
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720467513/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720467513
+{'eval_loss': 5.111696243286133, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.21371997892701253, 'eval_token_set_recall': 0.2886650978364604, 'eval_token_set_f1': 0.24042419417335398, 'eval_token_set_f1_sem': 0.004324928522244004, 'eval_n_ngrams_match_1': 3.806, 'eval_n_ngrams_match_2': 1.288, 'eval_n_ngrams_match_3': 0.142, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 16.374, 'eval_bleu_score': 5.838390308294818, 'eval_bleu_score_sem': 0.16271793879136923, 'eval_rouge_score': 0.4139169627696232, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9325766563415527, 'eval_emb_cos_sim_sem': 0.005099713681351761, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 4019.8953, 'eval_samples_per_second': 0.124, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-20.json
+evaluating corrector with steps 50
+[pred] query: ISLAMIC BLOG : ISLAMIC BLOG : ISLAMIC BLOG : ялагдашгүй ялагдашгүй
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Algebra 9 Chapter for teenagers - RAST Solutions Algebra 9 Chapter for teenagers - RAST Solutions
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: Одоогоор монгол улсын ерөнхийлөгч Николас Мадуро 14 сараас 14 сар хүртэлх хугацаа бол
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720477508/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720477508
+{'eval_loss': 5.111696243286133, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.21371997892701253, 'eval_token_set_recall': 0.28878158135294396, 'eval_token_set_f1': 0.24045379755348212, 'eval_token_set_f1_sem': 0.004325967282303708, 'eval_n_ngrams_match_1': 3.806, 'eval_n_ngrams_match_2': 1.288, 'eval_n_ngrams_match_3': 0.142, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 16.374, 'eval_bleu_score': 5.837042289973057, 'eval_bleu_score_sem': 0.16272323017167895, 'eval_rouge_score': 0.41409966882369575, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9325766563415527, 'eval_emb_cos_sim_sem': 0.005099713681351761, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9995.0896, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-50.json
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+[pred] query: ISLAMIC BLOG : ISLAMIC BLOG : ISLAMIC BLOG : ялагдашгүй ялагдашгүй
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Algebra 9 Chapter for teenagers - RAST Solutions Algebra 9 Chapter for teenagers - RAST Solutions
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: Одоогоор монгол улсын ерөнхийлөгч Николас Мадуро 14 сараас 14 сар хүртэлх хугацаа бол
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720487496/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720487496
+{'eval_loss': 5.111696243286133, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.21371997892701253, 'eval_token_set_recall': 0.28878158135294396, 'eval_token_set_f1': 0.24045379755348212, 'eval_token_set_f1_sem': 0.004325967282303708, 'eval_n_ngrams_match_1': 3.806, 'eval_n_ngrams_match_2': 1.288, 'eval_n_ngrams_match_3': 0.142, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 16.374, 'eval_bleu_score': 5.837042289973057, 'eval_bleu_score_sem': 0.16272323017167895, 'eval_rouge_score': 0.41409966882369575, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9325766563415527, 'eval_emb_cos_sim_sem': 0.005099713681351761, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 9988.2918, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/hin_Deva_steps-50_sbeam-8.json
+evaluating urd_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-1.json already exists
+evaluating corrector with steps 20
+[pred] query: Нийслэлээс албан тушаалтан хүртэл / Нийслэлээс албан тушаалтан хүртэл / KRA
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: Sunnaa Sakshi өөрийн Instagram әлеуметтік медиадан төдийгүй нийгмийн араншинд өртөж эхэлсэн
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: : : : : : : : : : Marrakech Өмнөх 1400 жилийн хугац
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720491519/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720491519
+{'eval_loss': 6.235731601715088, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17431289992780477, 'eval_token_set_recall': 0.24614618771321603, 'eval_token_set_f1': 0.20048681399434817, 'eval_token_set_f1_sem': 0.0033383883556592393, 'eval_n_ngrams_match_1': 2.874, 'eval_n_ngrams_match_2': 1.122, 'eval_n_ngrams_match_3': 0.054, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 14.924, 'eval_bleu_score': 5.515837423459752, 'eval_bleu_score_sem': 0.12640889614003004, 'eval_rouge_score': 0.5421637498952899, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8916972279548645, 'eval_emb_cos_sim_sem': 0.00032931565619033883, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 4022.5771, 'eval_samples_per_second': 0.124, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-20.json
+evaluating corrector with steps 50
+[pred] query: Нүүр хуудас / Нийгэм / Нийгэм / Нийгэм / Ричард Рамаза хүртэл
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: Sunnaa Sakshi өөрийн Instagram әлеуметтік медиадан төдийгүй нийгмийн араншинд өртөж эхэлсэн
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: : : : : : : : : : Marrakech Өмнөх 1400 жилийн хугац
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720501518/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720501518
+{'eval_loss': 6.235731601715088, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17431289992780477, 'eval_token_set_recall': 0.2460192035862319, 'eval_token_set_f1': 0.20045218195971615, 'eval_token_set_f1_sem': 0.003338686093725626, 'eval_n_ngrams_match_1': 2.874, 'eval_n_ngrams_match_2': 1.122, 'eval_n_ngrams_match_3': 0.054, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 14.928, 'eval_bleu_score': 5.515790961104938, 'eval_bleu_score_sem': 0.12640854817433042, 'eval_rouge_score': 0.542141521677675, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8858597278594971, 'eval_emb_cos_sim_sem': 0.006166785945589306, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 9999.0711, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-50.json
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+[pred] query: Нүүр хуудас / Нийгэм / Нийгэм / Нийгэм / Ричард Рамаза хүртэл
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: Sunnaa Sakshi өөрийн Instagram әлеуметтік медиадан төдийгүй нийгмийн араншинд өртөж эхэлсэн
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: : : : : : : : : : Marrakech Өмнөх 1400 жилийн хугац
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720511523/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720511523
+{'eval_loss': 6.235731601715088, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17431289992780477, 'eval_token_set_recall': 0.2460192035862319, 'eval_token_set_f1': 0.20045218195971615, 'eval_token_set_f1_sem': 0.003338686093725626, 'eval_n_ngrams_match_1': 2.874, 'eval_n_ngrams_match_2': 1.122, 'eval_n_ngrams_match_3': 0.054, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 14.928, 'eval_bleu_score': 5.515790961104938, 'eval_bleu_score_sem': 0.12640854817433042, 'eval_rouge_score': 0.542141521677675, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8858597278594971, 'eval_emb_cos_sim_sem': 0.006166785945589306, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 10005.3387, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/urd_Arab_steps-50_sbeam-8.json
+evaluating guj_Gujr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-1.json already exists
+evaluating corrector with steps 20
+[pred] query: "Манай гэргий үү?"-н асуултын дараа аавынхаа нөхөрт харилцаа өгсөн
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: Today Nazarbayev University-г уншаарай, энэ өдрөөс эхлэн дараах бүхий л хөтөлбөр |
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: Дархан гүнж Shaqran Khan дээр гарч болно | Buro 24/7 Дархан гүнж Shaqran
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720515547/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720515547
+{'eval_loss': 8.635946273803711, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22813698869070417, 'eval_token_set_recall': 0.2424696999079357, 'eval_token_set_f1': 0.23288851511800387, 'eval_token_set_f1_sem': 0.0032189971949122096, 'eval_n_ngrams_match_1': 3.066, 'eval_n_ngrams_match_2': 1.106, 'eval_n_ngrams_match_3': 0.046, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 13.702, 'eval_bleu_score': 6.564237383649377, 'eval_bleu_score_sem': 0.08541852659426133, 'eval_rouge_score': 0.6095813757616833, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9293509721755981, 'eval_emb_cos_sim_sem': 0.002109676471917119, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 4023.8091, 'eval_samples_per_second': 0.124, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-20.json
+evaluating corrector with steps 50
+[pred] query: "Манай гэргий үү?"-н асуултын дараа аавынхаа нөхөрт харилцаа өгсөн
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: Today Nazarbayev University-г уншаарай, энэ өдрөөс эхлэн дараах бүхий л хөтөлбөр |
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: Дархан гүнж Shaqran Khan дээр гарч болно | Buro 24/7 Дархан гүнж Shaqran
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720525553/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720525553
+{'eval_loss': 8.635946273803711, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22813698869070417, 'eval_token_set_recall': 0.24250266694090275, 'eval_token_set_f1': 0.23290697665646543, 'eval_token_set_f1_sem': 0.0032190257772543108, 'eval_n_ngrams_match_1': 3.066, 'eval_n_ngrams_match_2': 1.106, 'eval_n_ngrams_match_3': 0.046, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 13.7, 'eval_bleu_score': 6.565340597651086, 'eval_bleu_score_sem': 0.08541843887430463, 'eval_rouge_score': 0.6102829736346629, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9293509721755981, 'eval_emb_cos_sim_sem': 0.002109676471917119, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 10006.0179, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-50.json
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+[pred] query: "Манай гэргий үү?"-н асуултын дараа аавынхаа нөхөрт харилцаа өгсөн
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: Today Nazarbayev University-г уншаарай, энэ өдрөөс эхлэн дараах бүхий л хөтөлбөр |
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: Дархан гүнж Shaqran Khan дээр гарч болно | Buro 24/7 Дархан гүнж Shaqran
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720535548/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720535548
+{'eval_loss': 8.635946273803711, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22813698869070417, 'eval_token_set_recall': 0.24250266694090275, 'eval_token_set_f1': 0.23290697665646543, 'eval_token_set_f1_sem': 0.0032190257772543108, 'eval_n_ngrams_match_1': 3.066, 'eval_n_ngrams_match_2': 1.106, 'eval_n_ngrams_match_3': 0.046, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 13.7, 'eval_bleu_score': 6.565340597651086, 'eval_bleu_score_sem': 0.08541843887430463, 'eval_rouge_score': 0.6102829736346629, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9293509721755981, 'eval_emb_cos_sim_sem': 0.002109676471917119, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 9994.6588, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/guj_Gujr_steps-50_sbeam-8.json
+evaluating sin_Sinh val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-1.json already exists
+evaluating corrector with steps 20
+[pred] query: Хүмүүс алхаж байхдаа | Тагтаа Паблишинг Хүмүүс алхаж байхдаа 1 сарын 16 [[
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: Сицилиа шүршигч | | Сицилиа шүршигч Posted on August 24, 2017August 24, 2017 by
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: Залуу байхын өөдрөг үед... - Sri Lanka News Залуу байхын өөдрөг үед
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720539580/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720539580
+{'eval_loss': 8.08041763305664, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24511044253304318, 'eval_token_set_recall': 0.2994942610622955, 'eval_token_set_f1': 0.2661687317315878, 'eval_token_set_f1_sem': 0.003909443536436614, 'eval_n_ngrams_match_1': 3.528, 'eval_n_ngrams_match_2': 1.316, 'eval_n_ngrams_match_3': 0.128, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 14.426, 'eval_bleu_score': 6.962767702288266, 'eval_bleu_score_sem': 0.18141735871217182, 'eval_rouge_score': 0.5669885560129437, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8974360227584839, 'eval_emb_cos_sim_sem': 0.013916790596621011, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 4032.0579, 'eval_samples_per_second': 0.124, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-20.json
+evaluating corrector with steps 50
+[pred] query: Хүмүүс алхаж байхдаа | Тагтаа Паблишинг Хүмүүс алхаж байхдаа 1 сарын 16 [[
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: Сицилиа шүршигч | | Сицилиа шүршигч Posted on August 24, 2017August 24, 2017 by
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: Залуу байхын өөдрөг үед... - Sri Lanka News Залуу байхын өөдрөг үед
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720549602/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720549602
+{'eval_loss': 8.08041763305664, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24511044253304318, 'eval_token_set_recall': 0.2994942610622955, 'eval_token_set_f1': 0.2661687317315878, 'eval_token_set_f1_sem': 0.003909443536436614, 'eval_n_ngrams_match_1': 3.528, 'eval_n_ngrams_match_2': 1.316, 'eval_n_ngrams_match_3': 0.128, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 14.426, 'eval_bleu_score': 6.962767702288266, 'eval_bleu_score_sem': 0.18141735871217182, 'eval_rouge_score': 0.5669885560129437, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8974360227584839, 'eval_emb_cos_sim_sem': 0.013916790596621011, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 10022.439, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-50.json
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+[pred] query: Хүмүүс алхаж байхдаа | Тагтаа Паблишинг Хүмүүс алхаж байхдаа 1 сарын 16 [[
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: Сицилиа шүршигч | | Сицилиа шүршигч Posted on August 24, 2017August 24, 2017 by
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: Залуу байхын өөдрөг үед... - Sri Lanka News Залуу байхын өөдрөг үед
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720559616/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720559616
+{'eval_loss': 8.08041763305664, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24511044253304318, 'eval_token_set_recall': 0.2994942610622955, 'eval_token_set_f1': 0.2661687317315878, 'eval_token_set_f1_sem': 0.003909443536436614, 'eval_n_ngrams_match_1': 3.528, 'eval_n_ngrams_match_2': 1.316, 'eval_n_ngrams_match_3': 0.128, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 14.426, 'eval_bleu_score': 6.962767702288266, 'eval_bleu_score_sem': 0.18141735871217182, 'eval_rouge_score': 0.5669885560129437, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8974360227584839, 'eval_emb_cos_sim_sem': 0.013916790596621011, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 10013.4681, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/sin_Sinh_steps-50_sbeam-8.json
+evaluating pan_Guru val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/pan_Guru_steps-1.json already exists
+evaluating corrector with steps 20
+[pred] query: Цаг хугацааны хязгаарлалтад орсны улмаас хийгдэж буй худалдааны төхөөрөмжүүдээр
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: Мадуро хэмээх бодлогын бүтээлүүдийг эхлүүлэхээс хэсэгчлэн болзошгүй - Pars Today
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: Халх голын хөшөөнүүд дээр албан ёсны зураг өгөх шаардлагыг хангах :
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720563638/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720563638
+{'eval_loss': 7.849869251251221, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2322824105117452, 'eval_token_set_recall': 0.2586011751664231, 'eval_token_set_f1': 0.24216171620837337, 'eval_token_set_f1_sem': 0.00357364038548565, 'eval_n_ngrams_match_1': 3.004, 'eval_n_ngrams_match_2': 1.098, 'eval_n_ngrams_match_3': 0.042, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 13.378, 'eval_bleu_score': 6.640291838102672, 'eval_bleu_score_sem': 0.08866972162176913, 'eval_rouge_score': 0.6670304750804759, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8875468969345093, 'eval_emb_cos_sim_sem': 0.023447872333429508, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 4022.2219, 'eval_samples_per_second': 0.124, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/pan_Guru_steps-20.json
+evaluating corrector with steps 50
+[pred] query: Цаг хугацааны хязгаарлалтад орсны улмаас хийгдэж буй худалдааны төхөөрөмжүүдээр
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: Мадуро хэмээх бодлогын бүтээлүүдийг эхлүүлэхээс хэсэгчлэн болзошгүй - Pars Today
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: Халх голын хөшөөнүүд дээр албан ёсны зураг өгөх шаардлагыг хангах :
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720573643/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720573643
+{'eval_loss': 7.849869251251221, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2322824105117452, 'eval_token_set_recall': 0.2581423007075487, 'eval_token_set_f1': 0.2419510144539874, 'eval_token_set_f1_sem': 0.003537119613061889, 'eval_n_ngrams_match_1': 3.004, 'eval_n_ngrams_match_2': 1.098, 'eval_n_ngrams_match_3': 0.042, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 13.382, 'eval_bleu_score': 6.637534783052979, 'eval_bleu_score_sem': 0.08806474470619192, 'eval_rouge_score': 0.6663748460689642, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8875468969345093, 'eval_emb_cos_sim_sem': 0.023447872333429508, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 10004.6577, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/pan_Guru_steps-50.json
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/pan_Guru_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8
+[pred] query: Цаг хугацааны хязгаарлалтад орсны улмаас хийгдэж буй худалдааны төхөөрөмжүүдээр
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: Мадуро хэмээх бодлогын бүтээлүүдийг эхлүүлэхээс хэсэгчлэн болзошгүй - Pars Today
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: Халх голын хөшөөнүүд дээр албан ёсны зураг өгөх шаардлагыг хангах :
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720583647/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720583647
+{'eval_loss': 7.849869251251221, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2322824105117452, 'eval_token_set_recall': 0.2581423007075487, 'eval_token_set_f1': 0.2419510144539874, 'eval_token_set_f1_sem': 0.003537119613061889, 'eval_n_ngrams_match_1': 3.004, 'eval_n_ngrams_match_2': 1.098, 'eval_n_ngrams_match_3': 0.042, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 13.382, 'eval_bleu_score': 6.637534783052979, 'eval_bleu_score_sem': 0.08806474470619192, 'eval_rouge_score': 0.6663748460689642, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8875468969345093, 'eval_emb_cos_sim_sem': 0.023447872333429508, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 10004.2991, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/pan_Guru_steps-50_sbeam-8.json
+evaluating tur_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/tur_Latn_steps-1.json already exists
+evaluating corrector with steps 20
+[pred] query: 15 ДЕПУТАТTİK | TRT Қазақша 15 ДЕПУТАТTİK | TRT Қазақша 15 ДЕПУТАТTİK
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: Fenerbahçe-İstanbul: Fenerbahçe-İstanbul: Fenerbahçe-İstanbul: Fenerbahçe кубогының ресми hakimі анықталды
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: Çocuk Kitapları 7 – 14 Yaş Çocuk Kitapları 7 – 14 Yaş Çocuk Kitapları Денсаулық сақтау үрдістері
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720587671/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720587671
+{'eval_loss': 3.2795846462249756, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2586689245843375, 'eval_token_set_recall': 0.3532461841821752, 'eval_token_set_f1': 0.29326262464559755, 'eval_token_set_f1_sem': 0.004386790004901298, 'eval_n_ngrams_match_1': 4.254, 'eval_n_ngrams_match_2': 1.386, 'eval_n_ngrams_match_3': 0.19, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 16.036, 'eval_bleu_score': 6.472324930986414, 'eval_bleu_score_sem': 0.16903778854785098, 'eval_rouge_score': 0.21464239496170254, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8947162628173828, 'eval_emb_cos_sim_sem': 0.0068971216831097614, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 4023.9299, 'eval_samples_per_second': 0.124, 'eval_steps_per_second': 0.062}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/tur_Latn_steps-20.json
+evaluating corrector with steps 50
+[pred] query: 15 ДЕПУТАТTİK | TRT Қазақша 15 ДЕПУТАТTİK | TRT Қазақша 15 ДЕПУТАТTİK
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: Fenerbahçe-İstanbul: Fenerbahçe-İstanbul: Fenerbahçe-İstanbul: Fenerbahçe кубогының ресми hakimі анықталды
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: Çocuk Kitapları 7 – 14 Yaş Çocuk Kitapları 7 – 14 Yaş Çocuk Kitapları Денсаулық сақтау үрдістері
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720597655/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cyrl-script_32_2layers_corrector/decoded_eval_1720597655
+{'eval_loss': 3.2795846462249756, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.25860831852373145, 'eval_token_set_recall': 0.35324075393990284, 'eval_token_set_f1': 0.29319997218371524, 'eval_token_set_f1_sem': 0.004353432376805513, 'eval_n_ngrams_match_1': 4.254, 'eval_n_ngrams_match_2': 1.388, 'eval_n_ngrams_match_3': 0.19, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 16.034, 'eval_bleu_score': 6.476920823181945, 'eval_bleu_score_sem': 0.16907983680532548, 'eval_rouge_score': 0.2146635156051827, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8947162628173828, 'eval_emb_cos_sim_sem': 0.0068971216831097614, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 9983.904, 'eval_samples_per_second': 0.05, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/tur_Latn_steps-50.json
+evaluating corrector with beam width 4
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_cyr_scrp_32_2layers_prefix/evaluations/tur_Latn_steps-50_sbeam-4.json already exists
+evaluating corrector with beam width 8

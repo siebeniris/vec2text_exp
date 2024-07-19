@@ -1,0 +1,448 @@
+working directory /home/cs.aau.dk/ng78zb/vec2text_exp
+sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
+launch evaluation yiyic/mt5_me5_indo-aryan-fami_32_2layers_inverter with batch size 8
+loading experiment and trainer from yiyic/mt5_me5_indo-aryan-fami_32_2layers_inverter
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter
+on rank 0, output dir: saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter
+adding embedding type to dataset args.
+Loading datasets with TOKENIZERS_PARALLELISM = False
+loading data from yiyic/Indo-Aryan-hin-urd-guj-pan_train for ind_fami
+loading data from yiyic/Indo-Aryan-hin-urd-guj-pan_dev for ind_fami
+allowed columns ['text', 'lang']
+>> using fast tokenizers: True True
+dataset kwargs: {'batched': True, 'num_proc': 6, 'remove_columns': ['text', 'lang'], 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'batched': True, 'num_proc': 6, 'remove_columns': ['text', 'lang'], 'desc': 'Running tokenizer on dataset'}
+[Precomputing embeddings with batch size: 256]
+	saving precomputed embeddings to file: c73df32a94f0a4e6c111194716da8091da112d4db2a7a08e
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'c73df32a94f0a4e6c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+	saving precomputed embeddings to file: 4e545b1cbde36861c111194716da8091da112d4db2a7a08e
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '4e545b1cbde36861c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+saving train_dataset to path: /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/563419ae595a6ce34101b4f4bb0ae282.arrow
+loaded dict of val datasets from /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/b7c2d88873c9bb4061ee54b83d4d22ce.arrow
+07/04/2024 14:41:53 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+data arguments for experiment: DataArguments(dataset_name='mt-ms_ind_fami', max_eval_samples=500, use_less_data=3000)
+model yiyic/mt5_me5_indo-aryan-fami_32_2layers_inverter parameters 870484992
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+Using Frozen Embeddings as Input -- Val datasets
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '25a093cc64a4bd2cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'f887b9984fab7851c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '694552a244400504c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '1eca1041ef0bff49c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '0876581468bedfc1c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '5c2f98728794e686c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'ec9686c239623950c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'd7714de15d97b974c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'c1dd95ccb5a52b4cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '8489851ae1e968a1c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '455107e38ab416dbc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'b3b60b36f5f0fe78c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'f70f8411fb5299edc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '63a113ad1ebc5b3dc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'dd29b5091f326250c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': 'f5379dd146ccb2ffc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '80083089abc89cb6c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '8f875e6f416833c7c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '24c2e7993fbb59fdc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 256, 'new_fingerprint': '931233f295e07e40c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+output dir ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations
+evaluating deu_Latn val_dataset
+evaluating inversion base model
+[pred] query: Sortiment de producten sind relevant voor તમારી gemak. Allereerst belangrijke informatie in dedicated to Winsenterminer.
+[true] query: In unserem Themenverzeichnis finden Sie alle wichtigen Informationen zum Thema Conveniencestore. Die Artikel sind nach Relevanz sort
+
+
+
+[pred] query: A Beauty & Beauty Salon bieden us onze Dienstleistungen Kleine Schönheits, Facial & Beauty Services. Samen 
+[true] query: Unser Hair and Beauty Studio bietet Ihnen eine grosse Palette an Dienstleistungen rund um Wellness und Beauty. Dabei geht
+
+
+
+[pred] query: ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ Bestseller Produkte 2021 ▷ Bestseller
+[true] query: ❱ Unsere Bestenliste Dec/2022 ᐅ Ausführlicher Produkttest ☑ Ausgezeichnete Produkte ☑ Aktuelle
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097096/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097096
+{'eval_loss': 4.1640849113464355, 'eval_accuracy': 0.3140625, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.21598274903892475, 'eval_token_set_recall': 0.31277027159287274, 'eval_token_set_f1': 0.2507528290901763, 'eval_token_set_f1_sem': 0.0037384717118917835, 'eval_n_ngrams_match_1': 4.282, 'eval_n_ngrams_match_2': 1.172, 'eval_n_ngrams_match_3': 0.082, 'eval_num_true_words': 19.254, 'eval_num_pred_words': 17.644, 'eval_bleu_score': 5.114032326438927, 'eval_bleu_score_sem': 0.12174655866772392, 'eval_rouge_score': 0.14980659782945768, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8906973600387573, 'eval_emb_cos_sim_sem': 0.013584349426457238, 'eval_emb_top1_equal': 0.125, 'eval_emb_top1_equal_sem': 0.12499999786071611, 'eval_perplexity': 64.33378438296928, 'eval_runtime': 31.226, 'eval_samples_per_second': 16.012, 'eval_steps_per_second': 2.018}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/deu_Latn_inversion_base.json
+evaluating ydd_Hebr val_dataset
+evaluating inversion base model
+[pred] query: હીનિન / કાનિસ્તાન / ટાઇટેન ક્વાર્ટર ઍરવેઝ 5 જો
+[true] query: טשיינאַ (מעריאַט / הילטאָן) האָטעל קאַלעקשאַן עוראָטאָפּ 5 שטערן האָטעל מאַטראַ
+
+
+
+[pred] query: اذان السُجدى, اذان السُجدى, اذان السُجدى - www.youtube
+[true] query: חול־המועד סוכּות, תּשע״ז - yiddish.forward.com חול־המועד סוכּ
+
+
+
+[pred] query: મને ટ્વિટર એક્સપર્ટ ઇનકાર: મે તમારા વિચાર મને મેરાન્યૂઝ
+[true] query: איראן פראוואקירט טראמפ: מיר וועלן אויסברייטערן דעם מיסיל פראגראם טראץ אפמא
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097125/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097125
+{'eval_loss': 8.426102638244629, 'eval_accuracy': 0.2791875, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24358006532511167, 'eval_token_set_recall': 0.2831589084118497, 'eval_token_set_f1': 0.26028474310604, 'eval_token_set_f1_sem': 0.003848038330098764, 'eval_n_ngrams_match_1': 3.498, 'eval_n_ngrams_match_2': 1.168, 'eval_n_ngrams_match_3': 0.074, 'eval_num_true_words': 14.482, 'eval_num_pred_words': 13.204, 'eval_bleu_score': 6.847574336130532, 'eval_bleu_score_sem': 0.12199059041374247, 'eval_rouge_score': 0.7087326172302147, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9147683382034302, 'eval_emb_cos_sim_sem': 0.012359160296580789, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_perplexity': 4564.675189965063, 'eval_runtime': 29.2429, 'eval_samples_per_second': 17.098, 'eval_steps_per_second': 2.154}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/ydd_Hebr_inversion_base.json
+evaluating heb_Hebr val_dataset
+evaluating inversion base model
+[pred] query: لقد بحث حول بحث حول بحث منذ عدة दिनों لقد بحث حول بحث "لقد
+[true] query: במחקר שהתפרסם לאחרונה (ואני מתנצל שלא הגעתי לדון בו עד כה מפאת עניינים אחר
+
+
+
+[pred] query:......... برنامج ثقافتی لبنان ایک राष्ट्रीय
+[true] query: תוכנית ריאליטי בישראל היא לא רק תוכנית ריאליטי. היא שיעור באזרחות,
+
+
+
+[pred] query: عرض مقدمة ، عرض مقدمة ، عرض مقدمة ، عرض مقدمة 20 يو
+[true] query: בפני בקשה לעיכוב ביצוע פסק הדין אשר ניתן ביום 20.4.11 ואשר במסגרתו חו
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097174/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097174
+{'eval_loss': 6.757152557373047, 'eval_accuracy': 0.2534375, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1796705130868447, 'eval_token_set_recall': 0.24791773079861346, 'eval_token_set_f1': 0.204259154530151, 'eval_token_set_f1_sem': 0.0027079919116220494, 'eval_n_ngrams_match_1': 2.93, 'eval_n_ngrams_match_2': 1.054, 'eval_n_ngrams_match_3': 0.036, 'eval_num_true_words': 15.944, 'eval_num_pred_words': 15.752, 'eval_bleu_score': 5.369838462293926, 'eval_bleu_score_sem': 0.04789313024206483, 'eval_rouge_score': 0.7385918888633689, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.886580765247345, 'eval_emb_cos_sim_sem': 0.017205331378908915, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_perplexity': 860.1893654332757, 'eval_runtime': 48.4753, 'eval_samples_per_second': 10.315, 'eval_steps_per_second': 1.3}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/heb_Hebr_inversion_base.json
+evaluating arb_Arab val_dataset
+evaluating inversion base model
+[pred] query: فستان مزين بالزُود يزين بُزُود عفاف، يزين الستافات المكياما
+[true] query: فستان زفاف أنيق بقصّة الأميرة من نسيج الميكادو، مُزيّن بالأزهار
+
+
+
+[pred] query: رئيس مجلس رأي الدين يوسف بن رئیس المجلس رأي الدين القائمة الاسلامية
+[true] query: رئيس القمة الدينية لمجموعة العشرين الشيخ د.محمد العيسى يطلق منصة R20 
+
+
+
+[pred] query: الجامعة الدينية في السنوات السنوات، وتوسعة شعبة العلماء في رفع مكانها وترفع
+[true] query: تسعى كلية العلوم الإسلامية إلى تبوأ مكانة وسمعة مرموقة بين جامعات العالم، 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097199/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097199
+{'eval_loss': 3.305185079574585, 'eval_accuracy': 0.3831875, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2313807833205667, 'eval_token_set_recall': 0.28588597431979823, 'eval_token_set_f1': 0.2533321441439432, 'eval_token_set_f1_sem': 0.0034760976134706957, 'eval_n_ngrams_match_1': 3.644, 'eval_n_ngrams_match_2': 1.194, 'eval_n_ngrams_match_3': 0.09, 'eval_num_true_words': 15.48, 'eval_num_pred_words': 14.988, 'eval_bleu_score': 6.454142865725289, 'eval_bleu_score_sem': 0.11449935145131858, 'eval_rouge_score': 0.8765279881953798, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9455944895744324, 'eval_emb_cos_sim_sem': 0.009116090695480073, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.18898223296457348, 'eval_perplexity': 27.25358520400709, 'eval_runtime': 25.6417, 'eval_samples_per_second': 19.5, 'eval_steps_per_second': 2.457}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/arb_Arab_inversion_base.json
+evaluating amh_Ethi val_dataset
+evaluating inversion base model
+[pred] query: ਮਈ 20, 2016 ਦੀ ਯਾਦ ਡੈਮਰੀ ਹਸ੍ਕ੍ਸ ਨੇੜਲੇ ਸਮੁੰਦਰ
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: ਯੂਥ ਦੀ ਸ਼ਕਤੀ - ਸੇਧਕ ਯੂਥ ਦੀ ਸ਼ਕਤੀ ਯੂਥਕਰਮ 
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: ਹੁਸ਼ਿਆਰਪੁਰ 'ਤੇ ਗੇਂਦਬਾਜ਼ ਖਿਡਾਰੀਆਂ ਦੇ 20 ਖਿਡਾਰੀ ਜਾਣ ਪਿਛਲੇ
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097258/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097258
+{'eval_loss': 9.438773155212402, 'eval_accuracy': 0.2560625, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2768497478699495, 'eval_token_set_recall': 0.2730216424098782, 'eval_token_set_f1': 0.27317021756900034, 'eval_token_set_f1_sem': 0.0036886817002629094, 'eval_n_ngrams_match_1': 3.31, 'eval_n_ngrams_match_2': 1.272, 'eval_n_ngrams_match_3': 0.116, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 12.538, 'eval_bleu_score': 8.192063811312176, 'eval_bleu_score_sem': 0.1672125503170692, 'eval_rouge_score': 0.6653711616127249, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8577309250831604, 'eval_emb_cos_sim_sem': 0.00709037815442237, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.18898223296457348, 'eval_perplexity': 12566.290557546501, 'eval_runtime': 58.5461, 'eval_samples_per_second': 8.54, 'eval_steps_per_second': 1.076}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/amh_Ethi_inversion_base.json
+evaluating mlt_Latn val_dataset
+evaluating inversion base model
+[pred] query: Musculoskeletal Techniques - Technical Techniques and Current Current Issues ayurvedic dumbbell therapy
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: l- News - a first test of coronavirus in a world-wide l- zika testing says 
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: 'Mlg i l'im a gnu assount who is not a member | 'મુ
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097313/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097313
+{'eval_loss': 5.441694736480713, 'eval_accuracy': 0.2956875, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2522605387302757, 'eval_token_set_recall': 0.3148564519158179, 'eval_token_set_f1': 0.2769425896701943, 'eval_token_set_f1_sem': 0.003958754253610682, 'eval_n_ngrams_match_1': 3.612, 'eval_n_ngrams_match_2': 1.208, 'eval_n_ngrams_match_3': 0.1, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 12.568, 'eval_bleu_score': 7.241750353211893, 'eval_bleu_score_sem': 0.12411612467777729, 'eval_rouge_score': 0.1553219264451136, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9008762240409851, 'eval_emb_cos_sim_sem': 0.009887925932260075, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_perplexity': 230.83305335282824, 'eval_runtime': 54.5537, 'eval_samples_per_second': 9.165, 'eval_steps_per_second': 1.155}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/mlt_Latn_inversion_base.json
+evaluating hin_Deva val_dataset
+evaluating inversion base model
+[pred] query: नमस्ते हिंदुस्तान: ग़लत न करे! ग़लत न करे! Posted by Muslim
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: RBSE Class 9 Class 11 Solutions for Class 11 Hindi - Ruby Notes RBSE Class 9 Class 11 Solutions for Class 11 Hindi
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का साल का समय सिर्फ 14 महीने पूरा होने का मत
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097339/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097339
+{'eval_loss': 1.134052038192749, 'eval_accuracy': 0.7375625, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5991717422733708, 'eval_token_set_recall': 0.6341057804006308, 'eval_token_set_f1': 0.6145944200513445, 'eval_token_set_f1_sem': 0.006392209792923451, 'eval_n_ngrams_match_1': 10.456, 'eval_n_ngrams_match_2': 5.08, 'eval_n_ngrams_match_3': 2.522, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 17.162, 'eval_bleu_score': 22.2551033320037, 'eval_bleu_score_sem': 0.7453568824837014, 'eval_rouge_score': 0.7640505611310817, 'eval_exact_match': 0.006, 'eval_exact_match_sem': 0.0034571525577583697, 'eval_emb_cos_sim': 0.9730954170227051, 'eval_emb_cos_sim_sem': 0.006523836924016393, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_perplexity': 3.1082256666685204, 'eval_runtime': 26.6131, 'eval_samples_per_second': 18.788, 'eval_steps_per_second': 2.367}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/hin_Deva_inversion_base.json
+evaluating urd_Arab val_dataset
+evaluating inversion base model
+[pred] query: صدر راس عظیم سے لےکر صدر تک۔۔۔۔۔قذافی رُفرا صفحہ اول/
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: سوناکشی سوامی سوشل میڈیا کے سدھارے نہ صرف اداکاری میں مبتلا ہو گئیں اور اپ
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: نئی دہلی:مہاراشٹر میں گزشتہ سال (2017-18) میں صرف 1248 کسانوں نے اپ
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097383/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097383
+{'eval_loss': 1.0235683917999268, 'eval_accuracy': 0.7591875, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.6096263882955258, 'eval_token_set_recall': 0.6470649005998411, 'eval_token_set_f1': 0.6264592052952891, 'eval_token_set_f1_sem': 0.006801816628093149, 'eval_n_ngrams_match_1': 10.512, 'eval_n_ngrams_match_2': 5.558, 'eval_n_ngrams_match_3': 3.124, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 16.848, 'eval_bleu_score': 26.856154471448594, 'eval_bleu_score_sem': 0.8662519722298572, 'eval_rouge_score': 0.8499714885307639, 'eval_exact_match': 0.006, 'eval_exact_match_sem': 0.003457152557758369, 'eval_emb_cos_sim': 0.9702469110488892, 'eval_emb_cos_sim_sem': 0.003754130103070418, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_perplexity': 2.783108286566591, 'eval_runtime': 44.33, 'eval_samples_per_second': 11.279, 'eval_steps_per_second': 1.421}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/urd_Arab_inversion_base.json
+evaluating guj_Gujr val_dataset
+evaluating inversion base model
+[pred] query: 'મારા લગ્નમાં કન્યા-કન્યા શા માટે બોલ્યા?' : માતાએ પૂછ્યું
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: આજથી ગુજરાત પ્રવાસનું કેજરીવાલ કાર્યક્રમ શરૂ, જાણો આખી વાતો | read today
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: ગુજરાતી ફિલ્મ 'દૂરહાન 3'માં જોવા મળશે શાહરુખ ખાન | Shahrukh
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097410/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097410
+{'eval_loss': 0.9482020139694214, 'eval_accuracy': 0.7586875, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5469223773130892, 'eval_token_set_recall': 0.5670097472788647, 'eval_token_set_f1': 0.5557492405899329, 'eval_token_set_f1_sem': 0.00709574374831842, 'eval_n_ngrams_match_1': 7.294, 'eval_n_ngrams_match_2': 3.506, 'eval_n_ngrams_match_3': 1.64, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 12.892, 'eval_bleu_score': 21.34189506174405, 'eval_bleu_score_sem': 0.7332441790014057, 'eval_rouge_score': 0.8973154437066204, 'eval_exact_match': 0.006, 'eval_exact_match_sem': 0.003457152557758369, 'eval_emb_cos_sim': 0.9855197668075562, 'eval_emb_cos_sim_sem': 0.0023102299456504304, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_perplexity': 2.5810647664468265, 'eval_runtime': 26.2195, 'eval_samples_per_second': 19.07, 'eval_steps_per_second': 2.403}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/guj_Gujr_inversion_base.json
+evaluating sin_Sinh val_dataset
+evaluating inversion base model
+[pred] query: ਯਾਦ ਕਰਨ ਵਾਲੇ ਲੋਕ - ਵੀਚਾਰ | ਮਾਨ ← जब ਦਰਸ਼ਨ ਕਰਦੇ ਹੋਏ 16
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: चिप्सिया स्याली... | माइक्रोसॉफ्ट चिप्सिया स्याली... Posted on March 24, 2017
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: ਨंदी युवती के नजदीक થઇ ત્યારે... - Sri Lanka News नंदी युवती
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097445/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097445
+{'eval_loss': 8.694640159606934, 'eval_accuracy': 0.251125, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.26138471397024043, 'eval_token_set_recall': 0.28475814361077567, 'eval_token_set_f1': 0.2708102745679237, 'eval_token_set_f1_sem': 0.004176162003522139, 'eval_n_ngrams_match_1': 3.81, 'eval_n_ngrams_match_2': 1.386, 'eval_n_ngrams_match_3': 0.164, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 13.91, 'eval_bleu_score': 7.592006751477546, 'eval_bleu_score_sem': 0.19606174306682048, 'eval_rouge_score': 0.7015668246699236, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9271765351295471, 'eval_emb_cos_sim_sem': 0.004002724398661069, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.18898223296457348, 'eval_perplexity': 5970.823637535525, 'eval_runtime': 35.7707, 'eval_samples_per_second': 13.978, 'eval_steps_per_second': 1.761}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/sin_Sinh_inversion_base.json
+evaluating pan_Guru val_dataset
+evaluating inversion base model
+[pred] query: ਮਹਿੰਗੀਆਂ ਕਾਰੋਬਾਰੀਆਂ ਦੀ ਛੁੱਟੀ ਮਗਰੋਂ ਕਰੋਨਾ ਫੈਕਟਰੀ ਬੰਦ ਰਹੇ ਦਫ
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: ਮੋਦੀ ਦੇ ਯੂ ਪੀ ਦਾ ਸੁਪਨਾ ਬਣਾਉਣ ਲਈ ਕਦਮ ਲਗਵਾਉਣਾ - Panja
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: ਅਜਾਇਬ ਘਰ 'ਚ ਸ਼ਹੀਦਾਂ ਦੀ ਤਸਵੀਰ ਦੀ ਮੰਗ ਹਵਾਲੇ :
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097491/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097491
+{'eval_loss': 0.5993114113807678, 'eval_accuracy': 0.8404375, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.700943261202162, 'eval_token_set_recall': 0.722236562182228, 'eval_token_set_f1': 0.7104147835852122, 'eval_token_set_f1_sem': 0.00730326770350396, 'eval_n_ngrams_match_1': 9.218, 'eval_n_ngrams_match_2': 5.52, 'eval_n_ngrams_match_3': 3.512, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 12.936, 'eval_bleu_score': 37.38624480034807, 'eval_bleu_score_sem': 1.1863003579260702, 'eval_rouge_score': 0.9374362493715436, 'eval_exact_match': 0.058, 'eval_exact_match_sem': 0.010463793860924815, 'eval_emb_cos_sim': 0.9878935217857361, 'eval_emb_cos_sim_sem': 0.00304129485657735, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_perplexity': 1.8208645420052552, 'eval_runtime': 45.5151, 'eval_samples_per_second': 10.985, 'eval_steps_per_second': 1.384}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/pan_Guru_inversion_base.json
+evaluating tur_Latn val_dataset
+evaluating inversion base model
+[pred] query: CHP तीसरी DAK... | Tez News ⁄ CHP तीसरी DAK... 15-12-2018 में हुई सरकार विचार
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: Fenerbahçe-Galatasaray hakemi Trabzonspor-Galatasaray hakemi Trabzonspor huzurhaber.com has been updated: 2018-10-18
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: Çocuklar Çocukları Çocukları Çocukları Çocukları Çocukları Çocukları Sağlık Uygulama Ekonomik Uygulama
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097551/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097551
+{'eval_loss': 3.956369638442993, 'eval_accuracy': 0.3643125, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23872138015586697, 'eval_token_set_recall': 0.3265133673859687, 'eval_token_set_f1': 0.2703790383109537, 'eval_token_set_f1_sem': 0.003885484734688288, 'eval_n_ngrams_match_1': 3.96, 'eval_n_ngrams_match_2': 1.236, 'eval_n_ngrams_match_3': 0.106, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 17.288, 'eval_bleu_score': 5.731596499859943, 'eval_bleu_score_sem': 0.09529824755756469, 'eval_rouge_score': 0.17397385248663289, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8712105751037598, 'eval_emb_cos_sim_sem': 0.00741738172258373, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_perplexity': 52.26723215297368, 'eval_runtime': 59.9058, 'eval_samples_per_second': 8.346, 'eval_steps_per_second': 1.052}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/tur_Latn_inversion_base.json
+evaluating kaz_Cyrl val_dataset
+evaluating inversion base model
+[pred] query: KEYG WORK WORK ERGO મજૂરોના આંદોલન અને રક્ષાબંધન સલામતી છે
+[true] query: ҚМГ АЛТЫН ЕРЕЖЕЛЕРІ - ЕҢбек қауіпсіздігі және еңбекті қОРҒау жиналыстарын
+
+
+
+[pred] query: ટેસ્ટ પ્રિમોલિટિક્સ ટેસ્ટ પ્રિમોલિટિક્સ નું અનુમાન નથી 18/05/2018 18/05/2018
+[true] query: психометриялық тестілеу кестесі инструкция по приму апелляциялық ведомость 18.10.2018 ж No 578 бұйры
+
+
+
+[pred] query: i - i - Qalamkar - Qalamkar ગુજરાતી - સંગીતના મહાન Illustrator
+[true] query: Ыбырай Алтынсарин - Ы - Ұлы заман Тұлғалары - Скачать Рефераты,
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097587/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097587
+{'eval_loss': 6.583183288574219, 'eval_accuracy': 0.2730625, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23359025822818402, 'eval_token_set_recall': 0.2644389229191863, 'eval_token_set_f1': 0.2456631428131292, 'eval_token_set_f1_sem': 0.0035254841432389673, 'eval_n_ngrams_match_1': 3.584, 'eval_n_ngrams_match_2': 1.14, 'eval_n_ngrams_match_3': 0.064, 'eval_num_true_words': 15.352, 'eval_num_pred_words': 14.516, 'eval_bleu_score': 6.1112902889147245, 'eval_bleu_score_sem': 0.10198800446728411, 'eval_rouge_score': 0.518740216865395, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8870505094528198, 'eval_emb_cos_sim_sem': 0.007961019433546575, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_perplexity': 722.836668470107, 'eval_runtime': 36.1322, 'eval_samples_per_second': 13.838, 'eval_steps_per_second': 1.744}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/kaz_Cyrl_inversion_base.json
+evaluating cmn_Hani val_dataset
+evaluating inversion base model
+[pred] query: 当前价格降降降降降降降降降降降降降降降降降降降降降,主要主要城市
+[true] query: 下行以及现货成交偏弱拖累,市场主导地区价格继续快速调低,邯郸中板价格重
+
+
+
+[pred] query: 环保的优质蔬菜包装包装垃圾 消防口罩的大容量防护功能的显著优势,该产品是一目一目一目。该产品
+[true] query: 每日彩票 珍珠棉的包装定位是一种具有高强的缓冲吸震抗震作用的有明显环保效力的包装
+
+
+
+[pred] query: 基于区块链的虚拟货币,基于区块链的虚拟货币,基于区块链的虚拟货币,你正在开始自己的 金融项目。 
+[true] query: 火币云于上个月刚刚推出,允许用户开发他们自己的类似火币网的数字货币交易平台,其中包括钱
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097615/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097615
+{'eval_loss': 4.672828197479248, 'eval_accuracy': 0.28625, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 31.9140625, 'eval_token_set_precision': 0.4602997771234608, 'eval_token_set_recall': 0.4032903842889136, 'eval_token_set_f1': 0.415179508352633, 'eval_token_set_f1_sem': 0.004238230036620186, 'eval_n_ngrams_match_1': 3.636, 'eval_n_ngrams_match_2': 1.018, 'eval_n_ngrams_match_3': 0.0, 'eval_num_true_words': 7.802, 'eval_num_pred_words': 11.382, 'eval_bleu_score': 9.06801624932966, 'eval_bleu_score_sem': 0.1954360213209446, 'eval_rouge_score': 0.686789623863498, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9225587844848633, 'eval_emb_cos_sim_sem': 0.011101090039420761, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_perplexity': 106.99993184287729, 'eval_runtime': 27.9783, 'eval_samples_per_second': 17.871, 'eval_steps_per_second': 2.252}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/cmn_Hani_inversion_base.json
+evaluating jpn_Jpan val_dataset
+evaluating inversion base model
+[pred] query:......बादशाला बीच बीच बीच बीच बीच बीच बीच बीच रही हैं,所以雨心地
+[true] query: 花立山荘では夜半から雨が降り続いていて、朝にちょっとだけ雨脚が弱くなったときに出発。 しばらく
+
+
+
+[pred] query: ❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄ पहले किया गया शूट,但我 भी注意到
+[true] query: 今シーズン初の凍結した桧原湖の湖上撮影です。 かなり結氷は進んでいましたが、まだワカサギ
+
+
+
+[pred] query: हमारे बीच的存在感, यह 绝对的 YouTube 团队的团队的团队 हैं। हमारे बीच的
+[true] query: まず少なくともこの人たちチームにネット周りが強い人間がいることは間違いなくて、YouTubeのメタタグ(メタタグって?って人はこの記事
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097651/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097651
+{'eval_loss': 7.449179649353027, 'eval_accuracy': 0.1974375, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5558061210719097, 'eval_token_set_recall': 0.2062659193919266, 'eval_token_set_f1': 0.2832352675779917, 'eval_token_set_f1_sem': 0.003771369306831002, 'eval_n_ngrams_match_1': 2.414, 'eval_n_ngrams_match_2': 1.02, 'eval_n_ngrams_match_3': 0.008, 'eval_num_true_words': 4.93, 'eval_num_pred_words': 14.524, 'eval_bleu_score': 6.031066847777906, 'eval_bleu_score_sem': 0.15725800101852916, 'eval_rouge_score': 0.5576080406289994, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8793731331825256, 'eval_emb_cos_sim_sem': 0.015034442042521915, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_perplexity': 1718.4528330863006, 'eval_runtime': 35.8334, 'eval_samples_per_second': 13.953, 'eval_steps_per_second': 1.758}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/jpn_Jpan_inversion_base.json
+evaluating kor_Hang val_dataset
+evaluating inversion base model
+[pred] query: _pre-health – Smartfeeding.com _pre-health – latest_update _in_the_latest
+[true] query: 세일 중 – Natural Health {% if first_available_variant.compare_at_price > first_available_variant.price
+
+
+
+[pred] query: हीरो निर्धारण और निर्णायकता का निर्णय | __99bet99.com --> Home खेल हीरो
+[true] query: 신용위험 결정요인 과 관련 - 토토사이트 검증사이트 메이저토토사이트 - 토토탐정 - 신
+
+
+
+[pred] query: Android - टांडा - लॉन्च - समाचार - Samsung Android - Android । Android लॉ
+[true] query: 안드로이드 : 삼성바다폰 영국 온라인 등록 - 타이젠 - 안드로이드 스마트폰과 태블릿 새
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097691/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097691
+{'eval_loss': 8.009025573730469, 'eval_accuracy': 0.237375, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2264655993387421, 'eval_token_set_recall': 0.23802786547817545, 'eval_token_set_f1': 0.228596689881515, 'eval_token_set_f1_sem': 0.003616755388156368, 'eval_n_ngrams_match_1': 3.244, 'eval_n_ngrams_match_2': 1.072, 'eval_n_ngrams_match_3': 0.028, 'eval_num_true_words': 14.33, 'eval_num_pred_words': 15.63, 'eval_bleu_score': 5.738455257118478, 'eval_bleu_score_sem': 0.08697600478163654, 'eval_rouge_score': 0.5145595097314815, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9170153141021729, 'eval_emb_cos_sim_sem': 0.008019151791444242, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_perplexity': 3007.984625130794, 'eval_runtime': 39.7665, 'eval_samples_per_second': 12.573, 'eval_steps_per_second': 1.584}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/kor_Hang_inversion_base.json
+evaluating mon_Cyrl val_dataset
+evaluating inversion base model
+[pred] query: દેશમાં ઑલરાઉન્ડ ડાઉન થતાં ભારતના આર્થિક ફટકાર. 55 લાખ થયા
+[true] query: Алтны олборлолт амжилтад хүрнэ ОХУын гадаад өр 56 тэрбум ам.доллар болж өсчээ
+
+
+
+[pred] query: ગેજેટ ની સ્થિતિ પર 3 ફેરફારોનું ધ્યાન રાખો | Google Play Store Gujarati Javascript
+[true] query: Google Текстийн зарын өөрчлөлтийг анхаарч үзэх 3 зүйл | Martech Zone Google Текстийн зарын
+
+
+
+[pred] query: 🥇 ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ Erotic Massage (2021) 6175
+[true] query: » СЕКС (1085550) » ШАР МЭДЭЭ (805751) » ӨГҮҮЛЛЭГ (906359) хөлийг 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097726/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097726
+{'eval_loss': 8.596405029296875, 'eval_accuracy': 0.223875, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22025030056802541, 'eval_token_set_recall': 0.25004718353541905, 'eval_token_set_f1': 0.23247872639297365, 'eval_token_set_f1_sem': 0.003067071450076077, 'eval_n_ngrams_match_1': 3.122, 'eval_n_ngrams_match_2': 1.114, 'eval_n_ngrams_match_3': 0.066, 'eval_num_true_words': 14.004, 'eval_num_pred_words': 13.02, 'eval_bleu_score': 6.839612998668988, 'eval_bleu_score_sem': 0.11615760172730334, 'eval_rouge_score': 0.5576236728148138, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9231905341148376, 'eval_emb_cos_sim_sem': 0.009030786132638533, 'eval_emb_top1_equal': 0.875, 'eval_emb_top1_equal_sem': 0.12499999786071611, 'eval_perplexity': 5412.167991120744, 'eval_runtime': 34.936, 'eval_samples_per_second': 14.312, 'eval_steps_per_second': 1.803}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/mon_Cyrl_inversion_base.json
+evaluating hun_Latn val_dataset
+evaluating inversion base model
+[pred] query: übungsübungsübungsübungsübungsübungsübungsübungsübungsübungsübungsübungsübungs.
+[true] query: Ultrahang kezelés: Fájdalomcsillapítás tűszűrás nélkül [teljes útmutató] Ízületi fájdalom fono
+
+
+
+[pred] query: El Nuevo Trampoline, El Nuevo Trampoline, El Nuevo Trampoline, El Nuevo Trampoline,
+[true] query: Az új Mike Tyson | SamanSport.hu 2019. 12. 13., Péntek, 18:40 Gervonta "Tank" Davis hatalmas
+
+
+
+[pred] query: The Motorcycle Scooter – The Motorcycle Scooter – The Motorcycle Scooter – The Motorcycle Scooter मुख्यपोषण 
+[true] query: Járművek | Hobbi Zóna - Part 2 TankChair – az Off Road tolószék A rendkívüli gépezet
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097752/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097752
+{'eval_loss': 5.696205139160156, 'eval_accuracy': 0.2835, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20745542651363116, 'eval_token_set_recall': 0.37053252972517736, 'eval_token_set_f1': 0.2602556568482689, 'eval_token_set_f1_sem': 0.0034183804484307794, 'eval_n_ngrams_match_1': 3.366, 'eval_n_ngrams_match_2': 1.088, 'eval_n_ngrams_match_3': 0.04, 'eval_num_true_words': 16.376, 'eval_num_pred_words': 15.076, 'eval_bleu_score': 5.157263002804786, 'eval_bleu_score_sem': 0.06787937504333356, 'eval_rouge_score': 0.10596525535797297, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8663668632507324, 'eval_emb_cos_sim_sem': 0.010309607127245095, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.18898223296457348, 'eval_perplexity': 297.73539004129486, 'eval_runtime': 26.5721, 'eval_samples_per_second': 18.817, 'eval_steps_per_second': 2.371}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/hun_Latn_inversion_base.json
+evaluating mhr_Cyrl val_dataset
+evaluating inversion base model
+[pred] query: عشق ميں كى طرف عشق كى طرف, meci chirochka sekin sekin day scooter
+[true] query: Тургым жапыште, шошо ага годым, кеч ик гана Кугу Качак ялыште лияш
+
+
+
+[pred] query: માં તુમ મર્દ? aagaz da aagaz? કુંવારા મર્દ 
+[true] query: Мо тыгай Агавайрем? Кузе тудо эрта? Тиде да моло йодышлан вашмутым Марий в
+
+
+
+[pred] query: - и.о.р. вороновская о́рет вороновская костёр носитки нетчер
+[true] query: Коряк рвезе Пётр Нестеров дене мый Наро-Фоминск олаште эртыше «По
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097793/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097793
+{'eval_loss': 6.707339286804199, 'eval_accuracy': 0.2375, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.22649273585891258, 'eval_token_set_recall': 0.28908774656715897, 'eval_token_set_f1': 0.250400219469563, 'eval_token_set_f1_sem': 0.0034601886763308293, 'eval_n_ngrams_match_1': 3.226, 'eval_n_ngrams_match_2': 1.124, 'eval_n_ngrams_match_3': 0.074, 'eval_num_true_words': 13.858, 'eval_num_pred_words': 13.138, 'eval_bleu_score': 6.644026181383777, 'eval_bleu_score_sem': 0.08306480984230398, 'eval_rouge_score': 0.5412188339438344, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8784539699554443, 'eval_emb_cos_sim_sem': 0.009897926589158302, 'eval_emb_top1_equal': 0.875, 'eval_emb_top1_equal_sem': 0.12499999786071611, 'eval_perplexity': 818.3902383195127, 'eval_runtime': 40.8538, 'eval_samples_per_second': 12.239, 'eval_steps_per_second': 1.542}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/mhr_Cyrl_inversion_base.json
+evaluating fin_Latn val_dataset
+evaluating inversion base model
+[pred] query: Asiakas hanuman prosessi. Jaukaan jaukaan jaukaan jaukaan jaukaan jaukaan jaukaan jaukaan jaukaan me kapcsolódit
+[true] query: Tulemme jatkamaan asiakkaan kuuntelua, osallistamista ja haastamista. Työympäristö muutos hankkeissa tuotetaan myö
+
+
+
+[pred] query: minä työtä minä työtä minä työtä minä työtä... - DIALONIA polski spektrum polski
+[true] query: Pohjois-suomalaisuus ja kaikille arvokas elämä - siinä tavoitteet toiminnalle. Työskentelen Diakonia-
+
+
+
+[pred] query: Except for mucopulmonary enzymes, kaminophila moleculas, hemos suger્યું, "jautritus ja
+[true] query: Kun kirjoitimme koivunjalojen lääketieteellisistä ominaisuuksista, mainitsimme, että paitsi munuaiset, myös ko
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097826/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_inverter/decoded_eval_1720097826
+{'eval_loss': 5.943523406982422, 'eval_accuracy': 0.231375, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.190409358683972, 'eval_token_set_recall': 0.284918511802955, 'eval_token_set_f1': 0.22228566346779163, 'eval_token_set_f1_sem': 0.003049877123501904, 'eval_n_ngrams_match_1': 3.042, 'eval_n_ngrams_match_2': 1.062, 'eval_n_ngrams_match_3': 0.044, 'eval_num_true_words': 15.462, 'eval_num_pred_words': 16.138, 'eval_bleu_score': 5.280295514631384, 'eval_bleu_score_sem': 0.05666605682421349, 'eval_rouge_score': 0.1080988810467712, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8776807188987732, 'eval_emb_cos_sim_sem': 0.007634353698717812, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_perplexity': 381.2759560254511, 'eval_runtime': 32.717, 'eval_samples_per_second': 15.283, 'eval_steps_per_second': 1.926}
+saving results to ./saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix/evaluations/fin_Latn_inversion_base.json

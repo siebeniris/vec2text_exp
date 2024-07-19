@@ -1,0 +1,58 @@
++ MODEL_NAME=yiyic/mt5_alephbert_heb_Hebr_32_inverter
+++ pwd
++ wd=/home/cs.aau.dk/ng78zb/vec2text_exp
++ echo 'working directory /home/cs.aau.dk/ng78zb/vec2text_exp'
++ export HF_HOME=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache
++ HF_HOME=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache
++ export HF_DATASETS_CACHE=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache/datasets
++ HF_DATASETS_CACHE=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache/datasets
++ export DATASET_CACHE_PATH=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache
++ DATASET_CACHE_PATH=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache
++ export WANDB_CACHE_DIR=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache/wandb/artifcats/
++ WANDB_CACHE_DIR=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache/wandb/artifcats/
++ export NCCL_P2P_LEVEL=NVL
++ NCCL_P2P_LEVEL=NVL
++ export NCCL_IB_DISABLE=1
++ NCCL_IB_DISABLE=1
++ export TORCH_NCCL_ENABLE_MONITORING=0
++ TORCH_NCCL_ENABLE_MONITORING=0
++ export TORCH_NCCL_ASYNC_ERROR_HANDLING=1
++ TORCH_NCCL_ASYNC_ERROR_HANDLING=1
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ SIF=/home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
++ echo 'sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif'
++ echo 'launch evaluation yiyic/mt5_alephbert_heb_Hebr_32_inverter'
++ srun singularity exec --nv --cleanenv --bind /home/cs.aau.dk/ng78zb/vec2text_exp:/home/cs.aau.dk/ng78zb/vec2text_exp /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif python -m evaluation yiyic/mt5_alephbert_heb_Hebr_32_inverter
+13:4: not a valid test operator: (
+13:4: not a valid test operator: 535.183.01
+/home/cs.aau.dk/ng78zb/.local/lib/python3.10/site-packages/huggingface_hub/file_download.py:1132: FutureWarning: `resume_download` is deprecated and will be removed in version 1.0.0. Downloads always resume when possible. If you want to force a new download, use `force_download=True`.
+  warnings.warn(
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/runpy.py", line 196, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "/usr/lib/python3.10/runpy.py", line 86, in _run_code
+    exec(code, run_globals)
+  File "/home/cs.aau.dk/ng78zb/vec2text_exp/evaluation.py", line 105, in <module>
+    plac.call(eval_one_model)
+  File "/home/cs.aau.dk/ng78zb/.local/lib/python3.10/site-packages/plac_core.py", line 436, in call
+    cmd, result = parser.consume(arglist)
+  File "/home/cs.aau.dk/ng78zb/.local/lib/python3.10/site-packages/plac_core.py", line 287, in consume
+    return cmd, self.func(*(args + varargs + extraopts), **kwargs)
+  File "/home/cs.aau.dk/ng78zb/vec2text_exp/evaluation.py", line 59, in eval_one_model
+    experiment, trainer = analyze_utils.load_experiment_and_trainer_from_pretrained(model_name, use_less_data=3000)
+  File "/home/cs.aau.dk/ng78zb/vec2text_exp/vec2text/analyze_utils.py", line 146, in load_experiment_and_trainer_from_pretrained
+    config = InversionConfig.from_pretrained(name)
+  File "/home/cs.aau.dk/ng78zb/.local/lib/python3.10/site-packages/transformers/configuration_utils.py", line 602, in from_pretrained
+    config_dict, kwargs = cls.get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/cs.aau.dk/ng78zb/.local/lib/python3.10/site-packages/transformers/configuration_utils.py", line 631, in get_config_dict
+    config_dict, kwargs = cls._get_config_dict(pretrained_model_name_or_path, **kwargs)
+  File "/home/cs.aau.dk/ng78zb/.local/lib/python3.10/site-packages/transformers/configuration_utils.py", line 716, in _get_config_dict
+    config_dict = cls._dict_from_json_file(resolved_config_file)
+  File "/home/cs.aau.dk/ng78zb/.local/lib/python3.10/site-packages/transformers/configuration_utils.py", line 813, in _dict_from_json_file
+    with open(json_file, "r", encoding="utf-8") as reader:
+FileNotFoundError: [Errno 2] No such file or directory: '/home/cs.aau.dk/ng78zb/.cache/huggingface/hub/models--yiyic--mt5_alephbert_heb_Hebr_32_inverter/snapshots/67082ed3f6c073a61fc22abe087aa5db51ca2c16/config.json'
+[2024-07-08 12:19:34,141] torch._dynamo.utils: [INFO] TorchDynamo compilation metrics:
+[2024-07-08 12:19:34,141] torch._dynamo.utils: [INFO] Function    Runtimes (s)
+[2024-07-08 12:19:34,141] torch._dynamo.utils: [INFO] ----------  --------------
+srun: error: a256-a40-06: task 0: Exited with exit code 1

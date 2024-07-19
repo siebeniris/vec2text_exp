@@ -1,0 +1,974 @@
+working directory /home/cs.aau.dk/ng78zb/vec2text_exp
+sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
+launch evaluation yiyic/mt5_me5_cmn_Hani_32_2layers_corrector with batch size 8
+loading experiment and trainer from yiyic/mt5_me5_cmn_Hani_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector
+on rank 0, output dir: saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_cmn_Hani_32_2layers_inverter
+on rank 0, output dir: saves/yiyic__mt5_me5_cmn_Hani_32_2layers_inverter
+adding embedding type to dataset args.
+Loading datasets with TOKENIZERS_PARALLELISM = False
+loading train dataset from path: /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/79992915d277e87bdf1710b370dd9bd3.arrow
+loaded dict of val datasets from /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/b7c2d88873c9bb4061ee54b83d4d22ce.arrow
+07/04/2024 14:43:07 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+07/04/2024 14:43:53 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+data arguments for experiment: DataArguments(dataset_name='mt-ms_cmn_Hani', max_eval_samples=500, use_less_data=3000)
+model yiyic/mt5_me5_cmn_Hani_32_2layers_corrector parameters 890566656
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+Using Frozen Embeddings as Input -- Val datasets
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '24e7b7ef1b0606ddc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7cf9deee5c6ee34dc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7d3c7a3fdc899099c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a808a07212534aa6c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '1835610d5c7fc595c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '74575508bfab4c9cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'af6bef1b30e3c5dbc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'bfa2f55e85bb2562c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd839c9a8871bbce8c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '67555e67fd16afc9c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '48ec325196197014c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a20c740ae5a0d86bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'cc2235accdffe49bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '104320b250ecc6cac111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd7b432ef61da1e93c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'c06e214a198bcc2cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '3ae3df71733802abc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '18a40ab4beb7f210c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '96cd5258a58b461bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7ee1e04e96a3faa2c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+output dir ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations
+evaluating deu_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 在 Aktuelles - Kaufen - Kaufen - Anzeigen - Anzeigen - 这个页面正在帮助
+[true] query: In unserem Themenverzeichnis finden Sie alle wichtigen Informationen zum Thema Conveniencestore. Die Artikel sind nach Relevanz sort
+
+
+
+[pred] query: Unsere Service & Service - Unsere Service & Service - Unsere Service - 为您带来多项美容
+[true] query: Unser Hair and Beauty Studio bietet Ihnen eine grosse Palette an Dienstleistungen rund um Wellness und Beauty. Dabei geht
+
+
+
+[pred] query: 最新产品排行 | Bestsellers | Bestsellers | Bestsellers | Bestsellers | Bestsellers | Bestsellers
+[true] query: ❱ Unsere Bestenliste Dec/2022 ᐅ Ausführlicher Produkttest ☑ Ausgezeichnete Produkte ☑ Aktuelle
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720097257/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720097257
+{'eval_loss': 3.9494872093200684, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1634667686970458, 'eval_token_set_recall': 0.3289009530029656, 'eval_token_set_f1': 0.21184838129191705, 'eval_token_set_f1_sem': 0.0026689675011904693, 'eval_n_ngrams_match_1': 3.17, 'eval_n_ngrams_match_2': 1.03, 'eval_n_ngrams_match_3': 0.01, 'eval_num_true_words': 19.254, 'eval_num_pred_words': 13.496, 'eval_bleu_score': 3.9441755240769747, 'eval_bleu_score_sem': 0.05007485951176696, 'eval_rouge_score': 0.12314935088607176, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8708599805831909, 'eval_emb_cos_sim_sem': 0.00682581843505244, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 101.796, 'eval_samples_per_second': 4.912, 'eval_steps_per_second': 0.619}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/deu_Latn_steps-1.json
+evaluating corrector with steps 20
+[pred] query: 在 Sitemap - Kaufen - Kaufen - Kaufen - 这个页面正在帮助客户找到关键性信息
+[true] query: In unserem Themenverzeichnis finden Sie alle wichtigen Informationen zum Thema Conveniencestore. Die Artikel sind nach Relevanz sort
+
+
+
+[pred] query: Unsere Service & Dienstleistungen & Dienstleistungen Unsere Service & Dienstleistungen Unsere Salon 为您带来一个蓬勃的
+[true] query: Unser Hair and Beauty Studio bietet Ihnen eine grosse Palette an Dienstleistungen rund um Wellness und Beauty. Dabei geht
+
+
+
+[pred] query: 最新产品排行 | Bestsellers | Bestsellers | Bestsellers | Bestsellers | Bestsellers | Bestsellers
+[true] query: ❱ Unsere Bestenliste Dec/2022 ᐅ Ausführlicher Produkttest ☑ Ausgezeichnete Produkte ☑ Aktuelle
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720097671/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720097671
+{'eval_loss': 3.9494872093200684, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.15632049363268952, 'eval_token_set_recall': 0.3390370786334415, 'eval_token_set_f1': 0.2061825251396417, 'eval_token_set_f1_sem': 0.0025780916976400033, 'eval_n_ngrams_match_1': 3.024, 'eval_n_ngrams_match_2': 1.024, 'eval_n_ngrams_match_3': 0.008, 'eval_num_true_words': 19.254, 'eval_num_pred_words': 13.448, 'eval_bleu_score': 3.894832739498097, 'eval_bleu_score_sem': 0.054480242911256534, 'eval_rouge_score': 0.11811092611080176, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.874093234539032, 'eval_emb_cos_sim_sem': 0.009920633203793546, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 414.2506, 'eval_samples_per_second': 1.207, 'eval_steps_per_second': 0.152}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/deu_Latn_steps-20.json
+evaluating corrector with steps 50
+[pred] query: 在 Sitemap - Kaufen - Kaufen - Kaufen - 这个页面正在帮助客户找到关键性信息
+[true] query: In unserem Themenverzeichnis finden Sie alle wichtigen Informationen zum Thema Conveniencestore. Die Artikel sind nach Relevanz sort
+
+
+
+[pred] query: Unsere Service & Dienstleistungen & Dienstleistungen Unsere Service & Dienstleistungen Unsere Salon 为您带来一个蓬勃的
+[true] query: Unser Hair and Beauty Studio bietet Ihnen eine grosse Palette an Dienstleistungen rund um Wellness und Beauty. Dabei geht
+
+
+
+[pred] query: 最新产品排行 | Bestsellers | Bestsellers | Bestsellers | Bestsellers | Bestsellers | Bestsellers
+[true] query: ❱ Unsere Bestenliste Dec/2022 ᐅ Ausführlicher Produkttest ☑ Ausgezeichnete Produkte ☑ Aktuelle
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720098626/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720098626
+{'eval_loss': 3.9494872093200684, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.15632049363268952, 'eval_token_set_recall': 0.33895374530010813, 'eval_token_set_f1': 0.20615696682698662, 'eval_token_set_f1_sem': 0.002576974296162708, 'eval_n_ngrams_match_1': 3.024, 'eval_n_ngrams_match_2': 1.024, 'eval_n_ngrams_match_3': 0.008, 'eval_num_true_words': 19.254, 'eval_num_pred_words': 13.44, 'eval_bleu_score': 3.8954719280883165, 'eval_bleu_score_sem': 0.05450417913601507, 'eval_rouge_score': 0.11813852871304648, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.874093234539032, 'eval_emb_cos_sim_sem': 0.009920633203793546, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 954.3534, 'eval_samples_per_second': 0.524, 'eval_steps_per_second': 0.066}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/deu_Latn_steps-50.json
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 这个页面正在为您找到 - 常见问题 - Relevanz des Adressen des Adressen des Adressen des Adressen
+[true] query: In unserem Themenverzeichnis finden Sie alle wichtigen Informationen zum Thema Conveniencestore. Die Artikel sind nach Relevanz sort
+
+
+
+[pred] query: Unsere Service & Dienstleistungen - Unsere Service & Dienstleistungen - Unsere Service & Dienstleistungen 为您带来
+[true] query: Unser Hair and Beauty Studio bietet Ihnen eine grosse Palette an Dienstleistungen rund um Wellness und Beauty. Dabei geht
+
+
+
+[pred] query: 2020年最新产品排行 &amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;amp;
+[true] query: ❱ Unsere Bestenliste Dec/2022 ᐅ Ausführlicher Produkttest ☑ Ausgezeichnete Produkte ☑ Aktuelle
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720101213/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720101213
+{'eval_loss': 3.9494872093200684, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.15800223370129865, 'eval_token_set_recall': 0.39066408105138817, 'eval_token_set_f1': 0.2155478088811025, 'eval_token_set_f1_sem': 0.0027328153230489725, 'eval_n_ngrams_match_1': 3.056, 'eval_n_ngrams_match_2': 1.038, 'eval_n_ngrams_match_3': 0.01, 'eval_num_true_words': 19.254, 'eval_num_pred_words': 14.026, 'eval_bleu_score': 3.908915591653403, 'eval_bleu_score_sem': 0.05144398861947484, 'eval_rouge_score': 0.12511236471654139, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8553011417388916, 'eval_emb_cos_sim_sem': 0.020433679876078185, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 2587.0107, 'eval_samples_per_second': 0.193, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/deu_Latn_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 10.08 GiB is free. Including non-PyTorch memory, this process has 34.44 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 4.04 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating ydd_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 華爾街 / 廈門 / 廈門 / 數位 / 數位 5 希臘
+[true] query: טשיינאַ (מעריאַט / הילטאָן) האָטעל קאַלעקשאַן עוראָטאָפּ 5 שטערן האָטעל מאַטראַ
+
+
+
+[pred] query: 盂兰盆 - 盂兰盆 - 盂兰盆 - 盂兰盆 - 盂兰盆
+[true] query: חול־המועד סוכּות, תּשע״ז - yiddish.forward.com חול־המועד סוכּ
+
+
+
+[pred] query: 你好! 你好! 你好! 我願意拆除法兰克福法兰克福法兰
+[true] query: איראן פראוואקירט טראמפ: מיר וועלן אויסברייטערן דעם מיסיל פראגראם טראץ אפמא
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720101318/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720101318
+{'eval_loss': 7.896268367767334, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20428472853256166, 'eval_token_set_recall': 0.4580488996297823, 'eval_token_set_f1': 0.27464014712414847, 'eval_token_set_f1_sem': 0.0037699518888946915, 'eval_n_ngrams_match_1': 2.864, 'eval_n_ngrams_match_2': 1.044, 'eval_n_ngrams_match_3': 0.024, 'eval_num_true_words': 14.482, 'eval_num_pred_words': 12.014, 'eval_bleu_score': 5.682580026683779, 'eval_bleu_score_sem': 0.062283391874032784, 'eval_rouge_score': 0.5854119533429936, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8492953181266785, 'eval_emb_cos_sim_sem': 0.01211779451478201, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 84.2923, 'eval_samples_per_second': 5.932, 'eval_steps_per_second': 0.747}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/ydd_Hebr_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.88 GiB is free. Including non-PyTorch memory, this process has 36.64 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.24 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 尼泊爾 - 5 個地點 - https://www.chinatimes.com/chinatimes.com 金
+[true] query: טשיינאַ (מעריאַט / הילטאָן) האָטעל קאַלעקשאַן עוראָטאָפּ 5 שטערן האָטעל מאַטראַ
+
+
+
+[pred] query: - - - - - - - - - - - - - -
+[true] query: חול־המועד סוכּות, תּשע״ז - yiddish.forward.com חול־המועד סוכּ
+
+
+
+[pred] query: 你好! 你好! 我願意把 Melania Trump 拆除法密克法密克法密
+[true] query: איראן פראוואקירט טראמפ: מיר וועלן אויסברייטערן דעם מיסיל פראגראם טראץ אפמא
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720103941/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720103941
+{'eval_loss': 7.896268367767334, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20213291461720295, 'eval_token_set_recall': 0.47598119233707487, 'eval_token_set_f1': 0.2744085724980022, 'eval_token_set_f1_sem': 0.003683438448009922, 'eval_n_ngrams_match_1': 2.84, 'eval_n_ngrams_match_2': 1.034, 'eval_n_ngrams_match_3': 0.018, 'eval_num_true_words': 14.482, 'eval_num_pred_words': 11.948, 'eval_bleu_score': 5.591318252869237, 'eval_bleu_score_sem': 0.06174463752507775, 'eval_rouge_score': 0.5699658758768641, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8504202961921692, 'eval_emb_cos_sim_sem': 0.009121052169803216, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 2580.3384, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/ydd_Hebr_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.00 GiB is free. Including non-PyTorch memory, this process has 36.52 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.12 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating heb_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 因为最近的一个问题(I'm not really concerned about this) 才开始进行反复的讨论。 因为
+[true] query: במחקר שהתפרסם לאחרונה (ואני מתנצל שלא הגעתי לדון בו עד כה מפאת עניינים אחר
+
+
+
+[pred] query: 一个国民的角色,就是 iRole. iRole. iRole. iRole. 
+[true] query: תוכנית ריאליטי בישראל היא לא רק תוכנית ריאליטי. היא שיעור באזרחות,
+
+
+
+[pred] query: 为进一步缓解此案的发生,请申请人进行此案的审理。 日期:2021-05-20, 
+[true] query: בפני בקשה לעיכוב ביצוע פסק הדין אשר ניתן ביום 20.4.11 ואשר במסגרתו חו
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720104041/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720104041
+{'eval_loss': 7.911293029785156, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1815469340600923, 'eval_token_set_recall': 0.35385834884070183, 'eval_token_set_f1': 0.23485209739301866, 'eval_token_set_f1_sem': 0.0027313731097965417, 'eval_n_ngrams_match_1': 3.004, 'eval_n_ngrams_match_2': 1.014, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 15.944, 'eval_num_pred_words': 12.0, 'eval_bleu_score': 5.129067468584767, 'eval_bleu_score_sem': 0.041806577175099245, 'eval_rouge_score': 0.609161023737185, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8764979839324951, 'eval_emb_cos_sim_sem': 0.009748289471876436, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 79.4898, 'eval_samples_per_second': 6.29, 'eval_steps_per_second': 0.793}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/heb_Hebr_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 首先,我才发现这个问题(The first being discussed in a recently) 不经意间引起的
+[true] query: במחקר שהתפרסם לאחרונה (ואני מתנצל שלא הגעתי לדון בו עד כה מפאת עניינים אחר
+
+
+
+[pred] query: 一个国民剧,就是 iRale, iRale, iRale。 其实, iRale
+[true] query: תוכנית ריאליטי בישראל היא לא רק תוכנית ריאליטי. היא שיעור באזרחות,
+
+
+
+[pred] query: 为进一步缓解此案的发生,请申请人进行民事审理。 今天(11月21日)上午11时
+[true] query: בפני בקשה לעיכוב ביצוע פסק הדין אשר ניתן ביום 20.4.11 ואשר במסגרתו חו
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720106683/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720106683
+{'eval_loss': 7.911293029785156, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.18032080978017548, 'eval_token_set_recall': 0.36527117327117387, 'eval_token_set_f1': 0.23453000177394884, 'eval_token_set_f1_sem': 0.0027040892569170534, 'eval_n_ngrams_match_1': 2.968, 'eval_n_ngrams_match_2': 1.01, 'eval_n_ngrams_match_3': 0.006, 'eval_num_true_words': 15.944, 'eval_num_pred_words': 12.264, 'eval_bleu_score': 5.147534827912785, 'eval_bleu_score_sem': 0.04185487122584681, 'eval_rouge_score': 0.5983202802099861, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8726547956466675, 'eval_emb_cos_sim_sem': 0.011519571366641492, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 2599.9415, 'eval_samples_per_second': 0.192, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/heb_Hebr_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating arb_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 中秋佳节,你穿上一幅美麗的婚纱,穿上印在Magnolia Floral Beads
+[true] query: فستان زفاف أنيق بقصّة الأميرة من نسيج الميكادو، مُزيّن بالأزهار
+
+
+
+[pred] query: 今天,李小璐推出了10G islamic app - 10G islamic islamic app 的定点
+[true] query: رئيس القمة الدينية لمجموعة العشرين الشيخ د.محمد العيسى يطلق منصة R20 
+
+
+
+[pred] query: 在Islamic Islamic University 中,Defence Academy 正在增进一个大群,并吸引到学生的喜好和
+[true] query: تسعى كلية العلوم الإسلامية إلى تبوأ مكانة وسمعة مرموقة بين جامعات العالم، 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720106789/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720106789
+{'eval_loss': 7.724661350250244, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1504480175741016, 'eval_token_set_recall': 0.2839155344655355, 'eval_token_set_f1': 0.19171672920908261, 'eval_token_set_f1_sem': 0.002079470602148204, 'eval_n_ngrams_match_1': 2.312, 'eval_n_ngrams_match_2': 1.016, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 15.48, 'eval_num_pred_words': 11.032, 'eval_bleu_score': 5.029797490633626, 'eval_bleu_score_sem': 0.0853048514613083, 'eval_rouge_score': 0.5101400434721803, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8476278185844421, 'eval_emb_cos_sim_sem': 0.010089404331754849, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 84.791, 'eval_samples_per_second': 5.897, 'eval_steps_per_second': 0.743}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/arb_Arab_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 婚禮中,一束美麗的卡通布,穿上了一束麻花,是Kendall Jenner 和
+[true] query: فستان زفاف أنيق بقصّة الأميرة من نسيج الميكادو، مُزيّن بالأزهار
+
+
+
+[pred] query: 今天,李小平推出了 Islamic 20 app, Islamic 20 app 的宗旨是加入法轮功
+[true] query: رئيس القمة الدينية لمجموعة العشرين الشيخ د.محمد العيسى يطلق منصة R20 
+
+
+
+[pred] query: 在Islamic Islamic University 中,Azhar College 正在增进一个大群,并吸引到学生的喜好和
+[true] query: تسعى كلية العلوم الإسلامية إلى تبوأ مكانة وسمعة مرموقة بين جامعات العالم، 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720109414/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720109414
+{'eval_loss': 7.724661350250244, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.15021610842717698, 'eval_token_set_recall': 0.28580148348383716, 'eval_token_set_f1': 0.1917027555481292, 'eval_token_set_f1_sem': 0.002169905006739999, 'eval_n_ngrams_match_1': 2.3, 'eval_n_ngrams_match_2': 1.012, 'eval_n_ngrams_match_3': 0.002, 'eval_num_true_words': 15.48, 'eval_num_pred_words': 11.062, 'eval_bleu_score': 5.03201970070716, 'eval_bleu_score_sem': 0.06144702319218813, 'eval_rouge_score': 0.500513786834978, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8566097021102905, 'eval_emb_cos_sim_sem': 0.006278145163344676, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 2582.608, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/arb_Arab_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating amh_Ethi val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: Posted on 2016年5月20日 Posted in 尼日利亚, 挪威和 挪威的贝壳的
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: 集体的力量 - unity - unity - unity - unity - unity - unity 
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: 更多关于 20 名 Algerian players 和 20 名 Algerian players 的合伙人离开了
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720109517/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720109517
+{'eval_loss': 8.564101219177246, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2209732501932199, 'eval_token_set_recall': 0.4118138972138974, 'eval_token_set_f1': 0.2791819000444967, 'eval_token_set_f1_sem': 0.0034575322907483717, 'eval_n_ngrams_match_1': 2.57, 'eval_n_ngrams_match_2': 1.056, 'eval_n_ngrams_match_3': 0.02, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 12.388, 'eval_bleu_score': 6.525102679328045, 'eval_bleu_score_sem': 0.08267060361728085, 'eval_rouge_score': 0.5086158696426897, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8430799841880798, 'eval_emb_cos_sim_sem': 0.010573485253049263, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 80.8567, 'eval_samples_per_second': 6.184, 'eval_steps_per_second': 0.779}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/amh_Ethi_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: Posted on 2016年5月20日 Posted in 挪威和挪威, 如何挖掘 ambrosia 的
+[true] query: ማርች 20, 2016 የራስ ዱሜራ ደሴቶችና የባህር ግዛት የሚያሳን የኤ
+
+
+
+[pred] query: unity - unity - unity - unity - unity - unity - 为什么我们在一起
+[true] query: አንድነት አንድነት ውስጥ ጥንካሬ - የህብረት ማህበረሰብ እንክብካቤ
+
+
+
+[pred] query: 更多关于 20 名 Algerian players 从 Algerian players 回到 Algerian players 的合
+[true] query: ከቡናማዎቹ ጋር ነገ ወደ ዩጋንዳ የሚያቀኑ 20 ተጫዋቾች ተለይተው
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720112136/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720112136
+{'eval_loss': 8.564101219177246, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2175795993995692, 'eval_token_set_recall': 0.4342883644133647, 'eval_token_set_f1': 0.2801723334286309, 'eval_token_set_f1_sem': 0.0032978956682239505, 'eval_n_ngrams_match_1': 2.508, 'eval_n_ngrams_match_2': 1.028, 'eval_n_ngrams_match_3': 0.012, 'eval_num_true_words': 11.838, 'eval_num_pred_words': 12.568, 'eval_bleu_score': 6.474303530659782, 'eval_bleu_score_sem': 0.07784577376578432, 'eval_rouge_score': 0.4986309729385351, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8369127511978149, 'eval_emb_cos_sim_sem': 0.009097009368361275, 'eval_emb_top1_equal': 0.875, 'eval_emb_top1_equal_sem': 0.12499999786071611, 'eval_runtime': 2577.1833, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/amh_Ethi_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating mlt_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: Crucial Problems and Crucial Problems and Crucial Problems - Multidisciplinary Techniques for Rehabilitation and
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: - Qatar News – 第一個疫情發生於 Bahrain – The first i’m testing a virus in
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: 該機會宣佈「mfmfm mfm mfm mfm mfm mfm 
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720112236/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720112236
+{'eval_loss': 6.037777423858643, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.210922354898284, 'eval_token_set_recall': 0.4551697989918583, 'eval_token_set_f1': 0.2763930667779263, 'eval_token_set_f1_sem': 0.0036648682728427553, 'eval_n_ngrams_match_1': 2.932, 'eval_n_ngrams_match_2': 1.05, 'eval_n_ngrams_match_3': 0.014, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 14.126, 'eval_bleu_score': 5.5402456236193105, 'eval_bleu_score_sem': 0.07904329296783186, 'eval_rouge_score': 0.12702083117817553, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8787059783935547, 'eval_emb_cos_sim_sem': 0.014478257741592981, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 79.3476, 'eval_samples_per_second': 6.301, 'eval_steps_per_second': 0.794}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/mlt_Latn_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 心肌障問題 - Mechanisms and Techniques - Mechanisms and Techniques - Mechanisms of 
+[true] query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders
+
+
+
+[pred] query: - Qatar News – The first i’m a virus in the first i’m a virus in the first
+[true] query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar
+
+
+
+[pred] query: 該機會宣佈「mfmfmfmfmfmfmfmfmfmfm
+[true] query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720114858/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720114858
+{'eval_loss': 6.037777423858643, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20848582721887698, 'eval_token_set_recall': 0.453229076152606, 'eval_token_set_f1': 0.2739294814596653, 'eval_token_set_f1_sem': 0.0038039107902394756, 'eval_n_ngrams_match_1': 2.876, 'eval_n_ngrams_match_2': 1.048, 'eval_n_ngrams_match_3': 0.018, 'eval_num_true_words': 13.932, 'eval_num_pred_words': 14.298, 'eval_bleu_score': 5.398955456885553, 'eval_bleu_score_sem': 0.08332432530054003, 'eval_rouge_score': 0.12566332674704972, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.886222243309021, 'eval_emb_cos_sim_sem': 0.011052442039527061, 'eval_emb_top1_equal': 0.125, 'eval_emb_top1_equal_sem': 0.12499999786071611, 'eval_runtime': 2579.314, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/mlt_Latn_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating hin_Deva val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: : : : : : : 不要錯過! : : 不要錯過! :
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Arabic - Arabic - Arabic - Arabic - Arabic - Arabic - Arabic -
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: 在南非, 國民黨總統安倍晋三的任期只有14天。 - 澎湃新闻 
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720114965/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720114965
+{'eval_loss': 6.459746837615967, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1786475088046671, 'eval_token_set_recall': 0.40942018047312223, 'eval_token_set_f1': 0.24116801780007466, 'eval_token_set_f1_sem': 0.003169670572487163, 'eval_n_ngrams_match_1': 3.098, 'eval_n_ngrams_match_2': 1.1, 'eval_n_ngrams_match_3': 0.048, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 12.248, 'eval_bleu_score': 4.776221084447184, 'eval_bleu_score_sem': 0.0784674866394392, 'eval_rouge_score': 0.5094534399290331, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8856096267700195, 'eval_emb_cos_sim_sem': 0.00937672417249341, 'eval_emb_top1_equal': 0.125, 'eval_emb_top1_equal_sem': 0.12499999786071611, 'eval_runtime': 85.5109, 'eval_samples_per_second': 5.847, 'eval_steps_per_second': 0.737}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/hin_Deva_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: : : : : : : : 不要錯過! : 不要錯過! :
+[true] query: Blog News: ग़लती न करे मुसलमान!!! ग़लती न करे मुसलमान!!! 
+
+
+
+[pred] query: Chapter 11 - Arabic Names for Students - Arabic Names for Students - Arabic Names for Students 
+[true] query: RBSE Solutions for Class 9 Hindi Sparsh Chapter 11 आदमी नामा - Rbse solutions RBSE Solutions for Class 9
+
+
+
+[pred] query: 在南非,國民黨總統大任的時間只有 14 天。 - 澎湃新闻 - 
+[true] query: नई दिल्ली, प्रधानमंत्री नरेंद्र मोदी का कार्यकाल पूरा होने में केवल 14 महीने का वक्त बा
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720117589/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720117589
+{'eval_loss': 6.459746837615967, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17996005439199728, 'eval_token_set_recall': 0.4166991399034108, 'eval_token_set_f1': 0.24219781826679307, 'eval_token_set_f1_sem': 0.0034481858326553872, 'eval_n_ngrams_match_1': 3.114, 'eval_n_ngrams_match_2': 1.114, 'eval_n_ngrams_match_3': 0.05, 'eval_num_true_words': 17.206, 'eval_num_pred_words': 12.608, 'eval_bleu_score': 4.789342502214579, 'eval_bleu_score_sem': 0.0744070102805998, 'eval_rouge_score': 0.4922660395140545, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8767977952957153, 'eval_emb_cos_sim_sem': 0.008831482247109118, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_runtime': 2581.9524, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/hin_Deva_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating urd_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 從總書記到總書記 - 歷史 - 國民新聞 - 拉菲 - 
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: 在社交媒體 Instagram 中 Samantha Samsy 不僅被視為不愛自卑而再度流露出了
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: 在 2018 年4 月: 在印度尼西亚的農村人中,過去 4 個農村人是
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720117686/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720117686
+{'eval_loss': 8.355257987976074, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.15397361091444442, 'eval_token_set_recall': 0.37556496003996076, 'eval_token_set_f1': 0.21415459399267775, 'eval_token_set_f1_sem': 0.002679366478946532, 'eval_n_ngrams_match_1': 2.498, 'eval_n_ngrams_match_2': 1.012, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 9.356, 'eval_bleu_score': 3.932844640999816, 'eval_bleu_score_sem': 0.05818152551622291, 'eval_rouge_score': 0.6562809904603852, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8701871037483215, 'eval_emb_cos_sim_sem': 0.004773703527580693, 'eval_emb_top1_equal': 0.875, 'eval_emb_top1_equal_sem': 0.12499999786071611, 'eval_runtime': 75.6776, 'eval_samples_per_second': 6.607, 'eval_steps_per_second': 0.832}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/urd_Arab_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 從總書記到總書記 - 國民黨 - 文摘 - www.rafael.com
+[true] query: قائداعظم سے نہرو تک ۔۔ رؤف کلاسرا مرکزی صفحہ/ لکھاری/ ر
+
+
+
+[pred] query: 在 Instagram 中 Samantha Samsy 就流露出了不愛自媒體的悲劇 不僅由於
+[true] query: سوناکشی سنہا سوشل میڈیا میمز کے نشے میں مبتلا ہو گئیں اداکارہ نہ صرف خود
+
+
+
+[pred] query: 2018 年 4 月:在印度尼西亚的農村中,過去 4 年來都達到 173 名:
+[true] query: نئی دہلی:مہاراشٹر میں گزشتہ 5 سالوں میں (18-2014)14034 کسانوں نے خود
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720120302/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720120302
+{'eval_loss': 8.355257987976074, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1530112743088416, 'eval_token_set_recall': 0.3679265068265078, 'eval_token_set_f1': 0.21216324746873372, 'eval_token_set_f1_sem': 0.002659302494499515, 'eval_n_ngrams_match_1': 2.48, 'eval_n_ngrams_match_2': 1.012, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 17.024, 'eval_num_pred_words': 9.536, 'eval_bleu_score': 3.9855106612460305, 'eval_bleu_score_sem': 0.05441825022400003, 'eval_rouge_score': 0.630697232482897, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8769811391830444, 'eval_emb_cos_sim_sem': 0.005258781814532447, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 2574.2996, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/urd_Arab_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating guj_Gujr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query:????????????? 婚
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: 今天來到山西的嘉義, 今天來到嘉義旅遊, 大家應該了解 gaffar akbar 
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: 在 DRAMA 3 的啟動下,郭德纲 - 郭德纲 - 郭德纲再次
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720120399/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720120399
+{'eval_loss': 9.280369758605957, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2005410487689132, 'eval_token_set_recall': 0.38969248806748863, 'eval_token_set_f1': 0.2582819298900974, 'eval_token_set_f1_sem': 0.002865626168809796, 'eval_n_ngrams_match_1': 2.624, 'eval_n_ngrams_match_2': 1.008, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 10.98, 'eval_bleu_score': 6.355086335861469, 'eval_bleu_score_sem': 0.0660844532357649, 'eval_rouge_score': 0.6363215584364035, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8652105331420898, 'eval_emb_cos_sim_sem': 0.006529325892490429, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 75.2552, 'eval_samples_per_second': 6.644, 'eval_steps_per_second': 0.837}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/guj_Gujr_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 結婚時,他們的父親怎麼說? - - - - - - - - 
+[true] query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા
+
+
+
+[pred] query: 今天來到廣東的Grace Cairo 文化之旅,了解更多內容! 今天來到Grace Cairo 
+[true] query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here
+
+
+
+[pred] query: 在 DRAMA 3 的登場,郭德宏再次來訪人。 郭德宏 - 郭德宏
+[true] query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720123012/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720123012
+{'eval_loss': 9.280369758605957, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.19963016602420705, 'eval_token_set_recall': 0.3926367077367081, 'eval_token_set_f1': 0.25715714070600265, 'eval_token_set_f1_sem': 0.0028130418643432975, 'eval_n_ngrams_match_1': 2.606, 'eval_n_ngrams_match_2': 1.012, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 13.074, 'eval_num_pred_words': 10.888, 'eval_bleu_score': 6.3021200912168815, 'eval_bleu_score_sem': 0.06674843706431727, 'eval_rouge_score': 0.6082801535152159, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8717523813247681, 'eval_emb_cos_sim_sem': 0.006760110839679449, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.18898223296457348, 'eval_runtime': 2571.112, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/guj_Gujr_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating sin_Sinh val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 2016年12月16日 - 走在路的人 - 让那些人认识人 - 学雷锋 
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: 蘑菇字母 | 蘑菇字母 | 蘑菇字母 | Posted on 2016年4月22日 by
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: - 小女孩 - 小女孩 - 小女孩 - 更新时间: 2016-11-20 - 言语
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720123113/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720123113
+{'eval_loss': 8.198060989379883, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1945957342279328, 'eval_token_set_recall': 0.47749987936040605, 'eval_token_set_f1': 0.26922284056240564, 'eval_token_set_f1_sem': 0.003370741991514419, 'eval_n_ngrams_match_1': 2.704, 'eval_n_ngrams_match_2': 1.036, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 11.124, 'eval_bleu_score': 5.294785748325225, 'eval_bleu_score_sem': 0.06778763927114057, 'eval_rouge_score': 0.6509672607311852, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8599272966384888, 'eval_emb_cos_sim_sem': 0.009750187397148443, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_runtime': 80.0368, 'eval_samples_per_second': 6.247, 'eval_steps_per_second': 0.787}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/sin_Sinh_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 2016年12月16日 - 学前教育 - 走在路的人 - 那些想去认识的人 
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: 鳕鱼字母 | 鳕鱼字母 | 鳕鱼字母 | 2016年4月22日 | 鳕鱼
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: - 在街上做事 - - - - - - - - - -
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720125727/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720125727
+{'eval_loss': 8.198060989379883, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.19340816603417282, 'eval_token_set_recall': 0.4924836160571461, 'eval_token_set_f1': 0.26928230953311855, 'eval_token_set_f1_sem': 0.0033689006573639556, 'eval_n_ngrams_match_1': 2.7, 'eval_n_ngrams_match_2': 1.024, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 11.428, 'eval_bleu_score': 5.29759743484985, 'eval_bleu_score_sem': 0.0663387258492959, 'eval_rouge_score': 0.6445744952931485, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8558920621871948, 'eval_emb_cos_sim_sem': 0.00972738858628208, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_runtime': 2571.5288, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/sin_Sinh_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating pan_Guru val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 为那些在 Çanakkale 停工的原因 - 搜狐新闻 - 搜狐新闻 - 珍珠港
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: 想成为公文的奠基人 - - - - - - - - - 
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: 關于: 在危地马拉雅中存放的尸体照片: x x x x 
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720125825/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720125825
+{'eval_loss': 8.782485961914062, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20003291222021943, 'eval_token_set_recall': 0.4530463425463433, 'eval_token_set_f1': 0.2683661593917413, 'eval_token_set_f1_sem': 0.003790831180148961, 'eval_n_ngrams_match_1': 2.534, 'eval_n_ngrams_match_2': 1.018, 'eval_n_ngrams_match_3': 0.008, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 12.59, 'eval_bleu_score': 5.9299280048652845, 'eval_bleu_score_sem': 0.06392190371607993, 'eval_rouge_score': 0.7358804384464095, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8366711139678955, 'eval_emb_cos_sim_sem': 0.009034539177789526, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 76.9853, 'eval_samples_per_second': 6.495, 'eval_steps_per_second': 0.818}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/pan_Guru_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 为那些在 Çanakkale 停工的景點 - 搜狗数据中心 - 浪潮图片 - 
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: - - - - - - - - - - - - - -
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: 關于 重慶大屠宰案的存檔: 在 x x x x x 中
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720128441/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720128441
+{'eval_loss': 8.782485961914062, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.19595171645520007, 'eval_token_set_recall': 0.46572798835151813, 'eval_token_set_f1': 0.2652661149339646, 'eval_token_set_f1_sem': 0.003734700754532826, 'eval_n_ngrams_match_1': 2.486, 'eval_n_ngrams_match_2': 1.02, 'eval_n_ngrams_match_3': 0.012, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 13.048, 'eval_bleu_score': 5.788612368898306, 'eval_bleu_score_sem': 0.06815106189188916, 'eval_rouge_score': 0.726716578510929, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8259904980659485, 'eval_emb_cos_sim_sem': 0.012711083847468722, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 2574.2675, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/pan_Guru_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating tur_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query:??????????????
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: 内容摘要: 北京时间12月17日,北京时间12月17日,Dinamo Zagreb取得83分的罚球
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: Children’s books - Children’s books - Children’s books - Children’s books - Children’s books
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720128538/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720128538
+{'eval_loss': 6.199384689331055, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17819232623204634, 'eval_token_set_recall': 0.43668631335984276, 'eval_token_set_f1': 0.24531265382415407, 'eval_token_set_f1_sem': 0.003041866701483078, 'eval_n_ngrams_match_1': 2.786, 'eval_n_ngrams_match_2': 1.03, 'eval_n_ngrams_match_3': 0.012, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 13.472, 'eval_bleu_score': 4.484925028769217, 'eval_bleu_score_sem': 0.06411360514528898, 'eval_rouge_score': 0.10523265400578391, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8490892648696899, 'eval_emb_cos_sim_sem': 0.012197353276791403, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_runtime': 75.4456, 'eval_samples_per_second': 6.627, 'eval_steps_per_second': 0.835}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/tur_Latn_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query:? → → → → → → → → → → → → → → → → → → → → → → → → → →
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: 内容摘要: 北京时间12月17日,北京时间12月17日,Dinamo Zagreb取得83-1的罚球
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: 在孩子7岁以下的学习方法 - Children's books - Children's books - Children's books and
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720131157/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720131157
+{'eval_loss': 6.199384689331055, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17681418276388738, 'eval_token_set_recall': 0.4291649739149743, 'eval_token_set_f1': 0.24278880740895173, 'eval_token_set_f1_sem': 0.0028487407188289198, 'eval_n_ngrams_match_1': 2.78, 'eval_n_ngrams_match_2': 1.036, 'eval_n_ngrams_match_3': 0.016, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 13.428, 'eval_bleu_score': 4.522044653562598, 'eval_bleu_score_sem': 0.07369662429930052, 'eval_rouge_score': 0.10539450693839067, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8426144123077393, 'eval_emb_cos_sim_sem': 0.011774496579859635, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_runtime': 2577.1137, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/tur_Latn_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating kaz_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 焦作和反腐倡廉的组织概况 _ 焦作和反腐倡廉的组织概况 _
+[true] query: ҚМГ АЛТЫН ЕРЕЖЕЛЕРІ - ЕҢбек қауіпсіздігі және еңбекті қОРҒау жиналыстарын
+
+
+
+[pred] query: 重點精神分析 重點精神分析 重點精神分析的表格 2018年05月28日 wp-content
+[true] query: психометриялық тестілеу кестесі инструкция по приму апелляциялық ведомость 18.10.2018 ж No 578 бұйры
+
+
+
+[pred] query: - - - - - - - - - - - - - -
+[true] query: Ыбырай Алтынсарин - Ы - Ұлы заман Тұлғалары - Скачать Рефераты,
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720131253/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720131253
+{'eval_loss': 7.185221195220947, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.182043151628214, 'eval_token_set_recall': 0.4519955645661532, 'eval_token_set_f1': 0.2506156847244032, 'eval_token_set_f1_sem': 0.0031872856940665384, 'eval_n_ngrams_match_1': 2.694, 'eval_n_ngrams_match_2': 1.028, 'eval_n_ngrams_match_3': 0.014, 'eval_num_true_words': 15.352, 'eval_num_pred_words': 12.96, 'eval_bleu_score': 5.079156536249681, 'eval_bleu_score_sem': 0.06777265771644718, 'eval_rouge_score': 0.5101806359009446, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8435683250427246, 'eval_emb_cos_sim_sem': 0.009690678022684585, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 74.7942, 'eval_samples_per_second': 6.685, 'eval_steps_per_second': 0.842}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/kaz_Cyrl_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 反腐倡廉工作概况 - MRA - MRA - MRA 的理事单位和代表們是
+[true] query: ҚМГ АЛТЫН ЕРЕЖЕЛЕРІ - ЕҢбек қауіпсіздігі және еңбекті қОРҒау жиналыстарын
+
+
+
+[pred] query: 重症心理分析的表格 重症心理分析的表格 2018年05月28日 - wp-content
+[true] query: психометриялық тестілеу кестесі инструкция по приму апелляциялық ведомость 18.10.2018 ж No 578 бұйры
+
+
+
+[pred] query: - - - - - - - - - - - - - -
+[true] query: Ыбырай Алтынсарин - Ы - Ұлы заман Тұлғалары - Скачать Рефераты,
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720133869/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720133869
+{'eval_loss': 7.185221195220947, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.18515054558444693, 'eval_token_set_recall': 0.46890522941111207, 'eval_token_set_f1': 0.25509668436045857, 'eval_token_set_f1_sem': 0.0033533737562270313, 'eval_n_ngrams_match_1': 2.748, 'eval_n_ngrams_match_2': 1.052, 'eval_n_ngrams_match_3': 0.03, 'eval_num_true_words': 15.352, 'eval_num_pred_words': 13.174, 'eval_bleu_score': 5.111487642896351, 'eval_bleu_score_sem': 0.09403663491056771, 'eval_rouge_score': 0.5107253095113143, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8467147350311279, 'eval_emb_cos_sim_sem': 0.011367011628833199, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.18898223296457348, 'eval_runtime': 2573.6797, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/kaz_Cyrl_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating cmn_Hani val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 近期,邯郸主板价格持续低迷,中间商价格缓慢回落,中间商价格缓慢回落以及
+[true] query: 下行以及现货成交偏弱拖累,市场主导地区价格继续快速调低,邯郸中板价格重
+
+
+
+[pred] query: 棉吸塑包装袋的定位是具有高强度的抗震性 每日彩票app下载具有高强度的抗震性
+[true] query: 每日彩票 珍珠棉的包装定位是一种具有高强的缓冲吸震抗震作用的有明显环保效力的包装
+
+
+
+[pred] query: 火币云于上个月推出了类似币云的虚拟币平台,允许用户使用自己的钱币,包括外汇交易,
+[true] query: 火币云于上个月刚刚推出,允许用户开发他们自己的类似火币网的数字货币交易平台,其中包括钱
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720133965/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720133965
+{'eval_loss': 2.114297866821289, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 31.9140625, 'eval_token_set_precision': 0.5067585245164185, 'eval_token_set_recall': 0.519413086913086, 'eval_token_set_f1': 0.5084699690020463, 'eval_token_set_f1_sem': 0.004552215916961517, 'eval_n_ngrams_match_1': 4.152, 'eval_n_ngrams_match_2': 1.37, 'eval_n_ngrams_match_3': 0.304, 'eval_num_true_words': 7.802, 'eval_num_pred_words': 7.876, 'eval_bleu_score': 17.124225329638023, 'eval_bleu_score_sem': 0.5140722159513189, 'eval_rouge_score': 0.8228869052516117, 'eval_exact_match': 0.004, 'eval_exact_match_sem': 0.002825591608118863, 'eval_emb_cos_sim': 0.9700808525085449, 'eval_emb_cos_sim_sem': 0.005912346079673547, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 74.8079, 'eval_samples_per_second': 6.684, 'eval_steps_per_second': 0.842}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/cmn_Hani_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 近期,邯郸重中区域市场价格持续低迷,重中区域市场价格拖累,重中区域价格直接落
+[true] query: 下行以及现货成交偏弱拖累,市场主导地区价格继续快速调低,邯郸中板价格重
+
+
+
+[pred] query: 每日彩票可信赖的吸塑棉包装袋是具有高强度的抗震定位的优点之一。高强度的
+[true] query: 每日彩票 珍珠棉的包装定位是一种具有高强的缓冲吸震抗震作用的有明显环保效力的包装
+
+
+
+[pred] query: 据悉,火币云于上个月上线了类似火币云的虚拟货币交易平台,允许用户使用自己的钱币,
+[true] query: 火币云于上个月刚刚推出,允许用户开发他们自己的类似火币网的数字货币交易平台,其中包括钱
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720136589/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720136589
+{'eval_loss': 2.114297866821289, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 31.9140625, 'eval_token_set_precision': 0.5128722680827937, 'eval_token_set_recall': 0.5294629037629033, 'eval_token_set_f1': 0.5170410127265226, 'eval_token_set_f1_sem': 0.004550093740675575, 'eval_n_ngrams_match_1': 4.196, 'eval_n_ngrams_match_2': 1.416, 'eval_n_ngrams_match_3': 0.348, 'eval_num_true_words': 7.802, 'eval_num_pred_words': 7.756, 'eval_bleu_score': 17.611039428838698, 'eval_bleu_score_sem': 0.5296194687475126, 'eval_rouge_score': 0.8320985420135425, 'eval_exact_match': 0.004, 'eval_exact_match_sem': 0.002825591608118863, 'eval_emb_cos_sim': 0.9538447856903076, 'eval_emb_cos_sim_sem': 0.008409213630422978, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 2582.239, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/cmn_Hani_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating jpn_Jpan val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 朝霞の朝霞の寝屋は昼夜外出。少し遅い点半左右就出来了。雨点又弱,
+[true] query: 花立山荘では夜半から雨が降り続いていて、朝にちょっとだけ雨脚が弱くなったときに出発。 しばらく
+
+
+
+[pred] query: 富士山の凍結開始。 今年初、後半の富士山の撮影は相当緊張でした。赤子湖上、赤子
+[true] query: 今シーズン初の凍結した桧原湖の湖上撮影です。 かなり結氷は進んでいましたが、まだワカサギ
+
+
+
+[pred] query: 当然,タグ(タグ・タグ・タグ・タグ)のチーム有相当强的信頼性。当然,もしあなたがこの番組的
+[true] query: まず少なくともこの人たちチームにネット周りが強い人間がいることは間違いなくて、YouTubeのメタタグ(メタタグって?って人はこの記事
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720136694/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720136694
+{'eval_loss': 4.311682224273682, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5465695523774459, 'eval_token_set_recall': 0.4792193001443006, 'eval_token_set_f1': 0.4880395101331573, 'eval_token_set_f1_sem': 0.005069712600863923, 'eval_n_ngrams_match_1': 2.332, 'eval_n_ngrams_match_2': 1.012, 'eval_n_ngrams_match_3': 0.006, 'eval_num_true_words': 4.93, 'eval_num_pred_words': 6.018, 'eval_bleu_score': 11.651212560869373, 'eval_bleu_score_sem': 0.40953011973314957, 'eval_rouge_score': 0.7377543250636682, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.92803955078125, 'eval_emb_cos_sim_sem': 0.008937602743303486, 'eval_emb_top1_equal': 0.625, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 84.2732, 'eval_samples_per_second': 5.933, 'eval_steps_per_second': 0.748}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/jpn_Jpan_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 春雨点半、春雨点半で独自外出というところ。山坂の山坂で雨着又弱着。雨
+[true] query: 花立山荘では夜半から雨が降り続いていて、朝にちょっとだけ雨脚が弱くなったときに出発。 しばらく
+
+
+
+[pred] query: 今年初、後半の富士山の凍結活動開始。富士山の凍結は相当緊張でした。 琵琶湖、西
+[true] query: 今シーズン初の凍結した桧原湖の湖上撮影です。 かなり結氷は進んでいましたが、まだワカサギ
+
+
+
+[pred] query: 当然,これだけのチーム(タグのつながり、タグのつながり、タグのつながり)の日本人一定有相当の信頼。
+[true] query: まず少なくともこの人たちチームにネット周りが強い人間がいることは間違いなくて、YouTubeのメタタグ(メタタグって?って人はこの記事
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720139310/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720139310
+{'eval_loss': 4.311682224273682, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5457331165910101, 'eval_token_set_recall': 0.4799942214648098, 'eval_token_set_f1': 0.4873453642688764, 'eval_token_set_f1_sem': 0.005444857971834546, 'eval_n_ngrams_match_1': 2.336, 'eval_n_ngrams_match_2': 1.01, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 4.93, 'eval_num_pred_words': 6.188, 'eval_bleu_score': 10.148577218488244, 'eval_bleu_score_sem': 0.38350982066173284, 'eval_rouge_score': 0.7281080746185811, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9228314161300659, 'eval_emb_cos_sim_sem': 0.012549521806236306, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_runtime': 2573.2026, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/jpn_Jpan_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating kor_Hang val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: - - - - - - - - - - - - - -
+[true] query: 세일 중 – Natural Health {% if first_available_variant.compare_at_price > first_available_variant.price
+
+
+
+[pred] query: 失信的要素 | 求购条件 | 求购条件 | 求购条件 | 求购条件 | 求
+[true] query: 신용위험 결정요인 과 관련 - 토토사이트 검증사이트 메이저토토사이트 - 토토탐정 - 신
+
+
+
+[pred] query: 亚马逊 - Android - Android - Android - Android - Android - Android - Java - 
+[true] query: 안드로이드 : 삼성바다폰 영국 온라인 등록 - 타이젠 - 안드로이드 스마트폰과 태블릿 새
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720139406/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720139406
+{'eval_loss': 7.243881702423096, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20413523473430636, 'eval_token_set_recall': 0.4044590843796731, 'eval_token_set_f1': 0.2614874127905012, 'eval_token_set_f1_sem': 0.003374348450451118, 'eval_n_ngrams_match_1': 2.844, 'eval_n_ngrams_match_2': 1.038, 'eval_n_ngrams_match_3': 0.016, 'eval_num_true_words': 14.33, 'eval_num_pred_words': 11.962, 'eval_bleu_score': 5.80493601312393, 'eval_bleu_score_sem': 0.08780139558814905, 'eval_rouge_score': 0.5549884797143751, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8804582953453064, 'eval_emb_cos_sim_sem': 0.017130682724751045, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 74.8803, 'eval_samples_per_second': 6.677, 'eval_steps_per_second': 0.841}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/kor_Hang_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: - - - - - - - - - - - - - -
+[true] query: 세일 중 – Natural Health {% if first_available_variant.compare_at_price > first_available_variant.price
+
+
+
+[pred] query: 失信条件的判定 | 竞彩足球投注网站 | 竞彩足球投注网站 | 竞彩足球投注网站 | 竞彩足球投注网站 | 
+[true] query: 신용위험 결정요인 과 관련 - 토토사이트 검증사이트 메이저토토사이트 - 토토탐정 - 신
+
+
+
+[pred] query: Android - 英特尔 - 英特尔 - 英特尔 - 英特尔 - 
+[true] query: 안드로이드 : 삼성바다폰 영국 온라인 등록 - 타이젠 - 안드로이드 스마트폰과 태블릿 새
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720142023/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720142023
+{'eval_loss': 7.243881702423096, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.20237861407598293, 'eval_token_set_recall': 0.42277399561223133, 'eval_token_set_f1': 0.2629218713204907, 'eval_token_set_f1_sem': 0.0034109257795323007, 'eval_n_ngrams_match_1': 2.812, 'eval_n_ngrams_match_2': 1.044, 'eval_n_ngrams_match_3': 0.012, 'eval_num_true_words': 14.33, 'eval_num_pred_words': 11.502, 'eval_bleu_score': 5.683255388430855, 'eval_bleu_score_sem': 0.08439017464081996, 'eval_rouge_score': 0.5295345293112955, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8650187253952026, 'eval_emb_cos_sim_sem': 0.017666647075106876, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 2575.1422, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/kor_Hang_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating mon_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: A l o l o l o l o l o l o l 
+[true] query: Алтны олборлолт амжилтад хүрнэ ОХУын гадаад өр 56 тэрбум ам.доллар болж өсчээ
+
+
+
+[pred] query: 更多關于 Google Maps 章節的變化 - Google Maps 章節的變化 - Google 
+[true] query: Google Текстийн зарын өөрчлөлтийг анхаарч үзэх 3 зүйл | Martech Zone Google Текстийн зарын
+
+
+
+[pred] query: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐
+[true] query: » СЕКС (1085550) » ШАР МЭДЭЭ (805751) » ӨГҮҮЛЛЭГ (906359) хөлийг 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720142119/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720142119
+{'eval_loss': 8.006365776062012, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1823541268157372, 'eval_token_set_recall': 0.43678477633477636, 'eval_token_set_f1': 0.24728522624667756, 'eval_token_set_f1_sem': 0.00270611296906025, 'eval_n_ngrams_match_1': 2.496, 'eval_n_ngrams_match_2': 1.032, 'eval_n_ngrams_match_3': 0.024, 'eval_num_true_words': 14.004, 'eval_num_pred_words': 12.738, 'eval_bleu_score': 5.461145016044456, 'eval_bleu_score_sem': 0.08305064165803842, 'eval_rouge_score': 0.5410735550082106, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8704135417938232, 'eval_emb_cos_sim_sem': 0.010930466425758503, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 74.8288, 'eval_samples_per_second': 6.682, 'eval_steps_per_second': 0.842}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/mon_Cyrl_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 以太坊的外债有望突破56 億美元。 - 焦虑网 - 焦虑网 -
+[true] query: Алтны олборлолт амжилтад хүрнэ ОХУын гадаад өр 56 тэрбум ам.доллар болж өсчээ
+
+
+
+[pred] query: 更多關于 Google Maps 的變化 - Google Maps 的 3 重要字眼 - 埃尔
+[true] query: Google Текстийн зарын өөрчлөлтийг анхаарч үзэх 3 зүйл | Martech Zone Google Текстийн зарын
+
+
+
+[pred] query: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ 癥結癥結癥結癥
+[true] query: » СЕКС (1085550) » ШАР МЭДЭЭ (805751) » ӨГҮҮЛЛЭГ (906359) хөлийг 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720144732/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720144732
+{'eval_loss': 8.006365776062012, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17997380897396417, 'eval_token_set_recall': 0.4422301559551565, 'eval_token_set_f1': 0.24463954822709663, 'eval_token_set_f1_sem': 0.0027694772347780843, 'eval_n_ngrams_match_1': 2.49, 'eval_n_ngrams_match_2': 1.034, 'eval_n_ngrams_match_3': 0.022, 'eval_num_true_words': 14.004, 'eval_num_pred_words': 12.96, 'eval_bleu_score': 5.266101029712704, 'eval_bleu_score_sem': 0.07155777534165986, 'eval_rouge_score': 0.5148037564537005, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8818861246109009, 'eval_emb_cos_sim_sem': 0.009789928582571675, 'eval_emb_top1_equal': 0.375, 'eval_emb_top1_equal_sem': 0.1829812593064711, 'eval_runtime': 2571.5256, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/mon_Cyrl_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating hun_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 简单的方法: 消除耳部疼痛的器官损伤的方法 (zh.zh.zh.zh.zh.zh
+[true] query: Ultrahang kezelés: Fájdalomcsillapítás tűszűrás nélkül [teljes útmutató] Ízületi fájdalom fono
+
+
+
+[pred] query: 今天有一个新的比赛, ⚽⚽? ⚽⚽? ⚽⚽? ⚽⚽? ⚽⚽? ⚽
+[true] query: Az új Mike Tyson | SamanSport.hu 2019. 12. 13., Péntek, 18:40 Gervonta "Tank" Davis hatalmas
+
+
+
+[pred] query: 1 - The largest wheel of the car - The largest wheel of the car - The largest wheel of the car
+[true] query: Járművek | Hobbi Zóna - Part 2 TankChair – az Off Road tolószék A rendkívüli gépezet
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720144829/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720144829
+{'eval_loss': 6.182040214538574, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.1893488130892162, 'eval_token_set_recall': 0.46331602580426134, 'eval_token_set_f1': 0.2585343559300425, 'eval_token_set_f1_sem': 0.0033338830223692125, 'eval_n_ngrams_match_1': 2.986, 'eval_n_ngrams_match_2': 1.04, 'eval_n_ngrams_match_3': 0.016, 'eval_num_true_words': 16.376, 'eval_num_pred_words': 13.182, 'eval_bleu_score': 4.556179895276464, 'eval_bleu_score_sem': 0.07982633346898967, 'eval_rouge_score': 0.10102711486998321, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8461019992828369, 'eval_emb_cos_sim_sem': 0.009964652952885143, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_runtime': 74.9371, 'eval_samples_per_second': 6.672, 'eval_steps_per_second': 0.841}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/hun_Latn_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 简单的方法: 消除耳部疼痛的器官(zh-zh-zh-zh): 消除耳部疼痛
+[true] query: Ultrahang kezelés: Fájdalomcsillapítás tűszűrás nélkül [teljes útmutató] Ízületi fájdalom fono
+
+
+
+[pred] query: 今天,有一个新的比赛, ⚽? ⚽? ⚽? ⚽? ⚽? ⚽? ⚽?
+[true] query: Az új Mike Tyson | SamanSport.hu 2019. 12. 13., Péntek, 18:40 Gervonta "Tank" Davis hatalmas
+
+
+
+[pred] query: 1 - the largest wheel of the car – the largest wheel of the car – the largest wheel of the car – 
+[true] query: Járművek | Hobbi Zóna - Part 2 TankChair – az Off Road tolószék A rendkívüli gépezet
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720147442/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720147442
+{'eval_loss': 6.182040214538574, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.18619045306258983, 'eval_token_set_recall': 0.48611724664224676, 'eval_token_set_f1': 0.2584581441398858, 'eval_token_set_f1_sem': 0.0030993856847531557, 'eval_n_ngrams_match_1': 2.932, 'eval_n_ngrams_match_2': 1.036, 'eval_n_ngrams_match_3': 0.018, 'eval_num_true_words': 16.376, 'eval_num_pred_words': 13.03, 'eval_bleu_score': 4.469109637695404, 'eval_bleu_score_sem': 0.07575038549330015, 'eval_rouge_score': 0.09874524786270819, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.847947359085083, 'eval_emb_cos_sim_sem': 0.008132247591067163, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.16366341987889688, 'eval_runtime': 2571.6888, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/hun_Latn_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating mhr_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 我 yummy yummy 我 yummy yummy 我 yummy yummy 一連串
+[true] query: Тургым жапыште, шошо ага годым, кеч ик гана Кугу Качак ялыште лияш
+
+
+
+[pred] query:??????????? 我早早早就
+[true] query: Мо тыгай Агавайрем? Кузе тудо эрта? Тиде да моло йодышлан вашмутым Марий в
+
+
+
+[pred] query: 潘子子 - 潘子子 - 潘子子 - 新华社莫斯科5月13日电 潘子
+[true] query: Коряк рвезе Пётр Нестеров дене мый Наро-Фоминск олаште эртыше «По
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720147538/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720147538
+{'eval_loss': 8.476120948791504, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.18087421304186072, 'eval_token_set_recall': 0.4045174547674556, 'eval_token_set_f1': 0.24045610920796043, 'eval_token_set_f1_sem': 0.002618010161080029, 'eval_n_ngrams_match_1': 2.514, 'eval_n_ngrams_match_2': 1.05, 'eval_n_ngrams_match_3': 0.044, 'eval_num_true_words': 13.858, 'eval_num_pred_words': 11.75, 'eval_bleu_score': 5.962937408145898, 'eval_bleu_score_sem': 0.08856750172925414, 'eval_rouge_score': 0.5662575122074351, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8231270909309387, 'eval_emb_cos_sim_sem': 0.007753172250115101, 'eval_emb_top1_equal': 0.875, 'eval_emb_top1_equal_sem': 0.12499999786071611, 'eval_runtime': 74.8268, 'eval_samples_per_second': 6.682, 'eval_steps_per_second': 0.842}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/mhr_Cyrl_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 我 yummy yummy 我 yummy yummy 我 yummy yummy 短短三
+[true] query: Тургым жапыште, шошо ага годым, кеч ик гана Кугу Качак ялыште лияш
+
+
+
+[pred] query:???????????? 我早早
+[true] query: Мо тыгай Агавайрем? Кузе тудо эрта? Тиде да моло йодышлан вашмутым Марий в
+
+
+
+[pred] query: 潘多子 - 潘多子 - 潘多子 - 潘多子 - 俄罗斯街头
+[true] query: Коряк рвезе Пётр Нестеров дене мый Наро-Фоминск олаште эртыше «По
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720150151/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720150151
+{'eval_loss': 8.476120948791504, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.17823839640751463, 'eval_token_set_recall': 0.4129162143412152, 'eval_token_set_f1': 0.23891156029646055, 'eval_token_set_f1_sem': 0.0025142434706815256, 'eval_n_ngrams_match_1': 2.46, 'eval_n_ngrams_match_2': 1.044, 'eval_n_ngrams_match_3': 0.04, 'eval_num_true_words': 13.858, 'eval_num_pred_words': 11.956, 'eval_bleu_score': 5.861279965286025, 'eval_bleu_score_sem': 0.07890497610465945, 'eval_rouge_score': 0.5370141521464438, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8336181044578552, 'eval_emb_cos_sim_sem': 0.0086082211709238, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 2570.3494, 'eval_samples_per_second': 0.195, 'eval_steps_per_second': 0.025}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/mhr_Cyrl_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating fin_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 接下来,我们将重新形成"受欢迎的环境"的氛围。 受欢迎的人员与服务人员之间的交往, a
+[true] query: Tulemme jatkamaan asiakkaan kuuntelua, osallistamista ja haastamista. Työympäristö muutos hankkeissa tuotetaan myö
+
+
+
+[pred] query: 这就是我工作的主题。 实现"不间断"的责任感。 在北爱琴海地区--Aleksandra
+[true] query: Pohjois-suomalaisuus ja kaikille arvokas elämä - siinä tavoitteet toiminnalle. Työskentelen Diakonia-
+
+
+
+[pred] query: 此外,我们发现,尽管卵巢内分泌的成分有优点,但它们的配方包括“Juniperus 
+[true] query: Kun kirjoitimme koivunjalojen lääketieteellisistä ominaisuuksista, mainitsimme, että paitsi munuaiset, myös ko
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720150247/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720150247
+{'eval_loss': 7.0804619789123535, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.16933186566615396, 'eval_token_set_recall': 0.3434286153732756, 'eval_token_set_f1': 0.22022256911547244, 'eval_token_set_f1_sem': 0.0025357903826043887, 'eval_n_ngrams_match_1': 2.644, 'eval_n_ngrams_match_2': 1.036, 'eval_n_ngrams_match_3': 0.016, 'eval_num_true_words': 15.462, 'eval_num_pred_words': 11.812, 'eval_bleu_score': 4.691072745603413, 'eval_bleu_score_sem': 0.07332185850366803, 'eval_rouge_score': 0.11275291881097518, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8724385499954224, 'eval_emb_cos_sim_sem': 0.008559498096956192, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 75.4119, 'eval_samples_per_second': 6.63, 'eval_steps_per_second': 0.835}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/fin_Latn_steps-1.json
+evaluating corrector with steps 20
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 7.76 GiB is free. Including non-PyTorch memory, this process has 36.76 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 6.36 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish
+evaluating corrector with steps 50 and beam width 4
+[pred] query: 之后,我们将重新形成"受欢迎的环境"的氛围。 受欢迎的人员与工作场所, alquileres de
+[true] query: Tulemme jatkamaan asiakkaan kuuntelua, osallistamista ja haastamista. Työympäristö muutos hankkeissa tuotetaan myö
+
+
+
+[pred] query: - - - - - - - - - - - - - -
+[true] query: Pohjois-suomalaisuus ja kaikille arvokas elämä - siinä tavoitteet toiminnalle. Työskentelen Diakonia-
+
+
+
+[pred] query: 此外,我们发现,尽管有两种症状,它们的配方可以改善喉咙的分泌能力。“Juniperus maximus
+[true] query: Kun kirjoitimme koivunjalojen lääketieteellisistä ominaisuuksista, mainitsimme, että paitsi munuaiset, myös ko
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720152862/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_cmn_Hani_32_2layers_corrector/decoded_eval_1720152862
+{'eval_loss': 7.0804619789123535, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.16796967776805272, 'eval_token_set_recall': 0.3529465725451026, 'eval_token_set_f1': 0.220218668121043, 'eval_token_set_f1_sem': 0.002381042069963195, 'eval_n_ngrams_match_1': 2.6, 'eval_n_ngrams_match_2': 1.028, 'eval_n_ngrams_match_3': 0.014, 'eval_num_true_words': 15.462, 'eval_num_pred_words': 12.2, 'eval_bleu_score': 4.641154002054463, 'eval_bleu_score_sem': 0.09063820798228399, 'eval_rouge_score': 0.11094926490765517, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8691061735153198, 'eval_emb_cos_sim_sem': 0.01182210407943072, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 2572.8625, 'eval_samples_per_second': 0.194, 'eval_steps_per_second': 0.024}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_cmn_Hani_32_2layers_prefix/evaluations/fin_Latn_steps-50_sbeam-4.json
+evaluating corrector with steps 50 and beam width 8
+CUDA out of memory. Tried to allocate 14.79 GiB. GPU 0 has a total capacty of 44.53 GiB of which 8.24 GiB is free. Including non-PyTorch memory, this process has 36.28 GiB memory in use. Of the allocated memory 29.91 GiB is allocated by PyTorch, and 5.88 GiB is reserved by PyTorch but unallocated. If reserved but unallocated memory is large try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF, eval did not finish

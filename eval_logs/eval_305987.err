@@ -1,0 +1,31 @@
++ MODEL_NAME=mt5_me5_ara-script_32_2layers_corrector
+++ pwd
++ wd=/home/cs.aau.dk/ng78zb/vec2text_exp
++ echo 'working directory /home/cs.aau.dk/ng78zb/vec2text_exp'
++ export HF_HOME=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache
++ HF_HOME=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache
++ export HF_DATASETS_CACHE=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache/datasets
++ HF_DATASETS_CACHE=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache/datasets
++ export DATASET_CACHE_PATH=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache
++ DATASET_CACHE_PATH=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache
++ export WANDB_CACHE_DIR=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache/wandb/artifcats/
++ WANDB_CACHE_DIR=/home/cs.aau.dk/ng78zb/vec2text_exp/.cache/wandb/artifcats/
++ export NCCL_P2P_LEVEL=NVL
++ NCCL_P2P_LEVEL=NVL
++ export NCCL_IB_DISABLE=1
++ NCCL_IB_DISABLE=1
++ export TORCH_NCCL_ENABLE_MONITORING=0
++ TORCH_NCCL_ENABLE_MONITORING=0
++ export TORCH_NCCL_ASYNC_ERROR_HANDLING=1
++ TORCH_NCCL_ASYNC_ERROR_HANDLING=1
++ export CUDA_VISIBLE_DEVICES=0
++ CUDA_VISIBLE_DEVICES=0
++ SIF=/home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
++ echo 'sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif'
++ echo 'launch evaluation mt5_me5_ara-script_32_2layers_corrector'
++ srun singularity exec --nv --cleanenv --bind /home/cs.aau.dk/ng78zb/vec2text_exp:/home/cs.aau.dk/ng78zb/vec2text_exp /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif python -m evaluation mt5_me5_ara-script_32_2layers_corrector
+13:4: not a valid test operator: (
+13:4: not a valid test operator: 535.183.01
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** STEP 305987.0 ON a256-a40-05 CANCELLED AT 2024-07-05T17:38:29 ***
+slurmstepd: error: *** JOB 305987 ON a256-a40-05 CANCELLED AT 2024-07-05T17:38:29 ***

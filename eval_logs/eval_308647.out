@@ -1,0 +1,463 @@
+working directory /home/cs.aau.dk/ng78zb/vec2text_exp
+sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
+launch evaluation yiyic/mt5_me5_turkic-fami_32_2layers_corrector
+loading experiment and trainer from yiyic/mt5_me5_turkic-fami_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector
+on rank 0, output dir: saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector
+num_workers 7
+Set num workers to 7
+Experiment output_dir = saves/yiyic__mt5_me5_turkic-fami_32_2layers_inverter
+on rank 0, output dir: saves/yiyic__mt5_me5_turkic-fami_32_2layers_inverter
+adding embedding type to dataset args.
+Loading datasets with TOKENIZERS_PARALLELISM = False
+loading train dataset from path: /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/78eccf985848f36256d00414843295cc.arrow
+loaded dict of val datasets from /home/cs.aau.dk/ng78zb/vec2text_exp/.cache/inversion/b7c2d88873c9bb4061ee54b83d4d22ce.arrow
+07/16/2024 17:05:47 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+07/16/2024 17:06:51 - WARNING - accelerate.utils.other - Detected kernel version 5.4.0, which is below the recommended minimum of 5.5.0; this can cause the process to hang. It is recommended to upgrade the kernel to the minimum version or higher.
+data arguments for experiment: DataArguments(dataset_name='mt-ms_tur_fami', max_eval_samples=500, use_less_data=3000)
+model yiyic/mt5_me5_turkic-fami_32_2layers_corrector parameters 890566656
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+dataset kwargs: {'remove_columns': ['text'], 'batched': True, 'batch_size': 1024, 'num_proc': 6, 'desc': 'Running tokenizer on dataset'}
+Using Frozen Embeddings as Input -- Val datasets
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '24e7b7ef1b0606ddc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7cf9deee5c6ee34dc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7d3c7a3fdc899099c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a808a07212534aa6c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '1835610d5c7fc595c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '74575508bfab4c9cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'af6bef1b30e3c5dbc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'bfa2f55e85bb2562c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd839c9a8871bbce8c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '67555e67fd16afc9c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '48ec325196197014c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'a20c740ae5a0d86bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'cc2235accdffe49bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '104320b250ecc6cac111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'd7b432ef61da1e93c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': 'c06e214a198bcc2cc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '3ae3df71733802abc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '18a40ab4beb7f210c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '96cd5258a58b461bc111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+dataset kwargs: {'batched': True, 'batch_size': 128, 'new_fingerprint': '7ee1e04e96a3faa2c111194716da8091da112d4db2a7a08e', 'num_proc': 1}
+output dir ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations
+evaluating deu_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/deu_Latn_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/deu_Latn_steps-50_sbeam-8.json already exists
+evaluating ydd_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/ydd_Hebr_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/ydd_Hebr_steps-50_sbeam-8.json already exists
+evaluating heb_Hebr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/heb_Hebr_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/heb_Hebr_steps-50_sbeam-8.json already exists
+evaluating arb_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/arb_Arab_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/arb_Arab_steps-50_sbeam-8.json already exists
+evaluating amh_Ethi val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/amh_Ethi_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/amh_Ethi_steps-50_sbeam-8.json already exists
+evaluating mlt_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/mlt_Latn_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/mlt_Latn_steps-50_sbeam-8.json already exists
+evaluating hin_Deva val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/hin_Deva_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/hin_Deva_steps-50_sbeam-8.json already exists
+evaluating urd_Arab val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/urd_Arab_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/urd_Arab_steps-50_sbeam-8.json already exists
+evaluating guj_Gujr val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/guj_Gujr_steps-1.json already exists
+evaluating corrector with beam width 8
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/guj_Gujr_steps-50_sbeam-8.json already exists
+evaluating sin_Sinh val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/sin_Sinh_steps-1.json already exists
+evaluating corrector with beam width 8
+[pred] query: адамдар қадағалап жүретін адамдар | ⋆ Aikyn.kz адамдар қадағалап жүретін адамдар 1
+[true] query: මිනිස්සු | ඇවිද යන මඟ ← ගරු කිරීම ගුරුවරු → 16 අප් රේල් අපිට කෙනෙක් දැක්කාම ආ
+
+
+
+[pred] query: Sicilya aşığı... | Sicilya aşığı... Sicilya aşığı... Posted on February 24, 2017 February 24, 2017 by
+[true] query: සිවුමැලියා සිකුරු ලියා... | Sunday Apple සිවුමැලියා සිකුරු ලියා... March 24, 2017 | 11:00 am 0
+
+
+
+[pred] query: Жас кезінде нәзіклікке тұрған... - Sri Lanka News - Sri Lanka News Жас кезінде нәзік
+[true] query: නිළිකමට මැදි වුණේ පුංචි කෙල්ලක කාලේ... - Sri Lanka News Update නිළිකමට මැ
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721160118/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721160118
+{'eval_loss': 8.211359024047852, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.25556401294783654, 'eval_token_set_recall': 0.29648814785146066, 'eval_token_set_f1': 0.2705323009931715, 'eval_token_set_f1_sem': 0.004173861309470822, 'eval_n_ngrams_match_1': 3.72, 'eval_n_ngrams_match_2': 1.388, 'eval_n_ngrams_match_3': 0.17, 'eval_num_true_words': 14.694, 'eval_num_pred_words': 15.07, 'eval_bleu_score': 7.020929422182909, 'eval_bleu_score_sem': 0.17396101655036908, 'eval_rouge_score': 0.4665008814982179, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9117329120635986, 'eval_emb_cos_sim_sem': 0.016553282753952937, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 17586.7973, 'eval_samples_per_second': 0.028, 'eval_steps_per_second': 0.014}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/sin_Sinh_steps-50_sbeam-8.json
+evaluating pan_Guru val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 📺 Жұмысқа шығу рәсімі аяқталғаннан кейін күрделі карантиндік супермаркеттер үшін Adona
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: UPA арманын жүзеге асыру үшін енді біріншілік болуы мүмкін - Mohammad Yunus Pandemi
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: Ahşab Şehitlerinin evinde çeşitli belgeler kabul edilmelidir : : : 
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721160338/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721160338
+{'eval_loss': 7.664753437042236, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2326141856423593, 'eval_token_set_recall': 0.28176956819410437, 'eval_token_set_f1': 0.24626686722650132, 'eval_token_set_f1_sem': 0.0036619767375348973, 'eval_n_ngrams_match_1': 3.114, 'eval_n_ngrams_match_2': 1.098, 'eval_n_ngrams_match_3': 0.032, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 14.04, 'eval_bleu_score': 6.2300048525319625, 'eval_bleu_score_sem': 0.06391797699340276, 'eval_rouge_score': 0.4883430550730091, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8690720796585083, 'eval_emb_cos_sim_sem': 0.012405212968587875, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 219.4804, 'eval_samples_per_second': 2.278, 'eval_steps_per_second': 0.57}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/pan_Guru_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: Image caption Қауіпсіздік шаралары аяқталғаннан кейін күрделі сауда дүкендері үшін қамауға алынған
+[true] query: ਕਰੋਨਾ ਮਹਾਂਮਾਰੀ ਦੇ ਚੱਲਦੇ ਫੋਟੋਗ੍ਰਾਫਰ ਦੀਆਂ ਬੰਦ ਪਈਆਂ ਦੁਕਾਨਾਂ ਖੋ
+
+
+
+[pred] query: Өз армандарын жүзеге асыру үшін біраз уақытқа дейін құрылуы мүмкін - Muhammet Paşa
+[true] query: ਮੋਦੀ ਦੇ ਸੁਪਨਿਆਂ ਦਾ ਯੂ ਪੀ ਬਣਾਉਣ ਲਈ ਕਵਾਇਦ ਆਰੰਭ - Panja
+
+
+
+[pred] query: Ahşab şehitlerinin evinde gösterilen belgelere ihtiyaç : : : : : 
+[true] query: ਸ਼ਹੀਦਾਂ ਦੀਆਂ ਤਸਵੀਰਾਂ ਅਜਾਇਬ ਘਰ 'ਚ ਲਗਾਉਣ ਦੀ ਮੰਗ :
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721178896/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721178896
+{'eval_loss': 7.666990756988525, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2312711037242774, 'eval_token_set_recall': 0.28578894334939275, 'eval_token_set_f1': 0.24481146680559804, 'eval_token_set_f1_sem': 0.0036109098972141166, 'eval_n_ngrams_match_1': 3.102, 'eval_n_ngrams_match_2': 1.1, 'eval_n_ngrams_match_3': 0.028, 'eval_num_true_words': 13.07, 'eval_num_pred_words': 14.252, 'eval_bleu_score': 6.021281088728792, 'eval_bleu_score_sem': 0.0634171731416227, 'eval_rouge_score': 0.4646546826772191, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8700138330459595, 'eval_emb_cos_sim_sem': 0.00994426046365095, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 18558.0166, 'eval_samples_per_second': 0.027, 'eval_steps_per_second': 0.013}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/pan_Guru_steps-50_sbeam-8.json
+evaluating tur_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: tek parti devri haberi | Sayfa 7 tek parti devri haberi ŞARKUL AVSAT... tek parti devri sırasında yapılan
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: Anasayfa SPOR Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı Tarih: 2018-10-27 Saat: 18:45:00 Güncel
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: Çocuk Kitapları Çocuk Eğitimi Sağlıklı Yaşam Çocukların 7-14 yaş arası alışveriş alışveriş yöntem
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721179143/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721179143
+{'eval_loss': 1.28782320022583, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5571249841190952, 'eval_token_set_recall': 0.6019221887634361, 'eval_token_set_f1': 0.5766679581625682, 'eval_token_set_f1_sem': 0.007979812213777162, 'eval_n_ngrams_match_1': 9.398, 'eval_n_ngrams_match_2': 4.946, 'eval_n_ngrams_match_3': 2.692, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 16.342, 'eval_bleu_score': 23.958543576748067, 'eval_bleu_score_sem': 0.9265561484255183, 'eval_rouge_score': 0.5722374225825364, 'eval_exact_match': 0.014, 'eval_exact_match_sem': 0.005259593772650756, 'eval_emb_cos_sim': 0.9597455263137817, 'eval_emb_cos_sim_sem': 0.007543458137661219, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 247.3942, 'eval_samples_per_second': 2.021, 'eval_steps_per_second': 0.505}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/tur_Latn_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: tek parti devri haberi | Sayfa 7 tek parti devri haberi GİRİŞ 15 HAZİRAN... tek parti devri sıra
+[true] query: tek parti devri TEK PARTİ DEVRİ haberleri haber haberi | Sayfa 7 Tek parti chp zamanında yapılan... 15 Şu
+
+
+
+[pred] query: Anasayfa SPOR Fenerbahçe-Dinamo Zagreb maçı hakemleri açıklandı Tarih: 2018-10-27 Saat: 13:17:51 Kayn
+[true] query: Anasayfa Spor Fenerbahçe-Dinamo Zagreb maçının hakemleri açıklandı kaynuka Tarih: 2018-11-27 Saat: 15:07:19 
+
+
+
+[pred] query: Alışveriş Kitapları Annelik Çocuk Sağlık Çocuk Sağlık Çocuk Eğitim Metodları 7-14 yaş arası çocuklar için
+[true] query: Alışveriş Annelik Bebek Çocuk Çocuk Kitapları Eğitim Sağlık 7–14 yaş çocuklar için öğretim metodları 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721197871/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721197871
+{'eval_loss': 1.2881247997283936, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.635811180083881, 'eval_token_set_recall': 0.6682632816802556, 'eval_token_set_f1': 0.6497533950183716, 'eval_token_set_f1_sem': 0.00974521702951237, 'eval_n_ngrams_match_1': 10.696, 'eval_n_ngrams_match_2': 6.362, 'eval_n_ngrams_match_3': 4.136, 'eval_num_true_words': 16.658, 'eval_num_pred_words': 16.406, 'eval_bleu_score': 33.61895333848838, 'eval_bleu_score_sem': 1.3338114034283812, 'eval_rouge_score': 0.6610160244447323, 'eval_exact_match': 0.074, 'eval_exact_match_sem': 0.011718474529160406, 'eval_emb_cos_sim': 0.9683088064193726, 'eval_emb_cos_sim_sem': 0.013369351766758087, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 18727.3351, 'eval_samples_per_second': 0.027, 'eval_steps_per_second': 0.013}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/tur_Latn_steps-50_sbeam-8.json
+evaluating kaz_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: ҚМГ ЕҢБЕК ОРТАСЫ - Еңбек қауіпсіздігі және тұрақты жиналыстарды ардагерлері
+[true] query: ҚМГ АЛТЫН ЕРЕЖЕЛЕРІ - ЕҢбек қауіпсіздігі және еңбекті қОРҒау жиналыстарын
+
+
+
+[pred] query: психофизиологиялық тестілеу нұсқаулығы пәтер нұсқаулығы пәтер нұсқаулығы 18.10.2018 No 577
+[true] query: психометриялық тестілеу кестесі инструкция по приму апелляциялық ведомость 18.10.2018 ж No 578 бұйры
+
+
+
+[pred] query: Ыбырай Алтынсарин - Ұлы Дала Жазушылары - Кеңес Одағы - Скачать 
+[true] query: Ыбырай Алтынсарин - Ы - Ұлы заман Тұлғалары - Скачать Рефераты,
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721198094/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721198094
+{'eval_loss': 0.8610224723815918, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.6550393869718166, 'eval_token_set_recall': 0.6800867269813081, 'eval_token_set_f1': 0.6661131242725662, 'eval_token_set_f1_sem': 0.008364584096955018, 'eval_n_ngrams_match_1': 10.166, 'eval_n_ngrams_match_2': 6.494, 'eval_n_ngrams_match_3': 4.368, 'eval_num_true_words': 15.352, 'eval_num_pred_words': 15.196, 'eval_bleu_score': 37.85223195709548, 'eval_bleu_score_sem': 1.2078106518667528, 'eval_rouge_score': 0.8981781751839425, 'eval_exact_match': 0.058, 'eval_exact_match_sem': 0.010463793860924815, 'eval_emb_cos_sim': 0.9685195684432983, 'eval_emb_cos_sim_sem': 0.017447905614972115, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 223.7332, 'eval_samples_per_second': 2.235, 'eval_steps_per_second': 0.559}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/kaz_Cyrl_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: ҚМГ ЕҢБЕК ОРЫНБАСАРЫ - Есірткі және еңбек қауіпсіздігі жиналыстарын АРТТАУ
+[true] query: ҚМГ АЛТЫН ЕРЕЖЕЛЕРІ - ЕҢбек қауіпсіздігі және еңбекті қОРҒау жиналыстарын
+
+
+
+[pred] query: психофизиология тестілеу алгоритмі пәтер нұсқаулығы пәтер нұсқаулығы 18.10.2018 No 578 по
+[true] query: психометриялық тестілеу кестесі инструкция по приму апелляциялық ведомость 18.10.2018 ж No 578 бұйры
+
+
+
+[pred] query: Ыбырай Алтынсарин - Рефераты - Ыбырай Алтынсарин - Ұлы заман
+[true] query: Ыбырай Алтынсарин - Ы - Ұлы заман Тұлғалары - Скачать Рефераты,
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721215525/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721215525
+{'eval_loss': 0.8605974912643433, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.7324740642140793, 'eval_token_set_recall': 0.7508527887575105, 'eval_token_set_f1': 0.7402918172789263, 'eval_token_set_f1_sem': 0.009266418410806828, 'eval_n_ngrams_match_1': 11.37, 'eval_n_ngrams_match_2': 8.108, 'eval_n_ngrams_match_3': 6.076, 'eval_num_true_words': 15.352, 'eval_num_pred_words': 15.232, 'eval_bleu_score': 49.944198152678595, 'eval_bleu_score_sem': 1.460410828396293, 'eval_rouge_score': 0.9255939852545123, 'eval_exact_match': 0.18, 'eval_exact_match_sem': 0.017198592476314237, 'eval_emb_cos_sim': 0.9815095067024231, 'eval_emb_cos_sim_sem': 0.007830560449426182, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17430.5481, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.014}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/kaz_Cyrl_steps-50_sbeam-8.json
+evaluating cmn_Hani val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query:................................................ 🏪 🏪 🏪 🏪 🏪 🏪
+[true] query: 下行以及现货成交偏弱拖累,市场主导地区价格继续快速调低,邯郸中板价格重
+
+
+
+[pred] query: ;;;;;;;;;;;;;;;;;Buzun Global hediye deposunun dayanıklı taşı
+[true] query: 每日彩票 珍珠棉的包装定位是一种具有高强的缓冲吸震抗震作用的有明显环保效力的包装
+
+
+
+[pred] query:....目前 PayPal üyeliğinde bulunan kişisel uangmoney platformu kurulmuştur.....目前 PayPal üyeliğinde
+[true] query: 火币云于上个月刚刚推出,允许用户开发他们自己的类似火币网的数字货币交易平台,其中包括钱
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721215749/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721215749
+{'eval_loss': 6.109457015991211, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 31.9140625, 'eval_token_set_precision': 0.3894127296679933, 'eval_token_set_recall': 0.2863400331093063, 'eval_token_set_f1': 0.30707628980473733, 'eval_token_set_f1_sem': 0.003934676040472441, 'eval_n_ngrams_match_1': 2.814, 'eval_n_ngrams_match_2': 1.012, 'eval_n_ngrams_match_3': 0.006, 'eval_num_true_words': 7.802, 'eval_num_pred_words': 17.016, 'eval_bleu_score': 4.172105233834461, 'eval_bleu_score_sem': 0.10126638534447652, 'eval_rouge_score': 0.2795166995866737, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8305226564407349, 'eval_emb_cos_sim_sem': 0.011982250958681107, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.28867512941360474, 'eval_runtime': 224.3471, 'eval_samples_per_second': 2.229, 'eval_steps_per_second': 0.557}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/cmn_Hani_steps-1.json
+evaluating corrector with beam width 8
+[pred] query:....................................................................................
+[true] query: 下行以及现货成交偏弱拖累,市场主导地区价格继续快速调低,邯郸中板价格重
+
+
+
+[pred] query: ▷▷▷▷▷▷▷▷▷▷▷▷▷▷▷Binomo logo kampanyalarının dayanıklı olduğu, güvenlik
+[true] query: 每日彩票 珍珠棉的包装定位是一种具有高强的缓冲吸震抗震作用的有明显环保效力的包装
+
+
+
+[pred] query:...Haziran ayından itibaren kullanıcıların yapabileceği online uangmoney platformu geliştirilmiştir....https://www.chinamoney
+[true] query: 火币云于上个月刚刚推出,允许用户开发他们自己的类似火币网的数字货币交易平台,其中包括钱
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721233013/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721233013
+{'eval_loss': 6.108907222747803, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 31.9140625, 'eval_token_set_precision': 0.37777788819367847, 'eval_token_set_recall': 0.2775757267843961, 'eval_token_set_f1': 0.29483821781919545, 'eval_token_set_f1_sem': 0.003975973269452562, 'eval_n_ngrams_match_1': 2.684, 'eval_n_ngrams_match_2': 1.014, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 7.802, 'eval_num_pred_words': 17.352, 'eval_bleu_score': 4.019942910409323, 'eval_bleu_score_sem': 0.08601099928119865, 'eval_rouge_score': 0.26686392796578223, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.804122805595398, 'eval_emb_cos_sim_sem': 0.00020858646138023214, 'eval_emb_top1_equal': 0.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17264.4239, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.014}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/cmn_Hani_steps-50_sbeam-8.json
+evaluating jpn_Jpan val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: 【寒暖夏寒暖夏寒暖夏寒暖夏寒暖暖暖暖暖暖暖暖暖暖暖暖暖暖
+[true] query: 花立山荘では夜半から雨が降り続いていて、朝にちょっとだけ雨脚が弱くなったときに出発。 しばらく
+
+
+
+[pred] query: 🏂🏂🏂🏂🏂🏂🏂🏂🏂🏂 Geçtiğimiz kış sezonunun ilk fotoğrafları çekildikten sonra, Fukuda
+[true] query: 今シーズン初の凍結した桧原湖の湖上撮影です。 かなり結氷は進んでいましたが、まだワカサギ
+
+
+
+[pred] query:(Twitter'daki çok önemli isimlerden oluşan,ancak bu takıma sahip olanlar(YouTube,YouTube,YouTube,YouTube
+[true] query: まず少なくともこの人たちチームにネット周りが強い人間がいることは間違いなくて、YouTubeのメタタグ(メタタグって?って人はこの記事
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721233238/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721233238
+{'eval_loss': 6.107152938842773, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5453029672082293, 'eval_token_set_recall': 0.2073837469204352, 'eval_token_set_f1': 0.27378197520462044, 'eval_token_set_f1_sem': 0.003978620166681505, 'eval_n_ngrams_match_1': 2.33, 'eval_n_ngrams_match_2': 1.018, 'eval_n_ngrams_match_3': 0.008, 'eval_num_true_words': 4.93, 'eval_num_pred_words': 16.404, 'eval_bleu_score': 4.768617602328439, 'eval_bleu_score_sem': 0.0960643893081595, 'eval_rouge_score': 0.15852278179170248, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8633381128311157, 'eval_emb_cos_sim_sem': 0.018719665706157684, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 224.568, 'eval_samples_per_second': 2.226, 'eval_steps_per_second': 0.557}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/jpn_Jpan_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: 【猫猫猫猫猫猫猫】Gün geçtikten sonra yaklaşık 10-15 saniye süren 雨lardan dolayı çık
+[true] query: 花立山荘では夜半から雨が降り続いていて、朝にちょっとだけ雨脚が弱くなったときに出発。 しばらく
+
+
+
+[pred] query: ❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄❄
+[true] query: 今シーズン初の凍結した桧原湖の湖上撮影です。 かなり結氷は進んでいましたが、まだワカサギ
+
+
+
+[pred] query: eğer bu takıma sahip olmadıkları sürece, çok önemli isimlerden(https://www.youtube.com/watch/
+[true] query: まず少なくともこの人たちチームにネット周りが強い人間がいることは間違いなくて、YouTubeのメタタグ(メタタグって?って人はこの記事
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721250750/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721250750
+{'eval_loss': 6.106771469116211, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.5389498072103321, 'eval_token_set_recall': 0.20607920978230684, 'eval_token_set_f1': 0.2730599103147479, 'eval_token_set_f1_sem': 0.004081359402397126, 'eval_n_ngrams_match_1': 2.288, 'eval_n_ngrams_match_2': 1.012, 'eval_n_ngrams_match_3': 0.004, 'eval_num_true_words': 4.93, 'eval_num_pred_words': 17.036, 'eval_bleu_score': 4.671162369454598, 'eval_bleu_score_sem': 0.11003598151455042, 'eval_rouge_score': 0.15916184329054123, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8430196046829224, 'eval_emb_cos_sim_sem': 0.06294998502684068, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 17512.6046, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.014}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/jpn_Jpan_steps-50_sbeam-8.json
+evaluating kor_Hang val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: {{variant}} {{ price }} x {{variant}} {{ price }} x {{variant}} {{ price }} x {{
+[true] query: 세일 중 – Natural Health {% if first_available_variant.compare_at_price > first_available_variant.price
+
+
+
+[pred] query: "> "> "> "> "> "> "> "> "> "> "> "> "> oyuncu
+[true] query: 신용위험 결정요인 과 관련 - 토토사이트 검증사이트 메이저토토사이트 - 토토탐정 - 신
+
+
+
+[pred] query: Tayfun - Türkçe - Teknoloji - Alibaba.com Tayfun - Türkçe Geçtiğimiz günlerde
+[true] query: 안드로이드 : 삼성바다폰 영국 온라인 등록 - 타이젠 - 안드로이드 스마트폰과 태블릿 새
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721250984/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721250984
+{'eval_loss': 6.250133514404297, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23462211454696003, 'eval_token_set_recall': 0.2698847729411974, 'eval_token_set_f1': 0.24434843445538787, 'eval_token_set_f1_sem': 0.003822979808190467, 'eval_n_ngrams_match_1': 3.386, 'eval_n_ngrams_match_2': 1.158, 'eval_n_ngrams_match_3': 0.084, 'eval_num_true_words': 14.33, 'eval_num_pred_words': 15.678, 'eval_bleu_score': 5.691148923193532, 'eval_bleu_score_sem': 0.10988438783762666, 'eval_rouge_score': 0.1791999872242571, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8667377233505249, 'eval_emb_cos_sim_sem': 0.029377726837992668, 'eval_emb_top1_equal': 0.25, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 233.7658, 'eval_samples_per_second': 2.139, 'eval_steps_per_second': 0.535}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/kor_Hang_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: by admin on February 2, 2017 in Genel {product-template-default} {product-template-full_width} {product
+[true] query: 세일 중 – Natural Health {% if first_available_variant.compare_at_price > first_available_variant.price
+
+
+
+[pred] query: "> Teşvik iddia ile ilgili önemli açıklama | Mynetcasino.com "> Teşvik iddia ile ilgil
+[true] query: 신용위험 결정요인 과 관련 - 토토사이트 검증사이트 메이저토토사이트 - 토토탐정 - 신
+
+
+
+[pred] query: Tayzen - Türkçe - tr.dhgate.com Tayzen - Türkçe Geçtiğimiz günlerde Samsung Galaxy
+[true] query: 안드로이드 : 삼성바다폰 영국 온라인 등록 - 타이젠 - 안드로이드 스마트폰과 태블릿 새
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721268430/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721268430
+{'eval_loss': 6.249748229980469, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.23282560276840505, 'eval_token_set_recall': 0.2650313925754332, 'eval_token_set_f1': 0.240978204114447, 'eval_token_set_f1_sem': 0.003907905437673473, 'eval_n_ngrams_match_1': 3.35, 'eval_n_ngrams_match_2': 1.164, 'eval_n_ngrams_match_3': 0.084, 'eval_num_true_words': 14.33, 'eval_num_pred_words': 16.014, 'eval_bleu_score': 5.5012963528433865, 'eval_bleu_score_sem': 0.1139543191275115, 'eval_rouge_score': 0.1695738733065988, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9313202500343323, 'eval_emb_cos_sim_sem': 0.02476239039163578, 'eval_emb_top1_equal': 0.5, 'eval_emb_top1_equal_sem': 0.49999999144286444, 'eval_runtime': 17445.6693, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.014}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/kor_Hang_steps-50_sbeam-8.json
+evaluating mon_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: АҚШ экспортынан алған алтын табысы ұлғаймақ. Алтүстiк әлемдік ахуал 56
+[true] query: Алтны олборлолт амжилтад хүрнэ ОХУын гадаад өр 56 тэрбум ам.доллар болж өсчээ
+
+
+
+[pred] query: Google мәтініндегі өзгерістер туралы 3 нәрсе | Martech Zone Google мәтініндегі өзгерістер туралы 3 нәрсе
+[true] query: Google Текстийн зарын өөрчлөлтийг анхаарч үзэх 3 зүйл | Martech Zone Google Текстийн зарын
+
+
+
+[pred] query: СӨЗІҢІЗ (574) » ХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХ
+[true] query: » СЕКС (1085550) » ШАР МЭДЭЭ (805751) » ӨГҮҮЛЛЭГ (906359) хөлийг 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721268653/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721268653
+{'eval_loss': 6.072841644287109, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2436130495321676, 'eval_token_set_recall': 0.2926686875216291, 'eval_token_set_f1': 0.2630100803825119, 'eval_token_set_f1_sem': 0.0038137271303429286, 'eval_n_ngrams_match_1': 3.486, 'eval_n_ngrams_match_2': 1.198, 'eval_n_ngrams_match_3': 0.104, 'eval_num_true_words': 14.004, 'eval_num_pred_words': 13.674, 'eval_bleu_score': 7.373606135504147, 'eval_bleu_score_sem': 0.14467768622457228, 'eval_rouge_score': 0.7098679072156824, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.896571159362793, 'eval_emb_cos_sim_sem': 0.041476018726825714, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 222.5947, 'eval_samples_per_second': 2.246, 'eval_steps_per_second': 0.562}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/mon_Cyrl_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: Өрт ахуалы арта түсті АҚШ алтын экспортынан алған табысы 56 млрд.долл болсын
+[true] query: Алтны олборлолт амжилтад хүрнэ ОХУын гадаад өр 56 тэрбум ам.доллар болж өсчээ
+
+
+
+[pred] query: Google Word тәртібіне назар аударатын 3 нәрсе | Martech Zone Google Word тәртібіне назар аударатын
+[true] query: Google Текстийн зарын өөрчлөлтийг анхаарч үзэх 3 зүйл | Martech Zone Google Текстийн зарын
+
+
+
+[pred] query: » ХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХХ » Секс арқылы
+[true] query: » СЕКС (1085550) » ШАР МЭДЭЭ (805751) » ӨГҮҮЛЛЭГ (906359) хөлийг 
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721285912/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721285912
+{'eval_loss': 6.072305202484131, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24388977640007092, 'eval_token_set_recall': 0.2942982071849727, 'eval_token_set_f1': 0.2630759310508399, 'eval_token_set_f1_sem': 0.0038509596489242465, 'eval_n_ngrams_match_1': 3.482, 'eval_n_ngrams_match_2': 1.21, 'eval_n_ngrams_match_3': 0.122, 'eval_num_true_words': 14.004, 'eval_num_pred_words': 13.754, 'eval_bleu_score': 7.496612720670109, 'eval_bleu_score_sem': 0.17499961105071193, 'eval_rouge_score': 0.706970870135309, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9553731679916382, 'eval_emb_cos_sim_sem': 0.007939845251981407, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 17259.6683, 'eval_samples_per_second': 0.029, 'eval_steps_per_second': 0.014}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/mon_Cyrl_steps-50_sbeam-8.json
+evaluating hun_Latn val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: ücretsiz ücretsiz ücretsiz ücretsiz ücretsiz ücretsiz ücretsiz ultrason yardımı: Kulakıntılar
+[true] query: Ultrahang kezelés: Fájdalomcsillapítás tűszűrás nélkül [teljes útmutató] Ízületi fájdalom fono
+
+
+
+[pred] query: Yeni Antrenman, Mike Tyson | Maç.com.tr 15.12.2019, 11:28 Mike Tyson, "Michigan
+[true] query: Az új Mike Tyson | SamanSport.hu 2019. 12. 13., Péntek, 18:40 Gervonta "Tank" Davis hatalmas
+
+
+
+[pred] query: The World of Wheelchairs: Offroad jármű - Part 2 The World of Wheelchairs: Offroad jármű Aza
+[true] query: Járművek | Hobbi Zóna - Part 2 TankChair – az Off Road tolószék A rendkívüli gépezet
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721286140/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721286140
+{'eval_loss': 4.4150896072387695, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.2562102177835925, 'eval_token_set_recall': 0.40144829420665396, 'eval_token_set_f1': 0.3074804598229553, 'eval_token_set_f1_sem': 0.004087570571812519, 'eval_n_ngrams_match_1': 4.264, 'eval_n_ngrams_match_2': 1.292, 'eval_n_ngrams_match_3': 0.116, 'eval_num_true_words': 16.376, 'eval_num_pred_words': 15.704, 'eval_bleu_score': 6.207555978472387, 'eval_bleu_score_sem': 0.12573350568533093, 'eval_rouge_score': 0.18235627851139838, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9191194772720337, 'eval_emb_cos_sim_sem': 0.01568521559238434, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 227.3861, 'eval_samples_per_second': 2.199, 'eval_steps_per_second': 0.55}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/hun_Latn_steps-1.json
+evaluating corrector with beam width 8
+[pred] query: [Infobox] tüz ağrıları: ücretsiz ultrason yardımı tüz ağrıları: ücretsiz ultrason yardımı
+[true] query: Ultrahang kezelés: Fájdalomcsillapítás tűszűrás nélkül [teljes útmutató] Ízületi fájdalom fono
+
+
+
+[pred] query: Yeni Antrenman, Mike Tyson | Sportbox.kz 15.12.2019, 11:28 "Mike Tyson, Gürcistan'
+[true] query: Az új Mike Tyson | SamanSport.hu 2019. 12. 13., Péntek, 18:40 Gervonta "Tank" Davis hatalmas
+
+
+
+[pred] query: The World of Tractor: Off-road құрал-жабдықтары – Part 2 The World of Tractor: Off-road құрал-жабдықта
+[true] query: Járművek | Hobbi Zóna - Part 2 TankChair – az Off Road tolószék A rendkívüli gépezet
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721304223/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721304223
+{'eval_loss': 4.415384292602539, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.24458358792909893, 'eval_token_set_recall': 0.3822926930912239, 'eval_token_set_f1': 0.293586198480964, 'eval_token_set_f1_sem': 0.003764713323179429, 'eval_n_ngrams_match_1': 4.048, 'eval_n_ngrams_match_2': 1.27, 'eval_n_ngrams_match_3': 0.11, 'eval_num_true_words': 16.376, 'eval_num_pred_words': 15.66, 'eval_bleu_score': 6.0701453652036514, 'eval_bleu_score_sem': 0.12186825442577541, 'eval_rouge_score': 0.16164293111961783, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.9227583408355713, 'eval_emb_cos_sim_sem': 0.014824866838301495, 'eval_emb_top1_equal': 1.0, 'eval_emb_top1_equal_sem': 0.0, 'eval_runtime': 18083.3942, 'eval_samples_per_second': 0.028, 'eval_steps_per_second': 0.014}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/hun_Latn_steps-50_sbeam-8.json
+evaluating mhr_Cyrl val_dataset
+evaluating corrector 
+evaluating corrector with steps 1
+[pred] query: Кеше менің Жаксышым, Жаксышым, Жаксышым жарты жыл турда кигiн киг
+[true] query: Тургым жапыште, шошо ага годым, кеч ик гана Кугу Качак ялыште лияш
+
+
+
+[pred] query: Жас е?лем е?лем е?лем е?лем Маруа Маруа Жазда ты?
+[true] query: Мо тыгай Агавайрем? Кузе тудо эрта? Тиде да моло йодышлан вашмутым Марий в
+
+
+
+[pred] query: Неміс орыс орыс орыс орыс орыс орыс орыс «Моряк» коме
+[true] query: Коряк рвезе Пётр Нестеров дене мый Наро-Фоминск олаште эртыше «По
+outptufile for decoded sequences:  saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721304487/decoded_sequences.csv
+saving embeddings for preds and labels ....
+saving embeddings for preds and labels to saves/yiyic__mt5_me5_turkic-fami_32_2layers_corrector/decoded_eval_1721304487
+{'eval_loss': 4.622966766357422, 'eval_pred_num_tokens': 31.0, 'eval_true_num_tokens': 32.0, 'eval_token_set_precision': 0.28998174064497617, 'eval_token_set_recall': 0.3933507574125232, 'eval_token_set_f1': 0.3297130789865329, 'eval_token_set_f1_sem': 0.004077745839053878, 'eval_n_ngrams_match_1': 4.202, 'eval_n_ngrams_match_2': 1.438, 'eval_n_ngrams_match_3': 0.268, 'eval_num_true_words': 13.858, 'eval_num_pred_words': 13.368, 'eval_bleu_score': 8.536079047658948, 'eval_bleu_score_sem': 0.17896552569765928, 'eval_rouge_score': 0.85926936569178, 'eval_exact_match': 0.0, 'eval_exact_match_sem': 0.0, 'eval_emb_cos_sim': 0.8835119009017944, 'eval_emb_cos_sim_sem': 0.02521544136106968, 'eval_emb_top1_equal': 0.75, 'eval_emb_top1_equal_sem': 0.25, 'eval_runtime': 263.805, 'eval_samples_per_second': 1.895, 'eval_steps_per_second': 0.474}
+saving results to ./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_fami_32_2layers_prefix/evaluations/mhr_Cyrl_steps-1.json
+evaluating corrector with beam width 8
