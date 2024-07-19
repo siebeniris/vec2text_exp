@@ -3,11 +3,12 @@ import json
 import os
 from collections import defaultdict
 
+import yaml
 
-# Log data as a string (assuming you have it stored in a variable or a file)
 
+def get_log_info_eval_inverter(filepath, outputfile):
+    print(f"extracting information from file {filepath}...")
 
-def get_log_info_eval_inverter(filepath):
     with open(filepath) as f:
         log_data = f.read()
 
@@ -68,15 +69,14 @@ def get_log_info_eval_inverter(filepath):
     # Save the parsed data to a JSON file for further use
     model_name = parsed_data["model"].replace("yiyic/", "")
 
-
-    parsed_json_path = f'eval_logs/eval_{model_name}.json'
-    with open(parsed_json_path, 'w') as json_file:
+    # parsed_json_path = f'eval_logs/eval_{model_name}.json'
+    with open(outputfile, 'w') as json_file:
         json.dump(parsed_data, json_file, indent=4)
 
-    print(f"Parsed data saved to {parsed_json_path}")
+    print(f"Parsed data saved to {outputfile}")
 
 
-def get_log_info_eval_corrector(log_file_path):
+def get_log_info_eval_corrector(log_file_path, outputfile):
     # Define a pattern to match each type of information
     patterns = {
         'output_dir': re.compile(r'output dir (.+)'),
@@ -117,7 +117,7 @@ def get_log_info_eval_corrector(log_file_path):
             cuda_error_detected = False
             dataset = None
             correction_step = None
-            results_exist= False
+            results_exist = False
             for line in log_lines:
                 # Match patterns
                 for key, pattern in patterns.items():
@@ -140,9 +140,7 @@ def get_log_info_eval_corrector(log_file_path):
                                 }
                                 parsed_data['evaluations'][dataset][correction_step] = current_eval_step
 
-
                             else:
-
                                 if current_eval_step["output_files"]:
                                     parsed_data['evaluations'][dataset][correction_step] = current_eval_step
                                     current_eval_step = {
@@ -153,7 +151,6 @@ def get_log_info_eval_corrector(log_file_path):
 
                                 correction_step = match.group(1)
                             results_exist = False
-
 
                         elif key == 'output_file':
                             current_eval_step["output_files"] = match.group(1)
@@ -171,40 +168,62 @@ def get_log_info_eval_corrector(log_file_path):
         except Exception as e:
             print(f"Exception {e}")
 
-
-    if "," in log_file_path:
+    if len(log_file_path) > 1:
+        # a list of log file ids.
         # the later files come first
-        logfile_names = sorted([int(x) for x in log_file_path.split(",")], reverse=True)
-        file_paths = [f"eval_{x}.out" for x in logfile_names]
+        logfile_names = sorted([int(x) for x in log_file_path], reverse=True)
+        file_paths = [f"eval_logs/eval_{x}.out" for x in logfile_names]
         for filepath in file_paths:
             print(filepath)
             parse_one_file(filepath)
             # print(parsed_data)
-    else:
-        parse_one_file(f"eval_{log_file_path}.out")
+    if len(log_file_path) == 1:
+        parse_one_file(f"eval_{log_file_path[0]}.out")
 
         # Save the parsed data to a JSON file for further use
     if parsed_data["model"]:
         model_name = parsed_data["model"].replace("yiyic/", "")
-        parsed_json_path = f'eval_logs/eval_{model_name}.json'
-        with open(parsed_json_path, 'w') as json_file:
+        # parsed_json_path = f'eval_logs/eval_{model_name}.json'
+        with open(outputfile, 'w') as json_file:
             json.dump(parsed_data, json_file, indent=4)
 
 
+def read_yamlfile(filepath):
+    with open(filepath, 'r') as yamlfile:
+        try:
+            eval_logs = yaml.safe_load(yamlfile)
+            return eval_logs
+        except yaml.YAMLError as exc:
+            print(exc)
+            return False
 
 
-
-def main(filepath, model_type):
+def main(eval_logfile="evaluations/eval_logs.yaml"):
     # file path can be multiples.
     output_folder = "eval_logs"
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    if model_type == "inverter":
-        get_log_info_eval_inverter(filepath)
-    elif model_type == "corrector":
-        print("evaluating corrector")
-        get_log_info_eval_corrector(filepath)
+    eval_logs = read_yamlfile(eval_logfile)
+    if eval_logs:
+        for l_, models_fileid in eval_logs.items():
+            outputfolder = os.path.join(output_folder, l_)
+            if not os.path.exists(outputfolder):
+                os.makedirs(outputfolder)
+            for model_name, eval_file_id in models_fileid.items():
+                if "inverter" in model_name:
+                    print(f"processing inverter {model_name} from {eval_file_id}")
+                    # the list for inverter is only one.
+                    assert len(eval_file_id) == 1
+                    logfilepath = f"eval_logs/eval_{eval_file_id[0]}.out"
+                    outputfile = f"{outputfolder}/eval_{model_name}.json"
+                    get_log_info_eval_inverter(logfilepath, outputfile)
+                if "corrector" in model_name:
+                    assert len(eval_file_id) >= 1
+                    print(f"processing corrector {model_name} from {eval_file_id}")
+                    outputfile = f"{outputfolder}/eval_{model_name}.json"
+                    get_log_info_eval_corrector(eval_file_id, outputfile)
+
     else:
         print("choose model type between inverter and corrector")
 
