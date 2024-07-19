@@ -2,9 +2,6 @@ import os
 import json
 from collections import defaultdict
 
-import pandas as pd
-
-
 def read_one_file(filepath, metric="eval_bleu_score"):
     """
     Read the result of the metric
@@ -58,7 +55,6 @@ def read_results_files(lingual="monolingual", metric="eval_bleu_score", outputfo
                     for step, eval_files in eval_steps.items():
                         if "steps 1" in step:
                             result_filepath = eval_files["results_files"]
-
                             if result_filepath and "Step1" not in results_model_dict[model][eval_dataset]:
                                 result_filepath = result_filepath.replace("./", "")
                                 with open(result_filepath) as f:
@@ -68,13 +64,13 @@ def read_results_files(lingual="monolingual", metric="eval_bleu_score", outputfo
 
                         if "beam width 8" in step:
                             result_filepath = eval_files["results_files"]
-
                             if result_filepath and "Step50_sbeam8" not in results_model_dict[model][eval_dataset]:
                                 result_filepath = result_filepath.replace("./", "")
                                 with open(result_filepath) as f:
                                     results = json.load(f)
                                 metric_result = results[metric]
                                 results_model_dict[model][eval_dataset]["Step50_sbeam8"] = metric_result
+
     outputfile = os.path.join(outputfolder, f"{lingual}_{metric}.json")
     print(f"saving to {outputfile}")
     with open(outputfile, "w") as f:
