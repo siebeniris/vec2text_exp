@@ -55,8 +55,9 @@ def read_results_files(lingual="monolingual", metric="eval_bleu_score", outputfo
                     for step, eval_files in eval_steps.items():
                         if "steps 1" in step:
                             result_filepath = eval_files["results_files"]
-                            result_filepath = result_filepath.replace("./", "")
+
                             if result_filepath and "Step1" not in results_model_dict[model][eval_dataset]:
+                                result_filepath = result_filepath.replace("./", "")
                                 with open(result_filepath) as f:
                                     results = json.load(f)
                                 metric_result = results[metric]
@@ -64,8 +65,9 @@ def read_results_files(lingual="monolingual", metric="eval_bleu_score", outputfo
 
                         if "beam width 8" in step:
                             result_filepath = eval_files["results_files"]
-                            result_filepath = result_filepath.replace("./", "")
+
                             if result_filepath and "Step50_sbeam8" not in results_model_dict[model][eval_dataset]:
+                                result_filepath = result_filepath.replace("./", "")
                                 with open(result_filepath) as f:
                                     results = json.load(f)
                                 metric_result = results[metric]
