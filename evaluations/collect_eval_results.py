@@ -48,7 +48,7 @@ def read_results_files(lingual="monolingual", metric="eval_bleu_score", outputfo
             else:
                 for eval_dataset, eval_steps in eval_files["evaluations"].items():
                     # eval_dataset: {eval_step: results}
-                    eval_dataset = eval_dataset["dataset"]
+                    # eval_dataset = eval_dataset["dataset"]
                     if eval_dataset not in results_model_dict[model]:
                         results_model_dict[model][eval_dataset] = dict()
 
