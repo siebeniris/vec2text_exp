@@ -74,16 +74,17 @@ def processing_one_eval_df(df, filepath):
         df.index = df.index.str.replace("yiyic/mt5_", "")
         df.index = df.index.str.replace("_32_2layers", "")
         df = df.reindex(columns=evals)
-        if "inverter" in filepath:
+        if "_inverter" in filepath:
             df = df.reindex(index=model_list_inverter)
+            return df
         else:
             df = df.reindex(index=model_list_corrector)
+            return df
     elif "monolingual_" in filepath:
         df.index = df.index.str.replace("yiyic/mt5_", "")
         df.index = df.index.str.replace("_32", "")
         df = df.reindex(columns=evals)
-
-    return df
+        return df
 
 
 def processing_results_one_file(filepath):
