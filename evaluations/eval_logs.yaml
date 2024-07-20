@@ -9,6 +9,7 @@ monolingual:
       mt5_alephbert_heb_Hebr_32_corrector:
         - "307831"
         - "308643"
+        - "309184"
       mt5_text2vec_cmn_Hani_32_inverter:
         - "307832"
       mt5_text2vec_cmn_Hani_32_corrector:
@@ -33,11 +34,13 @@ multilingual:
         - "305286"
         - "305385"
         - "307723"
+        - "309096"
       mt5_me5_atlatic_fami_32_2layers_inverter:
         - "305282"
       mt5_me5_atlatic_fami_32_2layers_corrector:
         - "307731"
         - "308646"
+        - "309160"
       mt5_me5_indo-aryan-fami_32_2layers_inverter:
         - "305283"
       mt5_me5_indo-aryan-fami_32_2layers_corrector:
@@ -51,6 +54,7 @@ multilingual:
         - "305990"
         - "307821"
         - "308647"
+        - "309163"
       mt5_me5_semitic-fami_32_2layers_inverter:
         - "305289"
       mt5_me5_semitic-fami_32_2layers_corrector:
@@ -75,3 +79,4 @@ multilingual:
         - "305988"
         - "307819"
         - "308649"
+        - "309161"

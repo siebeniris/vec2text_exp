@@ -109,60 +109,37 @@ def get_log_info_eval_corrector(log_file_path, outputfile):
 
             # Temporary variables to hold intermediate data
             # {"1": {"output_files":xx, "embeddings_files":xxx, "results_files":xxx}}
-            current_eval_step = {
-                "output_files": None,
-                "embeddings_files": None,
-                "results_files": None
-            }
-            cuda_error_detected = False
             dataset = None
             correction_step = None
-            results_exist = False
+
             for line in log_lines:
                 # Match patterns
                 for key, pattern in patterns.items():
                     match = pattern.match(line)
                     if match:
                         if key == 'output_dir':
+                            # Experiment output_dir = saves/yiyic__mt5_me5_cmn_Hani_32_2layers_inverter
                             parsed_data['output_dir'] = match.group(1)
-                        elif key == 'model_params':
+                        if key == 'model_params':
+                            # model yiyic/mt5_me5_cmn_Hani_32_2layers_inverter parameters 870484992e
                             parsed_data['model'] = match.group(1)
                             parsed_data['parameters'] = match.group(2)
-                        elif key == "evaluating_corrector":
+
+                        if key == "evaluating_corrector":
+                            # evaluating deu_Latn val_dataset
+                            # current dataset.
                             dataset = match.group(1)
                         elif key == 'correction_steps':
-                            if results_exist:
-                                correction_step = match.group(1)
-                                current_eval_step = {
-                                    "output_files": None,
-                                    "embeddings_files": None,
-                                    "results_files": None
-                                }
-                                parsed_data['evaluations'][dataset][correction_step] = current_eval_step
-
-                            else:
-                                if current_eval_step["output_files"]:
-                                    parsed_data['evaluations'][dataset][correction_step] = current_eval_step
-                                    current_eval_step = {
-                                        "output_files": None,
-                                        "embeddings_files": None,
-                                        "results_files": None
-                                    }
-
-                                correction_step = match.group(1)
-                            results_exist = False
+                            correction_step = match.group(1)
+                            if correction_step not in parsed_data['evaluations'][dataset]:
+                                parsed_data['evaluations'][dataset][correction_step] = dict()
 
                         elif key == 'output_file':
-                            current_eval_step["output_files"] = match.group(1)
+                            parsed_data['evaluations'][dataset][correction_step]["output_files"] = match.group(1)
                         elif key == 'saved_embeddings':
-                            current_eval_step["embeddings_files"] = match.group(1)
-
+                            parsed_data['evaluations'][dataset][correction_step]["embeddings_files"] = match.group(1)
                         elif key == 'results':
-                            current_eval_step["results_files"] = match.group(1)
-                        elif key == 'cuda_error':
-                            cuda_error_detected = True
-                        elif key == 'results_exist':
-                            results_exist = True
+                            parsed_data['evaluations'][dataset][correction_step]["results_files"] = match.group(1)
                         break
 
         except Exception as e:
@@ -175,15 +152,13 @@ def get_log_info_eval_corrector(log_file_path, outputfile):
         file_paths = [f"eval_logs/eval_{x}.out" for x in logfile_names]
         for filepath in file_paths:
             print(filepath)
-            parse_one_file(filepath)
-            # print(parsed_data)
+            if os.path.exists(filepath):
+                parse_one_file(filepath)
     if len(log_file_path) == 1:
-        parse_one_file(f"eval_{log_file_path[0]}.out")
+        parse_one_file(f"eval_logs/eval_{log_file_path[0]}.out")
 
         # Save the parsed data to a JSON file for further use
     if parsed_data["model"]:
-        model_name = parsed_data["model"].replace("yiyic/", "")
-        # parsed_json_path = f'eval_logs/eval_{model_name}.json'
         with open(outputfile, 'w') as json_file:
             json.dump(parsed_data, json_file, indent=4)
 
