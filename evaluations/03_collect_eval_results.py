@@ -2,6 +2,7 @@ import os
 import json
 from collections import defaultdict
 
+
 def read_one_file(filepath, metric="eval_bleu_score"):
     """
     Read the result of the metric
@@ -19,7 +20,7 @@ def read_results_files(lingual="monolingual", outputfolder="results/mt5_me5"):
     # eval_exact_match
     # eval_emb_cos_sim
     # eval_rouge_score
-    metrics = ["eval_bleu_score", "eval_exact_match", "eval_emb_cos_sim", "eval_rouge_score" ]
+    metrics = ["eval_bleu_score", "eval_exact_match", "eval_emb_cos_sim", "eval_rouge_score"]
 
     for metric in metrics:
         print(f"extracting metric results {metric}")
