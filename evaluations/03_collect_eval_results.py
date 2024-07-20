@@ -15,7 +15,7 @@ def read_one_file(filepath, metric="eval_bleu_score"):
         return None
 
 
-def read_results_files(lingual="monolingual", outputfolder="results/mt5_me5"):
+def read_results_files(lingual="multilingual", outputfolder="results/mt5_me5"):
     # eval_bleu_score
     # eval_exact_match
     # eval_emb_cos_sim

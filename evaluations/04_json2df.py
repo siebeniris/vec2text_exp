@@ -106,8 +106,9 @@ def processing_results_one_file(filepath):
 def processing_results_batch(folder="results/mt5_me5/"):
     for file in os.listdir(folder):
         filepath = os.path.join(folder, file)
-        print(f"Processing filepath {filepath}")
-        processing_results_one_file(filepath)
+        if filepath.endswith(".json"):
+            print(f"Processing filepath {filepath}")
+            processing_results_one_file(filepath)
 
 
 if __name__ == '__main__':
