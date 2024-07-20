@@ -67,7 +67,7 @@ def processing_one_eval_df(df, filepath):
         'kaz_Cyrl', 'mhr_Cyrl', 'mon_Cyrl',
         'ydd_Hebr', 'heb_Hebr',
         'arb_Arab', 'urd_Arab',
-        'hin_Deva', 'guj_Gujr', 'sin_Sinh', 'pan_Guru',
+        'hin_Deva', 'guj_Gujr', 'pan_Guru', 'sin_Sinh',
         'cmn_Hani', 'jpn_Jpan', 'kor_Hang',
         'amh_Ethi']
     if "multilingual_" in filepath:
@@ -99,7 +99,7 @@ def processing_results_one_file(filepath):
     df_step1.to_csv(os.path.join(dirn, f"{basename}_step1_corrector.csv"))
 
     df_step50_beam8 = processing_one_step(filepath, 50, False)
-    df_step50_beam8 = processing_one_step(df_step50_beam8, filepath)
+    df_step50_beam8 = processing_one_eval_df(df_step50_beam8, filepath)
     df_step50_beam8.to_csv(os.path.join(dirn, f"{basename}_step50_sbeam8_corrector.csv"))
 
 
