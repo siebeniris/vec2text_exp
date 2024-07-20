@@ -47,7 +47,7 @@ def processing_one_step(filepath, step=0, inverter=True):
     return pd.DataFrame.from_records(models_results_dict).T
 
 
-def processing_one_eval_df(df, filepath):
+def processing_one_eval_df(df, filepath, inverter=True):
     """
     processing eval file from mt5_me5 models
     """
@@ -74,7 +74,7 @@ def processing_one_eval_df(df, filepath):
         df.index = df.index.str.replace("yiyic/mt5_", "")
         df.index = df.index.str.replace("_32_2layers", "")
         df = df.reindex(columns=evals)
-        if "_inverter" in filepath:
+        if inverter:
             df = df.reindex(index=model_list_inverter)
             return df
         else:
@@ -92,15 +92,15 @@ def processing_results_one_file(filepath):
     dirn = os.path.dirname(filepath)
 
     df_base = processing_one_step(filepath, 0, True)
-    df_base = processing_one_eval_df(df_base, filepath)
+    df_base = processing_one_eval_df(df_base, filepath, True)
     df_base.to_csv(os.path.join(dirn, f"{basename}_base_inverter.csv"))
 
     df_step1 = processing_one_step(filepath, 1, False)
-    df_step1 = processing_one_eval_df(df_step1, filepath)
+    df_step1 = processing_one_eval_df(df_step1, filepath, False)
     df_step1.to_csv(os.path.join(dirn, f"{basename}_step1_corrector.csv"))
 
     df_step50_beam8 = processing_one_step(filepath, 50, False)
-    df_step50_beam8 = processing_one_eval_df(df_step50_beam8, filepath)
+    df_step50_beam8 = processing_one_eval_df(df_step50_beam8, filepath, False)
     df_step50_beam8.to_csv(os.path.join(dirn, f"{basename}_step50_sbeam8_corrector.csv"))
 
 
