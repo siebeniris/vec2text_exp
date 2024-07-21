@@ -297,30 +297,37 @@ def processing_filepath_lang(filepath, outputfolder):
         json.dump(lang_info, f)
 
 
-def language_detector_eval_datasets_batch(lingual="multilingual", inverter=False):
+def language_detector_eval_datasets_batch(lingual="multilingual", inversion="inverter"):
     folderpath = f"eval_logs/{lingual}"
     for file in os.listdir(folderpath):
         filepath = os.path.join(folderpath, file)
 
         if file.endswith(".json"):
-            if inverter:
-                if "inverter" in file:
+            if inversion=="inverter" and inversion in file:
                     print(f"processing and detect languages {filepath}")
                     with open(filepath, "r") as f:
                         eval_logs = json.load(f)
+                    model_outputfolder = os.path.join("saves", eval_logs["model"])
+                    if os.path.exists(model_outputfolder):
+                        print(f"{model_outputfolder} exists...")
                         for eval in eval_logs["evaluations"]:
-                            decoded_file_folder = eval["embeddings_file"]
-                            decoded_file = eval["output_file"].replace(" ", "")
-                            processing_filepath_lang(decoded_file, decoded_file_folder)
+                                decoded_file_folder = eval["embeddings_file"]
+                                decoded_file = eval["output_file"].replace(" ", "")
+                                processing_filepath_lang(decoded_file, decoded_file_folder)
             else:
                 if "corrector" in file:
                     print(f"processing and detect languages {filepath}")
                     with open(filepath, "r") as f:
                         eval_logs = json.load(f)
-                        for eval in eval_logs["evaluations"]:
-                            decoded_file_folder = eval["embeddings_file"]
-                            decoded_file = eval["output_file"].replace(" ", "")
-                            processing_filepath_lang(decoded_file, decoded_file_folder)
+                    eval_did = False
+                    for eval in eval_logs["evaluations"]:
+                        for eval_dataset, eval_steps_results in eval.items():
+                            for step, step_results in eval_steps_results.items():
+                                if step.endswith("beam width 8") and not eval_did:
+                                    decoded_file_folder = eval["embeddings_file"]
+                                    decoded_file = eval["output_file"].replace(" ", "")
+                                    processing_filepath_lang(decoded_file, decoded_file_folder)
+                                    eval_did = True
 
 
 if __name__ == '__main__':
