@@ -14,3 +14,10 @@ tenacity
 tokenizers
 tqdm
 transformers
+lingua-language-detector
+jieba
+hebrew_tokenizer
+hangul-korean
+fugashi[unidic]
+kiwipiepy
+fasttext-langdetect
