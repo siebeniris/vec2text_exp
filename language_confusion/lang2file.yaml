@@ -25,4 +25,3 @@ atl_fami: yiyic/Atlatic_train
 lat_scrp: yiyic/Latn_train
 cyr_scrp: yiyic/Cyrl_train
 ara_scrp: yiyic/Arab_train
-cmn_test: yiyic/cmn_test_train
