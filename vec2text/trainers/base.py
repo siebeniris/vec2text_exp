@@ -497,15 +497,15 @@ class BaseTrainer(transformers.Trainer):
                 emb_cos_sims = torch.nn.CosineSimilarity(dim=1)(preds_emb, labels_emb)
 
                 ###########################
-                print("saving embeddings for preds and labels ....")
-                print(f"saving embeddings for preds and labels to {eval_outputdir}")
-                outfile_emb_preds = os.path.join(eval_outputdir, f"embeddings_preds.npy")
-                outfile_emb_labels = os.path.join(eval_outputdir, f"embeddings_labels.npy")
-
-                preds_emb_cpu = preds_emb.cpu()
-                labels_emb_cpu = labels_emb.cpu()
-                np.save(outfile_emb_preds, preds_emb_cpu)
-                np.save(outfile_emb_labels, labels_emb_cpu)
+                # print("saving embeddings for preds and labels ....")
+                # print(f"saving embeddings for preds and labels to {eval_outputdir}")
+                # outfile_emb_preds = os.path.join(eval_outputdir, f"embeddings_preds.npy")
+                # outfile_emb_labels = os.path.join(eval_outputdir, f"embeddings_labels.npy")
+                #
+                # preds_emb_cpu = preds_emb.cpu()
+                # labels_emb_cpu = labels_emb.cpu()
+                # np.save(outfile_emb_preds, preds_emb_cpu)
+                # np.save(outfile_emb_labels, labels_emb_cpu)
                 #####################################
 
                 emb_topk_equal = (
