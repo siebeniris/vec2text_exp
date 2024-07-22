@@ -13,22 +13,10 @@ def tokenize_function(
         max_seq_length: int,
         padding: bool = False,
         prefix: str = None,
-        lang_id: bool = False,
-        script_id: bool = False,
 ) -> Callable[[Dict], Dict]:
     def tokenize_function_inner(examples) -> Dict[str, torch.Tensor]:
         if prefix:
-            if lang_id and not script_id:
-                examples[text_column_name] = [f"{prefix}: [{lang.split('_')[0]}] {text}" for text, lang in
-                                              zip(examples[text_column_name],
-                                                  examples["lang"])]
-            elif lang_id and script_id:
-                examples[text_column_name] = [f"{prefix}: [{lang.split('_')[0]}] [{lang.split('_')[1]}] {text}" for
-                                              text, lang in
-                                              zip(examples[text_column_name],
-                                                  examples["lang"])]
-            else:
-                examples[text_column_name] = [f"{prefix}: {text}" for text in examples[text_column_name]]
+            examples[text_column_name] = [f"{prefix}: {text}" for text in examples[text_column_name]]
 
         output = tokenizer(
             examples[text_column_name],
