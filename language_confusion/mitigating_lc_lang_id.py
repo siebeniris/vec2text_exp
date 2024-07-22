@@ -59,6 +59,17 @@ def processing_dataset(dataset_name, lang_id, lang_script_id):
 def adding_lang_script_id():
     with open("lang2file.yaml") as f:
         lang2file = yaml.safe_load(f)
+
+    #### mt_test_set
+    dataset_name = "yiyic/mt_ms_test"
+    print(f"processing dataset {dataset_name}....")
+
+    new_dataset = processing_dataset_dict(dataset_name, False, True)
+    new_dataset.push_to_hub(f"{dataset_name}_lang_id")
+    sleep(3)
+    new_dataset = processing_dataset_dict(dataset_name, True, True)
+    new_dataset.push_to_hub(f"{dataset_name}_lang_script_id")
+
     # for in-script datasets, only add lang id.
     for script in ["lat_scrp", "cyr_scrp", "ara_scrp"]:
         dataset_name = lang2file[script]
@@ -88,17 +99,6 @@ def adding_lang_script_id():
         new_dataset = processing_dataset(dataset_dev, True, True)
         new_dataset.push_to_hub(f"{dataset_dev}_lang_script_id")
         sleep(3)
-
-    #### mt_test_set
-
-    dataset_name = "yiyic/mt_ms_test"
-    print(f"processing dataset {dataset_name}....")
-
-    new_dataset = processing_dataset_dict(dataset_name, False, True)
-    new_dataset.push_to_hub(f"{dataset_name}_lang_id")
-    sleep(3)
-    new_dataset = processing_dataset_dict(dataset_name, True, True)
-    new_dataset.push_to_hub(f"{dataset_name}_lang_script_id")
 
 
 if __name__ == '__main__':
