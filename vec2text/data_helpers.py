@@ -270,11 +270,11 @@ def load_mt_ms(lang) -> datasets.DatasetDict:
     with open("vec2text/lang2file.yaml") as f:
         lang2file = yaml.safe_load(f)
 
-    file = lang2file[lang]
+    file = lang2file[lang]+"_lang_script_id"
     print(f"loading data from {file} for {lang}")
     train_dataset = datasets.load_dataset(file)["train"]
     # loading the validation dataset.
-    validation_file = file.replace("_train", "_dev")
+    validation_file = file.replace("_train_lang_script_id", "_dev_lang_script_id")
     print(f"loading data from {validation_file} for {lang}")
     validation_dataset = datasets.load_dataset(validation_file)["train"]
     raw_datasets = datasets.DatasetDict(
@@ -290,7 +290,7 @@ def load_mt_ms_test() -> datasets.DatasetDict:
     """
     Multilingual multi-script test dataset.
     """
-    test_dataset = datasets.load_dataset("yiyic/mt_ms_test")
+    test_dataset = datasets.load_dataset("yiyic/mt_ms_test_lang_script_id")
     return test_dataset
 
 
