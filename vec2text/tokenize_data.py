@@ -7,17 +7,29 @@ from vec2text.models import InversionModel
 
 
 def tokenize_function(
-    tokenizer: transformers.PreTrainedTokenizer,
-    embedder_tokenizer: transformers.PreTrainedTokenizer,
-    text_column_name: str,
-    max_seq_length: int,
-    padding: bool = False,
-    prefix: str = None,
+        tokenizer: transformers.PreTrainedTokenizer,
+        embedder_tokenizer: transformers.PreTrainedTokenizer,
+        text_column_name: str,
+        max_seq_length: int,
+        padding: bool = False,
+        prefix: str = None,
+        lang_id: bool = False,
+        script_id: bool = False,
 ) -> Callable[[Dict], Dict]:
     def tokenize_function_inner(examples) -> Dict[str, torch.Tensor]:
         if prefix:
-            examples[text_column_name] = [f"{prefix}: {text}" for text in examples[text_column_name]]
-        
+            if lang_id and not script_id:
+                examples[text_column_name] = [f"{prefix}: [{lang.split('_')[0]}] {text}" for text, lang in
+                                              zip(examples[text_column_name],
+                                                  examples["lang"])]
+            elif lang_id and script_id:
+                examples[text_column_name] = [f"{prefix}: [{lang.split('_')[0]}] [{lang.split('_')[1]}] {text}" for
+                                              text, lang in
+                                              zip(examples[text_column_name],
+                                                  examples["lang"])]
+            else:
+                examples[text_column_name] = [f"{prefix}: {text}" for text in examples[text_column_name]]
+
         output = tokenizer(
             examples[text_column_name],
             padding=padding,
@@ -55,13 +67,13 @@ def tokenize_function(
 
 
 def tokenize_function_llama_chat(
-    tokenizer,
-    embedder_tokenizer,
-    text_column_name,
-    max_seq_length,
-    padding: bool = False,
-    # no-op for compatibility with other tokenization functions
-    prefix: str = None,
+        tokenizer,
+        embedder_tokenizer,
+        text_column_name,
+        max_seq_length,
+        padding: bool = False,
+        # no-op for compatibility with other tokenization functions
+        prefix: str = None,
 ) -> Callable[[Dict], Dict]:
     """Use special tokenization for LLAMA chat models."""
 
@@ -138,7 +150,7 @@ def embed_dataset_batch(model: InversionModel, batch: Dict) -> Dict:
 
 
 def get_tokenizer_mapping(
-    lm: str, inverter: str, inverter_vocab_size: int
+        lm: str, inverter: str, inverter_vocab_size: int
 ) -> torch.Tensor:
     """Computes the mapping from token outputs in `lm`'s vocabulary to those in `inverter's
     vocabulary. Makes some assumptions about spacing.
@@ -161,7 +173,7 @@ def get_tokenizer_mapping(
 
     preservation = len(set(mapping.tolist())) / len(lm_vocab)
     print(
-        f"Mapped tokenizer {lm} to {inverter}. Preserved {preservation*100:.1f}% of unique tokens."
+        f"Mapped tokenizer {lm} to {inverter}. Preserved {preservation * 100:.1f}% of unique tokens."
     )
     return mapping
 
