@@ -426,6 +426,8 @@ class Experiment(abc.ABC):
                     padding=False,
                     prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
                     else None,
+                    lang_id=True,
+                    script_id=False
                 ),
                 batched=True,
                 num_proc=_get_num_proc(self._world_size),
@@ -507,6 +509,8 @@ class Experiment(abc.ABC):
                     padding=False,
                     prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
                     else None,
+                    lang_id=True,
+                    script_id=False
                 ),
                 remove_columns=["text"],
                 batched=True,
