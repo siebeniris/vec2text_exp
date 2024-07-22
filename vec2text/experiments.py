@@ -508,7 +508,7 @@ class Experiment(abc.ABC):
                     prefix="query" if self.model_args.embedder_model_name == "multilingual_e5_base"
                     else None,
                 ),
-                remove_columns=["text"],
+                remove_columns=["text", "lang"], # because there are lang now.
                 batched=True,
                 batch_size=1024,
                 num_proc=_get_num_proc(self._world_size),
