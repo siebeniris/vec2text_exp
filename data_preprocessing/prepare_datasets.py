@@ -34,10 +34,10 @@ def get_data_combos(lang1, lang2):
     if lang1_len > min_row:
         lang1_train = lang1_train.select(range(min_row))
 
-    lang1_lang2_train= concatenate_datasets([lang1_train, lang2_train])
+    lang1_lang2_train = concatenate_datasets([lang1_train, lang2_train])
     lang1_lang2_train.push_to_hub(f"yiyic/{lang1}_{lang2}_train")
 
-    lang1_lang2_dev= concatenate_datasets([lang1_dev, lang2_dev])
+    lang1_lang2_dev = concatenate_datasets([lang1_dev, lang2_dev])
     lang1_lang2_dev.push_to_hub(f"yiyic/{lang1}_{lang2}_dev")
 
 
@@ -46,18 +46,20 @@ def main():
     turkic = ["kaz_Cyrl", "tur_Latn"]
     semitic = ("heb_Hebr", "arb_Arab")
     combos_indo_aryans = list(combinations(indo_aryans, 2))
-    combos_random = list(set([(x,y) for x in turkic for y in indo_aryans]))
+    combos_random = list(set([(x, y) for x in turkic for y in indo_aryans]))
 
-    for t1, t2 in semitic:
+    for x in semitic:
+        t1, t2 = x
         get_data_combos(t1, t2)
 
     for combo in combos_indo_aryans:
-        x,y = combo
-        get_data_combos(x,y)
+        x, y = combo
+        get_data_combos(x, y)
 
     for combo in combos_random:
-        x,y = combo
-        get_data_combos(x,y)
+        x, y = combo
+        get_data_combos(x, y)
+
 
 if __name__ == '__main__':
     main()
