@@ -1,6 +1,6 @@
 #!/bin/bash -e
 #SBATCH --job-name=inverter
-#SBATCH --account=project_465000909
+#SBATCH --account=project_465001270
 #SBATCH --partition=small-g
 #SBATCH --nodes=1
 #SBATCH --gpus-per-node=8
@@ -28,11 +28,10 @@ wd=$(pwd)
 echo "working directory ${wd}"
 
 export OPENAI_API_KEY="sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
-export HF_HOME="/scratch/project_465000909/.cache"
-export HF_DATASETS_CACHE="/scratch/project_465000909/.cache/datasets"
-export DATASET_CACHE_PATH="/scratch/project_465000909/.cache"
-export EBU_USER_PREFIX=/scratch/project_465000909/
-export WANDB_CACHE_DIR="/scratch/project_465000909/.cache/wandb/artifcats/"
+export HF_HOME="/scratch/project_465001270/.cache"
+export HF_DATASETS_CACHE="/scratch/project_465001270/.cache/datasets"
+export DATASET_CACHE_PATH="/scratch/project_465001270/.cache"
+export WANDB_CACHE_DIR="/scratch/project_465001270/.cache/wandb/artifcats/"
 
 echo "Trnasformers cache $HF_HOME"
 echo "HF datasets cache $HF_DATASETS_CACHE"
@@ -83,7 +82,7 @@ echo "Rank $SLURM_PROCID --> $(taskset -p $$); GPU $ROCR_VISIBLE_DEVICES"
 # pytorch multiprocessing. semaphore.
 export PYTHONWARNINGS='ignore:semaphore_tracker:UserWarning'
 
-SIF=/scratch/project_465000909/multivec2text.sif
+SIF=/scratch/project_465001270/multivec2text.sif
 
 # each GPU has a mask, communicating with the closest CPUs.
 CPU_BIND_MASKS="0x00fe000000000000,0xfe00000000000000,0x0000000000fe0000,0x00000000fe000000,0x00000000000000fe,0x000000000000fe00,0x000000fe00000000,0x0000fe0000000000"
@@ -94,7 +93,7 @@ chmod +x $HF_DATASETS_CACHE
 
 if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
   srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
-    -B /scratch/project_465000909:/scratch/project_465000909 \
+    -B /scratch/project_465001270:/scratch/project_465001270 \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
     -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
@@ -115,7 +114,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
 else
   echo "no overwrite parameters"
   srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
-    -B /scratch/project_465000909:/scratch/project_465000909 \
+    -B /scratch/project_465001270:/scratch/project_465001270 \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
     -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \

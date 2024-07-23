@@ -14,13 +14,13 @@ lat_scrp: yiyic/Latn_train
 cyr_scrp: yiyic/Cyrl_train
 ara_scrp: yiyic/Arab_train
 cmn_jpn: yiyic/cmn_jpn_train # dev. done.
-heb_arb: todo
+heb_arb: yiyic/heb_Hebr_arb_Arab_train
 tur_fami: yiyic/Turkic_train
 urd_pan: todo
 urd_guj: todo
 urd_hin: todo
 hin_pan: todo
-hin_guj: todo
+hin_guj: yiyic/hin_Deva_guj_Gujr_train
 pan_guj: todo
 tur_urd: todo
 tur_pan: todo
