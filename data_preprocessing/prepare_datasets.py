@@ -50,7 +50,7 @@ def main():
     combos_random = list(set([(x, y) for x in turkic for y in indo_aryans]))
 
 
-    get_data_combos(semitic[0], semitic[1])
+    # get_data_combos(semitic[0], semitic[1])
 
     for combo in combos_indo_aryans:
         x, y = combo
