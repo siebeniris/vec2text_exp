@@ -1,13 +1,8 @@
-import time
-
-import pandas as pd
-import yaml
 from time import sleep
-import torch
 from huggingface_hub import login as huggingface_login
 import yaml
 
-from datasets import load_dataset, Dataset, load_from_disk, DatasetDict
+from datasets import load_dataset, DatasetDict
 
 
 def login_huggingface():
@@ -64,12 +59,12 @@ def adding_lang_script_id():
     dataset_name = "yiyic/mt_ms_test"
     print(f"processing dataset {dataset_name}....")
 
-    new_dataset = processing_dataset_dict(dataset_name, False, True)
+    new_dataset = processing_dataset_dict(dataset_name, True, False)
     new_dataset.push_to_hub(f"{dataset_name}_lang_id")
     sleep(3)
     new_dataset = processing_dataset_dict(dataset_name, True, True)
     new_dataset.push_to_hub(f"{dataset_name}_lang_script_id")
-
+    #
     # for in-script datasets, only add lang id.
     for script in ["lat_scrp", "cyr_scrp", "ara_scrp"]:
         dataset_name = lang2file[script]
