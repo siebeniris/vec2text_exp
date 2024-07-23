@@ -28,10 +28,10 @@ wd=$(pwd)
 echo "working directory ${wd}"
 
 export OPENAI_API_KEY="sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
-export HF_HOME="/scratch/project_465001270/.cache"
-export HF_DATASETS_CACHE="/scratch/project_465001270/.cache/datasets"
-export DATASET_CACHE_PATH="/scratch/project_465001270/.cache"
-export WANDB_CACHE_DIR="/scratch/project_465001270/.cache/wandb/artifcats/"
+export HF_HOME="/scratch/project_465000909/.cache"
+export HF_DATASETS_CACHE="/scratch/project_465000909/.cache/datasets"
+export DATASET_CACHE_PATH="/scratch/project_465000909/.cache"
+export WANDB_CACHE_DIR="/scratch/project_465000909/.cache/wandb/artifcats/"
 
 echo "Trnasformers cache $HF_HOME"
 echo "HF datasets cache $HF_DATASETS_CACHE"
