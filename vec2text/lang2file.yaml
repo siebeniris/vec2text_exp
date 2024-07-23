@@ -1,28 +1,43 @@
-deu_Latn: yiyic/oscar_deu_Latn_train
-ydd_Hebr: yiyic/CulturaX_yi_train # NO LINGUA
-heb_Hebr: yiyic/CulturaX_he_train
-arb_Arab: yiyic/CulturaX_ar_train
-amh_Ethi: yiyic/CulturaX_am_train # NO LINGUA
-mlt_Latn: yiyic/CulturaX_mt_train # NO LINGUA
-hin_Deva: yiyic/CulturaX_hi_train
-urd_Arab: yiyic/CulturaX_ur_train
-guj_Gujr: yiyic/CulturaX_gu_train
-sin_Sinh: yiyic/CulturaX_si_train # NO LINGUA
-pan_Guru: yiyic/CulturaX_pa_train
-tur_Latn: yiyic/CulturaX_tr_train
-kaz_Cyrl: yiyic/CulturaX_kk_train
+deu_Latn: yiyic/oscar_deu_Latn_train # 1M
+heb_Hebr: yiyic/CulturaX_he_train # 1M
+arb_Arab: yiyic/CulturaX_ar_train # 1M
 cmn_Hani: yiyic/CulturaX_zh_train
 jpn_Jpan: yiyic/CulturaX_ja_train
-kor_Hang: yiyic/CulturaX_ko_train
+tur_Latn: yiyic/CulturaX_tr_train
+kaz_Cyrl: yiyic/CulturaX_kk_train
 mon_Cyrl: yiyic/CulturaX_mn_train
+urd_Arab: yiyic/urd_Arab_train # yiyic/CulturaX_ur_train # 1M # change. dev.
+pan_Guru: yiyic/pan_Guru_train # yiyic/CulturaX_pa_train # 1M # change.
+guj_Gujr: yiyic/guj_Gujr_train # yiyic/CulturaX_gu_train # 1M # change.
+hin_Deva: yiyic/hin_Deva_train # yiyic/CulturaX_hi_train # 1M # change. dev
+lat_scrp: yiyic/Latn_train
+cyr_scrp: yiyic/Cyrl_train
+ara_scrp: yiyic/Arab_train
+cmn_jpn: yiyic/cmn_jpn_train # dev. done.
+heb_arb: todo
+tur_fami: yiyic/Turkic_train
+urd_pan: todo
+urd_guj: todo
+urd_hin: todo
+hin_pan: todo
+hin_guj: todo
+pan_guj: todo
+tur_urd: todo
+tur_pan: todo
+tur_guj: todo
+tur_hin: todo
+kaz_urd: todo
+kaz_pan: todo
+kaz_guj: todo
+kaz_hin: todo
+ydd_Hebr: yiyic/CulturaX_yi_train # NO LINGUA
+amh_Ethi: yiyic/CulturaX_am_train # NO LINGUA
+mlt_Latn: yiyic/CulturaX_mt_train # NO LINGUA
+sin_Sinh: yiyic/CulturaX_si_train # NO LINGUA
+kor_Hang: yiyic/CulturaX_ko_train
 hun_Latn: yiyic/CulturaX_hu_train
 mhr_Cyrl: yiyic/CulturaX_mhr_train # NO LINGUA
 fin_Latn: yiyic/CulturaX_fi_train
 ind_fami: yiyic/Indo-Aryan-hin-urd-guj-pan_train # no sin.
-tur_fami: yiyic/Turkic_train
 sem_fami: yiyic/Semitic_heb_arb_mlt_train # no amharic
 atl_fami: yiyic/Atlatic_train
-lat_scrp: yiyic/Latn_train
-cyr_scrp: yiyic/Cyrl_train
-ara_scrp: yiyic/Arab_train
-cmn_test: yiyic/cmn_test_train
