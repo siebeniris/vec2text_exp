@@ -112,7 +112,7 @@ def dataset_from_args(data_args: DataArguments) -> datasets.DatasetDict:
         # 12.06.2024 mt-ms dataset.
         assert "_" in data_args.dataset_name  # mt-ms_lat_scrp
         lang = data_args.dataset_name.replace("mt-ms_", "")
-        assert len(lang) == 8
+        # assert len(lang) == 8
         raw_datasets = load_mt_ms(lang)
     elif data_args.dataset_name == "msmarco":
         raw_datasets = load_msmarco_corpus()
