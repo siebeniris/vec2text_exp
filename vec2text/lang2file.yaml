@@ -16,20 +16,20 @@ ara_scrp: yiyic/Arab_train
 cmn_jpn: yiyic/cmn_jpn_train # dev. done.
 heb_arb: yiyic/heb_Hebr_arb_Arab_train
 tur_fami: yiyic/Turkic_train
-urd_pan: todo
-urd_guj: todo
-urd_hin: todo
-hin_pan: todo
+urd_pan: yiyic/pan_Guru_urd_Arab_train
+urd_guj: yiyic/guj_Gujr_urd_Arab_train
+urd_hin: yiyic/hin_Deva_urd_Arab_train
+hin_pan: yiyic/hin_Deva_pan_Guru_train
 hin_guj: yiyic/hin_Deva_guj_Gujr_train
-pan_guj: todo
-tur_urd: todo
-tur_pan: todo
-tur_guj: todo
-tur_hin: todo
-kaz_urd: todo
-kaz_pan: todo
-kaz_guj: todo
-kaz_hin: todo
+pan_guj: yiyic/guj_Gujr_pan_Guru_train
+tur_urd: yiyic/tur_Latn_urd_Arab_train
+tur_pan: yiyic/tur_Latn_pan_Guru_train
+tur_guj: yiyic/tur_Latn_guj_Gujr_train
+tur_hin: yiyic/tur_Latn_hin_Deva_train
+kaz_urd: yiyic/kaz_Cyrl_urd_Arab_train
+kaz_pan: yiyic/kaz_Cyrl_pan_Guru_train
+kaz_guj: yiyic/kaz_Cyrl_guj_Gujr_train
+kaz_hin: yiyic/kaz_Cyrl_hin_Deva_train
 ydd_Hebr: yiyic/CulturaX_yi_train # NO LINGUA
 amh_Ethi: yiyic/CulturaX_am_train # NO LINGUA
 mlt_Latn: yiyic/CulturaX_mt_train # NO LINGUA
