@@ -18,6 +18,7 @@ with open("vec2text/lang2file.yaml", "r") as f:
 
 
 def get_data_combos(lang1, lang2):
+    print(lang2file[lang1], lang2file[lang2])
     lang1_train = load_dataset(lang2file[lang1])["train"]
     lang1_dev = load_dataset(lang2file[lang1].replace("_train", "_dev"))["train"].select(range(250))
     lang1_len = lang1_train.num_rows
@@ -44,14 +45,12 @@ def get_data_combos(lang1, lang2):
 def main():
     indo_aryans = ["hin_Deva", "guj_Gujr", "pan_Guru", "urd_Arab"]
     turkic = ["kaz_Cyrl", "tur_Latn"]
-    semitic = ("heb_Hebr", "arb_Arab")
+    semitic = ["heb_Hebr", "arb_Arab"]
     combos_indo_aryans = list(combinations(indo_aryans, 2))
     combos_random = list(set([(x, y) for x in turkic for y in indo_aryans]))
 
-    for x in semitic:
-        t1 = x[0]
-        t2 = x[1]
-        get_data_combos(t1, t2)
+
+    get_data_combos(semitic[0], semitic[1])
 
     for combo in combos_indo_aryans:
         x, y = combo
