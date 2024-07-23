@@ -272,11 +272,11 @@ def load_mt_ms(lang) -> datasets.DatasetDict:
 
     file = lang2file[lang]
     print(f"loading data from {file} for {lang}")
-    train_dataset = datasets.load_dataset(file)["train"]
+    train_dataset = datasets.load_dataset(file)["train"].select_columns(["text"])
     # loading the validation dataset.
     validation_file = file.replace("_train", "_dev")
     print(f"loading data from {validation_file} for {lang}")
-    validation_dataset = datasets.load_dataset(validation_file)["train"]
+    validation_dataset = datasets.load_dataset(validation_file)["train"].select_columns(["text"])
     raw_datasets = datasets.DatasetDict(
         {
             "train": train_dataset,
