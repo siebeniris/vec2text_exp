@@ -16,33 +16,40 @@ CHECKPOINT_FOLDERS_DICT = {
     ####################################################################
     ######################## Multilingual e5 base #########################
     ####################################################################
+    # monolingual.
     'arb_Arab_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_arb_Arab_32_2layers_prefix',
-    'cmn_jpn_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_cmn_jpn_32_2layers_prefix',
-    'guj_Gujr_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_guj_Gujr_32_2layers_prefix',
-    'heb_arb_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_heb_arb_32_2layers_prefix',
-    'hin_Deva_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_hin_Deva_32_2layers_prefix',
-    'hin_guj_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_hin_guj_32_2layers_prefix',
-    'hin_pan_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_hin_pan_32_2layers_prefix',
     'jpn_Jpan_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_jpn_Jpan_32_2layers_prefix',
+    'tur_Latn_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_tur_Latn_32_2layers_prefix',
     'kaz_Cyrl_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_kaz_Cyrl_32_2layers_prefix',
+    'mon_Cyrl_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_mon_Cyrl_32_2layers_prefix',
+    'urd_Arab_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_urd_Arab_32_2layers_prefix',
+    'pan_Guru_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_pan_Guru_32_2layers_prefix',
+    'guj_Gujr_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_guj_Gujr_32_2layers_prefix',
+    'hin_Deva_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_hin_Deva_32_2layers_prefix',
+
+    # script.
+    'cmn_jpn_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_cmn_jpn_32_2layers_prefix',
+
+    # by family
+    'heb_arb_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_heb_arb_32_2layers_prefix',
+    'urd_pan_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_urd_pan_32_2layers_prefix',
+    'urd_guj_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_urd_guj_32_2layers_prefix',
+    'urd_hin_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_urd_hin_32_2layers_prefix',
+    'hin_pan_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_hin_pan_32_2layers_prefix',
+    'hin_guj_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_hin_guj_32_2layers_prefix',
+    'pan_guj_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_pan_guj_32_2layers_prefix',
+
+    # random.
     'kaz_guj_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_kaz_guj_32_2layers_prefix',
     'kaz_hin_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_kaz_hin_32_2layers_prefix',
     'kaz_pan_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_kaz_pan_32_2layers_prefix',
     'kaz_urd_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_kaz_urd_32_2layers_prefix',
-    'mon_Cyrl_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_mon_Cyrl_32_2layers_prefix',
-    'pan_Guru_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_pan_Guru_32_2layers_prefix',
-    'pan_guj_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_pan_guj_32_2layers_prefix',
-    'tur_Latn_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_tur_Latn_32_2layers_prefix',
     'tur_guj_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_tur_guj_32_2layers_prefix',
     'tur_hin_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_tur_hin_32_2layers_prefix',
     'tur_pan_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_tur_pan_32_2layers_prefix',
     'tur_urd_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_tur_urd_32_2layers_prefix',
-    'urd_Arab_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_urd_Arab_32_2layers_prefix',
-    'urd_guj_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_urd_guj_32_2layers_prefix',
-    'urd_hin_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_urd_hin_32_2layers_prefix',
-    'urd_pan_32_2layers_inverter': f'{lumi_dir}/inverters/mt5_multilingual_e5_base_mt-ms_urd_pan_32_2layers_prefix',
 
-    #### corrector
+    #### correctors
     'arb_Arab_32_2layers_corrector': f'{lumi_dir}/correctors/mt5_multilingual_e5_base_mt-ms_arb_Arab_32_2layers_prefix',
     'cmn_jpn_32_2layers_corrector': f'{lumi_dir}/correctors/mt5_multilingual_e5_base_mt-ms_cmn_jpn_32_2layers_prefix',
     'guj_Gujr_32_2layers_corrector': f'{lumi_dir}/correctors/mt5_multilingual_e5_base_mt-ms_guj_Gujr_32_2layers_prefix',
