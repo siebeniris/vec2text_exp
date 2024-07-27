@@ -26,6 +26,9 @@ def main():
     args = parser.parse_args()
 
     model = load_model_from_alias(args.alias)
+    if "corrector" in args.new_alias:
+        model_name = args.new_alias.replace("_corrector", "_inverter")
+        model.config["corrector_model_from_pretrained"] = f"yiyic/{model_name}"
     model.push_to_hub(args.new_alias, max_shard_size="200MB")
 
 
