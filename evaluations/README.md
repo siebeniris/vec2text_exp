@@ -16,7 +16,7 @@ python evaluations/02_check_logs.py
 3. collect results
 ```
 # for multilingual
-python evaluations/03_collect_results.py
+python evaluations/03_collect_eval_results.py
 
 python evaluations/03_collect_eval_results.py monolingual results/mt5_mono/
 ```
