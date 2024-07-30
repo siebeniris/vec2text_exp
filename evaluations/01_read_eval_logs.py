@@ -208,12 +208,12 @@ def main(eval_logfile="evaluations/eval_logs.yaml"):
         eval_logs = pd.read_csv("evaluations/eval_logs.csv")
 
         model2logs = dict(zip(eval_logs["Model"], eval_logs["JobID"]))
-        for model_name, eval_file_id in model2logs.items():
+        for model_name, eval_files in model2logs.items():
             if "_me5_" in model_name:
                 outputfolder = os.path.join(output_folder, "multilingual")
                 if not os.path.exists(outputfolder):
                     os.makedirs(outputfolder)
-
+                eval_file_id = eval_files.split(",")
                 if "inverter" in model_name:
                     print(f"processing inverter {model_name} from {eval_file_id}")
                     # the list for inverter is only one.
