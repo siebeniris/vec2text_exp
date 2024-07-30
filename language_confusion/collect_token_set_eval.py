@@ -81,16 +81,49 @@ def collect_through_eval_logs(lingual="multilingual", metric="token_set_f1"):
 
 def dict2df(lingual="multilingual", metric="token_set_f1", outputfolder="results/mt5_me5"):
     if lingual=="multilingual":
-        set_tokens_f1_dict = collect_through_eval_logs(lingual, metric)
-        model_list_inverter = ["me5_deu_Latn_inverter", "me5_heb_Hebr_inverter", "me5_cmn_Hani_inverter",
-                               "me5_indo-aryan-fami_inverter", "me5_semitic-fami_inverter", "me5_turkic-fami_inverter",
-                               "me5_atlatic_fami_inverter",
-                               "me5_arab-script_inverter", "me5_cyrl-script_inverter", "me5_latn-script_inverter"]
 
-        model_list_corrector = ['me5_deu_Latn_corrector', 'me5_heb_Hebr_corrector', 'me5_cmn_Hani_corrector',
-                                'me5_indo-aryan-fami_corrector', 'me5_semitic-fami_corrector', 'me5_turkic-fami_corrector',
-                                'me5_atlatic_fami_corrector',
-                                'me5_latn-script_corrector', 'me5_ara-script_corrector', 'me5_cyrl-script_corrector']
+        set_tokens_f1_dict = collect_through_eval_logs(lingual, metric)
+        # model_list_inverter = ["me5_deu_Latn_inverter", "me5_heb_Hebr_inverter", "me5_cmn_Hani_inverter",
+        #                        "me5_indo-aryan-fami_inverter", "me5_semitic-fami_inverter", "me5_turkic-fami_inverter",
+        #                        "me5_atlatic_fami_inverter",
+        #                        "me5_arab-script_inverter", "me5_cyrl-script_inverter", "me5_latn-script_inverter"]
+        #
+        # model_list_corrector = ['me5_deu_Latn_corrector', 'me5_heb_Hebr_corrector', 'me5_cmn_Hani_corrector',
+        #                         'me5_indo-aryan-fami_corrector', 'me5_semitic-fami_corrector', 'me5_turkic-fami_corrector',
+        #                         'me5_atlatic_fami_corrector',
+        #                         'me5_latn-script_corrector', 'me5_ara-script_corrector', 'me5_cyrl-script_corrector']
+        model_list_inverter = ['mt5_me5_arb_Arab_32_2layers_inverter', 'mt5_me5_jpn_Jpan_32_2layers_inverter',
+                               'mt5_me5_tur_Latn_32_2layers_inverter', 'mt5_me5_kaz_Cyrl_32_2layers_inverter',
+                               'mt5_me5_mon_Cyrl_32_2layers_inverter', 'mt5_me5_urd_Arab_32_2layers_inverter',
+                               'mt5_me5_pan_Guru_32_2layers_inverter', 'mt5_me5_guj_Gujr_32_2layers_inverter',
+                               'mt5_me5_hin_Deva_32_2layers_inverter',
+                               # script
+                               'mt5_me5_cmn_jpn_32_2layers_inverter',
+                               # family
+                               'mt5_me5_heb_arb_32_2layers_inverter', 'mt5_me5_urd_pan_32_2layers_inverter',
+                               'mt5_me5_urd_guj_32_2layers_inverter', 'mt5_me5_urd_hin_32_2layers_inverter',
+                               'mt5_me5_hin_pan_32_2layers_inverter', 'mt5_me5_hin_guj_32_2layers_inverter',
+                               'mt5_me5_pan_guj_32_2layers_inverter',
+                               # random.
+                               'mt5_me5_tur_urd_32_2layers_inverter',
+                               'mt5_me5_tur_pan_32_2layers_inverter', 'mt5_me5_tur_guj_32_2layers_inverter',
+                               'mt5_me5_tur_hin_32_2layers_inverter', 'mt5_me5_kaz_urd_32_2layers_inverter',
+                               'mt5_me5_kaz_pan_32_2layers_inverter', 'mt5_me5_kaz_guj_32_2layers_inverter',
+                               'mt5_me5_kaz_hin_32_2layers_inverter']
+
+        model_list_corrector = ['mt5_me5_arb_Arab_32_2layers_corrector', 'mt5_me5_jpn_Jpan_32_2layers_corrector',
+                                'mt5_me5_tur_Latn_32_2layers_corrector', 'mt5_me5_kaz_Cyrl_32_2layers_corrector',
+                                'mt5_me5_mon_Cyrl_32_2layers_corrector', 'mt5_me5_urd_Arab_32_2layers_corrector',
+                                'mt5_me5_pan_Guru_32_2layers_corrector', 'mt5_me5_guj_Gujr_32_2layers_corrector',
+                                'mt5_me5_hin_Deva_32_2layers_corrector', 'mt5_me5_cmn_jpn_32_2layers_corrector',
+                                'mt5_me5_heb_arb_32_2layers_corrector', 'mt5_me5_urd_pan_32_2layers_corrector',
+                                'mt5_me5_urd_guj_32_2layers_corrector', 'mt5_me5_urd_hin_32_2layers_corrector',
+                                'mt5_me5_hin_pan_32_2layers_corrector', 'mt5_me5_hin_guj_32_2layers_corrector',
+                                'mt5_me5_pan_guj_32_2layers_corrector', 'mt5_me5_tur_urd_32_2layers_corrector',
+                                'mt5_me5_tur_pan_32_2layers_corrector', 'mt5_me5_tur_guj_32_2layers_corrector',
+                                'mt5_me5_tur_hin_32_2layers_corrector', 'mt5_me5_kaz_urd_32_2layers_corrector',
+                                'mt5_me5_kaz_pan_32_2layers_corrector', 'mt5_me5_kaz_guj_32_2layers_corrector',
+                                'mt5_me5_kaz_hin_32_2layers_corrector']
 
         evals = ['deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
             'kaz_Cyrl', 'mhr_Cyrl', 'mon_Cyrl',
