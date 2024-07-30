@@ -3,6 +3,7 @@ import json
 import os
 from collections import defaultdict
 
+import pandas as pd
 import yaml
 
 
@@ -149,13 +150,15 @@ def get_log_info_eval_corrector(log_file_path, outputfile):
         # a list of log file ids.
         # the later files come first
         logfile_names = sorted([int(x) for x in log_file_path], reverse=True)
-        file_paths = [f"eval_logs/eval_{x}.out" for x in logfile_names]
+        # file_paths = [f"eval_logs/eval_{x}.out" for x in logfile_names]
+        file_paths = [f"eval_{x}.out" for x in logfile_names]
         for filepath in file_paths:
             print(filepath)
             if os.path.exists(filepath):
                 parse_one_file(filepath)
     if len(log_file_path) == 1:
-        parse_one_file(f"eval_logs/eval_{log_file_path[0]}.out")
+        # parse_one_file(f"eval_logs/eval_{log_file_path[0]}.out")
+        parse_one_file(f"eval_{log_file_path[0]}.out")
 
         # Save the parsed data to a JSON file for further use
     if parsed_data["model"]:
@@ -179,18 +182,44 @@ def main(eval_logfile="evaluations/eval_logs.yaml"):
     if not os.path.exists(output_folder):
         os.makedirs(output_folder)
 
-    eval_logs = read_yamlfile(eval_logfile)
-    if eval_logs:
-        for l_, models_fileid in eval_logs.items():
-            outputfolder = os.path.join(output_folder, l_)
-            if not os.path.exists(outputfolder):
-                os.makedirs(outputfolder)
-            for model_name, eval_file_id in models_fileid.items():
+    if eval_logfile.endswith(".yaml"):
+        eval_logs = read_yamlfile(eval_logfile)
+        if eval_logs:
+            for l_, models_fileid in eval_logs.items():
+                outputfolder = os.path.join(output_folder, l_)
+                if not os.path.exists(outputfolder):
+                    os.makedirs(outputfolder)
+                for model_name, eval_file_id in models_fileid.items():
+                    if "inverter" in model_name:
+                        print(f"processing inverter {model_name} from {eval_file_id}")
+                        # the list for inverter is only one.
+                        assert len(eval_file_id) == 1
+                        # logfilepath = f"eval_logs/eval_{eval_file_id[0]}.out"
+                        logfilepath = f"eval_{eval_file_id[0]}.out"
+                        outputfile = f"{outputfolder}/eval_{model_name}.json"
+                        get_log_info_eval_inverter(logfilepath, outputfile)
+                    if "corrector" in model_name:
+                        assert len(eval_file_id) >= 1
+                        print(f"processing corrector {model_name} from {eval_file_id}")
+                        outputfile = f"{outputfolder}/eval_{model_name}.json"
+                        get_log_info_eval_corrector(eval_file_id, outputfile)
+
+    elif eval_logfile.endswith(".csv"):
+        eval_logs = pd.read_csv("evaluations/eval_logs.csv")
+
+        model2logs = dict(zip(eval_logs["Model"], eval_logs["JobID"]))
+        for model_name, eval_file_id in model2logs.items():
+            if "_me5_" in model_name:
+                outputfolder = os.path.join(output_folder, "multilingual")
+                if not os.path.exists(outputfolder):
+                    os.makedirs(outputfolder)
+
                 if "inverter" in model_name:
                     print(f"processing inverter {model_name} from {eval_file_id}")
                     # the list for inverter is only one.
                     assert len(eval_file_id) == 1
-                    logfilepath = f"eval_logs/eval_{eval_file_id[0]}.out"
+                    # logfilepath = f"eval_logs/eval_{eval_file_id[0]}.out"
+                    logfilepath = f"eval_{eval_file_id[0]}.out"
                     outputfile = f"{outputfolder}/eval_{model_name}.json"
                     get_log_info_eval_inverter(logfilepath, outputfile)
                 if "corrector" in model_name:
@@ -199,8 +228,10 @@ def main(eval_logfile="evaluations/eval_logs.yaml"):
                     outputfile = f"{outputfolder}/eval_{model_name}.json"
                     get_log_info_eval_corrector(eval_file_id, outputfile)
 
+
+
     else:
-        print("choose model type between inverter and corrector")
+        print("choose eval log file between csv and yaml.")
 
 
 if __name__ == '__main__':
