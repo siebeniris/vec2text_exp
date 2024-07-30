@@ -47,12 +47,16 @@ def read_results_files(lingual="multilingual", outputfolder="results/mt5_me5"):
                         if eval_dataset not in results_model_dict[model]:
                             results_model_dict[model][eval_dataset] = dict()
 
-                        result_file = eval["results_file"]
-                        result_file = result_file.replace("./", "")
-                        with open(result_file) as f:
-                            results_dataset = json.load(f)
-                        metric_result = results_dataset[metric]
-                        results_model_dict[model][eval_dataset]["Base"] = metric_result
+                        try:
+
+                            result_file = eval["results_file"]
+                            result_file = result_file.replace("./", "")
+                            with open(result_file) as f:
+                                results_dataset = json.load(f)
+                            metric_result = results_dataset[metric]
+                            results_model_dict[model][eval_dataset]["Base"] = metric_result
+                        except Exception as msg:
+                            print(f'{filepath} ==> {msg}')
 
                 else:
                     for eval_dataset, eval_steps in eval_files["evaluations"].items():
