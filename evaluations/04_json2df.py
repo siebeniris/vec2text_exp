@@ -105,8 +105,8 @@ def processing_one_eval_df(df, filepath, inverter=True):
         'cmn_Hani', 'jpn_Jpan', 'kor_Hang',
         'amh_Ethi']
     if "multilingual_" in filepath:
-        df.index = df.index.str.replace("yiyic/mt5_", "")
-        df.index = df.index.str.replace("_32_2layers", "")
+        df.index = df.index.str.replace("yiyic/", "")
+        # df.index = df.index.str.replace("_32_2layers", "")
         df = df.reindex(columns=evals)
         if inverter:
             df = df.reindex(index=model_list_inverter)
@@ -115,8 +115,8 @@ def processing_one_eval_df(df, filepath, inverter=True):
             df = df.reindex(index=model_list_corrector)
             return df
     elif "monolingual_" in filepath:
-        df.index = df.index.str.replace("yiyic/mt5_", "")
-        df.index = df.index.str.replace("_32", "")
+        df.index = df.index.str.replace("yiyic/", "")
+        # df.index = df.index.str.replace("_32", "")
         df = df.reindex(columns=evals)
         return df
 
