@@ -206,10 +206,11 @@ def main(eval_logfile="evaluations/eval_logs.yaml"):
 
     elif eval_logfile.endswith(".csv"):
         eval_logs = pd.read_csv("evaluations/eval_logs.csv")
+        eval_logs = eval_logs.fillna("None")
 
         model2logs = dict(zip(eval_logs["Model"], eval_logs["JobID"]))
         for model_name, eval_files in model2logs.items():
-            if "_me5_" in model_name:
+            if "_me5_" in model_name and eval_files != "None":
                 outputfolder = os.path.join(output_folder, "multilingual")
                 if not os.path.exists(outputfolder):
                     os.makedirs(outputfolder)
