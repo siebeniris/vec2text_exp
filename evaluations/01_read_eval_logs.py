@@ -68,7 +68,7 @@ def get_log_info_eval_inverter(filepath, outputfile):
         parsed_data['evaluations'].append(current_eval)
 
     # Save the parsed data to a JSON file for further use
-    model_name = parsed_data["model"].replace("yiyic/", "")
+    # model_name = parsed_data["model"].replace("yiyic/", "")
 
     # parsed_json_path = f'eval_logs/eval_{model_name}.json'
     with open(outputfile, 'w') as json_file:
