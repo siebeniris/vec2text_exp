@@ -8,6 +8,7 @@ def check_logs(folderpath="eval_logs/multilingual"):
     for file in os.listdir(folderpath):
 
         if file.endswith(".json"):
+            print(file)
             if "corrector" in file:
                 filepath = os.path.join(folderpath, file)
                 # print(f"reading {filepath}")
@@ -30,7 +31,7 @@ def check_logs(folderpath="eval_logs/multilingual"):
                                     sbeam8 = True
                         if not sbeam8:
                             print(f"eval {eval_lang} step 50 and beam width 8 missing")
-                print("*" * 10)
+
 
             elif "inverter" in file:
                 filepath = os.path.join(folderpath, file)
@@ -44,6 +45,7 @@ def check_logs(folderpath="eval_logs/multilingual"):
                     if "output_file" not in eval:
                         print(f"eval {dataset} inverter eval missing")
 
+            print("*" * 10)
 
 
 
