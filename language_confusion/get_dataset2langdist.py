@@ -7,15 +7,16 @@ import numpy as np
 
 
 def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
-    # dataset2langdist= defaultdict(dict)
+    dataset2langdist= defaultdict(dict)
 
     with open(file) as f:
         model_log = json.load(f)
     # "../eval_logs/multilingual/eval_mt5_me5_arab-script_32_2layers_inverter.json"
-    model_name = os.path.basename(file).replace("eval_mt5_", "").replace(".json", "").replace("_32_2layers",
-                                                                                                  "").replace(
-        "ara-script", "arab-script")
-    model_name = model_name.replace("_32", "").replace("_inverter", "").replace("_corrector", "")
+    model_name = os.path.basename(file).replace("eval_", "").replace(".json", "")
+    # model_name = os.path.basename(file).replace("eval_mt5_", "").replace(".json", "").replace("_32_2layers",
+    #  "").replace("ara-script", "arab-script")
+    # model_name = model_name.replace("_32", "").replace("_inverter", "").replace("_corrector", "")
+
     print(model_name)
     if model_name not in dataset2langdist:
         dataset2langdist[model_name] = dict()
