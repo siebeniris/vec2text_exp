@@ -9,6 +9,7 @@ model_list_inverter = [
     'mt5_me5_hin_Deva_32_2layers_inverter',
 
     # script
+    'mt5_me5_turkic-fami_32_2layers_inverter',
     'mt5_me5_arab-script_32_2layers_inverter',
     'mt5_me5_latn-script_32_2layers_inverter',
     'mt5_me5_cyrl-script_32_2layers_inverter',
@@ -45,6 +46,7 @@ model_list_corrector = [
     'mt5_me5_cmn_jpn_32_2layers_corrector',
 
     # family
+    'mt5_me5_turkic-fami_32_2layers_corrector',
     'mt5_me5_heb_arb_32_2layers_corrector', 'mt5_me5_urd_pan_32_2layers_corrector',
     'mt5_me5_urd_guj_32_2layers_corrector', 'mt5_me5_urd_hin_32_2layers_corrector',
     'mt5_me5_hin_pan_32_2layers_corrector', 'mt5_me5_hin_guj_32_2layers_corrector',

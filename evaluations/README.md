@@ -22,4 +22,9 @@ python evaluations/03_collect_eval_results.py monolingual results/mt5_mono/
 ```
 
 
-4. 
+4. json2df
+
+```
+python evaluations/04_json2df.py
+
+```
