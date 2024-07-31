@@ -323,23 +323,24 @@ def language_detector_eval_datasets_batch(lingual="multilingual", inversion="inv
                 with open(filepath, "r") as f:
                     eval_logs = json.load(f)
                 # "model": "yiyic/mt5_me5_arb_Arab_32_2layers_inverter",
-                model_outputfolder = os.path.join("saves", eval_logs["model"].replace("/", "__"))
-                if os.path.exists(model_outputfolder):
-                    print(f"{model_outputfolder} exists...")
-                    for eval in eval_logs["evaluations"]:
-                        print(f"processing eval dataset {eval['dataset']}")
-                        # saves/yiyic__mt5_me5_arb_Arab_32_2layers_inverter/decoded_eval_1721930770
-                        decoded_file_folder = eval["embeddings_file"]
-                        decoded_file = eval["output_file"].replace(" ", "")
-                        outputfile = os.path.join(decoded_file_folder, "eval_lang.csv")
-                        if not os.path.exists(outputfile):
-                            processing_filepath_lang(decoded_file, decoded_file_folder)
+                if eval_logs["model"] is not None:
+                    model_outputfolder = os.path.join("saves", eval_logs["model"].replace("/", "__"))
+                    if os.path.exists(model_outputfolder):
+                        print(f"{model_outputfolder} exists...")
+                        for eval in eval_logs["evaluations"]:
+                            print(f"processing eval dataset {eval['dataset']}")
+                            # saves/yiyic__mt5_me5_arb_Arab_32_2layers_inverter/decoded_eval_1721930770
+                            decoded_file_folder = eval["embeddings_file"]
+                            decoded_file = eval["output_file"].replace(" ", "")
+                            outputfile = os.path.join(decoded_file_folder, "eval_lang.csv")
+                            if not os.path.exists(outputfile):
+                                processing_filepath_lang(decoded_file, decoded_file_folder)
 
-                        set_token_outputfile = os.path.join(decoded_file_folder, "set_token_eval.csv")
-                        if not os.path.exists(set_token_outputfile):
-                            print(f"processing set_token_metrics")
+                            set_token_outputfile = os.path.join(decoded_file_folder, "set_token_eval.csv")
+                            if not os.path.exists(set_token_outputfile):
+                                print(f"processing set_token_metrics")
 
-                            eval_for_sequences_token_metrics(decoded_file, decoded_file_folder)
+                                eval_for_sequences_token_metrics(decoded_file, decoded_file_folder)
 
 
             else:
@@ -348,45 +349,45 @@ def language_detector_eval_datasets_batch(lingual="multilingual", inversion="inv
                         print(f"processing and detect languages {filepath}")
                         with open(filepath, "r") as f:
                             eval_logs = json.load(f)
+                        if eval_logs["model"] is not None:
+                            model_outputfolder = os.path.join("saves", eval_logs["model"].replace("/", "__"))
+                            if os.path.exists(model_outputfolder):
 
-                        model_outputfolder = os.path.join("saves", eval_logs["model"].replace("/", "__"))
-                        if os.path.exists(model_outputfolder):
+                                for eval_dataset, eval_steps_results in eval_logs["evaluations"].items():
+                                    print(f"processing eval_dataset {eval_dataset}")
+                                    for step, step_results in eval_steps_results.items():
+                                        if step.endswith("steps 1"):
+                                            if "embeddings_files" in step_results:
+                                                decoded_file_folder = step_results["embeddings_files"]
+                                                decoded_file = step_results["output_files"].replace(" ", "")
+                                                outputfile = os.path.join(decoded_file_folder, "eval_lang.csv")
+                                                if not os.path.exists(outputfile):
+                                                    processing_filepath_lang(decoded_file, decoded_file_folder)
 
-                            for eval_dataset, eval_steps_results in eval_logs["evaluations"].items():
-                                print(f"processing eval_dataset {eval_dataset}")
-                                for step, step_results in eval_steps_results.items():
-                                    if step.endswith("steps 1"):
-                                        if "embeddings_files" in step_results:
-                                            decoded_file_folder = step_results["embeddings_files"]
-                                            decoded_file = step_results["output_files"].replace(" ", "")
-                                            outputfile = os.path.join(decoded_file_folder, "eval_lang.csv")
-                                            if not os.path.exists(outputfile):
-                                                processing_filepath_lang(decoded_file, decoded_file_folder)
+                                                set_token_outputfile = os.path.join(decoded_file_folder,
+                                                                                    "set_token_eval.csv")
+                                                if not os.path.exists(set_token_outputfile):
+                                                    print(f"processing set_token_metrics")
 
-                                            set_token_outputfile = os.path.join(decoded_file_folder,
-                                                                                "set_token_eval.csv")
-                                            if not os.path.exists(set_token_outputfile):
-                                                print(f"processing set_token_metrics")
+                                                    eval_for_sequences_token_metrics(decoded_file, decoded_file_folder)
 
-                                                eval_for_sequences_token_metrics(decoded_file, decoded_file_folder)
+                                        if step.endswith("beam width 8"):
+                                            if "embeddings_files" in step_results:
+                                                decoded_file_folder = step_results["embeddings_files"]
+                                                decoded_file = step_results["output_files"].replace(" ", "")
+                                                outputfile = os.path.join(decoded_file_folder, "eval_lang.csv")
+                                                if not os.path.exists(outputfile):
+                                                    processing_filepath_lang(decoded_file, decoded_file_folder)
 
-                                    if step.endswith("beam width 8"):
-                                        if "embeddings_files" in step_results:
-                                            decoded_file_folder = step_results["embeddings_files"]
-                                            decoded_file = step_results["output_files"].replace(" ", "")
-                                            outputfile = os.path.join(decoded_file_folder, "eval_lang.csv")
-                                            if not os.path.exists(outputfile):
-                                                processing_filepath_lang(decoded_file, decoded_file_folder)
-                                            set_token_outputfile = os.path.join(decoded_file_folder,
-                                                                                "set_token_eval.csv")
+                                                set_token_outputfile = os.path.join(decoded_file_folder,
+                                                                                    "set_token_eval.csv")
 
-                                            if not os.path.exists(set_token_outputfile):
-                                                print(f"processing set_token_metrics")
-                                                eval_for_sequences_token_metrics(decoded_file, decoded_file_folder)
+                                                if not os.path.exists(set_token_outputfile):
+                                                    print(f"processing set_token_metrics")
+                                                    eval_for_sequences_token_metrics(decoded_file, decoded_file_folder)
 
-
-                        else:
-                            print(f"{model_outputfolder} does not exist")
+                            else:
+                                print(f"{model_outputfolder} does not exist")
 
 
 if __name__ == '__main__':
