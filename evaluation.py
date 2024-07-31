@@ -1,17 +1,16 @@
 ###########################################################
 ################## EVALUATION SCRIPT ######################
 ###########################################################
-
-
-import functools
 import json
 import os
-import plac
 
 from vec2text import analyze_utils
 
 
 def eval_function(trainer, dataset, filepath):
+    """
+    EVALUATION FUNCTION.
+    """
     if not os.path.exists(filepath):
         try:
             metrics_results = trainer.evaluate(eval_dataset=dataset)
@@ -20,12 +19,12 @@ def eval_function(trainer, dataset, filepath):
                 json.dump(metrics_results, f)
         except Exception as msg:
             print(f"{msg}, eval did not finish")
-
     else:
         print(f"{filepath} already exists")
 
 
 def eval_and_save_results(trainer, dataset, dataset_name, output_dir, corrector=False):
+
     if corrector:
         # for correction_step in [1, 20, 50]:
         for correction_step in [1]:

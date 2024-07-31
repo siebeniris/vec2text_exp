@@ -1,4 +1,3 @@
-
 model_list_inverter = [
     # deu_Latn, hebr_Hebr, cmn_Hani
     'mt5_me5_deu_Latn_32_2layers_inverter', 'mt5_me5_heb_Hebr_32_2layers_inverter',
@@ -29,7 +28,6 @@ model_list_inverter = [
     'mt5_me5_kaz_hin_32_2layers_inverter'
 ]
 
-
 model_list_corrector = [
     # monolingual
     'mt5_me5_deu_Latn_32_2layers_corrector', 'mt5_me5_heb_Hebr_32_2layers_corrector',
@@ -58,3 +56,15 @@ model_list_corrector = [
     'mt5_me5_tur_hin_32_2layers_corrector', 'mt5_me5_kaz_urd_32_2layers_corrector',
     'mt5_me5_kaz_pan_32_2layers_corrector', 'mt5_me5_kaz_guj_32_2layers_corrector',
     'mt5_me5_kaz_hin_32_2layers_corrector']
+
+model_list_inverter_mono = ["gtr_deu_Latn_inverter", "alephbert_heb_Hebr_inverter", "text2vec_cmn_Hani_inverter"]
+
+model_list_corrector_mono = ["gtr_deu_Latn_corrector", "alephbert_heb_Hebr_corrector", "text2vec_cmn_Hani_corrector"]
+
+eval_langs = ['deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
+              'kaz_Cyrl', 'mhr_Cyrl', 'mon_Cyrl',
+              'ydd_Hebr', 'heb_Hebr',
+              'arb_Arab', 'urd_Arab',
+              'hin_Deva', 'guj_Gujr', 'sin_Sinh', 'pan_Guru',
+              'cmn_Hani', 'jpn_Jpan', 'kor_Hang',
+              'amh_Ethi']
