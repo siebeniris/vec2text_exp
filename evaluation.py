@@ -40,7 +40,7 @@ def eval_and_save_results(trainer, dataset, dataset_name, output_dir, corrector=
 
         # for sbeam in [4, 8]:
         for sbeam in [8]:
-            trainer.args.per_device_eval_batch_size = 2
+            trainer.args.per_device_eval_batch_size = 1
             trainer.num_gen_recursive_steps = 50
             trainer.sequence_beam_width = sbeam
             # beam_width with only 50 steps.
