@@ -22,67 +22,68 @@ def collect_through_eval_logs(lingual="multilingual", metric="token_set_f1"):
         if file.endswith(".json"):
 
             eval_log_model = load_json_file(filepath)
-            model_output = eval_log_model["model"].replace("yiyic/", "yiyic__")
-            model_name = model_output.replace("yiyic__", "")
-            # model_name = model_output.replace("yiyic__mt5_", "").replace("_32_2layers", "").replace("_32","")
+            if eval_log_model["model"] is not None:
+                model_output = eval_log_model["model"].replace("yiyic/", "yiyic__")
+                model_name = model_output.replace("yiyic__", "")
+                # model_name = model_output.replace("yiyic__mt5_", "").replace("_32_2layers", "").replace("_32","")
 
-            if model_name not in set_tokens_f1_dict:
-                set_tokens_f1_dict[model_name] = dict()
+                if model_name not in set_tokens_f1_dict:
+                    set_tokens_f1_dict[model_name] = dict()
 
-            if os.path.exists(os.path.join("saves", model_output)):
-                if "inverter" in model_output:
-                    for eval in eval_log_model["evaluations"]:
-                        dataset = eval["dataset"]
-                        if dataset not in set_tokens_f1_dict[model_name]:
-                            set_tokens_f1_dict[model_name][dataset] = dict()
+                if os.path.exists(os.path.join("saves", model_output)):
+                    if "inverter" in model_output:
+                        for eval in eval_log_model["evaluations"]:
+                            dataset = eval["dataset"]
+                            if dataset not in set_tokens_f1_dict[model_name]:
+                                set_tokens_f1_dict[model_name][dataset] = dict()
 
-                        decoded_folder = eval["embeddings_file"]
-                        set_eval_file = os.path.join(decoded_folder, "set_token_eval.json")
-                        if "Base" not in set_tokens_f1_dict[model_name][dataset]:
-                            if os.path.exists(set_eval_file):
-                                eval_result = load_json_file(set_eval_file)[metric]
-                                if metric in ["token_set_f1"]:
-                                    set_tokens_f1_dict[model_name][dataset]["Base"] = round(eval_result * 100, 2)
-                                else:
-                                    set_tokens_f1_dict[model_name][dataset]["Base"] = eval_result
-                elif "corrector" in model_output:
-                    print(f"processing {model_name}")
-                    if "semitic-fami_" not in model_name:
-                        for eval, eval_results in eval_log_model["evaluations"].items():
-                            # deu, results
-                            for eval_step, eval_steps_results in eval_results.items():
-                                # step1, files_output
-                                if eval not in set_tokens_f1_dict[model_name]:
-                                    set_tokens_f1_dict[model_name][eval] = dict()
+                            decoded_folder = eval["embeddings_file"]
+                            set_eval_file = os.path.join(decoded_folder, "set_token_eval.json")
+                            if "Base" not in set_tokens_f1_dict[model_name][dataset]:
+                                if os.path.exists(set_eval_file):
+                                    eval_result = load_json_file(set_eval_file)[metric]
+                                    if metric in ["token_set_f1"]:
+                                        set_tokens_f1_dict[model_name][dataset]["Base"] = round(eval_result * 100, 2)
+                                    else:
+                                        set_tokens_f1_dict[model_name][dataset]["Base"] = eval_result
+                    elif "corrector" in model_output:
+                        print(f"processing {model_name}")
+                        if "semitic-fami_" not in model_name:
+                            for eval, eval_results in eval_log_model["evaluations"].items():
+                                # deu, results
+                                for eval_step, eval_steps_results in eval_results.items():
+                                    # step1, files_output
+                                    if eval not in set_tokens_f1_dict[model_name]:
+                                        set_tokens_f1_dict[model_name][eval] = dict()
 
-                                if eval_step == "steps 1":
-                                    if "Step1" not in set_tokens_f1_dict[model_name][eval]:
-                                        if "embeddings_files" in eval_steps_results:
-                                            decoded_folder_step1 = eval_steps_results["embeddings_files"]
-                                            set_eval_file_step1 = os.path.join(decoded_folder_step1,
-                                                                               "set_token_eval.json")
-                                            if os.path.exists(set_eval_file_step1):
-                                                eval_result_step1 = load_json_file(set_eval_file_step1)[metric]
-                                                if metric in ["token_set_f1"]:
-                                                    set_tokens_f1_dict[model_name][eval]["Step1"] = round(
-                                                        eval_result_step1 * 100, 2)
-                                                else:
-                                                    set_tokens_f1_dict[model_name][eval]["Step1"] = eval_result_step1
+                                    if eval_step == "steps 1":
+                                        if "Step1" not in set_tokens_f1_dict[model_name][eval]:
+                                            if "embeddings_files" in eval_steps_results:
+                                                decoded_folder_step1 = eval_steps_results["embeddings_files"]
+                                                set_eval_file_step1 = os.path.join(decoded_folder_step1,
+                                                                                   "set_token_eval.json")
+                                                if os.path.exists(set_eval_file_step1):
+                                                    eval_result_step1 = load_json_file(set_eval_file_step1)[metric]
+                                                    if metric in ["token_set_f1"]:
+                                                        set_tokens_f1_dict[model_name][eval]["Step1"] = round(
+                                                            eval_result_step1 * 100, 2)
+                                                    else:
+                                                        set_tokens_f1_dict[model_name][eval]["Step1"] = eval_result_step1
 
-                                if eval_step.endswith("beam width 8"):
-                                    if "Step50_sbeam8" not in set_tokens_f1_dict[model_name][eval]:
-                                        if "embeddings_files" in eval_steps_results:
-                                            decoded_folder_b8 = eval_steps_results["embeddings_files"]
-                                            set_eval_file_b8 = os.path.join(decoded_folder_b8, "set_token_eval.json")
+                                    if eval_step.endswith("beam width 8"):
+                                        if "Step50_sbeam8" not in set_tokens_f1_dict[model_name][eval]:
+                                            if "embeddings_files" in eval_steps_results:
+                                                decoded_folder_b8 = eval_steps_results["embeddings_files"]
+                                                set_eval_file_b8 = os.path.join(decoded_folder_b8, "set_token_eval.json")
 
-                                            if os.path.exists(set_eval_file_b8):
-                                                set_eval_b8_result = load_json_file(set_eval_file_b8)[metric]
-                                                if metric in ["token_set_f1"]:
-                                                    set_tokens_f1_dict[model_name][eval]["Step50_sbeam8"] = round(
-                                                        set_eval_b8_result * 100, 2)
-                                                else:
-                                                    set_tokens_f1_dict[model_name][eval][
-                                                        "Step50_sbeam8"] = set_eval_b8_result
+                                                if os.path.exists(set_eval_file_b8):
+                                                    set_eval_b8_result = load_json_file(set_eval_file_b8)[metric]
+                                                    if metric in ["token_set_f1"]:
+                                                        set_tokens_f1_dict[model_name][eval]["Step50_sbeam8"] = round(
+                                                            set_eval_b8_result * 100, 2)
+                                                    else:
+                                                        set_tokens_f1_dict[model_name][eval][
+                                                            "Step50_sbeam8"] = set_eval_b8_result
 
     # with open(os.path.join(outputfolder, f'{lingual}_eval_{metric}.json'), "w") as f:
     #     json.dump(set_tokens_f1_dict, f)
