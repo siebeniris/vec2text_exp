@@ -51,7 +51,7 @@ tur_urd,mt5_me5_tur_urd_32_2layers_inverter,309953
 tur_pan,mt5_me5_tur_pan_32_2layers_inverter,309952
 tur_guj,mt5_me5_tur_guj_32_2layers_inverter,309951
 tur_hin,mt5_me5_tur_hin_32_2layers_inverter,309859
-kaz_urd,mt5_me5_kaz_urd_32_2layers_inverter,"309860, 310209"
+kaz_urd,mt5_me5_kaz_urd_32_2layers_inverter,309860
 kaz_pan,mt5_me5_kaz_pan_32_2layers_inverter,309954
 kaz_guj,mt5_me5_kaz_guj_32_2layers_inverter,309955
 kaz_hin,mt5_me5_kaz_hin_32_2layers_inverter,309956
@@ -59,7 +59,7 @@ tur_urd,mt5_me5_tur_urd_32_2layers_corrector,310019
 tur_pan,mt5_me5_tur_pan_32_2layers_corrector,310020
 tur_guj,mt5_me5_tur_guj_32_2layers_corrector,310021
 tur_hin,mt5_me5_tur_hin_32_2layers_corrector,310083
-kaz_urd,mt5_me5_kaz_urd_32_2layers_corrector,310181
+kaz_urd,mt5_me5_kaz_urd_32_2layers_corrector,"310181, 310209"
 kaz_pan,mt5_me5_kaz_pan_32_2layers_corrector,310023
 kaz_guj,mt5_me5_kaz_guj_32_2layers_corrector,310754
 kaz_hin,mt5_me5_kaz_hin_32_2layers_corrector,310024
