@@ -4,6 +4,8 @@ import os
 import numpy as np
 import pandas as pd
 from collections import defaultdict
+from evaluations.model_lists import model_list_corrector, model_list_inverter, eval_langs, model_list_inverter_mono, \
+    model_list_corrector_mono
 
 
 def load_json_file(filepath):
@@ -15,14 +17,17 @@ def collect_through_eval_logs(lingual="multilingual", metric="token_set_f1"):
     folder = f"eval_logs/{lingual}"
     set_tokens_f1_dict = defaultdict(dict)
     for file in os.listdir(folder):
+        # go through json files "eval_logs/multilingual/eval_mt5_me5_ara-script_32_2layers_corrector.json"
         filepath = os.path.join(folder, file)
         if file.endswith(".json"):
             eval_log_model = load_json_file(filepath)
             model_output = eval_log_model["model"].replace("yiyic/", "yiyic__")
-            model_name = model_output.replace("yiyic__mt5_", "").replace("_32_2layers", "").replace("_32","")
+            model_name = model_output.replace("yiyic__", "")
+            # model_name = model_output.replace("yiyic__mt5_", "").replace("_32_2layers", "").replace("_32","")
 
             if model_name not in set_tokens_f1_dict:
                 set_tokens_f1_dict[model_name] = dict()
+
             if os.path.exists(os.path.join("saves", model_output)):
                 if "inverter" in model_output:
                     for eval in eval_log_model["evaluations"]:
@@ -36,7 +41,7 @@ def collect_through_eval_logs(lingual="multilingual", metric="token_set_f1"):
                             if os.path.exists(set_eval_file):
                                 eval_result = load_json_file(set_eval_file)[metric]
                                 if metric in ["token_set_f1"]:
-                                    set_tokens_f1_dict[model_name][dataset]["Base"] = round(eval_result*100, 2)
+                                    set_tokens_f1_dict[model_name][dataset]["Base"] = round(eval_result * 100, 2)
                                 else:
                                     set_tokens_f1_dict[model_name][dataset]["Base"] = eval_result
                 elif "corrector" in model_output:
@@ -57,10 +62,10 @@ def collect_through_eval_logs(lingual="multilingual", metric="token_set_f1"):
                                                                                "set_token_eval.json")
                                             eval_result_step1 = load_json_file(set_eval_file_step1)[metric]
                                             if metric in ["token_set_f1"]:
-                                                set_tokens_f1_dict[model_name][eval]["Step1"] = round(eval_result_step1*100,2)
+                                                set_tokens_f1_dict[model_name][eval]["Step1"] = round(
+                                                    eval_result_step1 * 100, 2)
                                             else:
                                                 set_tokens_f1_dict[model_name][eval]["Step1"] = eval_result_step1
-
 
                                 if eval_step.endswith("beam width 8"):
                                     if "Step50_sbeam8" not in set_tokens_f1_dict[model_name][eval]:
@@ -69,10 +74,11 @@ def collect_through_eval_logs(lingual="multilingual", metric="token_set_f1"):
                                             set_eval_file_b8 = os.path.join(decoded_folder_b8, "set_token_eval.json")
                                             set_eval_b8_result = load_json_file(set_eval_file_b8)[metric]
                                             if metric in ["token_set_f1"]:
-                                                set_tokens_f1_dict[model_name][eval]["Step50_sbeam8"] = round(set_eval_b8_result*100, 2)
+                                                set_tokens_f1_dict[model_name][eval]["Step50_sbeam8"] = round(
+                                                    set_eval_b8_result * 100, 2)
                                             else:
-                                                set_tokens_f1_dict[model_name][eval]["Step50_sbeam8"] = set_eval_b8_result
-
+                                                set_tokens_f1_dict[model_name][eval][
+                                                    "Step50_sbeam8"] = set_eval_b8_result
 
     # with open(os.path.join(outputfolder, f'{lingual}_eval_{metric}.json'), "w") as f:
     #     json.dump(set_tokens_f1_dict, f)
@@ -80,61 +86,12 @@ def collect_through_eval_logs(lingual="multilingual", metric="token_set_f1"):
 
 
 def dict2df(lingual="multilingual", metric="token_set_f1", outputfolder="results/mt5_me5"):
-    if lingual=="multilingual":
+    if lingual == "multilingual":
 
         set_tokens_f1_dict = collect_through_eval_logs(lingual, metric)
-        # model_list_inverter = ["me5_deu_Latn_inverter", "me5_heb_Hebr_inverter", "me5_cmn_Hani_inverter",
-        #                        "me5_indo-aryan-fami_inverter", "me5_semitic-fami_inverter", "me5_turkic-fami_inverter",
-        #                        "me5_atlatic_fami_inverter",
-        #                        "me5_arab-script_inverter", "me5_cyrl-script_inverter", "me5_latn-script_inverter"]
-        #
-        # model_list_corrector = ['me5_deu_Latn_corrector', 'me5_heb_Hebr_corrector', 'me5_cmn_Hani_corrector',
-        #                         'me5_indo-aryan-fami_corrector', 'me5_semitic-fami_corrector', 'me5_turkic-fami_corrector',
-        #                         'me5_atlatic_fami_corrector',
-        #                         'me5_latn-script_corrector', 'me5_ara-script_corrector', 'me5_cyrl-script_corrector']
-        model_list_inverter = ['mt5_me5_arb_Arab_32_2layers_inverter', 'mt5_me5_jpn_Jpan_32_2layers_inverter',
-                               'mt5_me5_tur_Latn_32_2layers_inverter', 'mt5_me5_kaz_Cyrl_32_2layers_inverter',
-                               'mt5_me5_mon_Cyrl_32_2layers_inverter', 'mt5_me5_urd_Arab_32_2layers_inverter',
-                               'mt5_me5_pan_Guru_32_2layers_inverter', 'mt5_me5_guj_Gujr_32_2layers_inverter',
-                               'mt5_me5_hin_Deva_32_2layers_inverter',
-                               # script
-                               'mt5_me5_cmn_jpn_32_2layers_inverter',
-                               # family
-                               'mt5_me5_heb_arb_32_2layers_inverter', 'mt5_me5_urd_pan_32_2layers_inverter',
-                               'mt5_me5_urd_guj_32_2layers_inverter', 'mt5_me5_urd_hin_32_2layers_inverter',
-                               'mt5_me5_hin_pan_32_2layers_inverter', 'mt5_me5_hin_guj_32_2layers_inverter',
-                               'mt5_me5_pan_guj_32_2layers_inverter',
-                               # random.
-                               'mt5_me5_tur_urd_32_2layers_inverter',
-                               'mt5_me5_tur_pan_32_2layers_inverter', 'mt5_me5_tur_guj_32_2layers_inverter',
-                               'mt5_me5_tur_hin_32_2layers_inverter', 'mt5_me5_kaz_urd_32_2layers_inverter',
-                               'mt5_me5_kaz_pan_32_2layers_inverter', 'mt5_me5_kaz_guj_32_2layers_inverter',
-                               'mt5_me5_kaz_hin_32_2layers_inverter']
 
-        model_list_corrector = ['mt5_me5_arb_Arab_32_2layers_corrector', 'mt5_me5_jpn_Jpan_32_2layers_corrector',
-                                'mt5_me5_tur_Latn_32_2layers_corrector', 'mt5_me5_kaz_Cyrl_32_2layers_corrector',
-                                'mt5_me5_mon_Cyrl_32_2layers_corrector', 'mt5_me5_urd_Arab_32_2layers_corrector',
-                                'mt5_me5_pan_Guru_32_2layers_corrector', 'mt5_me5_guj_Gujr_32_2layers_corrector',
-                                'mt5_me5_hin_Deva_32_2layers_corrector', 'mt5_me5_cmn_jpn_32_2layers_corrector',
-                                'mt5_me5_heb_arb_32_2layers_corrector', 'mt5_me5_urd_pan_32_2layers_corrector',
-                                'mt5_me5_urd_guj_32_2layers_corrector', 'mt5_me5_urd_hin_32_2layers_corrector',
-                                'mt5_me5_hin_pan_32_2layers_corrector', 'mt5_me5_hin_guj_32_2layers_corrector',
-                                'mt5_me5_pan_guj_32_2layers_corrector', 'mt5_me5_tur_urd_32_2layers_corrector',
-                                'mt5_me5_tur_pan_32_2layers_corrector', 'mt5_me5_tur_guj_32_2layers_corrector',
-                                'mt5_me5_tur_hin_32_2layers_corrector', 'mt5_me5_kaz_urd_32_2layers_corrector',
-                                'mt5_me5_kaz_pan_32_2layers_corrector', 'mt5_me5_kaz_guj_32_2layers_corrector',
-                                'mt5_me5_kaz_hin_32_2layers_corrector']
-
-        evals = ['deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
-            'kaz_Cyrl', 'mhr_Cyrl', 'mon_Cyrl',
-            'ydd_Hebr', 'heb_Hebr',
-            'arb_Arab', 'urd_Arab',
-            'hin_Deva', 'guj_Gujr', 'sin_Sinh', 'pan_Guru',
-            'cmn_Hani', 'jpn_Jpan', 'kor_Hang',
-            'amh_Ethi']
-
-        base_dict=defaultdict(dict)
-        step1_dict=defaultdict(dict)
+        base_dict = defaultdict(dict)
+        step1_dict = defaultdict(dict)
         step50_b8_dict = defaultdict(dict)
 
         for model, eval_results in set_tokens_f1_dict.items():
@@ -143,21 +100,21 @@ def dict2df(lingual="multilingual", metric="token_set_f1", outputfolder="results
                     base_dict[model][eval_dataset] = result.get("Base", np.nan)
             if "corrector" in model:
                 for eval_dataset, result in eval_results.items():
-
                     step1_dict[model][eval_dataset] = result.get("Step1", np.nan)
                     step50_b8_dict[model][eval_dataset] = result.get("Step50_sbeam8", np.nan)
+
         base_df = pd.DataFrame.from_records(base_dict).T
-        base_df = base_df.reindex(columns=evals)
+        base_df = base_df.reindex(columns=eval_langs)
         base_df = base_df.reindex(index=model_list_inverter)
         base_df.to_csv(os.path.join(outputfolder, f"{lingual}_eval_{metric}_base_inverter.csv"))
 
         step1_df = pd.DataFrame.from_records(step1_dict).T
-        step1_df = step1_df.reindex(columns=evals)
+        step1_df = step1_df.reindex(columns=eval_langs)
         step1_df = step1_df.reindex(index=model_list_corrector)
         step1_df.to_csv(os.path.join(outputfolder, f"{lingual}_eval_{metric}_step1_corrector.csv"))
 
         step50_df = pd.DataFrame.from_dict(step50_b8_dict).T
-        step50_df = step50_df.reindex(columns=evals)
+        step50_df = step50_df.reindex(columns=eval_langs)
         step50_df = step50_df.reindex(index=model_list_corrector)
         step50_df.to_csv(os.path.join(outputfolder, f"{lingual}_eval_{metric}_step50_sbeam8_corrector.csv"))
     else:
@@ -169,9 +126,6 @@ def dict2df(lingual="multilingual", metric="token_set_f1", outputfolder="results
                  'hin_Deva', 'guj_Gujr', 'sin_Sinh', 'pan_Guru',
                  'cmn_Hani', 'jpn_Jpan', 'kor_Hang',
                  'amh_Ethi']
-
-        model_list_inverter= ["gtr_deu_Latn_inverter","alephbert_heb_Hebr_inverter",  "text2vec_cmn_Hani_inverter"]
-        model_list_corrector = [ "gtr_deu_Latn_corrector","alephbert_heb_Hebr_corrector", "text2vec_cmn_Hani_corrector"]
 
         base_dict = defaultdict(dict)
         step1_dict = defaultdict(dict)
@@ -188,19 +142,18 @@ def dict2df(lingual="multilingual", metric="token_set_f1", outputfolder="results
         base_df = pd.DataFrame.from_records(base_dict).T
         print(base_df)
         base_df = base_df.reindex(columns=evals)
-        base_df = base_df.reindex(index=model_list_inverter)
+        base_df = base_df.reindex(index=model_list_inverter_mono)
         base_df.to_csv(os.path.join(outputfolder, f"{lingual}_eval_{metric}_base_inverter.csv"))
 
         step1_df = pd.DataFrame.from_records(step1_dict).T
         step1_df = step1_df.reindex(columns=evals)
-        step1_df = step1_df.reindex(index=model_list_corrector)
+        step1_df = step1_df.reindex(index=model_list_corrector_mono)
         step1_df.to_csv(os.path.join(outputfolder, f"{lingual}_eval_{metric}_step1_corrector.csv"))
 
         step50_df = pd.DataFrame.from_dict(step50_b8_dict).T
         step50_df = step50_df.reindex(columns=evals)
-        step50_df = step50_df.reindex(index=model_list_corrector)
+        step50_df = step50_df.reindex(index=model_list_corrector_mono)
         step50_df.to_csv(os.path.join(outputfolder, f"{lingual}_eval_{metric}_step50_sbeam8_corrector.csv"))
-
 
 
 if __name__ == '__main__':

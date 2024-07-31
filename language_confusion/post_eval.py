@@ -45,6 +45,7 @@ languages = [Language.ENGLISH, Language.GERMAN, Language.HEBREW, Language.ARABIC
              Language.TURKISH, Language.KAZAKH,
              Language.CHINESE, Language.MONGOLIAN, Language.KOREAN, Language.JAPANESE,
              Language.HUNGARIAN, Language.FINNISH]
+
 lang2idx = {Language.ENGLISH: "eng_Latn", Language.GERMAN: "deu_Latn", Language.HEBREW: "heb_Hebr",
             Language.ARABIC: "arb_Arab",
             Language.HINDI: "hin_Deva", Language.GUJARATI: "guj_Gujr",
@@ -315,17 +316,19 @@ def language_detector_eval_datasets_batch(lingual="multilingual", inversion="inv
     folderpath = f"eval_logs/{lingual}"
     for file in os.listdir(folderpath):
         filepath = os.path.join(folderpath, file)
-
+        # eval_logs/multilingual/eval_mt5_me5_arb_Arab_32_2layers_inverter.json
         if file.endswith(".json"):
             if inversion == "inverter" and inversion in file:
                 print(f"processing and detect languages {filepath}")
                 with open(filepath, "r") as f:
                     eval_logs = json.load(f)
+                # "model": "yiyic/mt5_me5_arb_Arab_32_2layers_inverter",
                 model_outputfolder = os.path.join("saves", eval_logs["model"].replace("/", "__"))
                 if os.path.exists(model_outputfolder):
                     print(f"{model_outputfolder} exists...")
                     for eval in eval_logs["evaluations"]:
                         print(f"processing eval dataset {eval['dataset']}")
+                        # saves/yiyic__mt5_me5_arb_Arab_32_2layers_inverter/decoded_eval_1721930770
                         decoded_file_folder = eval["embeddings_file"]
                         decoded_file = eval["output_file"].replace(" ", "")
                         outputfile = os.path.join(decoded_file_folder, "eval_lang.csv")
@@ -360,7 +363,8 @@ def language_detector_eval_datasets_batch(lingual="multilingual", inversion="inv
                                             if not os.path.exists(outputfile):
                                                 processing_filepath_lang(decoded_file, decoded_file_folder)
 
-                                            set_token_outputfile = os.path.join(decoded_file_folder, "set_token_eval.csv")
+                                            set_token_outputfile = os.path.join(decoded_file_folder,
+                                                                                "set_token_eval.csv")
                                             if not os.path.exists(set_token_outputfile):
                                                 print(f"processing set_token_metrics")
 
@@ -373,7 +377,8 @@ def language_detector_eval_datasets_batch(lingual="multilingual", inversion="inv
                                             outputfile = os.path.join(decoded_file_folder, "eval_lang.csv")
                                             if not os.path.exists(outputfile):
                                                 processing_filepath_lang(decoded_file, decoded_file_folder)
-                                            set_token_outputfile = os.path.join(decoded_file_folder, "set_token_eval.csv")
+                                            set_token_outputfile = os.path.join(decoded_file_folder,
+                                                                                "set_token_eval.csv")
 
                                             if not os.path.exists(set_token_outputfile):
                                                 print(f"processing set_token_metrics")
