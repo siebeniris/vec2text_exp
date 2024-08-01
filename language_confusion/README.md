@@ -14,7 +14,7 @@ python language_confusion/post_eval.py multilingual corrector
 ## Collect token set evaluations
 
 ```
-python language_confusion/collect_token_set_eval.py multilingual inverter
+python -m language_confusion.collect_token_set_eval multilingual inverter
 
 python language_confusion/collect_token_set_eval.py multilingual corrector
 ```

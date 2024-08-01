@@ -32,6 +32,7 @@ def collect_through_eval_logs(lingual="multilingual", metric="token_set_f1"):
 
                 if os.path.exists(os.path.join("saves", model_output)):
                     if "inverter" in model_output:
+                        print(f"processing {model_name}")
                         for eval in eval_log_model["evaluations"]:
                             dataset = eval["dataset"]
                             if dataset not in set_tokens_f1_dict[model_name]:

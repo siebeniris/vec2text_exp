@@ -339,7 +339,6 @@ def language_detector_eval_datasets_batch(lingual="multilingual", inversion="inv
                             set_token_outputfile = os.path.join(decoded_file_folder, "set_token_eval.csv")
                             if not os.path.exists(set_token_outputfile):
                                 print(f"processing set_token_metrics")
-
                                 eval_for_sequences_token_metrics(decoded_file, decoded_file_folder)
 
 
