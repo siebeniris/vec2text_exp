@@ -20,7 +20,7 @@ tur_Latn,mt5_me5_tur_Latn_32_2layers_corrector,"309957, 310937, 311995"
 kaz_Cyrl,mt5_me5_kaz_Cyrl_32_2layers_corrector,"309867, 310173, 310199"
 mon_Cyrl,mt5_me5_mon_Cyrl_32_2layers_corrector,"309868, 310174, 310200"
 urd_Arab,mt5_me5_urd_Arab_32_2layers_corrector,"309869, 310175, 310201"
-pan_Guru,mt5_me5_pan_Guru_32_2layers_corrector,"309958, 310012, 311996"
+pan_Guru,mt5_me5_pan_Guru_32_2layers_corrector,"309958, 310012"
 guj_Gujr,mt5_me5_guj_Gujr_32_2layers_corrector,"309870, 310176, 310202"
 hin_Deva,mt5_me5_hin_Deva_32_2layers_corrector,"309871, 310177"
 latn-scrp,mt5_me5_latn-script_32_2layers_inverter,305315

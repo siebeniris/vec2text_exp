@@ -1,7 +1,7 @@
 
 1. generate info from log files.
 ```
-python evaluations/01_read_eval_logs.py
+python evaluations/01_read_eval_logs.py evaluations/eval_logs.csv
 ```
 output in `eval_logs/`
 
