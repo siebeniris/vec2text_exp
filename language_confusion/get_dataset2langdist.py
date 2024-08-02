@@ -2,12 +2,10 @@ import os
 import json
 from collections import defaultdict
 
-import pandas as pd
-import numpy as np
 
 
 def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
-    dataset2langdist= defaultdict(dict)
+    # dataset2langdist= defaultdict(dict)
 
     with open(file) as f:
         model_log = json.load(f)
