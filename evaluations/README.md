@@ -1,3 +1,6 @@
+# interactive. claudiaa.
+
+srun --gres=gpu:t4:1 --time=12:00:00 --pty singularity shell --nv ~/pytorch_23.10-py3.sif 
 
 1. generate info from log files.
 ```
