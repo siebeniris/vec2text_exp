@@ -228,15 +228,32 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", c
 
     probs_df.to_csv("language_confusion/data/y_data.csv", index=False)
     df_train.to_csv("language_confusion/data/train_data.csv", index=False)
+    print(df_train)
 
-    X = df_train.drop(columns=['model', 'eval_lang', 'step', 'pred_langs', "training"])
+    if cos_sim:
+        X = df_train.drop(columns=['model', 'eval_lang', 'step', 'pred_langs', "training"])
+    else:
+        X = df_train.drop(
+            columns=['model', 'eval_lang', 'step', 'pred_langs', "training",  "emb_cos_sim"])
+
     y = probs_df
+    languages = list(y.columns)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
-    X_train.to_csv("language_confusion/data/X_train.csv")
-    y_train.to_csv("language_confusion/data/y_train.csv")
-    X_test.to_csv("language_confusion/data/X_test.csv")
-    y_test.to_csv("language_confusion/data/y_test.csv")
+
+    if cos_sim:
+        X_train.to_csv("language_confusion/data/X_cos_train.csv")
+        y_train.to_csv("language_confusion/data/y_cos_train.csv")
+        X_test.to_csv("language_confusion/data/X_cos_test.csv")
+        y_test.to_csv("language_confusion/data/y_cos_test.csv")
+    else:
+        X_train.to_csv("language_confusion/data/X_train.csv")
+        y_train.to_csv("language_confusion/data/y_train.csv")
+        X_test.to_csv("language_confusion/data/X_test.csv")
+        y_test.to_csv("language_confusion/data/y_test.csv")
+
+    with open("language_confusion/data/languages.json", "w") as f:
+        json.dump(languages, f)
 
 
 if __name__ == '__main__':

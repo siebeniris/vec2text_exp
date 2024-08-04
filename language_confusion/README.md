@@ -34,9 +34,16 @@ Get langdist to dataframe.
 python language_confusion/langdist2df.py
 ```
 
+
+## Prepare data for regression training 
+
+```
+python language_confusion/pred_lang_regression.py
+```
+
 ## Predict languages using Random Forest
 
 ```
-pred_lang_regression.py
+ python language_confusion/pred_lang_regression.py
 
 ```

@@ -56,7 +56,7 @@ def get_cos_similarity(filepath="results/mt5_me5/multilingual_eval_emb_cos_sim.j
             "_inverter", "")
         for eval_lang, eval_steps in eval_dict.items():
             for step, value in eval_steps.items():
-                if step=="Step50_sbeam8":
+                if step == "Step50_sbeam8":
                     steps.append("Step50+sbeam8")
                 else:
                     steps.append(step)
@@ -65,7 +65,7 @@ def get_cos_similarity(filepath="results/mt5_me5/multilingual_eval_emb_cos_sim.j
                 eval_langs.append(eval_lang)
     df = pd.DataFrame.from_dict({
         "model": model_names,
-        "eval_lang":eval_langs,
+        "eval_lang": eval_langs,
         "step": steps,
         "emb_cos_sim": values
     })
@@ -128,18 +128,9 @@ def get_model2langs(langdist):
     df_lang = pd.DataFrame({"model": inversion_models, "training": training_data_list,
                             "eval_lang": eval_langs, "step": steps,
                             "pred_langs": pred_langs})
-
-    print(df_lang)
-
     df_cos = get_cos_similarity()
-    # print(df_cos.step_right.value_counts())
-    # print(df_lang.step_left.value_counts())
 
-
-    # df_lang_ = df_lang.join(df_cos, on=["model", "step", "eval_lang"], lsuffix="_left", rsuffix="_right")
-    df_lang_ = pd.merge(df_lang, df_cos, on = ["model", "step", "eval_lang"], how="left")
-
-    print(df_lang_)
+    df_lang_ = pd.merge(df_lang, df_cos, on=["model", "step", "eval_lang"], how="left")
     print(len(df_lang_))
     df_lang_.to_csv("language_confusion/model2langs.csv", index=False)
     return df_lang_

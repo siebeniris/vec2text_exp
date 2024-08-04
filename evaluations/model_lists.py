@@ -63,10 +63,11 @@ model_list_inverter_mono = ["gtr_deu_Latn_inverter", "alephbert_heb_Hebr_inverte
 
 model_list_corrector_mono = ["gtr_deu_Latn_corrector", "alephbert_heb_Hebr_corrector", "text2vec_cmn_Hani_corrector"]
 
-eval_langs = ['deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
-              'kaz_Cyrl', 'mhr_Cyrl', 'mon_Cyrl',
-              'ydd_Hebr', 'heb_Hebr',
-              'arb_Arab', 'urd_Arab',
-              'hin_Deva', 'guj_Gujr', 'sin_Sinh', 'pan_Guru',
-              'cmn_Hani', 'jpn_Jpan', 'kor_Hang',
-              'amh_Ethi']
+eval_langs = [
+    'deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
+    'kaz_Cyrl', 'mhr_Cyrl', 'mon_Cyrl',
+    'ydd_Hebr', 'heb_Hebr',
+    'arb_Arab', 'urd_Arab',
+    'hin_Deva', 'guj_Gujr', 'sin_Sinh', 'pan_Guru',
+    'cmn_Hani', 'jpn_Jpan', 'kor_Hang', 'amh_Ethi'
+]

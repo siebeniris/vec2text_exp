@@ -71,6 +71,7 @@ def processing_one_eval_df(df, filepath, inverter=True):
         else:
             df = df.reindex(index=model_list_corrector)
             return df
+
     elif "monolingual_" in filepath:
         df.index = df.index.str.replace("yiyic/", "")
         # df.index = df.index.str.replace("_32", "")
@@ -93,6 +94,8 @@ def processing_results_one_file(filepath):
     df_step50_beam8 = processing_one_step(filepath, 50, False)
     df_step50_beam8 = processing_one_eval_df(df_step50_beam8, filepath, False)
     df_step50_beam8.to_csv(os.path.join(dirn, f"{basename}_step50_sbeam8_corrector.csv"))
+
+
 
 
 def processing_results_batch(folder="results/mt5_me5/"):

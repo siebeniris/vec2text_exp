@@ -3,7 +3,6 @@ import json
 from collections import defaultdict
 
 
-
 def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
     # dataset2langdist= defaultdict(dict)
 
@@ -31,8 +30,10 @@ def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
                     lang_eval = json.load(f)
                 pred_lang_line = lang_eval["pred_lang_line_level_ratio"]
                 true_lang_line = lang_eval["labels_lang_line_level_ratio"]
-                pred_lang_line_dict = {k: v for k, v in pred_lang_line.items() if k not in ["unknown", "others"] and v > 0.05}
-                true_lang_line_dict = {k: v for k, v in true_lang_line.items() if k not in ["unknown", "others"] and v > 0.05}
+                pred_lang_line_dict = {k: v for k, v in pred_lang_line.items() if
+                                       k not in ["unknown", "others"] and v > 0.05}
+                true_lang_line_dict = {k: v for k, v in true_lang_line.items() if
+                                       k not in ["unknown", "others"] and v > 0.05}
                 print(dataset, "->", pred_lang_line_dict, "true:", true_lang_line_dict)
 
                 if "labels" not in dataset2langdist[dataset]:
@@ -87,7 +88,6 @@ def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
                                 dataset2langdist[model_name][dataset]["Step50+sbeam8"] = pred_lang_line_dict
 
                             break
-
 
 
 def main():
