@@ -1,0 +1,652 @@
+model,training,eval_lang,step,pred_langs,emb_cos_sim
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",deu_Latn,Base,"{'deu_Latn': 0.86, 'jpn_Jpan': 0.09}",0.9107338190078735
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",ydd_Hebr,Base,"{'cmn_Hani': 0.66, 'jpn_Jpan': 0.24, 'eng_Latn': 0.07}",0.8716102838516235
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",heb_Hebr,Base,"{'jpn_Jpan': 0.22, 'cmn_Hani': 0.67, 'eng_Latn': 0.08}",0.887262225151062
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",arb_Arab,Base,"{'jpn_Jpan': 0.28, 'cmn_Hani': 0.56, 'eng_Latn': 0.13}",0.8598607182502747
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",amh_Ethi,Base,"{'cmn_Hani': 0.1, 'jpn_Jpan': 0.64, 'eng_Latn': 0.1}",0.8576359748840332
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",mlt_Latn,Base,"{'jpn_Jpan': 0.11, 'eng_Latn': 0.33, 'cmn_Hani': 0.2}",0.8905705213546753
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",hin_Deva,Base,"{'cmn_Hani': 0.12, 'eng_Latn': 0.24, 'jpn_Jpan': 0.56}",0.8870844841003418
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",urd_Arab,Base,"{'jpn_Jpan': 0.63, 'cmn_Hani': 0.32}",0.875221848487854
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",guj_Gujr,Base,"{'jpn_Jpan': 0.61, 'cmn_Hani': 0.34}",0.8705364465713501
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",sin_Sinh,Base,"{'jpn_Jpan': 0.82, 'cmn_Hani': 0.14}",0.8708637356758118
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",pan_Guru,Base,"{'jpn_Jpan': 0.62, 'cmn_Hani': 0.3}",0.8554432392120361
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",tur_Latn,Base,"{'jpn_Jpan': 0.6, 'eng_Latn': 0.09}",0.8559980392456055
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",kaz_Cyrl,Base,"{'jpn_Jpan': 0.71, 'cmn_Hani': 0.13, 'eng_Latn': 0.06}",0.8426529169082642
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",cmn_Hani,Base,{'cmn_Hani': 1.0},0.9474896788597107
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",jpn_Jpan,Base,{'jpn_Jpan': 0.99},0.9534509181976318
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",kor_Hang,Base,"{'jpn_Jpan': 0.78, 'cmn_Hani': 0.13}",0.912419319152832
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",mon_Cyrl,Base,"{'jpn_Jpan': 0.72, 'cmn_Hani': 0.17}",0.8865650296211243
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",hun_Latn,Base,"{'jpn_Jpan': 0.36, 'deu_Latn': 0.17, 'eng_Latn': 0.08, 'cmn_Hani': 0.06}",0.8797668218612671
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",mhr_Cyrl,Base,"{'jpn_Jpan': 0.7, 'cmn_Hani': 0.12}",0.8598434329032898
+cmn_jpn,"['cmn_Hani', 'jpn_Jpan']",fin_Latn,Base,"{'jpn_Jpan': 0.58, 'deu_Latn': 0.06, 'eng_Latn': 0.09}",0.882253885269165
+tur_urd,"['tur_Latn', 'urd_Arab']",deu_Latn,Step50+sbeam8,{'deu_Latn': 0.93},0.9313411712646484
+tur_urd,"['tur_Latn', 'urd_Arab']",ydd_Hebr,Step50+sbeam8,"{'urd_Arab': 0.82, 'tur_Latn': 0.07}",0.8208776712417603
+tur_urd,"['tur_Latn', 'urd_Arab']",heb_Hebr,Step50+sbeam8,"{'arb_Arab': 0.18, 'urd_Arab': 0.36, 'tur_Latn': 0.28}",0.8530698418617249
+tur_urd,"['tur_Latn', 'urd_Arab']",arb_Arab,Step50+sbeam8,{'arb_Arab': 0.94},0.9533790946006775
+tur_urd,"['tur_Latn', 'urd_Arab']",amh_Ethi,Step50+sbeam8,"{'urd_Arab': 0.63, 'tur_Latn': 0.31}",0.8634952306747437
+tur_urd,"['tur_Latn', 'urd_Arab']",mlt_Latn,Step50+sbeam8,"{'tur_Latn': 0.64, 'eng_Latn': 0.17}",0.8899776339530945
+tur_urd,"['tur_Latn', 'urd_Arab']",hin_Deva,Step50+sbeam8,"{'urd_Arab': 0.74, 'eng_Latn': 0.23}",0.9424554705619812
+tur_urd,"['tur_Latn', 'urd_Arab']",urd_Arab,Step50+sbeam8,{'urd_Arab': 0.98},0.9840680360794067
+tur_urd,"['tur_Latn', 'urd_Arab']",guj_Gujr,Step50+sbeam8,{'urd_Arab': 0.97},0.9254744648933411
+tur_urd,"['tur_Latn', 'urd_Arab']",sin_Sinh,Step50+sbeam8,{'urd_Arab': 0.94},0.9145556688308716
+tur_urd,"['tur_Latn', 'urd_Arab']",pan_Guru,Step50+sbeam8,{'urd_Arab': 0.99},0.8964213728904724
+tur_urd,"['tur_Latn', 'urd_Arab']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.99},0.9083292484283447
+tur_urd,"['tur_Latn', 'urd_Arab']",kaz_Cyrl,Step50+sbeam8,{'tur_Latn': 0.97},0.9151252508163452
+tur_urd,"['tur_Latn', 'urd_Arab']",cmn_Hani,Step50+sbeam8,"{'tur_Latn': 0.73, 'urd_Arab': 0.13, 'eng_Latn': 0.06}",0.8356317281723022
+tur_urd,"['tur_Latn', 'urd_Arab']",jpn_Jpan,Step1,"{'tur_Latn': 0.72, 'urd_Arab': 0.15}",0.8518036603927612
+tur_urd,"['tur_Latn', 'urd_Arab']",kor_Hang,Labels,{'kor_Hang': 0.99},
+tur_urd,"['tur_Latn', 'urd_Arab']",kor_Hang,Base,{'tur_Latn': 0.95},0.8898313045501709
+tur_urd,"['tur_Latn', 'urd_Arab']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
+tur_urd,"['tur_Latn', 'urd_Arab']",mon_Cyrl,Base,"{'urd_Arab': 0.11, 'tur_Latn': 0.81}",0.8809913396835327
+tur_urd,"['tur_Latn', 'urd_Arab']",hun_Latn,Labels,{'hun_Latn': 1.0},
+tur_urd,"['tur_Latn', 'urd_Arab']",hun_Latn,Base,{'tur_Latn': 0.83},0.9126073122024536
+tur_urd,"['tur_Latn', 'urd_Arab']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
+tur_urd,"['tur_Latn', 'urd_Arab']",mhr_Cyrl,Base,{'tur_Latn': 0.95},0.897390604019165
+tur_urd,"['tur_Latn', 'urd_Arab']",fin_Latn,Labels,{'fin_Latn': 0.99},
+tur_urd,"['tur_Latn', 'urd_Arab']",fin_Latn,Base,{'tur_Latn': 0.86},0.9080723524093628
+pan_Guru,['pan_Guru'],deu_Latn,Step50+sbeam8,{},0.7435889840126038
+pan_Guru,['pan_Guru'],ydd_Hebr,Step50+sbeam8,{},0.7842010259628296
+pan_Guru,['pan_Guru'],heb_Hebr,Step50+sbeam8,{},0.7753543257713318
+pan_Guru,['pan_Guru'],arb_Arab,Step50+sbeam8,{},0.7446972131729126
+pan_Guru,['pan_Guru'],amh_Ethi,Step50+sbeam8,{},0.774540901184082
+pan_Guru,['pan_Guru'],mlt_Latn,Step50+sbeam8,{},0.7670196890830994
+pan_Guru,['pan_Guru'],hin_Deva,Step50+sbeam8,{},0.7567253112792969
+pan_Guru,['pan_Guru'],urd_Arab,Step50+sbeam8,{},0.765398383140564
+pan_Guru,['pan_Guru'],guj_Gujr,Step50+sbeam8,{},0.746412456035614
+pan_Guru,['pan_Guru'],sin_Sinh,Step50+sbeam8,{},0.7655393481254578
+pan_Guru,['pan_Guru'],pan_Guru,Step50+sbeam8,{},0.7190443277359009
+pan_Guru,['pan_Guru'],tur_Latn,Step50+sbeam8,{},0.753628671169281
+pan_Guru,['pan_Guru'],kaz_Cyrl,Step50+sbeam8,{},0.75279700756073
+pan_Guru,['pan_Guru'],cmn_Hani,Step50+sbeam8,{},0.8002960681915283
+pan_Guru,['pan_Guru'],jpn_Jpan,Step50+sbeam8,{},0.7578665018081665
+pan_Guru,['pan_Guru'],kor_Hang,Step50+sbeam8,{},0.7887017726898193
+pan_Guru,['pan_Guru'],mon_Cyrl,Step50+sbeam8,{},0.7497720718383789
+pan_Guru,['pan_Guru'],hun_Latn,Step50+sbeam8,{},0.7439156174659729
+pan_Guru,['pan_Guru'],mhr_Cyrl,Step1,{},0.7514923810958862
+pan_Guru,['pan_Guru'],fin_Latn,Step1,{},0.7725412845611572
+urd_guj,"['urd_Arab', 'guj_Gujr']",deu_Latn,Step50+sbeam8,"{'eng_Latn': 0.52, 'deu_Latn': 0.12, 'guj_Gujr': 0.19, 'urd_Arab': 0.06}",0.8859659433364868
+urd_guj,"['urd_Arab', 'guj_Gujr']",ydd_Hebr,Step50+sbeam8,"{'guj_Gujr': 0.87, 'urd_Arab': 0.1}",0.8642258644104004
+urd_guj,"['urd_Arab', 'guj_Gujr']",heb_Hebr,Step50+sbeam8,"{'urd_Arab': 0.61, 'guj_Gujr': 0.26}",0.9022382497787476
+urd_guj,"['urd_Arab', 'guj_Gujr']",arb_Arab,Step50+sbeam8,"{'arb_Arab': 0.79, 'urd_Arab': 0.14}",0.865539014339447
+urd_guj,"['urd_Arab', 'guj_Gujr']",amh_Ethi,Step50+sbeam8,{'guj_Gujr': 0.97},0.8926064372062683
+urd_guj,"['urd_Arab', 'guj_Gujr']",mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.6, 'guj_Gujr': 0.24}",0.8982462882995605
+urd_guj,"['urd_Arab', 'guj_Gujr']",hin_Deva,Step50+sbeam8,"{'guj_Gujr': 0.66, 'eng_Latn': 0.23, 'urd_Arab': 0.08}",0.8907631039619446
+urd_guj,"['urd_Arab', 'guj_Gujr']",urd_Arab,Step50+sbeam8,{'urd_Arab': 0.98},0.9824069738388062
+urd_guj,"['urd_Arab', 'guj_Gujr']",guj_Gujr,Step50+sbeam8,{'guj_Gujr': 1.0},0.9948549270629883
+urd_guj,"['urd_Arab', 'guj_Gujr']",sin_Sinh,Step50+sbeam8,{'guj_Gujr': 0.99},0.921144962310791
+urd_guj,"['urd_Arab', 'guj_Gujr']",pan_Guru,Step50+sbeam8,{'guj_Gujr': 0.96},0.9409844279289246
+urd_guj,"['urd_Arab', 'guj_Gujr']",tur_Latn,Step50+sbeam8,"{'urd_Arab': 0.54, 'eng_Latn': 0.16, 'guj_Gujr': 0.07}",0.8537047505378723
+urd_guj,"['urd_Arab', 'guj_Gujr']",kaz_Cyrl,Step50+sbeam8,"{'guj_Gujr': 0.85, 'urd_Arab': 0.08}",0.8994652032852173
+urd_guj,"['urd_Arab', 'guj_Gujr']",cmn_Hani,Step50+sbeam8,"{'guj_Gujr': 0.54, 'urd_Arab': 0.22, 'eng_Latn': 0.1}",0.7852060198783875
+urd_guj,"['urd_Arab', 'guj_Gujr']",jpn_Jpan,Step50+sbeam8,"{'urd_Arab': 0.5, 'guj_Gujr': 0.29, 'eng_Latn': 0.13}",0.8749163150787354
+urd_guj,"['urd_Arab', 'guj_Gujr']",kor_Hang,Step50+sbeam8,"{'eng_Latn': 0.11, 'urd_Arab': 0.24, 'guj_Gujr': 0.59}",0.880516767501831
+urd_guj,"['urd_Arab', 'guj_Gujr']",mon_Cyrl,Step50+sbeam8,{'guj_Gujr': 0.96},0.9092862010002136
+urd_guj,"['urd_Arab', 'guj_Gujr']",hun_Latn,Step50+sbeam8,"{'eng_Latn': 0.24, 'guj_Gujr': 0.22}",0.8240199685096741
+urd_guj,"['urd_Arab', 'guj_Gujr']",mhr_Cyrl,Step50+sbeam8,"{'urd_Arab': 0.18, 'guj_Gujr': 0.58, 'eng_Latn': 0.11}",0.8428994417190552
+urd_guj,"['urd_Arab', 'guj_Gujr']",fin_Latn,Step50+sbeam8,"{'guj_Gujr': 0.28, 'eng_Latn': 0.49}",0.8276504874229431
+heb_arb,"['heb_Hebr', 'arb_Arab']",deu_Latn,Step50+sbeam8,{'deu_Latn': 0.96},0.949267566204071
+heb_arb,"['heb_Hebr', 'arb_Arab']",ydd_Hebr,Step50+sbeam8,{'heb_Hebr': 0.97},0.8958452939987183
+heb_arb,"['heb_Hebr', 'arb_Arab']",heb_Hebr,Step50+sbeam8,{'heb_Hebr': 1.0},0.973016619682312
+heb_arb,"['heb_Hebr', 'arb_Arab']",arb_Arab,Step50+sbeam8,{'arb_Arab': 1.0},0.9140022993087769
+heb_arb,"['heb_Hebr', 'arb_Arab']",amh_Ethi,Step50+sbeam8,"{'arb_Arab': 0.4, 'heb_Hebr': 0.38, 'eng_Latn': 0.1}",0.851559042930603
+heb_arb,"['heb_Hebr', 'arb_Arab']",mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.51, 'deu_Latn': 0.11}",0.9043518900871277
+heb_arb,"['heb_Hebr', 'arb_Arab']",hin_Deva,Step50+sbeam8,"{'arb_Arab': 0.45, 'eng_Latn': 0.41}",0.8899070024490356
+heb_arb,"['heb_Hebr', 'arb_Arab']",urd_Arab,Step50+sbeam8,{'arb_Arab': 0.93},0.9163345694541931
+heb_arb,"['heb_Hebr', 'arb_Arab']",guj_Gujr,Step50+sbeam8,"{'arb_Arab': 0.57, 'heb_Hebr': 0.18, 'eng_Latn': 0.21}",0.8780272006988525
+heb_arb,"['heb_Hebr', 'arb_Arab']",sin_Sinh,Step1,"{'heb_Hebr': 0.42, 'arb_Arab': 0.4, 'eng_Latn': 0.13}",0.8666810989379883
+heb_arb,"['heb_Hebr', 'arb_Arab']",pan_Guru,Step50+sbeam8,"{'eng_Latn': 0.12, 'arb_Arab': 0.48, 'heb_Hebr': 0.32}",0.8241561651229858
+heb_arb,"['heb_Hebr', 'arb_Arab']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.86},0.8684291243553162
+heb_arb,"['heb_Hebr', 'arb_Arab']",kaz_Cyrl,Step50+sbeam8,"{'tur_Latn': 0.29, 'kaz_Cyrl': 0.13, 'eng_Latn': 0.13, 'arb_Arab': 0.15, 'mon_Cyrl': 0.07, 'heb_Hebr': 0.11}",0.7845054268836975
+heb_arb,"['heb_Hebr', 'arb_Arab']",cmn_Hani,Step50+sbeam8,"{'cmn_Hani': 0.06, 'arb_Arab': 0.18, 'heb_Hebr': 0.23, 'eng_Latn': 0.08}",0.8316807150840759
+heb_arb,"['heb_Hebr', 'arb_Arab']",jpn_Jpan,Step50+sbeam8,"{'arb_Arab': 0.14, 'eng_Latn': 0.29, 'heb_Hebr': 0.08, 'cmn_Hani': 0.09}",0.8500383496284485
+heb_arb,"['heb_Hebr', 'arb_Arab']",kor_Hang,Step1,"{'eng_Latn': 0.18, 'arb_Arab': 0.32, 'heb_Hebr': 0.26}",0.9228998422622681
+heb_arb,"['heb_Hebr', 'arb_Arab']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
+heb_arb,"['heb_Hebr', 'arb_Arab']",mon_Cyrl,Base,"{'deu_Latn': 0.08, 'arb_Arab': 0.1, 'eng_Latn': 0.3, 'mon_Cyrl': 0.07, 'tur_Latn': 0.08, 'kaz_Cyrl': 0.12}",0.8808060884475708
+heb_arb,"['heb_Hebr', 'arb_Arab']",hun_Latn,Labels,{'hun_Latn': 1.0},
+heb_arb,"['heb_Hebr', 'arb_Arab']",hun_Latn,Base,"{'tur_Latn': 0.11, 'eng_Latn': 0.11, 'hun_Latn': 0.09, 'deu_Latn': 0.15, 'fin_Latn': 0.09}",0.8853026628494263
+heb_arb,"['heb_Hebr', 'arb_Arab']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
+heb_arb,"['heb_Hebr', 'arb_Arab']",mhr_Cyrl,Base,"{'mon_Cyrl': 0.33, 'kaz_Cyrl': 0.36, 'arb_Arab': 0.06}",0.9095749855041504
+heb_arb,"['heb_Hebr', 'arb_Arab']",fin_Latn,Labels,{'fin_Latn': 0.99},
+heb_arb,"['heb_Hebr', 'arb_Arab']",fin_Latn,Base,"{'fin_Latn': 0.69, 'deu_Latn': 0.08}",0.8749634027481079
+hin_guj,"['hin_Deva', 'guj_Gujr']",deu_Latn,Base,"{'deu_Latn': 0.64, 'eng_Latn': 0.24}",0.8655688166618347
+hin_guj,"['hin_Deva', 'guj_Gujr']",ydd_Hebr,Base,{'guj_Gujr': 0.92},0.9148331880569458
+hin_guj,"['hin_Deva', 'guj_Gujr']",heb_Hebr,Base,"{'hin_Deva': 0.83, 'eng_Latn': 0.1}",0.8623444437980652
+hin_guj,"['hin_Deva', 'guj_Gujr']",arb_Arab,Base,"{'eng_Latn': 0.68, 'hin_Deva': 0.26}",0.8775222301483154
+hin_guj,"['hin_Deva', 'guj_Gujr']",amh_Ethi,Base,{'guj_Gujr': 0.95},0.8576306104660034
+hin_guj,"['hin_Deva', 'guj_Gujr']",mlt_Latn,Base,"{'eng_Latn': 0.66, 'guj_Gujr': 0.13}",0.8982954621315002
+hin_guj,"['hin_Deva', 'guj_Gujr']",hin_Deva,Base,"{'hin_Deva': 0.73, 'eng_Latn': 0.25}",0.9595600366592407
+hin_guj,"['hin_Deva', 'guj_Gujr']",urd_Arab,Base,"{'hin_Deva': 0.86, 'eng_Latn': 0.09}",0.9102652072906494
+hin_guj,"['hin_Deva', 'guj_Gujr']",guj_Gujr,Base,{'guj_Gujr': 1.0},0.9824129343032837
+hin_guj,"['hin_Deva', 'guj_Gujr']",sin_Sinh,Base,"{'guj_Gujr': 0.79, 'eng_Latn': 0.06, 'hin_Deva': 0.13}",0.9239757061004639
+hin_guj,"['hin_Deva', 'guj_Gujr']",pan_Guru,Base,"{'guj_Gujr': 0.62, 'hin_Deva': 0.34}",0.9324052333831787
+hin_guj,"['hin_Deva', 'guj_Gujr']",tur_Latn,Base,"{'hin_Deva': 0.12, 'eng_Latn': 0.17, 'tur_Latn': 0.15}",0.8553341031074524
+hin_guj,"['hin_Deva', 'guj_Gujr']",kaz_Cyrl,Base,"{'guj_Gujr': 0.81, 'eng_Latn': 0.06}",0.8968825936317444
+hin_guj,"['hin_Deva', 'guj_Gujr']",cmn_Hani,Base,"{'cmn_Hani': 0.67, 'hin_Deva': 0.23}",0.8667217493057251
+hin_guj,"['hin_Deva', 'guj_Gujr']",jpn_Jpan,Base,"{'hin_Deva': 0.74, 'eng_Latn': 0.14}",0.8388362526893616
+hin_guj,"['hin_Deva', 'guj_Gujr']",kor_Hang,Base,"{'eng_Latn': 0.16, 'hin_Deva': 0.77}",0.9009177088737488
+hin_guj,"['hin_Deva', 'guj_Gujr']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
+hin_guj,"['hin_Deva', 'guj_Gujr']",mon_Cyrl,Base,{'guj_Gujr': 0.96},0.910183846950531
+hin_guj,"['hin_Deva', 'guj_Gujr']",hun_Latn,Labels,{'hun_Latn': 1.0},
+hin_guj,"['hin_Deva', 'guj_Gujr']",hun_Latn,Base,"{'guj_Gujr': 0.15, 'eng_Latn': 0.21, 'deu_Latn': 0.11}",0.8790318369865417
+hin_guj,"['hin_Deva', 'guj_Gujr']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
+hin_guj,"['hin_Deva', 'guj_Gujr']",mhr_Cyrl,Base,"{'guj_Gujr': 0.79, 'hin_Deva': 0.07}",0.8636174201965332
+hin_guj,"['hin_Deva', 'guj_Gujr']",fin_Latn,Labels,{'fin_Latn': 0.99},
+hin_guj,"['hin_Deva', 'guj_Gujr']",fin_Latn,Base,"{'eng_Latn': 0.3, 'deu_Latn': 0.07, 'fin_Latn': 0.14, 'hin_Deva': 0.07}",0.8474990129470825
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",deu_Latn,Step50+sbeam8,{'deu_Latn': 0.97},0.929986298084259
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",ydd_Hebr,Step50+sbeam8,"{'kaz_Cyrl': 0.85, 'tur_Latn': 0.08}",0.8469785451889038
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",heb_Hebr,Step50+sbeam8,{'tur_Latn': 0.92},0.8919177055358887
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",arb_Arab,Step50+sbeam8,"{'arb_Arab': 0.27, 'tur_Latn': 0.64, 'eng_Latn': 0.06}",0.8986073136329651
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",amh_Ethi,Step50+sbeam8,"{'kaz_Cyrl': 0.41, 'tur_Latn': 0.52}",0.8645073771476746
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",mlt_Latn,Step50+sbeam8,"{'tur_Latn': 0.72, 'eng_Latn': 0.11}",0.9161439538002014
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",hin_Deva,Step50+sbeam8,"{'eng_Latn': 0.26, 'tur_Latn': 0.55, 'kaz_Cyrl': 0.14}",0.8482033014297485
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",urd_Arab,Step50+sbeam8,"{'tur_Latn': 0.68, 'kaz_Cyrl': 0.21}",0.8498919010162354
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",guj_Gujr,Step1,"{'kaz_Cyrl': 0.86, 'tur_Latn': 0.08}",0.9143432378768921
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",sin_Sinh,Step50+sbeam8,"{'kaz_Cyrl': 0.74, 'tur_Latn': 0.2}",0.9117329120635986
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",pan_Guru,Step50+sbeam8,"{'kaz_Cyrl': 0.68, 'tur_Latn': 0.2}",0.8700138330459595
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.99},0.9683088064193726
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",kaz_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 1.0},0.9815095067024231
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",cmn_Hani,Step50+sbeam8,"{'eng_Latn': 0.12, 'tur_Latn': 0.58, 'kaz_Cyrl': 0.2}",0.804122805595398
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",jpn_Jpan,Step50+sbeam8,{'tur_Latn': 0.79},0.8430196046829224
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",kor_Hang,Step50+sbeam8,"{'eng_Latn': 0.07, 'tur_Latn': 0.87}",0.9313202500343323
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",mon_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.95},0.9553731679916382
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",hun_Latn,Step50+sbeam8,"{'tur_Latn': 0.51, 'kaz_Cyrl': 0.15, 'hun_Latn': 0.18}",0.9227583408355713
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",mhr_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.9},0.8908838629722595
+turkic-fami,"['tur_Latn', 'kaz_Cyrl']",fin_Latn,Step50+sbeam8,"{'tur_Latn': 0.82, 'fin_Latn': 0.11}",0.887298583984375
+tur_guj,"['tur_Latn', 'guj_Gujr']",deu_Latn,Step50+sbeam8,"{'deu_Latn': 0.89, 'tur_Latn': 0.08}",0.9485607147216797
+tur_guj,"['tur_Latn', 'guj_Gujr']",ydd_Hebr,Step50+sbeam8,{'guj_Gujr': 0.92},0.9228360652923584
+tur_guj,"['tur_Latn', 'guj_Gujr']",heb_Hebr,Step50+sbeam8,{'tur_Latn': 0.92},0.8894327878952026
+tur_guj,"['tur_Latn', 'guj_Gujr']",arb_Arab,Step50+sbeam8,"{'tur_Latn': 0.81, 'eng_Latn': 0.07, 'guj_Gujr': 0.09}",0.8777481317520142
+tur_guj,"['tur_Latn', 'guj_Gujr']",amh_Ethi,Step50+sbeam8,"{'guj_Gujr': 0.87, 'tur_Latn': 0.08}",0.8519910573959351
+tur_guj,"['tur_Latn', 'guj_Gujr']",mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.27, 'tur_Latn': 0.5}",0.9020161628723145
+tur_guj,"['tur_Latn', 'guj_Gujr']",hin_Deva,Step50+sbeam8,"{'guj_Gujr': 0.76, 'eng_Latn': 0.22}",0.9341868758201599
+tur_guj,"['tur_Latn', 'guj_Gujr']",urd_Arab,Step50+sbeam8,"{'guj_Gujr': 0.88, 'tur_Latn': 0.07}",0.9162660241127014
+tur_guj,"['tur_Latn', 'guj_Gujr']",guj_Gujr,Step50+sbeam8,{'guj_Gujr': 0.99},0.9892126321792603
+tur_guj,"['tur_Latn', 'guj_Gujr']",sin_Sinh,Step50+sbeam8,{'guj_Gujr': 0.99},0.9366812705993652
+tur_guj,"['tur_Latn', 'guj_Gujr']",pan_Guru,Step50+sbeam8,{'guj_Gujr': 0.99},0.9288897514343262
+tur_guj,"['tur_Latn', 'guj_Gujr']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.99},0.9592701196670532
+tur_guj,"['tur_Latn', 'guj_Gujr']",kaz_Cyrl,Step50+sbeam8,"{'tur_Latn': 0.72, 'guj_Gujr': 0.26}",0.8772497177124023
+tur_guj,"['tur_Latn', 'guj_Gujr']",cmn_Hani,Step50+sbeam8,"{'tur_Latn': 0.32, 'eng_Latn': 0.14, 'guj_Gujr': 0.44}",0.8535017967224121
+tur_guj,"['tur_Latn', 'guj_Gujr']",jpn_Jpan,Step50+sbeam8,"{'tur_Latn': 0.73, 'guj_Gujr': 0.16, 'eng_Latn': 0.06}",0.8789825439453125
+tur_guj,"['tur_Latn', 'guj_Gujr']",kor_Hang,Step1,{'tur_Latn': 0.93},0.8657673001289368
+tur_guj,"['tur_Latn', 'guj_Gujr']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
+tur_guj,"['tur_Latn', 'guj_Gujr']",mon_Cyrl,Base,"{'guj_Gujr': 0.55, 'tur_Latn': 0.39}",0.8966662287712097
+tur_guj,"['tur_Latn', 'guj_Gujr']",hun_Latn,Labels,{'hun_Latn': 1.0},
+tur_guj,"['tur_Latn', 'guj_Gujr']",hun_Latn,Base,{'tur_Latn': 0.83},0.9010167121887207
+tur_guj,"['tur_Latn', 'guj_Gujr']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
+tur_guj,"['tur_Latn', 'guj_Gujr']",mhr_Cyrl,Base,{'tur_Latn': 0.96},0.8901631832122803
+tur_guj,"['tur_Latn', 'guj_Gujr']",fin_Latn,Labels,{'fin_Latn': 0.99},
+tur_guj,"['tur_Latn', 'guj_Gujr']",fin_Latn,Base,{'tur_Latn': 0.91},0.9052780866622925
+heb_Hebr,['heb_Hebr'],deu_Latn,Base,"{'deu_Latn': 0.3, 'heb_Hebr': 0.59, 'eng_Latn': 0.07}",0.8745170831680298
+heb_Hebr,['heb_Hebr'],ydd_Hebr,Base,{'heb_Hebr': 0.97},0.9359233379364014
+heb_Hebr,['heb_Hebr'],heb_Hebr,Base,{'heb_Hebr': 1.0},0.964623212814331
+heb_Hebr,['heb_Hebr'],arb_Arab,Base,"{'heb_Hebr': 0.93, 'eng_Latn': 0.06}",0.8810455799102783
+heb_Hebr,['heb_Hebr'],amh_Ethi,Base,{'heb_Hebr': 0.93},0.8683450818061829
+heb_Hebr,['heb_Hebr'],mlt_Latn,Base,"{'eng_Latn': 0.4, 'heb_Hebr': 0.34}",0.8883535265922546
+heb_Hebr,['heb_Hebr'],hin_Deva,Base,"{'eng_Latn': 0.24, 'heb_Hebr': 0.71}",0.8697034120559692
+heb_Hebr,['heb_Hebr'],urd_Arab,Base,"{'heb_Hebr': 0.92, 'eng_Latn': 0.06}",0.8950209021568298
+heb_Hebr,['heb_Hebr'],guj_Gujr,Base,{'heb_Hebr': 0.95},0.892587423324585
+heb_Hebr,['heb_Hebr'],sin_Sinh,Base,{'heb_Hebr': 0.94},0.8785845637321472
+heb_Hebr,['heb_Hebr'],pan_Guru,Base,{'heb_Hebr': 0.98},0.8744312524795532
+heb_Hebr,['heb_Hebr'],tur_Latn,Base,"{'heb_Hebr': 0.7, 'eng_Latn': 0.15}",0.8703505396842957
+heb_Hebr,['heb_Hebr'],kaz_Cyrl,Base,{'heb_Hebr': 0.9},0.882125735282898
+heb_Hebr,['heb_Hebr'],cmn_Hani,Base,{'heb_Hebr': 0.86},0.8385293483734131
+heb_Hebr,['heb_Hebr'],jpn_Jpan,Base,{'heb_Hebr': 0.86},0.8730247616767883
+heb_Hebr,['heb_Hebr'],kor_Hang,Base,{'heb_Hebr': 0.91},0.918406069278717
+heb_Hebr,['heb_Hebr'],mon_Cyrl,Base,"{'heb_Hebr': 0.85, 'eng_Latn': 0.09}",0.893692135810852
+heb_Hebr,['heb_Hebr'],hun_Latn,Base,{'heb_Hebr': 0.77},0.8897846937179565
+heb_Hebr,['heb_Hebr'],mhr_Cyrl,Base,{'heb_Hebr': 0.82},0.855231523513794
+heb_Hebr,['heb_Hebr'],fin_Latn,Base,"{'heb_Hebr': 0.74, 'eng_Latn': 0.15}",0.8801410794258118
+tur_hin,"['tur_Latn', 'hin_Deva']",deu_Latn,Step50+sbeam8,{'deu_Latn': 0.94},0.9430407285690308
+tur_hin,"['tur_Latn', 'hin_Deva']",ydd_Hebr,Step50+sbeam8,"{'hin_Deva': 0.7, 'eng_Latn': 0.12, 'tur_Latn': 0.07}",0.8534597754478455
+tur_hin,"['tur_Latn', 'hin_Deva']",heb_Hebr,Step50+sbeam8,"{'tur_Latn': 0.37, 'hin_Deva': 0.52, 'eng_Latn': 0.08}",0.9153715372085571
+tur_hin,"['tur_Latn', 'hin_Deva']",arb_Arab,Step50+sbeam8,"{'tur_Latn': 0.22, 'eng_Latn': 0.56, 'hin_Deva': 0.14}",0.8435003757476807
+tur_hin,"['tur_Latn', 'hin_Deva']",amh_Ethi,Step50+sbeam8,"{'hin_Deva': 0.52, 'tur_Latn': 0.25, 'eng_Latn': 0.14}",0.8080177903175354
+tur_hin,"['tur_Latn', 'hin_Deva']",mlt_Latn,Step1,"{'tur_Latn': 0.6, 'eng_Latn': 0.19}",0.9064995646476746
+tur_hin,"['tur_Latn', 'hin_Deva']",hin_Deva,Step1,"{'hin_Deva': 0.74, 'eng_Latn': 0.23}",0.9742687940597534
+tur_hin,"['tur_Latn', 'hin_Deva']",urd_Arab,Step1,"{'hin_Deva': 0.89, 'eng_Latn': 0.06}",0.8954830765724182
+tur_hin,"['tur_Latn', 'hin_Deva']",guj_Gujr,Step1,{'hin_Deva': 0.96},0.9141739010810852
+tur_hin,"['tur_Latn', 'hin_Deva']",sin_Sinh,Step1,"{'hin_Deva': 0.9, 'eng_Latn': 0.06}",0.8966716527938843
+tur_hin,"['tur_Latn', 'hin_Deva']",pan_Guru,Step1,{'hin_Deva': 0.98},0.8770855665206909
+tur_hin,"['tur_Latn', 'hin_Deva']",tur_Latn,Step1,{'tur_Latn': 0.99},0.9737738370895386
+tur_hin,"['tur_Latn', 'hin_Deva']",kaz_Cyrl,Step1,"{'tur_Latn': 0.9, 'hin_Deva': 0.06}",0.8747073411941528
+tur_hin,"['tur_Latn', 'hin_Deva']",cmn_Hani,Step1,"{'hin_Deva': 0.46, 'cmn_Hani': 0.41}",0.8040910959243774
+tur_hin,"['tur_Latn', 'hin_Deva']",jpn_Jpan,Step1,"{'tur_Latn': 0.27, 'hin_Deva': 0.6, 'eng_Latn': 0.08}",0.8650195598602295
+tur_hin,"['tur_Latn', 'hin_Deva']",kor_Hang,Step1,"{'eng_Latn': 0.07, 'tur_Latn': 0.67, 'hin_Deva': 0.21}",0.8972665071487427
+tur_hin,"['tur_Latn', 'hin_Deva']",mon_Cyrl,Step1,"{'tur_Latn': 0.61, 'eng_Latn': 0.06, 'hin_Deva': 0.28}",0.8931095600128174
+tur_hin,"['tur_Latn', 'hin_Deva']",hun_Latn,Step1,"{'tur_Latn': 0.73, 'hun_Latn': 0.16}",0.9062012434005737
+tur_hin,"['tur_Latn', 'hin_Deva']",mhr_Cyrl,Step1,{'tur_Latn': 0.88},0.8659886121749878
+tur_hin,"['tur_Latn', 'hin_Deva']",fin_Latn,Step1,"{'tur_Latn': 0.66, 'fin_Latn': 0.26}",0.8964453935623169
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",deu_Latn,Step50+sbeam8,{},0.7485858201980591
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",ydd_Hebr,Step50+sbeam8,{},0.7504997849464417
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",heb_Hebr,Step50+sbeam8,{},0.7890361547470093
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",arb_Arab,Step50+sbeam8,{},0.7527723908424377
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",amh_Ethi,Step50+sbeam8,{},0.7819881439208984
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mlt_Latn,Step1,{},0.7717430591583252
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",hin_Deva,Step1,{},0.7446993589401245
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",urd_Arab,Step1,{},0.7686768770217896
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",guj_Gujr,Step1,{},0.7480088472366333
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",sin_Sinh,Step1,{},0.7645707130432129
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",pan_Guru,Step1,{},0.7354690432548523
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",tur_Latn,Step1,{},0.7528047561645508
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",kaz_Cyrl,Step1,{},0.7603806257247925
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",cmn_Hani,Step1,{},0.7888696193695068
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",jpn_Jpan,Step1,{},0.7546147108078003
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",kor_Hang,Step1,{},0.7719281315803528
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mon_Cyrl,Step1,{},0.7642687559127808
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",hun_Latn,Step1,{},0.7542813420295715
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mhr_Cyrl,Step1,{},0.7514923810958862
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",fin_Latn,Step1,{},0.7725412845611572
+deu_Latn,['deu_Latn'],deu_Latn,Step50+sbeam8,{'deu_Latn': 0.99},0.9981898069381714
+deu_Latn,['deu_Latn'],ydd_Hebr,Step1,{'deu_Latn': 0.87},0.8688660860061646
+deu_Latn,['deu_Latn'],heb_Hebr,Step50+sbeam8,{'deu_Latn': 0.99},0.9033399820327759
+deu_Latn,['deu_Latn'],arb_Arab,Step50+sbeam8,{'deu_Latn': 0.95},0.8545173406600952
+deu_Latn,['deu_Latn'],amh_Ethi,Step50+sbeam8,{'deu_Latn': 0.89},0.8445027470588684
+deu_Latn,['deu_Latn'],mlt_Latn,Step50+sbeam8,"{'deu_Latn': 0.81, 'eng_Latn': 0.06}",0.9149786233901978
+deu_Latn,['deu_Latn'],hin_Deva,Step1,"{'deu_Latn': 0.51, 'eng_Latn': 0.36}",0.8738921284675598
+deu_Latn,['deu_Latn'],urd_Arab,Step50+sbeam8,"{'deu_Latn': 0.8, 'eng_Latn': 0.08}",0.8409620523452759
+deu_Latn,['deu_Latn'],guj_Gujr,Labels,{'guj_Gujr': 0.99},
+deu_Latn,['deu_Latn'],guj_Gujr,Base,"{'deu_Latn': 0.86, 'eng_Latn': 0.08}",0.8649340271949768
+deu_Latn,['deu_Latn'],sin_Sinh,Step1,"{'deu_Latn': 0.86, 'eng_Latn': 0.06}",0.8705187439918518
+deu_Latn,['deu_Latn'],pan_Guru,Step50+sbeam8,{'deu_Latn': 0.86},0.8195558786392212
+deu_Latn,['deu_Latn'],tur_Latn,Step50+sbeam8,"{'deu_Latn': 0.8, 'tur_Latn': 0.08}",0.8330063223838806
+deu_Latn,['deu_Latn'],kaz_Cyrl,Step50+sbeam8,{'deu_Latn': 0.92},0.8577040433883667
+deu_Latn,['deu_Latn'],cmn_Hani,Step50+sbeam8,{'deu_Latn': 0.89},0.8142430186271667
+deu_Latn,['deu_Latn'],jpn_Jpan,Step50+sbeam8,{'deu_Latn': 0.82},0.8322997093200684
+deu_Latn,['deu_Latn'],kor_Hang,Step50+sbeam8,"{'deu_Latn': 0.81, 'eng_Latn': 0.1}",0.8701683878898621
+deu_Latn,['deu_Latn'],mon_Cyrl,Step50+sbeam8,{'deu_Latn': 0.85},0.9105663299560547
+deu_Latn,['deu_Latn'],hun_Latn,Step50+sbeam8,{'deu_Latn': 0.89},0.8823477625846863
+deu_Latn,['deu_Latn'],mhr_Cyrl,Step50+sbeam8,{'deu_Latn': 0.69},0.8149369359016418
+deu_Latn,['deu_Latn'],fin_Latn,Step50+sbeam8,{'deu_Latn': 0.93},0.8836972713470459
+tur_Latn,['tur_Latn'],deu_Latn,Base,"{'deu_Latn': 0.91, 'tur_Latn': 0.06}",0.9172730445861816
+tur_Latn,['tur_Latn'],ydd_Hebr,Base,{'tur_Latn': 0.9},0.8690192699432373
+tur_Latn,['tur_Latn'],heb_Hebr,Base,{'tur_Latn': 0.96},0.8860068321228027
+tur_Latn,['tur_Latn'],arb_Arab,Base,"{'tur_Latn': 0.79, 'arb_Arab': 0.15}",0.8499484062194824
+tur_Latn,['tur_Latn'],amh_Ethi,Base,{'tur_Latn': 0.8},0.8652869462966919
+tur_Latn,['tur_Latn'],mlt_Latn,Base,"{'eng_Latn': 0.16, 'tur_Latn': 0.66}",0.9199073314666748
+tur_Latn,['tur_Latn'],hin_Deva,Base,"{'eng_Latn': 0.32, 'tur_Latn': 0.63}",0.8600282669067383
+tur_Latn,['tur_Latn'],urd_Arab,Base,{'tur_Latn': 0.9},0.8960999250411987
+tur_Latn,['tur_Latn'],guj_Gujr,Labels,{'guj_Gujr': 0.99},
+tur_Latn,['tur_Latn'],guj_Gujr,Step50+sbeam8,{'tur_Latn': 0.94},0.8721073269844055
+tur_Latn,['tur_Latn'],sin_Sinh,Base,{'tur_Latn': 0.94},0.8664736747741699
+tur_Latn,['tur_Latn'],pan_Guru,Base,{'tur_Latn': 0.9},0.834291398525238
+tur_Latn,['tur_Latn'],tur_Latn,Base,{'tur_Latn': 0.99},0.9498292207717896
+tur_Latn,['tur_Latn'],kaz_Cyrl,Base,{'tur_Latn': 0.98},0.8905292749404907
+tur_Latn,['tur_Latn'],cmn_Hani,Base,"{'cmn_Hani': 0.16, 'tur_Latn': 0.79}",0.8622866272926331
+tur_Latn,['tur_Latn'],jpn_Jpan,Base,{'tur_Latn': 0.92},0.8884449005126953
+tur_Latn,['tur_Latn'],kor_Hang,Base,{'tur_Latn': 0.93},0.9217569828033447
+tur_Latn,['tur_Latn'],mon_Cyrl,Base,{'tur_Latn': 0.96},0.8920397758483887
+tur_Latn,['tur_Latn'],hun_Latn,Base,"{'tur_Latn': 0.45, 'hun_Latn': 0.43}",0.9176788926124573
+tur_Latn,['tur_Latn'],mhr_Cyrl,Base,{'tur_Latn': 0.91},0.9000412225723267
+tur_Latn,['tur_Latn'],fin_Latn,Base,"{'fin_Latn': 0.12, 'tur_Latn': 0.83}",0.8983471393585205
+hin_Deva,['hin_Deva'],deu_Latn,Base,"{'eng_Latn': 0.34, 'deu_Latn': 0.4, 'hin_Deva': 0.11}",0.8781441450119019
+hin_Deva,['hin_Deva'],ydd_Hebr,Base,"{'hin_Deva': 0.84, 'eng_Latn': 0.07}",0.8807754516601562
+hin_Deva,['hin_Deva'],heb_Hebr,Base,"{'hin_Deva': 0.87, 'eng_Latn': 0.08}",0.875946581363678
+hin_Deva,['hin_Deva'],arb_Arab,Base,"{'eng_Latn': 0.76, 'hin_Deva': 0.18}",0.882864236831665
+hin_Deva,['hin_Deva'],amh_Ethi,Base,"{'eng_Latn': 0.33, 'hin_Deva': 0.59}",0.852043867111206
+hin_Deva,['hin_Deva'],mlt_Latn,Base,{'eng_Latn': 0.68},0.8843273520469666
+hin_Deva,['hin_Deva'],hin_Deva,Base,"{'hin_Deva': 0.71, 'eng_Latn': 0.25}",0.9576013088226318
+hin_Deva,['hin_Deva'],urd_Arab,Base,"{'hin_Deva': 0.87, 'eng_Latn': 0.09}",0.9052546620368958
+hin_Deva,['hin_Deva'],guj_Gujr,Base,{'hin_Deva': 0.95},0.9055501222610474
+hin_Deva,['hin_Deva'],sin_Sinh,Base,"{'hin_Deva': 0.91, 'eng_Latn': 0.06}",0.8872762322425842
+hin_Deva,['hin_Deva'],pan_Guru,Base,{'hin_Deva': 0.96},0.8815245032310486
+hin_Deva,['hin_Deva'],tur_Latn,Base,"{'tur_Latn': 0.12, 'eng_Latn': 0.23, 'hin_Deva': 0.14}",0.8595043420791626
+hin_Deva,['hin_Deva'],kaz_Cyrl,Base,"{'eng_Latn': 0.22, 'hin_Deva': 0.62}",0.8701531887054443
+hin_Deva,['hin_Deva'],cmn_Hani,Base,"{'hin_Deva': 0.49, 'cmn_Hani': 0.28, 'eng_Latn': 0.12}",0.8534828424453735
+hin_Deva,['hin_Deva'],jpn_Jpan,Base,"{'hin_Deva': 0.72, 'eng_Latn': 0.19}",0.8586268424987793
+hin_Deva,['hin_Deva'],kor_Hang,Base,"{'eng_Latn': 0.25, 'hin_Deva': 0.6}",0.9151469469070435
+hin_Deva,['hin_Deva'],mon_Cyrl,Base,"{'hin_Deva': 0.74, 'eng_Latn': 0.17}",0.9015427827835083
+hin_Deva,['hin_Deva'],hun_Latn,Base,"{'eng_Latn': 0.33, 'hin_Deva': 0.08}",0.8845394849777222
+hin_Deva,['hin_Deva'],mhr_Cyrl,Base,"{'hin_Deva': 0.19, 'eng_Latn': 0.29}",0.8513396382331848
+hin_Deva,['hin_Deva'],fin_Latn,Base,"{'eng_Latn': 0.42, 'hin_Deva': 0.17, 'fin_Latn': 0.08}",0.8455091118812561
+mon_Cyrl,['mon_Cyrl'],deu_Latn,Step50+sbeam8,{'deu_Latn': 0.96},0.9372549653053284
+mon_Cyrl,['mon_Cyrl'],ydd_Hebr,Step50+sbeam8,{'mon_Cyrl': 0.91},0.8395929336547852
+mon_Cyrl,['mon_Cyrl'],heb_Hebr,Step50+sbeam8,"{'eng_Latn': 0.17, 'mon_Cyrl': 0.49}",0.8367737531661987
+mon_Cyrl,['mon_Cyrl'],arb_Arab,Step50+sbeam8,"{'eng_Latn': 0.2, 'arb_Arab': 0.4, 'mon_Cyrl': 0.28}",0.8879982829093933
+mon_Cyrl,['mon_Cyrl'],amh_Ethi,Step50+sbeam8,"{'mon_Cyrl': 0.88, 'eng_Latn': 0.07}",0.8646649122238159
+mon_Cyrl,['mon_Cyrl'],mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.27, 'mon_Cyrl': 0.43}",0.8817697167396545
+mon_Cyrl,['mon_Cyrl'],hin_Deva,Step50+sbeam8,"{'eng_Latn': 0.25, 'mon_Cyrl': 0.64}",0.9189071655273438
+mon_Cyrl,['mon_Cyrl'],urd_Arab,Step50+sbeam8,{'mon_Cyrl': 0.86},0.8967947959899902
+mon_Cyrl,['mon_Cyrl'],guj_Gujr,Step50+sbeam8,{'mon_Cyrl': 0.96},0.9274631142616272
+mon_Cyrl,['mon_Cyrl'],sin_Sinh,Step50+sbeam8,{'mon_Cyrl': 0.93},0.8919687271118164
+mon_Cyrl,['mon_Cyrl'],pan_Guru,Step50+sbeam8,{'mon_Cyrl': 0.97},0.8841162919998169
+mon_Cyrl,['mon_Cyrl'],tur_Latn,Step50+sbeam8,"{'tur_Latn': 0.82, 'mon_Cyrl': 0.1}",0.8877171277999878
+mon_Cyrl,['mon_Cyrl'],kaz_Cyrl,Step50+sbeam8,{'mon_Cyrl': 0.97},0.9516769051551819
+mon_Cyrl,['mon_Cyrl'],cmn_Hani,Step50+sbeam8,"{'cmn_Hani': 0.7, 'mon_Cyrl': 0.19}",0.878667950630188
+mon_Cyrl,['mon_Cyrl'],jpn_Jpan,Step50+sbeam8,"{'jpn_Jpan': 0.71, 'cmn_Hani': 0.09, 'mon_Cyrl': 0.07}",0.8826624751091003
+mon_Cyrl,['mon_Cyrl'],kor_Hang,Step50+sbeam8,"{'cmn_Hani': 0.14, 'kor_Hang': 0.24, 'eng_Latn': 0.12, 'jpn_Jpan': 0.06, 'mon_Cyrl': 0.3}",0.8985748291015625
+mon_Cyrl,['mon_Cyrl'],mon_Cyrl,Step50+sbeam8,{'mon_Cyrl': 0.99},0.9742032885551453
+mon_Cyrl,['mon_Cyrl'],hun_Latn,Step1,"{'mon_Cyrl': 0.3, 'hun_Latn': 0.06, 'eng_Latn': 0.15, 'deu_Latn': 0.13}",0.8760399222373962
+mon_Cyrl,['mon_Cyrl'],mhr_Cyrl,Step1,{'mon_Cyrl': 0.94},0.8901700973510742
+mon_Cyrl,['mon_Cyrl'],fin_Latn,Step1,"{'fin_Latn': 0.09, 'mon_Cyrl': 0.43, 'eng_Latn': 0.17, 'deu_Latn': 0.11}",0.8673252463340759
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",deu_Latn,Step50+sbeam8,"{'eng_Latn': 0.15, 'deu_Latn': 0.53, 'guj_Gujr': 0.24}",0.9085533618927002
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",ydd_Hebr,Step1,"{'guj_Gujr': 0.36, 'kaz_Cyrl': 0.58}",0.8988165855407715
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",heb_Hebr,Step1,"{'guj_Gujr': 0.53, 'eng_Latn': 0.13, 'kaz_Cyrl': 0.2}",0.8958467245101929
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",arb_Arab,Step1,"{'eng_Latn': 0.59, 'guj_Gujr': 0.35}",0.8650563359260559
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",amh_Ethi,Step1,"{'guj_Gujr': 0.76, 'kaz_Cyrl': 0.17}",0.8436157703399658
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mlt_Latn,Step1,"{'eng_Latn': 0.27, 'kaz_Cyrl': 0.53}",0.8952261209487915
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",hin_Deva,Step1,"{'eng_Latn': 0.24, 'guj_Gujr': 0.72}",0.8827178478240967
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",urd_Arab,Step1,{'guj_Gujr': 0.95},0.8941165208816528
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",guj_Gujr,Step1,{'guj_Gujr': 0.99},0.9804019927978516
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",sin_Sinh,Step1,{'guj_Gujr': 0.97},0.9389405846595764
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",pan_Guru,Step1,{'guj_Gujr': 0.99},0.9312787055969238
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",tur_Latn,Step1,"{'tur_Latn': 0.34, 'kaz_Cyrl': 0.39, 'eng_Latn': 0.09}",0.8948584794998169
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",kaz_Cyrl,Step1,{'kaz_Cyrl': 1.0},0.9800427556037903
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",cmn_Hani,Step1,"{'guj_Gujr': 0.34, 'kaz_Cyrl': 0.15, 'eng_Latn': 0.23}",0.7751176953315735
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",jpn_Jpan,Step1,"{'guj_Gujr': 0.48, 'eng_Latn': 0.19, 'kaz_Cyrl': 0.18}",0.8621564507484436
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",kor_Hang,Step1,"{'guj_Gujr': 0.64, 'eng_Latn': 0.2, 'kaz_Cyrl': 0.08}",0.8807395696640015
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mon_Cyrl,Step1,{'kaz_Cyrl': 0.94},0.9259122014045715
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",hun_Latn,Step1,"{'kaz_Cyrl': 0.68, 'eng_Latn': 0.08}",0.860033392906189
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mhr_Cyrl,Step1,{'kaz_Cyrl': 0.91},0.9200782775878906
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",fin_Latn,Step1,"{'kaz_Cyrl': 0.61, 'eng_Latn': 0.16, 'mon_Cyrl': 0.08}",0.8571932315826416
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",deu_Latn,Base,{'deu_Latn': 0.92},0.895574152469635
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",ydd_Hebr,Base,{'kaz_Cyrl': 0.95},0.9037367105484009
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",heb_Hebr,Base,"{'eng_Latn': 0.27, 'hin_Deva': 0.5, 'kaz_Cyrl': 0.07}",0.879069447517395
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",arb_Arab,Base,"{'eng_Latn': 0.83, 'hin_Deva': 0.11}",0.8759785890579224
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",amh_Ethi,Base,"{'kaz_Cyrl': 0.9, 'eng_Latn': 0.06}",0.842049241065979
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",mlt_Latn,Base,"{'eng_Latn': 0.27, 'kaz_Cyrl': 0.33}",0.9062509536743164
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",hin_Deva,Base,"{'hin_Deva': 0.72, 'eng_Latn': 0.24}",0.944133996963501
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",urd_Arab,Base,"{'hin_Deva': 0.86, 'eng_Latn': 0.1}",0.8907846212387085
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",guj_Gujr,Base,"{'kaz_Cyrl': 0.4, 'hin_Deva': 0.51, 'eng_Latn': 0.06}",0.9217132329940796
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",sin_Sinh,Base,"{'hin_Deva': 0.71, 'kaz_Cyrl': 0.17, 'eng_Latn': 0.08}",0.888847291469574
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",pan_Guru,Base,{'hin_Deva': 0.96},0.8935856819152832
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",tur_Latn,Base,"{'tur_Latn': 0.59, 'kaz_Cyrl': 0.15, 'eng_Latn': 0.07}",0.8973331451416016
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",kaz_Cyrl,Base,{'kaz_Cyrl': 0.99},0.9562957286834717
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",cmn_Hani,Base,"{'hin_Deva': 0.19, 'cmn_Hani': 0.76}",0.8819199204444885
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",jpn_Jpan,Base,"{'hin_Deva': 0.66, 'eng_Latn': 0.14, 'cmn_Hani': 0.07}",0.8887603878974915
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",kor_Hang,Base,"{'eng_Latn': 0.18, 'hin_Deva': 0.68}",0.8816851377487183
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",mon_Cyrl,Base,{'kaz_Cyrl': 0.97},0.9380053281784058
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",hun_Latn,Base,"{'kaz_Cyrl': 0.55, 'eng_Latn': 0.11}",0.905911386013031
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",mhr_Cyrl,Base,"{'kaz_Cyrl': 0.9, 'mon_Cyrl': 0.06}",0.885346531867981
+kaz_hin,"['kaz_Cyrl', 'hin_Deva']",fin_Latn,Base,"{'kaz_Cyrl': 0.37, 'eng_Latn': 0.22, 'fin_Latn': 0.09}",0.8608736991882324
+arb_Arab,['arb_Arab'],deu_Latn,Step50+sbeam8,"{'deu_Latn': 0.89, 'arb_Arab': 0.06}",0.9441560506820679
+arb_Arab,['arb_Arab'],ydd_Hebr,Step50+sbeam8,"{'arb_Arab': 0.84, 'eng_Latn': 0.08}",0.8024531602859497
+arb_Arab,['arb_Arab'],heb_Hebr,Step50+sbeam8,{'arb_Arab': 0.95},0.8735070824623108
+arb_Arab,['arb_Arab'],arb_Arab,Step50+sbeam8,{'arb_Arab': 1.0},0.923186182975769
+arb_Arab,['arb_Arab'],amh_Ethi,Step50+sbeam8,"{'arb_Arab': 0.76, 'eng_Latn': 0.11}",0.7977019548416138
+arb_Arab,['arb_Arab'],mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.44, 'arb_Arab': 0.28}",0.887708306312561
+arb_Arab,['arb_Arab'],hin_Deva,Step50+sbeam8,"{'eng_Latn': 0.4, 'arb_Arab': 0.49}",0.828836977481842
+arb_Arab,['arb_Arab'],urd_Arab,Step50+sbeam8,{'arb_Arab': 0.97},0.9080286026000977
+arb_Arab,['arb_Arab'],guj_Gujr,Step50+sbeam8,"{'arb_Arab': 0.85, 'eng_Latn': 0.11}",0.8905513286590576
+arb_Arab,['arb_Arab'],sin_Sinh,Step50+sbeam8,"{'arb_Arab': 0.74, 'eng_Latn': 0.19}",0.8378876447677612
+arb_Arab,['arb_Arab'],pan_Guru,Step50+sbeam8,"{'arb_Arab': 0.77, 'eng_Latn': 0.12}",0.8240197896957397
+arb_Arab,['arb_Arab'],tur_Latn,Step50+sbeam8,"{'tur_Latn': 0.68, 'arb_Arab': 0.18}",0.8588330745697021
+arb_Arab,['arb_Arab'],kaz_Cyrl,Step50+sbeam8,"{'tur_Latn': 0.24, 'arb_Arab': 0.54, 'eng_Latn': 0.08}",0.8275094032287598
+arb_Arab,['arb_Arab'],cmn_Hani,Step50+sbeam8,"{'arb_Arab': 0.59, 'cmn_Hani': 0.06, 'eng_Latn': 0.14}",0.795185923576355
+arb_Arab,['arb_Arab'],jpn_Jpan,Step50+sbeam8,"{'arb_Arab': 0.26, 'eng_Latn': 0.53}",0.8628643751144409
+arb_Arab,['arb_Arab'],kor_Hang,Step50+sbeam8,"{'eng_Latn': 0.36, 'arb_Arab': 0.47}",0.8454223871231079
+arb_Arab,['arb_Arab'],mon_Cyrl,Step50+sbeam8,"{'eng_Latn': 0.25, 'arb_Arab': 0.57}",0.7345843315124512
+arb_Arab,['arb_Arab'],hun_Latn,Step1,"{'arb_Arab': 0.43, 'eng_Latn': 0.1, 'tur_Latn': 0.06, 'deu_Latn': 0.06}",0.8678378462791443
+arb_Arab,['arb_Arab'],mhr_Cyrl,Step1,"{'arb_Arab': 0.62, 'kaz_Cyrl': 0.06, 'tur_Latn': 0.08, 'mon_Cyrl': 0.06}",0.8363240957260132
+arb_Arab,['arb_Arab'],fin_Latn,Step1,"{'eng_Latn': 0.14, 'arb_Arab': 0.39, 'deu_Latn': 0.06, 'tur_Latn': 0.08}",0.8244220018386841
+urd_Arab,['urd_Arab'],deu_Latn,Base,"{'eng_Latn': 0.65, 'urd_Arab': 0.27}",0.8635115623474121
+urd_Arab,['urd_Arab'],ydd_Hebr,Base,{'urd_Arab': 0.93},0.879725456237793
+urd_Arab,['urd_Arab'],heb_Hebr,Base,"{'urd_Arab': 0.79, 'eng_Latn': 0.12}",0.8892161846160889
+urd_Arab,['urd_Arab'],arb_Arab,Base,"{'arb_Arab': 0.83, 'urd_Arab': 0.09}",0.9134105443954468
+urd_Arab,['urd_Arab'],amh_Ethi,Base,"{'urd_Arab': 0.89, 'eng_Latn': 0.07}",0.8701557517051697
+urd_Arab,['urd_Arab'],mlt_Latn,Base,"{'eng_Latn': 0.46, 'urd_Arab': 0.33}",0.882786750793457
+urd_Arab,['urd_Arab'],hin_Deva,Base,"{'eng_Latn': 0.24, 'urd_Arab': 0.73}",0.9080328941345215
+urd_Arab,['urd_Arab'],urd_Arab,Base,{'urd_Arab': 0.98},0.9611625075340271
+urd_Arab,['urd_Arab'],guj_Gujr,Base,{'urd_Arab': 0.95},0.8961573243141174
+urd_Arab,['urd_Arab'],sin_Sinh,Base,{'urd_Arab': 0.91},0.910892128944397
+urd_Arab,['urd_Arab'],pan_Guru,Base,{'urd_Arab': 0.98},0.9094750881195068
+urd_Arab,['urd_Arab'],tur_Latn,Base,"{'urd_Arab': 0.63, 'eng_Latn': 0.26}",0.8699600696563721
+urd_Arab,['urd_Arab'],kaz_Cyrl,Base,"{'urd_Arab': 0.84, 'eng_Latn': 0.1}",0.8724527359008789
+urd_Arab,['urd_Arab'],cmn_Hani,Base,"{'urd_Arab': 0.7, 'eng_Latn': 0.24}",0.8220062255859375
+urd_Arab,['urd_Arab'],jpn_Jpan,Base,"{'urd_Arab': 0.74, 'eng_Latn': 0.23}",0.8765137195587158
+urd_Arab,['urd_Arab'],kor_Hang,Base,"{'eng_Latn': 0.21, 'urd_Arab': 0.74}",0.8889510631561279
+urd_Arab,['urd_Arab'],mon_Cyrl,Base,{'urd_Arab': 0.93},0.9010288715362549
+urd_Arab,['urd_Arab'],hun_Latn,Base,"{'eng_Latn': 0.59, 'urd_Arab': 0.17}",0.874324381351471
+urd_Arab,['urd_Arab'],mhr_Cyrl,Base,{'urd_Arab': 0.84},0.8388863205909729
+urd_Arab,['urd_Arab'],fin_Latn,Base,"{'eng_Latn': 0.65, 'urd_Arab': 0.25}",0.8520618081092834
+kaz_Cyrl,['kaz_Cyrl'],deu_Latn,Step50+sbeam8,"{'eng_Latn': 0.13, 'deu_Latn': 0.47, 'kaz_Cyrl': 0.25}",0.884406566619873
+kaz_Cyrl,['kaz_Cyrl'],ydd_Hebr,Step50+sbeam8,{'kaz_Cyrl': 0.91},0.8594598174095154
+kaz_Cyrl,['kaz_Cyrl'],heb_Hebr,Step50+sbeam8,"{'kaz_Cyrl': 0.77, 'eng_Latn': 0.15}",0.8771301507949829
+kaz_Cyrl,['kaz_Cyrl'],arb_Arab,Step50+sbeam8,"{'kaz_Cyrl': 0.31, 'eng_Latn': 0.5}",0.8394041657447815
+kaz_Cyrl,['kaz_Cyrl'],amh_Ethi,Step50+sbeam8,{'kaz_Cyrl': 0.89},0.8479447960853577
+kaz_Cyrl,['kaz_Cyrl'],mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.26, 'kaz_Cyrl': 0.46}",0.9090609550476074
+kaz_Cyrl,['kaz_Cyrl'],hin_Deva,Step50+sbeam8,"{'kaz_Cyrl': 0.59, 'eng_Latn': 0.27}",0.8854814767837524
+kaz_Cyrl,['kaz_Cyrl'],urd_Arab,Step50+sbeam8,"{'kaz_Cyrl': 0.83, 'eng_Latn': 0.08}",0.8639367818832397
+kaz_Cyrl,['kaz_Cyrl'],guj_Gujr,Step50+sbeam8,{'kaz_Cyrl': 0.96},0.926669716835022
+kaz_Cyrl,['kaz_Cyrl'],sin_Sinh,Step50+sbeam8,{'kaz_Cyrl': 0.91},0.9169372320175171
+kaz_Cyrl,['kaz_Cyrl'],pan_Guru,Step50+sbeam8,{'kaz_Cyrl': 0.93},0.8533170819282532
+kaz_Cyrl,['kaz_Cyrl'],tur_Latn,Step50+sbeam8,"{'tur_Latn': 0.21, 'kaz_Cyrl': 0.52, 'eng_Latn': 0.07}",0.8700727224349976
+kaz_Cyrl,['kaz_Cyrl'],kaz_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.99},0.9859778881072998
+kaz_Cyrl,['kaz_Cyrl'],cmn_Hani,Step50+sbeam8,"{'kaz_Cyrl': 0.52, 'eng_Latn': 0.25}",0.7757003903388977
+kaz_Cyrl,['kaz_Cyrl'],jpn_Jpan,Step50+sbeam8,"{'kaz_Cyrl': 0.61, 'eng_Latn': 0.19}",0.8497061729431152
+kaz_Cyrl,['kaz_Cyrl'],kor_Hang,Step1,"{'kaz_Cyrl': 0.68, 'eng_Latn': 0.15}",0.8766454458236694
+kaz_Cyrl,['kaz_Cyrl'],mon_Cyrl,Step1,{'kaz_Cyrl': 0.98},0.9376083016395569
+kaz_Cyrl,['kaz_Cyrl'],hun_Latn,Step1,"{'kaz_Cyrl': 0.66, 'eng_Latn': 0.07}",0.8994527459144592
+kaz_Cyrl,['kaz_Cyrl'],mhr_Cyrl,Step1,{'kaz_Cyrl': 0.91},0.8689402341842651
+kaz_Cyrl,['kaz_Cyrl'],fin_Latn,Step1,"{'kaz_Cyrl': 0.58, 'eng_Latn': 0.27}",0.8368062973022461
+hin_pan,"['hin_Deva', 'pan_Guru']",deu_Latn,Step50+sbeam8,"{'deu_Latn': 0.63, 'eng_Latn': 0.16}",0.8816745281219482
+hin_pan,"['hin_Deva', 'pan_Guru']",ydd_Hebr,Step50+sbeam8,"{'pan_Guru': 0.85, 'eng_Latn': 0.06}",0.8510162830352783
+hin_pan,"['hin_Deva', 'pan_Guru']",heb_Hebr,Step50+sbeam8,"{'hin_Deva': 0.84, 'eng_Latn': 0.1}",0.8481546640396118
+hin_pan,"['hin_Deva', 'pan_Guru']",arb_Arab,Step50+sbeam8,"{'eng_Latn': 0.65, 'hin_Deva': 0.29}",0.885272741317749
+hin_pan,"['hin_Deva', 'pan_Guru']",amh_Ethi,Step50+sbeam8,{'pan_Guru': 0.98},0.8595626950263977
+hin_pan,"['hin_Deva', 'pan_Guru']",mlt_Latn,Step50+sbeam8,{'eng_Latn': 0.67},0.9081894755363464
+hin_pan,"['hin_Deva', 'pan_Guru']",hin_Deva,Step50+sbeam8,"{'hin_Deva': 0.73, 'eng_Latn': 0.23}",0.9114505052566528
+hin_pan,"['hin_Deva', 'pan_Guru']",urd_Arab,Step50+sbeam8,"{'hin_Deva': 0.77, 'pan_Guru': 0.09, 'eng_Latn': 0.09}",0.8947799205780029
+hin_pan,"['hin_Deva', 'pan_Guru']",guj_Gujr,Step50+sbeam8,"{'pan_Guru': 0.91, 'hin_Deva': 0.06}",0.9572629928588867
+hin_pan,"['hin_Deva', 'pan_Guru']",sin_Sinh,Step50+sbeam8,"{'pan_Guru': 0.89, 'hin_Deva': 0.06}",0.9126707911491394
+hin_pan,"['hin_Deva', 'pan_Guru']",pan_Guru,Step50+sbeam8,{'pan_Guru': 1.0},0.9966883659362793
+hin_pan,"['hin_Deva', 'pan_Guru']",tur_Latn,Step50+sbeam8,"{'hin_Deva': 0.32, 'eng_Latn': 0.09, 'tur_Latn': 0.26}",0.8712185025215149
+hin_pan,"['hin_Deva', 'pan_Guru']",kaz_Cyrl,Step50+sbeam8,"{'eng_Latn': 0.15, 'hin_Deva': 0.58}",0.8790918588638306
+hin_pan,"['hin_Deva', 'pan_Guru']",cmn_Hani,Step50+sbeam8,"{'eng_Latn': 0.24, 'hin_Deva': 0.43, 'cmn_Hani': 0.2}",0.8302698135375977
+hin_pan,"['hin_Deva', 'pan_Guru']",jpn_Jpan,Step50+sbeam8,"{'eng_Latn': 0.16, 'hin_Deva': 0.76}",0.8478301763534546
+hin_pan,"['hin_Deva', 'pan_Guru']",kor_Hang,Step50+sbeam8,"{'eng_Latn': 0.15, 'hin_Deva': 0.72}",0.9333889484405518
+hin_pan,"['hin_Deva', 'pan_Guru']",mon_Cyrl,Step50+sbeam8,{'pan_Guru': 0.9},0.92527174949646
+hin_pan,"['hin_Deva', 'pan_Guru']",hun_Latn,Step50+sbeam8,"{'hin_Deva': 0.11, 'eng_Latn': 0.18, 'deu_Latn': 0.11}",0.8491249680519104
+hin_pan,"['hin_Deva', 'pan_Guru']",mhr_Cyrl,Step50+sbeam8,"{'eng_Latn': 0.16, 'hin_Deva': 0.13, 'pan_Guru': 0.29}",0.7395911812782288
+hin_pan,"['hin_Deva', 'pan_Guru']",fin_Latn,Step50+sbeam8,"{'hin_Deva': 0.31, 'fin_Latn': 0.07, 'eng_Latn': 0.27}",0.7536292672157288
+arab-script,"['arb_Arab', 'heb_Hebr']",deu_Latn,Base,{'deu_Latn': 0.96},0.91347336769104
+arab-script,"['arb_Arab', 'heb_Hebr']",ydd_Hebr,Base,"{'arb_Arab': 0.55, 'urd_Arab': 0.32}",0.8888028860092163
+arab-script,"['arb_Arab', 'heb_Hebr']",heb_Hebr,Base,"{'arb_Arab': 0.73, 'heb_Hebr': 0.19}",0.8995968103408813
+arab-script,"['arb_Arab', 'heb_Hebr']",arb_Arab,Base,{'arb_Arab': 1.0},0.9416115283966064
+arab-script,"['arb_Arab', 'heb_Hebr']",amh_Ethi,Base,"{'urd_Arab': 0.63, 'eng_Latn': 0.1, 'arb_Arab': 0.17}",0.8543691635131836
+arab-script,"['arb_Arab', 'heb_Hebr']",mlt_Latn,Base,"{'eng_Latn': 0.65, 'arb_Arab': 0.06}",0.9000571966171265
+arab-script,"['arb_Arab', 'heb_Hebr']",hin_Deva,Base,"{'urd_Arab': 0.71, 'eng_Latn': 0.27}",0.9067419767379761
+arab-script,"['arb_Arab', 'heb_Hebr']",urd_Arab,Base,{'urd_Arab': 0.99},0.9735403656959534
+arab-script,"['arb_Arab', 'heb_Hebr']",guj_Gujr,Base,"{'urd_Arab': 0.89, 'eng_Latn': 0.07}",0.8960202932357788
+arab-script,"['arb_Arab', 'heb_Hebr']",sin_Sinh,Base,{'urd_Arab': 0.93},0.9091222286224365
+arab-script,"['arb_Arab', 'heb_Hebr']",pan_Guru,Base,{'urd_Arab': 0.98},0.8998717665672302
+arab-script,"['arb_Arab', 'heb_Hebr']",tur_Latn,Base,{'tur_Latn': 0.89},0.8960644006729126
+arab-script,"['arb_Arab', 'heb_Hebr']",kaz_Cyrl,Base,"{'eng_Latn': 0.1, 'kaz_Cyrl': 0.11, 'tur_Latn': 0.23, 'urd_Arab': 0.36}",0.8730992674827576
+arab-script,"['arb_Arab', 'heb_Hebr']",cmn_Hani,Base,{'cmn_Hani': 0.94},0.9077728986740112
+arab-script,"['arb_Arab', 'heb_Hebr']",jpn_Jpan,Base,"{'jpn_Jpan': 0.06, 'eng_Latn': 0.39, 'arb_Arab': 0.15, 'cmn_Hani': 0.18, 'urd_Arab': 0.1}",0.8963925838470459
+arab-script,"['arb_Arab', 'heb_Hebr']",kor_Hang,Base,"{'eng_Latn': 0.24, 'arb_Arab': 0.48}",0.8947910666465759
+arab-script,"['arb_Arab', 'heb_Hebr']",mon_Cyrl,Base,"{'urd_Arab': 0.57, 'eng_Latn': 0.21}",0.9033824801445007
+arab-script,"['arb_Arab', 'heb_Hebr']",hun_Latn,Base,"{'tur_Latn': 0.22, 'eng_Latn': 0.16, 'deu_Latn': 0.11, 'arb_Arab': 0.07}",0.8670601844787598
+arab-script,"['arb_Arab', 'heb_Hebr']",mhr_Cyrl,Base,"{'urd_Arab': 0.31, 'mon_Cyrl': 0.16, 'kaz_Cyrl': 0.18, 'tur_Latn': 0.12}",0.8896768093109131
+arab-script,"['arb_Arab', 'heb_Hebr']",fin_Latn,Base,"{'deu_Latn': 0.34, 'eng_Latn': 0.16}",0.8785260915756226
+guj_Gujr,['guj_Gujr'],deu_Latn,Base,"{'eng_Latn': 0.61, 'guj_Gujr': 0.33}",0.8603860139846802
+guj_Gujr,['guj_Gujr'],ydd_Hebr,Base,{'guj_Gujr': 0.95},0.9107693433761597
+guj_Gujr,['guj_Gujr'],heb_Hebr,Base,"{'guj_Gujr': 0.79, 'eng_Latn': 0.18}",0.8830952644348145
+guj_Gujr,['guj_Gujr'],arb_Arab,Base,"{'eng_Latn': 0.49, 'guj_Gujr': 0.47}",0.8683221340179443
+guj_Gujr,['guj_Gujr'],amh_Ethi,Base,{'guj_Gujr': 0.96},0.8554469347000122
+guj_Gujr,['guj_Gujr'],mlt_Latn,Base,"{'eng_Latn': 0.67, 'guj_Gujr': 0.25}",0.8933269381523132
+guj_Gujr,['guj_Gujr'],hin_Deva,Base,"{'guj_Gujr': 0.72, 'eng_Latn': 0.26}",0.9034240245819092
+guj_Gujr,['guj_Gujr'],urd_Arab,Base,{'guj_Gujr': 0.94},0.9040297865867615
+guj_Gujr,['guj_Gujr'],guj_Gujr,Base,{'guj_Gujr': 0.99},0.9787130355834961
+guj_Gujr,['guj_Gujr'],sin_Sinh,Base,{'guj_Gujr': 0.99},0.9185711741447449
+guj_Gujr,['guj_Gujr'],pan_Guru,Base,{'guj_Gujr': 0.99},0.9359499216079712
+guj_Gujr,['guj_Gujr'],tur_Latn,Base,"{'guj_Gujr': 0.63, 'eng_Latn': 0.26}",0.8567837476730347
+guj_Gujr,['guj_Gujr'],kaz_Cyrl,Base,{'guj_Gujr': 0.95},0.8795280456542969
+guj_Gujr,['guj_Gujr'],cmn_Hani,Base,"{'guj_Gujr': 0.31, 'eng_Latn': 0.48}",0.8251966238021851
+guj_Gujr,['guj_Gujr'],jpn_Jpan,Base,"{'guj_Gujr': 0.75, 'eng_Latn': 0.19}",0.8568607568740845
+guj_Gujr,['guj_Gujr'],kor_Hang,Base,"{'guj_Gujr': 0.73, 'eng_Latn': 0.23}",0.9028890132904053
+guj_Gujr,['guj_Gujr'],mon_Cyrl,Base,{'guj_Gujr': 0.94},0.9224302172660828
+guj_Gujr,['guj_Gujr'],hun_Latn,Base,"{'guj_Gujr': 0.51, 'eng_Latn': 0.34}",0.8639329671859741
+guj_Gujr,['guj_Gujr'],mhr_Cyrl,Base,{'guj_Gujr': 0.96},0.8662346601486206
+guj_Gujr,['guj_Gujr'],fin_Latn,Base,"{'guj_Gujr': 0.59, 'eng_Latn': 0.34}",0.8496907353401184
+tur_pan,"['tur_Latn', 'pan_Guru']",deu_Latn,Step50+sbeam8,"{'deu_Latn': 0.88, 'tur_Latn': 0.08}",0.9337795972824097
+tur_pan,"['tur_Latn', 'pan_Guru']",ydd_Hebr,Step50+sbeam8,{'pan_Guru': 0.94},0.8464511632919312
+tur_pan,"['tur_Latn', 'pan_Guru']",heb_Hebr,Step50+sbeam8,"{'pan_Guru': 0.13, 'tur_Latn': 0.82}",0.8958225250244141
+tur_pan,"['tur_Latn', 'pan_Guru']",arb_Arab,Step50+sbeam8,"{'tur_Latn': 0.25, 'pan_Guru': 0.61, 'eng_Latn': 0.1}",0.8846290111541748
+tur_pan,"['tur_Latn', 'pan_Guru']",amh_Ethi,Step50+sbeam8,{'pan_Guru': 0.97},0.8515836000442505
+tur_pan,"['tur_Latn', 'pan_Guru']",mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.29, 'tur_Latn': 0.5}",0.9007192850112915
+tur_pan,"['tur_Latn', 'pan_Guru']",hin_Deva,Step50+sbeam8,"{'pan_Guru': 0.77, 'eng_Latn': 0.22}",0.9374715089797974
+tur_pan,"['tur_Latn', 'pan_Guru']",urd_Arab,Step50+sbeam8,{'pan_Guru': 0.97},0.919367253780365
+tur_pan,"['tur_Latn', 'pan_Guru']",guj_Gujr,Step50+sbeam8,{'pan_Guru': 0.99},0.948326826095581
+tur_pan,"['tur_Latn', 'pan_Guru']",sin_Sinh,Step50+sbeam8,{'pan_Guru': 0.99},0.9254023432731628
+tur_pan,"['tur_Latn', 'pan_Guru']",pan_Guru,Step50+sbeam8,{'pan_Guru': 1.0},0.9903855919837952
+tur_pan,"['tur_Latn', 'pan_Guru']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.99},0.9462836980819702
+tur_pan,"['tur_Latn', 'pan_Guru']",kaz_Cyrl,Step50+sbeam8,"{'pan_Guru': 0.13, 'tur_Latn': 0.84}",0.8111107349395752
+tur_pan,"['tur_Latn', 'pan_Guru']",cmn_Hani,Step50+sbeam8,"{'tur_Latn': 0.43, 'pan_Guru': 0.45, 'eng_Latn': 0.06}",0.8478501439094543
+tur_pan,"['tur_Latn', 'pan_Guru']",jpn_Jpan,Step50+sbeam8,"{'pan_Guru': 0.18, 'tur_Latn': 0.62, 'eng_Latn': 0.08}",0.8291612863540649
+tur_pan,"['tur_Latn', 'pan_Guru']",kor_Hang,Step1,{'tur_Latn': 0.94},0.9113109707832336
+tur_pan,"['tur_Latn', 'pan_Guru']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
+tur_pan,"['tur_Latn', 'pan_Guru']",mon_Cyrl,Base,"{'pan_Guru': 0.44, 'tur_Latn': 0.52}",0.906948447227478
+tur_pan,"['tur_Latn', 'pan_Guru']",hun_Latn,Labels,{'hun_Latn': 1.0},
+tur_pan,"['tur_Latn', 'pan_Guru']",hun_Latn,Base,{'tur_Latn': 0.84},0.9023882150650024
+tur_pan,"['tur_Latn', 'pan_Guru']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
+tur_pan,"['tur_Latn', 'pan_Guru']",mhr_Cyrl,Base,{'tur_Latn': 0.97},0.8817254900932312
+tur_pan,"['tur_Latn', 'pan_Guru']",fin_Latn,Labels,{'fin_Latn': 0.99},
+tur_pan,"['tur_Latn', 'pan_Guru']",fin_Latn,Base,"{'tur_Latn': 0.83, 'fin_Latn': 0.06}",0.8933674097061157
+pan_guj,"['pan_Guru', 'guj_Gujr']",deu_Latn,Base,"{'eng_Latn': 0.58, 'guj_Gujr': 0.12, 'pan_Guru': 0.13}",0.873703122138977
+pan_guj,"['pan_Guru', 'guj_Gujr']",ydd_Hebr,Base,{'guj_Gujr': 0.91},0.9070823192596436
+pan_guj,"['pan_Guru', 'guj_Gujr']",heb_Hebr,Base,"{'pan_Guru': 0.71, 'eng_Latn': 0.18}",0.8896424770355225
+pan_guj,"['pan_Guru', 'guj_Gujr']",arb_Arab,Base,"{'eng_Latn': 0.63, 'pan_Guru': 0.2, 'guj_Gujr': 0.11}",0.8658332228660583
+pan_guj,"['pan_Guru', 'guj_Gujr']",amh_Ethi,Base,{'pan_Guru': 0.92},0.8659998178482056
+pan_guj,"['pan_Guru', 'guj_Gujr']",mlt_Latn,Base,"{'eng_Latn': 0.77, 'guj_Gujr': 0.12}",0.891653299331665
+pan_guj,"['pan_Guru', 'guj_Gujr']",hin_Deva,Base,"{'hin_Deva': 0.11, 'eng_Latn': 0.35, 'guj_Gujr': 0.23, 'pan_Guru': 0.25}",0.9191535711288452
+pan_guj,"['pan_Guru', 'guj_Gujr']",urd_Arab,Base,"{'pan_Guru': 0.87, 'guj_Gujr': 0.06}",0.9141577482223511
+pan_guj,"['pan_Guru', 'guj_Gujr']",guj_Gujr,Base,{'guj_Gujr': 0.99},0.9824389815330505
+pan_guj,"['pan_Guru', 'guj_Gujr']",sin_Sinh,Base,"{'pan_Guru': 0.38, 'guj_Gujr': 0.6}",0.923194944858551
+pan_guj,"['pan_Guru', 'guj_Gujr']",pan_Guru,Base,{'pan_Guru': 1.0},0.9882717728614807
+pan_guj,"['pan_Guru', 'guj_Gujr']",tur_Latn,Base,"{'pan_Guru': 0.15, 'eng_Latn': 0.44, 'guj_Gujr': 0.18}",0.8584739565849304
+pan_guj,"['pan_Guru', 'guj_Gujr']",kaz_Cyrl,Base,"{'eng_Latn': 0.06, 'guj_Gujr': 0.9}",0.8867422938346863
+pan_guj,"['pan_Guru', 'guj_Gujr']",cmn_Hani,Base,"{'eng_Latn': 0.48, 'hin_Deva': 0.1, 'cmn_Hani': 0.11, 'pan_Guru': 0.08, 'guj_Gujr': 0.11}",0.8124768733978271
+pan_guj,"['pan_Guru', 'guj_Gujr']",jpn_Jpan,Base,"{'hin_Deva': 0.07, 'guj_Gujr': 0.53, 'eng_Latn': 0.3}",0.8658900260925293
+pan_guj,"['pan_Guru', 'guj_Gujr']",kor_Hang,Base,"{'eng_Latn': 0.3, 'guj_Gujr': 0.54, 'pan_Guru': 0.06}",0.902656078338623
+pan_guj,"['pan_Guru', 'guj_Gujr']",mon_Cyrl,Base,"{'guj_Gujr': 0.92, 'eng_Latn': 0.06}",0.9225894808769226
+pan_guj,"['pan_Guru', 'guj_Gujr']",hun_Latn,Base,"{'eng_Latn': 0.28, 'guj_Gujr': 0.35, 'pan_Guru': 0.06}",0.8813415765762329
+pan_guj,"['pan_Guru', 'guj_Gujr']",mhr_Cyrl,Base,"{'guj_Gujr': 0.77, 'eng_Latn': 0.1}",0.872348427772522
+pan_guj,"['pan_Guru', 'guj_Gujr']",fin_Latn,Base,"{'guj_Gujr': 0.34, 'eng_Latn': 0.5}",0.8412282466888428
+urd_hin,"['urd_Arab', 'hin_Deva']",deu_Latn,Base,"{'eng_Latn': 0.28, 'deu_Latn': 0.57}",0.8858552575111389
+urd_hin,"['urd_Arab', 'hin_Deva']",ydd_Hebr,Base,"{'hin_Deva': 0.54, 'urd_Arab': 0.29}",0.8758164048194885
+urd_hin,"['urd_Arab', 'hin_Deva']",heb_Hebr,Base,"{'hin_Deva': 0.73, 'eng_Latn': 0.07, 'urd_Arab': 0.07}",0.8897262811660767
+urd_hin,"['urd_Arab', 'hin_Deva']",arb_Arab,Base,"{'arb_Arab': 0.88, 'urd_Arab': 0.08}",0.9362108707427979
+urd_hin,"['urd_Arab', 'hin_Deva']",amh_Ethi,Base,"{'urd_Arab': 0.41, 'eng_Latn': 0.2, 'hin_Deva': 0.31}",0.8537790179252625
+urd_hin,"['urd_Arab', 'hin_Deva']",mlt_Latn,Base,{'eng_Latn': 0.57},0.8964476585388184
+urd_hin,"['urd_Arab', 'hin_Deva']",hin_Deva,Base,"{'hin_Deva': 0.72, 'eng_Latn': 0.24}",0.9426928758621216
+urd_hin,"['urd_Arab', 'hin_Deva']",urd_Arab,Base,{'urd_Arab': 0.98},0.9727985858917236
+urd_hin,"['urd_Arab', 'hin_Deva']",guj_Gujr,Base,{'hin_Deva': 0.95},0.919195830821991
+urd_hin,"['urd_Arab', 'hin_Deva']",sin_Sinh,Base,"{'hin_Deva': 0.9, 'eng_Latn': 0.07}",0.9040009379386902
+urd_hin,"['urd_Arab', 'hin_Deva']",pan_Guru,Base,"{'hin_Deva': 0.9, 'urd_Arab': 0.08}",0.8890697360038757
+urd_hin,"['urd_Arab', 'hin_Deva']",tur_Latn,Base,"{'urd_Arab': 0.19, 'tur_Latn': 0.33, 'eng_Latn': 0.13}",0.8902708888053894
+urd_hin,"['urd_Arab', 'hin_Deva']",kaz_Cyrl,Base,"{'urd_Arab': 0.09, 'hin_Deva': 0.45, 'eng_Latn': 0.17}",0.8677144050598145
+urd_hin,"['urd_Arab', 'hin_Deva']",cmn_Hani,Base,"{'cmn_Hani': 0.26, 'hin_Deva': 0.53, 'eng_Latn': 0.1}",0.882732629776001
+urd_hin,"['urd_Arab', 'hin_Deva']",jpn_Jpan,Base,"{'hin_Deva': 0.82, 'eng_Latn': 0.14}",0.8619392514228821
+urd_hin,"['urd_Arab', 'hin_Deva']",kor_Hang,Base,"{'eng_Latn': 0.12, 'hin_Deva': 0.77}",0.8978493213653564
+urd_hin,"['urd_Arab', 'hin_Deva']",mon_Cyrl,Base,"{'hin_Deva': 0.48, 'eng_Latn': 0.17, 'urd_Arab': 0.22}",0.9050430059432983
+urd_hin,"['urd_Arab', 'hin_Deva']",hun_Latn,Base,"{'eng_Latn': 0.24, 'deu_Latn': 0.09}",0.8764429092407227
+urd_hin,"['urd_Arab', 'hin_Deva']",mhr_Cyrl,Base,"{'tur_Latn': 0.08, 'urd_Arab': 0.5, 'eng_Latn': 0.06}",0.8701091408729553
+urd_hin,"['urd_Arab', 'hin_Deva']",fin_Latn,Base,"{'hin_Deva': 0.06, 'deu_Latn': 0.16, 'eng_Latn': 0.34, 'fin_Latn': 0.07}",0.8601582050323486
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",deu_Latn,Step50+sbeam8,"{'eng_Latn': 0.13, 'deu_Latn': 0.66, 'pan_Guru': 0.09}",0.9121174216270447
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",ydd_Hebr,Step50+sbeam8,"{'pan_Guru': 0.22, 'kaz_Cyrl': 0.69}",0.8575019836425781
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",heb_Hebr,Step50+sbeam8,"{'pan_Guru': 0.65, 'eng_Latn': 0.19, 'kaz_Cyrl': 0.09}",0.8879647254943848
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",arb_Arab,Step50+sbeam8,"{'eng_Latn': 0.58, 'pan_Guru': 0.35}",0.8512002229690552
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",amh_Ethi,Step50+sbeam8,{'pan_Guru': 0.94},0.8606590628623962
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.26, 'kaz_Cyrl': 0.56}",0.9152392148971558
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",hin_Deva,Step50+sbeam8,"{'pan_Guru': 0.75, 'eng_Latn': 0.23}",0.8892738819122314
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",urd_Arab,Step50+sbeam8,{'pan_Guru': 0.98},0.9067692756652832
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",guj_Gujr,Step50+sbeam8,{'pan_Guru': 0.99},0.949670672416687
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",sin_Sinh,Step50+sbeam8,{'pan_Guru': 0.99},0.9224931001663208
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",pan_Guru,Step50+sbeam8,{'pan_Guru': 1.0},0.9941664934158325
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",tur_Latn,Step1,"{'kaz_Cyrl': 0.53, 'tur_Latn': 0.19, 'eng_Latn': 0.1}",0.8912935853004456
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kaz_Cyrl,Labels,{'kaz_Cyrl': 0.99},
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kaz_Cyrl,Base,{'kaz_Cyrl': 0.99},0.9608709812164307
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",cmn_Hani,Labels,{'cmn_Hani': 1.0},
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",cmn_Hani,Base,"{'pan_Guru': 0.5, 'eng_Latn': 0.32, 'kaz_Cyrl': 0.06}",0.7932111024856567
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",jpn_Jpan,Labels,{'jpn_Jpan': 0.99},
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",jpn_Jpan,Base,"{'pan_Guru': 0.41, 'kaz_Cyrl': 0.19, 'eng_Latn': 0.24}",0.8376021385192871
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kor_Hang,Labels,{'kor_Hang': 0.99},
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kor_Hang,Base,"{'eng_Latn': 0.36, 'pan_Guru': 0.42, 'kaz_Cyrl': 0.14}",0.8940920829772949
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mon_Cyrl,Base,{'kaz_Cyrl': 0.97},0.945859432220459
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",hun_Latn,Labels,{'hun_Latn': 1.0},
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",hun_Latn,Base,"{'kaz_Cyrl': 0.54, 'eng_Latn': 0.12}",0.9066080451011658
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mhr_Cyrl,Base,{'kaz_Cyrl': 0.93},0.930300772190094
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",fin_Latn,Labels,{'fin_Latn': 0.99},
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",fin_Latn,Base,"{'kaz_Cyrl': 0.18, 'eng_Latn': 0.55}",0.8632845878601074
+jpn_Jpan,['jpn_Jpan'],deu_Latn,Base,"{'deu_Latn': 0.62, 'jpn_Jpan': 0.34}",0.893114447593689
+jpn_Jpan,['jpn_Jpan'],ydd_Hebr,Base,"{'jpn_Jpan': 0.59, 'eng_Latn': 0.19, 'cmn_Hani': 0.09}",0.8655405044555664
+jpn_Jpan,['jpn_Jpan'],heb_Hebr,Base,"{'jpn_Jpan': 0.77, 'eng_Latn': 0.15}",0.8773921728134155
+jpn_Jpan,['jpn_Jpan'],arb_Arab,Base,"{'jpn_Jpan': 0.71, 'eng_Latn': 0.24}",0.8557883501052856
+jpn_Jpan,['jpn_Jpan'],amh_Ethi,Base,"{'jpn_Jpan': 0.46, 'eng_Latn': 0.22}",0.848824143409729
+jpn_Jpan,['jpn_Jpan'],mlt_Latn,Base,"{'deu_Latn': 0.07, 'eng_Latn': 0.36, 'jpn_Jpan': 0.22}",0.8937062621116638
+jpn_Jpan,['jpn_Jpan'],hin_Deva,Base,"{'jpn_Jpan': 0.63, 'eng_Latn': 0.26}",0.8754976391792297
+jpn_Jpan,['jpn_Jpan'],urd_Arab,Base,"{'jpn_Jpan': 0.82, 'cmn_Hani': 0.07, 'eng_Latn': 0.06}",0.8621500134468079
+jpn_Jpan,['jpn_Jpan'],guj_Gujr,Base,"{'jpn_Jpan': 0.83, 'eng_Latn': 0.09}",0.8747305870056152
+jpn_Jpan,['jpn_Jpan'],sin_Sinh,Base,"{'jpn_Jpan': 0.85, 'eng_Latn': 0.06}",0.8742031455039978
+jpn_Jpan,['jpn_Jpan'],pan_Guru,Base,"{'jpn_Jpan': 0.77, 'eng_Latn': 0.08, 'cmn_Hani': 0.08}",0.8497041463851929
+jpn_Jpan,['jpn_Jpan'],tur_Latn,Base,"{'eng_Latn': 0.08, 'tur_Latn': 0.08, 'jpn_Jpan': 0.55}",0.8514343500137329
+jpn_Jpan,['jpn_Jpan'],kaz_Cyrl,Base,"{'jpn_Jpan': 0.73, 'eng_Latn': 0.08}",0.8604715466499329
+jpn_Jpan,['jpn_Jpan'],cmn_Hani,Base,"{'cmn_Hani': 0.53, 'jpn_Jpan': 0.46}",0.9117910861968994
+jpn_Jpan,['jpn_Jpan'],jpn_Jpan,Base,{'jpn_Jpan': 0.98},0.949586033821106
+jpn_Jpan,['jpn_Jpan'],kor_Hang,Base,"{'eng_Latn': 0.07, 'jpn_Jpan': 0.83}",0.91973876953125
+jpn_Jpan,['jpn_Jpan'],mon_Cyrl,Base,"{'jpn_Jpan': 0.81, 'eng_Latn': 0.07}",0.8688887357711792
+jpn_Jpan,['jpn_Jpan'],hun_Latn,Base,"{'jpn_Jpan': 0.49, 'eng_Latn': 0.08, 'deu_Latn': 0.12}",0.8755873441696167
+jpn_Jpan,['jpn_Jpan'],mhr_Cyrl,Base,{'jpn_Jpan': 0.64},0.8534107208251953
+jpn_Jpan,['jpn_Jpan'],fin_Latn,Base,"{'jpn_Jpan': 0.58, 'deu_Latn': 0.06, 'fin_Latn': 0.08}",0.8735061287879944
+latn-script,"['deu_Latn', 'tur_Latn']",deu_Latn,Base,{'deu_Latn': 1.0},0.9545146226882935
+latn-script,"['deu_Latn', 'tur_Latn']",ydd_Hebr,Base,{'tur_Latn': 0.86},0.8824868202209473
+latn-script,"['deu_Latn', 'tur_Latn']",heb_Hebr,Base,{'tur_Latn': 0.96},0.8855878114700317
+latn-script,"['deu_Latn', 'tur_Latn']",arb_Arab,Base,{'tur_Latn': 0.95},0.844141960144043
+latn-script,"['deu_Latn', 'tur_Latn']",amh_Ethi,Base,{'tur_Latn': 0.84},0.8515939116477966
+latn-script,"['deu_Latn', 'tur_Latn']",mlt_Latn,Base,"{'eng_Latn': 0.15, 'tur_Latn': 0.6, 'deu_Latn': 0.07}",0.9041571617126465
+latn-script,"['deu_Latn', 'tur_Latn']",hin_Deva,Base,"{'tur_Latn': 0.63, 'eng_Latn': 0.3}",0.8794311881065369
+latn-script,"['deu_Latn', 'tur_Latn']",urd_Arab,Base,{'tur_Latn': 0.92},0.8852865695953369
+latn-script,"['deu_Latn', 'tur_Latn']",guj_Gujr,Base,{'tur_Latn': 0.96},0.8909142017364502
+latn-script,"['deu_Latn', 'tur_Latn']",sin_Sinh,Base,{'tur_Latn': 0.94},0.8733810186386108
+latn-script,"['deu_Latn', 'tur_Latn']",pan_Guru,Base,{'tur_Latn': 0.92},0.8555563688278198
+latn-script,"['deu_Latn', 'tur_Latn']",tur_Latn,Base,{'tur_Latn': 0.99},0.959507942199707
+latn-script,"['deu_Latn', 'tur_Latn']",kaz_Cyrl,Base,{'tur_Latn': 0.97},0.8858878016471863
+latn-script,"['deu_Latn', 'tur_Latn']",cmn_Hani,Base,"{'tur_Latn': 0.49, 'cmn_Hani': 0.3, 'eng_Latn': 0.12}",0.8410884141921997
+latn-script,"['deu_Latn', 'tur_Latn']",jpn_Jpan,Base,{'tur_Latn': 0.92},0.8936184644699097
+latn-script,"['deu_Latn', 'tur_Latn']",kor_Hang,Base,{'tur_Latn': 0.93},0.8956183791160583
+latn-script,"['deu_Latn', 'tur_Latn']",mon_Cyrl,Base,{'tur_Latn': 0.92},0.8837948441505432
+latn-script,"['deu_Latn', 'tur_Latn']",hun_Latn,Base,"{'tur_Latn': 0.55, 'hun_Latn': 0.32}",0.9088133573532104
+latn-script,"['deu_Latn', 'tur_Latn']",mhr_Cyrl,Base,{'tur_Latn': 0.9},0.8869796991348267
+latn-script,"['deu_Latn', 'tur_Latn']",fin_Latn,Base,"{'fin_Latn': 0.22, 'deu_Latn': 0.52, 'tur_Latn': 0.19}",0.9045181274414062
+urd_pan,"['urd_Arab', 'pan_Guru']",deu_Latn,Base,"{'eng_Latn': 0.58, 'pan_Guru': 0.23, 'deu_Latn': 0.11}",0.864729642868042
+urd_pan,"['urd_Arab', 'pan_Guru']",ydd_Hebr,Base,"{'pan_Guru': 0.85, 'urd_Arab': 0.09}",0.9061702489852905
+urd_pan,"['urd_Arab', 'pan_Guru']",heb_Hebr,Base,"{'pan_Guru': 0.74, 'arb_Arab': 0.06, 'eng_Latn': 0.06, 'urd_Arab': 0.09}",0.887915313243866
+urd_pan,"['urd_Arab', 'pan_Guru']",arb_Arab,Base,"{'arb_Arab': 0.79, 'urd_Arab': 0.15}",0.9398168325424194
+urd_pan,"['urd_Arab', 'pan_Guru']",amh_Ethi,Base,{'pan_Guru': 0.99},0.8612176179885864
+urd_pan,"['urd_Arab', 'pan_Guru']",mlt_Latn,Base,"{'eng_Latn': 0.66, 'pan_Guru': 0.18}",0.8929579257965088
+urd_pan,"['urd_Arab', 'pan_Guru']",hin_Deva,Base,"{'eng_Latn': 0.27, 'pan_Guru': 0.65, 'urd_Arab': 0.06}",0.9168728590011597
+urd_pan,"['urd_Arab', 'pan_Guru']",urd_Arab,Base,{'urd_Arab': 0.98},0.968853235244751
+urd_pan,"['urd_Arab', 'pan_Guru']",guj_Gujr,Base,{'pan_Guru': 0.98},0.9366037845611572
+urd_pan,"['urd_Arab', 'pan_Guru']",sin_Sinh,Base,{'pan_Guru': 0.99},0.9310022592544556
+urd_pan,"['urd_Arab', 'pan_Guru']",pan_Guru,Base,{'pan_Guru': 1.0},0.9878444671630859
+urd_pan,"['urd_Arab', 'pan_Guru']",tur_Latn,Base,"{'urd_Arab': 0.22, 'tur_Latn': 0.13, 'pan_Guru': 0.19, 'eng_Latn': 0.26}",0.8411441445350647
+urd_pan,"['urd_Arab', 'pan_Guru']",kaz_Cyrl,Base,"{'pan_Guru': 0.76, 'urd_Arab': 0.11, 'eng_Latn': 0.06}",0.8766258358955383
+urd_pan,"['urd_Arab', 'pan_Guru']",cmn_Hani,Base,"{'urd_Arab': 0.11, 'eng_Latn': 0.19, 'pan_Guru': 0.56}",0.8050931692123413
+urd_pan,"['urd_Arab', 'pan_Guru']",jpn_Jpan,Base,"{'pan_Guru': 0.41, 'urd_Arab': 0.2, 'eng_Latn': 0.34}",0.8793781995773315
+urd_pan,"['urd_Arab', 'pan_Guru']",kor_Hang,Base,"{'eng_Latn': 0.19, 'pan_Guru': 0.49, 'urd_Arab': 0.23}",0.9090360403060913
+urd_pan,"['urd_Arab', 'pan_Guru']",mon_Cyrl,Base,{'pan_Guru': 0.91},0.9058256149291992
+urd_pan,"['urd_Arab', 'pan_Guru']",hun_Latn,Base,"{'eng_Latn': 0.32, 'pan_Guru': 0.33}",0.8656566739082336
+urd_pan,"['urd_Arab', 'pan_Guru']",mhr_Cyrl,Base,"{'pan_Guru': 0.27, 'urd_Arab': 0.51, 'eng_Latn': 0.09}",0.8642817735671997
+urd_pan,"['urd_Arab', 'pan_Guru']",fin_Latn,Base,"{'pan_Guru': 0.2, 'eng_Latn': 0.64}",0.8594908714294434
+cmn_Hani,['cmn_Hani'],deu_Latn,Base,"{'cmn_Hani': 0.83, 'deu_Latn': 0.09, 'eng_Latn': 0.06}",0.8800550699234009
+cmn_Hani,['cmn_Hani'],ydd_Hebr,Base,{'cmn_Hani': 0.91},0.8577110767364502
+cmn_Hani,['cmn_Hani'],heb_Hebr,Base,{'cmn_Hani': 0.94},0.891813337802887
+cmn_Hani,['cmn_Hani'],arb_Arab,Base,{'cmn_Hani': 0.94},0.8467540740966797
+cmn_Hani,['cmn_Hani'],amh_Ethi,Base,"{'eng_Latn': 0.1, 'cmn_Hani': 0.81}",0.8580183386802673
+cmn_Hani,['cmn_Hani'],mlt_Latn,Base,"{'eng_Latn': 0.18, 'cmn_Hani': 0.61}",0.8907791972160339
+cmn_Hani,['cmn_Hani'],hin_Deva,Base,"{'cmn_Hani': 0.82, 'eng_Latn': 0.12}",0.8538181781768799
+cmn_Hani,['cmn_Hani'],urd_Arab,Base,{'cmn_Hani': 0.97},0.8784089088439941
+cmn_Hani,['cmn_Hani'],guj_Gujr,Base,{'cmn_Hani': 0.95},0.869494616985321
+cmn_Hani,['cmn_Hani'],sin_Sinh,Base,{'cmn_Hani': 0.96},0.8588494658470154
+cmn_Hani,['cmn_Hani'],pan_Guru,Base,{'cmn_Hani': 0.92},0.8297640085220337
+cmn_Hani,['cmn_Hani'],tur_Latn,Base,"{'cmn_Hani': 0.65, 'eng_Latn': 0.12}",0.8558660745620728
+cmn_Hani,['cmn_Hani'],kaz_Cyrl,Base,"{'cmn_Hani': 0.85, 'eng_Latn': 0.07}",0.8588985204696655
+cmn_Hani,['cmn_Hani'],cmn_Hani,Base,{'cmn_Hani': 1.0},0.9483498334884644
+cmn_Hani,['cmn_Hani'],jpn_Jpan,Base,{'jpn_Jpan': 0.93},0.9443691968917847
+cmn_Hani,['cmn_Hani'],kor_Hang,Base,{'cmn_Hani': 0.94},0.8921641707420349
+cmn_Hani,['cmn_Hani'],mon_Cyrl,Base,{'cmn_Hani': 0.84},0.8736380338668823
+cmn_Hani,['cmn_Hani'],hun_Latn,Base,"{'cmn_Hani': 0.69, 'eng_Latn': 0.09}",0.8567569255828857
+cmn_Hani,['cmn_Hani'],mhr_Cyrl,Base,{'cmn_Hani': 0.81},0.8267492055892944
+cmn_Hani,['cmn_Hani'],fin_Latn,Base,"{'cmn_Hani': 0.9, 'eng_Latn': 0.06}",0.8652514219284058

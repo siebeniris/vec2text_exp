@@ -29,3 +29,14 @@ python -m language_confusion.collect_token_set_eval multilingual num_pred_words
 python language_confusion/get_dataset2langdist.py
 ```
 
+Get langdist to dataframe.
+```
+python language_confusion/langdist2df.py
+```
+
+## Predict languages using Random Forest
+
+```
+pred_lang_regression.py
+
+```

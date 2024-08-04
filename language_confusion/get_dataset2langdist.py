@@ -20,7 +20,6 @@ def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
         dataset2langdist[model_name] = dict()
 
     if "inverter" in file:
-
         for eval in model_log["evaluations"]:
             dataset = eval["dataset"]
             if dataset not in dataset2langdist[model_name]:
@@ -88,6 +87,7 @@ def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
                                 dataset2langdist[model_name][dataset]["Step50+sbeam8"] = pred_lang_line_dict
 
                             break
+
 
 
 def main():

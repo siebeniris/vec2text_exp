@@ -46,9 +46,9 @@ languages = [Language.ENGLISH, Language.GERMAN, Language.HEBREW, Language.ARABIC
              Language.CHINESE, Language.MONGOLIAN, Language.KOREAN, Language.JAPANESE,
              Language.HUNGARIAN, Language.FINNISH]
 
-lang2idx = {Language.ENGLISH: "eng_Latn", Language.GERMAN: "deu_Latn", Language.HEBREW: "heb_Hebr",
-            Language.ARABIC: "arb_Arab",
-            Language.HINDI: "hin_Deva", Language.GUJARATI: "guj_Gujr",
+lang2idx = {
+            Language.ENGLISH: "eng_Latn", Language.GERMAN: "deu_Latn", Language.HEBREW: "heb_Hebr",
+            Language.ARABIC: "arb_Arab", Language.HINDI: "hin_Deva", Language.GUJARATI: "guj_Gujr",
             Language.PUNJABI: "pan_Guru", Language.URDU: "urd_Arab",
             Language.TURKISH: "tur_Latn", Language.KAZAKH: "kaz_Cyrl",
             Language.CHINESE: "cmn_Hani", Language.MONGOLIAN: "mon_Cyrl",
