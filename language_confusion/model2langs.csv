@@ -33,17 +33,12 @@ tur_urd,"['tur_Latn', 'urd_Arab']",pan_Guru,Step50+sbeam8,{'urd_Arab': 0.99},0.8
 tur_urd,"['tur_Latn', 'urd_Arab']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.99},0.9083292484283447
 tur_urd,"['tur_Latn', 'urd_Arab']",kaz_Cyrl,Step50+sbeam8,{'tur_Latn': 0.97},0.9151252508163452
 tur_urd,"['tur_Latn', 'urd_Arab']",cmn_Hani,Step50+sbeam8,"{'tur_Latn': 0.73, 'urd_Arab': 0.13, 'eng_Latn': 0.06}",0.8356317281723022
-tur_urd,"['tur_Latn', 'urd_Arab']",jpn_Jpan,Step1,"{'tur_Latn': 0.72, 'urd_Arab': 0.15}",0.8518036603927612
-tur_urd,"['tur_Latn', 'urd_Arab']",kor_Hang,Labels,{'kor_Hang': 0.99},
-tur_urd,"['tur_Latn', 'urd_Arab']",kor_Hang,Base,{'tur_Latn': 0.95},0.8898313045501709
-tur_urd,"['tur_Latn', 'urd_Arab']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
-tur_urd,"['tur_Latn', 'urd_Arab']",mon_Cyrl,Base,"{'urd_Arab': 0.11, 'tur_Latn': 0.81}",0.8809913396835327
-tur_urd,"['tur_Latn', 'urd_Arab']",hun_Latn,Labels,{'hun_Latn': 1.0},
-tur_urd,"['tur_Latn', 'urd_Arab']",hun_Latn,Base,{'tur_Latn': 0.83},0.9126073122024536
-tur_urd,"['tur_Latn', 'urd_Arab']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
-tur_urd,"['tur_Latn', 'urd_Arab']",mhr_Cyrl,Base,{'tur_Latn': 0.95},0.897390604019165
-tur_urd,"['tur_Latn', 'urd_Arab']",fin_Latn,Labels,{'fin_Latn': 0.99},
-tur_urd,"['tur_Latn', 'urd_Arab']",fin_Latn,Base,{'tur_Latn': 0.86},0.9080723524093628
+tur_urd,"['tur_Latn', 'urd_Arab']",jpn_Jpan,Step50+sbeam8,"{'urd_Arab': 0.16, 'tur_Latn': 0.65, 'eng_Latn': 0.08}",0.8374370336532593
+tur_urd,"['tur_Latn', 'urd_Arab']",kor_Hang,Step50+sbeam8,"{'eng_Latn': 0.07, 'tur_Latn': 0.9}",0.9427112340927124
+tur_urd,"['tur_Latn', 'urd_Arab']",mon_Cyrl,Step50+sbeam8,"{'urd_Arab': 0.27, 'tur_Latn': 0.66}",0.897087037563324
+tur_urd,"['tur_Latn', 'urd_Arab']",hun_Latn,Step50+sbeam8,"{'tur_Latn': 0.56, 'hun_Latn': 0.32}",0.8886396884918213
+tur_urd,"['tur_Latn', 'urd_Arab']",mhr_Cyrl,Step50+sbeam8,{'tur_Latn': 0.84},0.8757652044296265
+tur_urd,"['tur_Latn', 'urd_Arab']",fin_Latn,Step50+sbeam8,"{'fin_Latn': 0.21, 'tur_Latn': 0.68}",0.9003421664237976
 pan_Guru,['pan_Guru'],deu_Latn,Step50+sbeam8,{},0.7435889840126038
 pan_Guru,['pan_Guru'],ydd_Hebr,Step50+sbeam8,{},0.7842010259628296
 pan_Guru,['pan_Guru'],heb_Hebr,Step50+sbeam8,{},0.7753543257713318
@@ -62,8 +57,8 @@ pan_Guru,['pan_Guru'],jpn_Jpan,Step50+sbeam8,{},0.7578665018081665
 pan_Guru,['pan_Guru'],kor_Hang,Step50+sbeam8,{},0.7887017726898193
 pan_Guru,['pan_Guru'],mon_Cyrl,Step50+sbeam8,{},0.7497720718383789
 pan_Guru,['pan_Guru'],hun_Latn,Step50+sbeam8,{},0.7439156174659729
-pan_Guru,['pan_Guru'],mhr_Cyrl,Step1,{},0.7514923810958862
-pan_Guru,['pan_Guru'],fin_Latn,Step1,{},0.7725412845611572
+pan_Guru,['pan_Guru'],mhr_Cyrl,Step50+sbeam8,{},0.779332160949707
+pan_Guru,['pan_Guru'],fin_Latn,Step50+sbeam8,{},0.7542138695716858
 urd_guj,"['urd_Arab', 'guj_Gujr']",deu_Latn,Step50+sbeam8,"{'eng_Latn': 0.52, 'deu_Latn': 0.12, 'guj_Gujr': 0.19, 'urd_Arab': 0.06}",0.8859659433364868
 urd_guj,"['urd_Arab', 'guj_Gujr']",ydd_Hebr,Step50+sbeam8,"{'guj_Gujr': 0.87, 'urd_Arab': 0.1}",0.8642258644104004
 urd_guj,"['urd_Arab', 'guj_Gujr']",heb_Hebr,Step50+sbeam8,"{'urd_Arab': 0.61, 'guj_Gujr': 0.26}",0.9022382497787476
@@ -99,15 +94,11 @@ heb_arb,"['heb_Hebr', 'arb_Arab']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.86},0.8
 heb_arb,"['heb_Hebr', 'arb_Arab']",kaz_Cyrl,Step50+sbeam8,"{'tur_Latn': 0.29, 'kaz_Cyrl': 0.13, 'eng_Latn': 0.13, 'arb_Arab': 0.15, 'mon_Cyrl': 0.07, 'heb_Hebr': 0.11}",0.7845054268836975
 heb_arb,"['heb_Hebr', 'arb_Arab']",cmn_Hani,Step50+sbeam8,"{'cmn_Hani': 0.06, 'arb_Arab': 0.18, 'heb_Hebr': 0.23, 'eng_Latn': 0.08}",0.8316807150840759
 heb_arb,"['heb_Hebr', 'arb_Arab']",jpn_Jpan,Step50+sbeam8,"{'arb_Arab': 0.14, 'eng_Latn': 0.29, 'heb_Hebr': 0.08, 'cmn_Hani': 0.09}",0.8500383496284485
-heb_arb,"['heb_Hebr', 'arb_Arab']",kor_Hang,Step1,"{'eng_Latn': 0.18, 'arb_Arab': 0.32, 'heb_Hebr': 0.26}",0.9228998422622681
-heb_arb,"['heb_Hebr', 'arb_Arab']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
-heb_arb,"['heb_Hebr', 'arb_Arab']",mon_Cyrl,Base,"{'deu_Latn': 0.08, 'arb_Arab': 0.1, 'eng_Latn': 0.3, 'mon_Cyrl': 0.07, 'tur_Latn': 0.08, 'kaz_Cyrl': 0.12}",0.8808060884475708
-heb_arb,"['heb_Hebr', 'arb_Arab']",hun_Latn,Labels,{'hun_Latn': 1.0},
-heb_arb,"['heb_Hebr', 'arb_Arab']",hun_Latn,Base,"{'tur_Latn': 0.11, 'eng_Latn': 0.11, 'hun_Latn': 0.09, 'deu_Latn': 0.15, 'fin_Latn': 0.09}",0.8853026628494263
-heb_arb,"['heb_Hebr', 'arb_Arab']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
-heb_arb,"['heb_Hebr', 'arb_Arab']",mhr_Cyrl,Base,"{'mon_Cyrl': 0.33, 'kaz_Cyrl': 0.36, 'arb_Arab': 0.06}",0.9095749855041504
-heb_arb,"['heb_Hebr', 'arb_Arab']",fin_Latn,Labels,{'fin_Latn': 0.99},
-heb_arb,"['heb_Hebr', 'arb_Arab']",fin_Latn,Base,"{'fin_Latn': 0.69, 'deu_Latn': 0.08}",0.8749634027481079
+heb_arb,"['heb_Hebr', 'arb_Arab']",kor_Hang,Step50+sbeam8,"{'heb_Hebr': 0.29, 'arb_Arab': 0.26, 'eng_Latn': 0.15}",0.847032368183136
+heb_arb,"['heb_Hebr', 'arb_Arab']",mon_Cyrl,Step50+sbeam8,"{'arb_Arab': 0.19, 'eng_Latn': 0.35, 'heb_Hebr': 0.07, 'mon_Cyrl': 0.06, 'kaz_Cyrl': 0.09}",0.8739566206932068
+heb_arb,"['heb_Hebr', 'arb_Arab']",hun_Latn,Step50+sbeam8,"{'tur_Latn': 0.09, 'heb_Hebr': 0.09, 'eng_Latn': 0.1, 'arb_Arab': 0.15, 'deu_Latn': 0.11, 'hun_Latn': 0.13}",0.7765262722969055
+heb_arb,"['heb_Hebr', 'arb_Arab']",mhr_Cyrl,Step50+sbeam8,"{'mon_Cyrl': 0.32, 'kaz_Cyrl': 0.32, 'arb_Arab': 0.06}",0.8749492168426514
+heb_arb,"['heb_Hebr', 'arb_Arab']",fin_Latn,Step50+sbeam8,"{'fin_Latn': 0.47, 'arb_Arab': 0.12, 'heb_Hebr': 0.2, 'deu_Latn': 0.07}",0.9316974878311157
 hin_guj,"['hin_Deva', 'guj_Gujr']",deu_Latn,Base,"{'deu_Latn': 0.64, 'eng_Latn': 0.24}",0.8655688166618347
 hin_guj,"['hin_Deva', 'guj_Gujr']",ydd_Hebr,Base,{'guj_Gujr': 0.92},0.9148331880569458
 hin_guj,"['hin_Deva', 'guj_Gujr']",heb_Hebr,Base,"{'hin_Deva': 0.83, 'eng_Latn': 0.1}",0.8623444437980652
@@ -124,13 +115,9 @@ hin_guj,"['hin_Deva', 'guj_Gujr']",kaz_Cyrl,Base,"{'guj_Gujr': 0.81, 'eng_Latn':
 hin_guj,"['hin_Deva', 'guj_Gujr']",cmn_Hani,Base,"{'cmn_Hani': 0.67, 'hin_Deva': 0.23}",0.8667217493057251
 hin_guj,"['hin_Deva', 'guj_Gujr']",jpn_Jpan,Base,"{'hin_Deva': 0.74, 'eng_Latn': 0.14}",0.8388362526893616
 hin_guj,"['hin_Deva', 'guj_Gujr']",kor_Hang,Base,"{'eng_Latn': 0.16, 'hin_Deva': 0.77}",0.9009177088737488
-hin_guj,"['hin_Deva', 'guj_Gujr']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
 hin_guj,"['hin_Deva', 'guj_Gujr']",mon_Cyrl,Base,{'guj_Gujr': 0.96},0.910183846950531
-hin_guj,"['hin_Deva', 'guj_Gujr']",hun_Latn,Labels,{'hun_Latn': 1.0},
 hin_guj,"['hin_Deva', 'guj_Gujr']",hun_Latn,Base,"{'guj_Gujr': 0.15, 'eng_Latn': 0.21, 'deu_Latn': 0.11}",0.8790318369865417
-hin_guj,"['hin_Deva', 'guj_Gujr']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
 hin_guj,"['hin_Deva', 'guj_Gujr']",mhr_Cyrl,Base,"{'guj_Gujr': 0.79, 'hin_Deva': 0.07}",0.8636174201965332
-hin_guj,"['hin_Deva', 'guj_Gujr']",fin_Latn,Labels,{'fin_Latn': 0.99},
 hin_guj,"['hin_Deva', 'guj_Gujr']",fin_Latn,Base,"{'eng_Latn': 0.3, 'deu_Latn': 0.07, 'fin_Latn': 0.14, 'hin_Deva': 0.07}",0.8474990129470825
 turkic-fami,"['tur_Latn', 'kaz_Cyrl']",deu_Latn,Step50+sbeam8,{'deu_Latn': 0.97},0.929986298084259
 turkic-fami,"['tur_Latn', 'kaz_Cyrl']",ydd_Hebr,Step50+sbeam8,"{'kaz_Cyrl': 0.85, 'tur_Latn': 0.08}",0.8469785451889038
@@ -167,15 +154,11 @@ tur_guj,"['tur_Latn', 'guj_Gujr']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.99},0.9
 tur_guj,"['tur_Latn', 'guj_Gujr']",kaz_Cyrl,Step50+sbeam8,"{'tur_Latn': 0.72, 'guj_Gujr': 0.26}",0.8772497177124023
 tur_guj,"['tur_Latn', 'guj_Gujr']",cmn_Hani,Step50+sbeam8,"{'tur_Latn': 0.32, 'eng_Latn': 0.14, 'guj_Gujr': 0.44}",0.8535017967224121
 tur_guj,"['tur_Latn', 'guj_Gujr']",jpn_Jpan,Step50+sbeam8,"{'tur_Latn': 0.73, 'guj_Gujr': 0.16, 'eng_Latn': 0.06}",0.8789825439453125
-tur_guj,"['tur_Latn', 'guj_Gujr']",kor_Hang,Step1,{'tur_Latn': 0.93},0.8657673001289368
-tur_guj,"['tur_Latn', 'guj_Gujr']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
-tur_guj,"['tur_Latn', 'guj_Gujr']",mon_Cyrl,Base,"{'guj_Gujr': 0.55, 'tur_Latn': 0.39}",0.8966662287712097
-tur_guj,"['tur_Latn', 'guj_Gujr']",hun_Latn,Labels,{'hun_Latn': 1.0},
-tur_guj,"['tur_Latn', 'guj_Gujr']",hun_Latn,Base,{'tur_Latn': 0.83},0.9010167121887207
-tur_guj,"['tur_Latn', 'guj_Gujr']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
-tur_guj,"['tur_Latn', 'guj_Gujr']",mhr_Cyrl,Base,{'tur_Latn': 0.96},0.8901631832122803
-tur_guj,"['tur_Latn', 'guj_Gujr']",fin_Latn,Labels,{'fin_Latn': 0.99},
-tur_guj,"['tur_Latn', 'guj_Gujr']",fin_Latn,Base,{'tur_Latn': 0.91},0.9052780866622925
+tur_guj,"['tur_Latn', 'guj_Gujr']",kor_Hang,Step50+sbeam8,{'tur_Latn': 0.89},0.8773651123046875
+tur_guj,"['tur_Latn', 'guj_Gujr']",mon_Cyrl,Step50+sbeam8,"{'guj_Gujr': 0.82, 'tur_Latn': 0.09}",0.8944892287254333
+tur_guj,"['tur_Latn', 'guj_Gujr']",hun_Latn,Step50+sbeam8,"{'tur_Latn': 0.57, 'hun_Latn': 0.3}",0.9150365591049194
+tur_guj,"['tur_Latn', 'guj_Gujr']",mhr_Cyrl,Step50+sbeam8,{'tur_Latn': 0.93},0.8585066795349121
+tur_guj,"['tur_Latn', 'guj_Gujr']",fin_Latn,Step50+sbeam8,"{'tur_Latn': 0.84, 'fin_Latn': 0.11}",0.9052184820175171
 heb_Hebr,['heb_Hebr'],deu_Latn,Base,"{'deu_Latn': 0.3, 'heb_Hebr': 0.59, 'eng_Latn': 0.07}",0.8745170831680298
 heb_Hebr,['heb_Hebr'],ydd_Hebr,Base,{'heb_Hebr': 0.97},0.9359233379364014
 heb_Hebr,['heb_Hebr'],heb_Hebr,Base,{'heb_Hebr': 1.0},0.964623212814331
@@ -201,19 +184,19 @@ tur_hin,"['tur_Latn', 'hin_Deva']",ydd_Hebr,Step50+sbeam8,"{'hin_Deva': 0.7, 'en
 tur_hin,"['tur_Latn', 'hin_Deva']",heb_Hebr,Step50+sbeam8,"{'tur_Latn': 0.37, 'hin_Deva': 0.52, 'eng_Latn': 0.08}",0.9153715372085571
 tur_hin,"['tur_Latn', 'hin_Deva']",arb_Arab,Step50+sbeam8,"{'tur_Latn': 0.22, 'eng_Latn': 0.56, 'hin_Deva': 0.14}",0.8435003757476807
 tur_hin,"['tur_Latn', 'hin_Deva']",amh_Ethi,Step50+sbeam8,"{'hin_Deva': 0.52, 'tur_Latn': 0.25, 'eng_Latn': 0.14}",0.8080177903175354
-tur_hin,"['tur_Latn', 'hin_Deva']",mlt_Latn,Step1,"{'tur_Latn': 0.6, 'eng_Latn': 0.19}",0.9064995646476746
-tur_hin,"['tur_Latn', 'hin_Deva']",hin_Deva,Step1,"{'hin_Deva': 0.74, 'eng_Latn': 0.23}",0.9742687940597534
-tur_hin,"['tur_Latn', 'hin_Deva']",urd_Arab,Step1,"{'hin_Deva': 0.89, 'eng_Latn': 0.06}",0.8954830765724182
+tur_hin,"['tur_Latn', 'hin_Deva']",mlt_Latn,Step50+sbeam8,"{'tur_Latn': 0.56, 'eng_Latn': 0.2}",0.9490439295768738
+tur_hin,"['tur_Latn', 'hin_Deva']",hin_Deva,Step50+sbeam8,"{'hin_Deva': 0.73, 'eng_Latn': 0.24}",0.9917275905609131
+tur_hin,"['tur_Latn', 'hin_Deva']",urd_Arab,Step50+sbeam8,"{'hin_Deva': 0.9, 'eng_Latn': 0.06}",0.8187690377235413
 tur_hin,"['tur_Latn', 'hin_Deva']",guj_Gujr,Step1,{'hin_Deva': 0.96},0.9141739010810852
-tur_hin,"['tur_Latn', 'hin_Deva']",sin_Sinh,Step1,"{'hin_Deva': 0.9, 'eng_Latn': 0.06}",0.8966716527938843
-tur_hin,"['tur_Latn', 'hin_Deva']",pan_Guru,Step1,{'hin_Deva': 0.98},0.8770855665206909
-tur_hin,"['tur_Latn', 'hin_Deva']",tur_Latn,Step1,{'tur_Latn': 0.99},0.9737738370895386
-tur_hin,"['tur_Latn', 'hin_Deva']",kaz_Cyrl,Step1,"{'tur_Latn': 0.9, 'hin_Deva': 0.06}",0.8747073411941528
-tur_hin,"['tur_Latn', 'hin_Deva']",cmn_Hani,Step1,"{'hin_Deva': 0.46, 'cmn_Hani': 0.41}",0.8040910959243774
-tur_hin,"['tur_Latn', 'hin_Deva']",jpn_Jpan,Step1,"{'tur_Latn': 0.27, 'hin_Deva': 0.6, 'eng_Latn': 0.08}",0.8650195598602295
-tur_hin,"['tur_Latn', 'hin_Deva']",kor_Hang,Step1,"{'eng_Latn': 0.07, 'tur_Latn': 0.67, 'hin_Deva': 0.21}",0.8972665071487427
-tur_hin,"['tur_Latn', 'hin_Deva']",mon_Cyrl,Step1,"{'tur_Latn': 0.61, 'eng_Latn': 0.06, 'hin_Deva': 0.28}",0.8931095600128174
-tur_hin,"['tur_Latn', 'hin_Deva']",hun_Latn,Step1,"{'tur_Latn': 0.73, 'hun_Latn': 0.16}",0.9062012434005737
+tur_hin,"['tur_Latn', 'hin_Deva']",sin_Sinh,Step50+sbeam8,{'hin_Deva': 0.91},0.8625937700271606
+tur_hin,"['tur_Latn', 'hin_Deva']",pan_Guru,Step50+sbeam8,{'hin_Deva': 0.98},0.9297916293144226
+tur_hin,"['tur_Latn', 'hin_Deva']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.99},0.9497952461242676
+tur_hin,"['tur_Latn', 'hin_Deva']",kaz_Cyrl,Step50+sbeam8,"{'tur_Latn': 0.9, 'hin_Deva': 0.06}",0.8846151828765869
+tur_hin,"['tur_Latn', 'hin_Deva']",cmn_Hani,Step50+sbeam8,"{'hin_Deva': 0.7, 'cmn_Hani': 0.15, 'eng_Latn': 0.06}",0.8127952814102173
+tur_hin,"['tur_Latn', 'hin_Deva']",jpn_Jpan,Step50+sbeam8,"{'hin_Deva': 0.67, 'tur_Latn': 0.17, 'eng_Latn': 0.1}",0.8725309371948242
+tur_hin,"['tur_Latn', 'hin_Deva']",kor_Hang,Step50+sbeam8,"{'eng_Latn': 0.08, 'hin_Deva': 0.21, 'tur_Latn': 0.66}",0.9399347901344299
+tur_hin,"['tur_Latn', 'hin_Deva']",mon_Cyrl,Step50+sbeam8,"{'tur_Latn': 0.57, 'eng_Latn': 0.06, 'hin_Deva': 0.28}",0.8080945611000061
+tur_hin,"['tur_Latn', 'hin_Deva']",hun_Latn,Step50+sbeam8,"{'tur_Latn': 0.75, 'hun_Latn': 0.14}",0.8905803561210632
 tur_hin,"['tur_Latn', 'hin_Deva']",mhr_Cyrl,Step1,{'tur_Latn': 0.88},0.8659886121749878
 tur_hin,"['tur_Latn', 'hin_Deva']",fin_Latn,Step1,"{'tur_Latn': 0.66, 'fin_Latn': 0.26}",0.8964453935623169
 kaz_urd,"['kaz_Cyrl', 'urd_Arab']",deu_Latn,Step50+sbeam8,{},0.7485858201980591
@@ -221,21 +204,21 @@ kaz_urd,"['kaz_Cyrl', 'urd_Arab']",ydd_Hebr,Step50+sbeam8,{},0.7504997849464417
 kaz_urd,"['kaz_Cyrl', 'urd_Arab']",heb_Hebr,Step50+sbeam8,{},0.7890361547470093
 kaz_urd,"['kaz_Cyrl', 'urd_Arab']",arb_Arab,Step50+sbeam8,{},0.7527723908424377
 kaz_urd,"['kaz_Cyrl', 'urd_Arab']",amh_Ethi,Step50+sbeam8,{},0.7819881439208984
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mlt_Latn,Step1,{},0.7717430591583252
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",hin_Deva,Step1,{},0.7446993589401245
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",urd_Arab,Step1,{},0.7686768770217896
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",guj_Gujr,Step1,{},0.7480088472366333
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",sin_Sinh,Step1,{},0.7645707130432129
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",pan_Guru,Step1,{},0.7354690432548523
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",tur_Latn,Step1,{},0.7528047561645508
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",kaz_Cyrl,Step1,{},0.7603806257247925
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",cmn_Hani,Step1,{},0.7888696193695068
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",jpn_Jpan,Step1,{},0.7546147108078003
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",kor_Hang,Step1,{},0.7719281315803528
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mon_Cyrl,Step1,{},0.7642687559127808
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",hun_Latn,Step1,{},0.7542813420295715
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mhr_Cyrl,Step1,{},0.7514923810958862
-kaz_urd,"['kaz_Cyrl', 'urd_Arab']",fin_Latn,Step1,{},0.7725412845611572
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mlt_Latn,Step50+sbeam8,{},0.778326153755188
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",hin_Deva,Step50+sbeam8,{},0.7303686141967773
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",urd_Arab,Step50+sbeam8,{},0.7821223735809326
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",guj_Gujr,Step50+sbeam8,{},0.7590312957763672
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",sin_Sinh,Step50+sbeam8,{},0.7736804485321045
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",pan_Guru,Step50+sbeam8,{},0.7190443277359009
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",tur_Latn,Step50+sbeam8,{},0.753628671169281
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",kaz_Cyrl,Step50+sbeam8,{},0.75279700756073
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",cmn_Hani,Step50+sbeam8,{},0.8002960681915283
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",jpn_Jpan,Step50+sbeam8,{},0.7578665018081665
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",kor_Hang,Step50+sbeam8,{},0.7887017726898193
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mon_Cyrl,Step50+sbeam8,{},0.7497720718383789
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",hun_Latn,Step50+sbeam8,{},0.7439156174659729
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",mhr_Cyrl,Step50+sbeam8,{},0.779332160949707
+kaz_urd,"['kaz_Cyrl', 'urd_Arab']",fin_Latn,Step50+sbeam8,{},0.7542138695716858
 deu_Latn,['deu_Latn'],deu_Latn,Step50+sbeam8,{'deu_Latn': 0.99},0.9981898069381714
 deu_Latn,['deu_Latn'],ydd_Hebr,Step1,{'deu_Latn': 0.87},0.8688660860061646
 deu_Latn,['deu_Latn'],heb_Hebr,Step50+sbeam8,{'deu_Latn': 0.99},0.9033399820327759
@@ -315,29 +298,29 @@ mon_Cyrl,['mon_Cyrl'],cmn_Hani,Step50+sbeam8,"{'cmn_Hani': 0.7, 'mon_Cyrl': 0.19
 mon_Cyrl,['mon_Cyrl'],jpn_Jpan,Step50+sbeam8,"{'jpn_Jpan': 0.71, 'cmn_Hani': 0.09, 'mon_Cyrl': 0.07}",0.8826624751091003
 mon_Cyrl,['mon_Cyrl'],kor_Hang,Step50+sbeam8,"{'cmn_Hani': 0.14, 'kor_Hang': 0.24, 'eng_Latn': 0.12, 'jpn_Jpan': 0.06, 'mon_Cyrl': 0.3}",0.8985748291015625
 mon_Cyrl,['mon_Cyrl'],mon_Cyrl,Step50+sbeam8,{'mon_Cyrl': 0.99},0.9742032885551453
-mon_Cyrl,['mon_Cyrl'],hun_Latn,Step1,"{'mon_Cyrl': 0.3, 'hun_Latn': 0.06, 'eng_Latn': 0.15, 'deu_Latn': 0.13}",0.8760399222373962
-mon_Cyrl,['mon_Cyrl'],mhr_Cyrl,Step1,{'mon_Cyrl': 0.94},0.8901700973510742
-mon_Cyrl,['mon_Cyrl'],fin_Latn,Step1,"{'fin_Latn': 0.09, 'mon_Cyrl': 0.43, 'eng_Latn': 0.17, 'deu_Latn': 0.11}",0.8673252463340759
+mon_Cyrl,['mon_Cyrl'],hun_Latn,Step50+sbeam8,"{'mon_Cyrl': 0.34, 'eng_Latn': 0.14, 'deu_Latn': 0.13}",0.8900116682052612
+mon_Cyrl,['mon_Cyrl'],mhr_Cyrl,Step50+sbeam8,{'mon_Cyrl': 0.95},0.851561427116394
+mon_Cyrl,['mon_Cyrl'],fin_Latn,Step50+sbeam8,"{'mon_Cyrl': 0.57, 'deu_Latn': 0.07, 'fin_Latn': 0.07, 'eng_Latn': 0.13}",0.8376750349998474
 kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",deu_Latn,Step50+sbeam8,"{'eng_Latn': 0.15, 'deu_Latn': 0.53, 'guj_Gujr': 0.24}",0.9085533618927002
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",ydd_Hebr,Step1,"{'guj_Gujr': 0.36, 'kaz_Cyrl': 0.58}",0.8988165855407715
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",heb_Hebr,Step1,"{'guj_Gujr': 0.53, 'eng_Latn': 0.13, 'kaz_Cyrl': 0.2}",0.8958467245101929
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",arb_Arab,Step1,"{'eng_Latn': 0.59, 'guj_Gujr': 0.35}",0.8650563359260559
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",amh_Ethi,Step1,"{'guj_Gujr': 0.76, 'kaz_Cyrl': 0.17}",0.8436157703399658
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mlt_Latn,Step1,"{'eng_Latn': 0.27, 'kaz_Cyrl': 0.53}",0.8952261209487915
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",hin_Deva,Step1,"{'eng_Latn': 0.24, 'guj_Gujr': 0.72}",0.8827178478240967
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",urd_Arab,Step1,{'guj_Gujr': 0.95},0.8941165208816528
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",guj_Gujr,Step1,{'guj_Gujr': 0.99},0.9804019927978516
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",sin_Sinh,Step1,{'guj_Gujr': 0.97},0.9389405846595764
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",pan_Guru,Step1,{'guj_Gujr': 0.99},0.9312787055969238
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",tur_Latn,Step1,"{'tur_Latn': 0.34, 'kaz_Cyrl': 0.39, 'eng_Latn': 0.09}",0.8948584794998169
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",kaz_Cyrl,Step1,{'kaz_Cyrl': 1.0},0.9800427556037903
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",cmn_Hani,Step1,"{'guj_Gujr': 0.34, 'kaz_Cyrl': 0.15, 'eng_Latn': 0.23}",0.7751176953315735
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",jpn_Jpan,Step1,"{'guj_Gujr': 0.48, 'eng_Latn': 0.19, 'kaz_Cyrl': 0.18}",0.8621564507484436
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",kor_Hang,Step1,"{'guj_Gujr': 0.64, 'eng_Latn': 0.2, 'kaz_Cyrl': 0.08}",0.8807395696640015
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mon_Cyrl,Step1,{'kaz_Cyrl': 0.94},0.9259122014045715
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",hun_Latn,Step1,"{'kaz_Cyrl': 0.68, 'eng_Latn': 0.08}",0.860033392906189
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mhr_Cyrl,Step1,{'kaz_Cyrl': 0.91},0.9200782775878906
-kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",fin_Latn,Step1,"{'kaz_Cyrl': 0.61, 'eng_Latn': 0.16, 'mon_Cyrl': 0.08}",0.8571932315826416
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",ydd_Hebr,Step50+sbeam8,"{'guj_Gujr': 0.48, 'kaz_Cyrl': 0.48}",0.9191572070121765
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",heb_Hebr,Step50+sbeam8,"{'guj_Gujr': 0.6, 'eng_Latn': 0.08, 'kaz_Cyrl': 0.2}",0.8644888401031494
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",arb_Arab,Step50+sbeam8,"{'eng_Latn': 0.57, 'guj_Gujr': 0.39}",0.8432262539863586
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",amh_Ethi,Step50+sbeam8,"{'guj_Gujr': 0.77, 'kaz_Cyrl': 0.15}",0.890049934387207
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mlt_Latn,Step50+sbeam8,"{'eng_Latn': 0.28, 'kaz_Cyrl': 0.5}",0.9498174786567688
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",hin_Deva,Step50+sbeam8,"{'eng_Latn': 0.23, 'guj_Gujr': 0.74}",0.9219005107879639
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",urd_Arab,Step50+sbeam8,{'guj_Gujr': 0.96},0.9145546555519104
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",guj_Gujr,Step50+sbeam8,{'guj_Gujr': 0.99},0.9808684587478638
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",sin_Sinh,Step50+sbeam8,{'guj_Gujr': 0.98},0.9286231994628906
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",pan_Guru,Step50+sbeam8,{'guj_Gujr': 0.99},0.922730028629303
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",tur_Latn,Step50+sbeam8,"{'kaz_Cyrl': 0.51, 'tur_Latn': 0.22, 'eng_Latn': 0.08}",0.8561070561408997
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",kaz_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.99},0.9840887784957886
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",cmn_Hani,Step50+sbeam8,"{'guj_Gujr': 0.38, 'kaz_Cyrl': 0.14, 'eng_Latn': 0.19}",0.8314170241355896
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",jpn_Jpan,Step50+sbeam8,"{'guj_Gujr': 0.48, 'eng_Latn': 0.17, 'kaz_Cyrl': 0.17}",0.8771134614944458
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",kor_Hang,Step50+sbeam8,"{'eng_Latn': 0.18, 'guj_Gujr': 0.64, 'kaz_Cyrl': 0.1}",0.9346185922622681
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mon_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.94},0.931732714176178
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",hun_Latn,Step50+sbeam8,"{'kaz_Cyrl': 0.71, 'eng_Latn': 0.07}",0.7924638390541077
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",mhr_Cyrl,Step50+sbeam8,"{'kaz_Cyrl': 0.88, 'mon_Cyrl': 0.06}",0.7862955927848816
+kaz_guj,"['kaz_Cyrl', 'guj_Gujr']",fin_Latn,Step50+sbeam8,"{'kaz_Cyrl': 0.65, 'mon_Cyrl': 0.08, 'eng_Latn': 0.13}",0.8597743511199951
 kaz_hin,"['kaz_Cyrl', 'hin_Deva']",deu_Latn,Base,{'deu_Latn': 0.92},0.895574152469635
 kaz_hin,"['kaz_Cyrl', 'hin_Deva']",ydd_Hebr,Base,{'kaz_Cyrl': 0.95},0.9037367105484009
 kaz_hin,"['kaz_Cyrl', 'hin_Deva']",heb_Hebr,Base,"{'eng_Latn': 0.27, 'hin_Deva': 0.5, 'kaz_Cyrl': 0.07}",0.879069447517395
@@ -413,11 +396,11 @@ kaz_Cyrl,['kaz_Cyrl'],tur_Latn,Step50+sbeam8,"{'tur_Latn': 0.21, 'kaz_Cyrl': 0.5
 kaz_Cyrl,['kaz_Cyrl'],kaz_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.99},0.9859778881072998
 kaz_Cyrl,['kaz_Cyrl'],cmn_Hani,Step50+sbeam8,"{'kaz_Cyrl': 0.52, 'eng_Latn': 0.25}",0.7757003903388977
 kaz_Cyrl,['kaz_Cyrl'],jpn_Jpan,Step50+sbeam8,"{'kaz_Cyrl': 0.61, 'eng_Latn': 0.19}",0.8497061729431152
-kaz_Cyrl,['kaz_Cyrl'],kor_Hang,Step1,"{'kaz_Cyrl': 0.68, 'eng_Latn': 0.15}",0.8766454458236694
-kaz_Cyrl,['kaz_Cyrl'],mon_Cyrl,Step1,{'kaz_Cyrl': 0.98},0.9376083016395569
-kaz_Cyrl,['kaz_Cyrl'],hun_Latn,Step1,"{'kaz_Cyrl': 0.66, 'eng_Latn': 0.07}",0.8994527459144592
-kaz_Cyrl,['kaz_Cyrl'],mhr_Cyrl,Step1,{'kaz_Cyrl': 0.91},0.8689402341842651
-kaz_Cyrl,['kaz_Cyrl'],fin_Latn,Step1,"{'kaz_Cyrl': 0.58, 'eng_Latn': 0.27}",0.8368062973022461
+kaz_Cyrl,['kaz_Cyrl'],kor_Hang,Step50+sbeam8,"{'kaz_Cyrl': 0.66, 'eng_Latn': 0.15}",0.8695210218429565
+kaz_Cyrl,['kaz_Cyrl'],mon_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.97},0.9596718549728394
+kaz_Cyrl,['kaz_Cyrl'],hun_Latn,Step50+sbeam8,"{'kaz_Cyrl': 0.69, 'eng_Latn': 0.06}",0.8987401127815247
+kaz_Cyrl,['kaz_Cyrl'],mhr_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.91},0.8183075785636902
+kaz_Cyrl,['kaz_Cyrl'],fin_Latn,Step50+sbeam8,"{'kaz_Cyrl': 0.59, 'eng_Latn': 0.23}",0.8209652900695801
 hin_pan,"['hin_Deva', 'pan_Guru']",deu_Latn,Step50+sbeam8,"{'deu_Latn': 0.63, 'eng_Latn': 0.16}",0.8816745281219482
 hin_pan,"['hin_Deva', 'pan_Guru']",ydd_Hebr,Step50+sbeam8,"{'pan_Guru': 0.85, 'eng_Latn': 0.06}",0.8510162830352783
 hin_pan,"['hin_Deva', 'pan_Guru']",heb_Hebr,Step50+sbeam8,"{'hin_Deva': 0.84, 'eng_Latn': 0.1}",0.8481546640396118
@@ -493,15 +476,11 @@ tur_pan,"['tur_Latn', 'pan_Guru']",tur_Latn,Step50+sbeam8,{'tur_Latn': 0.99},0.9
 tur_pan,"['tur_Latn', 'pan_Guru']",kaz_Cyrl,Step50+sbeam8,"{'pan_Guru': 0.13, 'tur_Latn': 0.84}",0.8111107349395752
 tur_pan,"['tur_Latn', 'pan_Guru']",cmn_Hani,Step50+sbeam8,"{'tur_Latn': 0.43, 'pan_Guru': 0.45, 'eng_Latn': 0.06}",0.8478501439094543
 tur_pan,"['tur_Latn', 'pan_Guru']",jpn_Jpan,Step50+sbeam8,"{'pan_Guru': 0.18, 'tur_Latn': 0.62, 'eng_Latn': 0.08}",0.8291612863540649
-tur_pan,"['tur_Latn', 'pan_Guru']",kor_Hang,Step1,{'tur_Latn': 0.94},0.9113109707832336
-tur_pan,"['tur_Latn', 'pan_Guru']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
-tur_pan,"['tur_Latn', 'pan_Guru']",mon_Cyrl,Base,"{'pan_Guru': 0.44, 'tur_Latn': 0.52}",0.906948447227478
-tur_pan,"['tur_Latn', 'pan_Guru']",hun_Latn,Labels,{'hun_Latn': 1.0},
-tur_pan,"['tur_Latn', 'pan_Guru']",hun_Latn,Base,{'tur_Latn': 0.84},0.9023882150650024
-tur_pan,"['tur_Latn', 'pan_Guru']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
-tur_pan,"['tur_Latn', 'pan_Guru']",mhr_Cyrl,Base,{'tur_Latn': 0.97},0.8817254900932312
-tur_pan,"['tur_Latn', 'pan_Guru']",fin_Latn,Labels,{'fin_Latn': 0.99},
-tur_pan,"['tur_Latn', 'pan_Guru']",fin_Latn,Base,"{'tur_Latn': 0.83, 'fin_Latn': 0.06}",0.8933674097061157
+tur_pan,"['tur_Latn', 'pan_Guru']",kor_Hang,Step50+sbeam8,{'tur_Latn': 0.92},0.9448971152305603
+tur_pan,"['tur_Latn', 'pan_Guru']",mon_Cyrl,Step50+sbeam8,"{'pan_Guru': 0.77, 'tur_Latn': 0.18}",0.9275039434432983
+tur_pan,"['tur_Latn', 'pan_Guru']",hun_Latn,Step50+sbeam8,"{'hun_Latn': 0.41, 'tur_Latn': 0.45}",0.8435379862785339
+tur_pan,"['tur_Latn', 'pan_Guru']",mhr_Cyrl,Step50+sbeam8,{'tur_Latn': 0.87},0.8611786365509033
+tur_pan,"['tur_Latn', 'pan_Guru']",fin_Latn,Step50+sbeam8,"{'tur_Latn': 0.85, 'fin_Latn': 0.07}",0.8932512998580933
 pan_guj,"['pan_Guru', 'guj_Gujr']",deu_Latn,Base,"{'eng_Latn': 0.58, 'guj_Gujr': 0.12, 'pan_Guru': 0.13}",0.873703122138977
 pan_guj,"['pan_Guru', 'guj_Gujr']",ydd_Hebr,Base,{'guj_Gujr': 0.91},0.9070823192596436
 pan_guj,"['pan_Guru', 'guj_Gujr']",heb_Hebr,Base,"{'pan_Guru': 0.71, 'eng_Latn': 0.18}",0.8896424770355225
@@ -553,23 +532,15 @@ kaz_pan,"['kaz_Cyrl', 'pan_Guru']",urd_Arab,Step50+sbeam8,{'pan_Guru': 0.98},0.9
 kaz_pan,"['kaz_Cyrl', 'pan_Guru']",guj_Gujr,Step50+sbeam8,{'pan_Guru': 0.99},0.949670672416687
 kaz_pan,"['kaz_Cyrl', 'pan_Guru']",sin_Sinh,Step50+sbeam8,{'pan_Guru': 0.99},0.9224931001663208
 kaz_pan,"['kaz_Cyrl', 'pan_Guru']",pan_Guru,Step50+sbeam8,{'pan_Guru': 1.0},0.9941664934158325
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",tur_Latn,Step1,"{'kaz_Cyrl': 0.53, 'tur_Latn': 0.19, 'eng_Latn': 0.1}",0.8912935853004456
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kaz_Cyrl,Labels,{'kaz_Cyrl': 0.99},
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kaz_Cyrl,Base,{'kaz_Cyrl': 0.99},0.9608709812164307
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",cmn_Hani,Labels,{'cmn_Hani': 1.0},
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",cmn_Hani,Base,"{'pan_Guru': 0.5, 'eng_Latn': 0.32, 'kaz_Cyrl': 0.06}",0.7932111024856567
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",jpn_Jpan,Labels,{'jpn_Jpan': 0.99},
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",jpn_Jpan,Base,"{'pan_Guru': 0.41, 'kaz_Cyrl': 0.19, 'eng_Latn': 0.24}",0.8376021385192871
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kor_Hang,Labels,{'kor_Hang': 0.99},
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kor_Hang,Base,"{'eng_Latn': 0.36, 'pan_Guru': 0.42, 'kaz_Cyrl': 0.14}",0.8940920829772949
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mon_Cyrl,Labels,{'mon_Cyrl': 0.99},
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mon_Cyrl,Base,{'kaz_Cyrl': 0.97},0.945859432220459
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",hun_Latn,Labels,{'hun_Latn': 1.0},
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",hun_Latn,Base,"{'kaz_Cyrl': 0.54, 'eng_Latn': 0.12}",0.9066080451011658
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mhr_Cyrl,Base,{'kaz_Cyrl': 0.93},0.930300772190094
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",fin_Latn,Labels,{'fin_Latn': 0.99},
-kaz_pan,"['kaz_Cyrl', 'pan_Guru']",fin_Latn,Base,"{'kaz_Cyrl': 0.18, 'eng_Latn': 0.55}",0.8632845878601074
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",tur_Latn,Step50+sbeam8,"{'kaz_Cyrl': 0.65, 'tur_Latn': 0.11, 'eng_Latn': 0.09}",0.8805512189865112
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kaz_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.99},0.9824267625808716
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",cmn_Hani,Step50+sbeam8,"{'pan_Guru': 0.62, 'eng_Latn': 0.17}",0.8058629631996155
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",jpn_Jpan,Step50+sbeam8,"{'pan_Guru': 0.43, 'eng_Latn': 0.22, 'kaz_Cyrl': 0.2}",0.8683681488037109
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",kor_Hang,Step50+sbeam8,"{'eng_Latn': 0.19, 'pan_Guru': 0.61, 'kaz_Cyrl': 0.13}",0.9393014907836914
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mon_Cyrl,Step50+sbeam8,{'kaz_Cyrl': 0.94},0.9472626447677612
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",hun_Latn,Step50+sbeam8,"{'kaz_Cyrl': 0.73, 'eng_Latn': 0.06}",0.8784257769584656
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",mhr_Cyrl,Step50+sbeam8,"{'kaz_Cyrl': 0.88, 'mon_Cyrl': 0.06}",0.877845048904419
+kaz_pan,"['kaz_Cyrl', 'pan_Guru']",fin_Latn,Step50+sbeam8,"{'kaz_Cyrl': 0.41, 'eng_Latn': 0.45}",0.8571578860282898
 jpn_Jpan,['jpn_Jpan'],deu_Latn,Base,"{'deu_Latn': 0.62, 'jpn_Jpan': 0.34}",0.893114447593689
 jpn_Jpan,['jpn_Jpan'],ydd_Hebr,Base,"{'jpn_Jpan': 0.59, 'eng_Latn': 0.19, 'cmn_Hani': 0.09}",0.8655405044555664
 jpn_Jpan,['jpn_Jpan'],heb_Hebr,Base,"{'jpn_Jpan': 0.77, 'eng_Latn': 0.15}",0.8773921728134155
