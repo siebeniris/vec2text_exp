@@ -122,7 +122,7 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", d
     # drop the empty cells
     df_lang = df_lang[df_lang["pred_langs"] != {}]
     # cos_sim
-    df_lang = df_lang.dropna(subset=["emb_cos_sim"])
+    # df_lang = df_lang.dropna(subset=["emb_cos_sim"])
 
     # get all the languages from
     all_langs = set(lang for preds in df_lang['pred_langs'] for lang in preds.keys())

@@ -90,11 +90,12 @@ def get_model2langs(langdist):
 
             for eval_lang, steps_eval in langs_dict.items():
                 if eval_lang not in model2langs[model_name]:
-                    model2langs[model_name][eval_lang] = steps_eval
+                    model2langs[model_name][eval_lang] = dict()
+
                 for step, eval in steps_eval.items():
                     if step not in model2langs[model_name][eval_lang]:
-                        model2langs[model_name][eval_lang] = dict()
-                    model2langs[model_name][eval_lang][step] = eval
+                        model2langs[model_name][eval_lang][step] = eval
+                    # model2langs[model_name][eval_lang][step] = eval
     # output to model2langs.json
     key2lang = get_key2lang(model2langs)
 
