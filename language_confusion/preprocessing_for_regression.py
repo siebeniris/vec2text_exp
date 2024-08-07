@@ -1,14 +1,10 @@
 import pandas as pd
 import json
-import os
 
 from ast import literal_eval
 from itertools import product
 from sklearn.preprocessing import MultiLabelBinarizer, LabelEncoder, OneHotEncoder
 from sklearn.model_selection import train_test_split
-from sklearn.multioutput import MultiOutputRegressor
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
 
 eval_langs = [
     'deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
@@ -119,22 +115,18 @@ def get_lang2lang_lr_dict(eval_langs_list):
     return lang2lang_lr
 
 
-def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", cos_sim=True):
+def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", data_type="mono"):
     # reading the model2langs.csv
     df_lang = pd.read_csv(file)
     df_lang['pred_langs'] = df_lang['pred_langs'].apply(literal_eval)
     # drop the empty cells
     df_lang = df_lang[df_lang["pred_langs"] != {}]
-    if cos_sim:
-        df_lang = df_lang.dropna(subset=["emb_cos_sim"])
+    # cos_sim
+    df_lang = df_lang.dropna(subset=["emb_cos_sim"])
 
     # get all the languages from
     all_langs = set(lang for preds in df_lang['pred_langs'] for lang in preds.keys())
     print(f"{len(all_langs)} languages in the dataset")
-
-    # probability of languages.
-    probs_df = pd.DataFrame(df_lang['pred_langs'].tolist(), index=df_lang.index).fillna(0)
-    probs_df["other"] = 1 - probs_df.sum(axis=1)
 
     # make languages numerical
     label_encoder_eval = LabelEncoder()
@@ -151,6 +143,16 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", c
     print(f"df_lang length {len(df_lang)}")
 
     eval_langs_list = eval_langs
+
+    ################################################################
+    # # crosslingual eval_lang not in training
+    # def crosslingual(x, y):
+    #     if y in x:
+    #         return False
+    #     else:
+    #         return True
+    #
+    # df_lang["crosslingual"] = df_lang.apply(lambda x: crosslingual(x["training"], x["eval_lang"]), axis=1)
 
     ################################
     # ablation1. script
@@ -216,6 +218,9 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", c
 
     df_lang["training_script_lr"] = df_lang["training"].apply(get_script_lr_for_training_data)
 
+    ###########################################################################
+    df_lang = df_lang[df_lang["crosslingual"]]
+
     # get training dataframe.
     df_train = pd.concat([df_lang, training_encoded_df], axis=1)
 
@@ -225,32 +230,29 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", c
     step_encoded_df = pd.DataFrame(step_encoded, columns=onehot_encoder.get_feature_names_out(['step']))
 
     df_train = pd.concat([df_train, step_encoded_df], axis=1)
+    df_train = df_train.dropna()
+    print(df_train)
+    print(len(df_train))
+
+    # probability of languages.
+    probs_df = pd.DataFrame(df_train['pred_langs'].tolist(), index=df_train.index).fillna(0)
+    probs_df["other"] = 1 - probs_df.sum(axis=1)
 
     probs_df.to_csv("language_confusion/data/y_data.csv", index=False)
     df_train.to_csv("language_confusion/data/train_data.csv", index=False)
-    print(df_train)
 
-    if cos_sim:
-        X = df_train.drop(columns=['model', 'eval_lang', 'step', 'pred_langs', "training"])
-    else:
-        X = df_train.drop(
-            columns=['model', 'eval_lang', 'step', 'pred_langs', "training",  "emb_cos_sim"])
+    X = df_train.drop(columns=['model', 'eval_lang', 'step', 'pred_langs', "training"])
 
     y = probs_df
     languages = list(y.columns)
 
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
-    if cos_sim:
-        X_train.to_csv("language_confusion/data/X_cos_train.csv")
-        y_train.to_csv("language_confusion/data/y_cos_train.csv")
-        X_test.to_csv("language_confusion/data/X_cos_test.csv")
-        y_test.to_csv("language_confusion/data/y_cos_test.csv")
-    else:
-        X_train.to_csv("language_confusion/data/X_train.csv")
-        y_train.to_csv("language_confusion/data/y_train.csv")
-        X_test.to_csv("language_confusion/data/X_test.csv")
-        y_test.to_csv("language_confusion/data/y_test.csv")
+    # save train/test data
+    X_train.to_csv("language_confusion/data/X_train.csv")
+    y_train.to_csv("language_confusion/data/y_train.csv")
+    X_test.to_csv("language_confusion/data/X_test.csv")
+    y_test.to_csv("language_confusion/data/y_test.csv")
 
     with open("language_confusion/data/languages.json", "w") as f:
         json.dump(languages, f)

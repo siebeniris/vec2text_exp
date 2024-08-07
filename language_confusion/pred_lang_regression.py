@@ -19,18 +19,13 @@ with open("language_confusion/data/languages.json") as f:
     languages = json.load(f)
 
 
-def load_data(cos_sim=True, data_dir="language_confusion/data"):
+def load_data(data_dir="language_confusion/data"):
     print(f"Loading data ...")
-    if cos_sim:
-        X_test = pd.read_csv(f"{data_dir}/X_cos_test.csv", index_col=0)
-        X_train = pd.read_csv(f"{data_dir}/X_cos_train.csv", index_col=0)
-        y_test = pd.read_csv(f"{data_dir}/y_cos_test.csv", index_col=0)
-        y_train = pd.read_csv(f"{data_dir}/y_cos_train.csv", index_col=0)
-    else:
-        X_test = pd.read_csv(f"{data_dir}/X_test.csv", index_col=0)
-        X_train = pd.read_csv(f"{data_dir}/X_train.csv", index_col=0)
-        y_test = pd.read_csv(f"{data_dir}/y_test.csv", index_col=0)
-        y_train = pd.read_csv(f"{data_dir}/y_train.csv", index_col=0)
+
+    X_test = pd.read_csv(f"{data_dir}/X_test.csv", index_col=0)
+    X_train = pd.read_csv(f"{data_dir}/X_train.csv", index_col=0)
+    y_test = pd.read_csv(f"{data_dir}/y_test.csv", index_col=0)
+    y_train = pd.read_csv(f"{data_dir}/y_train.csv", index_col=0)
 
     return X_train, y_train, X_test, y_test
 
@@ -66,40 +61,29 @@ def RandomForest(X_train, y_train, X_test, y_test):
     return df_mse
 
 
-def run_regression_ablation(regressor="random_forest", cos_sim=True):
+def run_regression_ablation(regressor="random_forest"):
     # eval_lang_encoded,script,family,script_lr,training_script_lr,
     # training lang and steps.
     #  arb_Arab,cmn_Hani,deu_Latn,guj_Gujr,heb_Hebr,hin_Deva,jpn_Jpan,kaz_Cyrl,mon_Cyrl,pan_Guru,tur_Latn,urd_Arab,step_Base,step_Step1,step_Step50+sbeam8
 
     # same script
     variables = ["script", "family", "script_lr", "training_script_lr", "emb_cos_sim"]
-    variables_ = ["script", "family", "script_lr", "training_script_lr"]
-    if cos_sim:
-        all_combs = all_subsets(variables)
-    else:
-        all_combs = all_subsets(variables_)
+
+    all_combs = all_subsets(variables)
 
     for comb in all_combs:
         print(f"minus {comb}")
-        X_train, y_train, X_test, y_test = load_data(cos_sim=cos_sim)
+        X_train, y_train, X_test, y_test = load_data()
 
-        if cos_sim:
-
-            remain_columns = list(set(list(variables)).difference(set(list(comb))))
-            print(f"remaining columns: {remain_columns}")
-        else:
-            remain_columns = list(set(list(variables_)).difference(set(list(comb))))
-            print(f"remaining columns: {remain_columns}")
+        remain_columns = sorted(list(set(list(variables)).difference(set(list(comb)))))
+        print(f"remaining columns: {remain_columns}")
 
         if len(comb) > 0:
             X_train = X_train.drop(columns=list(comb))
             X_test = X_test.drop(columns=list(comb))
 
         if regressor == "random_forest":
-            if cos_sim:
-                filename = f"language_confusion/results/random_forest/cos/all-{','.join(remain_columns)}.csv"
-            else:
-                filename = f"language_confusion/results/random_forest/all-{','.join(remain_columns)}.csv"
+            filename = f"language_confusion/results/random_forest/baseline+{','.join(remain_columns)}.csv"
 
             df_mse = RandomForest(X_train, y_train, X_test, y_test)
             df_mse.to_csv(filename, index=False)
