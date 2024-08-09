@@ -28,6 +28,6 @@ python evaluations/03_collect_eval_results.py monolingual results/mt5_mono/
 4. json2df
 
 ```
-python -m evaluations.04_json2df
+python -m evaluations.04_json2df results/mt5_mono/
 ```
 output `results/mt5_me5/`

@@ -59,9 +59,9 @@ model_list_corrector = [
     'mt5_me5_kaz_pan_32_2layers_corrector', 'mt5_me5_kaz_guj_32_2layers_corrector',
     'mt5_me5_kaz_hin_32_2layers_corrector']
 
-model_list_inverter_mono = ["mt5_gtr_deu_Latn_inverter", "mt5_alephbert_heb_Hebr_inverter", "mt5_text2vec_cmn_Hani_inverter"]
+model_list_inverter_mono = ["mt5_gtr_deu_Latn_32_inverter", "mt5_alephbert_heb_Hebr_32_inverter", "mt5_text2vec_cmn_Hani_32_inverter"]
 
-model_list_corrector_mono = ["mt5_gtr_deu_Latn_corrector", "mt5_alephbert_heb_Hebr_corrector", "mt5_text2vec_cmn_Hani_corrector"]
+model_list_corrector_mono = ["mt5_gtr_deu_Latn_32_corrector", "mt5_alephbert_heb_Hebr_32_corrector", "mt5_text2vec_cmn_Hani_32_corrector"]
 
 eval_langs = [
     'deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
