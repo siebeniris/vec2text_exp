@@ -14,7 +14,7 @@ hin_Deva,mt5_me5_hin_Deva_32_2layers_inverter,309740
 heb_Hebr,mt5_me5_heb_Hebr_32_2layers_corrector,"305278, 305984, 307863"
 deu_Latn,mt5_me5_deu_Latn_32_2layers_corrector,"305276, 305983, 307862"
 cmn_Hani,mt5_me5_cmn_Hani_32_2layers_corrector,"305286, 305385, 307723, 309096"
-arb_Arab,mt5_me5_arb_Arab_32_2layers_corrector,"309865, 310172, 310197, 312793"
+arb_Arab,mt5_me5_arb_Arab_32_2layers_corrector,"309865, 310172, 310197, 313916"
 jpn_Jpan,mt5_me5_jpn_Jpan_32_2layers_corrector,"309866, 310171, 310198"
 tur_Latn,mt5_me5_tur_Latn_32_2layers_corrector,"309957, 310937, 311995"
 kaz_Cyrl,mt5_me5_kaz_Cyrl_32_2layers_corrector,"309867, 310173, 310199, 312212"
@@ -45,7 +45,7 @@ urd_pan,mt5_me5_urd_pan_32_2layers_corrector,"310180, 310208, 310964, 312207"
 urd_guj,mt5_me5_urd_guj_32_2layers_corrector,"310015, 310966"
 urd_hin,mt5_me5_urd_hin_32_2layers_corrector,"310016, 310968"
 hin_pan,mt5_me5_hin_pan_32_2layers_corrector,"310017, 310969"
-hin_guj,mt5_me5_hin_guj_32_2layers_corrector,"310162, 312000"
+hin_guj,mt5_me5_hin_guj_32_2layers_corrector,"310162, 312000, 313941"
 pan_guj,mt5_me5_pan_guj_32_2layers_corrector,"310018, 310970"
 tur_urd,mt5_me5_tur_urd_32_2layers_inverter,309953
 tur_pan,mt5_me5_tur_pan_32_2layers_inverter,309952
