@@ -213,7 +213,11 @@
                 "embeddings_files": "saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722354377",
                 "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_Latn_32_2layers_prefix/evaluations/hun_Latn_steps-1.json"
             },
-            "beam width 8": {}
+            "beam width 8": {
+                "output_files": " saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722528515/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722528515",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_Latn_32_2layers_prefix/evaluations/hun_Latn_steps-50_sbeam-8.json"
+            }
         },
         "mhr_Cyrl": {
             "steps 1": {
@@ -221,7 +225,11 @@
                 "embeddings_files": "saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722428230",
                 "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_Latn_32_2layers_prefix/evaluations/mhr_Cyrl_steps-1.json"
             },
-            "beam width 8": {}
+            "beam width 8": {
+                "output_files": " saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722541480/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722541480",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_Latn_32_2layers_prefix/evaluations/mhr_Cyrl_steps-50_sbeam-8.json"
+            }
         },
         "fin_Latn": {
             "steps 1": {
@@ -229,7 +237,11 @@
                 "embeddings_files": "saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722428527",
                 "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_Latn_32_2layers_prefix/evaluations/fin_Latn_steps-1.json"
             },
-            "beam width 8": {}
+            "beam width 8": {
+                "output_files": " saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722554504/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_tur_Latn_32_2layers_corrector/decoded_eval_1722554504",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_tur_Latn_32_2layers_prefix/evaluations/fin_Latn_steps-50_sbeam-8.json"
+            }
         }
     }
 }
