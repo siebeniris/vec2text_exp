@@ -1,0 +1,4 @@
+,deu_Latn,mlt_Latn,tur_Latn,hun_Latn,fin_Latn,kaz_Cyrl,mhr_Cyrl,mon_Cyrl,ydd_Hebr,heb_Hebr,arb_Arab,urd_Arab,hin_Deva,guj_Gujr,pan_Guru,sin_Sinh,cmn_Hani,jpn_Jpan,kor_Hang,amh_Ethi
+mt5_alephbert_heb_Hebr_32_corrector,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+mt5_gtr_deu_Latn_32_corrector,0.018,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+mt5_text2vec_cmn_Hani_32_corrector,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

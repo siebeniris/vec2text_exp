@@ -1,4 +1,4 @@
 ,deu_Latn,mlt_Latn,tur_Latn,hun_Latn,fin_Latn,kaz_Cyrl,mhr_Cyrl,mon_Cyrl,ydd_Hebr,heb_Hebr,arb_Arab,urd_Arab,hin_Deva,guj_Gujr,sin_Sinh,pan_Guru,cmn_Hani,jpn_Jpan,kor_Hang,amh_Ethi
-gtr_deu_Latn_corrector,,,,,,,,,,,,,,,,,,,,
-alephbert_heb_Hebr_corrector,,,,,,,,,,,,,,,,,,,,
-text2vec_cmn_Hani_corrector,,,,,,,,,,,,,,,,,,,,
+mt5_gtr_deu_Latn_32_corrector,18.102,10.452,12.978,11.98,10.698,15.018,14.866,15.65,16.066,14.082,15.444,18.46,23.298,14.872,19.756,15.552,11.306,9.406,14.516,18.914
+mt5_alephbert_heb_Hebr_32_corrector,17.09,10.138,14.836,13.442,15.48,13.592,13.27,13.946,12.336,14.484,9.946,14.674,15.786,12.63,11.432,12.128,12.726,13.208,15.552,9.578
+mt5_text2vec_cmn_Hani_32_corrector,17.75,16.27,16.042,15.41,17.242,11.228,9.722,12.234,11.028,12.126,7.656,9.618,13.746,9.238,12.11,10.46,6.732,6.842,11.082,9.506
