@@ -8,6 +8,11 @@
 python language_confusion/post_eval.py multilingual inverter
 
 python language_confusion/post_eval.py multilingual corrector
+
+python language_confusion/post_eval.py monolingual inverter
+
+python language_confusion/post_eval.py monolingual corrector
+
 ```
 
 
@@ -15,11 +20,17 @@ python language_confusion/post_eval.py multilingual corrector
 
 ```
 
-python -m language_confusion.collect_token_set_eval multilingual token_set_f1
+python -m language_confusion.collect_token_set_eval multilingual token_set_f1 
 
-python -m language_confusion.collect_token_set_eval multilingual num_true_words
+python -m language_confusion.collect_token_set_eval multilingual num_true_words 
 
-python -m language_confusion.collect_token_set_eval multilingual num_pred_words
+python -m language_confusion.collect_token_set_eval multilingual num_pred_words 
+
+python -m language_confusion.collect_token_set_eval monolingual token_set_f1 results/mt5_mono
+
+python -m language_confusion.collect_token_set_eval monolingual num_true_words results/mt5_mono
+
+python -m language_confusion.collect_token_set_eval monolingual num_pred_words results/mt5_mono
 
 ```
 
