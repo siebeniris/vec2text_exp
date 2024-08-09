@@ -475,6 +475,7 @@ hin_guj,"['hin_Deva', 'guj_Gujr']",mhr_Cyrl,Step50+sbeam8,"{'eng_Latn': 0.19, 'g
 hin_guj,"['hin_Deva', 'guj_Gujr']",mhr_Cyrl,Base,"{'guj_Gujr': 0.79, 'hin_Deva': 0.07}",0.8636174201965332
 hin_guj,"['hin_Deva', 'guj_Gujr']",fin_Latn,Labels,{'fin_Latn': 0.99},
 hin_guj,"['hin_Deva', 'guj_Gujr']",fin_Latn,Step1,"{'eng_Latn': 0.31, 'hin_Deva': 0.24}",0.8259198665618896
+hin_guj,"['hin_Deva', 'guj_Gujr']",fin_Latn,Step50+sbeam8,"{'hin_Deva': 0.28, 'eng_Latn': 0.3}",0.7636908292770386
 hin_guj,"['hin_Deva', 'guj_Gujr']",fin_Latn,Base,"{'eng_Latn': 0.3, 'deu_Latn': 0.07, 'fin_Latn': 0.14, 'hin_Deva': 0.07}",0.8474990129470825
 turkic-fami,"['tur_Latn', 'kaz_Cyrl']",deu_Latn,Labels,{'deu_Latn': 1.0},
 turkic-fami,"['tur_Latn', 'kaz_Cyrl']",deu_Latn,Base,{'deu_Latn': 0.99},0.9139649868011475
@@ -789,9 +790,11 @@ tur_hin,"['tur_Latn', 'hin_Deva']",hun_Latn,Step50+sbeam8,"{'tur_Latn': 0.75, 'h
 tur_hin,"['tur_Latn', 'hin_Deva']",mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
 tur_hin,"['tur_Latn', 'hin_Deva']",mhr_Cyrl,Base,"{'tur_Latn': 0.79, 'kaz_Cyrl': 0.07, 'mon_Cyrl': 0.09}",0.8853282332420349
 tur_hin,"['tur_Latn', 'hin_Deva']",mhr_Cyrl,Step1,{'tur_Latn': 0.88},0.8659886121749878
+tur_hin,"['tur_Latn', 'hin_Deva']",mhr_Cyrl,Step50+sbeam8,{'tur_Latn': 0.88},0.8673194646835327
 tur_hin,"['tur_Latn', 'hin_Deva']",fin_Latn,Labels,{'fin_Latn': 0.99},
 tur_hin,"['tur_Latn', 'hin_Deva']",fin_Latn,Base,"{'fin_Latn': 0.64, 'tur_Latn': 0.25}",0.9107741117477417
 tur_hin,"['tur_Latn', 'hin_Deva']",fin_Latn,Step1,"{'tur_Latn': 0.66, 'fin_Latn': 0.26}",0.8964453935623169
+tur_hin,"['tur_Latn', 'hin_Deva']",fin_Latn,Step50+sbeam8,"{'tur_Latn': 0.77, 'fin_Latn': 0.17}",0.8939254879951477
 kaz_urd,"['kaz_Cyrl', 'urd_Arab']",deu_Latn,Labels,{'deu_Latn': 1.0},
 kaz_urd,"['kaz_Cyrl', 'urd_Arab']",deu_Latn,Base,"{'eng_Latn': 0.1, 'deu_Latn': 0.87}",0.875645101070404
 kaz_urd,"['kaz_Cyrl', 'urd_Arab']",deu_Latn,Step50+sbeam8,{},0.7485858201980591
@@ -1415,9 +1418,11 @@ arb_Arab,['arb_Arab'],mon_Cyrl,Step50+sbeam8,"{'eng_Latn': 0.25, 'arb_Arab': 0.5
 arb_Arab,['arb_Arab'],hun_Latn,Labels,{'hun_Latn': 1.0},
 arb_Arab,['arb_Arab'],hun_Latn,Base,"{'tur_Latn': 0.12, 'arb_Arab': 0.25, 'eng_Latn': 0.12, 'deu_Latn': 0.08}",0.8668651580810547
 arb_Arab,['arb_Arab'],hun_Latn,Step1,"{'arb_Arab': 0.43, 'eng_Latn': 0.1, 'tur_Latn': 0.06, 'deu_Latn': 0.06}",0.8678378462791443
+arb_Arab,['arb_Arab'],hun_Latn,Step50+sbeam8,"{'arb_Arab': 0.44, 'eng_Latn': 0.13, 'deu_Latn': 0.06}",0.8479839563369751
 arb_Arab,['arb_Arab'],mhr_Cyrl,Labels,"{'kaz_Cyrl': 0.61, 'mon_Cyrl': 0.26}",
 arb_Arab,['arb_Arab'],mhr_Cyrl,Base,"{'arb_Arab': 0.49, 'mon_Cyrl': 0.07, 'tur_Latn': 0.15, 'kaz_Cyrl': 0.06}",0.8555286526679993
 arb_Arab,['arb_Arab'],mhr_Cyrl,Step1,"{'arb_Arab': 0.62, 'kaz_Cyrl': 0.06, 'tur_Latn': 0.08, 'mon_Cyrl': 0.06}",0.8363240957260132
+arb_Arab,['arb_Arab'],mhr_Cyrl,Step50+sbeam8,"{'arb_Arab': 0.63, 'mon_Cyrl': 0.06, 'tur_Latn': 0.09}",0.7778074145317078
 arb_Arab,['arb_Arab'],fin_Latn,Labels,{'fin_Latn': 0.99},
 arb_Arab,['arb_Arab'],fin_Latn,Base,"{'eng_Latn': 0.12, 'arb_Arab': 0.29, 'deu_Latn': 0.06}",0.8381892442703247
 arb_Arab,['arb_Arab'],fin_Latn,Step1,"{'eng_Latn': 0.14, 'arb_Arab': 0.39, 'deu_Latn': 0.06, 'tur_Latn': 0.08}",0.8244220018386841
