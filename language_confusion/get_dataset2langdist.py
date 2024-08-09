@@ -90,23 +90,46 @@ def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
                             break
 
 
-def main():
+def main(lingual="mono"):
     dataset2langdist = defaultdict(dict)
+    if lingual=="mono":
+        print("processing mono")
+        for file in os.listdir("eval_logs/monolingual"):
+            filepath = os.path.join("eval_logs/monolingual", file)
+            if filepath.endswith(".json"):
+                for step_ in [1, 50]:
+                    get_lang_confusion_for_one_model(dataset2langdist, filepath, step_=step_)
+        with open("language_confusion/dataset2langdist_mono.json", "w") as f:
+            json.dump(dataset2langdist, f)
 
-    for file in os.listdir("eval_logs/monolingual"):
-        filepath = os.path.join("eval_logs/monolingual", file)
-        if filepath.endswith(".json"):
-            for step_ in [1, 50]:
-                get_lang_confusion_for_one_model(dataset2langdist, filepath, step_=step_)
+    elif lingual == "multi":
+        print("processing multi")
+        for file in os.listdir("eval_logs/multilingual"):
+            filepath = os.path.join("eval_logs/multilingual", file)
+            if filepath.endswith(".json"):
+                for step_ in [1, 50]:
+                    get_lang_confusion_for_one_model(dataset2langdist, filepath, step_=step_)
 
-    for file in os.listdir("eval_logs/multilingual"):
-        filepath = os.path.join("eval_logs/multilingual", file)
-        if filepath.endswith(".json"):
-            for step_ in [1, 50]:
-                get_lang_confusion_for_one_model(dataset2langdist, filepath, step_=step_)
+        with open("language_confusion/dataset2langdist_multi.json", "w") as f:
+            json.dump(dataset2langdist, f)
 
-    with open("language_confusion/dataset2langdist.json", "w") as f:
-        json.dump(dataset2langdist, f)
+    elif lingual == "mono+multi":
+        print("processing mono+multi")
+        for file in os.listdir("eval_logs/monolingual"):
+            filepath = os.path.join("eval_logs/monolingual", file)
+            if filepath.endswith(".json"):
+                for step_ in [1, 50]:
+                    get_lang_confusion_for_one_model(dataset2langdist, filepath, step_=step_)
+
+        for file in os.listdir("eval_logs/multilingual"):
+            filepath = os.path.join("eval_logs/multilingual", file)
+            if filepath.endswith(".json"):
+                for step_ in [1, 50]:
+                    get_lang_confusion_for_one_model(dataset2langdist, filepath, step_=step_)
+
+        with open("language_confusion/dataset2langdist_mono+multi.json", "w") as f:
+            json.dump(dataset2langdist, f)
+
 
 
 if __name__ == '__main__':
