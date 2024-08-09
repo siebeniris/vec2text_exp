@@ -37,7 +37,12 @@ python -m language_confusion.collect_token_set_eval monolingual num_pred_words r
 ## Get Dataset2language dictionary
 
 ```
-python language_confusion/get_dataset2langdist.py
+python language_confusion/get_dataset2langdist.py mono
+
+python language_confusion/get_dataset2langdist.py multi
+
+python language_confusion/get_dataset2langdist.py mono+multi
+
 ```
 
 Get langdist to dataframe.

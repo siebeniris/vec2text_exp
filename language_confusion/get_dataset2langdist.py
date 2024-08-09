@@ -90,15 +90,17 @@ def get_lang_confusion_for_one_model(dataset2langdist, file, step_=1):
                             break
 
 
-def main(lingual="mono"):
+def main(lingual):
     dataset2langdist = defaultdict(dict)
-    if lingual=="mono":
+
+    if lingual == "mono":
         print("processing mono")
         for file in os.listdir("eval_logs/monolingual"):
             filepath = os.path.join("eval_logs/monolingual", file)
             if filepath.endswith(".json"):
                 for step_ in [1, 50]:
                     get_lang_confusion_for_one_model(dataset2langdist, filepath, step_=step_)
+
         with open("language_confusion/dataset2langdist_mono.json", "w") as f:
             json.dump(dataset2langdist, f)
 
@@ -131,6 +133,7 @@ def main(lingual="mono"):
             json.dump(dataset2langdist, f)
 
 
-
 if __name__ == '__main__':
-    main()
+    import plac
+
+    plac.call(main)

@@ -20,9 +20,6 @@ evals = [
 
 lang2langscript = {x.split("_")[0]: x for x in evals}
 
-with open("language_confusion/dataset2langdist.json") as f:
-    langdist = json.load(f)
-
 
 def get_key2lang(model2langs):
     key2lang = {}
@@ -33,6 +30,7 @@ def get_key2lang(model2langs):
                 key2lang[key] = [lang2langscript[lang1], lang2langscript[lang2]]
             if len(key) == 8:
                 key2lang[key] = [key]
+
         elif key == "turkic-fami":
             key2lang[key] = ['tur_Latn', 'kaz_Cyrl']
 
@@ -72,13 +70,17 @@ def get_cos_similarity(filepath="results/mt5_me5/multilingual_eval_emb_cos_sim.j
     return df
 
 
-def get_model2langs(langdist):
+def get_model2langs(langdist_file):
+    with open(langdist_file) as f:
+        langdist = json.load(f)
+
+    outputfile = langdist_file.replace(".json", ".csv")
+
     model2langs = dict()
     for model, langs_dict in langdist.items():
         if "me5_" in model:
             model_name = model.replace("mt5_me5_", "").replace("_32_2layers_corrector", "").replace(
-                "_32_2layers_inverter",
-                "")
+                "_32_2layers_inverter", "")
             # print(model_name)
 
             if model_name not in model2langs:
@@ -133,9 +135,12 @@ def get_model2langs(langdist):
 
     df_lang_ = pd.merge(df_lang, df_cos, on=["model", "step", "eval_lang"], how="left")
     print(len(df_lang_))
-    df_lang_.to_csv("language_confusion/model2langs.csv", index=False)
+    # df_lang_.to_csv("language_confusion/model2langs.csv", index=False)
+    df_lang_.to_csv(outputfile, index=False)
+
     return df_lang_
 
 
 if __name__ == '__main__':
-    get_model2langs(langdist)
+    import plac
+    plac.call(get_model2langs)
