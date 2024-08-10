@@ -40,7 +40,7 @@ def get_lang_confusion_for_one_model(dataset2langdist, dataset2langdist_word_lev
                                        k not in ["unknown", "others"] and v > 0.05}
                 print(dataset, "->", pred_lang_line_dict, "true:", true_lang_line_dict)
 
-                if "labels" not in dataset2langdist[dataset]:
+                if "labels" not in dataset2langdist[model_name][dataset]:
                     dataset2langdist[model_name][dataset]["Labels"] = true_lang_line_dict
                 if "Base" not in dataset2langdist[model_name][dataset]:
                     dataset2langdist[model_name][dataset]["Base"] = pred_lang_line_dict
@@ -54,7 +54,7 @@ def get_lang_confusion_for_one_model(dataset2langdist, dataset2langdist_word_lev
                                        k not in ["unknown", "others"] and v > 0.05}
                 print(dataset, "word level ->", pred_lang_word_dict, "true:", true_lang_word_dict)
 
-                if "labels" not in dataset2langdist_word_level[dataset]:
+                if "labels" not in dataset2langdist_word_level[model_name][dataset]:
                     dataset2langdist_word_level[model_name][dataset]["Labels"] = true_lang_word_dict
                 if "Base" not in dataset2langdist_word_level[model_name][dataset]:
                     dataset2langdist_word_level[model_name][dataset]["Base"] = pred_lang_word_dict
@@ -99,7 +99,7 @@ def get_lang_confusion_for_one_model(dataset2langdist, dataset2langdist_word_lev
                                                    k not in ["unknown", "others"] and v > 0.05}
                             print(dataset, "word level ->", pred_lang_word_dict, "true:", true_lang_word_dict)
 
-                            if "labels" not in dataset2langdist_word_level[dataset]:
+                            if "labels" not in dataset2langdist_word_level[model_name][dataset]:
                                 dataset2langdist_word_level[model_name][dataset]["Labels"] = true_lang_word_dict
                             if "Step1" not in dataset2langdist_word_level[model_name][dataset]:
                                 dataset2langdist_word_level[model_name][dataset]["Step1"] = pred_lang_word_dict
@@ -133,7 +133,7 @@ def get_lang_confusion_for_one_model(dataset2langdist, dataset2langdist_word_lev
                                                    k not in ["unknown", "others"] and v > 0.05}
                             print(dataset, "word level ->", pred_lang_word_dict, "true:", true_lang_word_dict)
 
-                            if "labels" not in dataset2langdist_word_level[dataset]:
+                            if "labels" not in dataset2langdist_word_level[model_name][dataset]:
                                 dataset2langdist_word_level[model_name][dataset]["Labels"] = true_lang_word_dict
                             if "Step50+sbeam8" not in dataset2langdist_word_level[model_name][dataset]:
                                 dataset2langdist_word_level[model_name][dataset]["Step50+sbeam8"] = pred_lang_word_dict
