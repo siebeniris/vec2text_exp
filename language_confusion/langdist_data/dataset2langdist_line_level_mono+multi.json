@@ -1,4 +1,1333 @@
 {
+  "mt5_text2vec_cmn_Hani_32_corrector": {
+    "deu_Latn": {
+      "Labels": {
+        "deu_Latn": 1.0
+      },
+      "Step1": {
+        "eng_Latn": 0.73,
+        "deu_Latn": 0.06,
+        "cmn_Hani": 0.07
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.74,
+        "deu_Latn": 0.07,
+        "cmn_Hani": 0.06
+      }
+    },
+    "ydd_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Step1": {
+        "cmn_Hani": 0.19,
+        "eng_Latn": 0.13
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.1,
+        "cmn_Hani": 0.11
+      }
+    },
+    "heb_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Step1": {
+        "cmn_Hani": 0.08,
+        "eng_Latn": 0.09
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.1
+      }
+    },
+    "arb_Arab": {
+      "Labels": {
+        "arb_Arab": 1.0
+      },
+      "Step1": {
+        "eng_Latn": 0.06,
+        "cmn_Hani": 0.11
+      },
+      "Step50+sbeam8": {}
+    },
+    "amh_Ethi": {
+      "Labels": {
+        "amh_Ethi": 0.78,
+        "eng_Latn": 0.17
+      },
+      "Step1": {
+        "cmn_Hani": 0.22,
+        "eng_Latn": 0.15
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.13,
+        "eng_Latn": 0.1
+      }
+    },
+    "mlt_Latn": {
+      "Labels": {
+        "eng_Latn": 0.12,
+        "deu_Latn": 0.2,
+        "mlt_Latn": 0.25,
+        "fin_Latn": 0.1
+      },
+      "Step1": {
+        "eng_Latn": 0.4,
+        "cmn_Hani": 0.08
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.37,
+        "cmn_Hani": 0.07
+      }
+    },
+    "hin_Deva": {
+      "Labels": {
+        "hin_Deva": 0.72,
+        "eng_Latn": 0.24
+      },
+      "Step1": {
+        "eng_Latn": 0.23,
+        "cmn_Hani": 0.18
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.21,
+        "cmn_Hani": 0.16
+      }
+    },
+    "urd_Arab": {
+      "Labels": {
+        "urd_Arab": 0.98
+      },
+      "Step1": {
+        "cmn_Hani": 0.23,
+        "eng_Latn": 0.14
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.13,
+        "cmn_Hani": 0.1
+      }
+    },
+    "guj_Gujr": {
+      "Labels": {
+        "guj_Gujr": 1.0
+      },
+      "Step1": {
+        "cmn_Hani": 0.2,
+        "eng_Latn": 0.11
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.12,
+        "eng_Latn": 0.07
+      }
+    },
+    "sin_Sinh": {
+      "Labels": {
+        "eng_Latn": 0.2
+      },
+      "Step1": {
+        "cmn_Hani": 0.2,
+        "eng_Latn": 0.17
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.1,
+        "eng_Latn": 0.15
+      }
+    },
+    "pan_Guru": {
+      "Labels": {
+        "pan_Guru": 1.0
+      },
+      "Step1": {
+        "eng_Latn": 0.15,
+        "cmn_Hani": 0.25
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.17,
+        "eng_Latn": 0.1
+      }
+    },
+    "tur_Latn": {
+      "Labels": {
+        "tur_Latn": 0.99
+      },
+      "Step1": {
+        "eng_Latn": 0.44,
+        "cmn_Hani": 0.1
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.1,
+        "eng_Latn": 0.43
+      }
+    },
+    "kaz_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 1.0
+      },
+      "Step1": {
+        "cmn_Hani": 0.23,
+        "eng_Latn": 0.07
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.16
+      }
+    },
+    "cmn_Hani": {
+      "Labels": {
+        "cmn_Hani": 1.0
+      },
+      "Step1": {
+        "cmn_Hani": 0.99
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.99
+      }
+    },
+    "jpn_Jpan": {
+      "Labels": {
+        "jpn_Jpan": 0.99
+      },
+      "Step1": {
+        "cmn_Hani": 0.91
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.87
+      }
+    },
+    "kor_Hang": {
+      "Labels": {
+        "kor_Hang": 0.99
+      },
+      "Step1": {
+        "cmn_Hani": 0.19,
+        "eng_Latn": 0.07
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.11
+      }
+    },
+    "mon_Cyrl": {
+      "Labels": {
+        "mon_Cyrl": 0.98
+      },
+      "Step1": {
+        "cmn_Hani": 0.18,
+        "eng_Latn": 0.08
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.12,
+        "eng_Latn": 0.07
+      }
+    },
+    "hun_Latn": {
+      "Labels": {
+        "hun_Latn": 1.0
+      },
+      "Step1": {
+        "eng_Latn": 0.42,
+        "cmn_Hani": 0.14
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.11,
+        "eng_Latn": 0.44
+      }
+    },
+    "mhr_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 0.63,
+        "mon_Cyrl": 0.23
+      },
+      "Step1": {
+        "cmn_Hani": 0.08
+      },
+      "Step50+sbeam8": {}
+    },
+    "fin_Latn": {
+      "Labels": {
+        "fin_Latn": 1.0
+      },
+      "Step1": {
+        "cmn_Hani": 0.13,
+        "eng_Latn": 0.51
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.12,
+        "eng_Latn": 0.48
+      }
+    }
+  },
+  "mt5_gtr_deu_Latn_32_corrector": {
+    "deu_Latn": {
+      "Labels": {
+        "deu_Latn": 1.0
+      },
+      "Step1": {
+        "deu_Latn": 0.99
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 1.0
+      }
+    },
+    "ydd_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Step1": {},
+      "Step50+sbeam8": {}
+    },
+    "heb_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Step1": {},
+      "Step50+sbeam8": {}
+    },
+    "arb_Arab": {
+      "Labels": {
+        "arb_Arab": 1.0
+      },
+      "Step1": {},
+      "Step50+sbeam8": {}
+    },
+    "amh_Ethi": {
+      "Labels": {
+        "amh_Ethi": 0.78,
+        "eng_Latn": 0.17
+      },
+      "Step1": {
+        "eng_Latn": 0.08,
+        "deu_Latn": 0.11
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.11,
+        "eng_Latn": 0.1
+      }
+    },
+    "mlt_Latn": {
+      "Labels": {
+        "eng_Latn": 0.12,
+        "deu_Latn": 0.2,
+        "mlt_Latn": 0.25,
+        "fin_Latn": 0.1
+      },
+      "Step1": {
+        "deu_Latn": 0.31,
+        "eng_Latn": 0.08
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.35,
+        "eng_Latn": 0.08
+      }
+    },
+    "hin_Deva": {
+      "Labels": {
+        "hin_Deva": 0.72,
+        "eng_Latn": 0.24
+      },
+      "Step1": {
+        "deu_Latn": 0.14,
+        "eng_Latn": 0.22
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.16,
+        "eng_Latn": 0.19
+      }
+    },
+    "urd_Arab": {
+      "Labels": {
+        "urd_Arab": 0.98
+      },
+      "Step1": {
+        "deu_Latn": 0.1,
+        "eng_Latn": 0.09
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.09,
+        "deu_Latn": 0.09
+      }
+    },
+    "guj_Gujr": {
+      "Labels": {
+        "guj_Gujr": 1.0
+      },
+      "Step1": {
+        "eng_Latn": 0.07,
+        "deu_Latn": 0.07
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.07
+      }
+    },
+    "sin_Sinh": {
+      "Labels": {
+        "eng_Latn": 0.2
+      },
+      "Step1": {
+        "deu_Latn": 0.08,
+        "eng_Latn": 0.14
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.08,
+        "eng_Latn": 0.14
+      }
+    },
+    "pan_Guru": {
+      "Labels": {
+        "pan_Guru": 1.0
+      },
+      "Step1": {
+        "eng_Latn": 0.06,
+        "deu_Latn": 0.06
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.06
+      }
+    },
+    "tur_Latn": {
+      "Labels": {
+        "tur_Latn": 0.99
+      },
+      "Step1": {
+        "deu_Latn": 0.59,
+        "tur_Latn": 0.19
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.57,
+        "tur_Latn": 0.17
+      }
+    },
+    "kaz_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 1.0
+      },
+      "Step1": {
+        "deu_Latn": 0.12
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.09
+      }
+    },
+    "cmn_Hani": {
+      "Labels": {
+        "cmn_Hani": 1.0
+      },
+      "Step1": {
+        "deu_Latn": 0.28
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.06
+      }
+    },
+    "jpn_Jpan": {
+      "Labels": {
+        "jpn_Jpan": 0.99
+      },
+      "Step1": {
+        "deu_Latn": 0.45
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.39
+      }
+    },
+    "kor_Hang": {
+      "Labels": {
+        "kor_Hang": 0.99
+      },
+      "Step1": {
+        "eng_Latn": 0.07
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.07
+      }
+    },
+    "mon_Cyrl": {
+      "Labels": {
+        "mon_Cyrl": 0.98
+      },
+      "Step1": {
+        "deu_Latn": 0.09
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.07
+      }
+    },
+    "hun_Latn": {
+      "Labels": {
+        "hun_Latn": 1.0
+      },
+      "Step1": {
+        "deu_Latn": 0.46,
+        "tur_Latn": 0.07,
+        "hun_Latn": 0.11
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.5,
+        "hun_Latn": 0.12
+      }
+    },
+    "mhr_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 0.63,
+        "mon_Cyrl": 0.23
+      },
+      "Step1": {
+        "deu_Latn": 0.06
+      },
+      "Step50+sbeam8": {}
+    },
+    "fin_Latn": {
+      "Labels": {
+        "fin_Latn": 1.0
+      },
+      "Step1": {
+        "deu_Latn": 0.68,
+        "fin_Latn": 0.16
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.72,
+        "fin_Latn": 0.15
+      }
+    }
+  },
+  "mt5_alephbert_heb_Hebr_32_corrector": {
+    "deu_Latn": {
+      "Labels": {
+        "deu_Latn": 1.0
+      },
+      "Step1": {
+        "deu_Latn": 0.83
+      },
+      "Step50+sbeam8": {
+        "deu_Latn": 0.72,
+        "eng_Latn": 0.06
+      }
+    },
+    "ydd_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Step1": {
+        "heb_Hebr": 0.99
+      },
+      "Step50+sbeam8": {
+        "heb_Hebr": 0.98
+      }
+    },
+    "heb_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Step1": {
+        "heb_Hebr": 1.0
+      },
+      "Step50+sbeam8": {
+        "heb_Hebr": 1.0
+      }
+    },
+    "arb_Arab": {
+      "Labels": {
+        "arb_Arab": 1.0
+      },
+      "Step1": {
+        "arb_Arab": 0.64,
+        "heb_Hebr": 0.13,
+        "eng_Latn": 0.14,
+        "mon_Cyrl": 0.06
+      },
+      "Step50+sbeam8": {
+        "arb_Arab": 0.61,
+        "heb_Hebr": 0.13,
+        "eng_Latn": 0.19
+      }
+    },
+    "amh_Ethi": {
+      "Labels": {
+        "amh_Ethi": 0.78,
+        "eng_Latn": 0.17
+      },
+      "Step1": {
+        "heb_Hebr": 0.11,
+        "eng_Latn": 0.2
+      },
+      "Step50+sbeam8": {
+        "heb_Hebr": 0.12,
+        "eng_Latn": 0.09
+      }
+    },
+    "mlt_Latn": {
+      "Labels": {
+        "eng_Latn": 0.12,
+        "deu_Latn": 0.2,
+        "mlt_Latn": 0.25,
+        "fin_Latn": 0.1
+      },
+      "Step1": {
+        "tur_Latn": 0.37,
+        "eng_Latn": 0.13
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.17,
+        "tur_Latn": 0.36
+      }
+    },
+    "hin_Deva": {
+      "Labels": {
+        "hin_Deva": 0.72,
+        "eng_Latn": 0.24
+      },
+      "Step1": {
+        "eng_Latn": 0.58,
+        "deu_Latn": 0.1,
+        "kaz_Cyrl": 0.06
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.5,
+        "tur_Latn": 0.07,
+        "cmn_Hani": 0.06,
+        "heb_Hebr": 0.07
+      }
+    },
+    "urd_Arab": {
+      "Labels": {
+        "urd_Arab": 0.98
+      },
+      "Step1": {
+        "mon_Cyrl": 0.51,
+        "eng_Latn": 0.07,
+        "cmn_Hani": 0.29,
+        "heb_Hebr": 0.06
+      },
+      "Step50+sbeam8": {
+        "cmn_Hani": 0.41,
+        "eng_Latn": 0.2,
+        "tur_Latn": 0.1,
+        "heb_Hebr": 0.09
+      }
+    },
+    "guj_Gujr": {
+      "Labels": {
+        "guj_Gujr": 1.0
+      },
+      "Step1": {
+        "eng_Latn": 0.18,
+        "heb_Hebr": 0.11
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.07,
+        "heb_Hebr": 0.14
+      }
+    },
+    "sin_Sinh": {
+      "Labels": {
+        "eng_Latn": 0.2
+      },
+      "Step1": {
+        "eng_Latn": 0.19,
+        "heb_Hebr": 0.18
+      },
+      "Step50+sbeam8": {
+        "heb_Hebr": 0.2,
+        "eng_Latn": 0.08
+      }
+    },
+    "pan_Guru": {
+      "Labels": {
+        "pan_Guru": 1.0
+      },
+      "Step1": {
+        "heb_Hebr": 0.1,
+        "eng_Latn": 0.16
+      },
+      "Step50+sbeam8": {
+        "heb_Hebr": 0.14
+      }
+    },
+    "tur_Latn": {
+      "Labels": {
+        "tur_Latn": 0.99
+      },
+      "Step1": {
+        "heb_Hebr": 0.1,
+        "tur_Latn": 0.1,
+        "eng_Latn": 0.26
+      },
+      "Step50+sbeam8": {
+        "heb_Hebr": 0.11,
+        "tur_Latn": 0.2,
+        "eng_Latn": 0.2
+      }
+    },
+    "kaz_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 1.0
+      },
+      "Step1": {
+        "kaz_Cyrl": 0.31,
+        "mon_Cyrl": 0.26,
+        "heb_Hebr": 0.06
+      },
+      "Step50+sbeam8": {
+        "mon_Cyrl": 0.19,
+        "kaz_Cyrl": 0.3,
+        "heb_Hebr": 0.06
+      }
+    },
+    "cmn_Hani": {
+      "Labels": {
+        "cmn_Hani": 1.0
+      },
+      "Step1": {
+        "heb_Hebr": 0.29,
+        "cmn_Hani": 0.19,
+        "eng_Latn": 0.12
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.11,
+        "heb_Hebr": 0.27,
+        "cmn_Hani": 0.19
+      }
+    },
+    "jpn_Jpan": {
+      "Labels": {
+        "jpn_Jpan": 0.99
+      },
+      "Step1": {
+        "eng_Latn": 0.29,
+        "cmn_Hani": 0.42,
+        "heb_Hebr": 0.13
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.23,
+        "cmn_Hani": 0.41,
+        "heb_Hebr": 0.13
+      }
+    },
+    "kor_Hang": {
+      "Labels": {
+        "kor_Hang": 0.99
+      },
+      "Step1": {
+        "eng_Latn": 0.5,
+        "heb_Hebr": 0.08
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.43,
+        "tur_Latn": 0.21,
+        "heb_Hebr": 0.07
+      }
+    },
+    "mon_Cyrl": {
+      "Labels": {
+        "mon_Cyrl": 0.98
+      },
+      "Step1": {
+        "kaz_Cyrl": 0.4,
+        "mon_Cyrl": 0.2
+      },
+      "Step50+sbeam8": {
+        "kaz_Cyrl": 0.54,
+        "mon_Cyrl": 0.12
+      }
+    },
+    "hun_Latn": {
+      "Labels": {
+        "hun_Latn": 1.0
+      },
+      "Step1": {
+        "tur_Latn": 0.25,
+        "eng_Latn": 0.3
+      },
+      "Step50+sbeam8": {
+        "tur_Latn": 0.25,
+        "eng_Latn": 0.28
+      }
+    },
+    "mhr_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 0.63,
+        "mon_Cyrl": 0.23
+      },
+      "Step1": {
+        "mon_Cyrl": 0.37,
+        "kaz_Cyrl": 0.43
+      },
+      "Step50+sbeam8": {
+        "mon_Cyrl": 0.16,
+        "kaz_Cyrl": 0.6
+      }
+    },
+    "fin_Latn": {
+      "Labels": {
+        "fin_Latn": 1.0
+      },
+      "Step1": {
+        "eng_Latn": 0.34,
+        "tur_Latn": 0.15
+      },
+      "Step50+sbeam8": {
+        "eng_Latn": 0.37,
+        "tur_Latn": 0.17
+      }
+    }
+  },
+  "mt5_alephbert_heb_Hebr_32_inverter": {
+    "deu_Latn": {
+      "Labels": {
+        "deu_Latn": 1.0
+      },
+      "Base": {
+        "deu_Latn": 0.88
+      }
+    },
+    "ydd_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Base": {
+        "heb_Hebr": 0.99
+      }
+    },
+    "heb_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Base": {
+        "heb_Hebr": 1.0
+      }
+    },
+    "arb_Arab": {
+      "Labels": {
+        "arb_Arab": 1.0
+      },
+      "Base": {
+        "arb_Arab": 0.81,
+        "eng_Latn": 0.13
+      }
+    },
+    "amh_Ethi": {
+      "Labels": {
+        "amh_Ethi": 0.78,
+        "eng_Latn": 0.17
+      },
+      "Base": {
+        "eng_Latn": 0.31
+      }
+    },
+    "mlt_Latn": {
+      "Labels": {
+        "eng_Latn": 0.12,
+        "deu_Latn": 0.2,
+        "mlt_Latn": 0.25,
+        "fin_Latn": 0.1
+      },
+      "Base": {
+        "eng_Latn": 0.21
+      }
+    },
+    "hin_Deva": {
+      "Labels": {
+        "hin_Deva": 0.72,
+        "eng_Latn": 0.24
+      },
+      "Base": {
+        "eng_Latn": 0.52,
+        "mon_Cyrl": 0.33
+      }
+    },
+    "urd_Arab": {
+      "Labels": {
+        "urd_Arab": 0.98
+      },
+      "Base": {
+        "arb_Arab": 0.56,
+        "cmn_Hani": 0.31,
+        "eng_Latn": 0.06
+      }
+    },
+    "guj_Gujr": {
+      "Labels": {
+        "guj_Gujr": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.34
+      }
+    },
+    "sin_Sinh": {
+      "Labels": {
+        "eng_Latn": 0.2
+      },
+      "Base": {
+        "eng_Latn": 0.35,
+        "heb_Hebr": 0.09
+      }
+    },
+    "pan_Guru": {
+      "Labels": {
+        "pan_Guru": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.28,
+        "tur_Latn": 0.07
+      }
+    },
+    "tur_Latn": {
+      "Labels": {
+        "tur_Latn": 0.99
+      },
+      "Base": {
+        "eng_Latn": 0.38,
+        "heb_Hebr": 0.07
+      }
+    },
+    "kaz_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 1.0
+      },
+      "Base": {
+        "mon_Cyrl": 0.6,
+        "kaz_Cyrl": 0.14
+      }
+    },
+    "cmn_Hani": {
+      "Labels": {
+        "cmn_Hani": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.17,
+        "heb_Hebr": 0.19,
+        "cmn_Hani": 0.25,
+        "hin_Deva": 0.07
+      }
+    },
+    "jpn_Jpan": {
+      "Labels": {
+        "jpn_Jpan": 0.99
+      },
+      "Base": {
+        "eng_Latn": 0.33,
+        "cmn_Hani": 0.44,
+        "heb_Hebr": 0.06
+      }
+    },
+    "kor_Hang": {
+      "Labels": {
+        "kor_Hang": 0.99
+      },
+      "Base": {
+        "eng_Latn": 0.46,
+        "tur_Latn": 0.09,
+        "cmn_Hani": 0.07
+      }
+    },
+    "mon_Cyrl": {
+      "Labels": {
+        "mon_Cyrl": 0.98
+      },
+      "Base": {
+        "kaz_Cyrl": 0.13,
+        "mon_Cyrl": 0.59
+      }
+    },
+    "hun_Latn": {
+      "Labels": {
+        "hun_Latn": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.34,
+        "tur_Latn": 0.08
+      }
+    },
+    "mhr_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 0.63,
+        "mon_Cyrl": 0.23
+      },
+      "Base": {
+        "mon_Cyrl": 0.66,
+        "kaz_Cyrl": 0.15
+      }
+    },
+    "fin_Latn": {
+      "Labels": {
+        "fin_Latn": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.39,
+        "tur_Latn": 0.1
+      }
+    }
+  },
+  "mt5_gtr_deu_Latn_32_inverter": {
+    "deu_Latn": {
+      "Labels": {
+        "deu_Latn": 1.0
+      },
+      "Base": {
+        "deu_Latn": 1.0
+      }
+    },
+    "ydd_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Base": {
+        "deu_Latn": 0.07
+      }
+    },
+    "heb_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Base": {
+        "deu_Latn": 0.07
+      }
+    },
+    "arb_Arab": {
+      "Labels": {
+        "arb_Arab": 1.0
+      },
+      "Base": {}
+    },
+    "amh_Ethi": {
+      "Labels": {
+        "amh_Ethi": 0.78,
+        "eng_Latn": 0.17
+      },
+      "Base": {
+        "deu_Latn": 0.14,
+        "eng_Latn": 0.11
+      }
+    },
+    "mlt_Latn": {
+      "Labels": {
+        "eng_Latn": 0.12,
+        "deu_Latn": 0.2,
+        "mlt_Latn": 0.25,
+        "fin_Latn": 0.1
+      },
+      "Base": {
+        "deu_Latn": 0.33,
+        "eng_Latn": 0.07
+      }
+    },
+    "hin_Deva": {
+      "Labels": {
+        "hin_Deva": 0.72,
+        "eng_Latn": 0.24
+      },
+      "Base": {
+        "eng_Latn": 0.22,
+        "deu_Latn": 0.14
+      }
+    },
+    "urd_Arab": {
+      "Labels": {
+        "urd_Arab": 0.98
+      },
+      "Base": {
+        "deu_Latn": 0.12,
+        "eng_Latn": 0.08
+      }
+    },
+    "guj_Gujr": {
+      "Labels": {
+        "guj_Gujr": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.08,
+        "deu_Latn": 0.09
+      }
+    },
+    "sin_Sinh": {
+      "Labels": {
+        "eng_Latn": 0.2
+      },
+      "Base": {
+        "deu_Latn": 0.1,
+        "eng_Latn": 0.13
+      }
+    },
+    "pan_Guru": {
+      "Labels": {
+        "pan_Guru": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.06,
+        "deu_Latn": 0.08
+      }
+    },
+    "tur_Latn": {
+      "Labels": {
+        "tur_Latn": 0.99
+      },
+      "Base": {
+        "tur_Latn": 0.33,
+        "deu_Latn": 0.4
+      }
+    },
+    "kaz_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 1.0
+      },
+      "Base": {
+        "tur_Latn": 0.16,
+        "deu_Latn": 0.15,
+        "kaz_Cyrl": 0.09
+      }
+    },
+    "cmn_Hani": {
+      "Labels": {
+        "cmn_Hani": 1.0
+      },
+      "Base": {
+        "deu_Latn": 0.51,
+        "eng_Latn": 0.07
+      }
+    },
+    "jpn_Jpan": {
+      "Labels": {
+        "jpn_Jpan": 0.99
+      },
+      "Base": {
+        "deu_Latn": 0.55,
+        "eng_Latn": 0.06
+      }
+    },
+    "kor_Hang": {
+      "Labels": {
+        "kor_Hang": 0.99
+      },
+      "Base": {
+        "eng_Latn": 0.08,
+        "deu_Latn": 0.09
+      }
+    },
+    "mon_Cyrl": {
+      "Labels": {
+        "mon_Cyrl": 0.98
+      },
+      "Base": {
+        "tur_Latn": 0.12,
+        "eng_Latn": 0.08,
+        "deu_Latn": 0.1
+      }
+    },
+    "hun_Latn": {
+      "Labels": {
+        "hun_Latn": 1.0
+      },
+      "Base": {
+        "deu_Latn": 0.42,
+        "hun_Latn": 0.07,
+        "tur_Latn": 0.11
+      }
+    },
+    "mhr_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 0.63,
+        "mon_Cyrl": 0.23
+      },
+      "Base": {
+        "tur_Latn": 0.17,
+        "kaz_Cyrl": 0.11,
+        "deu_Latn": 0.1
+      }
+    },
+    "fin_Latn": {
+      "Labels": {
+        "fin_Latn": 1.0
+      },
+      "Base": {
+        "deu_Latn": 0.6,
+        "fin_Latn": 0.18
+      }
+    }
+  },
+  "mt5_text2vec_cmn_Hani_32_inverter": {
+    "deu_Latn": {
+      "Labels": {
+        "deu_Latn": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.74,
+        "deu_Latn": 0.06
+      }
+    },
+    "ydd_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Base": {
+        "cmn_Hani": 0.42,
+        "eng_Latn": 0.16
+      }
+    },
+    "heb_Hebr": {
+      "Labels": {
+        "heb_Hebr": 1.0
+      },
+      "Base": {
+        "cmn_Hani": 0.49,
+        "eng_Latn": 0.14
+      }
+    },
+    "arb_Arab": {
+      "Labels": {
+        "arb_Arab": 1.0
+      },
+      "Base": {
+        "cmn_Hani": 0.63,
+        "eng_Latn": 0.12
+      }
+    },
+    "amh_Ethi": {
+      "Labels": {
+        "amh_Ethi": 0.78,
+        "eng_Latn": 0.17
+      },
+      "Base": {
+        "cmn_Hani": 0.56,
+        "eng_Latn": 0.19
+      }
+    },
+    "mlt_Latn": {
+      "Labels": {
+        "eng_Latn": 0.12,
+        "deu_Latn": 0.2,
+        "mlt_Latn": 0.25,
+        "fin_Latn": 0.1
+      },
+      "Base": {
+        "eng_Latn": 0.4,
+        "cmn_Hani": 0.08
+      }
+    },
+    "hin_Deva": {
+      "Labels": {
+        "hin_Deva": 0.72,
+        "eng_Latn": 0.24
+      },
+      "Base": {
+        "eng_Latn": 0.3,
+        "cmn_Hani": 0.32
+      }
+    },
+    "urd_Arab": {
+      "Labels": {
+        "urd_Arab": 0.98
+      },
+      "Base": {
+        "cmn_Hani": 0.53,
+        "eng_Latn": 0.24
+      }
+    },
+    "guj_Gujr": {
+      "Labels": {
+        "guj_Gujr": 1.0
+      },
+      "Base": {
+        "cmn_Hani": 0.55,
+        "eng_Latn": 0.14
+      }
+    },
+    "sin_Sinh": {
+      "Labels": {
+        "eng_Latn": 0.2
+      },
+      "Base": {
+        "eng_Latn": 0.27,
+        "cmn_Hani": 0.39
+      }
+    },
+    "pan_Guru": {
+      "Labels": {
+        "pan_Guru": 1.0
+      },
+      "Base": {
+        "cmn_Hani": 0.46,
+        "eng_Latn": 0.2
+      }
+    },
+    "tur_Latn": {
+      "Labels": {
+        "tur_Latn": 0.99
+      },
+      "Base": {
+        "eng_Latn": 0.46,
+        "cmn_Hani": 0.07
+      }
+    },
+    "kaz_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 1.0
+      },
+      "Base": {
+        "cmn_Hani": 0.43,
+        "eng_Latn": 0.13
+      }
+    },
+    "cmn_Hani": {
+      "Labels": {
+        "cmn_Hani": 1.0
+      },
+      "Base": {
+        "cmn_Hani": 0.99
+      }
+    },
+    "jpn_Jpan": {
+      "Labels": {
+        "jpn_Jpan": 0.99
+      },
+      "Base": {
+        "cmn_Hani": 0.96
+      }
+    },
+    "kor_Hang": {
+      "Labels": {
+        "kor_Hang": 0.99
+      },
+      "Base": {
+        "eng_Latn": 0.08,
+        "cmn_Hani": 0.54
+      }
+    },
+    "mon_Cyrl": {
+      "Labels": {
+        "mon_Cyrl": 0.98
+      },
+      "Base": {
+        "eng_Latn": 0.12,
+        "cmn_Hani": 0.39
+      }
+    },
+    "hun_Latn": {
+      "Labels": {
+        "hun_Latn": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.47,
+        "cmn_Hani": 0.12
+      }
+    },
+    "mhr_Cyrl": {
+      "Labels": {
+        "kaz_Cyrl": 0.63,
+        "mon_Cyrl": 0.23
+      },
+      "Base": {
+        "eng_Latn": 0.09,
+        "cmn_Hani": 0.38
+      }
+    },
+    "fin_Latn": {
+      "Labels": {
+        "fin_Latn": 1.0
+      },
+      "Base": {
+        "eng_Latn": 0.54,
+        "cmn_Hani": 0.11
+      }
+    }
+  },
   "mt5_me5_cmn_jpn_32_2layers_corrector": {
     "deu_Latn": {
       "Labels": {
@@ -444,26 +1773,6 @@
       }
     }
   },
-  "deu_Latn": {},
-  "ydd_Hebr": {},
-  "heb_Hebr": {},
-  "arb_Arab": {},
-  "amh_Ethi": {},
-  "mlt_Latn": {},
-  "hin_Deva": {},
-  "urd_Arab": {},
-  "guj_Gujr": {},
-  "sin_Sinh": {},
-  "pan_Guru": {},
-  "tur_Latn": {},
-  "kaz_Cyrl": {},
-  "cmn_Hani": {},
-  "jpn_Jpan": {},
-  "kor_Hang": {},
-  "mon_Cyrl": {},
-  "hun_Latn": {},
-  "mhr_Cyrl": {},
-  "fin_Latn": {},
   "mt5_me5_pan_Guru_32_2layers_inverter": {
     "deu_Latn": {
       "Labels": {
