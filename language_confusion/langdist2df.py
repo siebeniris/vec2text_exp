@@ -1,13 +1,6 @@
 import pandas as pd
 import json
-import os
 
-from ast import literal_eval
-from sklearn.preprocessing import MultiLabelBinarizer, LabelEncoder, OneHotEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.multioutput import MultiOutputRegressor
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error
 
 evals = [
     'deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
@@ -24,7 +17,16 @@ lang2langscript = {x.split("_")[0]: x for x in evals}
 def get_key2lang(model2langs):
     key2lang = {}
     for key in model2langs:
-        if "_" in key:
+        # monolingual inversion models
+        if key == "text2vec_cmn_Hani":
+            key2lang[key] = ["cmn_Hani"]
+        elif key == "gtr_deu_Latn":
+            key2lang[key] = ["deu_Latn"]
+        elif key == "alephbert_heb_Hebr":
+            key2lang[key] = ["heb_Hebr"]
+
+        # multilingual inversion models
+        elif "_" in key:
             if len(key) == 7:
                 lang1, lang2 = key.split("_")
                 key2lang[key] = [lang2langscript[lang1], lang2langscript[lang2]]
@@ -38,10 +40,11 @@ def get_key2lang(model2langs):
             key2lang[key] = ["arb_Arab", "heb_Hebr"]
         elif key == "latn-script":
             key2lang[key] = ["deu_Latn", "tur_Latn"]
+
     return key2lang
 
 
-def get_cos_similarity(filepath="results/mt5_me5/multilingual_eval_emb_cos_sim.json"):
+def get_cos_similarity(filepath):
     # get cosine similarities, to see if it can help predict languages
     with open(filepath) as f:
         data = json.load(f)
@@ -78,7 +81,7 @@ def get_model2langs(langdist_file):
 
     model2langs = dict()
     for model, langs_dict in langdist.items():
-        if "me5_" in model:
+        if "mt5_me5_" in model:
             model_name = model.replace("mt5_me5_", "").replace("_32_2layers_corrector", "").replace(
                 "_32_2layers_inverter", "")
             # print(model_name)
@@ -97,7 +100,23 @@ def get_model2langs(langdist_file):
                 for step, eval in steps_eval.items():
                     if step not in model2langs[model_name][eval_lang]:
                         model2langs[model_name][eval_lang][step] = eval
-                    # model2langs[model_name][eval_lang][step] = eval
+        else:
+            model_name = model.replace("mt5_", "").replace("_32_corrector", "").replace(
+                "_32_inverter", "")
+            print(model_name)
+
+            if model_name not in model2langs:
+                model2langs[model_name] = dict()
+
+            for eval_lang, steps_eval in langs_dict.items():
+                if eval_lang not in model2langs[model_name]:
+                    model2langs[model_name][eval_lang] = dict()
+
+                for step, eval in steps_eval.items():
+                    if step not in model2langs[model_name][eval_lang]:
+                        model2langs[model_name][eval_lang][step] = eval
+
+    print(len(model2langs))
     # output to model2langs.json
     key2lang = get_key2lang(model2langs)
 
@@ -108,6 +127,8 @@ def get_model2langs(langdist_file):
             model2langs_dict[key] = dict()
         model2langs_dict[key]["training"] = langs
         model2langs_dict[key]["langdict"] = model2langs[key]
+
+    print(model2langs_dict)
 
     training_data_list = []  # [cmn_Hani, jpn_Jpan]
     eval_langs = []  # deu_Latn
@@ -131,14 +152,15 @@ def get_model2langs(langdist_file):
     df_lang = pd.DataFrame({"model": inversion_models, "training": training_data_list,
                             "eval_lang": eval_langs, "step": steps,
                             "pred_langs": pred_langs})
-    df_cos = get_cos_similarity()
+    df_lang.to_csv(outputfile, index=False)
+    # df_cos = get_cos_similarity("results/mt5_me5/multilingual_eval_emb_cos_sim.json")
+    #
+    # df_lang_ = pd.merge(df_lang, df_cos, on=["model", "step", "eval_lang"], how="left")
+    # print(len(df_lang_))
+    # # df_lang_.to_csv("language_confusion/model2langs.csv", index=False)
+    # df_lang_.to_csv(outputfile, index=False)
 
-    df_lang_ = pd.merge(df_lang, df_cos, on=["model", "step", "eval_lang"], how="left")
-    print(len(df_lang_))
-    # df_lang_.to_csv("language_confusion/model2langs.csv", index=False)
-    df_lang_.to_csv(outputfile, index=False)
-
-    return df_lang_
+    return df_lang
 
 
 if __name__ == '__main__':
