@@ -1,9 +1,0 @@
-working directory /home/cs.aau.dk/ng78zb/vec2text_exp
-sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
-launch evaluation yiyic/mt5_me5_indo-aryan-fami_32_2layers_corrector with batch size 8
-loading experiment and trainer from yiyic/mt5_me5_indo-aryan-fami_32_2layers_corrector
-num_workers 7
-Set num workers to 7
-Experiment output_dir = saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_corrector
-on rank 0, output dir: saves/yiyic__mt5_me5_indo-aryan-fami_32_2layers_corrector
-loading alias indo-aryan_fami_32_me5_2layers from /scratch/project_465000909/whitening/vec2text_exp/saves/inverters/mt5_multilingual_e5_base_mt-ms_ind_fami_32_2layers_prefix...

@@ -1,9 +1,0 @@
-working directory /home/cs.aau.dk/ng78zb/vec2text_exp
-sif /home/cs.aau.dk/ng78zb/pytorch_23.10-py3.sif
-launch evaluation yiyic/mt5_text2vec_cmn_Hani_32_corrector
-loading experiment and trainer from yiyic/mt5_text2vec_cmn_Hani_32_corrector
-num_workers 7
-Set num workers to 7
-Experiment output_dir = saves/yiyic__mt5_text2vec_cmn_Hani_32_corrector
-on rank 0, output dir: saves/yiyic__mt5_text2vec_cmn_Hani_32_corrector
-loading alias cmn_Hani_32_text2vec_last_layer from /scratch/project_465000909/whitening/vec2text_exp/saves/inverters/mt5_text2vec-base-cmn_mt-ms_cmn_Hani_32_last_layer...
