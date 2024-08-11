@@ -64,3 +64,25 @@ python language_confusion/preprocessing_for_regression.py
  python language_confusion/pred_lang_regression.py
 
 ```
+
+## Collect results from Regression
+
+```
+python collect_results_regression.py
+
+```
+
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 import json
 
@@ -115,7 +117,11 @@ def get_lang2lang_lr_dict(eval_langs_list):
     return lang2lang_lr
 
 
-def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", data_type="mono"):
+def preprocessing_data_for_modeling(file, level="line", mode="mono"):
+    output_dir = f"language_confusion/data/{level}/{mode}"
+    if not os.path.exists(output_dir):
+        os.makedirs(output_dir)
+
     # reading the model2langs.csv
     df_lang = pd.read_csv(file)
     df_lang['pred_langs'] = df_lang['pred_langs'].apply(literal_eval)
@@ -143,16 +149,6 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", d
     print(f"df_lang length {len(df_lang)}")
 
     eval_langs_list = eval_langs
-
-    ################################################################
-    # # crosslingual eval_lang not in training
-    # def crosslingual(x, y):
-    #     if y in x:
-    #         return False
-    #     else:
-    #         return True
-    #
-    # df_lang["crosslingual"] = df_lang.apply(lambda x: crosslingual(x["training"], x["eval_lang"]), axis=1)
 
     ################################
     # ablation1. script
@@ -219,7 +215,7 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", d
     df_lang["training_script_lr"] = df_lang["training"].apply(get_script_lr_for_training_data)
 
     ###########################################################################
-    df_lang = df_lang[df_lang["crosslingual"]]
+    # df_lang = df_lang[df_lang["crosslingual"]]
 
     # get training dataframe.
     df_train = pd.concat([df_lang, training_encoded_df], axis=1)
@@ -236,10 +232,11 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", d
 
     # probability of languages.
     probs_df = pd.DataFrame(df_train['pred_langs'].tolist(), index=df_train.index).fillna(0)
+    # other languages probabilities
     probs_df["other"] = 1 - probs_df.sum(axis=1)
 
-    probs_df.to_csv("language_confusion/data/y_data.csv", index=False)
-    df_train.to_csv("language_confusion/data/train_data.csv", index=False)
+    probs_df.to_csv(f"{output_dir}/y_data.csv", index=False)
+    df_train.to_csv(f"{output_dir}/train_data.csv", index=False)
 
     X = df_train.drop(columns=['model', 'eval_lang', 'step', 'pred_langs', "training"])
 
@@ -249,14 +246,22 @@ def preprocessing_data_for_modeling(file="language_confusion/model2langs.csv", d
     X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
     # save train/test data
-    X_train.to_csv("language_confusion/data/X_train.csv")
-    y_train.to_csv("language_confusion/data/y_train.csv")
-    X_test.to_csv("language_confusion/data/X_test.csv")
-    y_test.to_csv("language_confusion/data/y_test.csv")
+    X_train.to_csv(f"{output_dir}/X_train.csv")
+    y_train.to_csv(f"{output_dir}/y_train.csv")
+    X_test.to_csv(f"{output_dir}/X_test.csv")
+    y_test.to_csv(f"{output_dir}/y_test.csv")
 
-    with open("language_confusion/data/languages.json", "w") as f:
+    with open(f"{output_dir}/languages.json", "w") as f:
         json.dump(languages, f)
 
 
 if __name__ == '__main__':
-    preprocessing_data_for_modeling()
+    for mode in ["multi", "mono", "mono+multi"]:
+        print(mode)
+        print("*" * 20)
+        filepath = f"language_confusion/langdist_data/dataset2langdist_line_level_{mode}.csv"
+        preprocessing_data_for_modeling(filepath, "line_level", mode)
+        print("*" * 20)
+        filepath_word = f"language_confusion/langdist_data/dataset2langdist_word_level_{mode}.csv"
+        preprocessing_data_for_modeling(filepath_word, "word_level", mode)
+

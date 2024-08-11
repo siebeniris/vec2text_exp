@@ -1,11 +1,10 @@
 import json
+import os
+
 import pandas as pd
 import numpy as np
 from itertools import chain, combinations
 
-from ast import literal_eval
-from sklearn.preprocessing import MultiLabelBinarizer, LabelEncoder, OneHotEncoder
-from sklearn.model_selection import train_test_split
 from sklearn.multioutput import MultiOutputRegressor
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, mean_absolute_error
@@ -15,22 +14,21 @@ def all_subsets(ss):
     return chain(*map(lambda x: combinations(ss, x), range(0, len(ss) + 1)))
 
 
-with open("language_confusion/data/languages.json") as f:
-    languages = json.load(f)
-
-
-def load_data(data_dir="language_confusion/data"):
-    print(f"Loading data ...")
+def load_data(level, mode):
+    data_dir = f"language_confusion/data/{level}/{mode}"
+    print(f"Loading data from {data_dir} ....")
 
     X_test = pd.read_csv(f"{data_dir}/X_test.csv", index_col=0)
     X_train = pd.read_csv(f"{data_dir}/X_train.csv", index_col=0)
     y_test = pd.read_csv(f"{data_dir}/y_test.csv", index_col=0)
     y_train = pd.read_csv(f"{data_dir}/y_train.csv", index_col=0)
 
-    return X_train, y_train, X_test, y_test
+    with open(f"{data_dir}/languages.json") as f:
+        languages = json.load(f)
+    return X_train, y_train, X_test, y_test, languages
 
 
-def RandomForest(X_train, y_train, X_test, y_test):
+def RandomForest(X_train, y_train, X_test, y_test, languages):
     print(f"RandomForestRegressor...")
     regr = MultiOutputRegressor(RandomForestRegressor(n_estimators=100, random_state=42))
     regr.fit(X_train, y_train)
@@ -61,7 +59,7 @@ def RandomForest(X_train, y_train, X_test, y_test):
     return df_mse
 
 
-def run_regression_ablation(regressor="random_forest"):
+def run_regression_variables(regressor="random_forest", level="line_level", mode="multi"):
     # eval_lang_encoded,script,family,script_lr,training_script_lr,
     # training lang and steps.
     #  arb_Arab,cmn_Hani,deu_Latn,guj_Gujr,heb_Hebr,hin_Deva,jpn_Jpan,kaz_Cyrl,mon_Cyrl,pan_Guru,tur_Latn,urd_Arab,step_Base,step_Step1,step_Step50+sbeam8
@@ -73,7 +71,7 @@ def run_regression_ablation(regressor="random_forest"):
 
     for comb in all_combs:
         print(f"minus {comb}")
-        X_train, y_train, X_test, y_test = load_data()
+        X_train, y_train, X_test, y_test, languages = load_data(level, mode)
 
         remain_columns = sorted(list(set(list(variables)).difference(set(list(comb)))))
         print(f"remaining columns: {remain_columns}")
@@ -83,11 +81,19 @@ def run_regression_ablation(regressor="random_forest"):
             X_test = X_test.drop(columns=list(comb))
 
         if regressor == "random_forest":
-            filename = f"language_confusion/results/random_forest/baseline+{','.join(remain_columns)}.csv"
+            output_dir = f"language_confusion/results/{regressor}/{level}/{mode}"
+            if not os.path.exists(output_dir):
+                os.makedirs(output_dir)
 
-            df_mse = RandomForest(X_train, y_train, X_test, y_test)
+            filename = f"{output_dir}/baseline+{','.join(remain_columns)}.csv"
+
+            df_mse = RandomForest(X_train, y_train, X_test, y_test, languages)
             df_mse.to_csv(filename, index=False)
 
 
 if __name__ == '__main__':
-    run_regression_ablation()
+    for mode in ["multi", "mono", "mono+multi"]:
+        for level in ["line_level", "word_level"]:
+            print(mode, level)
+            run_regression_variables("random_forest", level, mode)
+            print("*" * 20)
