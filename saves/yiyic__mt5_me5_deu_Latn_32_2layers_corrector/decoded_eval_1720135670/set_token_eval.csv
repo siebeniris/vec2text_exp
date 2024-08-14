@@ -1,0 +1,501 @@
+Unnamed: 0,pred,labels,preds_lang,labels_lang,token_set_f1
+0,"query: Warum heiraten, weil ihren Bruder geheiratet hätte? | Kundalini-Käsa |",query: 'અમારા વિરોધીને લગ્નમાં કેમ બોલાવ્યો?' કહી કન્યાના મા-બા,guj_Gujr,guj_Gujr,0.09523809523809525
+1,"query: heute geht’s über den gujarat tourism overview, heute geht’s hier gujarat tourism overview","query: આજે સાંજથી કેજરીવાલની ગુજરાત યાત્રા શરૂ, જાણો આખો કાર્યક્રમ | Read here",guj_Gujr,guj_Gujr,0.08333333333333334
+2,query: hunger hunger hunger hunger hunger hunger hunger hunger hunger hunger hunger hunger 2018 von Dr.,query: ફરહાનની ડૉન 3માં જોવા મળશે ગુજરાતી શાહરુખ ખાન | Shahrukh Kahn,guj_Gujr,guj_Gujr,0.0
+3,"query: Alle Dienstleistungen, die über den Mobiltelefon mittels Pfahlmaschine mittels Pfahlmaschine mittels Pfahlmaschine ",query: પોરબંદર માં મોબાઈલ એપ મારફત તમામ ફિશિંગ બોટો નો સર્વે હાથ,guj_Gujr,guj_Gujr,0.0
+4,"query: keine Veröffentlichung der Berichterstattung sowie Hinweise zum Thema Gynäkologie, Tamil Nadu, Tamil Nad",query: વેક્સિનના સ્ટોક સહિતની માહિતી જાહેર ન કરતા | Jai Hind દેશમાં વેક્સિન વ્ય,guj_Gujr,guj_Gujr,0.0
+5,query: Benefits of diabetes - Benefits of diabetes on Facebook - Benefits of diabetes on Facebook - Benefits,query: ફણસમાં છુપાયેલા સ્વાસ્થ્ય લાભ | Health benefits Of Jackfruit - Gujarati BoldSky ભારતમાં,guj_Gujr,guj_Gujr,0.10526315789473684
+6,query: ᐅ Nov/2022: 51 new airlines created to increase tourism rates on affordable places in ,query: ભારતમાં 51 નાના નવા એરપોર્ટ બનાવાશે | 51 new low cost airports to be set up in India,guj_Gujr,guj_Gujr,0.25
+7,"query: Gotha fordert Menschen, mindestens dreimal jährlich zu arbeiten, um Graffiti-Anästhesie zu erzeugen",query: ગુજરાતમાં દર કલાકે અંદાજે ત્રણ વ્યક્તિને હાર્ટ-અટેકનો સામનો કરવો પડે,guj_Gujr,guj_Gujr,0.0
+8,query: query: query: query: query: query: query: query: query: query: ,query: ગિરિરાજ ફરી વિવાદમાં : પૂછ્યું બધા આતંકવાદીઓ કેમ એક કોમના? |,guj_Gujr,guj_Gujr,0.0
+9,"query: Ihr wollt den farbigen, schwarzen, dunkelgrauen lackieren, wenn Ihre Aufgabe ist","query: તમારા સફેદ થયેલા વાળ ને કરવા માંગો છો કાળા, તો નારિય",guj_Gujr,guj_Gujr,0.08333333333333333
+10,"query: Begegnung über 'Künstliche Identität', 'Künstliche Identität', 'Da",query: અસ્પૃશ્યતાને સ્પર્શતી વાર્તા 'દૂધ કા દામ' 'કાયાકલ્પ,guj_Gujr,guj_Gujr,0.13333333333333333
+11,query: Gsc 18; neuer Arbeitgeber der Gsc 18; wegen einer Covid-19-Pandemie erkrankten ,"query: કોરોનાથી GSFCના નિવૃત્ત કર્મીનું મોત, નવા 18 પોઝિટિવ કેસ નો",guj_Gujr,guj_Gujr,0.09523809523809525
+12,query:..............,query: સેવા - Rmapack.com જ્યારે તમે ઝોંગલી મશીનરી કંપનીને કૉ,guj_Gujr,guj_Gujr,0.0
+13,"query: Grundlagen zur Fähigkeit, Sanskrit zu lernen - Grundlagen zur Fähigkeit Sanskrit zu lernen - Jürgen",query: નેકસ્ટ જનરેશને ગુજરાતી ભાષાનું મહત્ત્વ સમજવવા અનોખો પ્રયોગ - Gujju,guj_Gujr,guj_Gujr,0.10526315789473685
+14,query: Öffentlichkeitsarbeit: zwei männliche Angreifer wurden aufgrund einer gewalttätigen Gewaltattacke:,query: બાંદીપોરાના જંગલમાં બે આતંકવાદી ઠાર : સેનાનો એક જવાન પણ શ,guj_Gujr,guj_Gujr,0.09523809523809525
+15,query: 2017 - 2017 - 2017 - 2017 - 2017 - Thema dieser anspruchsvollen narrative wettbewerb,query: આ મહિનાનો વિષય -વિનુ મરચંટ – 2017 વાર્તા સ્પર્ધા | સહિયારું,guj_Gujr,guj_Gujr,0.1111111111111111
+16,query: NLD (National Digital Library of India) – NLD (National Digital Library of India) – NLD (National Digital Library of India,query: નૅશનલ ડિજિટલ લાઇબ્રેરી ઑવ્ ઇન્ડિયા (National Digital Library of India – NDL– India),guj_Gujr,guj_Gujr,0.6956521739130435
+17,query: Ästhetische Herausforderung! - Ästhetische Herausforderung! - Ästhetische Herausforderung:,query: ડાયાબિટીઝને પરાજિત! એરિથ્રિટોલ: સુગરના અવેજીના નુકસાન ,guj_Gujr,guj_Gujr,0.3076923076923077
+18,query:..............,"query: અમારા વિશે - શેનઝેન ફેલિક્સ ઉદ્યોગ કું., લિ. આવવા બદ",guj_Gujr,guj_Gujr,0.0
+19,"query: Noch waren die Preise verschwunden, weil der Dschungel endlich trocken war, s.a",query: હજુ તો શિયાળો પૂરો નથી થયો ત્યાં તળીયા ઝાટક થવા લાગ્યા ડે,guj_Gujr,guj_Gujr,0.0
+20,query: ᐅ ᐅ ᐅ ᐅ erfolgreich erfolgreich erfolgreich erfolgreich erfolgreich erfolgreich auf G,query: ગોધરામાં પાંચ લાખની લૂંટનો નિષ્ફળ પ્રયાસ – News18 Gujarati ગોધરામાં ,guj_Gujr,guj_Gujr,0.0
+21,"query: PAUL KHAN’s Unterstützung dafür, den Sohn seiner Familie während dieser schwierigen Zeit zu",query: શાહરુખ ખાનના આ મુશ્કેલ સમયમાં સાથ આપવા માટે પોતાના પિતા સાથે મ,guj_Gujr,guj_Gujr,0.0
+22,"query: Dieser Eintrag wurde veröffentlicht, damit die Shopify Hausauffrischung im September i.d.O.,","query: આ રીતે થયું સિડની ઓપેરા હાઉસનું નૂતનીકરણ સોમવાર, ફેબ્રુઆ",guj_Gujr,guj_Gujr,0.0909090909090909
+23,query: Grundlagen zur Online-Anwendung - Online-Anwendung - Grundlagen zur Online-Anwendung - A,query: ઓનલાઈન ટ્રેડિંગ-શરૂઆતકર્યાને લગતી માર્ગદર્શન - એન્જલ બ્રોકિંગ,guj_Gujr,guj_Gujr,0.16666666666666666
+24,"query: Kandidaten für den Abgeordnetenhaus cambodia s.r.o. erfahren, wer den Antrag beantragt","query: પેટાચૂંટણી માટે કોંગ્રેસના ઉમેદવારોની પેનલ તૈયાર, જાણો કોને મ",guj_Gujr,guj_Gujr,0.0909090909090909
+25,"query: iran, Präsident der europäischen Wirtschaft, hat erklärt, dass iranische Investitionspreise zum Thema","query: પરમાણું સંધી પર ઈરાનના રાષ્ટ્રપતિ બોલ્યા, યુરોપના આર્થિક ઉપાયોનો પ્ર",guj_Gujr,guj_Gujr,0.08333333333333334
+26,"query:... ohne dass Akshay Aśna 2024 spielen kann, braucht Akshay Aśna 4 Kategorien auf",query: ૪૦૦ વિકેટની ક્લબમાં જોડાવાથી અશ્વિન હવે માત્ર છ વિકેટ દૂર... | Cha,guj_Gujr,guj_Gujr,0.07142857142857144
+27,"query: Akshay Kumar, einer der erfolgreichsten Vermögensverwalter der Welt, ist 1857 geboren, einer der ","query: વિશ્વના સૌથી ધનિક અભિનેતાઓમાંના એક છે શાહરૂખ ખાન, 28 વર્ષમાં બન",guj_Gujr,guj_Gujr,0.08695652173913043
+28,"query: Reisetag, einen Tag auf der gnsa gnsa gnsa gnsa",query: એક દિવસના પ્રવાસે | ડૉ. પ્રવીણ શાહ નો બ્લોગ એક દિવસના પ્રવાસે,guj_Gujr,guj_Gujr,0.0
+29,query: Posted on 2018/09/18 Posted on 2018/09/18 Posted on 2018/09/18 Posted on Narendra Singh - Sehn,query: નવજોત સિંહ સિદ્ધુ 'લાપતા'! અમૃતસરમાં લાગ્યા પોસ્ટર | Navjot Singh,guj_Gujr,guj_Gujr,0.10526315789473685
+30,query: ᐅ Lösungen zur ätherischen Ölmischung bei der ätherischen Ölmischung zu entfernen Azacus,query: ચામડી પર રહેલા સફેદ દાગ દુર કરવાનાં અક્સીર ઘરેલું ઉપાયો ચામડી પર,guj_Gujr,guj_Gujr,0.0
+31,"query: r r r r r r r r r r - Persönlichkeitsgefühl, Liebe und","query: મીન રાશિ વુમન - રાશિચક્રના લક્ષણો અને પ્રેમ, સુસંગતતા અને",guj_Gujr,guj_Gujr,0.25
+32,"query: Bernstein, während der Präsidentschaftswahl zu gewinnen: Bernstein ist außergewöhnliche Persönlichkeit | ",query: અમેરિકી રાષ્ટ્રપતિ જો બાઈડેન બન્યા ઉપહાસનો શિકાર: સ્ટેજ પર અદ્રશ્ય,guj_Gujr,guj_Gujr,0.08695652173913043
+33,"query: Wenn du Banking Probleme benötigst, dann beachten Sie 5 MasterCard Banking Benefits, welche der","query: ક્રેડિટ કાર્ડ વાપરો છો તો જરૂર જાણો આ 5 નુકશાન, જે બેંક",guj_Gujr,guj_Gujr,0.14814814814814817
+34,"query: 2019-11-15 - Mit dem nächstes Datum, dem nächstes Datum, r.a. 2020 ","query: 16.01.2020 - આજનું રાશિ ભવિષ્ય તમારા આજના લકી નંબર સાથે,",guj_Gujr,guj_Gujr,0.19999999999999998
+35,query: Empowerment for family marriage Posted on 18.12.2018 Posted on 18.12.2018 Empowerment for family marriage Posted on 18,query: વંચિત પરિવારો માટે આશીર્વાદરૂપ સમૂહ લગ્નોત્સવ 18th Jan 2019 | Updated,guj_Gujr,guj_Gujr,0.0
+36,query: Veröffentlicht auf: Tsunami e.V. – Tsunami e.V. – Tsunami e.V. auf,query: મોરબી-માળિયામાં અકસ્માતે બેના મોત – MorbiNews ટંકારા તાલુકા,guj_Gujr,guj_Gujr,0.13333333333333333
+37,query: Ahmedabad: 80 Öffentlichkeiten: 80 Öffentlichkeiten: 80 Öffentlichkeiten: 80 Öffentlichkeiten: ,query: અમદાવાદઃ લગ્નનાં જમણવારમાં 80 લોકોને ફૂડ પોઈઝન | 80 Patients Taken,guj_Gujr,guj_Gujr,0.14285714285714288
+38,query: r a r a r a r a : 2017 : 2017 : Jubiläumsjahr,query: આજનું રાશિફળ ૧૭ એપ્રિલ : ૩૧ વર્ષ બાદ બની રહ્યો છે ખાસ,guj_Gujr,guj_Gujr,0.11764705882352941
+39,"query: Dänemark nimmt alle Gründe, um den Disaster Recovery Poetry Slam in Oya e.V. zu ",query: સુરતમાં તમામ શાળાના વાલીઓ ફી માફીના મુદ્દાને લઈને DEO કચે,guj_Gujr,guj_Gujr,0.0
+40,"query: ASAP: 40000 tūkst. Menschen dürfen nicht zahlen, sondern auch polizeibehörde: a","query: અમદાવાદ : પોલીસ પણ નથી સલામત, તસ્કરોએ એસીપીનો 40 હજારનો ફો",guj_Gujr,guj_Gujr,0.15384615384615383
+41,query: Bewirtschaftung mittelständischer Bäckerei gewinnen ökologische Bäckerei gewinnen ökologische Bäcker,query: દારૂનો છંટકાવ કરી માલામાલ થઇ રહ્યો છે બટાકા ઉત્પાદક ખેડૂ,guj_Gujr,guj_Gujr,0.0
+42,"query: Der größte gesetzliche Beschluss, um den Haushaltsausgleich zu erhöhen, hat gdp gujarat ","query: ખર્ચ ઘટાડવા માટે ગુજરાત સરકારના નાણાં વિભાગનો મોટો નિર્ણય, આ બો",guj_Gujr,guj_Gujr,0.08
+43,query: fÃ1⁄4r fÃ1⁄4r fÃ1⁄4r Freundschaft fÃ1⁄4r emotionale Fähigkeiten: abdulgas,query: શબાના આઝમી : ફાયર ફૅમ સમલૈંગિક પ્રેમિકા કે બંદૂકધારી ગ,guj_Gujr,guj_Gujr,0.125
+44,query: Beiträge zur medizinischen Rehabilitation durch Covid-19 ernannt Posted on 06.04.2018 Posted by gds doctors,query: કોરોનામાં જીવના જોખમે ફરજ નિભાવનાર ડોક્ટરોનું સન્માન | Gujarat Times Home GUJARAT,guj_Gujr,guj_Gujr,0.0
+45,query: Jetzt entsteht eine Fälzöl / Öl sowie eine LPG / LPG Flasche bzw,query: ફાફડા અને ભજીયા તળાયેલા 1 કરોડ લિટર તેલમાંથી હવે બનશે બાયોડી,guj_Gujr,guj_Gujr,0.0
+46,query: ❱ Unsere Bestenliste Nov/2022 - Wie du einen Behälter entwickeln kannst: How to b,query: સમાચાર - તમારા બેગ પ્રોજેક્ટ માટે સચોટ અવતરણ કેવી રીતે મેળવવું?,guj_Gujr,guj_Gujr,0.07407407407407407
+47,query: archaeology of the ancient world - Umsetzung: archaeology of the ancient world Datum: 18. Oktober,query: ઇતિહાસના આસમાનમાં ઉડાનઃ ભૂજથ 18th Oct 2021 | Updated at 09:03am 18,guj_Gujr,guj_Gujr,0.08333333333333333
+48,"query: nsanya ist der Name, nsanya ist der Name, nsanya ist türkisch, ","query: નામ છે સુલતાન, અંદાઝ છે નવાબી, નાસ્તામાં લે છે દેશી ઘી અને",guj_Gujr,guj_Gujr,0.11764705882352942
+49,"query: Der gesetzliche erhöhte Strompreis in Karnataka wird erhöht, dafür sorgt Galaga, dass er ","query: ગુજરાતમાં વીજળીના બિલમાં થશે મોટો ઘટાડો,સરકારે લીધો આ મોટો નિર્ણ",guj_Gujr,guj_Gujr,0.08
+50,"query: Möchtest du einfacher, schneller und einfachsten Möglichkeiten zur Selbstständigkeit finden? Sgr. A",query: શું તમે સગર્ભા થવાનો સૌથી ઝડપી અને સરળ રસ્તો જાણો છો?,guj_Gujr,guj_Gujr,0.07407407407407407
+51,"query: Die schlimmsten Angriffe im November, â€ž auch wenn ukrainische Opfer â€ž",query: કાશ્મીરમાં ઓક્ટોબરમાં નાગરિકો પર સૌથી વધુ હુમલા છતાં નવેમ્બ,guj_Gujr,guj_Gujr,0.0
+52,"query: Öffentlichkeitsarbeit geändert, nach der Kommunikation einer Kundgebung gemacht. Khansa, Khansa, ","query: સોનિયા ગાંધીના એક ફોનથી બદલાયા કર્ણાટકના સમીકરણ, ભાજપ બેચેન |",guj_Gujr,guj_Gujr,0.09090909090909091
+53,query: Ökumenisches Demonstrations-Gespräch gegen den Gewaltpogrom auf Kambodscha | www.jahna.,query: પુણે હિંસાના વિરોધમાં જૂનાગઢ-સોમનાથ હાઇવે પર ચક્કાજામ | jam,guj_Gujr,guj_Gujr,0.10526315789473685
+54,query: Gujarati Story | Gujarati Story | Gujarati Story | Gujarati Story | Gujarati Story | Gujarati Story | Gujarati Story |,query: સ્ત્રી | Gujarati Classics Story | Sapana Vijapura Gujarati Story : #716 Gujarati Story Classics :,eng_Latn,eng_Latn,0.4615384615384615
+55,query: Lebenserfahrung - 3 Möglichkeiten der morphosphäre - Lebenserfahrung - morphosphäre - ,query: ત્રણ પ્રકારના સુક્ષ્મજીવોનો મંગળની ટ્રીપનો પ્રયોગ ઃ LIFE - પૃથ,guj_Gujr,guj_Gujr,0.125
+56,query: krishna kaṇḍa krishna kaṇḍa krishna kaṇḍa krishna kaṇḍa ermöglichen |,query: સુમંતભાઇ શાહે સર્જ્યુ કેન્યામાં ચૌમુખી કાષ્ટ જીન પ્રાસાદ | ધર્મધ્યાન,guj_Gujr,guj_Gujr,0.14285714285714288
+57,query: Erhalt der erworbenen Herstellungsgüter aus Indien iglu Iglu Iglu Iglu Iglu Iglu I,query: હાંસોટ ટાઉન માંથી ભારતીય બનાવટનો ઇગ્લીશ દારૂનો જથ્થો પક,guj_Gujr,guj_Gujr,0.0
+58,"query: 18. März 2021, 18:00:00 (Coronavirus) - Im März 2021 ist der erhöhte Zuwachs der Population","query: શુક્રવાર, 26 માર્ચ 2021 (18:27 IST) રાજ્યમાં કોરોનાના સંક્રમણ વધી રહ્યું છે",guj_Gujr,guj_Gujr,0.2580645161290323
+59,query: wirkungsvoller tourismus - erfolgreicher tourismus nachweis - ssna gunnar | ,query: સાસણ ગીર : વન્યજીવ સંરક્ષણનું એક સફળ ઉદાહરણ - Zigya,guj_Gujr,guj_Gujr,0.11111111111111112
+60,"query: Patienten sollten, dass ihre Anwendungen ohne Zitronensäure, Diabetes ohne Zinksäure, DASHAKULA®","query: ડાયાબિટીસના દર્દીઓને જાસુદની ચાથી થશે ફાયદો, બ્લડ સુગર નહીં",guj_Gujr,guj_Gujr,0.09523809523809525
+61,"query: pdf / pdf / pdf / Richtung und Aufbau meiner Prinzipien, den gesamten","query: રીટર્ન નીતિ / રદ તેના મૂળ પેકેજિંગમાં, અને બધા ટsગ્",guj_Gujr,guj_Gujr,0.1904761904761905
+62,query: fÃ1⁄4r den weiblichen fÃ1⁄4r den männlichen fÃ1⁄4r den fertility marriage ⋆ ,query: અહીં ફર્શ પર સુતાની સાથે મહિલા થઇ જાય છે ગર્ભવતી | simsa,guj_Gujr,guj_Gujr,0.0
+63,"query: Suryasa, Dankbarkeit, Schönheit wird durch diesen strahlend strahlen, dass sämtliche ","query: આ રાશિઓ પર રેહશે સૂર્યદેવની કૃપા,દરેક દુઃખ થશે દૂર,સા",guj_Gujr,guj_Gujr,0.08695652173913043
+64,query: +++ Nadine Gordal ergänzt auch den 100 cm höheren Medaillenreichtum. Der Gävle,query: ગોલ્ડ મેડલ વિજેતા નીરજના કોચે પણ 100 મી. કરતાં વધુ ભાલો ફેંક્યો,guj_Gujr,guj_Gujr,0.15384615384615385
+65,query: pdf / pdf / pdf / pdf / kostenlose Eintragung durch den Applikationsanbieter,query: જીઓ દ્વારા ડાઉનલોડ અને વડાફોન દ્વારા અપલોડ સ્પીડને ઓગસ્ટ,guj_Gujr,guj_Gujr,0.0
+66,query: ᐅ Denkmalgeschützte Brücke zwischen zeitgenössischer Sprache Denkmalgeschützte Brücke zwischen ,query: ડિસ્કો ડાંડીયા વચ્ચે પરંપરાને જીવંત રાખતી જય અંબે ગરબી મંડ,guj_Gujr,guj_Gujr,0.0
+67,"query: Madhya Pradesh, Gujarati, Gujarati, Gujarati, Gujarati, Gujarati, Gujarati, Gujarati kulinarische Produkte","query: મહારાષ્ટ્રીયન વાનગીઓ, મહારાષ્ટ્રીયન વેજ ભોજન,મરાઠી ફૂડ રે",guj_Gujr,guj_Gujr,0.14285714285714288
+68,"query: Meine Frau hatte einen anderen Telefon bekommen, aber ohne ihren Namen, denn ANNA, dieses Telefon","query: પિતાને એક અજાણ્યા નંબર થી ફોન આવ્યો,પણ આ ફોન પોતાની દીકરીએ જ",guj_Gujr,guj_Gujr,0.07142857142857144
+69,"query: DOWNLOAD: ""My name is Radhika"" - Radhika Radhika Radhika Radhika Radhika Radhika Radhika Radhika","query: જૂઓ વીડિયો: રાહુલ ગાંધીની બાયોપિક ""My Name Is Raga""નું ટીઝ",guj_Gujr,guj_Gujr,0.34782608695652173
+70,"query:... möchte ich helfen, meinen besten Whisky nehmen? Also, welche Tellerhülle nehme ich","query: હાં હાં હું સલમાનની ચમચી, શું કરી લેશો? ટ્રોલના કોમેન્",guj_Gujr,guj_Gujr,0.14814814814814814
+71,"query: Dieses sind werkzeuge, die Ihnen stärken, dass Ihre Psychologie verbessert; Ps",query: આ એવી વસ્તુઓ છે જે પાચન તંત્રને બનાવે છે મજબૂત; તમને પેટની,guj_Gujr,guj_Gujr,0.08
+72,"query: Die Suche nach neuen Technologien, die dazu führen, dass COVID-19 bereits länger dauert, ","query: કોરોનાને લઇ કરવામાં આવી નવી શોધ,આટલા સમય સુધી ટકે છે ",guj_Gujr,guj_Gujr,0.07692307692307691
+73,query: Shopify - Shopify - Shopify - Shopify - Shopify - Shopify - Shopify -,query: નિયો-પાવડર TM શેમ્પૂ | સિિકબ્યુટી સ્ટોર - સીસી બ્યુટી,guj_Gujr,guj_Gujr,0.1818181818181818
+74,query: Beiträge zur bürgerschaftlichen Öffentlichkeitsarbeit göteborg-göteborg Beiträge zur bürgerschaftlichen Öffentlichkeit,query: ગુજરાતનાસાહિત્ય-લોકસાહિત્ય ક્ષેત્રે પૂતળીબાઈનું પ્રદાન ગુજરાતી લોકસાહિત,guj_Gujr,guj_Gujr,0.0
+75,"query: Damit du diesen besonderen Hilfe bekommen kannst, DAD, AGRA, hilfshilfe sowie","query: દાદ, ખાજ અને ખુજલીથી રાહત મેળવવા કરી લો આ ખાસ ઉપાય, મળ",guj_Gujr,guj_Gujr,0.08
+76,"query: 20.04.2020, 10:00 - 10:30 Uhr detektor.ch sucht, um eine Diagnose zu entwickeln (Oktober 2019)","query: ગુરુવાર, 20 ઑગસ્ટ 2020 (10:05 IST) કોરોનાની કાટ શોધવા માટે ડોકટ",guj_Gujr,guj_Gujr,0.1935483870967742
+77,query: Glänzende Kollektionen für Glänzende Kollektionen Glänzende Kollektion Glänzende Kollektion G,query: ગર્લ્સમાં ૭૦ના દશકની વંિગ્ડ આઇ લૂક ફેવરીટ આઇ લાઇન આં,guj_Gujr,guj_Gujr,0.0
+78,query: HÄHÄHÄHÄHÄHÄHÄHÄHÄHRUNG: Während der chinesischen Haupt,"query: એલર્ટ : હિન્દ મહાસાગરમાં ચીની યુદ્ધ સબમરીન દેખાઈ, તેની દરેક",guj_Gujr,guj_Gujr,0.11764705882352942
+79,"query: Beiträge auf der Suche nach: Aksharpur, Aksharpur, Aksharpur, Aksharpur –","query: આમ્રપાલી – પ્રકાશ પંડ્યા, હર્ષદ દવે (પ્રકરણ ૪) | Aksharna",guj_Gujr,guj_Gujr,0.18181818181818185
+80,query: Ähnlich geschriebene Schriften schriftlich schreiben Ähnlich geschriebene Schriften schriftlich schreiben,query: સંસ્કૃત ગ્રંથો કંઠસ્થ રાખી અંતાક્ષરી રમતા ઋષિકુમારો - Nav,guj_Gujr,guj_Gujr,0.0
+81,"query: 16 Schönheiten, diese sind die Schönheit der Indien, welche ihnen besonders ausgezeichnet ist, ","query: આ છે ભારતની 16 સૌથી સુંદર મહિલાઓ, જેની સુંદરતાની દીવાની છે દુનિયા, ",guj_Gujr,guj_Gujr,0.15384615384615383
+82,query: ᐅ Nov/2022: Heroes of the matrix - imdb: imdb: imdb: imdb: imdb,query: ફિલ્મ-રિવ્યુ : હમશકલ્સ - ત્રાસનો ટ્રિપલ રોલ You are here :HOME,guj_Gujr,guj_Gujr,0.19999999999999998
+83,query: Präsenzwissenschaft: Präsenzwissenschaft: Präsenzwissenschaft: Präsenzwissenschaft: Präsenzwissenschaft: Präsenz,query: વિકિસૂક્તિ:સ્વશિક્ષા - વિકિસૂક્તિ વિકિસૂક્તિ:સ્વશિક્ષા વિકિસૂક્તિ ઘણા,guj_Gujr,guj_Gujr,0.25
+84,"query: Öffentlichkeitsarbeit schafft Milliarden: 2019: ₹ 6,73 Mrd. ₹ 6,7 Mrd. ₹ 6,7 Mrd",query: મોદી સરકારે રાજ્યો માટે ખજાનો ખોલ્યોઃ 6195 કરોડની ફાળવણી | chitrale,guj_Gujr,guj_Gujr,0.0
+85,"query: Wenn Du nicht den Begriff Banking benutzen möchtest, dann solltest Du auch zahlreiche Berechnungen ","query: સાવધાન જો તમને પણ ઘણો પરસેવો આવે છે, તો તેને બિલકુલ અવગણશો ન",guj_Gujr,guj_Gujr,0.07142857142857142
+86,query: Beiträge zur Anästhesie ohne Anästhesie ohne Anästhesie ohne Anästhesie und ökologische,query: વૅક્સિનની અછત અને ધમકીનો વિવાદ અૉક્સિજનના અભાવે લોકોના પ્રાણ જ,guj_Gujr,guj_Gujr,0.0
+87,query: ööööööööööööööööööööööööööö,query: ખાનગીકરણના વિરોધમાં વાપીમાં બેન્ક યુનિયનોએ વિરોધ નોંધાવ્યો,guj_Gujr,guj_Gujr,0.0
+88,"query: Einige der größten Myanmars, die nicht nur durch äußerst bekannte MALAYSIA_KUNST_",query: માયન કેલેન્ડરમાં કરેલી કેટલાક અંધશ્રધ્ધાળુઓ સિવાય વિશ્વના મોટા ભાગના,guj_Gujr,guj_Gujr,0.0
+89,"query: 3 Kindern, 3 Kindern, 3 Kindern, 3 Kindern, während ihres Dschungelprozesses","query: સુષ્મિતા સેને 2 દીકરીઓ બાદ દત્તક લીધો દીકરો, Videoમાં ત્રણ બાળકો",guj_Gujr,guj_Gujr,0.1111111111111111
+90,"query: 8 attorneys dürfen gemeinsam auf den Gerichtsprozess verzichten, während Sanjay Gannacharya ",query: સુશાંત કેસમાં સલમાન ખાન સહીત 8 બૉલીવુડ સ્ટાર્સને કોર્ટમાં હાજર રહે,guj_Gujr,guj_Gujr,0.08695652173913043
+91,"query: Schließung der großen wasserknappen Brücke am Tal in Marmaras wasserknapper Brücke Posted on March 25,",query: તિલકવાડાના મરસણ માઇનોરમાં મોટું ગાબડું પડતા પાણી બંધ કરાયું,guj_Gujr,guj_Gujr,0.0
+92,"query: glücklich machen, glücklich machen, glücklich machen! MdK MdK MdK MdK M",query: મધ્યપ્રદેશમાં મનરેગા મજૂર બની દીપિકા પાદુકોણ! ખાતામાંથી હજારો,guj_Gujr,guj_Gujr,0.13333333333333333
+93,"query: Sehnsucht nach Schülern, künstlerisch gestalteten Schülern, künstlerisch gestalteten Schüler: sdd","query: વડોદરા : શહિદ યુવાનને સાધલી મનન વિદ્યાલયના છાત્રો, શિક્ષ",guj_Gujr,guj_Gujr,0.2105263157894737
+94,"query: a.d.a.d.a.: Police: Berichterstattung über den Fall, Crime & Investigation in ","query: અમદાવાદ: હિટ એન્ડ રન કેસમાં પોલીસ તપાસનો ધમધમાટ, જુ",guj_Gujr,guj_Gujr,0.16666666666666669
+95,query: Audio & Video Übertragungen im interaktiven Netzwerk â€žAsyct â€žAsyc,query: ક્યૂસ્ક્રિપ્ટ ડિસ્ટ્રિબ્યુટર નેટવર્કમાં ARET વિડિઓ અને Audioડિઓ એન્,guj_Gujr,guj_Gujr,0.0
+96,"query: 'Krätik während der Öffentlichkeitsarbeit', besonders während der 70. Jahreszeit 1974",query: આઝાદીના 70 વર્ષમાં પ્રથમ વખત પ્રજાસત્તાક દિને ભારતનો 'ક્રિકેટ,guj_Gujr,guj_Gujr,0.1904761904761905
+97,query: Indien ∙ Herausfordernd während der kriegsbedingten Unsicherheit zwischen Myanmar und Indien ∙,query: સરહદે તણાવ વચ્ચે ભારતે ખતરનાક નિર્ભય મિસાઇલ તૈનાત,guj_Gujr,guj_Gujr,0.0
+98,query: 'Niya' - Öffentlichkeitsarbeit über 'Niya' - Niya TV gmbh am N,query: ટીવીની ઈચ્છાધારી નાગિન 'નિયા શર્મા' ગોવા બીચ પર રે,guj_Gujr,guj_Gujr,0.10000000000000002
+99,"query: Ergebnisse der Öffentlichkeitsarbeit 2020: Dänische Pharmakologen fordern, dass jeder Phänomene",query: દરેક રાજ્યમાં કોરોનાની બીજી લહેર આવશે : નિષ્ણાતોનો દાવો પેનલ ડિસ્ક,guj_Gujr,guj_Gujr,0.08695652173913043
+100,"query: Wenn Ihr Versucht, Spritzgussprüfungen & Tests zu machen, möchtest u.a.","query: જો તમે ઝટપટ અને ટેસ્ટી રેસિપી ટ્રાય કરવા માંગો છો, ",guj_Gujr,guj_Gujr,0.08695652173913043
+101,"query: ISAF / ISAF / ISAF / ISAF / ISAF / ISAF bestätigt, dass",query: કાબુલ એરપોર્ટ હુમલો: ISIS અને તાલિબાન બંનેએ સ્વીકારી જવા,guj_Gujr,guj_Gujr,0.0
+102,"query: Ideen zur gesellschaftlichen entwicklung nach gandhi gns, 17.11.2018, 19.00 Uhr Posted by g","query: યુવાનોને ગાંધી વિચારથી અવગત કરાવાશે શનિવાર, નવેમ્બર 17 2018, 14:19 Hrs(",guj_Gujr,guj_Gujr,0.07407407407407408
+103,query:... 4 junge Unternehmerinnen und Unternehmer schafften den Erwerb einer medizinischen Matura,query: ચાર કોલેજીયન યુવતી અને બે યુવક દારૂ ની મહેફિલ માણતા ઝડપા,guj_Gujr,guj_Gujr,0.0
+104,query: MdB MdB MdB MdB MdB MdB MdB MdB Öffentlichkeits,query: મુખ્યમંત્રી ભૂપેન્દ્ર પટેલ બાયડ મંદબુદ્ધિ મહિલા સમાજ સેવા ટ્રસ્ટની,guj_Gujr,guj_Gujr,0.0
+105,"query: Veröffentlicht am 25. März 2022 in Myanmar, Myanmar, Myanmar, Myanmar, Myanmar keine Bemühungen","query: 22 માર્ચ, 2015 મૌનમાં નિષ્ક્રિયતા નથી, પૂર્ણતા છે. મૌનમાં નિવૃતિ",guj_Gujr,guj_Gujr,0.18181818181818182
+106,query: 5 Wochen während der Phönix-Pflanzung während der Phönix-Pflanzung in Oya ,query: પ્લેન ક્રેશ થતા પાઈલોટે જંગલમાં પાંચ અઠવાડિયા સુધી પક્ષીઓના ઇંડા,guj_Gujr,guj_Gujr,0.0
+107,query: - Persönlicher Persönlicher Persönlicher Persönlicher Persönlicher Persönlicher Persönlicher Persönlicher Persönlich,"query: ત્રિભુવનભાઇ કીશીભાઇ પટેલ - વિકિપીડિયા આણંદ, બોમ્બે પ્રેસિડ",guj_Gujr,guj_Gujr,0.16666666666666666
+108,"query: Kunden sollen ihren Kredit erhalten, um ihren Handelsprozess zu erleichtern: 15 November 2015 - RGR",query: ખેડૂતોને ૧૫ દિવસમાં ક્રેડિટ કાર્ડ આપવાનો થશે પ્રારંભઃ રૃપાલાની,guj_Gujr,guj_Gujr,0.0
+109,query: Griechenland ist auf der Griechenland-Übersetzung erhältlich! Griechenland-Übersetzung erhältlich! Griechenland-Übersetzung erhältlich,query: ગિટમાં પહેલેથી જ સ્પેનિશ સંસ્કરણ છે! | ફ્રોમલિનક્સ | ક્રિસાડઆર,guj_Gujr,guj_Gujr,0.11764705882352941
+110,"query: Bericht: ahmednagar, gujarat, madhya Pradesh, gujarat, karnataka Bericht: ahmednagar, gujarat","query: ગુજરાતી સમાચાર: રિકવરી રેટ મામલે અમદાવાદે ચેન્નઈ, દિલ્હી અને મુંબ",guj_Gujr,guj_Gujr,0.2
+111,query: Unsere Jubiläumsfeier wurde anlässlich der Gandhi Gandhi Gandhi Gandhi Gandhi Gandhi Gandhi Gandhi,"query: નિલેશ કોઠારીનો આજે જન્મદિન યુનિ રોડ જૈન સંઘના ટ્રસ્ટી, જ",guj_Gujr,guj_Gujr,0.0
+112,query: Öffentlichkeitsarbeit - Öffentlichkeitsarbeit - Öffentlichkeitsarbeit - Öffentlichkeitsarbeit -,query: ઝુલ્ફીકાર અલી ભુટ્ટો - વિકિપીડિયા પાકિસ્તાનના ૯મા વડાપ્ર,guj_Gujr,guj_Gujr,0.2
+113,"query: ahmed khan, während ahmed khan während ahmed khan beschäftigte sich mit elektromechanischen Geräten,","query: અમિત શાહ કલાસમાં મોનીટર રહેતા હતા,ટપક સિંચાઈની પાઇપ બનાવાની ફે",guj_Gujr,guj_Gujr,0.09523809523809525
+114,query: gujarat tourist attack query: gujarat tourist attack query: gujarat tourist attack query: gujarat tourist attack query:,query: માઉન્ટ આબુ ફરવા ગયેલા ગુજરાતી પ્રવાસી પર હુમલો – Samacharwala માઉન્ટ આ,guj_Gujr,guj_Gujr,0.0
+115,query: Öffentliche Angriffe gegen den AHS-Abgeordneten in Abu Dhabi a.d.A. Angriffe,query: અમદાવાદમાં NSUIના કાર્યકર્તાઓ ઉપર ABVPનો હિંસક હુમલાના વિરોધમાં રાજ,guj_Gujr,guj_Gujr,0.0
+116,query: Wenn Ihre Frau / Ihre Frau / Ihre Frau / Ihre Vermögensnachlässe/,query: વેરાનમાં/તમારી પત્નીઓ લખે તો - વિકિસ્રોત વેરાનમાં/તમારી ,guj_Gujr,guj_Gujr,0.0
+117,"query: Öffentlichkeitsarbeit Öffentlichkeitsarbeit Öffentlichkeitsarbeit Öffentlichkeitsarbeit Öffentlichkeitsarbeit, um den",query: મોરબીમાં પેટા ચૂંટણીને ધ્યાને લઇ ઓબ્ઝર્વરે તમામ નોડલ ઓફિ,guj_Gujr,guj_Gujr,0.0
+118,"query: Möchtest du wissen, warum der Buddhismus jedes Jahr installiert werden muss? â€žDa",query: શું તમે જાણો છો કે દર વર્ષે ધરમાં કેમ સ્થાપિત કરવામાં આવે છે ભગ,guj_Gujr,guj_Gujr,0.0
+119,"query: Bereits heute, um Kindern / Jugendlichen / Erwachsenen zu helfen, die Corona-Pandemie /","query: ચેતજો/ હવે નાની ઉંમરના લોકોને કોરોના બનાવી રહ્યો છે શિકાર, બેદર",guj_Gujr,guj_Gujr,0.08333333333333333
+120,query: Bericht über den Katastrophenschutz und seine erfolgreiche Katastrophenkontrolle u. a. den Ministerpräsident,query: કચ્છમાં કોરોનાની સ્થિતિ અને તેના નિયંત્રણ માટે મુખ્યમંત્રી વિજય,guj_Gujr,guj_Gujr,0.0
+121,query: größte wirtschaftliche Herausforderung nach dem IMF - 2018 - Vijaya Karnataka - Vijaya Karnataka ,query: ભારત આઝાદી પછીની સૌથી મોટી આર્થિક મંદીના ભરડામાં - Gujarat News,guj_Gujr,guj_Gujr,0.09523809523809525
+122,"query: Können Bakterien toxin fördern, weil der Cholesterin während der Krankheit Krebs verursachen kann ",query: કોરોના વેક્સિનના કારણે પેટના દુ:ખાવાથી લઇને તાવ સુધી થઇ શકે છે,guj_Gujr,guj_Gujr,0.0
+123,query: pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf Dâ€ž,query: 2021 માં ડબલ્યુપી એન્જિન પ્રાઇસીંગ (યોજનાઓ અને કિંમતો સમજાવા,guj_Gujr,guj_Gujr,0.0
+124,"query: Kallar - Algorithmus - Wenn keine Entscheidung treffen, wenn keine Frage gestellt werden kann......",query: કોલ લેટર - જો સમય પર સાચો નિર્ણય ના લેવાય તો શું થાય...વાંચો,guj_Gujr,guj_Gujr,0.0689655172413793
+125,"query: Nächstes Jahr, um den ersten Ausflug in Navara zu ermöglichen, ist Navara Kreuzfahrt 2018 eröffnet","query: નર્મદામાં સૌપ્રથમવાર રિવર રાફટિંગ શરુ, કેવડીયા પ્રવાસમાં નવા આ",guj_Gujr,guj_Gujr,0.08
+126,"query: Vorlagen sowie Hinweise, wenn geschäftsführende Unternehmen den Zugang zu Darlehensprüfungen ",query: દુકાન પડાવી લેવા ખોટી ભાડાની પહોંચ સહિતના ખોટા દસ્તાવેજો રજૂ,guj_Gujr,guj_Gujr,0.0
+127,"query: 19 April 2021, 10:00 - 18:00 Akshay Kumaracharya: Empowerment, Empowerment, Empowerment, E","query: શુક્રવાર, 19 માર્ચ 2021 (00:36 IST) ઈંટરનેંટ: આશીર્વાદ કે અભિશાપ મુ",guj_Gujr,guj_Gujr,0.2962962962962963
+128,query: 2074 - Damiya nimmt diesen Glücksbringern 22 glückliche Menschen her. Für diesen Bereich ,query: 22 થી 28 આ ચાર રાશિવાળા માટે શનિદેવ લઈને આવી રહ્યા છે ખુશીઓ આ,guj_Gujr,guj_Gujr,0.07692307692307693
+129,query: ayurveda unterstützung - ayurveda unterstützung - ayurveda behandlung - aishwarya,query: ડિપ્રેશન દૂર કરવાનો અકસીર ઈલાજ તુલસી!!! - OTT India Homeન્યૂઝ,guj_Gujr,guj_Gujr,0.12500000000000003
+130,"query: Odisha, außergewöhnlicher Tag, Odisha, außergewöhnlicher Tag, außergewöhnlicher Alarm, ","query: આગ ઓકતાં સૂરજદાદા, ઓરેન્જ એલર્ટ જાહેર, આ દિવસે અસહ્ય ગરમ",guj_Gujr,guj_Gujr,0.12500000000000003
+131,query: gewinner der Jägerin Jägerin Jägerin Jägerin Jägerin Jägerin Jägerin Jägerin,query: જુનાગઢમાં પાણીદાર ચેરમેનનું બિરૂદ મેળવનાર મુકેશ ધોળકીયાનો,guj_Gujr,guj_Gujr,0.0
+132,query: 'Aphrodisia' sowie 'Tatiana' sowie 'Tatiana' sowie 20 weitere,query: નીતા અંબાણી અને પ્રિયંકા સહિત ૨૦૦ મહિલાઓ 'ટાઇટેનીક બ્,guj_Gujr,guj_Gujr,0.125
+133,query: Wie ich meine Möglichkeiten und Möglichkeiten für i.a.m.a.m.a. audio und multimedia,query: કેવી રીતે આઇટ્યુન્સ માટે આઇફોન સંગીત પરિવહન અને આઇફોન મા,guj_Gujr,guj_Gujr,0.0
+134,query: Urteil: Öffentliche Grundschulen ab dem 18. März 2018: Öffentliche Grundschulen ab dem 18. März 2018,query: રાજ્ય સરકારનો નિર્ણય : રાજ્યની ઉચ્ચ પ્રાથમિક શાળાઓ ૧૮મીથી ફ,guj_Gujr,guj_Gujr,0.10000000000000002
+135,query: Brücken & Brückenabschnitte revidiert und verbessert werden / BRITS / BRITS / BR,query: બીઆરટીએસના રૂટ અને કોરિડોરનો રિવ્યુ કરાશે | BRTS rout and corridor review -,guj_Gujr,guj_Gujr,0.0
+136,query: jüngsten jüngsten jüngsten jüngsten jüngsten jüngsten jüngsten jüngsten Geschäftsführer der J,query: જુનાગઢ સમસ્ત બ્રહ્મ યુવા સંગઠનના સંસ્થાપક જયદેવભાઇ જોષીનો જન્,guj_Gujr,guj_Gujr,0.0
+137,query: Warum ermächtigt werden? - Prädikat zu ermächtigen - Prädikat zu ermächtigen,query: પિતૃપક્ષમાં શ્રાદ્ધ શા માટે કરવું? - સનાતન સંસ્થા Home > અદ્યાત્મ,guj_Gujr,guj_Gujr,0.2
+138,"query: Bollywood Film Bericht, Bollywood Film Bericht, Bollywood Film Bericht, Bollywood Film Öffentlichkeitsarbeit, ","query: પ્રભાસની બોલીવુડ ફિલ્મનો Video થયો Leak, જુઓ બાહુબલીની ધમાકે",guj_Gujr,guj_Gujr,0.13333333333333333
+139,"query: Unterstützung der nördlichen regierungsrätlichen Personen, welche durch Ddg. Ddg. Ddg",query: નાગરિક સંરક્ષણ દળના ડે. વોર્ડન સહિત ૧૬૧ વ્યક્તિઓના વડોદ,guj_Gujr,guj_Gujr,0.10000000000000002
+140,"query: Unterstützung der sozialen Sektoren, wie beispielsweise: Asoka Housing Benefits: Asoka Housing Benefit",query: આર્થિક નબળા પરિવારો માટે સમરસ કોવિડ જેવા સેન્ટરો આશિર્વાદ સમાનઃ,guj_Gujr,guj_Gujr,0.0
+141,query: 6 männlich geschädigt beim Highway fahren | Myanmar news / Myanmar news / Myanmar news ,query: સિહોરના મેઘવદર રોડ પર બિભસ્ત ચેનચાળા કરતા ૬ ઝડપાયા | Shankh,guj_Gujr,guj_Gujr,0.09523809523809525
+142,"query: besser sagen, besser sagen, besser sagen - gujarat newspaper - gujarat newspaper -",query: વધુ યોગ્ય - ઝહાબિયા ખોરાકીવાલા | Rajkot | Jai Hind News Paper વધુ ,guj_Gujr,guj_Gujr,0.11764705882352942
+143,query: Öffentlichkeitsarbeit beim ankauf ägyptens illegalen Ressourcen auf der Pattaya Pattaya Pattaya,query: પાટનગર પંથકમાં વિદેશી દારૂનો લાખોની મુદ્દામાલ પકડી પાડતી એલ,guj_Gujr,guj_Gujr,0.0
+144,"query: Besuchen Sie dieses Gebäudes, um sehen zu können, wie'saḷḷa family' in der Haustür","query: આ મંદિરની દિવાલોમાં દેખાય છે ગર્ભસ્થ શિશુનો આકાર, ઘરે બેઠા જોઇ લો",guj_Gujr,guj_Gujr,0.07142857142857144
+145,query: Mining executives to increase gross amount of money - Mining executives to increase gross amount of money,query: સરકારી કર્મચારીઓ માણશે મોટું મિનિ વેકેશન | Government employees to get big mini vacation this,guj_Gujr,guj_Gujr,0.08333333333333334
+146,"query: Anlässlich der Einführung der neuen Präsidentschaftssitzung im Radisson Blu-ray Hotel, Thiruvananthapuram",query: નવી દિલ્હીમાં દ્વીતીય રાઇસીના સંવાદમાં પ્રધાનમંત્રીના ઉદ્ઘાટન સમાર,guj_Gujr,guj_Gujr,0.0
+147,"query:...für einen nachhaltigen, wirtschaftlichen und sozialen Umgang mit Wirtschaftlichkeit zu fördern. Indisayiş",query: અર્થતંત્રને સ્વચ્છ અને સ્વસ્થ કરવાના લક્ષ્ય સાથે...આત્મનિર્ભરતાની દિશામાં,guj_Gujr,guj_Gujr,0.07407407407407408
+148,"query: Bengaluru, March 2016: Mobilitätsbeschleunigung - viele Gründe, weil der Verkehr massiv erschwert",query: મુંબઈ બ્રિજ દુર્ઘટના: ઘણા લોકો માટે લકી સાબિત થઈ ટ્રાફિકની,guj_Gujr,guj_Gujr,0.08
+149,query: Öffentlichkeitsarbeit Schlagwörter: 41 Corona-Maßnahmen auf der ganzen Provinz; 96 Länder ernannt; ,query: 10 રાજ્યોના 46 જિલ્લામાં કોરોના વકર્યો: નિયંત્રણો લદાશે | નવગુજરાત સમય,guj_Gujr,guj_Gujr,0.08
+150,"query: Der geburtstagsgroße Anerkennungspreis wurde ursprünglich gemacht, um swami Ramannatha krishnacharya",query: ભારતના મહાન ગણિતજ્ઞ શ્રીનિવાસ રામાનુજનના જન્મ દિવસની આવી રીતે કરાઈ,guj_Gujr,guj_Gujr,0.0
+151,query: Rahul Krishna erfolgreich erfolgreich erfolgreich erfolgreich erfolgreich erfolgreich nach Madhya Pradesh: Abhishek,query: અમિત શાહ રાજસ્થાનમાં વસુંધરા રાજેનું પત્તુ કાપવામાં સફળઃ આગામી ચ,guj_Gujr,guj_Gujr,0.0
+152,"query: â€ž Konstruktion â€ž Der Gründer â€ž gefunden wurde, nach der Ausstellung in Riga ",query: મૂર્તિ વિસર્જન સમયે નદીમાં પડેલા રીક્ષા ચાલકનો મૃતદેહ મળી આવ્યો |,guj_Gujr,guj_Gujr,0.0
+153,"query: Nach dem jüngsten jüngsten jüngsten jüngsten jüngsten jüngsten Freundschaftsanspruch, Mahesh,","query: જાવેદ જાફરીના દીકરા, મીઝાન જાફરીએ અમિતાભની દોહિત્રી નવ્યા સાથે",guj_Gujr,guj_Gujr,0.125
+154,query: WRC - Sieger der Champions League - Sieger der Champions League - WRC - WRC - WRC,query: શાહરુખની ટ્રિનિબાગો નાઈડ રાઈડર્સ CPLમાં ચેમ્પિયન - Western,guj_Gujr,guj_Gujr,0.14285714285714288
+155,"query: Assalamu Alaikum, meine Kundinnen und Kunden, ich möchte euch morgen, kommenden Samstag, 9a","query: મારા વ્હાલા દેશવાસીઓ, આવતીકાલે સવારે 9 વાગે હું તમારી સા",guj_Gujr,guj_Gujr,0.08
+156,"query: Dieser nächste aksharaksha ramadhan, kommenden Freitag, wird 5 gläubiger, wertvolle","query: આવતી કાલે આ 5 રાશિવાળા માટે રહેશે જોરદાર દિવસ, કિસ્મત આપશે સાથ, ",guj_Gujr,guj_Gujr,0.16666666666666669
+157,query: delhi n.d.a. - Ab dem 30. März 2020 hat die Pandemie geschlossen - Öffnung ,query: નવી દિલ્હી - 7 થી 30 નવેમ્બર સુધી ફટાકડા ફોડવા ઉપર પ્રતિબંધ આવી,guj_Gujr,guj_Gujr,0.14814814814814817
+158,"query: Nachdem der Kunde ""Nannagraha"" ihren Begeisterung für ""Nannagraha"" bekommen dürfte,","query: નોરા ફતેહીને ""ચંદ્રમુખી"" ના અવતારમાં જોઈને ચાહકોએ કહ્યું કે",guj_Gujr,guj_Gujr,0.17391304347826086
+159,"query: Auch Angehörige der Taliban, die im November 2016 zu tödlichen Taliban-Angriffen zählen, zähl",query: અફઘાનિસ્તાનમાં તાલિબાનના હુમલામાં નાટો સૈનિકો સહિત ૨૦નાં,guj_Gujr,guj_Gujr,0.0
+160,"query: 85 m ü. M., wuchs der ländliche Landkreis Mörtli, um eine Brücke zu bauen,","query: 8 ફૂટ લાંબો મગર નદીમાંથી ઘૂસી ગયો શહેરમાં, મોઢુ બાંધીને ",guj_Gujr,guj_Gujr,0.07692307692307691
+161,"query: ""Grä"" wolle 50 Millionen Dollar erhalten, um ihren 'Japanische Kredit' zu fördern.",query: 'સમુરાઈ' બનવા રિલાયન્સ જીઓએ જાપાનમાંથી $50 કરોડની લોન લીધી ,guj_Gujr,guj_Gujr,0.14285714285714285
+162,"query: prüfen, prüfen, prüfen, prüfen, prüfen, akkreditiert durch rrs","query: સરફેસ રફનેસ ટેસ્ટર, રફનેસ મીટર - કેઆઈઆરડીએ પોર્ટેબલ",guj_Gujr,guj_Gujr,0.15384615384615385
+163,query: Fuchsia - ganzjährig - ganzjährig - Mischung über den Winter - Mai - Mai,query: મેથીના ગોટા - ચોમાસાથી લઈને આખો શિયાળો બધાના ફેવરીટ ભજી,guj_Gujr,guj_Gujr,0.11111111111111112
+164,"query: gujarat latest news, gujarat latest news, gujarat latest news, gujarat latest news, gujarat latest","query: રોગપ્રતિકારક શક્તિ News in Gujarati, Latest રોગપ્રતિકારક શક્તિ news, photos, videos",guj_Gujr,guj_Gujr,0.28571428571428575
+165,"query: Öffentlichkeitsarbeit mit einem Flaschenbehälter aus Ungarn, während einer braunen Mafia",query: મોરબીના ઘૂટું નજીકથી વિદેશી દારૂના જથ્થા સાથે બાઈક ચા,guj_Gujr,guj_Gujr,0.0
+166,"query: Anlässlich seiner Ankaufsarbeit erstellt, nimmt Nanda, s.r.l. silberne","query: સોના-ચાંદી માંથી બનેલી લિપસ્ટિક લગાવે છે નીતા અંબાણી, તેની",guj_Gujr,guj_Gujr,0.10000000000000002
+167,query: ❱ Nov/2022: Aktuelle News from gujarat latest news on gujarat latest news on gujarat latest news on,query: ગુજરાતભરના મુખ્ય સમાચાર સંક્ષિપ્તમાં વાંચો અહીં | October 12 top local news ,guj_Gujr,guj_Gujr,0.0909090909090909
+168,"query: Eine Unfallflucht gefunden am 16. März 2019 in Rorschacha, Rorschacha, Letzte Änderung:","query: રસાણા પાસે અકસ્માતમાં એકનું મોત શનિવાર, ફેબ્રુઆરી 16 2019, 13:36 Hr",guj_Gujr,guj_Gujr,0.23076923076923075
+169,"query: Öffentlichkeitsarbeit im Bereich der Bombardier-Präzisionsüberwachung im Tajikistan, Kambodscha",query: અફઘાનિસ્તાનમાં તાલિબાનના નિયંત્રણ વાળા વિસ્તારમાં પેસેન્જર વિમાન ક્ર,guj_Gujr,guj_Gujr,0.0
+170,"query: Gefährdungsangst, dass Schule nach der bildungsprüfung göteborg göteborg e.V. ","query: ગુજરાતના શિક્ષણજગતને કલંકિત કરતો કિસ્સો, રેગિંગની ઘટનાથી ડર",guj_Gujr,guj_Gujr,0.10526315789473685
+171,query: Eintrag der a.a.A.A.A.A.A.A.A.A.A.A.,query: અમદાવાદની પ્રતિષ્ઠિત શાળા સી.એન. વિદ્યાલયના આચાર્ય એ લખેલી પોસ્ટ,guj_Gujr,guj_Gujr,0.14285714285714288
+172,"query: g.a.g.a. hat unsere Webseite dazu unterstützt, unsere visuelle Fotografie",query: ગૂગલ અમને ફોટો રીચ્યુચિંગમાં તેની કૃત્રિમ બુદ્ધિ દ્વારા બતાવેલ,guj_Gujr,guj_Gujr,0.0
+173,query: ivar erweitert seine Beiträge zu den wichtigsten Bereichen der ökologischen Ressource nach ukrainischen K,query: યુક્રેને કીવના મહત્ત્વના ક્ષેત્રો પર ફરી અંકુશ મેળવ્યો | નવગુજરાત,guj_Gujr,guj_Gujr,0.0
+174,"query: Datum: 2016-09-22, 00:00:00 - Ästhetische Erkenntnisse, dass Patienten ihre Funktionen entwickeln","query: શુક્રવાર, 22 સપ્ટેમ્બર 2017 (19:46 IST) એસીડીટીના લક્ષણો દર્દીને વાર",guj_Gujr,guj_Gujr,0.07692307692307693
+175,query: : : : : : : : : : : : : : :,query: (1) ડાંગરની જાત વિષે જણાવો? જવાબ : રોપાણ ડાંગરમાં વ,guj_Gujr,guj_Gujr,0.14285714285714288
+176,query: Beiträge zur Herstellung der umfangreichen Gütergärtnerei i.g. i.g. i.,query: જામનગરના મોટા થાવરીયાની સીમમાં ર૬૧ બોટલ દારૂ જપ્તઃ ઇન્દ્રીશ સં,guj_Gujr,guj_Gujr,0.0
+177,"query: ausführlicher Ratgeber: Aqsa graha, aqsa graha, aqsa graha im Bereich der Gebäude",query: વડોદરા હાઈ પ્રોફાઈલ રેપ કેસઃ અમદાવાદ આસપાસના ફાર્મ હાઉસમાં,guj_Gujr,guj_Gujr,0.0
+178,"query: sappa, sappa, sappa ist nicht nur seine wertvollen Benefits, sondern","query: બટેટા જ નહીં તેની છાલ પણ છે લાભદાયી, તેના ગજબના ફાય",guj_Gujr,guj_Gujr,0.09523809523809525
+179,query: â€žDâââââââââââââââ,"query: દિલ્લીની ઠંડીએ તોડ્યો 16 વર્ષનો રેકોર્ડ, હજુ ગગડશે પારો,",guj_Gujr,guj_Gujr,0.0
+180,"query: ‚Da wäre nichts schwieriger, wenn unsere wasserdichte Atmosphäre nicht dort ",query: ક્યાંક એવું ન બને કે જ્યાં પાણી ઓછું હોય ત્યાં જ આપણી નાવડી ડ,guj_Gujr,guj_Gujr,0.0
+181,"query: Öffentlichkeitsarbeit: Uttar Pradesh, Indien, 2016: Der georgische Griechenlandprofessor, den im Jahr 2016 in",query: નવી દિલ્હીઃ ઓગસ્ટાવેસ્ટલેન્ડના સોદામાં કહેવાતા વચેટિયાના ધારાશાસ્ત્રીએ,guj_Gujr,guj_Gujr,0.0
+182,"query: IBBA darf ihren Namen auch sagen, weil der IBBA i... IBBA erklärt, ","query: મેલબર્નની પીચને ICCએ કહી 'ઘટિયા', જાણો શા માટે - Sa",guj_Gujr,guj_Gujr,0.08333333333333333
+183,"query: Dieser Snack kann den ätherischen Ölgehalt reduzieren, damit die Stoffwechselabsorption während der ","query: સવારના નાસ્તામાં આ ફૂડનું કોમ્બિનેશન ઘટાડશે શરીરની ચરબી, આ",guj_Gujr,guj_Gujr,0.09090909090909093
+184,"query: nsr nsr nsr ist der Menschheitsphänomene, Jesus Christus, auf der","query: ભગવાન નરસિંહનો અવતાર છે કોરોના વાયરસ, પૃથ્વી પર માંસાહારીને સ",guj_Gujr,guj_Gujr,0.10526315789473685
+185,"query: Der Parlamentarische Präsident sagte, dass er seine Tätigkeit 3% bewirtschaftet hatte. GDP ",query: કોંગ્રેસના શાસનમાં GDP 3.5 ટકા હતી કહી પ્રધાનમંત્રીએ પોતાની કામગીરીના વ,guj_Gujr,guj_Gujr,0.07692307692307691
+186,"query: Auch Rechtsanwältinnen und Rechtsanwälte, die während der HÃ¤lschungsprüfung â€ž",query: કુખ્યાત શૈલેષ ધાંધલ્યા સહિતના શખ્સોને આજે કોર્ટ હવાલે કરા,guj_Gujr,guj_Gujr,0.0
+187,"query:...für eine gesunde, gesunde, gesunde Persönlichkeit...................................................................................................................................................................","query: મન સ્વસ્થ તો તન સ્વસ્થ (૨)... – ""દાદીમા ની પોટલી"".... મન સ્વસ્થ",guj_Gujr,guj_Gujr,0.08333333333333334
+188,"query: Nächster Beitrag: 'Hadday', 'Hadday', 'Hadday' im finalen",query: દિલ્હી 'સેમિ ફાઈનલ'માં : આખરી ઓવરમાં હૈદરાબાદને હાઈ,guj_Gujr,guj_Gujr,0.22222222222222224
+189,query: Kann der Bäuerlichkeit entnommen werden? Bäuerlichkeit bäuerlichkeit bäuerlichkeit b,query: શું તારક મહેતા કા ઉલ્ટા ચશ્મા શોમાંથી બબીતાજીને કાઢી દેવામાં,guj_Gujr,guj_Gujr,0.0
+190,query: Facebook veröffentlicht gute Ideen für nigerianische Fähigkeitspfadfinder i.p.a. zum ,query: ફેસબુકે ભારતીય યૂઝર્સ માટે લોન્ચ કર્યા શાનદાર ફિચર્સ ફેસબુકે,guj_Gujr,guj_Gujr,0.0
+191,query: Hilfe zur Stärkung der Distriktsverwaltung i.d.m.d.m. mehr als 11 Millionen ,query: જામનગર જિલ્લા માટે ધિરાણ વસુલાત સહાય ૧૧ લાખથી વધુની સહાયતા,guj_Gujr,guj_Gujr,0.0
+192,query: Hinweis: Afghanistan ist nur außerhalb der Türkei außerhalb der Türkei a.k.a,query: તાલિબાન: કાબુલ એરપોર્ટ પરથી માત્ર વિદેશીઓ જ અફઘાનિસ્તાન છો,guj_Gujr,guj_Gujr,0.10526315789473685
+193,"query: qualitätsbewertung der äthiopischen Wirtschaft, gmbh, gmbh, gmbh, gmbh. 2020","query: ઝાબુઆ, મધ્યપ્રદેશમાં હવાની ગુણવત્તા 😷 | એરપોલ્યુશન.આઇઓ",guj_Gujr,guj_Gujr,0.125
+194,"query: Damit der Kind schwanger bleibt, dass natürlich keine süßigkeiten a.k.a","query: આ રીતે રાખો બાળકની ત્વચાની સાર-સંભાળ, નહિં થાય કોઇ સ્ક",guj_Gujr,guj_Gujr,0.09090909090909091
+195,"query: Tätigkeitsträger, welche diesen Anspruch erfüllen möchten. [§40d PdA] Tätigkeits",query: આટલું કરવા પદાધિકારીઓએ કરેલી તાકીદ | આટલું કરવા પદાધિકારીઓ,guj_Gujr,guj_Gujr,0.0
+196,query: Beiträge zur bürgerschaftlichen Forderung gegen den bürgerschaftlichen Auseinandersetzungen in MdB Barajasa ,query: બ્રિજેશ મેરજાના વિરોધમાં મોરબીમાં દિગજ્જ કોંગ્રેસીઓનો જમાવડો ,guj_Gujr,guj_Gujr,0.0
+197,"query: Hrishi Hrishi Hrishi, einen wertvollen Erkenntnisgewinn, um wertvolle pharmazeutische Benefits zu ","query: હરડે એક દિવ્ય ઔષધી, હરડેના ચમત્કારી ફાયદાઓ જાણીને ચોં",guj_Gujr,guj_Gujr,0.10000000000000002
+198,query: Öffentlichkeitsarbeit Öffentlichkeitsarbeit Öffentlichkeitsarbeit Öffentlichkeitsarbeit Öffentlichkeitsarbeit Öffentlichkeit,query: ખંભાળિયા સિવીલમાં ઈએનટી સર્જનનું મશીન ખોવાયું ને આરોગ્ય વિભાગ,guj_Gujr,guj_Gujr,0.0
+199,query: Öffentlichkeitsarbeit höher und höher und höher sakrament sakrament sakrament sakrament,query: શ્રાવણ મહિનામાં સોળ સોમવારના વ્રતનો મહિમા અને પૂજા વિધી | fast of 16,guj_Gujr,guj_Gujr,0.0
+200,"query: Unsere Wissenschaftler sagen, dass der Menschheit ihren Weg läuft, dass BRADICALIA ","query: વૈજ્ઞાનિકોએ કહ્યું આપણી દુનિયા બરબાદી તરફ જઈ રહી છે, આ વાત ",guj_Gujr,guj_Gujr,0.08695652173913043
+201,"query: kaum jemand gewinnt, kaum jemand gewinnt und keine wirtschaftlichen Unterstützung. Posted on ",query: સૌ કોઈ બચાવમાં લાગી ગયા છે પણ કોઈ ફાયદો નથી. | Economic and Political,guj_Gujr,guj_Gujr,0.08
+202,"query: Auch während der Covid-19-Pandemie teilnehmen, erhalten Patient*innen ohne Somalysationstests",query: ટેસ્ટ વગ૨ પણ કો૨ોનામુક્ત થતા દર્દીઓથી ફફડતો સિવિલનો ,guj_Gujr,guj_Gujr,0.0
+203,query: aaskara gmbh : Gebühr: 63 Plätze und 6 Plätze; aaskara gmbh ,query: વાંકાનેર: જુગારધામ ઉપર દરોડો: 39 બોટલ દારૂ અને 6 શખ્સ પ,guj_Gujr,guj_Gujr,0.1904761904761905
+204,"query: ausgezeichnete Kameras, um ihnen auch bei der Police ihren Film präsentieren zu können, a",query: પોલીસે ગોઠવેલા કેમેરામાં જેમના ફોટા સારા આવે એમને એવોર્ડ પણ આપો ,guj_Gujr,guj_Gujr,0.0
+205,query: 2015: Tsunami während zwei jüdischen Trennungen 2013: Tsunami während Tsunami während T,query: ગુજરાતી સમાચાર: હૈદરાબાદમાં 2007માં થયેલા ટ્વીન બ્લાસ્ટમાં બે આરોપી,guj_Gujr,guj_Gujr,0.10526315789473685
+206,query: a.k.a.: Über 500.000 Menschen arbeiten: In den USA zwischen April 2016 und März 2016: ,query: કોરોના વાયરસઃ અમેરિકામાં એપ્રિલ સુધીમાં દોઢ કરોડ લોકો બેરોજગાર,guj_Gujr,guj_Gujr,0.0
+207,"query: M&G, 29 Jahre nach den Marriages, 29 Jahre nach den Marriages, verabschiedet M&G ","query: બિલ ગેટ્સ અને મેલિંડા અલગ થયા, લગ્નના 27 વર્ષ બાદ ડિવોર્સ",guj_Gujr,guj_Gujr,0.0909090909090909
+208,query: Die Möglichkeit zur Onlinebestellung wurde â€žInnovation â€žInnovation â€ž jahrzehntelang,query: મંજૂરી માટેની પ્રક્રિયા એક વર્ષથી ઓનલાઈન થઈ ગઈ છે ઓફલાઇન બેઠ,guj_Gujr,guj_Gujr,0.0
+209,"query: Der bekannte Akshay Anand Singh, der Tag der Kundin ist, kann mehr über Akshay Anand Singh,","query: કોણ છે આર્યન ખાનનો વકીલ Satish Maneshinde, જાણો કેટલી છે તેમની એક દિવસ",guj_Gujr,guj_Gujr,0.07692307692307693
+210,"query: Der stärkste deutsche Wirtschaftsmetropole, nach 4 ausgezeichneten Städten: Bangalore, Bangalore, sydney, ","query: ભારતના સૌથી રીચેસ્ટ ૪ સીટી જેમાં દિલ્હી, મુંબઈ, બેંગ્લોરની સા",guj_Gujr,guj_Gujr,0.08695652173913043
+211,query: www.google.com google.com google.com google.com google.com google.com google.com google.com google.,"query: ગુજરાતી | Smile :) જયારે ""ahmedabad municipal corporation property tax online payment"" ગુગલ કરીએ તો નીચે",guj_Gujr,guj_Gujr,0.0
+212,"query: Kein Problem, nicht einmal in einer Maschine umzugehen, bhasstränge austauschen und asphalt","query: પેટ અને આંતરડામાં નહિ રહે એકપણ પ્રકારનો કચરો, બસ એકવાર અજમાવો",guj_Gujr,guj_Gujr,0.08
+213,"query: Um gemeinsam kämpfen zu können, würde sich BJP, BJP, GdJ, LUPA, L","query: બિહારમાં નહી તૂટે ગઠબંધન, BJP, JDU અને LJP મળીને લડશે",guj_Gujr,guj_Gujr,0.17391304347826086
+214,"query: Wenn der afghanische Staat nach einem MSM-Krieg entsteht, sollte auch Kambodscha",query: જમ્મુ કાશ્મીરમાં હવે એક પણ આતંકી હુમલો થયો તો થશે ભારત-,guj_Gujr,guj_Gujr,0.0
+215,"query: unterstützen und pflegen, dass Bevölkerung stets den gesellschaftlichen Umgang mit Ayodha sowie B",query: ભાજપ અને સંઘ પરિવાર અયોધ્યાના મુદ્દાને સતત સળગતો રાખવા મા,guj_Gujr,guj_Gujr,0.0
+216,"query: Mit Aloe Vera Produkten kannst du sehr viel Geld verdienen, sprich, dass fruchtig, ","query: એલચી વાળું દૂધ પીવાથી થશે અઢળક ફાયદાઓ, તમે જાણીને",guj_Gujr,guj_Gujr,0.08333333333333333
+217,query: Thiruvananthapuram befindet sich ohne besucherprüfung. Thiruvananthapuram befindet sich ohne ,query: આ મંદિરની મુલાકાત લીધા વિના તીર્થયાતરા અધૂરી છે. જાણો આ કયું,guj_Gujr,guj_Gujr,0.11764705882352942
+218,"query:... diesem Bereich sollten alle Aufsichtsbehörden entscheiden, um auf diesem Bereich... 08 08 08 08 08",query: 8માં તબક્કાના મતદાનમાં આ દિગ્ગજો પર રહેશે સૌનું ધ્યાન... | Eight,guj_Gujr,guj_Gujr,0.08
+219,"query: ""I l n t l n t l n t l n t l",query: 'હમ ફિટ તો ઈન્ડિયા ફિટ'. કેન્દ્રીય ખેલ મંત્રી રાજ્યવર્ધન સિંહ,guj_Gujr,guj_Gujr,0.0
+220,query: MARKETING MARKETING MARKETING MARKETING MARKETING MARKETING MARKETING MARKETING MUST HAVE,query: આ સપ્તાહે બજાર રેન્જ-બાઉન્ડ રહેશે You are here :HOME >> Biz >> Expert ,guj_Gujr,guj_Gujr,0.0
+221,query: 8 M s t e n t e n t e r employees? Warum muss,"query: 8નો ભોગ, જવાબદાર કોણ? એમ્સ કંપનીમાં કર્મચારીઓ માટે કેમ ન કર",guj_Gujr,guj_Gujr,0.08333333333333334
+222,"query: natürlicher Schulgrundratgeber - natürlicher Schulgrundratgeber auf der Suva, Kerala - 2019",query: વડોદરાની એક અનોખી પર્યાવરણ રક્ષક શાળા.... - Purnviram News Home/,guj_Gujr,guj_Gujr,0.09999999999999999
+223,"query: 4 Teenager, die ihren 40er-Jahresalter bewältigen möchten, besitzt diese 4 Big",query: આ 4 બોલીવુડ સુપરસ્ટાર જેઓ નાની ઉમરેજ ગુમાંવી બેઠા પોતાની વર્જીની,guj_Gujr,guj_Gujr,0.09090909090909091
+224,"query: Inhaltsverzeichnis : ÖL braucht Wasser, ohne Wasser zu verbrauchen : ÖL braucht Wasser : ",query: પાણીનું મહત્વ: શરીરમાં પાણી ન હોય તો શ્વાસ ન લઇ શકાય! - Des,guj_Gujr,guj_Gujr,0.08695652173913043
+225,query: 500 000 € während der Auszahlung von DFH DFH Auszahlung von DFH DFH Auszahlung e.V.,query: આધાર હાઉસિંગથી મળેલ રૂ. 500 કરોડનો ઉપયોગ DHFL NCDની ચુકવણી મા,guj_Gujr,guj_Gujr,0.1818181818181818
+226,query: Bâââââââââââââââââââââââââââ,query: આફ્રીકાના આ બે ભાઇ બહેન બોલિવુડ ગીતો પર આપી રહ્યા છે એવા ધાંસ,guj_Gujr,guj_Gujr,0.0
+227,query: Der geringste und höher verdiente Beitrag bzw. den Benefits zwischen Grundschule und Midschool erziel,query: નીચલા અને મધ્યમ વર્ગને કરમાં ઘટાડાથી સૌથી વધુ લાભ થયો ,guj_Gujr,guj_Gujr,0.0
+228,query: t i t i t i t i t i t a sportliche Karriere 2019,query: ટેમ્પો ચલાવીને પોતાનું જીવન વિતાવી રહ્યો છે આ ક્રિકેટર Author 2019-10-16 00:11:00,guj_Gujr,guj_Gujr,0.0
+229,"query: Um den Bereich der Automotive Manufacturing Company zu erweitern, würde â€œ2030 â€œ1000","query: કેબિનેટે ઓટો ક્ષેત્રમાં ઉત્પાદન વધારવા માટે 26,000 કરોડની યોજનાને",guj_Gujr,guj_Gujr,0.0
+230,query: einfache und schmackhafte Lösungen - Gnp gnp gnp Gnp gn,query: સરળ ચિકન અને ફુલમો ગમ્બો રેસીપી - વાનગીઓ ભેંસ જંગલી,guj_Gujr,guj_Gujr,0.11111111111111112
+231,"query: Den Tod ihrer Familie nach der Krebserkrankung, den gynäkologischer Gynäkologieprofessorin Yusuf",query: કોરોના સામેની જંગમાં જીવ ગુમાવનાર ડૉ જોગિંદર ચૌધરીના પરિવારને,guj_Gujr,guj_Gujr,0.0
+232,"query: Keine Methode umzusetzen, um sämtliche Prinzipien einer ästhetischen Klärung umzusetzen",query: દરેક ચીકીત્સા પદ્ધતિને એક કરી ખીચડી પદ્ધતિ બનાવવા ના પ્રયાસ,guj_Gujr,guj_Gujr,0.0
+233,"query: Unternehmer nach den Kartoffeln, nach den Bäuern, nach den Toskana Schlagwörter: Bäuer","query: બોડેલીના ખેડૂતો બેવડી આફત, કેળામાં સિંગાટોકા બાદ ટામેટા",guj_Gujr,guj_Gujr,0.10526315789473685
+234,query: Griechenland: Prognose für 2019: 9% - 9% - 9% - 9% - 9% ,"query: ગુજરાત માટે ખુખખબરી: રાજ્યમાં 104% વરસાદની સંભાવના, આગામી 5",guj_Gujr,guj_Gujr,0.2
+235,query: ᐅᐅᐅᐅᐅᐅ⓿⓿⓿⓿⓿⓿⓿⓿⓿⓿⓿⓿⓿⓿ - Suche nach einer,query: પત્ની શોધની જાહેરાત... ૬-૧૦ | હાસ્ય દરબાર પત્ની શોધની,guj_Gujr,guj_Gujr,0.0
+236,query: Posted on: 06/06/2018 Posted on: 06/06/2018 Posted by: mdr-news Posted on: 06/06/2018 ,"query: ના રોજ પ્રકાશિત Mon, 16, 2019 પર 08:55 | સ્ત્રોત : CNBC-Bajar રિય",guj_Gujr,guj_Gujr,0.1
+237,"query: Öffentlichkeit gefordert, dass man dhunning aggression auftauchen möchte, 2020-01-18 Buddhist","query: વેલેન્ટાઇન ડે મનાવવા નહીં, ભણવા આવ્યો છું કહેનાર યુવક પર હુમલો –",guj_Gujr,guj_Gujr,0.08333333333333334
+238,query: i.c.o.c.o.c.o.c.o.c. Trekkingtour - Costa Rica,query: કો ક્રોક ટાપુ. પટ્ટાયા. થાઇલેન્ડ ~ Journey-Assist - આઇલેન્ડ ઝાંખી,guj_Gujr,guj_Gujr,0.23529411764705885
+239,"query: Bester Reiser in stavanger ᐅ Unsere Bestenliste Nov/2022 - Reiser in stavanger,",query: શ્રેષ્ઠ ટ્રેન રાઇડ્સ યુરોપમાં સૂર્યાસ્ત દરમિયાન | એક ટ્રેન સાચ,guj_Gujr,guj_Gujr,0.0
+240,query: welche Partnerschaft mit ihren Angehörigen mit ihren Kindern? pdf/pdf/pdf/päss,query: પિતૃઓ સાથે પશુ-પક્ષીઓનો શું સંબંધ છે? શ્રાદ્ધમાં તેમના અનો,guj_Gujr,guj_Gujr,0.11111111111111112
+241,"query: Unterstützung für den gesamten Bereich der Polizeiinspektion Nassau, Punjab Öffentlicher Auftragsbezirk Nassau, ",query: સમગ્ર ઉત્તર ગુજરાતમાં સાબરકાંઠા જિલ્લાના પોલીસ લાઈન બોય્સ સેવા ફાઉન્ડ,guj_Gujr,guj_Gujr,0.0
+242,"query: Ägypten gewinnt aufgrund der nigerianischen Banknachfrage – pdf, pdf, pdf, pdf",query: બેન્કનોટમાં ખોટા નકશાને પગલે સાઉદી અરબ સામે ભારત લાલઘુમ –,guj_Gujr,guj_Gujr,0.10526315789473685
+243,"query: Um ihre Erinnerungen daran zu erinnern, dass ihren jüngsten Sohn Anyasa ",query: અમદાવાદમાં બેટી બચાઓની પતંગ ઉડાવી પોતાની દીકરીને યાદ કરી રાની મુ,guj_Gujr,guj_Gujr,0.0
+244,query: Der Hausbesitzer kaufte und erhielt i.a.a. i.a. 21 € und erhielt,"query: 21 કરોડ ચૂકવી ને અભિષેકે અને ઐશ્વરીયા એ લીધું હતું ઘર, આ",guj_Gujr,guj_Gujr,0.08695652173913043
+245,"query: Wenn man seinem Sohn keine Säuglingssprache erklären konnte, zwischen den Geschlechtern S",query: સાસુ-વહૂના ઝઘડામાં પતિને વચ્ચે ન લાવો હોય તો વાંચી ,guj_Gujr,guj_Gujr,0.0
+246,query: Goddess Mahanagar - Goddess Mahanagar - Goddess Mahanagar - Goddess Mahanagar - Goddess Mahanagar,query: માળનાથ મહાદેવની પ્રાગટ્યગાથા - Lok Sansar Dailynews Home Gujarat Bhavnagar માળ,guj_Gujr,guj_Gujr,0.14285714285714288
+247,query: i.p.n.g. - i.p.n.g. - 500 & 500 SMS -,query: ઇ-મીની એસ એન્ડ પી 500 ફ્યુચર્સ - Angel Broking By Angel Broking | Published on 31st,guj_Gujr,guj_Gujr,0.2
+248,query: ᐅ Unsere Bestenliste Nov/2022 ᐅ Umfangreicher Produkttest über Akshay sharma shakti ,query: સુશાંતની પ્રથમ ફિલ્મ કાઇ પો છે અંગે આતુર અંકિતા | Kai Po Che Sushant,guj_Gujr,guj_Gujr,0.0
+249,query: Eine aargauische Immobilie mit glänzenden Beiträgen nach den Preisen MdL Ágya Á,query: લીંબડી પાસે રૂ. એકાદ કરોડની મતા સાથેનો આંગડિયાનો થેલો ગુમ અમદા,guj_Gujr,guj_Gujr,0.0
+250,"query: Unterstützung für den gesamten Haushalt: Erhalt der Familie, Familie & Haushalt a.g.n.g. Gandhi",query: અંગદાનથી આખા પરિવાર અને સમાજને નવજીવન મળે છેઃ રાષ્ટ્રપતિ Home ગુજરાત અ,guj_Gujr,guj_Gujr,0.0
+251,query: Kompetenzen zu erfüllen ᐅ Kompetenzen zu erfüllen ᐅ MdA - Stiftung kaisa ,query: કોમની ખિદમતનો ઝરીઓ : સીરત કમીટી : ડૉ. મહેબૂબ દેસા,guj_Gujr,guj_Gujr,0.0
+252,"query: Durch unsere kleine Veränderung, besonders durch den Umgang mit 'Corona-Syndrom', unseren Lebens","query: કોરોનાના કારણે આપણી જીવનશૈલીમાં થયેલા અમૂલ્ય બદલાવ, નાનાથી",guj_Gujr,guj_Gujr,0.08695652173913043
+253,"query: Gratulation, dass dieser Begriff ohne Änderung der Vertrauenswürdigkeit erlangt werden soll, Sanskrit S","query: આ સુવર્ણસૂત્ર સ્મરણમાં રહે કે આચારથી સત્તા પરિવર્તિત નહિ થાય, સ",guj_Gujr,guj_Gujr,0.07692307692307691
+254,"query: PRAXIS: PAUL: Unternehmer schafft erlaubnis, Unternehmer schafft erlaubnis, PAUL","query: સુરત : પોલીસ વાળાએ પુરો પાડ્યો ઈમાનદારીનો દાખલો, વેપારીને ",guj_Gujr,guj_Gujr,0.23529411764705882
+255,query: Griechenland: 987: 987: 987: 987: 987: 987: 987: 987: ,"query: ગુજરાતી સમાચાર: સેન્સેક્સમાં 1,011 પોઈન્ટ્સનું ગાબડું: બેંક, ઓટો, મે",guj_Gujr,guj_Gujr,0.14285714285714288
+256,query: Bilder der Kolumbien-Küste wurden u.a. Mexiko-Küste verabschiedet - ,query: મેક્સિકોના પૂરના વિડિયોને જમ્મૂ-કાશ્મીરનો ગણાવી શેર કરવામાં આવી,guj_Gujr,guj_Gujr,0.0
+257,"query: Übrigens glänzt der TV-Künstler auch auf 'Telefonabrechnung', 'T","query: ટીવીની અનુપમા પર પણ ચઢ્યો ટ્રેંડનો ખુમાર, 'કચ્ચા બદામ",guj_Gujr,guj_Gujr,0.10000000000000002
+258,query: HINWEIS - Dieser Bereich für ältere und mittelständische Unternehmen mit geringem Anspruch an,query: બિન પગારદાર મધ્યમ વર્ગ અને નાના વેપારીઓના હિતોની આ પેકેજમાં કા,guj_Gujr,guj_Gujr,0.0
+259,query: sriguri - sriguri - sriguri - sriguri - sriguri,query: રુચિ લુણાગરિયા | સુરત | રુચિ લુણાગરિયા | સુરત - Divya Bha,guj_Gujr,guj_Gujr,0.22222222222222224
+260,query: pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf,query: કેન્સર એટલે શું? : કેન્સર એ કોઇ એક જ બીમારી નથી પરંતુ,guj_Gujr,guj_Gujr,0.0
+261,"query: Democracy Fraktion nimmt nicht den Begriff der Ökonomie ernst, sondern den Begriff Banking,","query: કોંગ્રેસ તોડફોડની રાજનીતિમાં નથી માનતું, માત્ર વાતો જ નહિ વિકાસ",guj_Gujr,guj_Gujr,0.08695652173913043
+262,query: aditya - aditya - aditya - aditya - aditya - aditya,query: ભારતમાં થિયેટર ઑલિમ્પિક | Theater Olympic in India - Abhiyaan ભારતમાં યોજ,guj_Gujr,guj_Gujr,0.15384615384615385
+263,"query: Nur 12 Benefits erhältst du, damit du glücklich sein kannst, dass deine Hause mit 12","query: ઘરમાં માત્ર એક તુલસીનો છોડ રાખવાથી મળે છે 12 લાભ, જે તમે ભાગ્ય",guj_Gujr,guj_Gujr,0.14285714285714285
+264,"query: Nachdem ihre Tochter i.d.M. 25 Teenager hatte, dass i.d.M","query: છોકરીએ ટોયલેટ મા 25 છોકરા સાથે કર્યો સંભોગ ત્યાર બાદ, યુ",guj_Gujr,guj_Gujr,0.1818181818181818
+265,"query: Heiligkeit feiern, um unseren Bruder ihrer jüngsten Vergangenheit zu helfen (Pav","query: આજે ભાઇબીજનો પવિત્ર તહેવાર, અકાળ મૃત્યુનો ભય દૂર કરવા કર",guj_Gujr,guj_Gujr,0.08333333333333334
+266,"query: Nach ihrer Unterstützung, äußerte sich G.I.G. Gandhi, dass der Gandhi National Congress","query: ઈન્દિરા ગાંધીની હિટલર સાથે તુલના પર ભડકી કોંગ્રેસ, કહ્યુ, તે સમ",guj_Gujr,guj_Gujr,0.08
+267,"query: anisotopi, auch bekannt als anisotopi, die weltgrößte Technologie im Bereich Astronomie","query: વિજ્ઞાન જગતમાં સન્નાટો, વિશ્વનું સૌથી મોટું ટેલિસ્કોપ Arecibo થયું",guj_Gujr,guj_Gujr,0.09523809523809525
+268,query: Der TÜV Rheinland hat einen umfangreichen E-Commerce Banking Assessment gemacht. 842 pts erklärt,query: ઇન્કમ ટેક્સ વિભાગે કર્યો 8200 કરોડની કરચોરીનો મોટો ખુલાસો; જાણો,guj_Gujr,guj_Gujr,0.0
+269,query: Aus diesem Grund können ihren Schülern außer den Klassen 6 - 9 - 9 der Ministry of Education ,query: કોરોના ના કારણે આ રાજ્યના ધોરણ 6 થી 9 ના વિદ્યાર્થીઓને મળશે,guj_Gujr,guj_Gujr,0.14814814814814814
+270,"query: Eine der ausgezeichnetsten buchstäbe, wo man während der auszahlungsprozesse stattfindet","query: દુનિયાની એ સૌથી આલીશાન જેલ, જ્યાં એક આરોપી પાછળ ખર્ચ કરવામાં",guj_Gujr,guj_Gujr,0.0909090909090909
+271,"query: asura govt., gujarat: Auf Antrag der Asura govt., gujarat: Asura govt.",query: આસારામ રેપ કેસ: સુપ્રિમ કોર્ટે UP સરકારને આપ્યો આ આદેશ! | Asharam,guj_Gujr,guj_Gujr,0.08
+272,query: ᐅ Beiträge zur Kraftstoffbehandlung ❱ Beiträge zur Kraftstoffbehandlung ❱ Beiträge zur Kraftstoffbehandlung ❱ Vijaya,query: કબજિયાત દૂર કરે તેવા કુદરતી ઉપચારો — Vikaspedia કબજીયાત થવાનાં કાર,guj_Gujr,guj_Gujr,0.0
+273,"query: Dänemark lässt den Verkauf der Immobilie ändern, um i.d.N.I.I.A. ","query: એર ઇન્ડિયાને વેચવા સરકારે FDIના નિયમો બદલ્યા, NRI ખરીદી શક",guj_Gujr,guj_Gujr,0.09090909090909091
+274,"query: Nach 3 Jahren, nachdem der muslimische MdL â€ž islamisch reinigen möchte, arbeite",query: ૩ વર્ષથી એક મુસ્લિમ શખ્સ કરે છે રામ મંદિરની સાફ સફાઈનું ,guj_Gujr,guj_Gujr,0.0
+275,query: MOVIE MANGA - mehr erfahren MOVIE MANGA - mehr erfahren MOVIE MANGA - mehr erfahren ,query: નામ શબાના – Mast એન્ગ્રી યંગ વુમન ગીતો કાપીને ફિલ્મ વધુ ,guj_Gujr,guj_Gujr,0.0
+276,"query: Öffentlichkeitsarbeit: Bihari, den er gemacht hat, Bihari, den er gemacht hat - Kath","query: ગુજરાતી સમાચાર: પિતાની ધરપકડ, કાર્તિ બોલ્યા - બધું ભાજપના ઈશારે",guj_Gujr,guj_Gujr,0.2727272727272727
+277,query: beitrag über egophobie beim parliamentary council on corruption in gujarat query: beitrag über ego,query: સ્વાઇન ફ્લૂ મુદ્દે ગુજરાત વિધાનસભામાં વિપક્ષનું વોકઆઉટ | on issue of,guj_Gujr,guj_Gujr,0.09090909090909091
+278,"query: Aufgrund der fünf großen Bollywood Bestseller, sind B.A.S. Bodhisattva, dazu gehör","query: અસલમાં બુઢ્ઢા થઈ ચુક્યા છે બોલીવુડનાં આ ૫ મોટા સ્ટાર્સ, ",guj_Gujr,guj_Gujr,0.08333333333333334
+279,query: Posted on April 2008 April 2008 Posted on April 2008 Posted on April 2008 Posted on April 2008 Posted on Ausgrabungen,query: એપ્રિલ | 2008 | સ્પંદનના ઝરણાં...... Archive for એપ્રિલ 2008 વૃક્ષની ડાળેથી,guj_Gujr,guj_Gujr,0.13333333333333333
+280,query: Bevor du diesen geheimnisvollen und faszinierenden Geschichten über den männlichen Gesang und Sprache lernst,query: અમરતકાકી અને ગાંડી મંગુના પ્રેમની આ વાર્તા વાંચીને તમારી આંખોમાં,guj_Gujr,guj_Gujr,0.0
+281,query: lk auflösungsantrag lk auflösungsantrag lk auflösungsantrag lk ,query: અલ્પેશ ઠાકોરની ચીમકી LRD ઠરાવ રદ પ્રકરણ : ૪૮ કલ,guj_Gujr,guj_Gujr,0.0
+282,"query: Um diese köstliche Kartoffel-Käse geschmacklich zu machen, entwirft auf www.kitchen-recipe.com","query: આ રીતે બનાવો કાચી કેરી-કોપરાની ચટણી, ખાવાની મજા આવશે | Recipe How To",guj_Gujr,guj_Gujr,0.08
+283,"query: Öffentlichkeitsarbeit während der Brücke nach Bodhisattva, Dorfstraße 9 ▪ Öffentlichkeitsarbeit nach",query: દેવભૂમિ દ્વારકા જીલ્લાના ગામેથી બોગસ રોયલ્ટી પાસ પર થતી ખનીજ ચો,guj_Gujr,guj_Gujr,0.0
+284,query: § 4 Nr. 4 Nr. 4 Nr. 4 Nr. 4 Nr. 4 Nr. 4 Nr. 4 Nr. 4 Nr.,query: મોરબી જિલ્લામાં રાષ્ટ્રીય ગ્રામિણ પેયજળ યોજના હેઠળ ૧.૪,guj_Gujr,guj_Gujr,0.0
+285,query: Schlagwörter: Sanskrit-Urkunde - Sanskrit-Urkunde - Sanskrit-Urkunde - Sanskrit-Ur,query: પરથારો ૪ : શ્રીહરિની મૂર્તિનાં ચિહ્નનું વર્ણન - અનિર્દેશ વચનામ,guj_Gujr,guj_Gujr,0.26666666666666666
+286,query: [email protected] / / / / / / / / / Unterstützung durch Akzeptan,query: બ્લોગ - શાંત સીબીડી પ્રતિક્રિયા આપો / અવર્ગીકૃત / દ્વારા જેમ્સ,guj_Gujr,guj_Gujr,0.11111111111111112
+287,"query: †Der Arzt, den seine Familie während der Pandemie nach Kambodscha erkrankt hatte, ",query: જામનગરમાં કોરોનાથી મૃત્યુ પામેલ બાળકીના પિતા પૉઝિટિવ આવતા ,guj_Gujr,guj_Gujr,0.0
+288,"query: Inkasso mittels Mobiltelefonen erfolgreich erfolgreich erworben in der LCL Braunschweig, LCL Braunschweig,","query: વિજલપોરમાં મોબાઈલ શોપમાં થયેલી ચોરીના આરોપીઓ ઝડપાયા, LCBએ",guj_Gujr,guj_Gujr,0.10526315789473685
+289,query: ramadhan ayurveda ist der tägliche Motto sämtlicher ayurvedischen Probleme jeder Jahreszeit.,query: માસિક ધર્મ દરમિયાન થતી દરેક સમસ્યાઓ નો રામબાણ ઈલાજ છે આ ,guj_Gujr,guj_Gujr,0.0
+290,"query: glänzgrad ᐅ Bewertet am Freitag, den 06.11.2018. Bewertet am Freitag, den 06.11.2018 ","query: 6 ડિગ્રી.. ચરોતર બન્યું ઠંડુગાર ગુરુવાર, જાન્યુઆરી 17 2019, 22:5",guj_Gujr,guj_Gujr,0.09523809523809525
+291,query: Bericht zur Vorstandsmitgliedschaft der Adisa Abdullahi e.V.: Der Abdullahi Abdullahi,query: અમદાવાદના કમિશનરને દુબઈના રોયલ પરિવારના સભ્યની રજૂઆતઃ,guj_Gujr,guj_Gujr,0.0
+292,"query: gujarat spital, gujarat spital, gujarat spital, gujarat - Video auf dieser Seite sehen -","query: સુરતની આ હોસ્પિટલમાં લાગી ભીષણ આગ, જુઓ વિડીયો - Gujarat Home",guj_Gujr,guj_Gujr,0.1904761904761905
+293,"query: +++ Verlängerung der LPG-Prämie: auch nach den LPG-Prämien: gdl,",query: ભાવ વધારાનો માર: પેટ્રોલ-ડીઝલ પછી LPG સિલિન્ડરના ભાવમાં પણ,guj_Gujr,guj_Gujr,0.09523809523809525
+294,query: query: Newsroom / Newsroom / Newsroom / Rathaus / Rathaus / Rathaus / R,query: રાજકોટ: ધોરણ-10ના વિદ્યાર્થીએ કર્યો આપઘાત – Sandesh News TV Home / City News,guj_Gujr,guj_Gujr,0.11764705882352941
+295,"query: VHS: ""Burmesem"" auf der VHS: ""Burmesem"" auf der VHS: ""Burmesem""","query: મુંબઇઃBMCની શાળામાં ગૂંજશે ""વંદેમાતરમ"" | VTV news Home > Dak",guj_Gujr,guj_Gujr,0.2105263157894737
+296,"query: ""Ich bin nicht ehrlich"" - MdP-Präsidentin MdP-Präsidentin MdP - """,query: 'મને ખરેખર કાળજી નથી' - યુએસ બોર્ડર પર મેલાનિયા ટ્રમ્પનું મિ,guj_Gujr,guj_Gujr,0.09523809523809525
+297,query: Veröffentlicht auf 240 × 240 Schlagwörter gujarat gujarat gujarat gujarat gujarat gujarat gujarat gujarat gujarat gujarat,query: માળીયા હાઇવે પરથી 264 બોટલ દારૂ સાથે એક પકડાયો | Morbi Mirror HomeGujaratમાળી,guj_Gujr,guj_Gujr,0.0
+298,"query: B.A.B.A.B.A.B.A.B.A.B.: Gründe, dass",query: ગુડિયા રેપ કેસ: બિગ બીએ કહ્યું 'આ દેશમાં મર્દ હોવા પર શરમ,guj_Gujr,guj_Gujr,0.1
+299,query: Für den Asphalt- und Kraftstoffe fÃ1⁄4r Asphalt- und Kraftstoffe fÃ1⁄4r Asphalt 15%,query: અગ્નિવીરો માટે CAPF અને અસમ રાઇફલ્સમાં ૧૦ ટકા અનામત -,guj_Gujr,guj_Gujr,0.0
+300,query: srp: Gratulation auf der Jubiläumsfeier srp: Gratulation auf der Jubiläumsfeier,query: ધાર્મિક@બેચરાજી: સાંપાવાડા ખાતે પ્રતિષ્ઠા મહોત્સવમાં શ્રધ્ધાળુ,guj_Gujr,guj_Gujr,0.13333333333333333
+301,query:......... wenn man während der Öffnung ,query: અગ્નિસંસ્કાર કર્યા પછી બહાર નીકળી વખતે ક્યારેય ના જોવું,guj_Gujr,guj_Gujr,0.0
+302,"query: Dieser Beitrag wurde erstellt, wenn meine ao.m. Arbeit erledigt wurde, wenn morgens ","query: સવાર મા ઉઠતાની સાથે જ જો કરી લેવામાં આવે આ એક કામ, તો દુર થઇ",guj_Gujr,guj_Gujr,0.07142857142857144
+303,query: How to make girlfriends like this – ᐅ Vorlagen ᐅ ᐅ ᐅ ✓ ✓ ✓ ✓,query: લવ ક્વોટ્સ – કેવી છોકરીને તેના જેવી ગમશે તે કેવી રીતે બનાવવું રિ,guj_Gujr,guj_Gujr,0.0909090909090909
+304,query: China i i i i i i i i i i i Willkommen auf der Welt,query: કોરોના વાયરસના લીધે વિશ્વના નિશાના પર આવેલ ચીન હવે પોતાના ઘરમાં જ,guj_Gujr,guj_Gujr,0.0
+305,"query: Anjali hat dazu entschieden, den Thema ‚Professionell erklären zu dürfen, Anjali A","query: નીતા અંબાણીને પ્રોફેસર બનાવવાની વાત મુદ્દે થયો ખુલાસો,વિધાર્થ",guj_Gujr,guj_Gujr,0.0909090909090909
+306,"query: Eine der attraktivsten Frauen ist nicht nur ihrer Schönheit, sondern ihrer aphrodisiakus","query: કોઈ અપ્સરા થી ઓછી સુંદર નથી ઈરફાન પઠાણ ની પત્ની, આ",guj_Gujr,guj_Gujr,0.08333333333333333
+307,"query: Dateien, die ohne Adobe Flash unterstützt werden müssen, während der HD-Videoüberwachung i","query: લોકડાઉન દરમિયાન HD કવોલીટીના વીડિયો જોવા નહી મળે, ઇન્ ટરને",guj_Gujr,guj_Gujr,0.08333333333333334
+308,"query: Schritte, um mittelständische Unternehmen zur Förderung der Supply Chain Industry zu fördern sasax 2019",query: સુરતના લઘુ ઉદ્યોગોને ડિફેન્સ સપ્લાય ચેઈનમાં આગળ લાવવા અંગે સંર,guj_Gujr,guj_Gujr,0.0
+309,query: ᐅ gujarat elections 2019 ; gujarat elections 2019 ; gujarat elections 2019 ; gujarat elections 2019,query: ગુજરાત: રાધનપુર અને બાયડ વિધાનસભાની પેટાચૂંટણી આવશે – આજતક,guj_Gujr,guj_Gujr,0.0
+310,query: nsna nsna nsna nsna nsna nsna nsna,query: કુંવારી નણંદ એટલે દોઢ સાસુ સાસરીમાં કુંવારી નણંદ સાથે,guj_Gujr,guj_Gujr,0.0
+311,query: Öffentlichkeitsarbeit : Öffentlichkeitsarbeit : Öffentlichkeitsarbeit : ÄNTM möchte den ÄNTM,query: એક્ઝિટ પોલનો વરતારો : ઇવીએમના વાદળો એનડીએ પર વરસશે ,guj_Gujr,guj_Gujr,0.14285714285714285
+312,query: 03 April 2018 rsylya: Der schnelle Zugang zu diesen Menschen kann schnell ermöglicht werden:,query: 31 જુલાઈ 2018 રાશિફળ: આ રાશિઓ ને જલ્દી મળી શકે છે કોઈ ખુ,guj_Gujr,guj_Gujr,0.1379310344827586
+313,query: anspruchsvoll zu prüfen: anspruchsvoll zu prüfen: anspruchsvoll zu prüfen: a.d,query: જજો સામે તપાસની માગ કરતી અરજી અદાલતની અવમાનના : સુપ્રીમ કોર્ટ,guj_Gujr,guj_Gujr,0.12500000000000003
+314,"query: Abhinyasa Madhurajasa Madhurajasa 200,00 € Beantragung innerhalb der sechs Monate","query: સાધ્વી જયશ્રીગીરીના જામીન ના મંજૂર,વધુ બે દિવસના રીમાન્ડ પર– News",guj_Gujr,guj_Gujr,0.0
+315,"query: â€žGlück, Ihre Schülerinnen und Schüler dazu beitragen, Informationen bei der Tâ€žP","query: પક્ષોમાં યુવાઓ તુમ આગે બઢો નું સૂત્ર, ટિકિટ આપવામાં પીછે રહો",guj_Gujr,guj_Gujr,0.08333333333333333
+316,query: SDL - führend auf der Suche nach den besten Business Suiten. SDL - SDL - ,query: ટેક કંપનીઓ જોકી સૌથી પારદર્શક લાગે માટે | DLL Suite - dllsuite.,guj_Gujr,guj_Gujr,0.16
+317,query: ᐅ Unsere neue Suche » Buddhismus - dharma-prägung - dharma-prägung ,"query: પ્રેમ પરમ તત્વ -18- જૂનું ઘર – સપના વિજાપુરા | ""બેઠક"" Beth",guj_Gujr,guj_Gujr,0.0
+318,"query: Bhagavad Gita - Öffentlichkeitsarbeit ermöglichen, nach der Erfüllung der Grundgebühr - Bhagavad Gita -",query: જંગલેશ્વરના રહીશોને પતરાની કિલ્લેબંધીથી મુક્તિ મળશે -એક માત્ર અંક,guj_Gujr,guj_Gujr,0.0
+319,"query: Dänemarks Regierung erklärt, dass Menschen nach dem Umgang mit Impfschutz i.d.A. afghan",query: અફઘાનિસ્તાનમાં રહેતા ભારતીયો માટે સરકારે જારી કરી સુરક્ષા એડવાઇ,guj_Gujr,guj_Gujr,0.0
+320,"query: Nahi Nahi Nahi Nahi Nahi Nahi Nahi Nahi Nahi für den Anlass, um während der",query: મોટી પાનેલી ઈદ નિમિતે લોકડાઉનનો ભંગ ન થાય તે માટે ઘરે જ નમ,guj_Gujr,guj_Gujr,0.0
+321,query: Pressemitteilung veröffentlicht am 03.10.2022 | Pressemitteilung veröffentlicht am 03.10.2022 | Pressemitteilung veröffentlicht auf,query: શેરગઢમાં રેડ કરવા ગયેલી પોલીસ પર હુમલો નવગુજરાત સમય | Publish Date,guj_Gujr,guj_Gujr,0.1111111111111111
+322,query: Ernährungspädagogin während der Öffentlichkeitsarbeit bei der geschäftsführenden Frau Navara,query: વડોદરામાં થર્ટીફર્સ્ટની રાતે મહિલા કોર્પોરેટરનો દીકરો દારૂના નશા,guj_Gujr,guj_Gujr,0.0
+323,"query: Pdf: Pdf: Pdf: Pdf: Supreme Court kündigt kündigen, Pdf: Pdf:","query: પનામા પેપર લીક: નવાઝ શરીફ દોષિત કરાર, PM પદથી સસ્પેન્ડ",guj_Gujr,guj_Gujr,0.2105263157894737
+324,"query: Wenn der Bevölkerung MSM prüfen möchte, dass er MSM prüfungsbefugnis erhalten soll,",query: સંસદ જો નાગરિકતા સંશોધન બિલ પાસ કરી દયે તો ખુદને મુસ્ ,guj_Gujr,guj_Gujr,0.0
+325,"query: Klärung der NSU-Kriegsfälle in Kambodscha, 64 männlich erfasst wurden,","query: મધ્ય પ્રદેશનાં સીધી જીલ્લામાં બસ કેનાલમાં પડતા 47નાં મોત, 7નો બચાવ ",guj_Gujr,guj_Gujr,0.0909090909090909
+326,"query: Posted on April 29, 2019 Posted on Uttar Pradesh beschränkungen auf Kreditkarten, Uttar Pradesh beschränkungen auf ","query: કિરણ બેદીનું ફરમાન, VIP ગાડીઓમાં સાયરન પર લગાવ્યો પ્રતિબંધ | Kiran Bedi ban",guj_Gujr,guj_Gujr,0.08
+327,"query: ᐅ ᐅ ᐅ Tipps, wie man gesundheitsfördernd auf gesundheit gewinnen kann ᐅ ",query: ગરમ પાણી પીવાથી જાણો ક્યા રોગોમાં થશે ફાયદાઓ! - જલ્સા કરોને,guj_Gujr,guj_Gujr,0.0
+328,query: md-a-md-a-md-a-md-a-md-a-md-,query: ધ ફેન એ મેડનેસ-પ્રકરણ-2-the fan a madness-chapter-2-free-chapter Home » Blog,eng_Latn,eng_Latn,0.0
+329,query: 5 Kämpfe fÃ1⁄4r ihre Bemühungen und 5 Kämpfe fÃ1⁄4r ihre Kämpfe,"query: કિશનની ફિફ્ટી તથા બુમરાહની 5 વિકેટ એળે ગઈ, કોલકાતાના કમિં",guj_Gujr,guj_Gujr,0.11764705882352942
+330,query: feminismus - ausgezeichnete frauen - ausgezeichnete frauen feminismus - ausgezeichnete,query: હિડન ફીગર્સ – સ્ત્રીશક્તિનું અદભૂત ઉદાહરણ પુરુષપ્રધાન સમાજમાં,guj_Gujr,guj_Gujr,0.0
+331,query: natürliche und geistige Wirkung natürliche und geistige Wirkung natürliche geistige W,query: પુનરુજ્જીવન અને તેના સૌંદર્યલક્ષી મૂલ્યોની મુખ્ય લાક્ષણિકતાઓ,guj_Gujr,guj_Gujr,0.0
+332,query: persönliches entwicklungspolitisches entwicklungspolitisches entwicklungspolitisches entwicklungspolitisches entwicklungsportal ,query: સમુદાય ગતિશીલતા — વિકાસપીડિયા હોમ પેજ / શિક્ષણ / નીતિ,guj_Gujr,guj_Gujr,0.0
+333,"query: nach Ägypten, nach APG, nach APG, nach APG, nach APG, nach APG, nach APG","query: ઉ.પ્ર., ઉત્તરાખંડમાં ભાજપ મોખરે, પંજાબમાં AAP આગળ |",guj_Gujr,guj_Gujr,0.15384615384615383
+334,"query: KAKUM KAKUM KAKUM KAKUM KAKUM - das glückliche Mittel, um glückliche glückliche glückliche",query: કસુંબલ કુમકુમ એટલે સૌભાગ્યની રંગોળી પુરતી મહેંદી | KRUTA,guj_Gujr,guj_Gujr,0.0
+335,"query: Arbeiten durch adäquate Bereiche in Uganda, Ägypten, Ägypten und Ägypten, ","query: અમદાવાદનાં આ વિસ્તારોમાં તંત્ર દ્વારા કડક કાર્યવાહી, ગલ્લાઓ અને ના",guj_Gujr,guj_Gujr,0.09999999999999999
+336,"query: Öffentlichkeitsarbeit, um den kriminellen Beschuldigten zu entschädigen Öffentlichkeitsarbeit, um ÖPNV",query: અજાણ્યા પુરુષની હત્યાનો ભેદ ઉકેલતી કપડવંજ પોલીસ એલસીબી પી,guj_Gujr,guj_Gujr,0.0
+337,"query: Wenn du schon Gemüse gönnen möchtest, dann lohnt sich der nächste Grundguss. ",query: ગોળ ખાવાના ઘણાબધા ફાયદા છે તો પછી આજથી જ શરુ કરો ગોળનો,guj_Gujr,guj_Gujr,0.0
+338,"query: glücklich glücklich glücklich glücklich glücklich glücklich glücklich glücklich ayurveda,","query: જીવદયા, કરૂણા, અનુકંપા સાથે સંવેદનશીલ મુખ્યમંત્રી શ્રી વિજયભાઈ",guj_Gujr,guj_Gujr,0.16666666666666666
+339,query: Knapp acht Minuten während der Eröffnung durch den gnsrischen ‚Gnadpur Group‘,query: ગિરનારની ભૈરવ ટુંક ઉપર માત્ર સેકન્ડમાં ચડી જતાં યુવકનો વિડી,guj_Gujr,guj_Gujr,0.0
+340,query: Partnerschaft fÃ1⁄4r den 25 Jahre alten FÃ1⁄4r den 25 Jahre jüngeren FÃ1⁄4r Allan,query: ફેસબૂક ફ્રેન્ડે 25 વર્ષના યુવક સાથે સૃષ્ટી વિરુદ્ધનું કૃત્ય કર,guj_Gujr,guj_Gujr,0.10526315789473685
+341,query: Beiträge zur Einkommensnachnutzung / wirtschaftlichen Erwerb / wirtschaftlichen Erwerb / arnika björk,query: વ્યાજદર અને એસેટ્સની ખરીદીનો આધાર બેરોજગારી પર : બર્નાન્કી ,guj_Gujr,guj_Gujr,0.0
+342,query: gopalakrishna györgyi | Györgyi györgyii györgyii györgyii | auf,query: ગુરુપૂર્ણિમાએ યાદોના પ્રદેશમાં.... – જીજ્ઞેશ અધ્યારૂ | Aksharnaad.,guj_Gujr,guj_Gujr,0.125
+343,"query: Der Staat muss den Wirtschaftshaushalt verbessern, um Investitionen zu vermeiden; ; ; ; ; ; ",query: સરકારે ખર્ચ વધારીને અર્થતંત્રને વેગવાન બનાવવું જોઈએ: આર્થિક ન,guj_Gujr,guj_Gujr,0.0
+344,query: anthroposophische Darstellung der menschlichen Schönheit. D.d.m.a.d.m.a.,query: ઇશ્વરની કૃતિ પ્રકૃતિ' સંસ્કૃતિ'વિકૃતિ ડૉ. ડી.એમ.,guj_Gujr,guj_Gujr,0.125
+345,"query: vollgefüllt, vollgefüllt, vollgefüllt, vollgefüllt - Mahesh Mahesh Mahesh M","query: આખા મરચાના ભરેલા ભજીયા - મસાલેદાર, તમ-તમતાં ભરેલા ",guj_Gujr,guj_Gujr,0.3076923076923077
+346,"query: Möchtest du auch diesen Schritt schneller machen, wenn du höhere Ähnlichkeiten erledigen",query: શું તમે પણ નહાતી વખતે આ મોટી ભૂલો કરો છો? ઝડપથી આ,guj_Gujr,guj_Gujr,0.0
+347,query: Buddhismus und gesellschaftliches Engagement während der Pandemie Jhdāya Jhdāya e.,query: રોડ અકસ્માતમાં સાધ્વીજી કાળધર્મ પામતા જૈન સમાજમાં આક્રંદ અને આ,guj_Gujr,guj_Gujr,0.0
+348,"query: horoscope mrsa 2020, horoscope mrsa 2020, horoscope mrsa 2020, ","query: 27 જુલાઇનું રાશિ ભવિષ્ય, જાણો કેવો રહેશે તમારો આજનો દિવસ | 27",guj_Gujr,guj_Gujr,0.125
+349,query: gujarat: gujarat: gujarat: gujarat: Gujarati: Gujarati: Gujarati: Um einen Beitrag zur wirtschaftliche,query: ચરખાગુજરાત: વિકાસલક્ષીલ મુદ્દાઓને ઉજાગર કરવા માટે 'ચરખા'ની એક,guj_Gujr,guj_Gujr,0.10526315789473685
+350,"query: Verschiedene Hinweise, dass man ohne MdA ohne MdA in Dänemark erforscht hat.",query: નિષ્ણાતો પાસેથી જાણો કઈ ત્રણ ભૂલો ના કારણે દિલ્હીમાં ઓમિક્રોન,guj_Gujr,guj_Gujr,0.0
+351,"query: Dr. Aksharadhikar Dr. Aksharadhikar, auch bekannt als Dr. Aksharadhikar ",query: ધીરજલાલ હિરાચંદ અંબાણી કે જેમને ધીરુભાઈ તરીકે પણ ઓળખવામાં આ,guj_Gujr,guj_Gujr,0.0
+352,query: - - - China und Indien waren weltweit unerschöpflich - Der Partnerschaftspreis - ,query: ભારત-પાકિસ્તાન સૈન્ય સંઘર્ષ સમગ્ર દુનિયા માટે વિનાશકારી સાબિત થ,guj_Gujr,guj_Gujr,0.0
+353,"query: Dabei kommt der Gläubige Gläubige Gläubige Gläubige nicht daher, wenn diese",query: જે ઘરમાં ગણપતીના આ મંત્ર બોલવામાં આવતા હોય ત્યાં ક્યારેય નથી આવતી દરિ,guj_Gujr,guj_Gujr,0.0
+354,query: Öffentlichkeitsarbeit: Rajasthan: Nach einem äußerst gefährlichen Täterfällen am frühen Freitag,query: હૈદરાબાદ : એક વિચિત્ર ઘટનામાં રવિવારે રૂદ્રમ ગામમાં થી ચોરી કર,guj_Gujr,guj_Gujr,0.09090909090909091
+355,"query: 'Glückliche Möglichkeiten, neue Menschen zu gewinnen' 'Darshana ́s geistigen",query: દિવ્યાંગજનોના જીવનમાં કૃત્રિમ અંગ થકી નવી આશાનો થયેલો સંચાર...રો,guj_Gujr,guj_Gujr,0.0
+356,query: Ã1⁄4ber einen Monat Ã1⁄4ber einen Monat Ã1⁄4ber nitrat oxide enriching oil zu ,query: 1 અઠવાડિયા સુધી એક વસ્તુ ને ઉમેરી ને લગાડો નારિયેળ તેલ,guj_Gujr,guj_Gujr,0.0
+357,"query: neue bürgerschaftsbürgerschaften nach dem MdB bestätigt | MdB Gujarat News, MdB ",query: મોરબી જીલ્લા ભાજપના નવા હોદેદારોની વરણી કરવામાં આવી | Morbi Mirror HomeGujarat,guj_Gujr,guj_Gujr,0.0909090909090909
+358,query: Öffentlichkeitsarbeit: Öffentlichkeitsarbeit: Öffentlichkeitsarbeit: Öffentlichkeitsarbeit: Der pgs,query: જુની પેન્શન સ્કીમ પુન: લાગુ કરવા ટીમ OPS ગુજરાતનું કલેકટરને આવે,guj_Gujr,guj_Gujr,0.125
+359,query: Posted on 18.04.2018 Posted on 18.04.2018 Posted on DGA-Projektträger auf der Öffentlichkeitsdichtung – ,query: સડક-૨ના સપોર્ટમાં ઉતર્યા નિર્માતા પ્રકાશ જહા | Avadhtimes Home મનોરં,guj_Gujr,guj_Gujr,0.0
+360,"query: Heute zeigt MdA Anand, dass er viel Vertrauen und ehrlichkeit zeigen kann, dass",query: હવે ઘણું થયું નરેન્દ્ર મોદી પ્રામાણિકતા બતાવે કાં હિંમત બતાવે ,guj_Gujr,guj_Gujr,0.0
+361,"query: Um neue Menschen zu bekommen, haben in Indien, Ägypten, Ägypten und Ägypten 1’000 ","query: અમેરિકામાં એક દિવસમાં નવા 61 હજાર દર્દી, ઓસ્ટ્રેલિયામાં બહારથી આવનારા",guj_Gujr,guj_Gujr,0.08
+362,"query: Heute, zu dieser großen Freude, dürfen 8 Glanzgrabungen, der Dankbarkeit und glänz","query: આજે આ 8 રાશિઓ પર વરસશે માં દુર્ગાની કૃપા, મોટો ધનલાભ થવાના",guj_Gujr,guj_Gujr,0.15384615384615385
+363,"query: ""Ändern und sparen vor der bürgerschaftlichen Vorsorge"".... ""Asna","query: ""અપર્ણા યાદવે ચૂંટણી પહેલાં વહેંચ્યા પૈસા અને દારૂ"" |",guj_Gujr,guj_Gujr,0.18181818181818182
+364,"query: Erfolgreich erfolgreich erfolgreich erfolgreich erfolgreich erfolgreich erfolgreich erfolgreich durch Navara, S","query: સેનાની મોટી સફળતા, શ્રીનગર માર્ગ પરથી ચાર કિલોગ્રામ વિસ્ફોટક પદા",guj_Gujr,guj_Gujr,0.11764705882352942
+365,"query: Auch wenn der Polizei ihnen erzählt hatte, dass Pattaya ihnen geholfen hätte P",query: પોલીસ પણ ડરતી હતી તે પોપટીયા વાડમાં કેશુ બાપાએ કર્યો હતો લ,guj_Gujr,guj_Gujr,0.0
+366,query: who will their persönlichkeit gewinnen? | VIDNA query: who will their persönlichkeit gewinnen,query: ભાવેણાના મતદારો કોને ભાવ આપશે? | chitralekha Home Election 2019 Know Your Constituency ભા,guj_Gujr,guj_Gujr,0.1739130434782609
+367,"query: ""I'm able to be acknowledged applicant"" I'm able to be acknowledged ",query: પરમબીર સિંહે કસાબને 'મદદ' કરી હોવાનો નિવૃત્ત એસીપીનો આ,guj_Gujr,guj_Gujr,0.0
+368,query: DOWNLOAD: Buddhismus zu erfüllen / Buddhismus zu erfüllen / Nāyāyā-,query: અ. ૨: નાહી-ધોઈ પૂજા કર્યાનું :: Anirdesh Vachanamrut // Anirdesh.com,guj_Gujr,guj_Gujr,0.1111111111111111
+369,"query:...und dieser Beitrag lädt auch dazu ein, dass Ästhetische Blutgefäße erweitert,","query: બોલો, આ વાઇરસ પણ ગજબ છે, એન્ટીબોડીને પણ છેતરી જાય છે...!",guj_Gujr,guj_Gujr,0.14814814814814814
+370,"query: Veröffentlicht auf ayurveda.wordpress.com / 2018 Schlagwörter: ayurveda.wordpress.com, Google Suche nach",query: અંગત શોધનો પ્રદેશ – વર્ષા અડાલજા – ReadGujarati.com Home » સાહિત્ય લેખ »,guj_Gujr,guj_Gujr,0.0
+371,query: Öffentlichkeitsarbeit e.V. zur Verbesserung der Toxikologie zur Toxikologie e.V. Dr.,query: રાજકોટને ટીબી મુક્ત કરવા રાજયના ટીબી ઓફીસર ડો. સતીષ મકવાણા,guj_Gujr,guj_Gujr,0.11111111111111112
+372,query: Webseitenbetreiber e.V. - Nutzer der Webseitenbetreiber e.V. - ,query: વેબસાઇટ વકીલો વિકાસકર્તાઓ વેબસાઇટ બિલ્ડર હું પ્રતિનિધિત્વ,guj_Gujr,guj_Gujr,0.0
+373,query: ANNA & ARYA führte den anspruchsvollen Klärung anspruchsvollen Klärung ARYA & ARYA,query: કાર્તિક આર્યન અને કિયારા આડવાણીએ શરૂ કરી ભૂલ ભૂલૈયા-2ની શ,guj_Gujr,guj_Gujr,0.0
+374,"query: Hilfe: meine Familie, nach zwei Grundschulen in Gamölla / Sögölla / Sögölla",query: મારામારી: ગોંડલના ગોમટા ગામમાં બે પરિવાર સામસામા લાકડી અને ધોકા સા,guj_Gujr,guj_Gujr,0.08333333333333333
+375,"query: gyanga ist der dritte Platz bei der guangdong economy bewertung. gyanga, thailand,","query: ગાંજાની ખરીદીમાં દિલ્હી વિશ્વમાં ત્રીજા સ્થાને, ન્યૂયોર્ક મોખરે |",guj_Gujr,guj_Gujr,0.0909090909090909
+376,query: Öffentlichkeitsarbeit: Öffentlichkeitsarbeit: Öffentlichkeitsarbeit: MdL MdL MdL Maha,query: ઉજ્જૈન : મૉડલે મહાકાલ મંદિરના પરિસરમાં વાંધાજનક વીડિય,guj_Gujr,guj_Gujr,0.16666666666666666
+377,query: ♍ ayurveda - ♍ ayurveda - ♍ ayurveda - ♍ gesundheitsfaktor,query: અભિગમ (via ) | વિજયનું ચિંતન જગત- ← રિક્તતા શરીર સ્વાસ્થ્ય મા,guj_Gujr,guj_Gujr,0.0
+378,"query: Ich möchte keine anderen wünschen, sondern meinen Wunsch teilen... ᐅᐅᐅᐅᐅᐅᐅ",query: બીજું હું કાંઇ ન માગું – 'બાદરાયણ' | ટહુકો.કોમ ←,guj_Gujr,guj_Gujr,0.0
+379,query:..............,"query: હની સિંહ સામે આરોપો ચાલુ, પત્નીએ આટલી માંગણી કરી.. – A",guj_Gujr,guj_Gujr,0.0
+380,query: Ihre persönliche Adresse nach Delhi - Petroleum - Petroleum - Petroleum - Petroleum -,query: 'આપ' નેતાના ઘરેથી મળ્યા પથ્થરો - પેટ્રોલ બોંબ દિલ્હી હિ,guj_Gujr,guj_Gujr,0.1111111111111111
+381,query: krishnagraha query: krishnagraha query: krishnagraha query: krishnagraha query: krishnagraha ,query: કાલે ખંડગ્રાસ સૂર્યગ્રહણ | Religion | Gujarat Mirror કાલે ખંડગ્રાસ સૂર્યગ્રહણ,guj_Gujr,guj_Gujr,0.0
+382,"query: Buddhismus, Buddhismus, Buddhismus, Buddhismus, Buddhismus nimmt am 5. Mai 2016 einen","query: 5 જુલાઈએ લાગશે ચંદ્રગ્રહણ, ભારત દક્ષિણ એશિયાના કેટલાક સ્થા",guj_Gujr,guj_Gujr,0.2105263157894737
+383,"query: Wenn Kinder glücklich sein dürfen, dann freut ihr sich, dass fÃ1⁄4r Sprache, ","query: ફ્રુટીનું નામ સાંભળતા જ બાળકો થઈ જશે ખુશ, તો બાળકોને",guj_Gujr,guj_Gujr,0.08333333333333334
+384,"query: Nachdem tns tns 2020 bestätigt hatte, dann darf tns 2020 nach Dvina",query: ટેસ્ટ મેચ બાદ ધોનીએ T20માંથી પણ લીધો સંન્યાસ? વિરાટે આપ્યો સં,guj_Gujr,guj_Gujr,0.0
+385,"query: u.a. über den Bürgermeister und den Bürgermeister:innen srsa, covid19 covid19 ",query: સુરત : વડાપ્રધાન તેમજ CM રૂપાણીએ મૃતકોના પરિવારજનો પ્રત્યે સંવે,guj_Gujr,guj_Gujr,0.09523809523809525
+386,"query: pdf und pdf-Datei zur Erzählung ""Darkness and Darkness"" - Anjali Archy & Anjali","query: ડાર્ક સક્સેસ Arjun દ્વારા પુષ્તક અને વાર્તા PDF ""લેડીઝ એન્ડ જેન્ટ",guj_Gujr,guj_Gujr,0.08
+387,"query: Pdf-Datei: März 2022, Pdf-Datei: Governance, Funktionalität, Plattformen und Hinweis","query: સ્ટોર્મગેઈન રિવ્યૂ જૂન 2022: પ્લેટફોર્મ ફી, સ્પ્રેડ અને નિયમન",guj_Gujr,guj_Gujr,0.28571428571428564
+388,"query: ayurveda erklärt dir, welcher gesundheitswert es ist, Ihre gesundheit, BGH,","query: આયુર્વેદ મુજબ જાણો તમારા સ્વાસ્થ્ય માટે, કયું દૂધ ઉતમ છે, ગ",guj_Gujr,guj_Gujr,0.08695652173913043
+389,query:.... How to deutsche bürgerschaft und ihre kulturellen Fähigkeiten zu fördern,query: બ્રિટનના નાગરિકત્વ માટે કેવી રીતે ગીત અને ડાન્સ મદદ કરશે. ,guj_Gujr,guj_Gujr,0.0
+390,query: story - story - story - story - story - story - story - story - story - ,query: 'શૌચ' બડી ચીઝ હૈ! – રીવ્યુ: ટોઇલેટ એક પ્રેમ કથા -,guj_Gujr,guj_Gujr,0.125
+391,query: Hinweis: MdA mdA mdA mdA mdA mdA mdA mdA m,query: અડવાણીની ડિમાન્ડ : કોઇ મિનિમમ રિસ્પેક્ટ યોજનાનું પણ વચન આપો ,guj_Gujr,guj_Gujr,0.13333333333333333
+392,query: Ändert wurde: Joachim Löschz - Ändert wurde: Joachim Löschz - Ändert wurde,query: લક્ષ્મણની યાદગાર ઇનિંગ લક્ષ્મણ ૨૮૧ ઃ ફોલોઓન થયેલા,guj_Gujr,guj_Gujr,0.0
+393,"query: Wir wissen natürlich, dass die Narkose sehr schmutzig ist, und natürlich auch alles","query: આપણે સૌ જાણીએ છીએ કે નશો ખુબ જ ખરાબ વસ્તુ છે, અને જે તે",guj_Gujr,guj_Gujr,0.07142857142857144
+394,query: sahara tourist journey - sahara tourist journey - sahara tourist journey - sahara tourist journey -,query: હેરીની દરિયાઈ સફર - Edumaterial HomeSAHAJ SAHITYAહેરીની દરિયાઈ સફર – રામ,guj_Gujr,guj_Gujr,0.15384615384615383
+395,query: i.d.r.n.r.n.r.n.r.n.r.: Unfall zwischen 10,"query: ઝારખંડ: ટ્રક અને ઈનોવા વચ્ચે થયો અકસ્માત, 10ના મોત",guj_Gujr,guj_Gujr,0.11764705882352942
+396,"query: Ägypten, Ägypten, Ägypten, Ägypten, Ägypten wasserabfall in zwei unterschiedlichen","query: તીવ્ર ગરમીમાં અમદાવાદમાં પાણીજન્ય રોગચાળો બેકાબૂ, બે હજા",guj_Gujr,guj_Gujr,0.13333333333333333
+397,"query: antragstellung auf antragstellung auf antragstellung auf antragstellung auf antragstellung auf ggrs, 26.06.2018,",query: ગુજરાતની ચાર સહિત રાજ્યસભાની 55 સીટો માટેની ચૂંટણી 26 માર્ચે | chitrale,guj_Gujr,guj_Gujr,0.0
+398,query: Öffentlichkeitsgruß nach Gujarat-Glück nach Gujarat-Glück nach Gujarat-Glück nach,"query: શંકરસિંહ વાઘેલાનો સરકાર પર શાંબ્દિક પ્રહાર, કહ્યુ- ગુજરાતમાં ખાડા ",guj_Gujr,guj_Gujr,0.0
+399,query: Öffentlichkeitsarbeit / Tochter / Tochter / Tochter / Tochter / T.O.I,query: સિનિયર અભિનેતા ટોમ ઓલ્ટરનું નિધન Home > લાઇફસ્ટાઇલ > સિનિયર અભ,guj_Gujr,guj_Gujr,0.0
+400,"query: 50% Berechtigung, erhält den Besuchern im Auditorium Martha Martha Martha Martha Martha Martha Martha,","query: મોટેરા સ્ટેડિયમમાં મિનિમમ 50% દર્શકોને એન્ટ્રી નિશ્ચિત, 100% ને પ્રવેશ",guj_Gujr,guj_Gujr,0.2727272727272727
+401,query: Ich bin meiner älteren Frau sowie meiner älteren Frau sowie meiner Mann wechseln. A,query: શંકાશીલ પતિ સાથે છૂટાછેડાનો કેસ ચાલે છે અને હું બીજા યુવક,guj_Gujr,guj_Gujr,0.0
+402,"query: India / Maharashtra / Maharashtra ist bestens geeignet, um ihre Familie zu pflegen und zu kommunizieren",query: લકઝુરિયસ લાઇફ અને રહેવા માટે બેસ્ટ છે ભારતના શહેર Home / જાણ,guj_Gujr,guj_Gujr,0.07692307692307691
+403,query: Koronavirus - mehr Menschen mit höherer Krebserkrankung: Koronavirus - mehr Menschen mit höherer Krebse,query: કોરોના ગ્રસ્ત સગર્ભાનું મોતઃ વધુ સાત દર્દીઓ સાથે કચ્છ ઉપર ,guj_Gujr,guj_Gujr,0.0
+404,query: Öffentlichkeitsarbeit - Prakash Nagendra Gandhi - Prakash Nagendra Gandhi - Prakash Nagendra ,query: ગુજરાતી ફિલ્મના જાણીતા અભિનેતા ચંદ્રકાંત પંડ્યાનું નિધન - Sanj Samachar ,guj_Gujr,guj_Gujr,0.13333333333333333
+405,"query: Angriff auf den afghanischen Katastrophenfall, â€ž 18 â€œKatastrophenfall, â","query: કાબુલ આત્ઘાતી હુમલામાં અત્યાર સુધી 18ના મોત, 57 ઘાયલ, મ",guj_Gujr,guj_Gujr,0.09523809523809525
+406,"query: Öffentlichkeitsarbeit beim Angriff auf 2 Mädels, während der Mafia auf Kokaí | Posted by ",query: માળીયામાં મજાક કરવા મામલે યુવાન ઉપર બે શખ્શો દ્વારા હુમલો | The Press,guj_Gujr,guj_Gujr,0.07407407407407408
+407,"query: ᐅÖffentlichkeitsarbeit ᐅÖffentlichkeitsarbeit ᐅÖffentlichkeitsarbeit ᐅGälia, 30","query: કપરાલી, ઘૂંટીયાઆંબા જ્યોતિગ્રામ ફીડરના 50 ગામોમા છેલ્લાં 3 દિ",guj_Gujr,guj_Gujr,0.14285714285714288
+408,query: dieser Beitrag beruht auf den Beiträgen Namibia - Namibia - Namibia - Namibia - ,"query: સાબુ, નેલપોલીશનો મેદસ્વિતા સાથે છે આ સંબંધ - Sambhaav News ",guj_Gujr,guj_Gujr,0.10526315789473685
+409,"query: gms - Aktuelle Veröffentlichung der jüngsten gms - gms manufacturing industry,",query: સમાચાર - ગ્લોબલ ફાઇબર ગ્લાસ મેશ માર્કેટ રિપોર્ટ તાજેતરનાં ઉદ્યોગ પ્ર,guj_Gujr,guj_Gujr,0.09999999999999999
+410,query: IPL gewinnen! IPL gewinnen! IPL gewinnen! IPL gewinnen!,query: ક્રિકેટ પ્રેમી આનંદો! આ તારીખથી શરૂ થશે IPLની બાકીની મેચ,guj_Gujr,guj_Gujr,0.14285714285714288
+411,query: Öffentlichkeitsarbeit: Öffentlichkeitsarbeit: Öffentlichkeitsarbeit: Tübäi Öbäi Öb,query: મેરાન્યૂઝ નેટવર્ક. અરવલ્લી: ટીંટોઈ ગામના ખેમાભાઈ અંબાભાઈ,guj_Gujr,guj_Gujr,0.14285714285714285
+412,query: Bericht über den medizinischen Bereich der 'Lhaga healthcare institution' - lhdj Deklaration,query: 'લેહ હોસ્પિટલ વિવાદ' પર આવ્યુ સંરક્ષણ મંત્રાલયનુ નિવેદન | De,guj_Gujr,guj_Gujr,0.08333333333333334
+413,"query: ÖPNV ÖPNV ÖPNV ÖPNV ÖPNV Kaffeemaschine, elektrische Kaffeemaschine, elektrische Kaffee","query: પીએલસી સર્વો ડ્રિપ કોફી બેગ પેકેજિંગ મશીન, ઓટોમેટેડ ફિલ",guj_Gujr,guj_Gujr,0.13333333333333333
+414,"query: Nachzubildende, nachzubildende, nachzubildende Nachzubildende Nachzubildende Nachzubildende der Volvo Mobility AG Nachzubi",query: વડોદરા મહાનગરપાલિકાના સફાઈ કામદારો બાદ કોન્ટ્રેક્ટના ડ્રાઈવરોના,guj_Gujr,guj_Gujr,0.0
+415,query: : : : : : : : : : : : : : :,query: 'કેરળ લવ જેહાદ' મામલોઃ સુપ્રીમ કોર્ટે હાદિયા અને શફ,guj_Gujr,guj_Gujr,0.0
+416,"query: Dänemark, MdB, sammelte ihren Familiennachwuchs, nachdem der Familiennachwuchs ihrer Familie ","query: જામનગરનાં યુવકનું બ્રેઇન ડેડ થતાં તેના પરિવારે અંગદાન કર્યું, અંગદાન",guj_Gujr,guj_Gujr,0.10000000000000002
+417,query: ᐅ ᐅ ᐅ ᐅ ᐅ ᐅ ᐅ ᐅ Pädagogische Versorgung für Nepal? ᐅ ᐅ ,query: (1) સૌરાષ્ટ્ર વિસ્તારમાં હાલમાં પપૈયા માટે કઈ જાત સારી છે? પપૈયા ,guj_Gujr,guj_Gujr,0.10526315789473684
+418,"query: fÃ1⁄4r seinen Beruf als Kommandant fÃ1⁄4r seine Frau Isaac heiraten und heiraten,",query: શહીદ મેજરના વાઈફ આર્મીમાં જઈને લેફ્ટનન્ટ બનીને પતિને શ્રદ્ધાં,guj_Gujr,guj_Gujr,0.0
+419,query: ‚Äußerkeitsbewusstsein ‚Äußerkeitsbewusstsein ‚Äußerkeitsbewusstsein ‚Akbar,query: કટ્ટરવાદ જેણે નિખાલસતા ઊભી કરી? રબ્બી માઈકલ અબ્ર,guj_Gujr,guj_Gujr,0.0
+420,"query: Diese 7 englischsprachige Bollywood Artists, die bereits 2007 geschrieben sind, kann natürlich nicht besser sein,","query: આ 7 બોલીવુડ કલાકારોનું અંગ્રેજી છે કાચું, આજે પણ નથી કરી શકતા",guj_Gujr,guj_Gujr,0.13793103448275862
+421,query: Großbritannien / Großbritannien / Großbritannien / Hitachi gps gps gps g,query: ચાઇના Gachn સંપૂર્ણ સર્વો બેબી ડાયપર મશીન / પુખ્ત ડાયપર ,guj_Gujr,guj_Gujr,0.14285714285714285
+422,query: Persönliche Mutter und Persönliche Persönliche Persönliche Persönliche Persönliche Persönliche Persönliche P.,query: સુભાષ પત્રીજી નો જન્મ પિતા પી.વી. રામન્નારાવ અને માતા સાવિત્રી,guj_Gujr,guj_Gujr,0.12500000000000003
+423,"query: Grammatik ist keine einfache Sprache, sondern Sanskrit Grammatik gsrp gsrp",query: ગુજરાતી શબ્દ સ્પર્ધા (Spell Bee) યોજવી એ કંઇ રોકેટ સાયન્સ નથી,guj_Gujr,guj_Gujr,0.0
+424,"query: Vor 70 Jahren, während ihrer geistlichen Verpflichtung, schenkte Athanasia n.d.","query: વરવધૂએ સપ્તપદી પહેલાં નેત્રદાન, દેહદાન ને અંગદાનની પ્રતિ",guj_Gujr,guj_Gujr,0.09523809523809525
+425,query: gdp gdp gdp gdp gdp gdp gdp,query: ગુજરાતી આધ્યાત્મિક દર્શન : November 2017 ભગવાન પાસે શું માગવું? ધર્મ દરેક,guj_Gujr,guj_Gujr,0.0
+426,query: keine Verpflichtungen zu einer erfolgreichen Vermögensberatung : i.d.h. Vishnu gandhi ,query: કોઈ રાજકીય ઈરાદો કે વચનની પૂર્તિ નથી: ભુપેન્દ્રસિંહ ચુડાસમા,guj_Gujr,guj_Gujr,0.09523809523809525
+427,query: Andere berichten über seine Ämter - sōnya publishing group - sōnya publishing group,query: સોનિયાને પત્ર લખનાર અનેક નેતાઓ પોતાની વાત પર મકકમ - Western Times News,guj_Gujr,guj_Gujr,0.09090909090909093
+428,"query: [pdf, pdf, pdf, pdf, pdf, pdf, pdf] 20.11.2022 / r",query: ૨૦/૦૯/૨૦૧૧ (મંગળવાર) rhsphp¡ _l] sdpfp,deu_Latn,deu_Latn,0.13333333333333333
+429,query: Ökologischer Arbeitseinsatz auf der Namibianischen Insel Nagasaki a.k.a. : Herausfordern,query: બનાસકાંઠાના અંબાજીમા દબાણ હટાવ ટીમને ઘેરાવઃ કામગીરી વગર પર,guj_Gujr,guj_Gujr,0.0
+430,"query: dazu verwendet wurden: OSAKA, Rhöna und Rhöna e.V. Rhöna Mobility",query: ઓમિક્રોનને લઈને તંત્ર એક્શન મોડમાં: સુરત અને રાજકોટ મનપાએ લીધો આ,guj_Gujr,guj_Gujr,0.08695652173913043
+431,query: Schließlich gehört auch der elektronische Kunststoff stainless steel stainless steel stainless steel stainless steel,query: સિંગલ યૂઝ પ્લાસ્ટિક પર પ્રતિબંધ પણ પ્લાસ્ટિકિયાં સ્માઇલની છૂટ છે,guj_Gujr,guj_Gujr,0.0
+432,query: ibrahim ibrahim ibrahim ibrahim ibrahim ibrahim ibrahim ibrahim ibrahim ,query: બુમરાહને હેલ્મેટ પર બોલ મા@રનાર ઇંગ્લિશ બોલર ઈજાગ્રસ્ત; માર્ક,guj_Gujr,guj_Gujr,0.0
+433,"query: Dieses Mädchen schafft es, dass sie ihre Familie während der Marriage feiern, dann Sarasa",query: આ નામવાળી છોકરીઓ લગ્ન પછી ઘરમાં પગ મુકતા જ સાસરિયા ને બનાવી દે,guj_Gujr,guj_Gujr,0.0
+434,query: 11 jähriger Sohn brachte ihren Vater ihren Vater ihren Vater 99.100 ₹,"query: સગાઈમાંથી 11 લાખ રૂપિયા પરત કર્યા, વરરાજાએ પિતાને 101ના શગુન લી",guj_Gujr,guj_Gujr,0.1
+435,"query: CLC - Katalysatorische Lösungen, Katalysatorische Lösungen, Katalysatorische Lösungen,","query: ચીન કોસ્મેટિક્સ લેબલ્સ, કોસ્મેટિક પ્રોડક્ટ લેબલ્સ - ક્રિસ્ટલ કોડ",guj_Gujr,guj_Gujr,0.2857142857142857
+436,query: Stärkung der wirtschaftlichen Fähigkeit'stock-and-steel manufacturing' gewinnen - Glasgroßhandel ,query: સ્ટીલ-લોખંડના કાચા માલનો ભાવ વધારો ફોર્જીંગ ઉદ્યોગનું 'ગળ,guj_Gujr,guj_Gujr,0.0
+437,"query: Besuchen Sie Mahatma Gandhi’s archäologischer Erkundung, der einen großartigen Erfolg erlebt hat.","query: જોઈ લ્યો મહાકાલેશ્વર મંદિર ઉજ્જૈનના અદ્ભુત રહસ્યો, એક ક્લિક પર",guj_Gujr,guj_Gujr,0.07407407407407407
+438,query: Ältere elektrische Antriebstechnik â€žÄltere elektrische Antriebstechnik â€žIm Jahr 2022 wurde,query: દોઢ દાયકામાં જેટલા ઇલેક્ટ્રિક વ્હિકલ વેચાયા તેટલા એકલા 2022માં વે,guj_Gujr,guj_Gujr,0.0
+439,"query: Wenn du diesen Gesichtsausdruck gemacht hast, würde Ihr denken, dass 5, 5,","query: તમે આ 5 ભૂલો કરો છો એટલે જ તમારો ચહેરો દેખાય છે, કદ",guj_Gujr,guj_Gujr,0.15384615384615383
+440,"query: Gewalt gegen den Dänischen Hausbesitzer, um seine Familie ihren Haus ihrer Familie zu ermächtigen [",query: ગુનેગારને તેના પોતાના ઘરમાંથી હેરોઇન સામ્રાજ્ય ચલાવવા બદલ જેલ DESI,guj_Gujr,guj_Gujr,0.0
+441,"query: +++ Öffentlichkeitsarbeit: nach Indien, nach Japan, nach Indien: gandhi-konar - ",query: ગુજરાતી સમાચાર: કોરોના સામે જંગ: પ્રિયંકા-નિકે ભારત સહિત દુનિયાભર,guj_Gujr,guj_Gujr,0.10526315789473685
+442,query: ᐅᐅᐅᐅᐅᐅᐅᐅᐅᐅMedikamente kaufen: nach gynäkologie apotheke gynäkologie ,query: દવાની દુકાન: સીધા દવાની દુકાનેથી તાવની દવા ખરીદો છો? ગુજરાતમાં ,guj_Gujr,guj_Gujr,0.11764705882352942
+443,"query: Neue Räumlichkeiten werden geschaffen, wenn r.a.r.a.r.a.r.a. in",query: રાપરમાં નવી શાકમાર્કેટનું લોકાર્પણ થશે | રાપરમાં નવી શાકમાર્કેટ,guj_Gujr,guj_Gujr,0.0
+444,"query: Ich werde dich begeistern, wenn du fünf der fünf Google algorithmen benutzerdefinierten gn",query: ગૂગલ લેન્સનાં આ પાંચ ઉપયોગો જાણીને તમે આશ્ચર્યચકિત થઇ જશો,guj_Gujr,guj_Gujr,0.0
+445,query: Publikationskatalog i.d.m.a.: Öffentlichkeitsentwicklung zum Jahr 2010 i.d.m,query: અહેવાલ | અભિગમવેબ્લોગ વર્ષ૨૦૧૦-૧૧ નો વાર્ષિક અહેવાલ ૨,guj_Gujr,guj_Gujr,0.0
+446,query: Den MdA-Lernschüler während der Schule nach MdA-Lernschüler nach Strom,query: મોડાસાની નાલંદા-૨ માં રહેતા શિક્ષક દંપતીને લાગ્યો વીજ,guj_Gujr,guj_Gujr,0.0
+447,query: Jp jackson plc ist der amerikanische Investitionspartner für $60 Milliarden US-Dollar. Jp jackson plc,query: યુ.એસ. પાવરબ jલ જેકપોટ 650 મિલિયન ડોલર સુધી પહોંચે છે. ચા,guj_Gujr,guj_Gujr,0.08
+448,query: alzheimer krankheit - Beiträge über alzheimer krankheit alzheimer krankheit alzheimer krankheit alzheimer,query: કેલ્શિયમની ખામીથી થતી સમસ્યાઓ | CIMS Hospital in Ahmedabad - Ranked Amongst Best,guj_Gujr,guj_Gujr,0.1111111111111111
+449,query: Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche Benutzeroberfläche,query: ઓપેરા CSS3 મેનુ ઓપેરા CSS3 મેનુ વાસ્તવિક ઓપેરા webiste મેનૂ દ્વા,guj_Gujr,guj_Gujr,0.0
+450,"query: Kann er endlich endlich wieder auf der ganzen Welt erlebt werden? MdL, MdL, ÖPNV",query: શું આખા દેશમાં ફરીથી થશે લોકડાઉન? જાણો શું કહ્યું ખુદ પીએમ મોદી,guj_Gujr,guj_Gujr,0.07692307692307691
+451,"query: a.c.a.g. wurde der größte Teenager der Welt, um 18 Jahre alt zu sein, ","query: ૧૬ વર્ષની છોકરી એ બનાવ્યું દુનિયાનું સૌથી સસ્તું AC,માત્ર ૧૮",guj_Gujr,guj_Gujr,0.07692307692307691
+452,query: Öffentlichkeitsarbeit / Öffentlichkeitsarbeit / Öffentlichkeitsarbeit / Öffentlichkeitsarbeit ‹,query: ઇસ્લામી શાસનમાં ધાર્મિક સ્થળો | Yuva Saathi Gujarati Magazine Home પયગામ,guj_Gujr,guj_Gujr,0.0
+453,"query: Ddmd fördert ihren ersten Trophy Day, Ausgabe März 2022, zum 1. März 2020,","query: સરકારે આપી દિવાળી ગીફટ પ્રથમ માર્ચ, ૨૦૨૦થી ૩૧ માર્ચ, ",guj_Gujr,guj_Gujr,0.08695652173913043
+454,"query: X.I.O.X 100 x 100 cm wurde auf der Plattform explodiert, nachdem er wusste,","query: 1000 ફૂટની ઉંચાઈ પરથી નીચે પડ્યો IPhone X, જાણો પછી શું થયું",guj_Gujr,guj_Gujr,0.07692307692307693
+455,"query: Um den höheren Anspruch zu erfüllen, sucht der IT-Fachdienstleister iTaxa: 10 000",query: ૧૦ લાખથી વધુનો વહેવાર કરનારને સોર્સ પૂછશે આઈટી વિભાગઃ ટેક્ષ,guj_Gujr,guj_Gujr,0.0
+456,"query: Viele neue Fragen, um den benutzerfreundlichen Austausch von PWR Generators zu verwenden, PWR","query: પાવર કનેક્ટર્સનો નવો ઉપયોગ પાવર કનેક્ટરના ઉપયોગની ચર્ચા ઘણી છે, હ",guj_Gujr,guj_Gujr,0.08333333333333334
+457,"query: Herausforderung, um älteren Schülern dieses Matura Jahrgangs daran teilnehmen zu können, dass soziale",query: મધ્યમ વર્ગના યુવકના જીવનમાં બનેલો આ પ્રસંગ હિંમત ન હારતા શીખવા,guj_Gujr,guj_Gujr,0.0
+458,"query: Nach einem Erinnerungsgedanken erzählt, dass Josh Nagasaki seine „Gäste“ gemacht hat:",query: ગૂગલે બાસ્કેટબોલના જેમ્સ નાઇસ્મિથને આ રીતે કર્યા યાદ – Re,guj_Gujr,guj_Gujr,0.0
+459,query: Gynäkologie: Gynäkologie: Gynäkologie: Im Norden von Gynäkologie: Gynäkologie,query: ઉત્તર પ્રદેશ: ગંગાના કિનારે આવેલા ગામડાઓમાં ઓર્ગેનિક ગોળના ઉત્પાદનને,guj_Gujr,guj_Gujr,0.13333333333333333
+460,query: ° ° ° ° ° ° ° ° ° In den Herbst gesunde Ernährung fördern,query: શિયાળામાં દૂધમાં અંજીર કે આદુ ઉકાળીને પીવાથી સ્વાસ્થ્ય માટે અતિ,guj_Gujr,guj_Gujr,0.0
+461,"query: Narendra Gupta: Arbeit erfordert keine Kapazitäten, sondern lässt Geld für den betrieblichen ","query: નિતિન ગડકરીઃ સરકાર પાસે પૈસાની કમી નથી, કામ કરવાની માનસિકતામાં",guj_Gujr,guj_Gujr,0.08
+462,"query: Ich möchte mich dazu entschieden, meine kostenlosen PBS-Prüfungsfähigkeiten für PBS 10 P",query: શું તમે મને મફતમાં PR10 બેકલિન્ક્સ મેળવવા માટે યોગ્ય અભિગમ બતા,guj_Gujr,guj_Gujr,0.0
+463,"query: Ästhetische Ästhetische Ästhetische Ästhetische Ästhetische Lösungen, um diese Schmerzen durch",query: એડીઓનાં દુઃખાવામાંથી તરત આરામ અપાવે આ પ્રાકૃતિક ઉપચારો | This Natural Remedy,guj_Gujr,guj_Gujr,0.0
+464,"query: Ghazacharya erneut ausgezeichnet und Herausgeber und Filmkritiker Farid Farhan Ghazacharya, ",query: ફરાહ ખાન ફરીથી ઈજાગ્રસ્ત કોરિયોગ્રાફર અને ડિરેક્ટર ફરાહ ખાનને,guj_Gujr,guj_Gujr,0.0
+465,"query: ᐅᐅᐅᐅᐅᐅDadrasa, dass Mädchen auf Dadrasa, dass Mädchen auf Dadras","query: દાતી મહારાજ પર નવી આફત, ક્યાં ગયી આશ્રમની 600 છોકરીઓ? | Daati Mahara",guj_Gujr,guj_Gujr,0.09090909090909091
+466,query: Öffentlichkeitsarbeit: PUR NACHRICHTUNG: PUR NACHRICHTUNG: weil i.d.p,query: અધિકારીનો લેવાયો ભોગ : વાડજ PI એ વાતને અવગણી તો રાતોરાત ,guj_Gujr,guj_Gujr,0.11764705882352942
+467,query: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐,"query: પવિત્ર બાઇબલ હોશિયા 2 ☰ હોશિયા 2 ◀ ▶ 1 ""હે યિઝએલ!",guj_Gujr,guj_Gujr,0.0
+468,query: 99 00 00 00 00 00 00 00 00 00 - Verkauf der Kreditkartengebühr für,query: સેટેલાઇટના ડી-માર્ટને વેચાણના પેકેટમાં નિયમભંગ બદલ 90 હજા,guj_Gujr,guj_Gujr,0.0
+469,"query: Eine Schülerin, welche während der Assessment examination ihrer Schule angehört hat, gehört",query: સ્કૂલમાં નિરીક્ષણ દરમિયાન એક વિદ્યાર્થિનીનું નામ સાંભળીને ચોંક્યા વિભાગીય,guj_Gujr,guj_Gujr,0.0
+470,query: Jaisalna - geschrieben auf einem bestimmten Thema - www.jaisalna.wordpress.com -,query: વ્યોમનાથ - એક અલગ જ વિષય પર લખેલી સ્ટોરી!! - જલ્સા,guj_Gujr,guj_Gujr,0.10526315789473685
+471,query: Öffentlichkeitsarbeit auf den Weg führte Mdg. Jh. Jh. Mdg. Jh.,query: રિક્ષા ગેંગ ફરીથી મેદાને આવી...પુષ્કરધામ રોડ પર જૈન વૃધ્,guj_Gujr,guj_Gujr,0.0
+472,"query: griechenland, griechenland griechenland, griechenland griechenland, griechenlands ausrüstungs- und","query: લાવિયા, ધ ગાર્ડિયન એન્જલ ઓફ રેવિલેશન્સ એન્ડ ડ્રીમ્સ ",guj_Gujr,guj_Gujr,0.14285714285714285
+473,"query: Nachdem den Parlamentarischen Parlamentarischen Parlamentarischen unterstützt wurde, äußerte sich Allan A. M.",query: કૃષિ કાયદાનું સમર્થન કરતાં પેનલના સભ્ય અનિલ ઘનવટે કરી મો,guj_Gujr,guj_Gujr,0.0
+474,"query: Jetzt geht's darum, mit ihrer Familie arbeiten zu können - MdA Alia, 75-",query: આ અબજો રૂપિયાનું એલન મસ્ક શું કરશે- દિકરીએ બાપ સાથે છેડો ફા,guj_Gujr,guj_Gujr,0.0
+475,query: bimnad (griechisch bimnad) - Wikipedia - www.bimnad (griechisch bimnad) -,query: ભીમનાથ (તા. બરવાળા) - વિકિપીડિયા ભીમનાથ (તા. બરવાળા),guj_Gujr,guj_Gujr,0.39999999999999997
+476,"query: Dieser Film wurde durch den TV-Künstler Mikaela, i.d.A. durch seine künstlerische","query: આ ટીવી એક્ટ્રેસે તેની સ્ટાઈલથી મલાઈકા - કરીનાને પરાજિત કરી, જે",guj_Gujr,guj_Gujr,0.08333333333333333
+477,"query: Als junge Frau lebt, arbeitet, fährt, fährt, fährt ihren Alltag als BASH","query: બસમાં જવું, નોકરી કરવી, સામાન્ય યુવતીની જેમ જીવન જીવે છે વડોદરાની",guj_Gujr,guj_Gujr,0.08695652173913043
+478,"query: radhika, radhika, radhika, radhika, radhika und Moritz wurden ausgezeichnet.","query: ધોની, રોહિત શર્મા અને વિરાટ કોહલી થયા રિટેન, હાર્દિક પ",guj_Gujr,guj_Gujr,0.1111111111111111
+479,"query: Erfahren Sie, welche außergewöhnliche Küste der Indien sein könnte - den 400 Jahre alten Maharashtra",query: જાણો ભારતના 400 વર્ષ જૂનાં સૌથી રહસ્યમય કિલ્લા વિશે- જેના દરવાજા,guj_Gujr,guj_Gujr,0.07407407407407407
+480,query: Öffentlichkeitsarbeit - Öffentlichkeitsarbeit - Öffentlichkeitsarbeit - Öffentlichkeitsarbeit -,query: ભાજપમાં ફફડાટ : ચૂંટાયેલા પ્રતિનિધિઓને કાર્યાલય ખોલવા -,guj_Gujr,guj_Gujr,0.2
+481,"query: ᐅ Auszubildende, denen i.d.A. den medizinischen Grundschulabschluss gemacht werden möchte G",query: ધો.૧૦ ગુજરાત બહારથી પાસ કર્યું હોય તેવા વિદ્યાર્થીઓને મેડિકલના ,guj_Gujr,guj_Gujr,0.0
+482,query: Anjali Anjali: r.a.: 40 Jahre Lebenserfahrung bei Madhya Pradesh; r.a.: 40 Jahre,"query: રાની મુખરજીઃ આયુષ્યનાં ૪૦ વર્ષ, બોલીવૂડમાં ૨૨ વર્ષ પૂરાં...",guj_Gujr,guj_Gujr,0.0
+483,query: K.A.D. brachte den K.A.D. für den Aufbau eines berufsbegleitenden ,query: ડૂબતા કરિયરને ટ્રેક પર લાવવા માટે કપિલે તૈયાર કર્યો પ્લાન-બી |,guj_Gujr,guj_Gujr,0.0
+484,"query: ÖPNV ÖPNV ÖPNV ÖPNV, um den wasserfall während der Pandemie zu verhindern",query: તાપી જિલ્લામાં વરસાદ બાદ રોગચાળો ન ફેલાય તે માટે તંત્ર સજ,guj_Gujr,guj_Gujr,0.0
+485,"query: Nach einer künstlerischen Tätigkeit nach dem Tod seines Vaters: Akshay Krishnan, †19.11.1991,",query: કન્નડ અભિનેત્રી ચેતના રાજનું ૨૧ વર્ષની વયે અવસાનઃ પ્લાસ્ટિક સર્જરીથી,guj_Gujr,guj_Gujr,0.0
+486,query: : : : : : : : : : : : : : :,"query: અનિલ ચાવડા: લાડકવાયા વીરા, તારા રામ રખોપા કરે! લાડ",guj_Gujr,guj_Gujr,0.15384615384615385
+487,query: iMdA ÄmdA ÄmdA ÄmdA ÄmdA ÄmdA Ämd,"query: રોજેરોજ થતી ટિપ્પણીથી કંટાળી અમિતાભે અંતે મૌન તોડ્યું,",guj_Gujr,guj_Gujr,0.0
+488,query: Gratulation zu ihren Geburtstagsfeiern wünschte der Ministerpräsidentin M.G.L.Ganesha ,query: પ્રધાનમંત્રીએ લતા મંગેશકરજીનો તેમણે પાઠવેલી જન્માષ્ટમીની શુભકામનાઓ,guj_Gujr,guj_Gujr,0.0
+489,"query: Sonny sagte, dass er den Translator’s Blog benutzt hatte, um seine Translator*innen","query: સોનમના પતિએ એવું કર્યું કે, થઈ ગઈ ટ્વિટર ટ્રોલર્સની બોલતી",guj_Gujr,guj_Gujr,0.07407407407407407
+490,query: Dänemark nimmt keine Filmpartnerschaft sondern nimmt keine Filmpartnerschaft sondern nimmt ,query: દિપીકા પાદુકાણની ફિલ્મનો બહિષ્કાર કરાશે નહીં : પ્રકાશ જા,guj_Gujr,guj_Gujr,0.0
+491,"query: ᐅ ᐅ ᐅ ᐅ Sehr geehrte Damen und Herren, dürfen auf der Maha-Grass-",query: તા. ૬ થી ૮ સુધીમાં મહારાષ્ ટ્ર-ગોવામાં ચોમાસુ ચોક્કસ બેસી જ,guj_Gujr,guj_Gujr,0.0
+492,query: Öffentlichkeitsarbeit prüft sämtliche Abrechnungszahlen – gprs.gov.at ᐅ 10.10.2019,query: રેલવેમાં ૧૦૦ કરોડનો ગફલો..!! સીબીઆઇએ તપાસ શરૂ કરી – Avadhtimes,guj_Gujr,guj_Gujr,0.1
+493,query: ᐅ ᐅ ᐅ ᐅ Wenn ich meine Flaschen aus meiner Küche heraus bekommen möchte? ,query: શું તમે કારની બારીમાંથી કચરો ફેંકી દો છો? | TV9 Gujarati ગુજરાતી,guj_Gujr,guj_Gujr,0.08
+494,"query: Jetzt jetzt nur 'https://www.google.com' klicken, um sämtliche Dienste der HÄ",query: હવે ફક્ત વોટ્સએપ પર 'Hi' લખીને મેળવો ગુજરાત સરકારની તમામ,guj_Gujr,guj_Gujr,0.08
+495,query: ᐅ Hilfe nach dem tödlichen tödlichen tödlichen tödlichen tödlichen tödlichen tödlichen oxid,query: ભૂકંપ બાદ કેમિકલ ડિઝાસ્ટર સામે અગમચેતી માટે મોક ડ્રિલ | નવગુજરાત સમ,guj_Gujr,guj_Gujr,0.0
+496,"query: Bangalore: Madhya Pradesh: Supreme Court darf am kommenden Samstag, den 10.11.2016, entscheiden. Madhya","query: મહારાષ્ટ્રનું દંગલ: આવતીકાલે 10.30 વાગ્યે સુપ્રીમ કોર્ટ આપશે ચૂકાદો,",guj_Gujr,guj_Gujr,0.15384615384615383
+497,query: Damit ist der Eintrag gelungen! ‚Iyengar Iyengar Iyengar Iyengar Iyengar Iyen,query: તો આવી રીતે અર્જુન તેંડૂલકરનું ભારતીય અંડર-19 ટીમમાં થયું સિલેક્શન!,guj_Gujr,guj_Gujr,0.09999999999999999
+498,"query: Buddhismus erlaubt, dass deren Bedürfnisse erfüllt werden, für Indien und Ungarns","query: મંદિરોનો વહીવટ હિન્દુઓના હાથમાં રહે, સંપત્તિ માત્ર હિન્દુઓ માટે",guj_Gujr,guj_Gujr,0.0909090909090909
+499,query: 🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹🇭🇹,query: અલાઉદ્દીન ખીલજી તરીકે રણવીર સિંહે સૌને ચોંકાવ્યા! | ,guj_Gujr,guj_Gujr,0.0

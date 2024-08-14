@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"deu_Latn": 0.88, "others": 0.04, "eng_Latn": 0.03, "unknown": 0.06}, "pred_lang_word_level_ratio": {"deu_Latn": 0.62, "others": 0.25, "eng_Latn": 0.11, "tur_Latn": 0.01, "fin_Latn": 0.01, "hun_Latn": 0.01}, "labels_lang_line_level_ratio": {"pan_Guru": 1.0}, "labels_lang_word_level_ratio": {"pan_Guru": 0.95, "others": 0.03, "eng_Latn": 0.02}}
