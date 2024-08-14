@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"deu_Latn": 0.68, "others": 0.03, "fin_Latn": 0.16, "unknown": 0.11, "eng_Latn": 0.01}, "pred_lang_word_level_ratio": {"deu_Latn": 0.63, "others": 0.12, "eng_Latn": 0.05, "fin_Latn": 0.19}, "labels_lang_line_level_ratio": {"fin_Latn": 1.0}, "labels_lang_word_level_ratio": {"fin_Latn": 0.84, "others": 0.09, "eng_Latn": 0.05, "deu_Latn": 0.01}}
