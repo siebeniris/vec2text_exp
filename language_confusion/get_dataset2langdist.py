@@ -152,10 +152,10 @@ def main(lingual):
                     get_lang_confusion_for_one_model(dataset2langdist, dataset2langdist_word_level, filepath,
                                                      step_=step_)
 
-        with open("language_confusion/dataset2langdist_line_level_mono.json", "w") as f:
+        with open("language_confusion/langdist_data/dataset2langdist_line_level_mono.json", "w") as f:
             json.dump(dataset2langdist, f)
 
-        with open("language_confusion/dataset2langdist_word_level_mono.json", "w") as f:
+        with open("language_confusion/langdist_data/dataset2langdist_word_level_mono.json", "w") as f:
             json.dump(dataset2langdist_word_level, f)
 
 
@@ -168,10 +168,10 @@ def main(lingual):
                     get_lang_confusion_for_one_model(dataset2langdist, dataset2langdist_word_level, filepath,
                                                      step_=step_)
 
-        with open("language_confusion/dataset2langdist_line_level_multi.json", "w") as f:
+        with open("language_confusion/langdist_data/dataset2langdist_line_level_multi.json", "w") as f:
             json.dump(dataset2langdist, f)
 
-        with open("language_confusion/dataset2langdist_word_level_multi.json", "w") as f:
+        with open("language_confusion/langdist_data/dataset2langdist_word_level_multi.json", "w") as f:
             json.dump(dataset2langdist_word_level, f)
 
     elif lingual == "mono+multi":
@@ -190,10 +190,10 @@ def main(lingual):
                     get_lang_confusion_for_one_model(dataset2langdist, dataset2langdist_word_level, filepath,
                                                      step_=step_)
 
-        with open("language_confusion/dataset2langdist_line_level_mono+multi.json", "w") as f:
+        with open("language_confusion/langdist_data/dataset2langdist_line_level_mono+multi.json", "w") as f:
             json.dump(dataset2langdist, f)
 
-        with open("language_confusion/dataset2langdist_word_level_mono+multi.json", "w") as f:
+        with open("language_confusion/langdist_data/dataset2langdist_word_level_mono+multi.json", "w") as f:
             json.dump(dataset2langdist_word_level, f)
 
 

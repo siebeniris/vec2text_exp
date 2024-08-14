@@ -45,7 +45,8 @@ python language_confusion/get_dataset2langdist.py mono+multi
 
 ```
 
-Get langdist to dataframe.
+### Get langdist to dataframe.
+three mode: multi, mono, mono+multi
 ```
 python language_confusion/langdist2df.py
 ```
@@ -54,7 +55,7 @@ python language_confusion/langdist2df.py
 ## Prepare data for regression training 
 
 ```
-python language_confusion/pred_lang_regression.py
+python language_confusion/preprocessing_for_regression.py
 ```
 
 ## Predict languages using Random Forest
@@ -63,3 +64,25 @@ python language_confusion/pred_lang_regression.py
  python language_confusion/pred_lang_regression.py
 
 ```
+
+## Collect results from Regression
+
+```
+python collect_results_regression.py
+
+```
+
+
+## 
+
+
+
+
+
+
+
+
+
+
+
+

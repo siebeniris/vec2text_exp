@@ -1,6 +1,7 @@
+import os.path
+
 import pandas as pd
 import json
-
 
 evals = [
     'deu_Latn', 'mlt_Latn', 'tur_Latn', 'hun_Latn', 'fin_Latn',
@@ -15,6 +16,9 @@ lang2langscript = {x.split("_")[0]: x for x in evals}
 
 
 def get_key2lang(model2langs):
+    """
+    Get the dictionary of model and their training data.
+    """
     key2lang = {}
     for key in model2langs:
         # monolingual inversion models
@@ -26,25 +30,35 @@ def get_key2lang(model2langs):
             key2lang[key] = ["heb_Hebr"]
 
         # multilingual inversion models
-        elif "_" in key:
-            if len(key) == 7:
-                lang1, lang2 = key.split("_")
-                key2lang[key] = [lang2langscript[lang1], lang2langscript[lang2]]
-            if len(key) == 8:
-                key2lang[key] = [key]
+        elif "me5_" in key:
+            # me5_pan_Guru
+            # me5_turkic-fami
+            key_ = key.replace("me5_", "")
 
-        elif key == "turkic-fami":
-            key2lang[key] = ['tur_Latn', 'kaz_Cyrl']
+            if "_" in key_:
+                if len(key_) == 7:
+                    lang1, lang2 = key_.split("_")
+                    key2lang[key] = [lang2langscript[lang1], lang2langscript[lang2]]
 
-        elif key == "arab-script":
-            key2lang[key] = ["arb_Arab", "heb_Hebr"]
-        elif key == "latn-script":
-            key2lang[key] = ["deu_Latn", "tur_Latn"]
+                if len(key_) == 8:
+                    key2lang[key] = [key_]
+
+            elif key_ == "turkic-fami":
+                key2lang[key] = ['tur_Latn', 'kaz_Cyrl']
+
+            elif key_ == "arab-script":
+                key2lang[key] = ["arb_Arab", "heb_Hebr"]
+
+            elif key_ == "latn-script":
+                key2lang[key] = ["deu_Latn", "tur_Latn"]
+
+            elif key_ == "cyrl-script":
+                key2lang[key] = ["kaz_Cyrl", "mon_Cyrl"]
 
     return key2lang
 
 
-def get_cos_similarity(filepath):
+def get_cos_similarity(filepath, mode):
     # get cosine similarities, to see if it can help predict languages
     with open(filepath) as f:
         data = json.load(f)
@@ -53,8 +67,15 @@ def get_cos_similarity(filepath):
     values = []
     eval_langs = []
     for model, eval_dict in data.items():
-        model_name = model.replace("yiyic/mt5_me5_", "").replace("_32_2layers", "").replace("_corrector", "").replace(
-            "_inverter", "")
+        if mode == "multi":
+            model_name = model.replace("yiyic/mt5_", "").replace("_32_2layers", "").replace("_corrector", "").replace(
+                "_inverter", "")
+        elif mode == "mono":
+            model_name = model.replace("yiyic/mt5_", "").replace("_32_corrector", "").replace(
+                "_32_inverter", "")
+        else:
+            model_name = None
+
         for eval_lang, eval_steps in eval_dict.items():
             for step, value in eval_steps.items():
                 if step == "Step50_sbeam8":
@@ -70,10 +91,11 @@ def get_cos_similarity(filepath):
         "step": steps,
         "emb_cos_sim": values
     })
+    print(df.head())
     return df
 
 
-def get_model2langs(langdist_file):
+def get_model2langs(langdist_file, mode):
     with open(langdist_file) as f:
         langdist = json.load(f)
 
@@ -82,7 +104,8 @@ def get_model2langs(langdist_file):
     model2langs = dict()
     for model, langs_dict in langdist.items():
         if "mt5_me5_" in model:
-            model_name = model.replace("mt5_me5_", "").replace("_32_2layers_corrector", "").replace(
+            # me5_pan_Guru
+            model_name = model.replace("mt5_", "").replace("_32_2layers_corrector", "").replace(
                 "_32_2layers_inverter", "")
             # print(model_name)
 
@@ -101,6 +124,7 @@ def get_model2langs(langdist_file):
                     if step not in model2langs[model_name][eval_lang]:
                         model2langs[model_name][eval_lang][step] = eval
         else:
+            # mt5_alephbert_heb_Hebr_32_corrector
             model_name = model.replace("mt5_", "").replace("_32_corrector", "").replace(
                 "_32_inverter", "")
             print(model_name)
@@ -117,8 +141,12 @@ def get_model2langs(langdist_file):
                         model2langs[model_name][eval_lang][step] = eval
 
     print(len(model2langs))
+    print(model2langs.keys())
     # output to model2langs.json
+    # get the training languages for model.
     key2lang = get_key2lang(model2langs)
+    print(len(key2lang))
+    print(set(model2langs.keys()).difference(key2lang.keys()))
 
     model2langs_dict = dict()
 
@@ -128,7 +156,7 @@ def get_model2langs(langdist_file):
         model2langs_dict[key]["training"] = langs
         model2langs_dict[key]["langdict"] = model2langs[key]
 
-    print(model2langs_dict)
+    # print(model2langs_dict)
 
     training_data_list = []  # [cmn_Hani, jpn_Jpan]
     eval_langs = []  # deu_Latn
@@ -153,16 +181,33 @@ def get_model2langs(langdist_file):
                             "eval_lang": eval_langs, "step": steps,
                             "pred_langs": pred_langs})
     df_lang.to_csv(outputfile, index=False)
-    # df_cos = get_cos_similarity("results/mt5_me5/multilingual_eval_emb_cos_sim.json")
-    #
-    # df_lang_ = pd.merge(df_lang, df_cos, on=["model", "step", "eval_lang"], how="left")
-    # print(len(df_lang_))
-    # # df_lang_.to_csv("language_confusion/model2langs.csv", index=False)
-    # df_lang_.to_csv(outputfile, index=False)
+
+    if mode == "mono":
+        df_cos = get_cos_similarity("results/mt5_mono/monolingual_eval_emb_cos_sim.json", mode)
+    elif mode == "multi":
+        df_cos = get_cos_similarity("results/mt5_me5/multilingual_eval_emb_cos_sim.json", mode)
+    elif mode == "mono+multi":
+        df_cos_mono = get_cos_similarity("results/mt5_mono/monolingual_eval_emb_cos_sim.json", "mono")
+        df_cos_multi = get_cos_similarity("results/mt5_me5/multilingual_eval_emb_cos_sim.json", "multi")
+        df_cos = pd.concat([df_cos_mono, df_cos_multi])
+
+    print(df_cos.head())
+    df_lang_ = pd.merge(df_lang, df_cos, on=["model", "step", "eval_lang"], how="left")
+    print(len(df_lang_))
+
+    df_lang_.to_csv(outputfile, index=False)
 
     return df_lang
 
 
 if __name__ == '__main__':
     import plac
-    plac.call(get_model2langs)
+
+    for mode in ["multi", "mono", "mono+multi"]:
+        print(mode)
+        print("*" * 20)
+        filepath = f"language_confusion/langdist_data/dataset2langdist_line_level_{mode}.json"
+        get_model2langs(filepath, mode)
+        print("*" * 20)
+        filepath_word = f"language_confusion/langdist_data/dataset2langdist_word_level_{mode}.json"
+        get_model2langs(filepath_word, mode)
