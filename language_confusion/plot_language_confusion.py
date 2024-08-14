@@ -27,7 +27,7 @@ labels = ['amh_Ethi',
           'kaz_Cyrl',
           'mon_Cyrl',
           'hin_Deva',
-          'oed',  # others
+          'etc.',  # others
           'mlt_Latn',
           'fin_Latn',
           'guj_Gujr',
@@ -61,10 +61,10 @@ def plot_language_confusion_for_one_dataset(d, model_name, dataset, level, outpu
     df_dataset = pd.DataFrame.from_records(d[model_name][dataset]).T
     df_dataset = df_dataset.fillna(0)
     print(df_dataset)
-    df_dataset["oed"] = 1 - df_dataset.sum(axis=1)
-    df_dataset = df_dataset.rename(index={"Labels": "Input", "Step50+sbeam8": "Step50(8)"})
+    df_dataset["etc."] = 1 - df_dataset.sum(axis=1)
+    df_dataset = df_dataset.rename(index={"Labels": "Target", "Step50+sbeam8": "Step50(8)"})
 
-    df_dataset = df_dataset.reindex(index=["Step50(8)", "Step1", "Base", "Input"])
+    df_dataset = df_dataset.reindex(index=["Step50(8)", "Step1", "Base", "Target"])
     df_dataset["Step"] = df_dataset.index
 
     print(df_dataset)
@@ -82,11 +82,15 @@ def plot_language_confusion_for_one_dataset(d, model_name, dataset, level, outpu
     ax.set_axisbelow(True)
     ax.yaxis.grid(color='gray', linestyle='dashed')
     ax.xaxis.grid(color='gray', linestyle='dashed')
+
     # Add hatches to the bars
-    hatches = ['//', '\\\\', '//', '\\\\', '//', '\\\\', '\\\\', '//', '\\\\', '//', '\\\\']
+    hatches = ['//', '\\\\', '//', '\\\\', '//', '\\\\', '//', '\\\\', '//',
+               '\\\\', '//', '\\\\', '//', '\\\\', '//', '\\\\', '//', '\\\\', '//',
+               '\\\\', '//', '\\\\', '//', '\\\\', '//', '\\\\', '//']
+
     num_hatches = len(hatches)
     num_labels = len(df_dataset.columns) - 1  # excluding the 'Step' column
-    hatch_color = 'darkgray'
+
     edge_color = 'darkgray'
     for j, bar_container in enumerate(ax.containers):
         hatch = hatches[j % num_hatches]
@@ -119,8 +123,8 @@ def plot_language_confusion_for_one_dataset(d, model_name, dataset, level, outpu
 
 def main():
     for mode in ["multi", "mono", "mono+multi"]:
-        # for level in ["line_level", "word_level"]:
-        for level in [ "word_level"]:
+        for level in ["line_level", "word_level"]:
+            # for level in [ "word_level"]:
             langdist_df = f"language_confusion/langdist_data/dataset2langdist_{level}_{mode}.csv"
             print(f"Plotting {level} and {mode} language confusion.")
             d2l = load_data_level_lingual(langdist_df)
