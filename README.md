@@ -18,8 +18,4 @@
 
 ### Language confusion results and analyses
 - `results`
-
-
-## Notice:
-We did not use any private data to train and evaluate inversion models.
-All the code, datasets, results, plots and trained models will be made publicly available in Huggingface and GitHub.
+- `plots`
