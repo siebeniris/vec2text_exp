@@ -41,7 +41,31 @@ lang2fam = {
 
 }
 
-script_writing = {
+word_order_langs = {
+    'amh_Ethi': 'SOV',  # WALS
+    'cmn_Hani': 'SVO',  # WALS
+    'deu_Latn': 'ND',   # WALS - non-dominant
+    'fin_Latn': 'SVO',  # wals
+    'guj_Gujr': 'SOV',  # wals
+    'hin_Deva': 'SOV',  # wals
+    'hun_Latn': 'ND',  # wals
+    'jpn_Jpan': 'SOV',  # wals
+    'kaz_Cyrl': 'SOV',  # wikipedia, https://en.wikipedia.org/wiki/Kazakh_language
+    'kor_Hang': 'SOV',  # wals
+    'mhr_Cyrl': 'SOV',  # mari # https://meadow-mari.web-corpora.net/index_en.html#:~:text=The%20default%20word%20order%20in,subject%20–%20object%20–%20verb).
+    'mlt_Latn': 'ND',  # non-dominant.
+    'mon_Cyrl': 'SOV',  # WIKIPEDIA
+    'pan_Guru': 'SOV',  # WALS
+    'sin_Sinh': 'SOV',  # WALS
+    'tur_Latn': 'SOV',  # wals
+    'urd_Arab': 'SOV',  # wals
+    'heb_Hebr': 'SVO',  # mordern Hebrew
+    'arb_Arab': 'VSO',  # modern Arabic
+    'ydd_Hebr': 'SVO'
+}
+
+
+script_writting={
     'amh_Ethi': 'LTR',
     'cmn_Hani': 'LTR',
     'deu_Latn': 'LTR',
@@ -64,6 +88,22 @@ script_writing = {
     'arb_Arab': 'RTL',
     'ydd_Hebr': 'RTL'
 }
+
+
+def get_lang2lang_word_order_dict(eval_langs_list):
+    lang2lang_word_order = dict()
+    for lang1, lang2 in product(eval_langs_list, repeat=2):
+
+        if lang1 not in lang2lang_word_order:
+            lang2lang_word_order[lang1] = dict()
+
+        if word_order_langs[lang1] == "ND" or word_order_langs[lang2] == "ND":
+            lang2lang_word_order[lang1][lang2] = 1
+        elif word_order_langs[lang1] == word_order_langs[lang2]:
+            lang2lang_word_order[lang1][lang2] = 1
+        else:
+            lang2lang_word_order[lang1][lang2] = 0
+    return lang2lang_word_order
 
 
 def get_lang2lang_family_dict(eval_langs_list):
@@ -110,7 +150,7 @@ def get_lang2lang_lr_dict(eval_langs_list):
         if lang1 not in lang2lang_lr:
             lang2lang_lr[lang1] = dict()
 
-        if script_writing[lang1] == script_writing[lang2]:
+        if script_writting[lang1] == script_writting[lang2]:
             lang2lang_lr[lang1][lang2] = 1
         else:
             lang2lang_lr[lang1][lang2] = 0
@@ -183,7 +223,21 @@ def preprocessing_data_for_modeling(file, level="line", mode="mono"):
     df_lang["family"] = df_lang.apply(lambda x: get_family_feature(x["training"], x["eval_lang"]), axis=1)
 
     ############################################
-    # ablation3. training data.
+    # ablation3. word order
+
+    lang2lang_word_order_dict = get_lang2lang_word_order_dict(eval_langs_list)
+
+    def get_word_order_feature(x, y):
+        same_word_order =0
+        for lang in x:
+            if lang2lang_word_order_dict[lang][y] == 1:
+                same_word_order += 1
+        if same_word_order > 0:
+            return 1
+        else:
+            return 0
+
+    df_lang["word_order"] = df_lang.apply(lambda x: get_word_order_feature(x["training"], x["eval_lang"]), axis=1)
 
     ############################################
     # ablation3. script ltr

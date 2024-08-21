@@ -61,7 +61,8 @@ python language_confusion/preprocessing_for_regression.py
 ## Predict languages using Random Forest
 
 ```
- python language_confusion/pred_lang_regression.py
+
+python language_confusion/pred_lang_regression.py
 
 ```
 
@@ -73,7 +74,8 @@ python collect_results_regression.py
 ```
 
 
-## 
+##  plot.
+
 
 
 

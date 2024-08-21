@@ -1,16 +1,7 @@
 import os
-import json
+import time
 
 import pandas as pd
-import numpy as np
-from itertools import chain, combinations
-
-from ast import literal_eval
-from sklearn.preprocessing import MultiLabelBinarizer, LabelEncoder, OneHotEncoder
-from sklearn.model_selection import train_test_split
-from sklearn.multioutput import MultiOutputRegressor
-from sklearn.ensemble import RandomForestRegressor
-from sklearn.metrics import mean_squared_error, mean_absolute_error
 
 
 def get_result_df(DIR="language_confusion/results/random_forest", level="line_level", mode="mono"):
@@ -41,6 +32,7 @@ def collect_results(output_dir="language_confusion/results/random_forest"):
             df = get_result_df(output_dir, level, mode)
             df.to_csv(outputfile, index=False)
 
+
 def get_avg_mse_regression_into_one(DIR = "language_confusion/results/random_forest"):
     df_list =[]
     for file in os.listdir(DIR):
@@ -56,8 +48,10 @@ def get_avg_mse_regression_into_one(DIR = "language_confusion/results/random_for
     df_all.to_csv("language_confusion/results/random_forest_avg.csv")
 
 
-
 if __name__ == '__main__':
-    # collect_results()
+    collect_results()
+
+    time.sleep(2)
+
     get_avg_mse_regression_into_one()
 
