@@ -1,0 +1,501 @@
+Unnamed: 0,pred,labels,preds_lang,labels_lang,token_set_f1
+0,query: PreviousPageNextPageNextPageNextPageNextPageNextPageNextPage – 健康(incidental) – 健康(incidental),query: 세일 중 – Natural Health {% if first_available_variant.compare_at_price > first_available_variant.price,eng_Latn,eng_Latn,0.11764705882352942
+1,query: 信憑性的要求について - betway必威官网 - betway必威官网 - betway必威官网 ,query: 신용위험 결정요인 과 관련 - 토토사이트 검증사이트 메이저토토사이트 - 토토탐정 - 신,kor_Hang,kor_Hang,0.15384615384615383
+2,query: Android - 英國手機 - 英國手機 - 英國手機 - 英國手機 - ,query: 안드로이드 : 삼성바다폰 영국 온라인 등록 - 타이젠 - 안드로이드 스마트폰과 태블릿 새,kor_Hang,kor_Hang,0.14285714285714288
+3,query: 近日收到了............,query: 문의 주신 제품은 재입고 예정은 있으나 현재 정확한 일정은 확인 중인 점 양해,kor_Hang,kor_Hang,0.0
+4,"query: 此外, 张全民的..........","query: 대한민국을 대표하는 배우, 공유 역시 물과 공기 관리에 많은 관심을 가지고 있었습니다.",kor_Hang,kor_Hang,0.11111111111111112
+5,query: 民進党如何成功? – 小哲文 – 大口大巷 – http://dailynews.com/articles/,query: [김형준 정치비평] 작게 실패하고 크게 성공하는 길 | 서울신문 홈사설·오피니언칼,kor_Hang,kor_Hang,0.0
+6,"query: 名流文化遗产""象台""正式成立 - 澎湃新闻 - 2018-03-16 - 澎湃新闻","query: 제주 유일 정의현 객사 '전패', 유형문화재로 지정 고시 - 헤드라",kor_Hang,kor_Hang,0.10526315789473685
+7,query: 2019/12/30 · 市民駐車場の放散制度を導入! 交通安全へ! https://www.dnm.com/,query: [서울Pn] 주차난 해소!... 종로 숭인도담 주차장 운영 입력 : 2020-11-30 ,kor_Hang,kor_Hang,0.18181818181818182
+8,query: 工商管理部2019年03月入职的心得 / 農業協同組合2019年03月入职 / ,query: 농업협동조합중앙회 합격후기 | 잡코리아 신입공채 2019년 하반기 영업관리·지원·,kor_Hang,kor_Hang,0.0
+9,query: 1月15日(火) 大安体育館で行われたDFC ジャパンプレミアリーグ 1-17 大安FC(广东,query: 대구FC는 15일 제주월드컵경기장에서 열린 프로축구 K리그 1(1부리그) 제주 유나이티드,kor_Hang,kor_Hang,0.1904761904761905
+10,query: 未来的人将牢牢守住壮丽的景象 ; ; ; ; 并对越氏遗传,query: 비인사람들이 올 곧은 선비 정신과 아름다운 경관을 지키며 살아 온 지조를,kor_Hang,kor_Hang,0.0
+11,query: / / / / / / / / / 大學生生日禮物推荐 / ,query: [대학생 선물 추천/설날 선물] 예비 대학생을 위한 센스 있는 명절 선물 추천,kor_Hang,kor_Hang,0.0
+12,"query: 3大礼堂的休憩空间,一定要选择! | | | | | | | | | | | | | | | | |","query: 잠시 쉼표가 필요할 땐, 대관령 3대 목장 | 전체 | 개최도시 | 여행 ·",kor_Hang,kor_Hang,0.2222222222222222
+13,"query: 2月19日,威廉姆斯州政府发布了《民法新征求意见稿》(the introduction of the institution of",query: 바이든 행정부가 지난 2월 18일 제안한 이민개혁 법안내용을 뉴욕의 민권센터(http,kor_Hang,kor_Hang,0.1
+14,query: 全封闭物管理法 override override override override override という場合には大楼管理,query: 대피부관리 집합건물 내의 상가업종제한을 관리규약으로 정하거나 폐지하는 과정에서,kor_Hang,kor_Hang,0.0
+15,query: 1. scubafan.com的小伙伴们 scubafan.com的小伙伴们.... ,query: 1. 스쿠버다이버들의 공기통에는 산소 : 지식iN 1. 스쿠버다이버들의 공,kor_Hang,kor_Hang,0.0
+16,query: Home - 選擇印刷方法 - 選擇印刷方法 - 選擇印刷方法 - 選擇印刷方法 - ,query: 인쇄 옵션 선택 - Windows 도움말 인쇄 옵션 선택 이 페이지에서기본 인쇄 기본 설,kor_Hang,kor_Hang,0.15384615384615383
+17,query: 4月19日(火) Oroshchanさんの遺言について www.oroshchan.com 6月19日(火),"query: 소름끼치는 遺言 2021년 6월 19일 14:53 사형수 오휘웅 이야기(45)/ ""죽",kor_Hang,kor_Hang,0.18181818181818182
+18,query: 今回は『なぜこんなに愛してしまうのか』についてお話します。 1....... ,query: [스탠리의 사랑 이야기] 1편. 우리는 왜 이토록 사랑을 말할까 9 enterskorea 2020.11.19,kor_Hang,kor_Hang,0.0
+19,query: Oesd oesd oesd oesd oesd oesd oesd ,"query: 오스테드, 한국남부발전과 해상풍력개발 협력 위한 MoU 체결, 해상풍력 산업",kor_Hang,kor_Hang,0.0
+20,"query: 2017.10.17 · 今回の章程中,大家将 3 种 oxide 和 oxide 的变压器要素",query: 29/09/2017· 3. 토크 센서 종류 이제는 위의 토션 바와 2차 변환요소를 결합,kor_Hang,kor_Hang,0.08695652173913043
+21,query: G.N.M 哪些商品被看? G.N.M 哪些商品被看? 《福袋》的,"query: 유난희, 박나림, 김새롬 언제 봤더라? GS샵의 다양한 고정 프로그램 GS",kor_Hang,kor_Hang,0.125
+22,query: ▼13人目 - 《謙虚的神話》 - 〔2018〕63号 - 〔2018〕,query: 교계64 설교교육31 인물31 [기독논단] '갑질하지 말자!' - 김,kor_Hang,kor_Hang,0.11764705882352941
+23,query: ” ” ” ” ” ” ” ” ” ” ” ” 京东还支持,query: 삼성전자는 쇼핑몰·음식점 등에서 주문과 결제는 물론 음식 서빙도 지원하는 ‘,kor_Hang,kor_Hang,0.0
+24,query: 大清警官的日常是什么?????????? ,query: 영화 '마스터'의 강동원 같은 경찰이 되면 어떤 일을 하나요? 광주 서부,kor_Hang,kor_Hang,0.125
+25,query:'''''''''''''',"query: '채용정보' 태그의 글 목록 100개 기업, 500명 현장채용의 기회 「우수",kor_Hang,kor_Hang,0.0
+26,query: 管理員 : 金鹏亮 管理員 : 金鹏亮 管理員 : ウェルシンコーポ,query: 윌헴슨 마린 엔지니어닝 코리아 목익수 사장 작성자: 운영자 조회: 21824 등록,kor_Hang,kor_Hang,0.125
+27,query: そんな人、なぜ大物で起こるのだろう? / 文藝春秋 / ユナイテッド エレクトロニクス,query: 비단 천재에게만 일어나는 일일까? 천재 전자 바이올리니스트로 불리는 유진 박이,kor_Hang,kor_Hang,0.11764705882352942
+28,"query: 罗斯堡的出差机票 - 罗斯堡的出差机票 - okflights.com, ","query: 오크랜드발 로즈버그행 저가 항공권, 비행기표 예약사이트 | 씨트립 오크",kor_Hang,kor_Hang,0.14285714285714288
+29,query: 本次活动会带来 2 小时的 lg photo session 和 2 小时的 embroidery session になります。而,query: 약 2시간 동안 열리게 될 이 이벤트는 골프 클리닉과 사진 촬영 및 사인회로,kor_Hang,kor_Hang,0.0
+30,query:............ 并对捐,query: 또한 재단의 신용보증을 통해 자금을 지원받았으나 휴폐업 등 자금상환이 어,kor_Hang,kor_Hang,0.0
+31,"query:???????? 大朗寺的思想被发现之后,如何知道",query: 어떻게 선악을 알게 되었는가? — 늘푸른교회 어떻게 선악을 알게 되었는가?,kor_Hang,kor_Hang,0.15384615384615383
+32,"query: 中国恒豪は7月26日, 25th フィラデルフィア(洛杉矶)で開催される ペナルティ",query: 최경주는 27일(한국시간) 미국 캘리포니아주 몬테레이 페닌술라의 페블비,kor_Hang,kor_Hang,0.2105263157894737
+33,"query: 在 android 的 gadget 中,文件的存储位置是怎样的呢????? 这个",query: 스마트폰에서 다운받은 파일은 어느 위치에 저장이 될까요? 파일을 다루는 관련,kor_Hang,kor_Hang,0.09999999999999999
+34,query: 入驻商机的重要性 i i i i i i i i i i ,query: 비즈니스 출장은 그 자체로 적잖은 스트레스 요인이다. 이동하는 시간을 소비하고 이동 방법,kor_Hang,kor_Hang,0.0
+35,"query: 此次 ” ” 的 ” ” 的 ” ” ” 的 ” ”,",query: “마크비전 인공지능(AI) 솔루션을 통해 제거한 위조상품 규모가 1조,kor_Hang,kor_Hang,0.0
+36,query: 2020/04/04 最棒的管理秘訣 2020/04/04 最棒的管理秘訣 0. OLYMPUS OLYMPUS,query: 먼슬리 초이스 x 2020년 4월 최고관리자 꿀팁 96 04.02 14:53 OLYMPUS M.,kor_Hang,kor_Hang,0.2222222222222222
+37,query: dms は 2 個 - 6 個 - 6 個 - 6 個 - 6 個,query: 도미노는 0 - 6개의 점을 찍은 정사각형 2개로 이루어진 직사,kor_Hang,kor_Hang,0.125
+38,"query: CEO???????? 这几年很多人都会听到 CEO 的概念,","query: 요즘 어딜가도 'CEO식 XXX' 뭐 이런 말들을 자주 보게 되는데, CEO라는 말",kor_Hang,kor_Hang,0.10526315789473682
+39,query: フィールドゥ(Fresh Duty) | 時尚新聞 | 巧克力料理 | 肌膚美感 | ,query: 치즈 퐁듀 | 얼루어 코리아(Allure Korea) 뷰티 라이프 스타일 잡지 편의,kor_Hang,kor_Hang,0.2608695652173913
+40,query: id=”yaeean.com” updated on 2020/07/24 by id=”yaeean.com】 今回は,query: [인터뷰] 유아인이 달라졌다 2020. 06. 22 by 이영실 기자 swyeong1204@sisaweek.com ,kor_Hang,kor_Hang,0.08333333333333334
+41,query: 2019/12/26 · 格安航空券、備品の乱...www.google.com/search?utm_source=google;utm_,"query: 전체뉴스 125111-125120 / 125,958건 공항 `휴대품검색' 짜증...세관, 실",kor_Hang,kor_Hang,0.09090909090909093
+42,"query: イデジャネイアの高級ホテル(ホテル) | Hotels.co.jp, クーポン, 宿泊者レビュー, ","query: 레지덴셜 호텔 이키다네 마치야 특가 호텔예약, (도쿄, 일본) 호텔추천 | 호텔스",kor_Hang,kor_Hang,0.34782608695652173
+43,query: 新生代的粉丝抱怨!!!!!!!!!! ,"query: 인디 밴드 만쥬한봉지, 반드시 이별해야 할 '원전'에 대해 노",kor_Hang,kor_Hang,0.0
+44,"query: 对于可疑症的发作,必须及时发现和解明的重要性があります。 / / / / ",query: 실명을 일으킬 수 있는 중요원인중 하나로 조기 발견과 지속적인 치료가 필요하며,kor_Hang,kor_Hang,0.0
+45,query: 犯罪嫌疑人李立琪追加了..........,"query: 박영수 특별검사팀이 재산국외도피, 범죄수익은닉 등의 혐의를 추가하여 재",kor_Hang,kor_Hang,0.0
+46,query: 2019/12/07 · 自動運転カーは人懐っこく好ましいですよね! 投稿者:reeru0 コメントを残しました。,query: [人터뷰]재규어는 자율주행차도 아름다워야 입력 2018-03-10 08:00 수정 2018,kor_Hang,kor_Hang,0.0
+47,"query: 前段时间,李大生接受了 libération journey に参加しました。包裹中的所有物,措手不及","query: 활동 전 영종도를 이해하는 시간을 갖고, 곳곳에 버려진 쓰레기들을 주웠습니다.",kor_Hang,kor_Hang,0.10526315789473685
+48,query: 《青年文学》2005年7月10日 / 伊藤 義平 / 伊藤 義平 / ,query: 청소년 현대문학선 10 이순원 지음| 문이당 |2006년 07월 15일 (종이책 2005년,kor_Hang,kor_Hang,0.0
+49,"query: [dailynews.co.jp / news.co.jp / news.co.jp]近日,仁仁大剧",query: [서울=내외뉴스통신] 홍성훈 기자tvN 토일드라마 '철인왕후'가 새로,kor_Hang,kor_Hang,0.22222222222222224
+50,query: Home > News & Opinion > Men's Health > 40～60代男性中3人「高脂血症」になり、,query: 30~40대 남성 3명 중 1명 '고중성지방혈증' - Health Issue&News 여성보다,kor_Hang,kor_Hang,0.27272727272727276
+51,"query: Consumer Insights による最新報導によると,2020年1月1日購車中, 67.6% 的 新能源","query: 카이즈유데이터연구소에 따르면, 올해 1월부터 7월까지 등록된 택시 중 36.4%가 전기",kor_Hang,kor_Hang,0.1904761904761905
+52,query: 學期的............,"query: 대학원, 학부 transfer, 학술 에세이 작성을 도와드립니다. 어떤 내용을 써",kor_Hang,kor_Hang,0.0
+53,"query: 曹子安先生来院了🙋🏻 ♀️ 受风的压力大,所以佩戴时段注意了 ",query: 청라 조안나 원장님꺼 관리받고 왓습니다 시기가 시기인지라 방역에 신경을 많이,kor_Hang,kor_Hang,0.0
+54,query: 中国证券网讯 2020-06-24 15:00 - 英央行副局长布鲁斯(David Brush)对ビットコイン的,"query: 2020-06-24 15:31:05 브라이언 브룩스 미국 통화감사원장이 ""중앙은행 디지털화폐(CBDC)",kor_Hang,kor_Hang,0.2727272727272727
+55,"query: 寒冷的房间中, 1 人用可口可口的小包丁が必要になると思うんですけど, 前段时间",query: 집 찬장에 한두 개씩은 있을 법한 참치 통조림 캔을 이용하면 초간단 비,kor_Hang,kor_Hang,0.0
+56,"query: nano / nano / nano 的應用前景及展望, 大宗物電機, 生物センサ,","query: 반도체 나노선 기반의 바이오센서 및 광센서 소자 응용 및 전망 Lee,",kor_Hang,kor_Hang,0.11764705882352942
+57,query: 2021年9月19日 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 ,query: 안심예술마을 제1회 생태예술제가 2021년 10월 2일 오후 3시부터 대구 동구 점새늪,kor_Hang,kor_Hang,0.0
+58,query: givenchy.co.jp | givenchy.co.jp | givenchy.co.jpの人気家具ブランド一覧 |,query: 가구웹진 | 대표 브랜드 gaguzine. brand SHOW 가구웹진 gaguzine.com이 선택한 브랜드 ,kor_Hang,kor_Hang,0.15384615384615383
+59,query: 外购大喜讯 - 中国旅行用品大喜讯 - 中国旅行用品大喜讯 - 汉,query: 변기뚜껑 아닌 상비약 싹쓸이: 중국관광객 해외쇼핑 인기상품들--인민넷,kor_Hang,kor_Hang,0.0
+60,"query: 因此,李政洪は ""偉大な物"" に憑藉するのである - 激動的億劫 -",query: 李承晩은 이러한 「굉장한 일들」은 오직 財物의 힘으로 성취할 수,kor_Hang,kor_Hang,0.0
+61,query:'''''''''''''',"query: ""대형마트 살 길? 가격 경쟁 아니라 신선도죠. 쇼핑하기도 편해야합니다"" - 중앙일보",kor_Hang,kor_Hang,0.1111111111111111
+62,"query: Paul Potato’s 4th studio album is his personalised post-to-the-ft, his deepest bodies and deep","query: Post Malone’s 4th studio album, Twelve Carat Toothache, is his most intimate and personal opus to date",eng_Latn,eng_Latn,0.5
+63,query: 2020年人氣節目....... 人氣節目. ,query: 의미 있는 시간을 채워줄 물건들 LIFESTYLE 의미 있는 시간을 채워줄 물건들 2021년,kor_Hang,kor_Hang,0.0
+64,"query: IDEX - 外匯時,外匯的身份證碼を取得してください。 - 反複支付方法 - ",query: 자동 외환 거래 - 무역 외환 때로는 적립하기 전에 ID를 스캔하고 주소 증명을 제공하라,kor_Hang,kor_Hang,0.10526315789473684
+65,"query: 本日上午 16 时,自由大楼's corner', 雅典前广场, 将进行","query: 오는 16일 정오, 다운타운 조지아 주 의사당 앞 리버티플라자에서 열",kor_Hang,kor_Hang,0.09523809523809525
+66,"query: 此外,Magic Diary 有 5 g / 40 g / 40 g 的储存口径。","query: 한편, 맥이지 다이어리는 A5 용지 40장을 보관할 수 있는 미니 다이어리 형태인",kor_Hang,kor_Hang,0.08695652173913043
+67,query:............. 由于,"query: 실은 어젯밤, 출항할 참이었다. 그런데 마을 앞 포구에 사람들의 발길이 끊",kor_Hang,kor_Hang,0.0
+68,"query: ""Crypton 可膨胀大"" - 福特社 5月19日消息,Crypton 可膨胀大","query: 크립토퀀트 ""코베 프리미엄 상실, $5만 돌파 어려울 듯"" 크립토퀀",kor_Hang,kor_Hang,0.2857142857142857
+69,query: 朴槿惠的“亲人”向政府出手 - 政府工作报告 - 政府工作报告 - ,"query: 청와대로 간 공무원·교사 해고자들, ""대통령이 직접 나서라"" - 노동과세계 UPDATE",kor_Hang,kor_Hang,0.1
+70,"query: 1 容疑者I.I.L.24 對水化症的起訴中,即時服法以及腹",query: 1심 및 항소심 판결문에 따르면 24시간가량 수면제에 취한 채 이영학에게,kor_Hang,kor_Hang,0.0
+71,"query: 《国防法》立法へ - 澎湃新闻 - 澎湃新闻 2019年6月25日消息,","query: 민주당 ""민영화 방지법 추진...정기국회 내 처리"" :: 공감언론 뉴시스통신사 :: 등록 20",kor_Hang,kor_Hang,0.0
+72,query: 《大核化》的文档... / 《大核化》的文档... / 《利比亚,query: [한반도비핵화] 공개된 '빅딜문서'...'先핵폐기' 리비아,kor_Hang,kor_Hang,0.15384615384615383
+73,query: 流星人大喜剧! 朴槿惠的口碑高! https://www.youtube.com/watch?v,query: 박진희 능청 아줌마 연기 인기... '돌아와요 순애씨' 시청률 급,kor_Hang,kor_Hang,0.0
+74,query: 文星军的死因.......... ,"query: 이수진""공군 부사관 사망, 文 캠프 출신 이갑숙도 책임져야""",kor_Hang,kor_Hang,0.0
+75,query: Home - 反洪荒工程的可否的理由是什么? - 反洪荒工程的可否 - ,query: 하도대 못받은 이유로 공사 중단은 '불안의 항변권' - 대한전문건설,kor_Hang,kor_Hang,0.13333333333333333
+76,"query: 韩宇「人性化,塑造好作品,塑造好作品的未来」 | 编者按 / RT @","query: [인터뷰] 권상우 ""재미있는 작품 만드는 배우로 기억되길"" | JTBC 뉴스",kor_Hang,kor_Hang,0.08695652173913043
+77,query: ramadhan.com - ramadhan.com - ramadhan.com 的原因 - ramadhan.com,query: 평창이 뜨거운 이유 - GEARBAX.com 평창이 뜨거운 이유 GEARBAX,kor_Hang,kor_Hang,0.2222222222222222
+78,"query: 2008年7月24日,美国媒体评论家尼克・卡塔尔(Nicholas Carhartt)的“ディスカッ",query: 미국의 미디어 비평가이자 칼럼니스트인 니콜라스 카(Nicholas Carr)가 2008년 <애틀,kor_Hang,kor_Hang,0.25
+79,"query: Delta 航空與多國大機場的緊密合作,近 25 周年を迎えました。此次合作,包括デルタ、","query: 델타항공은 지난 25년간 전세계 주요 항공사들과 긴밀하게 협력해왔으며, 노",kor_Hang,kor_Hang,0.11764705882352941
+80,query: 2019年7月24日 · 新着記事 2019/08/24 · 豊洲の創風センターを中心に9社涌動しました。,query: 등록 2019.04.29 22:52:41 사진 : 작년 8월 대구창조경제혁신센터 외 7개 센터가 천안에서 2,kor_Hang,kor_Hang,0.0
+81,query: SCE のホームページへようこそ! | 安全感 | 安全感 | 環境安全 | 家庭安全 | 安全,query: 환경 보호와 건강 보호 | 가족의 안전 | 안전 | 홈페이지 - SCE 여러분의 안전을 위해 최선을,kor_Hang,kor_Hang,0.18181818181818182
+82,query: 2. 使用 eMail 的欄目 使用 eMail 的欄目を入力して下さい。 使用 eMail ,"query: 2. 그림대로 ""메일로회원가입""을 클릭해 주시고 사용하시는 메일 주소를 입력 후 사용 하",kor_Hang,kor_Hang,0.18181818181818182
+83,"query: 'Asiatoday.com', 時事, 新聞, 民俗, ニュース, ","query: '태국, 일상다반사, 뉴스, 소식, IT/태국뉴스.소식' 카테고",kor_Hang,kor_Hang,0.26666666666666666
+84,query: 合肥新都市求婚房价格について↑↑↑↑↑├├├├├├├├├├├├├├,query: 전라북도콜걸╕예약금없는출장샵↽전라북도대전 모텔 가격{전라북도콜걸강추}↿「전라북도출장 선입금」✡전라북도출장샵안내↸전라북도오피걸♂,kor_Hang,kor_Hang,0.0
+85,query: 2重點置入了《hygiene school hygiene school hygiene school hygiene school hygiene school 》となっております。而追加的,query: 필수교육 2평점을 포함한 총 6평점이 주어졌으며 ‘필수교육(의료감염관리),kor_Hang,kor_Hang,0.0
+86,query: 6月19日 · 家から学べる精製灰の必勝法 こんにちは、イノセントです。 急激に,query: 이승철 교수의 민화재료학 특강 11 집에서 따라하기 좋은 초간단 황색염 I | ,kor_Hang,kor_Hang,0.0
+87,query: 4 x 4 x 4 x 4 x 4 x 4 x 4 的建筑物空間。設計工藝,"query: 그래픽 디자인 건축주의 작업실과 거주공간으로 구성. 매우 협소한 부지; 폭 4미터,",kor_Hang,kor_Hang,0.0
+88,query: 今朝的早餐吃了些什么???????? 我采用了,query: 아침저녁으로 쌀쌀한 요즘 식사는 무엇으로 하셨나요 저는 아침국 을 ,kor_Hang,kor_Hang,0.0
+89,query: 《原民的命脉》 - 感恩节 - 简体提要 - 感恩节 ,query: [역사를 지키는 여성들]하회마을 충효당 종부 최소희 // 태그 입력 처리 function,kor_Hang,kor_Hang,0.0
+90,query: [导读] - usable narratives - usable narratives - 他演解了我们的,query: [개정판] 구약의 내러티브 해석 - He gave us stories : The Bible student's,kor_Hang,kor_Hang,0.26086956521739124
+91,"query: 因此,............ ",query: 이에 대해 금융지주 회장들은 오피스 빌딩에 대한 대출에 신중할 필요가 있다는 데,kor_Hang,kor_Hang,0.0
+92,"query: 預定與自由 - eBooks and eBooks for kindle, eBooks and eBooks for kindle","query: 예정과 자유의지 - Predestination & Free will | 갓피플몰 도서전체 15,629위 [김**]",kor_Hang,kor_Hang,0.09090909090909091
+93,"query: 随着 COVID19 的暴发而來,所有物的流動性、方方面面大幅度下降而してしまいます, ","query: 범지구적인 코로나19 사태로 인해 갑자기 모든 것의 이동이 느려지고, 적어지고",kor_Hang,kor_Hang,0.12500000000000003
+94,query: Previous Post 3月16日 – 南疆交通联接工程 – 南疆交通联接工程 – Dr. 王迪,query: 최근 소식 – BANDI Consultant 반디컨설턴트 영종-청라 연결도로(제3연륙교,kor_Hang,kor_Hang,0.11764705882352941
+95,"query: ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ 大學校園的英語教育过程,",query: 홈 > 레포트 > 교육계열 > 자료상세보기 (자료번호:184918) 영어과 교육과정 초등학교 ,kor_Hang,kor_Hang,0.0
+96,"query: 未来,PaV は人向和空地への移動的便捷性を持つ方舱式交通系统です。PaV",query: PAV는 지상과 공중의 교통망을 이용해 이동할 수 있는 미래형 개인 운송기기다.,kor_Hang,kor_Hang,0.0
+97,"query: 阿プティピオンホテル - 阿プティピオンホテル - 阿プティピオン, 阿プティオン, ","query: 암피트리온 호텔 나플리오 - 나플리오, 그리스 암피트리온 호텔 나플리오 Amphitryon Naf",kor_Hang,kor_Hang,0.3076923076923077
+98,query: 槐泉文化院建院70周年 - 3月13日 - www.shikshikshikshik.com - ,"query: 성남문화원 개원 41주년기념, 창작 판소리 '삼학사' :성남저널-http",kor_Hang,kor_Hang,0.0
+99,query: 2019/06/16 · 陳敏敏 / 安曇野 / 朗文による「可憐な形」のオープニング,"query: 입력2017-11-20 11:08 양선희 연출, 권용상・정명훈 안무의 '모던 홍길",kor_Hang,kor_Hang,0.0
+100,query: 諫早市とは東京都の東方(East)に位置する広大な市です。1995年(平成18年)より,query: 금천구(衿川區)는 대한민국서울특별시 남서부에 있는 구다(1995년구로구에서,kor_Hang,kor_Hang,0.23529411764705882
+101,query: [アルデマ] - [データシート] - [データシート] - [発覚記号] - [,query: [자료표현(알파벳/코드)] [기초 코드] [수치 코드] 알파뉴메,kor_Hang,kor_Hang,0.25
+102,query: ▼6件の読書感想文(レビュー) ▼6件の読書感想文(レビュー) ▼リサイタル(レビュー) ▼6件の,query: '리뷰-독서' 카테고리의 글 목록 리뷰-독서 (6) 책리뷰-'습관의 재발,kor_Hang,kor_Hang,0.23529411764705885
+103,query: | | | | | | | | | | | | | | | | | | | | | | | | | | | |,query: 이미 많은 기존 모바일 슬롯이 있습니다. - saladtv정보 이미 많은 기존 모바일 슬롯이 있습니다,kor_Hang,kor_Hang,0.0
+104,"query: 1870 年,荷蘭本土に發生した掃地管理人 ハング・アッシャーマン(Hans Acherman)",query: - 1880년에 아일랜드의 한 경작지 관리인이었던 찰스 커닝햄 보이콧이란 영국인,kor_Hang,kor_Hang,0.0
+105,query: 《大ヒット3》の制作人交代! / / / / / / / / ,query: 조작 방송 '골때녀' 제작진 교체...배성재에 사과는 실종 (종합) [DA:이,kor_Hang,kor_Hang,0.0
+106,"query: 医务体制改革的""歧视""不可忽视 - 央广网 - 央广网 - ","query: 의협신문 - 요양병원 정책 줄줄이 '패싱'...""차별 못견딘다"" 승인",kor_Hang,kor_Hang,0.2222222222222222
+107,query: 2025 年 Hexagon 的切割量市場 和 2025 年 Hexagon 的切割量市場 的注目者,query: 홀로그램 오목한 격자 시장 규모 2021 연구 보고서는 2026년 최고의 시장 선도자 및,kor_Hang,kor_Hang,0.0
+108,query: 2020/03/26 · 大腸内異物 : 17 顆粒 : 17 顆粒 : 17 リハ,"query: 승인 2021.09.17 13:06 일본 오키나와과기대 연구팀, 적혈구 내 33가지 대사물",kor_Hang,kor_Hang,0.0
+109,query: 1. 前編 Allegro の mollis から Irvings の mollis への冒頭メロディを,query: 1. 작년에 LilyPond로 모차르트 오페라 각 악곡의 첫머리(incipits)를,kor_Hang,kor_Hang,0.18181818181818185
+110,query: 新平的乱人 / 新平的乱人 / 新平的乱人 / 新平的地笼 /,query: 순박한 사람과 새들의 땅 강원도 철원 : 신동아 순박한 사람과 새들의 땅 ,kor_Hang,kor_Hang,0.0
+111,query: 栄景(下)の新築戸建 | 栄景(下)の新築戸建 | 栄景(下)の新築,query: 시흥 은계 상가주택(준공) – 갓고다 시흥 은계 상가주택(준공,kor_Hang,kor_Hang,0.26666666666666666
+112,query: 我的ncr ncr ncr ncr! 我的ncr ncr!,"query: 노프랍의 트레이드 마크인 넥카라의 N,P자수! 여러 체형에 맞는",kor_Hang,kor_Hang,0.14285714285714288
+113,query: 2020/10/30 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 聖經中的,query: 단어 구시 (사도행전 10:30) 관리자 2021.01.19 15:07:09 사도행전 10장 30절 (개역,kor_Hang,kor_Hang,0.0
+114,"query: 韶山历史文化遗产的传承中, 7月13日09:30 - 9月18日09:30 为了庆祝",query: 정암사는 10월 8~9일 이틀간 경내에서 개산 1377주년을 맞아 개산문화제를,kor_Hang,kor_Hang,0.0
+115,query: ⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐⭐ 屏東人防遗址的推荐 屏東人防,query: 남원N - 황산대첩비지 황산대첩비지 추천 2 주소 남원시 운봉읍 ,kor_Hang,kor_Hang,0.0
+116,"query: 我校环境工程研究中心于 1999年成立。 地球的多样化,物种的多方化,而对地球的","query: 지구환경시스템공학과는 다양화 되어가는 지구상의 환경문제에 대한 바람직한 대처, 해",kor_Hang,kor_Hang,0.125
+117,query: 《嫦娥》的内部構造首次揭露........ ,"query: 화성 내부 구조, 최초로 확인됐다 [오늘의 뉴스] 화성 내부 구조, 최초로",kor_Hang,kor_Hang,0.0
+118,"query: 2007 年 7 月 19 日 雅安杯的足球大会で溺水してしまったので,饮水和物料的",query: 지난 7월 2007 아시안컵축구대회기간 숙소를 이탈해 술을 마셔 물의를 빚,kor_Hang,kor_Hang,0.10526315789473685
+119,query: キーワード : 中之島 : 中之島 : ツラルフローラ : ツラルフローラ,query: 뿌리의 이글루스 : 태그 > 츠루타노리오 태그 : 츠루타노리오,kor_Hang,kor_Hang,0.2
+120,"query: 通过 ATM / e-banking 方式,客户帐户的身份信息を“清爽”化!平安港口",query: ‘간편 실명확인 서비스’를 통해 은행 영업점 환경을 태블릿PC로 대체하고 고객을,kor_Hang,kor_Hang,0.0
+121,"query: カリフォルニア州教育局(KAAP)推出了新校准制度(Education Test),而新校准制度",query: 캘리포니아주 교육 당국이 새롭게 도입한 학력평가제도(CAASPP) 시험 ,kor_Hang,kor_Hang,0.2105263157894737
+122,"query: 2006 年 9 月,米歇尔和彼得克勒 在一起了。 2 日,她对自己的朋友进行了",query: 필립 코틀러를 2006년 9월에 다시 만났다. 이번에는 미국 친구 하나와 둘이 그,kor_Hang,kor_Hang,0.0
+123,"query: 美股的薪水比""大""??????? 戴斯克","query: '버핏보다 부자' 테슬라 머스크...신의 한수는 ""성과급 대신 주식"" ",kor_Hang,kor_Hang,0.1111111111111111
+124,query: 苗栗流域的道路“干嘛”??????? 住民们,"query: 고속도로 나들목, 농로에 연결...주민들 ""어떻게 다니라고"" 반발 :: 공",kor_Hang,kor_Hang,0.0
+125,"query: 立大醫院的公衆衛生保障制度的拡充に関する事宜 6月16日, 民進党 张",query: 박능후 보건복지부 장관이 6일 의대정원 증원 방안과 관련해 대국민 담,kor_Hang,kor_Hang,0.0
+126,query: 想写的东西要学起来了。 ” ” ” ” ” ” ” ” ” ,query: 못 그리려고 애쓰는 화가는 이해가 잘 되지 않았다. “잘 그리려면 기술이 들어가요. 기교,kor_Hang,kor_Hang,0.0
+127,"query:          根据本校的优秀校友标准,","query: * 탑티어 학회: BK 우수학회 IF=4 기준으로 하되, 지도교수가 이에 상응",kor_Hang,kor_Hang,0.125
+128,query: Home > 全套產品 > 防塵機器人 > 防塵機器人 > 防塵機器人 index.html,query: 창 청소 로봇 용도 홈페이지 > 제품 리스트 > 창 청소 로봇 용도 (Total 24 Products,kor_Hang,kor_Hang,0.11764705882352941
+129,"query: カルシウム的缺陷是 心臟的組織, 心臟的組織, 腹部, ","query: 칼륨 결핍증은 신경계 및 소화관, 심장, 기타 신체적 시스템의 근육",kor_Hang,kor_Hang,0.13333333333333333
+130,query: イスラエルの家具を作っておきたい! – ehya.co.uk – ehya.co.,query: 이케아 가구를 조립하는 데 어려 | digital-trendy.com 이케아 가구를 조립하는 데,kor_Hang,kor_Hang,0.0
+131,query:'''''''''''''日前,"query: 청와대는 ""일자리 수석으로 새로 임명된 정태호 비서관은 청와대 주요 비",kor_Hang,kor_Hang,0.0
+132,"query: “新西兰大酒店”包括自由贸易港(EXPO CITY,EXPO CITY,EXPO INTERNATIONAL,EXPO ","query: “베스트웨스턴 프리미어강남” 호텔은 종합전시장, 무역센터,올림픽스타디움,",kor_Hang,kor_Hang,0.3333333333333333
+133,query: / / / / / / / / / / / / / /,query: [유럽여행] 파리 공항 노숙 중 이상한 소리가..?!?! (ENG SUB) Weird Sounds While,kor_Hang,kor_Hang,0.0
+134,query: 《北美大谈》 - 文/韩媒 - 《北美大谈》 - 文/,"query: [종합] 문재인-김정은, '남북 정상회담' 계기 '북미 대화",kor_Hang,kor_Hang,0.0
+135,query: 外滩への眼光 ys ys ys ys ys ys ys ,query: 외도에서 나와 향한 곳은 여수다. 여수쪽에 볼게 많다는 아빠의 말에,kor_Hang,kor_Hang,0.0
+136,query: 迷人咖啡吧 迷人咖啡吧 迷人咖啡吧!!!!!! ,query: 스터디카페 창업은 바짝만 믿고 하시라구요 안녕하세요 바짝독서실 & 스터,kor_Hang,kor_Hang,0.0
+137,"query: 中信重工の「貧困型受給者」の声 / 中信重工, covid19, ","query: 최승재, 중기부의 소상공인 코로나19 피해자금 대출 비판 VS 중기부, ""밤",kor_Hang,kor_Hang,0.11764705882352941
+138,"query: 此次交流会中,局官員提出了《关于新成立的地域性联防联防联防部的通知》 和",query: 이번 간담회는 최근 지사에 새롭게 설치된 '지역사회연계협력팀'이 지자체와,kor_Hang,kor_Hang,0.0
+139,query: BTSの華人スタイル大攻勢 | 華人スタイル大攻勢 | https://www.youtube.com/watch?,"query: '강남스타일' 강남, 수지 패션 전격 분석 | 텐아시아 '강남스타일' 강남, 수",kor_Hang,kor_Hang,0.1111111111111111
+140,"query: '17' 的 '70', '70' 的 '夕阳伞, 少女感","query: '열여덟의 순간', 청춘물인 줄 알았는데 'SKY캐슬' 느낌이 솔",kor_Hang,kor_Hang,0.23529411764705882
+141,"query: 对于荷兰投资方的投资方,荷兰投资方对荷兰投资方的投资方给予的 ETH という概念。",query: 주주배당세란 외국인들이 네덜란드에 있는 기업에 투자하여 받는 주식 배당금의 원천,kor_Hang,kor_Hang,0.0
+142,query: ASUS ZenFone 3 (R) レビュー ASUS ZenFone 3 (R) を使用した新一代 AMD Ryzen 4000 ,query: 이전 리뷰를 통해 AMD Ryzen 3세대 Renoir(르누아르) APU 중에서 Ryzen 5 4500U,kor_Hang,kor_Hang,0.32
+143,query: 近日ミャンマーでの乱象が続いています omicron-19 omicron-19 omicron-19 omicron-19 ,query: 최근 미얀마내 정세가 여전히 유동적이고 코로나19 오미크론 변이의 확산이 본,kor_Hang,kor_Hang,0.0
+144,"query: 我们对写物的内在性有明晰的意识。 而,,,,, ",query: 글쓰기는 우리 마음 속에있는 것들을 분명히합니다. 우리가 사물을 쓰지 않거나 이런 ,kor_Hang,kor_Hang,0.0
+145,"query: ( 主 言 ) 多消息, 互聯網, 信息的流暢性, 而","query: (예시) 가장 빠른 뉴스가 있고 다양한 정보, 쌍방향 소통이 숨",kor_Hang,kor_Hang,0.27272727272727276
+146,"query: 本次会议的开幕式典中, 党政领导、外界代表对节点的形成表示热烈祝贺, ","query: 개막식에는 권순일 중앙선관위 위원장 축사, 유권자와 정치의 만남을 형상화한 퍼",kor_Hang,kor_Hang,0.14285714285714288
+147,"query: 对于合同法中的国际法官的了解,,,,,,,,,","query: 국제법무, 무역을 담당하는 실무자들을 대하면 미국 계약법에 대하여 개략적으로 알긴",kor_Hang,kor_Hang,0.15384615384615385
+148,query: 央企大楼找不到了... - 澎湃新闻 - 1月15日 - 1月15日 -,"query: 공장 찾아간 대학 총장 ""상아탑 너무 오만했다"" - 중앙일보 중앙일보 2015.01.27 01:3",kor_Hang,kor_Hang,0.1111111111111111
+149,query: 前者对耶稣的决战的原则 | 144 | 前者对耶稣的决战的原则 | 144 | 前,query: 144 하나님을 위해 화비하는 원칙 | 전능하신 하나님 교회 144 하나님을 위해 ,kor_Hang,kor_Hang,0.30769230769230765
+150,query: 顛末版 - Powered by Scrolldown - All rights reserved: http://www.slidedown.com/,"query: 절판 - 리그베다 위키 last modified: 2015-03-08 01:40:28 Contributors 絶版, out of",kor_Hang,kor_Hang,0.16
+151,query: 佛山建工集團(FA)就 南海豪苑、 南海豪苑、 南海豪苑的 FH6 ,"query: 동양건설산업, 청주 '오송역 파라곤 센트럴시티' 6월 중 분양 롯데건설",kor_Hang,kor_Hang,0.0
+152,query: 私は東南アジアの18ヵ国をめざしています。 この中で、奄美日報(奄美日報)の日報,query: 제가 일하는 곳은 북아시아태평양지회로 동북아시아의 여덟 개 나라를 섬기,kor_Hang,kor_Hang,0.0
+153,query: [ 大胸釦 ] / blueknitts / blueknitts for home / blueknitts ,query: [울벨트셋 sk] 브로찌니트 nt 인어보석플랫 shoes HOME > BOTTOM > SKIRT,kor_Hang,kor_Hang,0.2105263157894737
+154,query: 《判事法》 - 定子(注5) - 信雲(注5) - 信雲(,query: 판결사(判決事) 묵암공(黙菴公) 탁(卓)[종보455호201305.1],kor_Hang,kor_Hang,0.2222222222222222
+155,"query: 而今后的6个月内,我国的核电技术对外宣传的口碑 l d l d l d ",query: 이번 기회를 놓치면 우리나라 원전 기술에 대한 대외적인 홍보는 2년6개월 이후에나,kor_Hang,kor_Hang,0.0
+156,"query: 前 5 位國民黨领导人的名言中, 朱镕基 戴了乾淨而丑陋的(",query: 역대 대통령 중에서 가장 깨끗했던 사람이 부패한 대통령으로 낙인이 찍혀 부엉이,kor_Hang,kor_Hang,0.0
+157,query: 交通 / 人文 / 旅游 / 人口普查 / 今年300億的「大口径」,"query: [지역경제 르네상스] 개발 비껴간 골목길, 올해 300만 넘보는 '관광대로'",kor_Hang,kor_Hang,0.0
+158,"query: 我对家族的启蒙中最重要的一句话, o o o o o o o o","query: 내가 배운 가장 큰 교훈들 가운데 하나는, 가족이든 공동체든 그것을 이끄",kor_Hang,kor_Hang,0.13333333333333333
+159,query: Lapro のスポーツカーレセプション ニューモデルが登場 | Lapro のスポーツカーレセプション ニューモデル,"query: 랜드로버 뉴 디스커버리 스포츠, 가솔린 모델 P250 SE 출시 - 모터피디 랜드",kor_Hang,kor_Hang,0.0
+160,query: 南山豪情........... ,query: 남궁민 '나혼자산다' 효과 또 통했나?..'검은태양' 시청률 10%대,kor_Hang,kor_Hang,0.0
+161,query: 2020年4月19日 - 著者の「新概念」を読み解く | ebookjapan.com | エレクトロ,query: 도서정보 : 강신주 | 2020-12-21 | EPUB파일 4년 만에 신작을 발표하는 철학자 강,kor_Hang,kor_Hang,0.1111111111111111
+162,query: 我的母子学名表 - #母子学名表13 - #母子学名表13 - #,query: '엄마표수학' 카테고리의 글 목록 엄마표수학13 [엄마표수학-,kor_Hang,kor_Hang,0.0
+163,"query: 本校2013年5月13日举办了“全球创业者联谊会”主题活动,倾力打造“外邦","query: 재외동포재단이 주최하는 ‘2013 세계한인회장대회’가 ‘창조경제 희망한국, 함께",kor_Hang,kor_Hang,0.10526315789473685
+164,"query: 前回の記事を読みました : 1967 年,アフガニスタンの軍隊大逃亡してしまったので khao fej vs ",query: 1991년 걸프전 당시의 악몽을 떠올려 보자. 이라크군은 쿠웨이트에서 퇴각하면서,kor_Hang,kor_Hang,0.0
+165,query:............. 买,query: 됩니다. 쓸데가 있으면 사 써야죠...그런데 사 놓고 가격 오르길 바라는,kor_Hang,kor_Hang,0.0
+166,query: 耳の細菌が重くなる時、これを切開するのが好ましいです。 / アレルテイク / ,query: 콧속이 간질간질할 때는 재채기를 하는 게 좋다. 그래야 알레르기를,kor_Hang,kor_Hang,0.0
+167,"query: 而 大谷的恋情, 而 大谷的恋情, 又被撕掉了, ","query: 그리고 널 사랑하고도는 출판 계약이 되어 있지 않아요, 장철이 물러나서",kor_Hang,kor_Hang,0.13333333333333333
+168,"query: 日新月異 ldfm, ldfm などの金融風險事件が続発しています!","query: 최근 금융업계 DLF, 라임자산운용 환매연기 등 사건사고가 끊이지 않는다는",kor_Hang,kor_Hang,0.13333333333333333
+169,query: 年产车的燃費大法是什么?........ ,"query: 우리나라 운전자들이 잘 몰랐던 연비 운전 방법...""아는 만큼 아낀다"" 연비는",kor_Hang,kor_Hang,0.0
+170,"query: S&C Logistics の代表取締役 中健(株), 平安(株), ","query: SK(주) C&C 안정옥 사업대표(가운데 오른쪽), 이기열 ITS 사업장(",kor_Hang,kor_Hang,0.4
+171,query: 《平地同胞生活》大喜剧! https://www.youtube.com/watch?v=SnSn,query: [KTV보도자료] '평양에 함께 간 듯' SNS 생중계 폭발적 호응.hwp,kor_Hang,kor_Hang,0.0
+172,"query: クラリネットを30を超えて学びましょう,,,,,,,,, ","query: 체르니30을 중심 체르니110, 체르니24, 리틀 피아니스트에서 꼭 배워",kor_Hang,kor_Hang,0.1818181818181818
+173,query:'''''''''''''',"query: ""우리가 인스턴트 타투를 하는 이유"" '; 이예화 기자 / 입력 2019년 3",kor_Hang,kor_Hang,0.1111111111111111
+174,"query: 通波池的防爆箱 iBox 型です。 iBox 的格子是 145mm, ","query: 붐박스 온고는 방수 방진이 되는 스피커입니다. 등급은 IPX44로, 수치상",kor_Hang,kor_Hang,0.11764705882352942
+175,"query: 冠心病(新冠)患者的救命金 什么是冠心病(新冠)患者的救命金,",query: (무)흥국생명 多사랑 플러스 암보험(갱신형)은 암 치료 시 필요한 진단금,kor_Hang,kor_Hang,0.19047619047619047
+176,"query: 而對兒童而言,更重要的問題是薪水的浪潮。 例如, 婚前 / 婚前",query: 문제는 자녀를 양육한 다음에 복귀하는 일자리가 결혼 전에 비해 훨씬 여건,kor_Hang,kor_Hang,0.0
+177,query: 2018 - 1 - 0 - 0 - 0 - 0 - 0 - 全國冠心病患者,query: 7명 중 1명이 앓는 '만성콩팥병' 예방수칙 - 병원신문 승인 2018.0,kor_Hang,kor_Hang,0.12500000000000003
+178,query: Home / 方舟 / 心脏病的治疗 / 心脏病的治疗 / 树脂可以,"query: [건강한 가족] 나무 상처 치료하는 물질 침향, 기혈 잘 돌게 해 심신 안정 ",kor_Hang,kor_Hang,0.0
+179,"query: 2020年,全國山峰出现大灭火 – 最新消息 – 2020年,全國山峰出现大灭火 –",query: 2021년 연말 곳곳에 산불 발생... 산림당국 신속 진화 – 대한민국 대표 산,kor_Hang,kor_Hang,0.1111111111111111
+180,"query: 近日,中国 、韓 、美两国举办了""混合物联""的第26个国际高新技术盛典","query: ""모터스포츠는 첨단 복합산업이다"" 지난 26일 국내 최초로 열린 한ᆞ영",kor_Hang,kor_Hang,0.10526315789473685
+181,"query: 德國 / 德國 / 德國的大型螺旋大棚的制造商 / 制造商,",query: 중국 대형 케이블 릴 드럼 제조업체 및 공급 업체 및 공장 대형 케이블 ,kor_Hang,kor_Hang,0.0
+182,"query: 《3000円 / 18,000円 / 18,000円 / 18,000円 》導讀企業大咖,","query: 박진달 18.000원(332쪽) ■ 저자 박진달 글로벌 비즈니스 전문가, 티플러스 대표",kor_Hang,kor_Hang,0.1111111111111111
+183,query: NEXT SPLIT(ネクスト ストッパー) | NEXT SPLIT(ネクスト ストッパー) | NEXT SPLIT(ネクスト,query: 넥스트 스피커 스탠드형(NEXT-BT40AMP) - 옥션 넥스트 스피커 스,kor_Hang,kor_Hang,0.25
+184,query: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp,"query: '국정원과 악연' 검사, 국정원 개혁 선봉 맡아 '국정원과",kor_Hang,kor_Hang,0.0
+185,query: 国际赛事 / 国际赛事 / 国际赛事 / 国际赛事信息 / 人才储备 / ,query: 국제스포츠경기대회 경험과 지식 유산 관리 - 기고/컬럼 | 뉴스 | 대한민국 정책브리핑,kor_Hang,kor_Hang,0.0
+186,query: 企業情報 ERP ERP ERP ERP ERP ERP の複合ソリューション 企業情報 ERP の複合ソリューション,query: 기업정보포탈과 ERP 시스템의 어플리케이션 통합 솔루션 기업정보 포탈과 ERP시스템의 어플리케이,kor_Hang,kor_Hang,0.15384615384615383
+187,query: 而 One For One 的倡議就是捐款 。而 One For One 的倡議就是服裝福袋 ,query: 그건 신발 하나를 사면 하나가 기부되는 탐스의 원포원One For One 캠페인의 긍,kor_Hang,kor_Hang,0.2222222222222222
+188,query: / / / / / / / / / / / / / 食,query: [고용주 인터뷰] Food Service Supervisor 지원자 김 * * 님 > 수속상황 | 이민가이드 CANADA,kor_Hang,kor_Hang,0.0
+189,query: kext.or.jp レジェンスが2月19日、レジェンスへの移住許可制度に変更しました。 ,"query: 레지던스, 주거용 오피스텔로 변경...2년간 이행강제금 유예 김회재 ",kor_Hang,kor_Hang,0.0
+190,query: Home / 歐洲 / 西班牙 / 葡萄牙 / 意大利 的產品資料集 - 14 ,query: 홈 > 제품 리스트 > 스페인 세관 데이터 (에 대한 총 24 제품 스페인 세관 데이터) ,kor_Hang,kor_Hang,0.0
+191,query: 高揚を鼓舞する [音].........,query: 고무하다 鼓舞-- 발음 [고무하다] 북을 치고 춤을 추다. [,kor_Hang,kor_Hang,0.25000000000000006
+192,query: 我 o o o o o o o o o o o o o,query: 큐플레이스를 통해 만난 회사들은 좋은 분들도 있었고 소통이 전혀 안되는 분들도 있었어요,kor_Hang,kor_Hang,0.0
+193,query: 顧客的 Datacenter / Datacenter / Datacenter 各個層次 顧客的 Datacenter / Datacenter ,query: 개인 데이터 센터나 클라우드 데이터 센터가 있는 고객은 각 개별 지점 사이트에서 데이터 센터,kor_Hang,kor_Hang,0.0
+194,query: 2018/07/19 · 美侨国际投资有限公司(以下简称美侨国际投资有限公司) 来源:www.dailynews.com 责任编辑,query: 등록 2018.11.07 09:53:46 (서울=미래일보) 장문경 기자= 미국투자이민 전문기업 국제이주공사가 미국,kor_Hang,kor_Hang,0.1818181818181818
+195,"query: 本研究では, EDAS analyzes multiple dimensions of data, analyzes the readable data and analyzes the",query: EDA (Exploratory Data Analysis) 는 수집한 데이터를 다양한 각도에서 관찰하고 이해하는,kor_Hang,kor_Hang,0.0
+196,"query: 中国經濟的發展中,關鍵的事項之一是....... ",query: 한국의 경제발전에 있어서 빼놓을 수 없는 중요한 주제 중 하나는 무역을 중심으로,kor_Hang,kor_Hang,0.0
+197,"query: 11月 renault の実売実績が発表されました。 11月 renault の実売(165 台, 18 台,","query: 르노삼성자동차 11월 판매 실적 총 18,601대 판매 르노삼성자동차는 지난 11월 총 18,601",kor_Hang,kor_Hang,0.0
+198,query: ジュエルの“大方”への悲劇へのコメント | マルエは“0”となり、大方! | ,"query: '무도' 양세형, 조세호와 키 대결 승리 후 ""작은 키 아니에요"" – 개",kor_Hang,kor_Hang,0.0
+199,query: 大象机场的便捷查询|日報|日報|日報|日報|日報|日報|日,"query: 동가라발 타이난/대남행 저가 항공권, 비행기표 예약사이트 | 씨트립 동가",kor_Hang,kor_Hang,0.0
+200,"query: 本网讯 近日,商春区教育局发出“新常态”的倡议,让校区高危物洪",query: 시교육청 관계자는 “이음초 개교로 검단지역 과밀학급 해소에 도움이,kor_Hang,kor_Hang,0.1111111111111111
+201,query: 7月17日 · 仁智的口碑 激战了! 仁智的口碑 激战了! ,"query: 조인성 김제덕 선수 코리아 파이팅에 울컥 인터뷰4 | 텐아시아 조인성 """,kor_Hang,kor_Hang,0.0
+202,query: バングルエアポート 香港 | バングルエアポート 香港 | バングルエアポート 香港 | バングルエアポート 香港 |,query: 골드코스트 벵갈루루 행 항공편 | AirAsia 골드코스트 벵갈루루 행 항공,kor_Hang,kor_Hang,0.2
+203,"query: 罗氏粉是日用而富含的蛋白质,而美观而细腻的口感。 使用了 03",query: 피부와 두피를 위해 꾸준히 사용되어온 로즈마리는 따듯한 성질을 가지고,kor_Hang,kor_Hang,0.0
+204,query: 月入式外币投资方式について - - - - - - - - - ,query: 외환 시장 개입 - 외환 거래 교육 다음으로 '안정 투자형(매달 적립식으로,kor_Hang,kor_Hang,0.14285714285714285
+205,query: 艾弗斯的征服功能是什么????????? ,query: 갑상샘 기능 항진증 아닌가? 너무 피곤한데? | 엑세스 포럼,kor_Hang,kor_Hang,0.16666666666666669
+206,query: www.ytn.com / 柳春宁董事长失业率62%以上 / 人事决议 / ,query: 최남수 YTN 사장 사임 수순...직원 중간투표서 55.6% 불신임 투표 [일,kor_Hang,kor_Hang,0.1
+207,query: - - - - - - - 2015年宜宾本土民族音乐大典举行 - -,query: 연변주 2015 새봄맞이 민족음악회 개최--인민넷 조문판--人民网 ·중국 ,kor_Hang,kor_Hang,0.0
+208,query: 🖐 “BLACK NIGHT” のコードコード 🤑 “BLACK NIGHT” のコードコード 🤑 “BLACK NIGHT,query: 코드명 'BLACK TIE' | 헬로우젠틀 코드명 'BLACK TIE' 조회수 2020. 04.,kor_Hang,kor_Hang,0.0
+209,"query: 與 LG 共同開發 / 擴大 / 擴大 / 的智慧型電腦平台,65","query: 40,159,888 독자 운영체제 웹OS를 스타트업과 함께 확장해가려는 LG전자의",kor_Hang,kor_Hang,0.0
+210,"query: Cedars & Co. は 2007 年設立的 eDrive Systems 公司,主營于交通信息的商務",query: 2007년에 설립된 Cedars는 자동차 인텔리전스 및 소싱 비즈니스를 전문으로 해 왔,kor_Hang,kor_Hang,0.0
+211,query: 中国 tsca 和 tsca 的混合物加印件的制造商、供应商、制造商 |,query: 중국 합판 Tsca 인증서 제조업체 및 공급 업체 및 공장 합판 Tsca ,kor_Hang,kor_Hang,0.0
+212,query: <br/> - 脑溢血症的后果 - 脑溢血症(hypertensiopulmonary dystrophy),query: [메디칼이코노미 칼럼] 뇌졸중(뇌경색·뇌출혈) 후유증,kor_Hang,kor_Hang,0.2105263157894737
+213,"query: 对于 COVID-19 患者的悲哀,患者心目中的福音(expectation)を呼び寄せます。患者心目",query: 절망의 끝에 선 암 환자들에게 희망의 기(氣)를 불어넣어주는 해피바이러스,kor_Hang,kor_Hang,0.18181818181818185
+214,query: 女性への恩義的方程式 (15 件) - How to get my wife (編者按) -,query: 남자의 용서 받기(여자를 위한): 15 단계 (이미지 포함) - wikiHow 남자의,kor_Hang,kor_Hang,0.30769230769230765
+215,"query: 中国政治网4月27日 / 文 / 文 / 尹建平表示,核酸、核","query: [아시아경제 배경환 기자] 윤석열 대통령은 24일 ""방산 수출이 원전, 건설 분야",kor_Hang,kor_Hang,0.09523809523809522
+216,"query: 通过 “ 的 的 ” 和 “ 的 ” 的融合,塑造了新幻人群体。",query: 관객의 몸을 통해 새로운 “종이인간“ 을 탄생시키고 다시 소멸시킴,kor_Hang,kor_Hang,0.11111111111111112
+217,"query: 近日,ISMI(国际核肺病研究所)人员发出了“喜讯”的信条。 ” / ",query: 송만기 국제백신연구소(IVI) 사무차장은 <공감>과 전화통화에서 “우리나라는 세계,kor_Hang,kor_Hang,0.23076923076923075
+218,query: 本网讯 - 本网讯 - 2012年12月24日 - 近日再次发生了益昌粮,query: [일간전북 = 김정훈 기자]용진농협 직매장에 이어 두 번째로 지난 2012,kor_Hang,kor_Hang,0.0
+219,query: Baiyun - 扬州建筑 - 扬州建筑 (https://www.baiyun.com/wp-content/,query: 아고다 :: 베이징 / 북경의 베이징 신샹 야위안 아파트먼트 (Beijing Xinxiang Ya,kor_Hang,kor_Hang,0.2105263157894737
+220,query: 東海産14mmの돛の画像です。 ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓ ↓,query: '삼양14mm' 태그의 글 목록 삼양14mm 삼양 14mm 태기산에서 본 겨,kor_Hang,kor_Hang,0.0
+221,query: 2020/04/24 · 主校舍的優點有哪些 : 2020/04/24 · 主校舍的可接受性 :,query: 최근 수정 시각 : 2020-01-24 01:13:25 학사장교의 큰 특징은 지원 자격에서 찾을,kor_Hang,kor_Hang,0.11764705882352941
+222,"query: The Malaysian Alumni’s Memorandum旨在培养卓越的人才,融合的创新力, Corporate Competence,","query: 한양대학교 MBA는 ‘Creativity, Integrity, Collaboration을 겸비한 글로벌 전문 인력을 육성하는",kor_Hang,kor_Hang,0.0909090909090909
+223,query: コロナ感染拡大で、kafa 全社員のオフィスが閉店 | news.yahoo.co.jp コロナ感染拡大,"query: 쿠팡, 서울 본사 직원 코로나19 확진에 '사옥 폐쇄' - 아주경제 [2020",kor_Hang,kor_Hang,0.0
+224,"query: 3 大鱼吃起来的痛点 / 3 大鱼吃起来的痛点 / 3 日记中的""","query: [그것이 먹고 싶다] ""닭이 물에 빠진 날"" 삼계탕 속 7가지 이야기 - visual",kor_Hang,kor_Hang,0.0909090909090909
+225,query:..............,"query: 개차하다 開遮-- 계율에서, 어떤 때는 허락하고 어떤 때는 금지하다.",kor_Hang,kor_Hang,0.0
+226,"query: 使用者的个人信息,不予泄露。 3........","query: 수집된 연구참여자의 신상정보를 본인의 승낙 없이 제3자에게 누설, 배포하지 않습니다.",kor_Hang,kor_Hang,0.11764705882352941
+227,query: 3月5日 - 大風門 - 市場情報 - 'vss.com' - ,"query: '베스파' 코스닥 상장, 공모가는 3만 5천원 - 경향게임스 '베",kor_Hang,kor_Hang,0.23529411764705885
+228,query: eamer さんの eamer さんの eamer さんの eamer さんの eamer,"query: 레떼아모르, EBS 라디오 '이승열의 세계음악기행' 출연... 바리톤",kor_Hang,kor_Hang,0.0
+229,query: ユナイテッドアプライアンス 表札の色コード:PD78 | Reebok / Reebok / Reebok /,query: 리나일론 개버딘 타이 네이비 | Prada 제품 코드: UCR77_1WQ8_F0A,kor_Hang,kor_Hang,0.23529411764705882
+230,query: 宏观经济复苏、金融危机的警惕 | 'k'news / 'k'news / ,"query: 글로벌 경제 'K자형 회복'···""신흥국 성장정체 우려"" - 서울파이낸스",kor_Hang,kor_Hang,0.0
+231,query: 景逸リゾートのグローバル化 | 新着記事 - 2018.10.03 - 2018.10.03 - ドワーキングマザー,query: 국내 최대 복합리조트 '제주신화월드' 위기 봉착 입력 2018-10-10 03:00업데이트 2018,kor_Hang,kor_Hang,0.0
+232,query: 您好! 由于您的帐户的 / 的 / 的 / 的 / 的 / ,query: 저희의 실수로 귀하의 사용자 계정에 귀하의 소유가 아닌 상금이 이체된 경,kor_Hang,kor_Hang,0.0
+233,query: 根 的 種類 根 的 種類 根 (Chinensis) および艾草 (Chinensis) により,query: Han 등 17)에 따르면 纈草根 추출물의 성분은 종 및 추출방법에 따라,kor_Hang,kor_Hang,0.09523809523809525
+234,query: e-mail mobile download | e-mail mobile download and e-mail mobile download and e-mail mobile download ,query: 카카오 모바일 다운로드 | 카카오 모바일 다운로드 – Etceteraonline/english 카카오 모바일 다운로드 날카로운 (#,kor_Hang,kor_Hang,0.14285714285714285
+235,query: 0 Comment on the blog on the blog on the blog on the blog on the blog on the blog on the blog on the blog on the,"query: 생각의 지도 | 無無軒 생각의 지도 Posted on November 6, 2012 by 00heights 생각의 지도",kor_Hang,kor_Hang,0.11764705882352941
+236,query: 人類的生化景觀 2 目 目 目 目 目 目 目 目 :人類的,query: 인류의 진화 단계에서의 두개골 사진 * 현생 인류까지의 인류의 두개골 진화 ,kor_Hang,kor_Hang,0.0
+237,"query: \ \ \ \ \ \ \ \ \ 我入住了普洱的房屋,非常",query: ♣ 친절하고 깨끗한 아파트입니다. 포항에 오심을 진심으로 환영합니다~ *^-^,kor_Hang,kor_Hang,0.0
+238,"query: 此外,2019年 l o l o l o l o l o l o",query: 지난해에는 중국 고객의 호응도가 높았다. 중국 내에서도 온라인 채널을 기점으로 높은 판매,kor_Hang,kor_Hang,0.0
+239,query: 2............. ,query: 1.책읽는 회색앵무 (437)2.저승사자를 보는 레주의 하루 3 (260)3.🌻 사람,kor_Hang,kor_Hang,0.0
+240,query: 蔡依明「爱情3大盛行!」........ ,"query: 박희순 ""'마이네임' 전세계 3위? 정말 기쁘다..K드라마 인기 시작 ",kor_Hang,kor_Hang,0.0
+241,"query: 郭晶晶的 #春光 的原因????????,","query: [구르미 그린 달빛] 곽동연, 극장 나들이 나선 이유는? Home 전체메",kor_Hang,kor_Hang,0.2
+242,query: 2019/11/14(火) 07:34 內政派的籍國人 / 盧秀文 / 盧秀文 ,query: (추적)盧정권 내 主思派 출신들 2019년 11월 14일 02:44 대통령·영부,kor_Hang,kor_Hang,0.2
+243,query: d'emmy への便件、便件、便件、便件予約 | d'emmy.co.uk ,"query: 드모인발 Kerman행 저가 항공권, 비행기표 예약사이트 | kr.trip.com 드모",kor_Hang,kor_Hang,0.14285714285714288
+244,query: 我使用icloud 的帐号后怎么回事了? / / / / / / ,query: 아이패드를 양도하면서 로그아웃을 했는지 기억이안나요 ᅲᅲ : 지식iN,kor_Hang,kor_Hang,0.0
+245,query: 2014/06/24 · [海外網分析] [海外網分析] [海外網分析].... ,query: [스포츠24]해외 사이트 예측 비교 | YTN 해외 사이트 예측 비교 Posted : 2014-02-08 [류주현,kor_Hang,kor_Hang,0.21052631578947367
+246,query: 3d codes 對建築物的概念而不感興趣。而 3d codes 用于家庭、房地產,query: 3차원 디자인이란 주제에 익숙하지 않지만 CAD 프로그램을 사용해 집 또는 집 몇 곳의,kor_Hang,kor_Hang,0.0
+247,query: 婦產症的醫學.......... ,query: 여성의 방광염 치료는 비뇨 기계 시스템의 생리적 특성에 따라 복잡합니다. 신체의,kor_Hang,kor_Hang,0.0
+248,query: 韩剧中............ ,query: 한동안 송혜교씨가 극중에서 하이힐을 신은 것 때문에 논란도 있었고 송씨가 사용,kor_Hang,kor_Hang,0.0
+249,query: 7大問題について............,query: 여성인권의 쟁점에 대해 설명하시오. / 참고자료파일 7개 여성인권의 문제가 세계,kor_Hang,kor_Hang,0.0
+250,query: 《文豪伝》第156話 中空大尉の継承者であるマヤパンとの情緒がありました。 ,query: 한태승 판타지 장편소설『마령군주』하니온 가문의 정통 후계자였,kor_Hang,kor_Hang,0.0
+251,"query: 前のページへ 1|2|3 前のページへ e-game news, e-game news, 魔幻的嘉","query: 도깨비 - 게임메카 PC, 콘솔, 모바일 | 미정 지난 주 진행된 더 게임 어",kor_Hang,kor_Hang,0.09523809523809522
+252,query: 《破天荒》 / 童話 / 童話 / 童話 / 童星犯了,query: [어린이책 공룡트림] 나쁜 어른들 때문에 어린이는 불행할까? 작품집 『하,kor_Hang,kor_Hang,0.0
+253,"query: フィナンシャル・プレジデント elected 13-19th citizen to FDA | news, news, news,... | ","query: 바이든, 구직 독려...FDA, 12~15세 화이자 백신 승인 | Voice of America - ",kor_Hang,kor_Hang,0.32
+254,"query: 事件發生前,第一人 、第二人 、第三人是.....",query: 피해자는 사건 당시 화장실에 들어왔던 일곱번 째 사람이자 첫 번째 여성,kor_Hang,kor_Hang,0.0
+255,query: newpaper(ニューペーパー)について読む / 同人誌 / 漫画 / 東方神話 / 腹,"query: [알라딘서재]신간읽기, 목요일의 페이퍼(일본 미스터리소설) 신",kor_Hang,kor_Hang,0.1818181818181818
+256,query: 新西兰的核兵器国 o o o o o o o o o o ,query: 오늘날 조선이 수소탄과 대륙간탄도로케트를 보유하게 된것은 미국의 핵위협,kor_Hang,kor_Hang,0.0
+257,query: 2012年 2月 13日 (火) - 2014年 2月 13日 (火) - 2014年 2月 13日,query: 2012년 2월 13일 (월) 14:11 판 2012년 2월 13일 (월) 14:11 판 (편집) 2012,kor_Hang,kor_Hang,0.22222222222222224
+258,query: 安陽市の賃貸マンション「Aern 平野」新豪勢に注目! - 物産网 https://www.,query: 천안 아산 부동산 시장 약동...우수 입지 '아산 신한 아파트' 관심↑ 웹 출,kor_Hang,kor_Hang,0.0
+259,query: Link to the post 'The Independence of Kleptos' : 韓國政治 : 文摘 : ,query: 한국정치 노트 Notes on the Politics of Korea :: '김영삼 통일민주당' 태그의 글 목록,kor_Hang,kor_Hang,0.2962962962962963
+260,query: 尼日福 - Perugia - Perugia - Perugia - Perugia - Perugia - Perugia,"query: 페로 제도발 NIUAFO'OU행 저가 항공권, 비행기표 예약사이트 | 씨트립 페",kor_Hang,kor_Hang,0.0
+261,"query: 3 你 的 方位, 我 的 方位, 你 的 方位, 这就是摩","query: 3 내가 모세에게 이른 대로, 너희 발바닥이 닿는 곳은 다 너희",kor_Hang,kor_Hang,0.2222222222222222
+262,query: 台中市女皇医院的院方感人分享! 2017-12-26 台中市女皇医院的院方感人分享!,query: 분당제일여성병원 박수현원장님을 만난 사람들의 병원리뷰 찾았닥 경기도 성남시 분,kor_Hang,kor_Hang,0.0
+263,query: 流浪中的尘埃 流浪中的尘埃 轰轰烈烈而膨大 ―― See the end of the sky,query: 폐 속 저 깊은 구석까지 쌓여있던 먼지를 날려 줄만한 스위스의 바람 ,kor_Hang,kor_Hang,0.0
+264,"query: 犬に貔貅が生えた事を考えてみましょう. 犬に貔貅が生えた場合, 貔貅が生えた",query: 애완동물에게 벼룩이 생겼는지 살펴보기. 애완동물에게 벼룩이 생기면 카펫,kor_Hang,kor_Hang,0.16666666666666666
+265,query: 2020年10月28日 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 饰演的,query: 컬쳐에세이 > 컬쳐에세이 > 작별인사 2020.10.12 08:54 7월 10일 밤 마침내,kor_Hang,kor_Hang,0.0
+266,query: 2020 大宗商品銷售市場 / 市場洞察 / 市場規模 / 市場流動性 /,query: 중고 상품 거래 플랫폼 시장 규모 (Covid-19 Pandemic) 2020: 글로벌 산업 분석 및 기회 평가 ,kor_Hang,kor_Hang,0.08333333333333333
+267,query: SNS g+ g+ g+ g+ g+ g+ g+ 大政党主委,query: 국민의힘 대권 주자인 유승민 전 의원이 아들·딸과 함께 SNS(사회관계망서비스),kor_Hang,kor_Hang,0.13333333333333333
+268,"query: 全域人口中,抗原性肺炎的發生率高达13% - 26% - 26% 。因此,","query: 지역사회획득 폐렴은 항생제 치료에도 불구하고 사망률이 12~14%에 이르며,",kor_Hang,kor_Hang,0.2222222222222222
+269,"query: 在贤华的商业街中,人流密集了。 o o o o o o o",query: 보족시장 부근에는 연예인 화보를 많이 팔고 있었는데 연예인뿐만 아니라 일반 미얀,kor_Hang,kor_Hang,0.0
+270,"query: 今年19日,中国驻加州总领事的李文文(以下簡稱 李文文) 对 グローバル",query: 지난해 11월 한국을 방문한 글린 데이비스 미 국무부 대북정책 특별대표(오른쪽,kor_Hang,kor_Hang,0.09523809523809525
+271,"query: Home > 文部科学省 > ニュース > 観光情報 > ""健気大法""の施行が解明され、","query: 홈 > 뉴스 > 북&라이프 > 건강한 생활 문체부, '관광진흥법' 시행령개정",kor_Hang,kor_Hang,0.09090909090909093
+272,query: 大岘市 e.e.e.e.e.e.e.e.e.e.e.e,"query: 내고향닷컴 AI 광주 으뜸 전남 UPDATED. 2022-06-25 21:25 (토) 광양시, 공무",kor_Hang,kor_Hang,0.0
+273,"query: 核心提示: <?xml:namespace prefix = ""urn:schemas-microsoft-com"" target=""_blank"">2020",query: [이지경제=김성미 기자] 국내 최대 규모의 모빌리티 산업전시회인 ‘2023 서울모,kor_Hang,kor_Hang,0.0
+274,"query: 2006 ～ 2007 年 以來,臺灣文化局的 《大礼堂》編劇中,超過","query: 중국 봉황 TV의 [문화대관원]은 2006년부터 현재까지 12년 동안 총 600회 이상 제작,",kor_Hang,kor_Hang,0.08
+275,query: 但是最近的热点话题就是.......... ,query: 최근 들어서 국제적으로 가장 이슈가 되는 문제는 바로 러시아 우크라이나 전쟁이 아,kor_Hang,kor_Hang,0.0
+276,query: 大惑星の代塞式をご覧になりたい! // index.html // index.html // index.html ,query: 과학입국의 백년지대계를 보고싶다 // 태그 입력 처리 function setTags() { if(!$,kor_Hang,kor_Hang,0.2105263157894737
+277,"query: 《水生堂的珍贵纪念品》 水生堂的珍贵纪念品背后,为了和平,我们为什么要","query: 물푸레마을, 우리에게 왜 평화가 필요한가 참전용사의 기념비를 통해 우리에게는 어",kor_Hang,kor_Hang,0.12500000000000003
+278,"query: 福袋サイクルの世界市場について | COVID-19, COVID-19, COVID-19, COVID-19, COVID-19, COVID-19, COVID-19, COVID-19, COVID-19, COVID-19, COVID","query: 글로벌 휠체어 쿠션 시장 판매, 수익, Covid-19가 시장에 미치는 영향 – 2027 –",kor_Hang,kor_Hang,0.1111111111111111
+279,query: / / / / / / / / / / / / / /,query: #첸네#에스파듀#샌들 발등 X스트랩과 밴딩 슬링백 스트랩으로 된,kor_Hang,kor_Hang,0.0
+280,"query:..... 大寒潮的到来,消费者的心情也浮出水面了。我",query: 우리 경제상황을 보는 소비자들의 마음이 좀 풀린 것 같다. 한겨울이 찾아오는 데,kor_Hang,kor_Hang,0.0
+281,query: 《紀元500年》 - 關于宗教的改革和創新 / 關于宗教的改革 /,query: 2017년 성서와 문화 - [종교개혁 500주년 기념 VI]르네상스와 종교개혁의 ,kor_Hang,kor_Hang,0.11764705882352941
+282,query: 伊丽莎白的日式之旅..........,query: 아이리시 위스키의 탄생지를 투어하고 이곳에서 위스키를 시음해 보세요. 1780,kor_Hang,kor_Hang,0.0
+283,"query: 1|2|3 核心提示: ""人性化""与""环境日新月异""的重中之重!我了解","query: [바로! 이 사람]""평생교육 통해 1차산업과 환경 중요성 일깨워 주죠""",kor_Hang,kor_Hang,0.16
+284,query: 投華(湘南)の人事情報(PHP)について | 投華(湘南)の給与情報(PHP),query: 파주 세무 :: 사람인 통합검색 '파주 세무'에 대한 취업정보 솔브레인(주) ,kor_Hang,kor_Hang,0.17391304347826086
+285,query: ナイキ バルーンバルブに関する商品一覧ページです。 ナイキ バルーンバルブ ( 24 件) > ナイキ バル,query: 나일론 볼 베어링 홈페이지 > 제품 리스트 > 나일론 볼 베어링 (에 대한 총 24 제품,kor_Hang,kor_Hang,0.28571428571428575
+286,query: 1、民进党要考验权威性... - [口袋新闻] - [日政] - 金,"query: [폴리TV] [김능구의 정국진단] 성일종 의원1 ""후보 검증은 필수...",kor_Hang,kor_Hang,0.3
+287,"query: 1. 性腺矫治的方程式(1), 大胸, 大胸, 阴阳, 玻尿酸","query: 1. 양도시에 성형수술(눈, 코, 광대뼈, 사각턱, 윤곽수술, 가슴",kor_Hang,kor_Hang,0.380952380952381
+288,query: Samsung Galaxy S3 的核心人物是什么? | Samsung Galaxy S3 編輯日記 | Samsung Galaxy S3 編輯日記 |,query: 삼성전자 스토리텔러 활동 총정리!! – 나에게 삼성스토리텔러란? – Samsung Newsroom Korea 삼성전자 ,kor_Hang,kor_Hang,0.2105263157894737
+289,"query: 当我们每天吃到一些新鲜的食物时, o o o o o o o o",query: 우리가 매일 먹는 음식은 곧 건강과 직결되는 문제를 갖는다. 어떤 경우는 ,kor_Hang,kor_Hang,0.0
+290,"query: 近日,中科院信息科学与工程局副局长 宇春红 / 宇春红 / 未来",query: 윤종록 미래창조과학부 차관미래창조과학부 윤종록 차관은 최근의 통신시장 혼,kor_Hang,kor_Hang,0.0
+291,query: シャンデリア 多法門的優点と弊害について 2019/04/24 · 来客후기 来客후기 ,query: 바이외의 샹브르 도테 도도 에 타르틴 2019 특가 및 실제 이용후기 |,kor_Hang,kor_Hang,0.0
+292,query: 东风 - 家族史 - 家族史 - 家族史 - LEXUS - LEXUS ,query: 한국GM 소형 | 자동차 백과 : 다나와 자동차 한국GM 소형 히스토리 르망 (86~97),kor_Hang,kor_Hang,0.0
+293,query: 全景网 - 旅游日记 - 旅游日记 - 旅游日记 - 旅游日记,"query: 김상용순절비 실시간 여행정보, 리뷰 | 놀러 - 인공지능 여행포털 김상용순",kor_Hang,kor_Hang,0.14285714285714288
+294,query: 中央防疫局では19日19時に発生した新型冠状病毒肺炎(Covid-19) 症例について、新型冠状,query: 19일 중앙방역대책본부는 이날 발생한 신종 코로나바이러스 감염증(코로나19) 신규환자,kor_Hang,kor_Hang,0.25000000000000006
+295,"query: 2020/04/01 · 2020/04/01 · 经济回暖的背景下,复工复产感强劲! パシフィック人",query: 기사입력 : 2020-04-01 00:00 - 최근 경제 안정화로 경제회복 기대감 품던 파키스,kor_Hang,kor_Hang,0.0
+296,"query: 書的發布, 封面, 折疊, 翻譯, 是同舟而戰",query: 글을 쓰고 엮어 책으로 출판하는 것은 돌이킬 수 없는 선언과도 같은 일,kor_Hang,kor_Hang,0.0
+297,query: All............. ,"query: 핑크 볼펜 리필 (x7) | 에스.티. 듀퐁 모든 데피, ",kor_Hang,kor_Hang,0.0
+298,query: 最近的 / 的 / 的 / 的 / / / / / / /,query: '비트소닉' 태그의 글 목록 목록비트소닉 (3) 작년부터 국내외에서 무,kor_Hang,kor_Hang,0.0
+299,query: 南城警官的推理剧 related posts and 南城警官的推理剧 related posts and 朗,query: 남구청소세제 인스타그램홍보 그리고 세렌과 브라이언트의 일을 다룬 연극,kor_Hang,kor_Hang,0.0
+300,"query: 主營業務については、Abi Biomedical Co., Ltd. 2019.08.27 の人事変更を行いました. Abi Biomedical Co","query: 아비 벤쇼샨 대표이사, 본사 Human Health Commercial Operations 총괄 부사장으로 이동 등록 2020.09.18 07:25:38 한국MSD",kor_Hang,kor_Hang,0.07692307692307693
+301,query:????????? 针对金正恩的人事体制改革之后,query: 공수처 인사위 구성했지만...여·야 갈등구조 속 김진욱 역할에 주목 오는 12일 인사,kor_Hang,kor_Hang,0.0
+302,query: 江淮前市长候选人张予平(2018 ) 与 潘政法同志(2018 ) 的,query: 더불어민주당 광주시장 후보 선출을 앞두고 이용섭 광주시장과 강기정 전 청와대 정,kor_Hang,kor_Hang,0.0
+303,"query: 中新网7月18日电 近日,LG Electronics 与 aesbo 在广州南投市发生大火。李",query: 9일 업계에 따르면 LG전자와 아사아블로이는 지난 8일 오후 서울 영등포 LG,kor_Hang,kor_Hang,0.10526315789473685
+304,"query: 在 9月30日(火)期间, Unlimited Flyers サービスをご利用いただくことができます。 不需保费,",query: ※ 베타 서비스 기간인 9월 30일까지는 피드백 서비스를 무료로 이용할 수 있어요. 무제한 ,kor_Hang,kor_Hang,0.0
+305,query: 2019.07.19........... 高精壮,query: 7605 공인중개사 강성규 처음처럼 14687 I hms**** 2019.12.07 2394 I hms,kor_Hang,kor_Hang,0.0
+306,query: 大通集团旗下的LG Fusion Group 包括美孚(Hong Kong) 、朗普(Taiwan) 、朗普,"query: LG유플러스(부회장 하현회)는 일본 소프트뱅크, 대만 파이스톤과 함께 미국 TBCA",kor_Hang,kor_Hang,0.16666666666666666
+307,query: アレクサンドリャ = アレクサンドリャ (アレクサンドリャ) という、偉大な人物。,query: 알렉산드르 세르게예비치 푸시킨(러시아어: Алекса́ндр Серге́евич Пу,kor_Hang,kor_Hang,0.14285714285714285
+308,query: 其中 g g g g g g g g g g g g g,query: 이에 따라 이 지역들에서 미세먼지 저감을 위한 배출가스 하위등급 차량 운,kor_Hang,kor_Hang,0.0
+309,"query: “和平派”8名入党积极分子, “廉政派”8名入党积极分子, 东鹏","query: “동탄8동 반짝파티”는 이원욱국회의원, 전용기국회의원, 김태형도의원",kor_Hang,kor_Hang,0.375
+310,query: Hôtel de Malte - Hôtel de Malte - Hôtel de Malte - Afficher les avis et réservations,"query: 호텔 바트 문텔리어 암 제, Muntelier | 익스피디아 호텔 예약 본문 내용으로 건너뛰기",kor_Hang,kor_Hang,0.0
+311,query: 根據 index.hatenablog.com 的 index.hatenablog.com 的 搜索項目中包含了哪些,query: 검색엔진은 웹사이트에 기술한 텍스트가 타깃 키워드를 어느 정도 포함하는지,kor_Hang,kor_Hang,0.0
+312,query: 我们 t l e l e l e l e l e l e,query: 우리는 몇 시간 동안 걷고 숲의 경기 중 thrones 여행. 영화를 설정하는 것은 ,kor_Hang,kor_Hang,0.0
+313,query: 2001 年 8 月 21 日........ 關于,query: 웃음에 대한 새로운 감수성 월간미술 2001년 8월호 > Special Feature > 21세기 ,kor_Hang,kor_Hang,0.0
+314,"query: この作案的原創者 是 法國大法門,1789 年 7 月 19 日,",query: 원작은 프랑스 혁명이 일어나기 직전인 1789년 7월 장 베르셰 도베르,kor_Hang,kor_Hang,0.0
+315,query: 盧氏货币的價值 r r r r r r r r r r ,query: 우리돈의 가치는 달러에 비해 상대적으로 오른 통화 쌍 이해 것임으로. 원화는,kor_Hang,kor_Hang,0.0
+316,query: 2ch 2ch 3ch 4ch 3ch 3ch 4ch 東映株式会社(原作者)による陰陽節劇(,query: 드라마제작사의 주가 추이(2년) (%) 3 2 삼화네트웍스 초록뱀 IHQ ,kor_Hang,kor_Hang,0.2
+317,query: 我初中的时候学习了...........,"query: 제가 전공했던 통계학은 단순히 계산하는 학문이 아니라 어떤 현상에 대해서 이해하고,",kor_Hang,kor_Hang,0.0
+318,query: dnsnsnsnsnsnsnsnsnsnsnsnsnsn,query: Hnbmediskin은 Drjorganics의 USDA오가닉 스킨케어를 받을수 있는곳입니다.,kor_Hang,kor_Hang,0.0
+319,query: 1 / 國立彰化大學入學記錄 / 國立彰化大學入學記錄 / ,query: 로그인 [12] 나사렛대학교 | 입학안내 자율전공선택계열 편입학&재입학 편,kor_Hang,kor_Hang,0.0
+320,query: ダイナミクス : [1993] : [1995] : [2000] : [2000] : ディ,query: 뿌리의 이글루스 : [DOS] 이즈미르 (1995) [DOS] 이즈미르 (1995) 2021,kor_Hang,kor_Hang,0.4210526315789474
+321,"query: 2017 春运期间,管家大剧院举办了""创客空间"" 的活动, 管家大剧院","query: 청송객주문학관에서 작품활동 큰 상으로 이어져... ""2017년 객주문학관 창작관",kor_Hang,kor_Hang,0.0
+322,query: 而对于............ ,query: 일부 흡연자 가운데 담배를 끊으면 체중이 늘까봐 고민하는 사람이 있다,kor_Hang,kor_Hang,0.0
+323,query: 2014/03/14 / / / / / / / / / / / / ,query: 칼럼/에세이 - 펫과 영혼 프랑스로 통하는 문 프랑스존닷컴 2019.03.14 13:51,kor_Hang,kor_Hang,0.0
+324,query: 国内ニュース / 国内ニュース / 大韓民国肺炎(Covid-19)を発症した方は3月19日、,query: [아시아뉴스통신=박주일 기자] 국내 코로나19 확진자 수가 3900명대를 기록한 가,kor_Hang,kor_Hang,0.0
+325,query: D-POP 團隊13日發布新曲宣佈発表 - 慟哭 - 最新消息 - ,query: 컴백 D-43 방탄소년단...17일 새 앨범 선공개곡 발표 - 충청투데이 승인,kor_Hang,kor_Hang,0.11764705882352941
+326,query: 每个人对这个问题有大脑的疑问。 大脑的疑问 y y y y ,query: 모든 사람의 퀴즈 기술이 다르기 때문에 이 질문에 대한 명확한 답은 없습니다.그러,kor_Hang,kor_Hang,0.0
+327,query: This page is a transcribed version of the website. This page contains the Terms and guidelines for the use of Mira,query: 이용 약관 - Miraheze Meta This page is a translated version of the page Terms of Use and the translation is,eng_Latn,eng_Latn,0.5294117647058824
+328,"query: 《光明之道》中,人潮澎湃,心潮澎湃! 通过光明之道的征程,我们","query: 한양도성길, 바쁨 속에서 느긋함을 찾아가다 *한양도성길 창의문~",kor_Hang,kor_Hang,0.13333333333333333
+329,query: 川妮 : 第二次世界大戦 (The New Constitution) - 黑人法則的多様化 -,query: 존 콜트레인과 지미 헨드릭스의 세계(Black is beautiful) : 북한 법률의 변화,kor_Hang,kor_Hang,0.25
+330,query: ニューカレドニア 中心 | キース ファクトリー | キース ファクトリー | キース ,"query: 크라운 플라자 하이델베르그 시티 센터, 라인 – 네카어 | 익스피디아 호텔 예약",kor_Hang,kor_Hang,0.1111111111111111
+331,query: マーティン ガースが10代になる前編を読みました ” ” ” ” ” ” ”,query: 캐럴 연구자 마틴 가드너는 앨리스 2부작이 “10대가 되기 전에 읽기에는,kor_Hang,kor_Hang,0.0
+332,query: ” ” ” ” ” ” ” ” ” ” 的批判者对其反派的,query: 이는 “다수파의 관점을 테스트하기 위해” 소수파를 침묵시키겠다는 주장 속에는,kor_Hang,kor_Hang,0.15384615384615385
+333,"query: Elk Studios & Studios 成立于2012年,是斯洛伐克的合资企业之一。成立于 2018 年,",query: 스웨덴 기반 회사인 엘크-스튜디오-elk-studios는 2012년에 설립되었으며 ,kor_Hang,kor_Hang,0.0
+334,query: Cuenca - Cuenca - Cuenca - Cuenca - Cuenca - Cuenca - Cuenca 的,query: 최고의 Cuenca 호스텔 - Cuenca의 모든 호스텔 보여주기. Cuenca의 저렴한 호,kor_Hang,kor_Hang,0.30769230769230765
+335,query: '80年代の外食文化を知る!' - 大傳館 https://www.youtube.com/watch?v=,query: 유튜브로 보는 '음식문화'와 '음식장사' - 한국외식신문 UPDATE : 2020.1.28,kor_Hang,kor_Hang,0.28571428571428564
+336,"query: 前世,人產生了..........",query: 사람은 본래 고상한 능력과 공정한 마음이 품부(稟賦)되었다. 그의,kor_Hang,kor_Hang,0.0
+337,"query: 对于一些人来说,一次性的话,心脏的外界会產生多张的麻痹。 例如,mo","query: 때로는 소위 모자이크 마취가 발생합니다. 즉, 신체의 한쪽에서만 민감도가 사",kor_Hang,kor_Hang,0.1111111111111111
+338,query: 我们 outstanding outstanding outstanding outstanding outstanding outstanding outstanding outstanding o,"query: 저희는 언제나 새로운 것들을 배우기 위해 노력하고 있으며, 여러분의 질문에",kor_Hang,kor_Hang,0.0
+339,query: モルヒット リゾートホテル | KAYAK(クアラルンプール) | 5390円(税込) | KAYAK,query: °호텔 MERLIN BEACH RESORT PHUKET 5* (태국) - 최저가 ₩ 283166 | BOOK,kor_Hang,kor_Hang,0.24000000000000005
+340,query: 国史文献(188) に 林毓文(188) と 林毓文(188) の注,query: 조선조 대유학자 겸암 류운룡과 징비록(국보 132호)을 집필한 ,kor_Hang,kor_Hang,0.2105263157894737
+341,"query: Introduction to evangelization. 本章的重中之重,即宣教。 封建战争中,人流,信仰","query: 서론 Intro 신앙생활은 영적 전쟁이다. 특히 복음을 가지고 전도, 선교할 때",kor_Hang,kor_Hang,0.17391304347826086
+342,query: 文/李敏朗さんの新书 – “人遇的蝴蝶” – 文/李敏朗さんの新书 –,query: 인문학자 문미선 교수의 '파랑새를 만난 한국인' 출간 – 시니어들의 행복한,kor_Hang,kor_Hang,0.12500000000000003
+343,"query: <?xml:namespace prefix = st1 ns = ""urn:schemas-microsoft-com"">今年,",query: 지난해 세종시에서 '다문화 혼인' 26.1% 늘었다 - 충북과 나의 연결,kor_Hang,kor_Hang,0.0
+344,query: 黎華学者による 佛法 と スピリチュアル の間の談話が、1970 年代中ごろから,query: 불교와 화이트헤드 간의 대화는 하와이대와 과정연구소 간에 1970년 대 중반부터 시작되었다,kor_Hang,kor_Hang,0.0
+345,query: 2つ目的手段是........... ,query: 기술 확보를 위해 흔히 사용됐던 두 번째 방법은 대학 교육이었다. 젊은이들은 아메,kor_Hang,kor_Hang,0.0
+346,"query: 而日前,福特新能源表示,......... ","query: 25일 자동차업계에 따르면, 현대·기아차 영업소들은 스포티지의 경우 기존 차값",kor_Hang,kor_Hang,0.14285714285714288
+347,"query: 《 包丁 》 2020, 市場分析, 應用, 景況感, 產量","query: 통조림 시장 보고서 2020 : 크기, 동향, 경쟁 분석, 유형, 응용 프로그램, 제조",kor_Hang,kor_Hang,0.17391304347826086
+348,query:..............,query: (특정 쇼핑몰 제휴와는 상관없이 직접 구매한 제품에 대한 리뷰입니다. #내돈내산,kor_Hang,kor_Hang,0.0
+349,query: 本稿采用了........... ,"query: ""블록에 맞춰 데이터를 암호화하는 새로운 의사 무작위 방법이 발표되었습니다. 이 방법",kor_Hang,kor_Hang,0.0
+350,query: 焦點 - 焦點 - 焦點 - 焦點 - 河南省新型冠状病毒肺炎疫情,"query: 잦은 화재 ESS, 울산서도 63개 가동 중 불안감 증폭 - 울산신문 승인",kor_Hang,kor_Hang,0.125
+351,"query: 青年人,一定要具备超前端的硬件体系! | 柳州文化产业中心 | 2018/04/13 · 柳州","query: 청년 문화상점엔 슈퍼바이저 시스템이 갖추어져야! (3),(4) | 인천광역시 마을",kor_Hang,kor_Hang,0.2608695652173913
+352,query: 对于 混音 而增进的音符 而增进的音符 には哪些ものがある呢? 1 、,query: 음악을 더욱 풍성하게 하기 위한 동반음 또는 반주라고 할 수 있는 것에는 여러,kor_Hang,kor_Hang,0.0
+353,"query: 本展会的展位, 2014 、 2014 、 2014 的.....","query: 갤러리 도스, 나점수 <The Korean>展 14.11.24 갤러리 도스에서 2014",kor_Hang,kor_Hang,0.2222222222222222
+354,query: 2020/10/30 · 2020/10/30 · 滴滴科技(中国)的新生代电动汽车创业者 | empress.com ,query: [서울신문] 기사회생하는 중국 전기차 스타트업들 입력 :2020-10-03 10:00ᅵ 수정 : 2020-10-03,kor_Hang,kor_Hang,0.0
+355,query: 釜山高新技术企业与工信部达成合作协议 https://www.kamura.gov.cn/ - ,"query: 한국산업인력공단, 캄보디아 채용전문컨설팅업체와 협약 체결 - 재외동",kor_Hang,kor_Hang,0.15384615384615385
+356,query: 1、腹筋運動的動画欲しい / / / / / / / / 腹筋運動,query: 홈트레이닝영상이나 운동추천 : 지식iN 홈트레이닝영상이나 운동추천 1.쇄골만드는 운동 (상,kor_Hang,kor_Hang,0.0
+357,query: 除此之外 lockdown 之后 lockdown 之后 lockdown 之后 lockdown 大火将日内,query: 특히 가상축구 열대야도 말복인 금요일 이후 주말부터 누그러질 것으로 내다,kor_Hang,kor_Hang,0.0
+358,query: 7日午前 9時30分ごろ、 JR 星日本線の乗船員 1名で上り格納場があります。 ,query: 오늘 오전 9시 40분쯤 7호선 사가정역 온수방향 승강장에서 승객 1명이 지하,kor_Hang,kor_Hang,0.0
+359,query: 核心提示: 3.net 的.net.net 的.net.net 的.,query: '바보' 카테고리의 글 목록 (3 Page) 네이버 타이머 사용 대형 포털사이트는 숨,kor_Hang,kor_Hang,0.0
+360,"query: Patent Purchaser shall become a Public Trial (PPH),而特許執法 (PPH) ",query: Patent Prosecution Highway (PPH) 는 출원인이 심사가 이루어져 특허등록이 될 ,kor_Hang,kor_Hang,0.3333333333333333
+361,query: 高危人群的交通方式有哪些?????????? ,query: 고령자 무단횡단 사고 원인은?...차량과 거리 짧은 상황에서 횡단 시,kor_Hang,kor_Hang,0.14285714285714285
+362,query: 本篇分享了 kyoset 的操作方法 。 kyoset 的用途 。 kyoset,query: 치킨스톡 활용방법에 대해 알려드리려 합니다. 치킨스톡이란 서양의,kor_Hang,kor_Hang,0.0
+363,query: 荊門座談 荊門座談 荊門座談 荊門座談 www.exopress.com mobile,query: 평택오피 태평역 오피 remain 오피 연락 pray 오피 휴게텔 차이 connect 돌격 넥서,kor_Hang,kor_Hang,0.0
+364,query: XF-M11 Lens Module とは Variable Frequency Sensor (VRM) 和 Redundant Clock (DC) ,query: XMC-FRM11은 Base Camera Link 카메라 또는 LVDS(Low Voltage Differential Signal) 센,eng_Latn,eng_Latn,0.14285714285714285
+365,query: 《新能源车的代价要合理》 - 日刊财经 - 日刊财经 [article] - ,"query: [자동차칼럼]전기차 보조금, 전략이 필요하다 - 전자신문 [자동차칼럼]전기차 보조",kor_Hang,kor_Hang,0.3529411764705882
+366,query: 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 x 3 |上班族,query: 직장인 × 3 포즈 - 스톡일러스트 [43339366] - PIXTA 직장인 × 3,kor_Hang,kor_Hang,0.15384615384615383
+367,"query: 近些年,本系列商品的銷量 、銷量 引起了 美菱菱的迫力 。",query: 히타치미니굴삭기의 이런 힘과 동작이 최근 국내 판매량에 많은 영향을 주,kor_Hang,kor_Hang,0.0
+368,query: 蝙蝠的生命体具有 3D 和 3D 的交叉性。而阿尔伯特型蠕动器,query: 뱀형 로봇은 일반적인 바퀴형 이동로봇과 운동 메카니즘이 상이하며 다관절,kor_Hang,kor_Hang,0.0
+369,"query: 高熱症的早期治愈には, 首腔癌を解剖することが必要です。 そのため, ganapham による",query: 고주파 열 치료는 암세포를 열로 태워 없애는 것이다. 초기 간암에서 완치,kor_Hang,kor_Hang,0.0
+370,query: 天文一族的中学生激怒了! ” ” ” ” ” ” ” ” ,query: 한 네티즌(빨간연필 일베회원)은 “휘문고 학생을 보니 태극집회,kor_Hang,kor_Hang,0.0
+371,query: 本院的案例及案例交流 : 臨床心理咨询的案例及案例 : 臨床心理咨询的案例 :,query: 상담학 연구: 사례 및 실제 게재신청 상담학연구는 한국상담학회의 기관지입니다,kor_Hang,kor_Hang,0.14285714285714288
+372,"query: 內にいる時, 自己的想法, 或 怒鳴, 或 鼓舞, 或 ","query: 멕시코에 머문 내내 화를 내거나, 목소리를 높이거나, 누군가를 탓",kor_Hang,kor_Hang,0.125
+373,query: 《和室》的喜剧来了! | 新闻资讯 | www.dailynews.co.jp | 2018年6月,query: [뉴스와 현장] 여름 극장가를 기대한다 /이원 : 국제신문 [뉴스와 현장],kor_Hang,kor_Hang,0.0
+374,query: 今日は、フライス食品が大口になる! この記事では、フライス食品って? - e-daily.co.jp,query: 오늘 당신이 먹은 음식에 플라스틱이...? - 웰리스뉴스 플라스틱은 편,kor_Hang,kor_Hang,0.23529411764705885
+375,query: '方程式(方法)'の検索結果には18件あります。 '方程式(方法)'への検索、意見,query: '방법'에 대한 검색결과 8개 방법와(과) 일치하는 검색결과가 없습니다. 그래픽,kor_Hang,kor_Hang,0.19047619047619044
+376,query: 11月15日 魔幻大戰 如何守備魔幻大戰呢?下面的小編來告訴你! ,query: 마법덱은 마지막 보스를 위해 아껴두세요. 11월 클랜전 간단공략 프린,kor_Hang,kor_Hang,0.0
+377,query: 2018.07.27 2022.07.27 2022.07.27 2022.07.27 2022.07.27 綜合報導 7700SPORT,query: 78557586 1072022100178557586 05 0506003 sports 7.2.19-RELEASE 107 스포티비뉴스 -1 0,kor_Hang,kor_Hang,0.0
+378,query: 3D Spaces - Astrometry - 3D Spaces - 3D Spaces - 3D Spaces -,query: 토성 - 3D Astronomy - 3D Space 토성 (26107 views - Astronomy & Space ) 토성,eng_Latn,eng_Latn,0.28571428571428575
+379,"query: 2020 的 iex 时代中,恋爱的契机感满满了。但是对 iex 的交友",query: 코로나 시대에 이성의 만남의 기회가 쉽지 않아 소개팅 어플을 둘러보던 중 별표,kor_Hang,kor_Hang,0.0
+380,query: gdgdgdgdgdgdgdgdgdgdgdgdgdg,query: 그랜져TG 베이지색 중고 사제네비게이션매립세트 - 옥션 그랜져TG 베이지,kor_Hang,kor_Hang,0.0
+381,query:............. 购买,query: 모니터 구매의 마지막 단계인 영상 테스트에서 꼭 참고하시면 됩니다. 테스트할때,kor_Hang,kor_Hang,0.0
+382,"query: 近日,新乡市对聚氯乙烯防腐剂使用使用禁令公告 - 方物网 http://www","query: 합천군, 불법 주방용 오물분쇄기 사용금지 및 인증 제품 사용 당부 [경남",kor_Hang,kor_Hang,0.09523809523809525
+383,"query: 在定州市内,140 名发酵者がいる。其中,韶山,永清,清流,護原,","query: 도내 양파 주산지인 함양, 산청, 합천, 창녕, 의령지역 등 1540명의",kor_Hang,kor_Hang,0.1111111111111111
+384,query: 《男爵的游戲》 - 南投 - 南投 - 南投 - 导读,query: 뮤지컬 배우 남경주 - '남경주'를 여행하다 - 트래비 매거진 ,kor_Hang,kor_Hang,0.14285714285714288
+385,query: 《西装布展者모집》 《西装布展者모집》 《西装布展者모집》 ,query: 주부서포터즈 서포터즈 서포터즈모집 뷰티서포터즈 패션서포,kor_Hang,kor_Hang,0.0
+386,"query: g, g, g, g, g, g, g, 旌祥, 旌祥","query: 객사, 고창읍성, 관청, 동헌, 맹종죽, 풍화루, 향청 이 성",kor_Hang,kor_Hang,0.15384615384615383
+387,"query: 日剧《狂野》中, 埃蒙托 第一次遇见了, 童年になると, ","query: 한밤 중, 멕시코 소년 안토니토는 난생 처음 축제를 보러 당나",kor_Hang,kor_Hang,0.12500000000000003
+388,"query: / / / / / / 近日,惠州市大中小学校开展了新课题《方言",query: [충북일보] 충주 미덕중학교 또래상담반이 최근 대안교실 자아성장 프로젝트,kor_Hang,kor_Hang,0.0
+389,query: 我不喜歡吃這麼美味的......... ,query: 저는 이렇게 사랑스러운 음식을 먹게 되지 않습니다. 완전히 느낌 이 멋진 작,kor_Hang,kor_Hang,0.0
+390,query: 前述商品的배송金額.......... ,query: 해외배송비는 판매자가 등록한 상품 상세정보를 기준으로 산정됩니다. 최종 해외배송비는 주,kor_Hang,kor_Hang,0.0
+391,query: 大韓民国 PGE の放送&amp;amp;amp;amp;amp;amp;0183;&32; ,query: 북가주 한인 라디오 방송국 l 한미 라디오 AM 1120 » PG&E는 ,kor_Hang,kor_Hang,0.1
+392,query: Welcome to epvn.com - 每日电台 - 每日电台 - 每日电台,"query: 세븐 PC방 : 대화역 세븐 pc방 평일 야간 모집합니다. - 알바천국, ",kor_Hang,kor_Hang,0.11764705882352941
+393,query: シューファクトリーの新大衆である snoop brothers が加盟することになりました。 ヘアー、ディフューザー,"query: 스웨덴 세탁소, 김지수 등이 소속돼있는 쇼파르뮤직의 신인 듀오다.",kor_Hang,kor_Hang,0.0
+394,"query: <?xml:namespace prefix = ""urn:schema.org"" = ""urn:schema.org"" = """,query: 광주·구미 이어 '밀양형 일자리'.. 3500억원 직접투자 - 머니투데이 뉴스 광주,kor_Hang,kor_Hang,0.0
+395,query: 最近............. ,"query: 요즘 간만에 새로운 취미가 생겼습니다. 와우도 깔짝깔짝, 리니",kor_Hang,kor_Hang,0.0
+396,query: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀,query: 9이닝 먹튀검거 > 먹튀사이트 먹튀검증업체 | 먹튀돌발이 - 토토커뮤니티 먹튀검증 먹튀신고 안전놀이터,kor_Hang,kor_Hang,0.0
+397,query: 13 歲的生日對方 a gift を求めていますか? 13 歲的生日對方 a gift を求めています,query: 30번째 번째 생일을 맞은 친구에게 줄 선물을 찾고 계십니까? 나이 삼십을 맞,kor_Hang,kor_Hang,0.1
+398,query:..............,query: 수도를 넘나들었던 예멘 보안군에 거짓말을 하고 있습니다 - otimes.xyz 항구,kor_Hang,kor_Hang,0.0
+399,query: (株洲) ) ) ) ) ) ) ) ) ) ) ) ),query: (상장전투자유치) 투자를 받았다. 국내 벤처캐피탈 3곳을 비롯해 상,kor_Hang,kor_Hang,0.28571428571428575
+400,query: 2008/06/08 08:00............,query: 멀티라이터 2008. 8. 20. 10:00 학주니 우오.. 한RSS 1000명 돌파~ 축하드립니다,kor_Hang,kor_Hang,0.0
+401,"query: 《旺旺全日制》发布新功能! 《旺旺全日制》发布,用戶对工作架构","query: ""매장 일하는 방식 바뀐다""...알바체크, 비대면 업무관리 앱 정식 출시",kor_Hang,kor_Hang,0.10526315789473682
+402,query: 本文章中使用的是 Early Transforming Model (BiT) という概念的培訓教材である. Big Image ,query: 이 글에서는 전이 학습을 위한 사전 훈련된 이미지 모델 모음인 BigTransfer(BiT),kor_Hang,kor_Hang,0.23999999999999996
+403,query: 建筑物的隐藏性を高める / 大安工贸有限公司 2018 / 大安工贸有限公司通过捐赠,query: 반구대 암각화를 새긴 제품으로 문화재의 가치를 알리다 공단 상생협력관 참여기업 (,kor_Hang,kor_Hang,0.0
+404,"query: 对于赵丽颖的人气强人吗?,,,,,,,, ","query: 박보영은 인기, 연기력, 미모 삼박자를 갖춘 배우 아니겠나. 사회 초년",kor_Hang,kor_Hang,0.13333333333333333
+405,"query: 《政府工作报告》では,政治的牢固性, / / / / / / /","query: 정부는 '사상·신념, 노동조합·정당의 가입·탈퇴, 정치적 견해, 건강,",kor_Hang,kor_Hang,0.16666666666666666
+406,query: 首页 > 全國网 > 国家信息中心 > 人社部公告 > “包容型”和“虛擬,"query: 경상일보 모바일 사이트, '무료지원' 큐넷·대한상공회의소·국가자격증 종류 ",kor_Hang,kor_Hang,0.0
+407,"query: 前 1 周的 M.B.S 发布会引起了各大品牌方的联络,而这些品牌方聚合",query: MBS 코퍼레이션이 지난 몇 달간 진행한 각 브랜드의 홍보대사들이 한데 모여 서,kor_Hang,kor_Hang,0.0
+408,"query: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 在新型冠状病毒感染的肺炎疫情中,",query: 삼성전자(005930)가 코로나19로 더욱 어려워진 환경 속에서 교육을 받고 있는 난민촌,kor_Hang,kor_Hang,0.0
+409,query: 前の記事............ ,query: 차원이 다른 환승을 경험하세요 공지 사항 : 비필수 업종에 대한 규제 요건,kor_Hang,kor_Hang,0.0
+410,"query: 2019年5月5日, 晴天, 是名月的季节, 但是精靈的山","query: 5월은 계절의 여왕이라 불릴 만큼 산천초목이 아름답게 피는 달이지만,",kor_Hang,kor_Hang,0.13333333333333333
+411,query: Warning: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 向日葵,query: 위드모르장난감 작성자소방차 조회 7회 작성일 2021-05-13 15:33:33 댓글 0 예준이의,kor_Hang,kor_Hang,0.14285714285714288
+412,query: 人感あふれるミニキッチンをデザインする | mifi | mifi | ブリイィ | ファイアーエムブレム |,query: 비우는 마인드를 실천하는 미니멀리즘 인테리어 | 호미파이 & homify | 호미파이,kor_Hang,kor_Hang,0.14285714285714285
+413,query: / / / / / / / 安庆市工信局关于湿原废物处置设施,query: 평택시는 어연·한산 산업단지 의료폐기물 소각시설 관련 추진방향 및 입장 등 수,kor_Hang,kor_Hang,0.0
+414,query: 1............. ,query: 안녕하세요 네이버 처음 검색창 이후 검색 누르면 검색한 페이지로 이동 되는데 검색한 사이트 들어가,kor_Hang,kor_Hang,0.0
+415,query: Ng San chinese mp3 ダウンロード - Ng San chinese mp3 ダウンロード - Ng San chinese mp3 ダウンロード,query: 중국어 mp3 다운로드 - Gennari 중국어 mp3 다운로드 마마 리사는 다운로드 할 수있는 가사와 중국 노,kor_Hang,kor_Hang,0.2222222222222222
+416,query:..............,query: 이벤트122 [이벤트] 든든한 H.E.R.O 퀴즈 이벤트 설문지 제출 👉 https://,kor_Hang,kor_Hang,0.125
+417,"query: 單元 的构造 而物系 的构造 而物系 的整合 之后,要想理解",query: 구성 요소 간의 관계를 확인하고 그 관계에 대한 모형을 만들면 단순한 시스템과 혼잡한,kor_Hang,kor_Hang,0.0
+418,query: 以上就是能源的優點.......... ,"query: 중요한 사항만 꼽아본다면 <에너지 효율 지표>에는 석유, 석탄 등 에너지",kor_Hang,kor_Hang,0.0
+419,"query: - 青年政策的首脑会議,2017年大幕を迎える。 - http://www.mysmart.com/","query: 청년정책 끝판왕, 2017 서울 청년의회 본회의를 가다. :: 멀티라이프의 멀티로그",kor_Hang,kor_Hang,0.11764705882352941
+420,query: <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br,"query: <타워>, <안녕, 인공존재!>의 작가 배명훈의 첫 장편소",kor_Hang,kor_Hang,0.25
+421,query: ” 本党では6月15日の民進党記者会見において、反乱暴事件に関する陈列文案について,query: 더불어민주당 허위조작정보대책특별위원회는 지난 1일 국회 정론관에서 기자회견을 열고 “,kor_Hang,kor_Hang,0.0
+422,query: LG Electronics が6月30日、格安スマホの実用化について発表しました。 “LG プレリューション” は、,query: LG전자가 휴대전화 사업을 종료한다고 5일 공시했습니다. LG전자는 “최근 프리미엄 휴대,kor_Hang,kor_Hang,0.10526315789473685
+423,query: 1 或 3 的 Pair is receiving the card. 2 或 3 的 Pair is receiving the card.,query: 은행가의 점수가 0 ~ 2 인 경우 세 번째 카드를받습니다. Banker 또는 Participant,kor_Hang,kor_Hang,0.16
+424,query: Home > 学术刊物 > I.I.I.I.I.I.I.I.大会的学术刊物,query: 학술위원회 > 일곡기념사업회-학술위원회 > 제9회 일곡유인호학술상,kor_Hang,kor_Hang,0.22222222222222224
+425,query: 警視庁(警視庁)が赤城村(赤城村)の建物への買入を推進する中、,query: 횡성군이 횡성읍의 (구)횡성새마을금고 건물매입을 추진하는 것으로 알려졌다,kor_Hang,kor_Hang,0.25
+426,query: 第 38 個歐洲的.......... ,"query: 평균 미국 변동과 Eu 유형, 후자의 경우 38 점 중 1 점에 추가하여 첫 번째 종류의",kor_Hang,kor_Hang,0.09523809523809523
+427,query: 《人文的外人 / 公共的外人 / 人文的外人 / / 》作者:,query: [인문학 칼럼] 공공디자인과 사람을 보는 안목 /강영조 : 국제신문 [인문학 ,kor_Hang,kor_Hang,0.11764705882352942
+428,query: みやげエクスプレスの本店(名駅)です。 みやげエクスプレスは非売品です。 みやげエクスプ,query: 미도리스시(미도리즈시)의 본점인 우메가오카 본점입니다.관광지가 아니기,kor_Hang,kor_Hang,0.25
+429,query: La Chambre des Trois Trois Trois Trois - 巴塞罗那 - 巴塞罗那酒店 ,"query: 라 메종 다 코티, 루아르에셰르 | 익스피디아 호텔 예약 02-3480-0166 Expedia.",kor_Hang,kor_Hang,0.0
+430,"query: 3つのOS: iPhone (3.0) / iPad (3.0) / iPod touch (3.0), iPhone 3GS,","query: OS: iPhone OS 3.0.1 (iPhone 3GS), iPhone OS 3.0 (iPod touch) - 두 버전의 유일한 ",others,others,0.6666666666666665
+431,"query: 使用 win7 或者 win8 的 firefox 操作了,但是,鼠标的空洞 时,不要翻","query: 별거 아닌거 같지만, 윈도우 탐색기 사용할때 마우스로 휠다운으로 내리",kor_Hang,kor_Hang,0.0909090909090909
+432,query: louis vuitton dp - new - デニムバッグ - こちらの商品は在庫が無い場合がございます。 可購入可購入 ,query: 다뉴브 PM 에피 - 가방 | 루이 비통 다뉴브 PM 구매 가능 현재 재고 없,kor_Hang,kor_Hang,0.09523809523809525
+433,query: 驚異の放散人 - エンタープライズエンタテインメントへようこそ! - 洞爺さん ,query: 집사부일체 펜싱 어벤져스 숨겨둔 예능감 대방출 | 텐아시아 ',kor_Hang,kor_Hang,0.0
+434,query: ♍️/ ♍️/ ♍️/ ♍️/ ♍️/ ♍️/ ♍️的,"query: 글로리아 물병자리 초승달, 보름달 운세 (2021/3/15 ~ 2021/3/31) :: * De Ma",kor_Hang,kor_Hang,0.0
+435,query: - 東南アジアの儲産率99%になる! - 東南アジアの儲産率99%になる! -,query: 수익률 최고 98%... 해외부동산 펀드 떴다 - 중앙일보 수익률 최고 98%... 해외부동산,kor_Hang,kor_Hang,0.26666666666666666
+436,query: 4 / / / / / / / / / / / / / ,query: 주사하다 注射-- 주사하다4 「...에/에게...을」 약액을 주사기에 넣어,kor_Hang,kor_Hang,0.0
+437,query: Home / すべての時事 / ビジネス / すべて / すべての時事 / すべて / ,"query: 시계의 모든 것, 스와치 현재 위치:홈 / 모든 글 / Business Essentials / 시",kor_Hang,kor_Hang,0.10526315789473682
+438,query:'-'-'-'-'-'- 澳門酒店,query: 애틀랜타 호텔사업 전망 '매우 맑음' - 로컬 - 애틀랜타 조선,kor_Hang,kor_Hang,0.0
+439,query: r r r r r r r r r r r r r r,query: 허허거리며 웃어 버렸다. 하지만 자신들 역시 그런 존재와 싸우라면 거절,kor_Hang,kor_Hang,0.0
+440,query: Lienpin 是德國的傳統包裝品牌....... ,query: 리앙빈 본사는 당일 로스팅과 당일 배송을 원칙으로 하고 있으며 독일 명품,kor_Hang,kor_Hang,0.0
+441,query: ベンペン 劇団 | ベンペン 劇団 | ベンペン 劇団 | ベンペン 劇団 |,query: 익스팬디드 시네마 | 익스팬디드 시네마 장편 | 벤 러셀 | Ben,kor_Hang,kor_Hang,0.2
+442,query: 《逆空の灯台》へようこそ! - 書画大刊 - 書画大刊 -,query: 활판인쇄 초승달당: 별들의 책갈피 - 교보문고 원서 : 活版印刷,kor_Hang,kor_Hang,0.15384615384615383
+443,"query: '10年前,禁戰!' - 相關討論 '10年前,禁戰!' - 手游和","query: ""10년전 규제악몽? 만화-게임 같이 싸우자"" - 게임톡 ""10년전",kor_Hang,kor_Hang,0.11111111111111112
+444,query: 6月16日のLBC全勝決定! 大迫場となる! 大迫場となる! 18、18、19、,"query: '최강자만 모았다' LG배 본선 개봉박두! 본선 32강, 16강전이 6월",kor_Hang,kor_Hang,0.13333333333333333
+445,query:........ 但是耶穌基督的悲剧故事中有很多,query:... 그래도 성경 속 예수님의 이적 일화는 참 넘기 힘든 고개입니다. 저희,kor_Hang,kor_Hang,0.2105263157894737
+446,"query: 阿勒泰集团旗下的 RFID 特种盒,今年迎来了 15 周年。 RFID 特种盒, ",query: 올해로 15년째를 맞이하는 국내 대표 RFID 특수태그업체인 알에프캠프. 14,kor_Hang,kor_Hang,0.11764705882352941
+447,"query: 前一篇关于“半导体” 的文言,2020 年刊登的《诺丁格’, ","query: 《문예춘추》에 ‘포스트 언더그라운드’라는 제목으로 연재했던, 『언더",kor_Hang,kor_Hang,0.22222222222222224
+448,"query: 本篇文章 https://www.youtube.com/channel/U19 艾迪普打破了疫情的重中之重,",query: [휴먼에이드포스트] 유튜브로 진행되는 은 코로나19 시대를 견뎌내는 또,kor_Hang,kor_Hang,0.0
+449,query: Home / エレクトロニクス / 大風扇 / エレクトロニクス の商品一覧です。,query: 홈 > 제품 리스트 > 엘리베이터 환풍기 (에 대한 총 24 제품 엘리베이터 환풍기,kor_Hang,kor_Hang,0.0
+450,"query: 地震局表示,4日的重地方程式は 5 时 19 分、 6 时 19 分,","query: 카나다지진국에 따르면 4차례 지진은 각각 현지시간 8시 44분, 11시 13",kor_Hang,kor_Hang,0.10526315789473685
+451,"query: エスコンバ(Esconba) - Confort Suites - エスコンバ(Esconba), ","query: 컴포트 스위트 에스커나바 (Comfort Suites Escanaba, 에스커나바) -",kor_Hang,kor_Hang,0.5555555555555556
+452,query:..............,query: 사료라이브러리 > 청계중일한사료 >청일전쟁 이전 조선과 각국의 관계(甲午,kor_Hang,kor_Hang,0.0
+453,"query: <?xml:namespace prefix = ""urn"":schema.namespace prefix = ""urn"":schema.namespace prefix ","query: [정치][키워드로 보는 대선정국] ""그렇다면 여기까지""...이준석, 의미심장",kor_Hang,kor_Hang,0.16
+454,"query: 安直衛星の支援 - a href="""" target=""_blank"">NATO 1941 - a href="""" target=""_blank",query: 항공기 An124-Meta-Defense.fr 꼬리표: An124 평면 NATO를 돕는 우크라이나,kor_Hang,kor_Hang,0.0
+455,query: 人聴くべき、聞くべき、聞くべき 編 編 編 編 編 編 編 編 ,query: 나에게 듣기는 듣기만하면된다. – WRAP 나에게 듣기는 듣기만하면된다. 최,kor_Hang,kor_Hang,0.0
+456,query: IGD – IGD – IGD – IGD – IGD – IGD – IGD – 巴塞罗那的特殊,query: 왜 Pick 이 특정 종류 Baccarat - İGD - İstanbul Gazeteciler DerneğiİGD – İstanbul Gazeteciler Derneği,tur_Latn,tur_Latn,0.125
+457,query: <br><br><br><br><br><br><br><br><br><br><br><br><br><br,query: 공민지뢰 - 구스위키 2NE1의 CAN'T NOBODY 뮤직비디오에서 공민지가,kor_Hang,kor_Hang,0.0
+458,"query: 2018年04月24日 0 0 0 0 0 0 本报记者 郭建民 2018年04月24日,韓流",query: 2017.11.24 10:13 김은영 객원기자 김난도 서울대학교 교수가 '2018 대한민국 트렌드,kor_Hang,kor_Hang,0.0
+459,"query: "".............................................................................. ","query: ""에... 에? 그게 무슨....""""예, 그만 보고 전부 앞으로 가!"" 강원",kor_Hang,kor_Hang,0.10526315789473684
+460,query: 使用 ASAP Cloud Service 的新手用户需要了解以下方面的知識?????? ,query: 새 표준 계정 사용자라면 SAP Ariba 고객 지원의 서비스를 이용하는 방법을 알아야 합니다. 본인의 계,kor_Hang,kor_Hang,0.0
+461,"query: 前 header 張大軍(左), 余春松(右), 余春松(左","query: (사진 왼쪽부터) 이순걸 울주군수, 김두겸 울산광역시장, 김준 SK",kor_Hang,kor_Hang,0.3
+462,query: この質問で、Glucan のHPA を補充できますか? Glucan のHPA は人流回復,query: 알파-GPC가 콜린을 보충하는데 도움이 됩니까? 알파 GPC는 현재 알,kor_Hang,kor_Hang,0.125
+463,query: 大泉 丹丹 への商品の一覧ページです。 大泉 丹丹 への商品の一覧ページです。 23 ,query: 도매 계란 국수 홈페이지 > 제품 리스트 > 도매 계란 국수 (에 대한 총 23 제품 도,kor_Hang,kor_Hang,0.11764705882352941
+464,query: / / / / / / / / / / SM Entertainment官方近日發布消息称,"query: SM엔터테인먼트 관계자는 5일 오전 OSEN에 ""소녀시대 멤버 9명 전원이 오늘 &apos;",kor_Hang,kor_Hang,0.0
+465,query: 你是个特殊的人吧。.......... ,query: 죽긴 개뿔 ᄏᄏᄏ 좀 특별한 케이스다.. 인간들중에 니들이 특별한 케이스 인,kor_Hang,kor_Hang,0.0
+466,query: Home - 大法官中的“大囚禁” - 大法官中的“大囚禁” - ,query: 대안 없는 '독일대안당'의 위험한 대약진 - 시사저널 대안 ,kor_Hang,kor_Hang,0.13333333333333333
+467,"query: 2017 日新月异的 earflap 再次激动人心了。对于 earflap 的粉丝来说,",query: 매번 신나는 노래로 대중을 들썩이게 했던 셀럽파이브는 이번에도 색다,kor_Hang,kor_Hang,0.0
+468,"query: 4 大结论 : 对性的需求(and expectations) - 本篇中,我们谈论的是",query: 비 (非) 보육 : 연구에서 우리에게 말하는 것 남자와 섹스에 관한 4 가지 신화 기대,kor_Hang,kor_Hang,0.27586206896551724
+469,"query: 聖誕節 1月19日 聖誕節 1月5日 耶穌的母親和義大利, 物",query: 유월절 크리스마스 일요일 하나님의 교회 안식일 예수님 성령과 신부 어머니 하나,kor_Hang,kor_Hang,0.0
+470,"query: 本通知中,余地技工的申请信息,并通过电子方式提交 。但是,通过下列","query: 상주기술지도 신청은 온라인으로만 접수받으며, 신청절차에 따라서 해당 항목을",kor_Hang,kor_Hang,0.13333333333333333
+471,query: 前のページへ 1|2|3|4 次のページへ ヘッドギア (hh) 製品一覧 ヘッドギア (hh,query: 홈 > 제품 리스트 > 경량 기어 헤드 (에 대한 총 20 제품 경량 기어 헤드) 경량 기,kor_Hang,kor_Hang,0.18181818181818182
+472,"query: ニュース 前, ブライアン 大統領に初当選した, ブライアン 大統領(federal presiden)","query: ▲ 바이든 당선인, 첫 국무장관에 블링컨 내정 바이든 미국 대통령 당선인이 토니",kor_Hang,kor_Hang,0.0909090909090909
+473,query: COVID-19 波士顿州的提名和议程延长が決定しました! COVID-19 波士顿州的提名,query: 카운티 위원들 투표 거쳐 행정명령 연장 의결 해리스카운티가 코로나 19 지역,kor_Hang,kor_Hang,0.0
+474,query: 1、申请文档的填写并使用 STEP01 STEP02 STEP03 STEP03 申请文档的受理,query: STEP 01신청서 작성신청서를 다운로드하여 작성해주세요STEP 02사용신청서 제출작성한 신청서를 메,kor_Hang,kor_Hang,0.0
+475,query: 如果我有官司的通報????????? ,query: 업무를 보고 있으면 “지금 동의보감이나 다른 국보를 볼 수 있나요?”라는 전화,kor_Hang,kor_Hang,0.11764705882352941
+476,query: 6 月 27 日 / / / / / / / / / / /,"query: 기사 (6,736건) 현직 교사 양은석 지은 '프로젝트 수업 매뉴얼' 출간 양",kor_Hang,kor_Hang,0.0
+477,query: arooms.co.uk - Hostels.co.uk - Hostels.co.uk - Logis ,query: 아드로선 - Hostels - Dorms.com ® Hostels kr.Dorms.com 호스텔 영,kor_Hang,kor_Hang,0.16666666666666666
+478,query: 06/09/04 - 中秋节的旅游合作方针 - 中秋节的旅游方针 - 王,"query: 국경절 황금연휴 양안 관광합작, 황금통로의 가교 역할 [2008-09-10] 양안 관광",kor_Hang,kor_Hang,0.0
+479,"query: Jul 20, 2015 · Download eBooks - エッフェルプス - Download eBooks - エッフェルプスから食",query: 도서정보 : 한스 울리히 | 2001-08-30 | EPUB파일 먹는다는 것이 점점 공포스,kor_Hang,kor_Hang,0.0
+480,query: <!- - - <!- - - - <!- - - - - 韓國美食,query: ::: 최신 일본 정보가 가득! JAPANPR.com - 기획특집 - ::: 홋카이도 맛기,kor_Hang,kor_Hang,0.26666666666666666
+481,query:..... 2021年3月份新校级新生的入学情况... ,query: ■ 관내 각급학교 신입생 현황 보면...신학기가 시작되는 3월을 앞두고 2021학년,kor_Hang,kor_Hang,0.11764705882352941
+482,"query: 内容提要: https://www.google.com/dayshift/ 本書的編者方舟, 働き方改革、","query: 도서:일하는 방식의 전환, 구글워크스페이스 활용 가이드 저자- https://bit.ly",kor_Hang,kor_Hang,0.3157894736842105
+483,query: news.fc.co.uk / ニュールックやリッチーの新体制への提言 / ニュールック、,"query: 인터풋볼 모바일 사이트, '맨유 이적설' 롱스태프, 뉴캐슬과 장기 재",kor_Hang,kor_Hang,0.0
+484,query: 遊戯王 で 記憶をストリーミングする方法について紹介します。 Flash Player で 記憶をストリーミングする方法,query: 프로그레시브 잭팟으로 빙고 게임을하는 방법. 슬롯을 재생하기 위해 암기 할 기술이,kor_Hang,kor_Hang,0.0
+485,query: | | | | | | | | | | | | | | | | | | | | | | | | | | | |,query: [교육학] 대학통합에 대하여 || 레포트 > 교육계열 [교육학] 대학통합에 대하여 레포트 >,kor_Hang,kor_Hang,0.0
+486,query: 《流星人》的 cp o o o o o o o o o ,"query: '세젤예' 홍종현 만난 유선, 김소현에 러브라인 적극 권장...",kor_Hang,kor_Hang,0.0
+487,query: 本篇文章的重點: / / / / / / / / / / ,query: 남북한관계론 A+프리미엄 자료탑재 주제 : 북한의 이중성과 고려연방,kor_Hang,kor_Hang,0.18181818181818182
+488,"query: 2018年4月19日, 5月26日, 5月26日, 多措并举召开了南",query: 매년 봄과 가을 두 차례 진행되는 내포 도보성지순례는 지난 5월 1일 열,kor_Hang,kor_Hang,0.0
+489,query: 5月25日 17:25 gds.jp gds.jp gds.jpが25日から配送,query: 등록 2020.05.27 12:07:26 GS리테일이 운영하는 편의점 GS25가 5월 26일부터 GS25 택배 서비스,kor_Hang,kor_Hang,0.0
+490,query: 汕尾人さんの個人定格はありますか? | 汕尾人さんの個人定格はありますか? | 汕尾人,query: [창원개인회생]프리랜서도 개인회생? [창원개인회생]프리랜서도 개인회생? 머리,kor_Hang,kor_Hang,0.18181818181818182
+491,query: 禰多男 のタグをつけてみよう! // 禰多男 のタグをつけてみよう! // 禰多男,query: '겨드랑이제모' 태그의 글 목록 겨드랑이제모 (6) 남자겨드랑이,kor_Hang,kor_Hang,0.0
+492,"query: 再次回來了。 何事而全, 何事而真, 何事而全。 的工作日勤","query: 다시 오랜만에 돌아왔습니다. 실무를 하면서, 아니 실무를 하니 일만해서 매번",kor_Hang,kor_Hang,0.11764705882352942
+493,query: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 金正恩的,query: 99%가 1%를 뽑는 날 :: 자유칼럼그룹 99%가 1%를 뽑는 날 김영환,kor_Hang,kor_Hang,0.0
+494,query: 中国企业网 / 中国企业网 / / / / / / / 大清集团,query: [일요서울 | 신유진 기자] 최태원 SK그룹 회장이 대한상공회의소 회장으로 단독,kor_Hang,kor_Hang,0.0
+495,query: 6月18日の『抗日大解放70周年記念号』について www.yobonews.com www.yobonews.com,query: ▲ 8월 14일 ‘광복 76주년 기념 친일언론 조선일보 폐간 시민행동’이 온라인에서 열,kor_Hang,kor_Hang,0.0
+496,query: matttone 的肌肤色是什么? - 2018.04.18 - 2018.04.18 - 2018.04.18 - 2018.04.18 - ,query: 2018 팬톤 컬러에 어울리는 헤어 컬러는? - 머니S 2022.07.01 | 00:40:04,kor_Hang,kor_Hang,0.23529411764705882
+497,query:..............,query: 대중음악만이 아니다. 그보다 훨씬 규모가 큰 게임 시장의 경우도 사정은 비슷,kor_Hang,kor_Hang,0.0
+498,query: 2021-06-19 勞動力政策的改革方向について征求意见....... ,query: 자동차산업 미래차 전환에 따른 노동정책 수립방향 의견 나눠 등록 2021.07.09 18:19:10 [ ,kor_Hang,kor_Hang,0.0
+499,query: 日報 - 全日制、性平等の門檻はいつまで続く? - 日報 - イ,"query: [일다] 평등도, 인권도 없는 학교 성교육 언제까지? [잇을의 젠더 프리",kor_Hang,kor_Hang,0.10526315789473682

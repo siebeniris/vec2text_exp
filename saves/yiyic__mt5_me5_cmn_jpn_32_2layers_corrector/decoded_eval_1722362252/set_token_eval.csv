@@ -1,0 +1,501 @@
+Unnamed: 0,pred,labels,preds_lang,labels_lang,token_set_f1
+0,"query: 中秋風格的ウエディングドレス, 鮮やかな花柄が施されています, Jasmine Orchidea -",query: فستان زفاف أنيق بقصّة الأميرة من نسيج الميكادو، مُزيّن بالأزهار,arb_Arab,arb_Arab,0.0
+1,query: 穆斯林大會主辦人 Abdul Rashid Rahman 在10月20日推出了R20 - R20,query: رئيس القمة الدينية لمجموعة العشرين الشيخ د.محمد العيسى يطلق منصة R20 ,arb_Arab,arb_Arab,0.1111111111111111
+2,"query: 在 Islam and Social Sciences 中,佛教学院是不断增进一个大势所趋,吸引着大家的入门",query: تسعى كلية العلوم الإسلامية إلى تبوأ مكانة وسمعة مرموقة بين جامعات العالم، ,arb_Arab,arb_Arab,0.0
+3,"query: 今天,金正恩宣布了 10 名入党名單,其中包括 10 名非党籍,他说,Is",query: قال الرئيس التونسي، قيس سعيد، مساء اليوم الأربعاء، إن لديه قائمة بأسماء من نه,arb_Arab,arb_Arab,0.0
+4,"query: 什么是Alden Partitioning,Alden Partitioning 什么是Alden Partitioning,這是對基材進行深加工",query: عملية التصليد للمعادن ماهي عملية التلبيد أو عملية التصليد Sintering فى علم. عملية التل,arb_Arab,arb_Arab,0.0
+5,"query: Welcome to all members of the Islamic Republics, which is a respect for ""入侵""以及""合适的","query: العضوية في ""الأمم المتحدة"" مباحة لجميع الدول الأخرى المُحبة للسلام، والتي تأخذ",arb_Arab,arb_Arab,0.12121212121212122
+6,"query: 对于 有的人来说, 有很多 求法, 但是 他找不到想要進入 iDeFi ",query: هناك من يريد الربح من الانترنت لكن لم يجد طريقة تساعده في الربح نصرا لل,arb_Arab,arb_Arab,0.0
+7,query: 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 新疆伊拉克軍人在,query: وكالة هاوار نيوز الكردية : جيش الاحتلال التركي يقصف قرى عفرين بحوالي 100 ق,arb_Arab,arb_Arab,0.0
+8,"query: 今天,我给大家分享了一首新曲叫做 Idris Ahmad Iqbal, Idris Ahmad Iqbal 的歌曲大全",query: نقدم لكم اليوم كلمات أغنية جديدة من أغاني المطرب السعودي عيسى الكبيسي شاهدوا مع,arb_Arab,arb_Arab,0.0
+9,"query: 在 18 世纪中后期,他使用了 Islamic Army Armored Prison 和破碎了四周。",query: ثم استخدم في القرن الثامن عشر ثكنه عسكرية وهدمت أسواره القديمة وقضي على,arb_Arab,arb_Arab,0.0
+10,"query: 耶穌基督徒对伊斯兰大教堂的入侵非常严厉, Imam Al Azhar 指出,",query: الأزهر يدين اقتحام رئيس الاحتلال الإسرائيلي للمسجد الإبراهيمي.. ويحذر من خطورة انتها,arb_Arab,arb_Arab,0.0
+11,"query: 丹麥國務院副院長 Oleksandr Kozak 表示,今年是想要獲得 300 億歐元人民幣,",query: قال وزير العدل الأوكراني دنيس ماليوسكا إن بلاده تسعى للحصول على أكثر من 300 مليار,arb_Arab,arb_Arab,0.08695652173913045
+12,query: Sysinternals study reveals more opportunities for a shifting income - www.shikennews.com,query: دراسة سعودية تزيد من فرص علاج أمراض السمنة '); // } // else if (whichImage == 2) {,arb_Arab,arb_Arab,0.0
+13,query: 1............. ,query: تم الإنشاء بواسطة. يفتح كل ملفاتك مثل السحر! 1.... فتحه في برنامج آخر,arb_Arab,arb_Arab,0.1111111111111111
+14,query: 在 a game is a tremendous opportunity to become a player. 其中有一些奇怪的现象是,query: في بعض الأحيان يمكن أن تصبح اللعبة ظاهرة كبيرة. إحدى الألعاب التي وصل,arb_Arab,arb_Arab,0.08
+15,"query: 中南警方公布了新一轮涉嫌犯罪嫌疑人信息,其中包括 Arrest Notices No. 5195, Arrest",query: الداخلية السعودية تنشر أسماء 5152 محتجزا للاشتباه بهم بقضايا إرهاب منهم 9 أمريكيين,arb_Arab,arb_Arab,0.0
+16,"query: 今天上午,海事局副局长 王明建一行揭牌了 Abdul Karim Khan, Abdul Karim Khan,",query: افتتح الشيخ خالد بن عبدالله بن سلطان القاسمي، رئيس دائرة الموانئ البحرية والجمارك، اليوم م,arb_Arab,arb_Arab,0.0
+17,"query: 有近 100 名青年学者和教會主辦了 Essays and papers, which revealed a",query: تقدم ما يقارب 100 مثقف ومفكر وباحث فرنسي وسوري برسالة مفتوحة، وقعوا عليها,arb_Arab,arb_Arab,0.08695652173913043
+18,"query: 民进党推出了 Welcome to Acceptable Payment Scheme,推出了关于缴纳个人缴纳现金入户",query: أعلن برنامج حساب المواطن عن بدء استقبال طلبات الاعتراض على مبلغ استحقاق الدعم للدفع,arb_Arab,arb_Arab,0.0
+19,"query: 访谈人: François Barz, M.B.R.R.R.R.R.R.R.",query: F.R.M.C: Home revue de presse لقاء تواصلي بابن اجرير لبحث الإستراتيجية,arb_Arab,arb_Arab,0.10526315789473685
+20,"query: 民进党倡导的 Youth and Citizens Heritage Association 指出,信徒的认知和认知不",query: إيمانا من الرابطة المغربية للمواطنة وحقوق الإنسان بأن التراث الإنساني لا يقدر بث,arb_Arab,arb_Arab,0.0
+21,"query: 最近幾乎所有 Media Uploads 在 Twentynet 使用了大量的全媒體通告,其中包括 Traffic",query: على مدار السنوات القليلة الماضية سيطرت خدمات بث المحتوى بالكامل على مواقع التورنت ال,arb_Arab,arb_Arab,0.0
+22,"query: 第 2 章: 第二个问题是,建筑物是由一层不透透布置而成,另外一种是 Form",query: 2-النوع الثاني: يتكون من طابق واحد على شكل مستطيل جزء منه مسقوف والآخر غير,arb_Arab,arb_Arab,0.08333333333333334
+23,"query: 你想要进入 a very advanced banking app,因为你不知道从何而来,而且你不希望从何",query: عليك بتقوى الله ان كنت غافلاً يأتيك بالأرزاق من حيث لا تدري فكيف تخ,arb_Arab,arb_Arab,0.0
+24,"query: 在家庭中,对父母的认同是非常的普遍的一种,它会产生一丝启蒙和感恩感,",query: الترعرع وسط العائلة دائمًا ما يعطي إحساسًا بالأمان، ويكون عبارة عن نق,arb_Arab,arb_Arab,0.0
+25,"query: 在 A15 中,A15 是一个非常吸引人的投资,尤其是在建置公司,Investing in Funding and",query: وباعتبارها مستثمر رائد في التكنولوجيا، تقوم A15 بالتركيز على بناء والاستثمار في الشركات,arb_Arab,arb_Arab,0.0909090909090909
+26,"query: 今天 University of Qatar 为所有资深资深学生提供了 这些资深资深入围者,以及 ",query: تقدم الجامعة هذه المنح لأولئك الطامحين الممتازين من جميع أنحاء العالم و,arb_Arab,arb_Arab,0.0
+27,"query: 澎湖一名犯罪嫌疑人 Muhamad Rahman Hassan, 在警务室迎接警务人员, 168 ",query: يرقد أحد أفراد قوات أمن الطرق بمنطقة تبوك، محمود بن حمود العمراني بمستش,arb_Arab,arb_Arab,0.0
+28,"query: 对于任何人来说,你想做一个更改的计划,例如 Physical Collage, Graduation, 是一件很",query: إذا كنت تخطط لإجراء أي نوع من الجراحة التجميلية ، بما في ذلك تجميل,arb_Arab,arb_Arab,0.0
+29,"query: 在 2015 年 9 月,我收到了一份纳税人选,他说 ""I'm not entered in ",query: وقال النائب: إن المناقصة تمت في شهر سبتمبر ٢٠٠٥ ولم أكن وقتها عضو,arb_Arab,arb_Arab,0.0
+30,"query: 青年报记者 王明安 出席了 Akshay Aradhya, 王明安 出席了 Akshay Aradhya",query: احتفل الفنان خالد عليش بعقد قرانه على الإعلامية ميريهان عمرو وأقام عليش جلس,arb_Arab,arb_Arab,0.0
+31,"query: 在今天, Islamic Republic of Algeria 宣布了 3 schools restrictions on all classes in Algeria. ",query: {دولية: الفرات نيوز} قررت السلطات الأردنية تعليق دوام الطلبة في جميع المدارس,arb_Arab,arb_Arab,0.0
+32,"query: 哈萨克斯坦 HSC 是一種新颖的高新技術和新颖的抓手工件,包括 High Impact",query: كسارة الحث HGT لديها تكنولوجيا تكسير دولية متقدمة ونوع جديد من الكسارة الخشنة,arb_Arab,arb_Arab,0.0
+33,"query: 近日 Gems in Egypt 進行了入股,目前行情非常火爆, 平均成交金額是 3,800 OMR,",query: تشهد أسعار الذهب في مصر اليوم الأربعاء مستهل التعاملات ارتفاع بحوالي 3 جنيهات، وسجل ع,arb_Arab,arb_Arab,0.0
+34,"query: 近日,在伊拉克成立了 Islamic Council of Ethiopia 的成立,為增進國民安理合體",query: إنشاء مجلس السلام الوطني بهدف دعم الجهود الجارية لإحلال سلام دائم في إثيوبيا -,arb_Arab,arb_Arab,0.0
+35,query: 南投市 - 南投市 - 南投市 - Abdul Rashid Abdul Rashid - 沒有,query: محافظة عدن - اليمن 27/08/2020 وصل محافظ العاصمة المؤقتة عدن أحمد حامد لم,arb_Arab,arb_Arab,0.11764705882352941
+36,"query: 很多家庭都经历着发展历程,其中有 o o o o o o o o ",query: كثير من الأسر تعيش عبر مراحل نشأتها وتطورها وصولاً إلى مرحلة انتهاء,arb_Arab,arb_Arab,0.0
+37,"query: 在金融市场中, Forex 是一个非常吸引人,所以你需要进行汇款,所以你应该有 F.A.",query: بما أن الفوركس هو سوق لتبادل العملات، فمن المؤكد أنك تحتاج لامتلاك مبلغ,arb_Arab,arb_Arab,0.0
+38,"query: 联邦防务局表示, 今年是一项非常激动的事件,其中包括 Infantry Defense Blocks, 今年",query: قالت وزارة الدفاع الأمريكية اليوم الأربعاء أنها قلقة حيال سلسلة الحوادث التي وقعت,arb_Arab,arb_Arab,0.0
+39,"query: 現在,共有 2 大房间,其中 1 大房间是 Raymond Régnier Segunda Divisa,そして他",query: بعد نحو قرن كامل من الزمن، لا تزال غرفة الملازم ثان هوبير روشيرو، كما هي,arb_Arab,arb_Arab,0.0
+40,"query: 他表示, Omar Aziz 在 Shabat 中取得的成就是一件非常荣耀的事情,每一个学生都",query: وأكد حاتم أن الإنجاز الذي حققه عمار هو مبعث فخر لكل سوري كونه تم في,arb_Arab,arb_Arab,0.0
+41,"query: According to Examiner Reports, Applied Physical Analysts are increasing a number of increases from",query: وفقًا لمكتب إحصاءات العمل ، سيشاهد المعالجون الفيزيائيون أ زيادة بنسبة 22,arb_Arab,arb_Arab,0.0
+42,"query: 經濟普惠 - 信息普惠 - 經濟普惠 - 是一个全新的案例分享平台,在 2017 ",query: الاقتصاد اليوم - منصة إعلامية عربية متخصصة فاعلة في مجال الاقتصاد بروافده المتعدد,arb_Arab,arb_Arab,0.10526315789473685
+43,"query: 如果你有想法,你知道你对个人的选格有何特徵吗? Maybe You Have Something Changed",query: هل تعلم ان هناك اشياء بسيطة قد تحدد شخصيتك وصفاتك، اذا كنت تفضل ,arb_Arab,arb_Arab,0.0
+44,"query: 本次实施的第二章是 Apply for Internal Criminal Procedure 155,其中第二章,是通过惩罚",query: حملة إلغاء نص المادة 153 من قانون الجزاء تعلن عن ورشة العمل الثانية التي ستقا+,arb_Arab,arb_Arab,0.0
+45,"query: 在每场比赛中,我非常感覺到申花,尤其是 Sixth Tribe Squad,Symbian Aguila,",query: كلما رأيت فريق السنغال، أسود التيرانجا، فى المونديال، تذكرت حسام ,arb_Arab,arb_Arab,0.0
+46,"query: 我开始了普萨的计划,并提出了一些新方案,比如 ""Psa / Psa / P",query: خطة العمل طبقًا إلى الـ فاشون والموضة. ومن جهة أخرى، أطلقنا ,arb_Arab,arb_Arab,0.0
+47,query: In order to prepare a crispy sandwich. 材料 : 200 g. 采用正宗麻婆茄,query: بداية سخني الفرن على حرارة 180 درجة مئوية. حضري صينية مستطيلة بمقاس,arb_Arab,arb_Arab,0.07692307692307693
+48,"query: 简介: 在香港中青年人中,揭示了女性在英格兰的崛起,Book of ""Wa","query: عمان - يتناول كتاب ""المرأة الفلسطينية في عهد الانتداب البريطاني"" للكاتبة حنان عس",arb_Arab,arb_Arab,0.08333333333333334
+49,"query: 我们都开始感恩福音, 我们都开始感恩福音. 福音是每周五入福的",query: فرح : رجاؤنا ان نكتسب عادة الصلاة وندخل اسبوع الالام باستعداد وتوبة لنست,arb_Arab,arb_Arab,0.0
+50,"query: Tinder 是一个非常流行的合伙App, which is applied as a tinder application, which helps you",query: يُستخدَم Tinder بشكل شائع كتطبيق مواعدة ، وهو يمكّن الأش,arb_Arab,arb_Arab,0.0909090909090909
+51,"query: 在新生代中,我们非常注重的是,每到第 6,第 3,以及第 6,所有合成",query: بشكل عام بعد الولادة، في جميع مراكز ميلاد أمةنا، بين اليوم الثاني والثالث، مصنوعة,arb_Arab,arb_Arab,0.0
+52,"query: 此外, Omar Abdullah 表示,我非常榮幸出席「第 6 届 沙特阿拉伯大教會",query: وبهذه المناسبة، قال الدكتور علي بن سباع المري: «فوز دولة الإمارات باستضافة المؤ,arb_Arab,arb_Arab,0.0
+53,"query: 孟加拉人伊丽莎白·黎明表示了自己的立场,并宣告了Islamic Pride of Islam in",query: أعلن الممثل الأيرلندي الشهير ليام نيسون عن نيته في اعتناق الدين الإسلامي، وذلك,arb_Arab,arb_Arab,0.0
+54,"query: 对于一个合伙人来说,当一个合伙人向他人施加了暴言,或者是 a disturbance",query: عندما يقدم شخص ما على فعل عنيف أو مؤذي يستهدف أحد أفراد المجتمع الآخرين،,arb_Arab,arb_Arab,0.0
+55,"query: 小說簡介: Assalamualaikum - Abdulaziz Ahmed, 彰化市少年學院為青年人贈呈",query: موضوع: بالصور: مدرسة ذكور أحمد عبد العزيز الاعدادية تكرم أوائل الطلبة بخاني,arb_Arab,arb_Arab,0.09523809523809525
+56,"query: 在 2017 年初, Abdulaziz Abdul Hamid 表示:“此次合伙人的合作不是很好。”他说:“Uber Islamic",query: وأضاف الوزير البحريني خلال اللقاء الذي أجري منتصف العام 2019′′:« إن مبادرة السلام العربية لم ت,arb_Arab,arb_Arab,0.0606060606060606
+57,"query: 在江蘇省中山市采用的是Ashram Adhesive Leathers,但是不同材料的價格非常的不同,尤其是",query: أسعار القشور الخزفية للأسنان الأمامية في الأردن متفاوتة بشكل كبير وذلك بسبب المواد الم,arb_Arab,arb_Arab,0.0
+58,"query: Mozilla Firewall 是一个非常有意思的操作,但是使用的是 Visualize Finder,并且进行无按揭 ",query: متصفح موزيلا فايرفوكس يقوم بهذه العملية ولكن بالخلسة وبدون ملاحظة المستخدم.,arb_Arab,arb_Arab,0.0
+59,"query: 在2015年10月26日發生的一宗恐怖袭击案,其中一對小弟是 Mohamed El Hadith ",query: أصغر شهيد في المواجهات المحتدمة بالقدس السبت 25 سبتمبر 2010 استشهد رضيع يبلغ من ,arb_Arab,arb_Arab,0.0
+60,"query: 广西工信厅 副局长 Omar Aslam 宣布了新的入伍,并宣布了合伙人, ",query: أعلن اتحاد الرماية برئاسة اللواء حازم حسني، تعافي موظف الاتحاد وخروجه,arb_Arab,arb_Arab,0.0
+61,"query: Welcome to 東方儿童超市, offers a lot of new and exciting deals for children and adults,尤其是新",query: محل الأطفال، المتجر الأول للوالدين والأطفال في الشرق الأوسط، يجلب الموسم الجديد بعروض قيمة رائع,arb_Arab,arb_Arab,0.0
+62,"query: 对于 僱用者来说,Fabration 是一种非常不易触摸的商品,但是它 doesn't",query: تجرية ببساطة لا أحب المنتج ولأنهم يمكن بيعه، فإنها ببساطة تفعل.,arb_Arab,arb_Arab,0.0
+63,query: Raspberry Pi pdf大全 - Raspberry Pi pdf大全 - Raspberry Pi pdf大全 - Raspberry Pi ,query: مطحنة الأسطوانة ريمون pdf. مطحنة الأسطوانة ريمون pdf. لكل ,arb_Arab,arb_Arab,0.0
+64,"query: This offer is very attractive offer for those who are going to apply for 网络流入者,或者是",query: تعد هذه الخدمة مناسبة لأولئك الذين يرغبون بتوصيل طلبات سواء ,arb_Arab,arb_Arab,0.0
+65,"query: 在 Auditors and Auditors 中,越来越多的人开始向入行宣告和入行范畴提出了新",query: تتجه غالبية التقديرات في أوساط المسئولين والخبراء إلي بدء العمل بإصدار شهادات,arb_Arab,arb_Arab,0.0
+66,"query: 菲利普尼亞 Inc. 是一位非常专业的人,提供各式各样的家具布置和整理工序,",query: تركيب اثاث ايكيا الفروانية الفني المتميز والمتخصص في تنفيذ عمليات التركيب لجميع,arb_Arab,arb_Arab,0.0
+67,"query: 如何切割林檎和木兰: 在林檎中,有不同的切割方法,它是加入 Marshmallows and",query: كيفية جعل مدخن محلية الصنع مع القرنفل والليمون: يتم قطع الحمضيات إلى الن,arb_Arab,arb_Arab,0.09090909090909091
+68,"query: 行政院副院長李明峰負責了李明峰的日常管理工作, Dmitry Dmitry 做了",query: كلف الرئيس المصري عبد الفتاح السيسي مدير مكتبه اللواء عباس كامل بتسيير أعمال جهاز,arb_Arab,arb_Arab,0.0
+69,"query: 在 Islamic Republic of Somalia, 人民银行 发布了一则公告,指出了陈列了涉案陈列",query: أصدر فرع المؤتمر الشعبي العام بجمهورية مصر العربية، بياناً أكد فيه مضيه على خطى,arb_Arab,arb_Arab,0.0
+70,"query: • If you are entering a physical examination, 你需要告訴您是否在電信卡通中受挫",query: ■ في حال انقطع اتصالك بالشبكة أو انقطع التيار الكهربائي خلال تقديمك للاختبار فلا,arb_Arab,arb_Arab,0.0
+71,query: Yasser Yasser changed to New Zealand Currency Amount. This is a change of $3.5 OMR. This is $,query: لقد حولت sarf3omlat.com YER إلى ما يساويها NZD: 0.00 New Zealand Dollar.,others,others,0.19999999999999998
+72,"query: 光伏工程公司 Zhao Zhao Zhao 提供的一款产品介绍, 一張 Cobalt RGB 斜面太阳",query: C الصف مصنع مخزون سلع الألواح الشمسية لسوق باكستان وصف المنتج لوحة شمسية بولي من,arb_Arab,arb_Arab,0.0
+73,"query: 警視新聞 - 近日,巴基斯坦警方在彰化市举行了入隊。 今天, Abdul Razak",query: بدر نيوز/ بغداد... أطلقت قوات الحشد الشعبي في محافظة الانبار، فجر اليوم ,arb_Arab,arb_Arab,0.0
+74,"query: Posted on January 20, 2020 医生建议的是如何对病毒进行精确测定的一种 疱疹病毒 疱疹 ",query: ويفضل أن يتم علاج الحمى الفيروسية تحت إشراف الطبيب المختص لتحديد نوع الفيروس مع,arb_Arab,arb_Arab,0.0
+75,"query: 对于 a counsellor 来说, 他遇到的每一件事情都是非凡,而非失利。 这是",query: لا شك أن أصعب اللحظات التي تواجه أي فرد، هي ليست تلك التي يكون عليه اتخاذ,arb_Arab,arb_Arab,0.0
+76,"query: F Arrows 是 F Arrows 中包含了五行,六行,其中F Arrows 是开",query: أزرار F هي مجموعة الأزرار الموجودة في أعلى لوحة المفاتيح والتي تحمل أرقام بدا,arb_Arab,arb_Arab,0.09090909090909091
+77,"query: According to a news report, INSA has revealed a mystery about a nigerian asylum based","query: كشفت وكالة ""إيسانا"" الإيرانية نقلا عن إحدى عشائر نينوى الموجودة على",arb_Arab,arb_Arab,0.0
+78,"query: 王建章在计算机工程學院做了幾次入學, 王建章 的名字叫做 Unity (Advent",query: تم بعون الله القاء حلقة علمية في قسم هندسة البرمجيات للدكتور (نكتل مؤيد عيدان,arb_Arab,arb_Arab,0.09090909090909091
+79,query: 大麻刮傷儀 - Maroc Maroc Maroc Maroc Maroc Maroc Maroc Maroc 對於一個,query: آلة سحق الصابورة في ماليزيا driada.eu الصابورة حجر سحق آلة في كي,arb_Arab,arb_Arab,0.0
+80,"query: 他说,现在最重要的是决议 ” ” ” ” ” ” ” ” ”我们现在","query: وأضاف: ""آن الأوان لنأخذ نحن قراراتنا وأنّ يكون من يكلّف هو المسؤول ون",arb_Arab,arb_Arab,0.0
+81,"query: 昆士蘭 Dumpsters - 昆士蘭 Dumpsters - 昆士蘭 Dumpsters有很多種類,",query: قطع الغيار للكسارات الفك في جنوب أفريقيا الفك محطم قطع الغيار. قطع الغيار,arb_Arab,arb_Arab,0.0
+82,"query: 今天我為大家介紹了 Qatar / Egypt / Egypt Gold 價格,價格及價格信息,在这里您可以參考",query: في هذا الموقع نقدم لكم آخر أسعار الذهب و العملات في مصر و الدول العربية. الأسعار يتم,arb_Arab,arb_Arab,0.0
+83,"query: Everyday Markets Traders 表示,他们在汇款中交易的数字都是 “5168 rr” and “",query: وسجل في التعاملات الصباحية بحسب تجار عملة تحدثوا ل(eleven news)، “455” جنيها,arb_Arab,arb_Arab,0.13793103448275862
+84,"query: 对于任何女性来说,最重要的是希望他们有 a very tight crop, 布扎,并且没有刺青",query: ترغب كل فتاه في أن يكون شعرها طويلا وناعما ولا يعاني من التقصف أو التلف، وت,arb_Arab,arb_Arab,0.0
+85,"query: Sim City 7 is a complication of a complete renovation of 民建建筑,是一家位于申泰港的綜",query: سين 7 هو كومباوند سكني متكامل بالعاصمة الإدارية، وهو من تطوير شركة اكام للتطو,arb_Arab,arb_Arab,0.07692307692307691
+86,"query: 在 ISLAM 中有很多的例子,其中一个例子是利用 Demanding Demanding Application 来启示",query: أمثلة على التنبؤ بالطلب يشير مصطلح التنبؤ بالطلب إلى عملية استخدام التاريخ,arb_Arab,arb_Arab,0.0
+87,"query: 在 Sophaghan School of Islamic Documents 中,苏格兰老师指出了许多人都是进门的启示",query: يذكر حمدان خوجة في كتابه المرآة أن شيوخ الطرق الصوفية هم الذين أمروا جميع,arb_Arab,arb_Arab,0.0
+88,"query: 对于女性来说,有许多不孕症会产生异常,其中有 o n o n o n",query: يعاني بعض النساء من عدم حدوث الحمل بشكل طبيعي، وقد يكون السبب في ذلك,arb_Arab,arb_Arab,0.0
+89,"query: 近日,挪威大学的大揭幕大揭幕(Award for Contemporary Arts) が行われ了,今年是 2018",query: أعلنت الأكاديمية السويدية اليوم (الجمعة) إرجاء جائزة نوبل للآداب لعام 2018، وذلك,arb_Arab,arb_Arab,0.15384615384615383
+90,"query: Home / 行政院 / 行政院 / 行政院 / 巴基斯坦人指出,阿勒泰",query: الرئيسية / أرتساخ / نائب رئيس البرلمان الأرميني: محاولات حكومة باكو لتقديم ق,arb_Arab,arb_Arab,0.10526315789473684
+91,"query: 在 Apple 推出了最受欢迎的手机,其中最受欢迎的是 Alcatel Exynos 9810,其中包括了新",query: إنها أبرز هواتف أطلقتها شركة الهواتف العملاقة أبل حينما أطلقت احدث اصداراتها في,arb_Arab,arb_Arab,0.0
+92,"query: 近日,巴塞罗那新聞社發布了一篇新聞,指出 Cristiano Ronaldo is expected to reach a",query: أكدت صحيفة ''أس'' الإسبانية في عددها الصادر اليوم الجمعة، أن ريال مدريد بات قريب,arb_Arab,arb_Arab,0.0
+93,"query: 中南网讯 - 中南网消息 - 外交部发言人耿建卿表示,沒有宣佈""Deputy",query: (موسوعة هذا اليوم للاخبار | اخبار العراق)- العهد نيوز نفى المتحدث بإسم الخارجية العراقية,arb_Arab,arb_Arab,0.07999999999999999
+94,"query: 在婚姻中,存在一些困扰,例如,對人性交往的激素,壓力,失望,或者",query: وجود مشاكل في العلاقة بين الزوجين، بسبب الضغط النفسي ،أو ضعف التواصل، أو مخا,arb_Arab,arb_Arab,0.0
+95,"query: 对于 Android 手机应用程序而言,不一定是失利的 Randomized Data Recovery 依赖录入序列",query: لا تكون بيانات ذاكرة التخزين المؤقت للتطبيق سيئة بالضرورة لأداء الهاتف الذكي ،,arb_Arab,arb_Arab,0.0
+96,"query: Shabat is a very dangerous and unprecedented creation of prisoners, 他开始于对抗和",query: وهذه شيطانية لا مثيل لها تعمل على تفتيت الانسانية وتحضيرها للصراع، واول,arb_Arab,arb_Arab,0.0
+97,"query: 基督教大讲堂主任 Mustafa Awal: 你知道,博大精深的强调的是,不是通过 Media",query: الدكتورة بتول الموسوي: وهذا يعني إن الإعلامي عليه ان لا يقتصر على الدراسة الأكاديمية,arb_Arab,arb_Arab,0.08333333333333334
+98,"query: 電影《伊斯蘭黑影城》 - Crimes of Palestine 2017 full movie, images and videos, ","query: فيلم الحرب الوثائقى "" مدينة الأشباح "" City of Ghosts 2017 مترجم مشاهدة اون لاين و",arb_Arab,arb_Arab,0.14814814814814814
+99,"query: 日前,中共中央宣傳部宣傳部表示了關于“Arrest Migrants”的提問。Arrest Migrants",query: أصدرت رئاسة الانقلاب توضيحًا لاحقًا بشأن المقصود بكلمة «معتقلين» ,arb_Arab,arb_Arab,0.0
+100,"query: 在印度尼西亚中, Insights of Duplicates 來說是一個巨大的計算費用 對破碎石 ",query: تكلفة كسارة الحجر في الهند في سطور تحليل العناصر المحدودة للدرفلةوإذ تضع,arb_Arab,arb_Arab,0.0
+101,"query: 在青少年虐待事件中, Internet Physical Assault 受到了超過 600 件,其中包括了 e-mail",query: بلغ عدد الصور التي يظهر فيها اعتداء جنسي على أطفال بالإنترنت مستوى يفوق أي,arb_Arab,arb_Arab,0.0
+102,"query: 最近有很多事物流传出来了, 其中包括 大清流传 Mohammed Rahmat 和 大清流传",query: بعد انتشار الكثير من القصص والكلمات التي ما صدرت من سماحة المرجع الراحل الشيخ البهجة,arb_Arab,arb_Arab,0.0
+103,"query: 梦见玄奘青空, 梦见玄奘青空, 梦见玄奘青空的含义, 對人来说",query: تفسير اكل الذرة في المنام للعزباء والمتزوجة رؤية الذرة المشوي في المنام، ح,arb_Arab,arb_Arab,0.0
+104,query: 其中最令人印象深刻的是 1 回合 Roland Rausch对阵 纳德 格雷格的游戏是 1,query: ستكون بلا شك واحدة من أعظم المباريات في غرفة الإقصاء مباراة رومان رينز ضد ,arb_Arab,arb_Arab,0.0
+105,"query: 彰化市彰化市一名黑人被打入獄中 - Islamic Cemetery - YouTube, 影片",query: فيديو| شهيد برصاص الاحتلال في القدس بلدية الاحتلال تجبر مقدسيا على هدم ,arb_Arab,arb_Arab,0.0
+106,"query: Ardena 是位于阿姆斯特丹市东南部的一个分支,其中有 15 人位于 Andorra 。 ",query: أدرنة إحدى مدن تركيا وتقع في أقصى الجهة الغربية من القسم الواقع في ,arb_Arab,arb_Arab,0.0
+107,"query: 根据 ""Farsa News"" 消息,中共中央政治局副局长 Mohammad Reza 表示,这是一个""透视","query: نقلت وكالة أنباء ""فارس"" الإيرانية، الجمعة، عن مصدر وصفته بـ ""المطلع""",arb_Arab,arb_Arab,0.15384615384615385
+108,"query: 近日, SBS 青州局宣布了 3 大政事宜,其中包括... ",query: اصدر التلفزيون القومي السوداني ” الأحد ” عدد من القرارات الإدارية والتي لاقت ا,arb_Arab,arb_Arab,0.0
+109,query:............ 股票交易策略,query:..... استراتيجيات التداول ضرورية جدا لوجود ممارسة تداول ,arb_Arab,arb_Arab,0.28571428571428575
+110,"query: 创办人致力促进社群信息互通,增进了 Corporate Identity 和 Social Relation 的新",query: تعزيزاً لمبدأ الشراكة المجتمعية قدم مكتب العلاقات العامة والتوعية بالإدارة العامة,arb_Arab,arb_Arab,0.0
+111,query: ” ” ” ” ” ” 讲述了河南一名男童 Abdur Rahman 生下了弟弟,query: بالفيديو / “أبو العيلة” قصة رجل تونسي أنجب طفليْن فوجد نفسه أب ,arb_Arab,arb_Arab,0.10526315789473682
+112,"query: 用 a Groove Cleaner, or using a Groove Cleaner to avoid crumbs,新颖的",query: جافّة أو حسّاسة، استخدمي حليب التنظيف بدلاً من غسول الرغوة لمنع ج,arb_Arab,arb_Arab,0.0
+113,"query: 对于有些人来说,有一种失望是会影响到升学,其中有一种失望是决定取得 e ",query: يعتقد البعض أن اتخاذهم لقرار الانفصال قد يؤثر على مستوى التحصيل الدراسي,arb_Arab,arb_Arab,0.0
+114,"query: 近日,嘉義市中级人民法院在 D P P 中揭示了 3 件疑似人员入境情况,",query: تمكنت لجنة من مديرية الصحة بمحافظة دمياط، من كشف ملابسات حالات الق,arb_Arab,arb_Arab,0.0
+115,"query: 山东 JGZ Holdings Co., Ltd 是一家专业做清除房屋的公司, 公司非常有优良的",query: شركة عزل خزانات القدس شركة تعمل بكفاءه عاليه و تعمل فى تقديم افضل ,arb_Arab,arb_Arab,0.0
+116,"query: 最近,我们讨论了关于 a row of additional admissions,以及 a few additional admissions是什么",query: تحدثنا في الحلقة الماضية عن أنّ الرجعة خاصة أو عامة، وهل هناك أكثر من ,arb_Arab,arb_Arab,0.0
+117,"query: 一篇文章介紹 使用 sbs com com 一款软件,主要介紹學生通过 sbs com",query: اكتب برنامج بلغة سي بلس بلس يقوم بقبول سلسلة ارقام من المستخدم ويقوم بط,arb_Arab,arb_Arab,0.0
+118,"query: 68 - 对于青少年的认知和认知技巧,以及 如何渗透到 Internal Behavioral Manipulation,",query: 28- القدره على تحليل سلوك الطفل والإلمام بطرق التواصل معه والإلمام بطرق مراقبة,arb_Arab,arb_Arab,0.0
+119,"query: 对于很多民眾来说,有一些新奇的降水法揭示, which affects KYC Physical Earnings,",query: تعرف على أضرار كاسات الهواء كاسات الرياح من العلاجلات الطبية القديمة، التي قد ,arb_Arab,arb_Arab,0.0
+120,"query: 礦山破碎 矿山破碎 矿山破碎 矿山破碎,Rampal,Rampal","query: الرمال الحصى سحقت الحجر, الرمل النهري آلة استخراج الرمال, حجر سحق الرمال",arb_Arab,arb_Arab,0.13333333333333333
+121,query: 一 张 窗户是 o o o o o o o o o o,query: المرآة هى ســطح لـه القـدرة على أن يـعكس مـعظم ,arb_Arab,arb_Arab,0.0
+122,query: 1. 传染病的概况和趋势 1. 我们对尼泊尔骨髓病的认知和,query: 1- التثقيف المجتمعي حول طبيعة أمراض نزم الدم ومدى انتشارها وحاجة المرض,arb_Arab,arb_Arab,0.0
+123,query: 一群来自上海的 SMU University of Dermatology 和 Sichuan University of Stomatology 朋友建立了深厚的合作关系,query: تعاون أطباء من مستشفى شينخوا في شنغهاي مع خبراء من جامعة فودان وجامعة كام,arb_Arab,arb_Arab,0.0
+124,query: 簡介: 今年第三十三學年度的成績非常明顯 - Abdurayiyah DPI 及 DPI,query: مثبت: نتائج الدور الثالث للسادس الاعدادي بفرعيه والثالث متوسط للعام الدراسي2012,arb_Arab,arb_Arab,0.10526315789473685
+125,"query: 今年 6 月 16 日,斯蒂芬尼开始了一项大逃犯,其中之一是,他拿起 ",query: أقدم ستيني، يوم أمس الخميس، على الانتحار، وذلك بعد أن ألقى بنفسه من ناف,arb_Arab,arb_Arab,0.0
+126,"query: 对于 Abdullah Al Jazeera 指出,这是一个值得信赖的重中之重,而且没有任何变动, ",query: وأكد أن حق العودة حق مقدس لا يمكن التراجع عنه مطلقاً، مشيراً إلى أن الأ,arb_Arab,arb_Arab,0.0
+127,"query: 其中有一个故事,那就是 Jeffrey Gulz in Sudan Islamic State Assassination against 安德烈 朱基",query: وحول مقتل قاسم سليماني قائد فيلق القدس بالحرس الثوري الإيراني، في غارة أمريكية,arb_Arab,arb_Arab,0.0
+128,"query: 其中最重要的入侵者是 Fidelity Assets Defense, 但是阿富汗政府提出了 2016-16 刑期",query: سيطر مقاتلو المعارضة على حقل العمر النفطي الاستراتيجي آخر حقل كانت قوات الأسد تسيط,arb_Arab,arb_Arab,0.0
+129,"query: 在嘉定区,有一个新奇的艺术展厅, which is opened in 2020年10月20日, ",query: في بيت الحكمة بالشارقة، الذي افتتح ديسمبر الماضي 2020، يُقام معرض فني مؤقت,arb_Arab,arb_Arab,0.0
+130,"query: 阿拉伯警局表示,阿富汗军队在2017年6月份实施了警示清單,犯了 Barzakh",query: وزارة الدفاع الأذربيجانية تعلن عن انتهاك نظام وقف إطلاق النار في قره ,arb_Arab,arb_Arab,0.0
+131,"query: 你需要了解的是如何增进合适的薪资, Clutches, Compasss, 以及如何实现合适",query: استكشف كيف يمكن أن تحول الكماليات الملائمة شاحنتك، وتوفر لك الوقت، وت,arb_Arab,arb_Arab,0.0
+132,"query: App is a simple and simple programming language, which is aimed at helping 学生进行暗記和入侵,",query: البرمجة هي كتابة تعليمات وتوجيه أوامر لجهاز الحاسوب، وهي طريقة لحل مشك,arb_Arab,arb_Arab,0.0
+133,"query: 这是一个关于恐怖犯罪的影片,这张影片是由阿勒泰合伙人 Omar Ghazal 导演而成。",query: من صناع فيلم (الحرب الخفية) يأتي هذا الفيلم الوثائقي عن جرائم الاغتصاب,arb_Arab,arb_Arab,0.0
+134,"query: Rafiq Zaki 是一名资深女主播,在 Rafiq Zaki 的視訊中都是受到了大量的 TV ",query: تعتبر غادة رزوقي من المذيعات الكويتيات اللواتي يلفتن الأنظار بحضورهن على الشاشة و,arb_Arab,arb_Arab,0.0
+135,"query: 尤文图斯男足Juventus Is a very intriguing player,他表示,尤文图斯公布了",query: كشف الأرجنتيني جونزالو هيجواين، مهاجم يوفنتوس الإيطالي، عن الدوري الذي يو,arb_Arab,arb_Arab,0.0
+136,query: Welcome to 荆门市青林區徵信信息有限公司 徵信信息有很多的offer and advertisements. 荆,query: شركة الدهمان لاستيراد وتجارة الاخشاب القليوبية سوق اعلانات مبوبة مجانية في سوق العرب ,arb_Arab,arb_Arab,0.0
+137,"query: 在 COM ARENA 中,其中一个非常重要的表现是 入围了三名青年球员在守望权中",query: وفي المشاركة الأولى في دوري المحترفين استطاع فريق معان الحفاظ على مقعده بين الكبار,arb_Arab,arb_Arab,0.0
+138,"query: CCTV News - Part 02 - Part 02 - Part 02 - Part 02 近日,民警在沿线摸到了",query: 09/07/35 · قامت كاميرا «المصري اليوم» برحلة داخل محطات وقطارات المرحلة الثانية من الخط,arb_Arab,arb_Arab,0.0
+139,"query: 我非常的感恩, 而且非常的感恩, 我选择了合伙人对 ALLAH 中章 黑",query: اجدت ونفعت بهذا الاختيار ايها الهمام حشرنا الله واياك في الاخرة مع الحبيب المصطفى,arb_Arab,arb_Arab,0.0
+140,query: Moroccan Anti-Aroma Cream - 使用方法 - 40g - 40g - 40g - ,query: الصفحة الرئيسية » Anti-aging » Royal gold mask - الاصلي - المغرب - طريقة استخدام - كم,arb_Arab,arb_Arab,0.10526315789473684
+141,"query: 大家好, 大師們, 大師們, 獅子舞, 卡塔尔和 Skyrim 對",query: يا ليلة القدر للعابدين اشهدي، يا أقدام القانتين اركعي لربك واسجدي، يا,arb_Arab,arb_Arab,0.0
+142,"query: Welcome offers a tremendous advantages for you to 入伙入伙到自己的 Facebook 群體中,",query: يتيح لك بلاجن الدعوات اتاحة قيام العضو بموقعك بدعوة اصدقاؤه عن طريق,arb_Arab,arb_Arab,0.0
+143,"query: 民進黨,幾個進程好呢? : 基督黨的「Davis」還是「Davis ",query: الديار: بري على «خط» كليمونصو ــ معراب رئاسياً... وفرنجية أقرب,arb_Arab,arb_Arab,0.1
+144,"query: 中共中央政治局常委會表示,民進黨的新征程非常不容乐观,“Welcome to Islamic Republic of Qatar",query: «الهيئة الوطنية»: شعبنا لن يستسلم لحكومة اليمين المتطرفالكوفية انطلاق منتدى مصر,arb_Arab,arb_Arab,0.0
+145,"query: • The Beneficiation of Dental Defences, 它在渗透到大拇指和大拇指中渗透",query: •وتساعد اللثة على دعم الأسنان وحمايتها ، وتسير خلال اللثة أوعية دموية تحمل,arb_Arab,arb_Arab,0.0
+146,"query: Katie Brooks 是一位非常受歡迎的女性,其中最具代表性的莫属是 Prism, Gems,",query: تُعرف النجمة العالمية كيت موس بأنها واحدة من أرقى النجمات وأكثرهن رقيا، سو,arb_Arab,arb_Arab,0.0
+147,query: Documents About Us. Arrivals. Facilities. Infrastructure. Infrastructure. Immigration Services. 亞太企圖 ,query: اطلب عبر الإنترنت.شكرا جزيلا... طلب المنتجات عبر الإنترنت. State of the art Facilities مرافق,arb_Arab,arb_Arab,0.16
+148,"query: 在 PayPal 系统中,你会产生很多的失误,其中最主要的是 复印件转入,这",query: تحظى هذه الأمور بالأولوية على إعادة شحن رصيد هاتفك، حيث أنك,arb_Arab,arb_Arab,0.0
+149,"query: 邵月亮 是一名青年体育教練,他在籍了 23 年,包括19 月,19 月,",query: سعد الشهري هو مدرب كرة قدم سعودي لمنتخب السعودية تحت 23 سنة، كما أنه كان,arb_Arab,arb_Arab,0.08333333333333334
+150,"query: - - - 在以色列, Saddam Hussein, Omar Syed Nasib announced that doesn'",query: دبي، الإمارات العربية المتحدة (CNN)-- رأى الرئيس السوري بشار الأسد أنه لا يمكن,arb_Arab,arb_Arab,0.0
+151,"query: 近日,巴基斯坦警方公布了一名入境警员, 他向 ""Irkan KTB"" 入境","query: أعلنت وزارة الداخلية التركية، أن إرهابيا من ""بي كي كي"" سلم نفسه لقوات الأم",arb_Arab,arb_Arab,0.16666666666666669
+152,"query: 民政部副部长 王明民做了案,提出了人防指引, Mohammed Rashid, 6636",query: كلف الملك محمد السادس، وزير الدولة المكلف بحقوق الإنسان مصطفى الرميد، بوضع مخط,arb_Arab,arb_Arab,0.0
+153,"query: 片名 Abdullah Abdullah Abdullah Abdullah Abdullah Film Uploads Uploads Aug 15, 2020. 影片中分手",query: فيصل القاسم فيس بوك فيروز فيلم فيلم اهواك فيلم ولاد رزق فيلم شد اجزاء,arb_Arab,arb_Arab,0.0
+154,"query: 而在这儿,他打入了 一 种物,而且 他 进入了 德 王 青",query: ومن ذلك أن عاهلاً خلَفَهُ ابنُه في بعْض البلاد، ثم تبد,arb_Arab,arb_Arab,0.0
+155,query: 公司采購 - 公司采購 - 公司介紹 - 印尼斯普林德公司采用Pdf,query: طحن الأسمنت لفة الصحافة الشركة المصنعة في الصين... مصانع معالجة السيانيد للبيع,arb_Arab,arb_Arab,0.0
+156,"query: 大案, 大案, 大案, 大案, 分享的是嘉義区民用","query: تقرير المشروع على مطحنة, مصغرة مطحنة الدال مشروع محطة تقرير الشعبي ",arb_Arab,arb_Arab,0.15384615384615383
+157,"query: 在 ISLAM 中,面对一幕充满了惊心动魄和恐惧,尤其是在早上的 Bismillah,",query: مع طلوع الفجر، في عالم داخلي يتملكه عراك بين الخوف وقلق المخاطرة من جهة،,arb_Arab,arb_Arab,0.0
+158,"query: 在 Gujarat, 石料是最大的重點. 石料是.... ",query: سحق خام الحديد إلى حجم. الحجر الجيري هو أكبر كمية من المواد الخام ، ان,arb_Arab,arb_Arab,0.08695652173913043
+159,"query: 山东工商信息中心主任 曹建平表示,2018年,A股上市公司采用的是5%-10%的P2P ",query: رئيس لجنة السياحة الإلكترونية لـ”البورصة”: 1.5% من الشركات تعمل بالنظام ال,arb_Arab,arb_Arab,0.09090909090909091
+160,"query: 在 Ghazal University of Ghazal 中,德立大學提出了一份初步調查,要求學生进行雅思認",query: أعلن المعهد العالي للغات في دمشق عن أجراء امتحان لغوي معياري من أجل الحصول على شه,arb_Arab,arb_Arab,0.0
+161,"query: 对于任何人来说,使用 Cialis 是一件非常有趣的事情,它会造成患有阴囊失調症。",query: تُعد مشكلة احتباس البول عند الكلاب من المشاكل الحرجة التي قد يتعرض إليها حيوان,arb_Arab,arb_Arab,0.0
+162,"query: 很喜歡讀書的朋友們, 什么是書法, 如何調格, 如何寫成... 在 Arabic ",query: كيف ، صناعة... القراءة، وفيما يلي طريقة تشكيل الحروف والكلمات العربية في لوحة,arb_Arab,arb_Arab,0.09090909090909091
+163,"query: 在 9 月 18 日,孟加拉银行 GPB Analyst 表示,投资者希望有一个揭示性的走势,","query: صرح خبير الاستراتيجيات في بنك جب بي مورغان يوم الخميس ان المتداولين بإمكانهم توقع ""أ",arb_Arab,arb_Arab,0.0
+164,query: Algeria - Algeria - Algeria - Algeria - Algeria - 一個輕巧的輕巧的,query: الجزائر كسارة صغيرة محمولة للبيع. صغيرة تستخدم كسارة الفك للبيع. محطة كسارة مت,arb_Arab,arb_Arab,0.0
+165,"query: 我非常迷戀的一個男孩, 他向我問了 Mohamed Aliyah 的 卡通名稱, 16",query: عندما سألتني الفتاة التي لا تعرف من لغتي سوى اسم عمر الخيام، راغبة تلوين ال,arb_Arab,arb_Arab,0.0
+166,query: · Contents of a 88mm Flange Copper Mnc Mining Machines - 优质金屬切割,query: · جودة عالية Mn18Cr2Mo الفك مطحنة الكرة بطانات قطع الغيار المكونات من,arb_Arab,arb_Arab,0.08333333333333333
+167,"query: 提示: 非常重要的是,使用草莓,黑莓, Berberis, and Beneficial Herbs, 以及",query: ملاحظة: ينصح باستخدام الأعشاب والمواد الطبيعية كالميرمية، وإكليل الجبل، والكاري,arb_Arab,arb_Arab,0.09090909090909091
+168,"query: 人大代表 翟平民, 代表 翟平民, 名叫 Abdur Rashid Ibrahim, ",query: نفى ابن الأمين العام للمؤتمر الشعبي د. حسن عبد الله الترابي، عصام الترابي، وفاة,arb_Arab,arb_Arab,0.0
+169,query: 由 黑大衛星 - 黑大衛星 - Download - 分享 - 分享 - ,query: منتديات جوردان سات فور يو الفضائية - عرض مشاركة واحدة - الشرح المصور ل,arb_Arab,arb_Arab,0.1111111111111111
+170,"query: 大家好, 朋友, 朋友 和 朋友, 南投信息传媒有限公司, 丁烈",query: بالأمس القريب رحل عن دنيانا صديق عزيز، هو الصحافي والناشر مصطفى ناصر. رحل و,arb_Arab,arb_Arab,0.0
+171,"query: Raphael 青木非常受歡迎,它不害怕任何事物,而且配有 Mixed Relief, ",query: نبات ريفي يتكيف جيدًا مع جميع أنواع التربة ، لا يخاف من البرد ويتحمل,arb_Arab,arb_Arab,0.0
+172,"query: 福建省洛陽市, Algeria, Algeria, Algeria is a unit of boys. 揭露入伍信息",query: معلومات عن بلدة اللويزه - Louaiziye، قضاء جزين في محافظة الجنوب، حسب لو,arb_Arab,arb_Arab,0.0
+173,query: 關于 金正恩 - 關于 金正恩 - 論壇 - 宗教 - ,query: الصفحة الرئيسية - العلمانية، الدين السياسي ونقد الفكر الديني - موفق نيسكو - إل,arb_Arab,arb_Arab,0.11764705882352941
+174,"query: 如果有商户在进行交易,那么主要都是来自于 Transactions 和 Payments 之主张。如果",query: وإذا كانتت العمليات التجارية تقوم على العرض من جانب البائعين والطلب من جانب المشترين،,arb_Arab,arb_Arab,0.0
+175,query: 另一件新穎的建筑材料 - Mixed Embossed Composites.....,query: النباتات محطم المحمولة من جهة ثانية من جهة ثانية محطم محطم wedo-design. من,arb_Arab,arb_Arab,0.0
+176,"query: Welcome to the Islamic Prophet and Prophet Mohammed. 我非常荣幸的拜入了神,以及","query: الحمد لله رب العالمين والصلاة والسلام على أشرف الخلق وسيد الرسل, الذي بعثه",arb_Arab,arb_Arab,0.08
+177,"query: 2016年06月16日 - 什么是重工整機,是如何清理 a tǐ tǐ a",query: Jun 16 2016 · ما هي صيانة آلة طحنtaorestaurant. ما هو طحن وحدة في صناع,arb_Arab,arb_Arab,0.0
+178,"query: 政府對入境警民进行了 ” 攻擊 ”,并指出了涉境警民在伊斯坦布",query: دانت وزارة الخارجية والمغتربين “الهجوم الذي استهدف عرضا عسكريا في مدينة,arb_Arab,arb_Arab,0.0
+179,"query: 在基督教中,有很多新奇的书籍大全, 包括: 700 章, Islamic Knowledges,",query: آلاف الكتب في مختلف المواضيع : ( العلوم القرآنية، العقائد، الحديث، الفقه،,arb_Arab,arb_Arab,0.09523809523809525
+180,"query: 在 Abhishek Abati 中, 他并没有向其他人揭示了什麼密室, 而且是在一个密室",query: أما أبيرت فلم يحفظ الطعام في علبة من الصفيح إذ أنها كانت مجهولة في أي,arb_Arab,arb_Arab,0.0
+181,"query: 警务處今天在 Ghazaliyah – Imamuddin Street – Imamuddin Street举行了新一轮警示,",query: غزة- “القدس” دوت كوم- أعلنت إدارة المرور والنجدة في الشرطة بغزة، اليوم,arb_Arab,arb_Arab,0.0
+182,"query: Gloria told him about his wife stealing a blanket, which caused him to 失踪。他",query: لطفي أكَّد أنَّ ما وقع لأخته دفعه للانتقام، وشوَّه وجه السارق,arb_Arab,arb_Arab,0.0
+183,"query: 孟加拉市大安區村民们舉行了100多张快遞, Demonstrations against Fatima,",query: قام العشرات من أهالى قرية الحلفاية بالطريق السريع نجع حمادى – قنا، بالتظاهر أ,arb_Arab,arb_Arab,0.0
+184,"query: 今天,荆州市公安局警务分局副局长 薛建平同志致辞了, Welcome to 138.",query: ترأس مدير عام شرطة محافظة شبوة العميد ركن فؤاد محمد النسي، اليوم ، اجتماعً,arb_Arab,arb_Arab,0.0
+185,"query: 随着教导的更新,你开始记住一个大结论,那就是: “Bismillah Bismillah Bismillah ” 。",query: يبدأ التكبير بعد إعلان دخول شوال؛ لأن الله يقول: (وَلِتُكْ,arb_Arab,arb_Arab,0.09523809523809525
+186,"query: 基督教 Advent Calendar - 基督教 Advent Calendar 是一個很棒的景點,非常美好的景點",query: طقس سر الإكليل. طقس الإكليل المسيحي طقس مفرح جداً لسر جميل من,arb_Arab,arb_Arab,0.0
+187,"query: 行政院副院长 朱立基表示, ""I am very shocked because I was given an attack on","query: وقال عاصم خان المساعد الخاص للوزير لوكالة فرانس برس ان ""احسان اقبال استهدف واصيب",arb_Arab,arb_Arab,0.0689655172413793
+188,"query: 今天,阿勒泰公司公布了第二款 iPhone 应用程序,新穎的突破之一就是 iAsb ",query: الصفحة الرئيسيةتكنولوجياشركة أبل.. تحصل على براءة الاختراع الثانية لطرحها هاتف الآي,arb_Arab,arb_Arab,0.0
+189,"query: “雅加达”打响了民眾的意境,阿富汗人扎倒了FIFA. “Asbiah",query: جمعيات أمازيغية تراسل “الفيفا”.. “كأس العرب” ضربة غادرة لشعوب ال,arb_Arab,arb_Arab,0.1904761904761905
+190,"query: 法兰克林 : 近期,你将会是 a...... ",query: برج الفرّان : ستكون محبوباً خلال هذه الفترة.. و محط أنظار ال,arb_Arab,arb_Arab,0.1
+191,"query: 如果想要深入到荆门,那么你非常有感触的是 Islamic Dars,在新陈代谢中占有",query: لو تحدثت بشكل موجز عن منطقة نجران فإنها تحظى باهتمام خادم الحرمين الشر,arb_Arab,arb_Arab,0.0
+192,"query: 今天是南投市青少年空乘體育會的第二回活動開始啦!,,,, ",query: مع الخبر اخبار الكويت اليوم : فعاليات تدريب القفز المظلي الحر للموسم الثاني تنطلق.. 23,arb_Arab,arb_Arab,0.0
+193,"query: 对于女性来说,有许多活动是必不可少的....... ",query: أما النساء يمارسن النشاطات الخاصة بهن. لذا يجب الحفاظ على هذه,arb_Arab,arb_Arab,0.0
+194,"query: 對于人而言,普法福音是怎么回事耶穌對於鱼和肉的合适是Yeshua ",query: كيف يوافق الوحي الإلهي على وصف صوفر النعماتي للإنسان أنه مثل جحش لا,arb_Arab,arb_Arab,0.0
+195,"query: Ophthalmic Ophthalmic: 在日常生活中,人们经常会发生一些突如其来的伤亡,例如: 骨",query: تمزق العضلات والأوتار: في الأشخاص الأصحاء، عادةً ما تحدث إصابات الرباط,arb_Arab,arb_Arab,0.10526315789473685
+196,"query: 今天我给大家分享一个关于 法学 综合, which includes a few questions and topics. ",query: أولا سوف نضع رابط المشاركة التي ذكرت فيه دراسة عن متون الفقه وأغلبها,arb_Arab,arb_Arab,0.0
+197,"query: 在 Mohamed Ibraheem 中有很多反法事发生,其中有很多是关于朱利安 朱利安 失踪",query: وقد انتشرت في الجزائر شائعات كثيرة حول موت هواري بومدين وسط غياب الرواية الحقيق,arb_Arab,arb_Arab,0.0
+198,"query: 用 a Collagen Powder, which is applied in 皮肤,打湿了皮脂,渗透物,",query: تُغسَل البشرة باستعمال غسولٍ خالٍ من المواد الكيميائية، وتقشَّر، ,arb_Arab,arb_Arab,0.0
+199,"query: 但是有一些反对派提出了一些决议,其中一些是 Islamic Pledge Acceptance Chapter 47、 Chapter 47 ",query: بعض الفصائل الفلسطينية رفض القرار، والبعض منها تسلّح بالمادة 47 والتي تقول بعد,arb_Arab,arb_Arab,0.09090909090909093
+200,"query: 在找一个隐藏物的时候,你需要确定的是,该如何选取, where it is hidden, where",query: عليك أن تحدد المكان الذي تريد إلتقاط الصور فيه، ،تحدد عما إذا كنت,arb_Arab,arb_Arab,0.0
+201,"query: 在建筑材料中,Resaham 是其中最受歡迎的材料之一,Resaham Inc. 在使用",query: ما زال الرخام يعتبر المادة الخام الأكثر استخداماً في إكساء مشاريع التصميم الداخلي,arb_Arab,arb_Arab,0.0
+202,"query: 英國政府對巴基斯坦警隊表示了警示精神,并指出了 「BaaS is a ",query: أصدرت الحكومة البريطانية بياناً اعتبرت فيه حركة حماس «منظمة إرهابية»، وقد,arb_Arab,arb_Arab,0.0
+203,"query: Posted on February 20, 2018 - 你想尝试和启发新颖的依依性, and offering a",query: 2- تحملي عصبية صغيرك وتكرار طلبه أحيانًا للرضاعة، وحاولي تقديم ط,arb_Arab,arb_Arab,0.0
+204,"query: 在沙滩中,陈依依推出了 Snacks,提供新颖的餐具和披萨,欢迎",query: يقدم المطعم سندويشات خبز على الصاج وتحضر عند الطلب ، مميز بإعداد ,arb_Arab,arb_Arab,0.0
+205,"query: 巴菲特捕手 Jonathan Jimenez 是一名打投人。他的第一張投訴信是 ""Juventus FC",query: وجه الفرنسي بافيتيمبي جوميز -مهاجم الفريق الأول لكرة القدم بنادي الهلال- رسال,arb_Arab,arb_Arab,0.0
+206,"query:......... 但是最重要的一点是损坏,尤其是所有","query: والأتربة, لكن لكل شيءٍ إذا ما تم نقصان. حيث أن من أكبر عيوب",arb_Arab,arb_Arab,0.09523809523809522
+207,"query: Welcome to Southeast Asia Emerging Assets and Emerging Assets. 当今这个世界,以及我",query: حرب الشرق الأوسط القادمة وأزمة النفط التي ضربت العالم نحن هنا Tenjiyo عين,arb_Arab,arb_Arab,0.0
+208,"query: 在星期六晚上,有三位行政人员提出了抗議,并提出了行政拘留案, Mohamed Safir 入",query: نظم العاملون بمصرف الصحارى الأربعاء؛ وقفة احتجاجية طالبوا فيها بإطلاق سراح المدير,arb_Arab,arb_Arab,0.0
+209,"query: 在中超联赛,利物浦 Cristiano Ronaldo 遭遇了多大失利和失利,其中,A Division 2",query: أدت الأزمات، التي يعاني منها، نادي ريال مدريد في الليجا ودوري أبطال ,arb_Arab,arb_Arab,0.0
+210,"query: 托特纳姆捕捉犯罪的命运发生了很大的转变,特别是 tziga 成为 a new refugee,",query: تحولت حياة نازحي تاورغاء في قرارة القطف إلى مأساة دائمة بعدما تزايدت الأ,arb_Arab,arb_Arab,0.0
+211,"query: 对于青年人来说,有一个非常奇妙的结论,就是如何停止对岩石形成 Impact Reduction. ",query: نظرية علمية مثيرة عن توقف دوران الأرض لينعكس من جديد حسب نظرية الإنفجار العظيم,arb_Arab,arb_Arab,0.0
+212,"query: 对于 iOS 5 新的 iOS app,Iber 提出了一些新的启示,其中之一是调整青绿入户红",query: وقالت أبل إن الإصدار الجديد من iOS يحتوي على تحسين لتقليل التوهج الأخضر، وبالفعل,arb_Arab,arb_Arab,0.08695652173913043
+213,"query: 平民書房推出了新書,題材是「戀情沙拉」。 主角是苏炳坤, ",query: وقعت الروائية الجزائرية أحلام مستغانمي روايتها الجديدة «شهياً كفراق» الصادرة عن دار,arb_Arab,arb_Arab,0.0
+214,"query: 美國總統 Donald Trump 在 Twitter 發表了新張貼,並表示 ""Paypal"" is a ""反","query: نشر الرئيس الأمريكي ""دونالد ترامب"" تغريدة جديدة على حسابه بموقع ""تويتر"" هاجم",arb_Arab,arb_Arab,0.14285714285714285
+215,"query: 在2018年7月份,中共中央政治局常委 Mustafa Kamaluddin 做了一组表决,表示,入党增",query: كشف رئيس الحكومة، سعد الدين العثماني خلال جلسة المساءلة الشهرية بمجلس النواب,arb_Arab,arb_Arab,0.0
+216,query: 揭陽黑警案入党致辭 - 揭陽黑警案入党致辭 - 是 01 01,query: الذكرى السنوية الأولى لرحيل الزميل خالد فخيدة الدكتور حسين الأحمر من البلقاء التطبيقية,arb_Arab,arb_Arab,0.0
+217,"query: 國民認證公司 NCMS 是一個國民認證企業,是一個提供 Dynamics and Compliances 的",query: الشركة الوطنية للأنظمة الميكانيكية NCMS هي شركة وطنية سعودية ذات مسؤلية محدودة,arb_Arab,arb_Arab,0.09523809523809525
+218,"query: 联合国安理会表示,2018年7月16日,世界有著非常严峻的警示,其中包括 Algeria",query: حذرت الأمم المتحدة، الأربعاء، من أن العالم لا يزال متجهًا نحو ارتفاع درجات الحر,arb_Arab,arb_Arab,0.0
+219,"query: October 21, 2012 -............. ",query: 19 كانون الأول (ديسمبر) 2012... وربما لا تجيد أميركا صناعة الأجهزة الصغيرة ,arb_Arab,arb_Arab,0.09523809523809522
+220,"query: 我们相信有很多客户会对业务进行渗透, 但是有些人抱怨的是, 它来自于 COMMUNICATIONS",query: قد يعتقد الكثير من العملاء أن شركتنا تقتصر في خدمتها على منطقة بعينها، ولكن,arb_Arab,arb_Arab,0.0
+221,query: 這只是一個非常方便的入户信息 對于 MaxBeta 4 和 MaxBeta 6 基准录入,query: وهذه الخدمة متاحة فقط لحسابات العائمة ميتاتريدر ٤ الثابتة وميتاتريدر,arb_Arab,arb_Arab,0.0
+222,"query: 近日,俄羅斯总统 Dmitry Medvedev 宣布了正式的行政令,叫做 “Rosie Razem”,",query: شفا – أصدر الرئيس الروسي فلاديمير بوتين، اليوم الاثنين، مرسوماً رئاسياً ,arb_Arab,arb_Arab,0.0
+223,"query: 教育部 Youth Youth Youth Youth Youth Center 在澎湖开展了大量的反洗脑和破禁活动,",query: تنفذ وزارة الشباب والرياضة حملة موسعة لتعقيم وتطهير مراكز الشباب فى ,arb_Arab,arb_Arab,0.0
+224,"query: 没有人向他传授了什么异物, 但是 他并没有 对 他们 是 披萨或者 ",query: ولم ينقل عن الصحابيات أنهن قدن البعير أو الدابة بأنفسهن بل كان هناك من,arb_Arab,arb_Arab,0.0
+225,"query: 这是一个非常有趣的 App Upload app, 所以其中有非常多 Adobe Flash Player 加入其中, ",query: هذا التطبيق يعتبر من انجح التطبيقات في التعديل علي الصور حيث انه يتمتع بالكثير من المؤ,arb_Arab,arb_Arab,0.0
+226,"query: 苗栗市青少年足球組 - Dancers - Dancers - Dancers - 14 - 14 月,",query: ناشئات أندية وادي دجلة - أكتوبر - تحت 14 سنة للكرة الطائرة ي,arb_Arab,arb_Arab,0.2222222222222222
+227,query: 明尼亞的思想是如何向穆斯林傳遞明尼亞的章節。 (Aristoteles : No.,query: مينو (بالإنجليزية: Meno) حوار في الأسلوب السقراطي كتبه أفلاطون.[1][2] ,arb_Arab,arb_Arab,0.2608695652173913
+228,"query: 近日,有消息人士表示, 外交部对于广东的反感和反感, Algeria Ministry of Public Affairs ",query: عبر مصدر مسؤول بوزارة الخارجية بالمملكة العربية السعودية، عن إدانة الرياض واستنكارها الشديد,arb_Arab,arb_Arab,0.0
+229,"query: 我院董事局主席 曹利民致欢迎大家的到来,介绍了 青年股民入市, Islamic Asset",query: استقبل وزير الاستثمار معالي المهندس خيري عمرو، رئيس وأعضاء مجلس ادارة جمعية رجال ال,arb_Arab,arb_Arab,0.0
+230,"query: 在每年的 18th Anniversary,人们都非常有兴趣,那就是向全國青少年传达了 Welcome to ",query: جدير بالذكر أن العالم يحتفل في 18 أبريل من كل عام بيوم التراث العالمي، بهدف الدعوة ,arb_Arab,arb_Arab,0.0
+231,"query: India Police Chief Irshad Khan 在最近宣佈了警示信,并向犯罪嫌疑人 Mohammed Bin Rahman 提出了",query: طلب الممثل الهندي بومان ايراني حماية الشرطة بعد أن زعم أنه تلقى مكالمة تهديد من,arb_Arab,arb_Arab,0.0
+232,"query: 人到鄂尔多斯是一件非常特別的旅程,尤其是一些重點,比如 Mohammed Bin Al Jazeera",query: تمرُّ عُمان بمرحلة استثنائية أكثر من غيرها من الدول، خاصة إذا أضفنا إل,arb_Arab,arb_Arab,0.0
+233,"query: 我國最大的入境教學app 是 Neuro Insights, 在 2016 年推出了 2 大讲座",query: منصة ثنايا المعرفة أول منصة مرئية عربية مهتمة بعلم النفس، نقدم الدورات بر,arb_Arab,arb_Arab,0.0
+234,"query: 在 2020 年 3 月,朱立德提出了一個入党认同,他表示 Cordoba Islamic Diaspora ",query: وكان القيادي في الحزب الديمقراطي الكردستاني بشير الحداد، اعلن في 14 كانون الثاني 2020، قبول,arb_Arab,arb_Arab,0.0
+235,"query: 在近期的新闻发布会上,孟加拉国政府提出了 2 次入党宣告是犯罪团伙, Islam Piya",query: اعتبرت جماعة الإخوان المسلمين بمصر أن إعلان الحكومة المصرية للمرة الثانية الجماعة إرهابية محا,arb_Arab,arb_Arab,0.0
+236,"query: 在 Sociology Discussions 中,有一种疑问是想要寻求新一轮复苏的概念,那就是",query: إن استعجالية التفكير في السياسة تفترض إعادة طرح السؤال الطبيعي المتعلق بدور السياس,arb_Arab,arb_Arab,0.0
+237,"query: 歐洲雙方雙方合作周三,非常棒的一項信息交流, - - - - -",query: التعاون الثلاثي بين المغرب - كوستا ريكا - وكالة التعاون الألماني على هامش الأسبوع,arb_Arab,arb_Arab,0.125
+238,"query: 概述: Amplitude of Noise is a reduction of noise,它指的是局域情系的增",query: شدة الصوت:هي مقدار الطاقة الصوتية التي تعبر وحدة المساحات العمودية على خط انتشارها,arb_Arab,arb_Arab,0.07692307692307691
+239,query: 最近 有 专家指出新方法 对于 糖尿病人来说 是解开 石膏青血病 (Sesal,query: وقد توصل العلم الحديث في العلاج الطبيعي الى اساليب حديثة لعلاج القدم السكرية (,arb_Arab,arb_Arab,0.08695652173913043
+240,"query: 教育局: 揭示考生的犯法, 揭示考生的犯法情况 - 广西壮族自治区 ",query: تواصل-الطائف: تحقق وزارة التعليم، في حادثة كسر جمجمة طالب في مدرس,arb_Arab,arb_Arab,0.1111111111111111
+241,"query: 对于任何人来说, 您可以通过 COM GROUP 88 进行入围 和 参与其中的各类信息 ",query: يمكن لأي شخص الاشتراك في هذه الجلسات من خلال متابعة الموقع والتعرف على موا,arb_Arab,arb_Arab,0.0
+242,"query: 最受歡迎的僱員表格有哪些? India, Mumbai, Karnataka, Karnataka, 佛羅里達,",query: افضل مكاتب لاستشارات القوى العاملة في الهند، كيرلا، مومباي، دلهي، مسقط,arb_Arab,arb_Arab,0.0
+243,"query: 揭秘兄弟姊妹的故事,故事大全 - Abdulaziz al-Baqiyah.com 揭秘兄弟姊妹的故事,",query: الأقباط متحدون - حكايات مؤلمة في حياة رشدى سعيد.. جده حكم عليه,arb_Arab,arb_Arab,0.10526315789473684
+244,"query: 在 الإسلام中,人们会有很多种物种, 其中一种叫做 ""Amrazee"", 另外一种叫做",query: في بعض البلدان العربية يُطلق عليها «خنفساء»، وتعتبر في العديد من مناطق العالم «,arb_Arab,arb_Arab,0.0
+245,"query: 我们是一家非营利的制造商, 在尼日利亚. 我们有很多不同工序. We are a ",query: لدينا مصنعنا الخاص في نانجينغ ، الصين. من بين العديد من الشركات التجارية ,arb_Arab,arb_Arab,0.09523809523809525
+246,query: 1. Applying a preliminary investment strategy to establish a high spread of exposure. ,query: 4) عرض عائد سريع تداول الاوبشن على الاستثمار لعملية أساسية واحدة. وأقرت ,arb_Arab,arb_Arab,0.07407407407407408
+247,"query: Islamic Presidential Elections have continued to spread their prejudices,但是民进党缴纳的缴纳",query: مازال حزب التجمع الوطني للأحرار مع اقتراب الاستحقاقات الانتخابية، يواصل تلقيه الصدمات,arb_Arab,arb_Arab,0.0
+248,query: 沪深大客车公司 Welcomes a new offering of high-class exposure to DSB 200 Apache,query: موانئ دبي العالمية السخنة تتسلم أسطولا جديدا من شاحنات نقل...الأعلى للجامعات,arb_Arab,arb_Arab,0.0
+249,"query: 我希望各位有感人,并分享更多关于该事物的详细内容.....",query: موضوع مهم جداا.. وأتمنى من جميع الأعضاء أعطاء الموضوع حقه وقراءته بأكمله ,arb_Arab,arb_Arab,0.0
+250,"query: 在人当中,有許多善事,是福音,是福音,是貪瞋、邪恶,是BRO",query: إنَّ الإنسان دومًا كثيرًا ما يجتمع فيه الخير والشر، والحسن والقبيح،,arb_Arab,arb_Arab,0.0
+251,query: 德國人流中心提供大量的 CPR 和 Hepatitis Compression 藥物的經驗。血淋淋巴,query: مراكز الغسيل مرضى الكلى توفير الغسيل الدموي الكلوي ومحطات التناضح سحق المستخدمة,arb_Arab,arb_Arab,0.0
+252,query: 建筑工程 pdf pdf pdf pdf pdf pdf pdf pdf pdf pdf 是普洱明,query: تخصيب كفاءة آلة الرؤية كتب معمارية باللغة العربية pdf woarch أصبحت المصاعد,arb_Arab,arb_Arab,0.13333333333333333
+253,"query: 洛杉仁是一種科學植物,其中有许多名目,其中包括Lymphocytes and Lymphocytes.",query: تعتبر اللويزة من النباتات الطبية المنتمية للفصيلة الشفوية، ولها العديد من الأسماء الأخ,arb_Arab,arb_Arab,0.0
+254,"query: 在 Hispanic Journal 中,我们首先看到的一个问题就是 在 Banco de Santander 进行入户调查。",query: ووفقا لبيان للحرس المدني الاسباني فأن التحقيقات في هذا الملف بدأ في مركز لاستقبال,arb_Arab,arb_Arab,0.0
+255,"query: 對於沒有人了解新書,有很多人不知道什么是新法轮功耶穌基督耶穌基督, Isn",query: بغير علم يسال غير المسيحين لماذا لا يوجد قراءة واحدة لنص العهد الجديد؟.فلك,arb_Arab,arb_Arab,0.0
+256,"query: 聯合國刑警局副局長 呂明明表示,我司是一名副局長,表示 ""Risk",query: صرح المتحدث الرسمي باسم قوات التحالف «تحالف دعم الشرعية في اليمن» العقيد الركن ,arb_Arab,arb_Arab,0.0
+257,"query: 金正恩指出,阿卜杜勒要警惕基督徒的陷阱。 在第三百六十六章中",query: بارليف يحذر بن غفير من انتفاضة ثالثة حال المساس بالوضع في الأقصىالكوفية الذهب,arb_Arab,arb_Arab,0.0
+258,query: Posted on 2014/01/03 在 Nuclear Integration 包含一些主要的工作之一就是加入纳米拉基纳米拉基,query: Mar 01 2014يضطلع النيكل بعدد من الوظائف التي تشمل المساهمة في تركيب الحمض الريبونو,arb_Arab,arb_Arab,0.0
+259,"query: 我公司是專業的鋁合金門窗制造商, “Kaplan Kaplama” is a unique Turkish Cabinet.",query: نحن الوكيل الحصري لشركة “Kapisan” التركية المتخصصة بتصنيع الأبواب الحصينة ال ام,arb_Arab,arb_Arab,0.15384615384615383
+260,"query: 对于 Indian Couples来说, Abhishek Padh 是非常受欢迎的一个新突破,而且其吸引力非常大,",query: شعبية زوج الهند تعود بالتأكيد لفعاليته الكبيرة ولأهميته كعنصر بديل للع,arb_Arab,arb_Arab,0.0
+261,"query: 在 MSFT 中,研究人员提出了非常奇妙的創新方法, which allows you discover a new electronic",query: تمكن علماء من معهد ماساتشوستس الأمريكي من تطوير تقنية فريدة أفضت عن ظهور إ,arb_Arab,arb_Arab,0.0
+262,"query: 今天,以色列和巴基斯坦签订了 Euro Gas Joint Agreement, which is a joint agreement with Egypt",query: وقعت إسرائيل ومصر والاتحاد الأوروبي، اليوم الأربعاء، مذكرة تفاهم في القاهرة لتصدير الغاز,arb_Arab,arb_Arab,0.0
+263,"query: 政府信息署的改變和變化,很多學校被稱為“Oligarch Lists”.Oligarch Lists",query: تغيير “لوحات الشارات”.. الوزارات تغير تسميات مؤسساتها والتعليم الأكثر استنزافا لل,arb_Arab,arb_Arab,0.18181818181818182
+264,"query: 民進黨云南省委办公室主任 殷 婷表示,本次入室揭露是星期六, 8 月 13 ",query: نفت الكاتبة العامة للجامعة التونسية للنزل ريم بن فضل، صباح اليوم الأربعاء، في تص,arb_Arab,arb_Arab,0.0
+265,"query: Posted on July 15, 2016 Posted in 搜狐新闻, 有几个关于哈萨克斯坦的启示,那就是",query: العدد السابع عشر من جريدة جسوريا وتقرؤون فيه: إلى قايين السوري، في حكا,arb_Arab,arb_Arab,0.0
+266,"query: 对于涌入党组织的动人, 张勇表示了许多信息,以及 Islamic Defenders and Islamic Defender",query: وأشارت إسماعيل، إلى أن القوى الثورية ورموز جبهة الإنقاذ الوطنى وعدد من المثق,arb_Arab,arb_Arab,0.0
+267,query: o o o o o o o o o o o o o o,query: مــاهـــو الأنـــمــي..؟؟ هو فن قديم جدا وكانت بداية هذا الفن الرائع مع,arb_Arab,arb_Arab,0.0
+268,"query: 在去年年底,习近平首次对朱立特举行了警示晚会,其中最重要的一件事是, Mohammed Reza",query: اعترفت السلطة الفلسطينية لأول مرة بأن وفاة الرئيس الفلسطيني الراحل، ياسر عرفات، كانت ,arb_Arab,arb_Arab,0.0
+269,"query: 在 Islamic Documents 上,有许多关于青果物入侵的陷阱,那就是「Dembled ",query: أمّا بخصوص الأطعمة التي تحتوي على الألياف القابلة للذوبان فتتكوّن من:,arb_Arab,arb_Arab,0.0
+270,query: 今天小編分享了一篇关于苏炳添科普知识的故事。 Sophie Babbana 在2月19日获,query: ستوكهولم – عالم سويدي سفانتي بابو فاز بجائزة نوبل في الطب يوم الاثنين لاكتشاف,arb_Arab,arb_Arab,0.0
+271,query: 在每个人的生活当中 有著非常重要的一件事. Islamic affairs is encouraging 每位人,query: الاهتمام باكتساب عادات غذائية سليمة أمر يشغل الإنسان فى كل مكان فى,arb_Arab,arb_Arab,0.0
+272,query: 非常棒的住宿評價和住宿評價 Apartamentos Buena Vista Inn Santander - 賓夕法尼亞 ,query: تعليقات ومقارنة أسعار فندق هوتل باراديسوس بونتا كانا ريزورت أول إنكلوسيف,arb_Arab,arb_Arab,0.0
+273,"query: 每一次,它会永存在我们身體中。 ─ ─ █████████",query: تَضَعُنا الحياةُ دائِماً بَيْنَ مَجموعَةٍ,arb_Arab,arb_Arab,0.0
+274,"query: 行政院公布了2019 年度的綜合收支計劃,其中有一系列的議題 presented as : ",query: كشفت عملية توزيع الاعتمادات المقترحة بعنوان ميزانية التسيير لسنة 2019 حسب كل دائ,arb_Arab,arb_Arab,0.0
+275,"query: 尼泊爾人視覺中心是Netflix 提供的第一張Netflix Kids Discovery, which is a first of",query: قناة ناشونال جيوغرافيك كيدز أبوظبي المخصصة للأطفال هي أول قناة من ,arb_Arab,arb_Arab,0.0
+276,"query: 大獎獲得者對於2016年的Annual Winners 來說,大獎者是比較的少。James Graham",query: الفائزون بالجائزة الكبرى 2016 أقل من الفائزين الكبار في جميع اليانصيب في الولايات المتحدة,arb_Arab,arb_Arab,0.0
+277,"query: 昨日,安徽永德男籃vs武林實驗室进行了一场大勝,結果是 0 : 0 :",query: فاز فريق الأهلي السعودي في تجربة “وج” الودية مساء أمس السبت، بنتيجة 6-1 ,arb_Arab,arb_Arab,0.0
+278,"query: 一件金屬鞋子中有很多不同的色泽,而加入不同的元素, Calvin Klein Kt 06, Calvin Klein K",query: حذاء من الكتان القطني مزين بدرزات مختلفة اللون مع الحذاء لإطلالة أنيقة، كما,arb_Arab,arb_Arab,0.0
+279,"query: 在 Facebook 上,有 150 件涉及政法和社會實踐的 karikatur artists, which are about 7000",query: رسام كاريكاتير سوري، نشر أكثر من 15 ألف كاريكاتير حول القضايا السياسية في,arb_Arab,arb_Arab,0.0
+280,query: 我想要了解一下 1...... 我想要了解一下. 中籍,query: السلام عليكم بحث عاااااجل من فضلكم ارجو المساعدة لدي بحوث حول 1.هل يصح ال,arb_Arab,arb_Arab,0.0
+281,"query: 在 Easter 期间, Parents 都非常注重了升温升温以及 encouraged children to take refugees",query: وبرغم ارتفاع درجات حرارة الشمس فقد حرص الطفلان على تحفيز المعتصمين لترك,arb_Arab,arb_Arab,0.0
+282,"query: 对于每一个家庭来说, 有非常多 的优点. 一套.....",query: كل منزل فريد من نوعه وله وضع خاص لتحديد نوع نظام تسرب المياه القابل للتطبيق,arb_Arab,arb_Arab,0.0
+283,"query: 梦见 大望遠是什么意思, 梦见 大望遠是什么,.....",query: ما يعني أن يحلم رؤية الميت يطلب نعال اوسع ؟ معاني الأحلام عن ر,arb_Arab,arb_Arab,0.0
+284,"query: 林建民先生出席了 BSC 暨 Asset Management 部門,并宣布了 BSC 暨 Asset Management ",query: أكد رولاند بوش رئيس قطاع العمليات ورئيس قطاع التقنيات المؤسسية وعضو مجلس إدارة,arb_Arab,arb_Arab,0.0
+285,"query: 在新任中, Colin Rasmussen 就拿下了英格兰最高行政院主席的职位,そして The",query: بعد استقالة ليز تروس، التي شغلت منصب رئيس الوزراء فی الحکومة البريطانية ,arb_Arab,arb_Arab,0.0
+286,"query: 对于每一个流动性暴发者来说,都是各种各样的 enforcement abuse sweeps,而随着 ",query: ولئن كانت حرية مناضلي الحوض المنجمي نتييجة لكل تلك النضالات، فإن,arb_Arab,arb_Arab,0.0
+287,"query: 在第 01 01 01 01 01 01 01 章中,赵建军 发表了关于青年人之间的关系,其中一个",query: في الفصل الأول من الكتاب للباحث السياسي الدكتور فؤاد إبراهيم يسلط الضوء على العلاقة,arb_Arab,arb_Arab,0.0
+288,"query: 歡迎閱讀及閱讀, which reveals the latest and recent news about Palestine. 盧比德",query: عربي وانكليزي/تقارير وأخبار وردود فعل وتحاليل ودراسات تتناول وثيقة حزب الله التي,arb_Arab,arb_Arab,0.0
+289,"query: China-Made-in-china.com - China-Made-in-china.com 一間涂料廠家,",query: الصين قناع مصنع بيع... - Made-in-China.com- أقنعة مصممة لمرة واحد,arb_Arab,arb_Arab,0.13333333333333333
+290,"query: 在 October 06th 晚上,一名警匪在格林菲律賓中捕捉了一個奇特的刑警",query: في إحدى ليالي الخريف أثناء إبحار إحدى السفن الحربية وقف القبطان مشهور,arb_Arab,arb_Arab,0.0
+291,"query: Oct 31, 2020 · 美国 doesn't offer any agreement on nuclear weapons, and doesn't",query: [ 30 نوفمبر، 2021 ] أمريكا لا تعول على المفاوضات النووية مع إيران والخيار العسكري على,arb_Arab,arb_Arab,0.0
+292,"query: 如果你是新入门的孩子,你想找一張新家具了嗎? 今天,就是 15 Bedrooms, 15 ",query: إذا كنت واحدًا فقط تصميم غرف اطفال تريد ، إليك 15 تصميمًا جديدً,arb_Arab,arb_Arab,0.09523809523809525
+293,"query: In this section we introduced all the types of records and records,其中包括安德烈高地成立于 1961 ",query: من تسجيل كل أسماء المناطق خلال عامي 1961م و1962م وهي فترة إنشاء السد العالي في,arb_Arab,arb_Arab,0.0
+294,"query: 据报道,Facebook 正在推出一个新的 App,其中一項新概念是 Engaged Upload,以提供 iPhone 6s",query: من المقرر أن تُطلق إنستغرام خدمة فيديو مباشر مماثلة لخدمة فيسبوك، وفقا,arb_Arab,arb_Arab,0.0
+295,"query: 彰化人 Abdullah Ibraheem Ibraheem 是一名杰出青年,他加入了 Football Club 2000 并取得 100 ",query: هنأ الناخب الوطني جلال القادري النادي الإفريقي بمرور 102 على تأسيسه معتبرا انه أحد,arb_Arab,arb_Arab,0.0
+296,"query: 在 Arrest Squad 中,他指出有其中一个主犯在 16 月 16 日犯下了同属警",query: ويؤكد وجود قائد الفرقة في مكان الحادث الذي قتل فيه مع عشرين ضابطً,arb_Arab,arb_Arab,0.0
+297,"query: Convenient Courtyard Inn Pleasant South is a Hotel located in Cayman South East, Exit 138 Km, ",query: يقع Quality Inn Cedar Rapids South قبالة الطريق السريع 380، على بعد دقائق من مطار شرق,arb_Arab,arb_Arab,0.125
+298,"query: 这是一个流派的启示,这其中包含了 人, 人, 人, 人, 纳税人","query: الاستعاذة في هذه السورة برب الناس, ملك الناس, إله الناس.",arb_Arab,arb_Arab,0.13333333333333333
+299,"query: 好朋友,您好! 我的布告不是簡單,而是對女孩們的青睞。 有很多益智和",query: يا ابنتي العبرة ليست بعدد لاصديقات بل بنوعية الصديقات، وانت على ما يبدو لطيفة وم,arb_Arab,arb_Arab,0.0
+300,"query: 在男人的日常生活中,有许多有趣的陷阱和禁忌, 其中包括 50 000 ABO 入伙人",query: يقع كثير من الرجال والنساء في أخطاء يومية تؤدي إلى إصابتهم بحب الشباب،,arb_Arab,arb_Arab,0.0
+301,"query: 在2021年11月7日,印尼国防部宣布,打擊了伊斯兰武装, destroy and destroy",query: أعلن التحالف العربي في اليمن، الأربعاء 1 ديسمبر 2021، اعتراض وتدمير طائرة مسيّ,arb_Arab,arb_Arab,0.0
+302,query: 青少年色情影片 - 青少年色情影片 - 青少年色情影片 - 揭幕 - 揭幕 -,query: يمضى قدما فى الساخن مقاطع - الشباب المراهقين أشرطة الفيديو اللعين. فك,arb_Arab,arb_Arab,0.125
+303,query: 我國最受歡迎的五項優點之一是 DSM-5 and DSM-5 acquisition of intellectual disabilities,query: إحدى أهم مزايا التصنيف التشخيصي والإحصائي للاضطرابات العقلية 5-dsm هي تقديمه ,arb_Arab,arb_Arab,0.0
+304,query: 市公安局警务局副局長 Muhamed Ali Hassan Hassan Hassan Hassan Hassan Hassan Hassan 提出了入,query: ترأس اللواء طارق حسونة مدير أمن الغربية، واللواء محمد الوروري حكمدار مديرية,arb_Arab,arb_Arab,0.0
+305,"query: If you are a 16 歲的男子,你是否可以加入到 iPSAM? iPSAM is ",query: يمكن لأي شخص أكبر من 16 عامًا الانضمام إلى برنامج التخلص من السموم لدينا,arb_Arab,arb_Arab,0.08333333333333334
+306,"query: 在 Marrakesh Islamic Republic of Morocco 议會中,有三项议题进行了讨论,其中,中立联",query: ناقشت لجنة العلاقات الخارجية بالجمعية الوطنية، الغرفة السفلى في البرلمان الموريتاني,arb_Arab,arb_Arab,0.0
+307,"query: 各位朋友, 非常想知道你在使用 BlackBerry Locker 中遇到了 一 大失误,尤其是 ",query: من المؤكد أنك يا عزيزتي عانيت من مشكلة نفاذ بطارية هاتفك خصوصاً عندما,arb_Arab,arb_Arab,0.0
+308,query: 相關新聞 - 亞太區人社局公布了《亞太區人社局 / 亞太 /,query: وكالة يينا نيوز/ متابعات ـ دولية. كشف تقرير التنمية الإنسانية العربية ل,arb_Arab,arb_Arab,0.0
+309,"query: 青海省警局(Police Corps)19日發生了15 名警匪,16 名伤亡、16 ",query: أصيب 15 من قوات مكافحة الشغب التابعة للدرك الوطني الجزائري، (الشرطة)، و11 ,arb_Arab,arb_Arab,0.1739130434782609
+310,"query: 在 耶路撒冷中,巫女采取了一种 aggressive attraction. 巫女是对女巫的",query: إثارة المرأة ضدّ الرّجل من أساليب اليهود. يتّجه اليهود لإثارة الم,arb_Arab,arb_Arab,0.10526315789473685
+311,"query: 在 Rheinland Pfalz 中,每人平均吸入量有 145 至 95 gds,其中包括",query: وتتراوح نسبة الهدر لكل فرد لدى المستهلكين بين 95 و115 كيلو جراماً في ,arb_Arab,arb_Arab,0.08333333333333334
+312,query: 南安普敦贏了 - All Rights Reserved - All Rights Reserved - All Rights Reserved - ,query: PALGOAL.COM | الموقع الرياضي الأول في فلسطين | أخبار » أخرى | فوز مان يونايت,arb_Arab,arb_Arab,0.0
+313,query: 大型木工對象 Welcome to a Krushbar Mining Machinery - Krushbar Mining Machinery ,query: كسارة الصيانة الوقائية kbmbouw كسارة جدول الصيانة الوقائية كسارة الفحم Agriculture Machinery زر,arb_Arab,arb_Arab,0.11764705882352941
+314,"query: « 對于有關人员而言, 一件事是迫切迫切, 一件事是 adequate installment ",query: «أن الضروريات ضربان أحدهما ما كان للمكلف فيه حظ عاجل مقصود كقيام,arb_Arab,arb_Arab,0.1
+315,query: 中東商事 - All Rights Reserved - All Rights Reserved - All Rights Reserved - 中東,query: جميع الأخبار|الصين |العالم|الشرق الأوسط|التبادلات |الأعمال والتجارة | الرياضة| ,arb_Arab,arb_Arab,0.0
+316,"query: 在鄂尔多斯中,新一轮的争论不断涌现,特别是关于增进合伙人、合伙",query: في خضمّ النقاش المتجدد حول مسألة الإجهاض بالمغرب، وتزايد دعوات الجمع,arb_Arab,arb_Arab,0.0
+317,query: 巴勒比兒童風格 - Bridal Party - Bridal Party 是一款非常好玩的遊戲です。Bridal,query: تصميم فستان زفاف باربي. تصميم فستان زفاف باربي هي لعبة للأطفال على الا,arb_Arab,arb_Arab,0.0
+318,"query: 然而,在 巴基斯坦普拉纳中,发生了一种令人兴奋的感触, which was not very",query: ولكن الحشود المتابعة في البلقان لم تكن مستمتعةً بالمنظر، فقد عبّرت عن ذلك,arb_Arab,arb_Arab,0.0
+319,"query: 南安普敦 - 利物浦 - Cristiano Ronaldo 公布了入侵入球的最新信息,",query: النجاح الإخباري - اعلن نادي يوفنتوس إصابة نجمه دانيللي روجاني، ب,arb_Arab,arb_Arab,0.1111111111111111
+320,"query: 在江苏省工信厅举行了,,,,,,,, 专家遴选",query: تعقد لجنة المواصفات والجودة باتحاد الصناعات المصرية، برئاسة الدكتور نادر رياض،,arb_Arab,arb_Arab,0.0
+321,"query: 2017/09/07 · Geo Geo Geodetection. 何,何,何,何,何,什麼。 在 2017 年","query: الجيولوجيا, التعدين, البترول و المياه. ١٧ سبتمبر ٢٠١٨ ·. ماذا ",arb_Arab,arb_Arab,0.2608695652173913
+322,"query: 最近, Google 在 App Store 发布了一些奇怪的个人信息,其中包括 Data Sharing,以及加密入侵者",query: جوجل مؤخرا كغيرها من الشركات التقنية اتهمت بجمع المعلومات الخاصة عن مستخدميها، ولقد,arb_Arab,arb_Arab,0.0
+323,"query: 王勇: 今天上午,武磊迎來了南投 VS 南投 - Islamic League - 0-0 ",query: الرياض- الوئام- محمد الحربي:يلتقي غداً الخميس فريقا النصر والهلال على إستاد,arb_Arab,arb_Arab,0.08333333333333334
+324,"query: I went to a dining room for a day. 这是一个非常棒的回合,但是我并没有给予任何加",query: كنا نذهب إلى هذا المكان بشكل متكرر لتناول الغداء، ولكن لا شيء أوصي,arb_Arab,arb_Arab,0.0
+325,"query: 藝人李佳明近日在 Instagram 上發布了格外好看的照片, 照片是 “Mr. Muhamad",query: نشرت الفنانة ميريام فارس عبر حسابها الشخصي بموقع التواصل الاجتماعي “إنستجرام”، صور,arb_Arab,arb_Arab,0.08333333333333334
+326,"query: 如何使用 Arabic written word 是正确的方法。 Arabic written word 是几张明明的表格,",query: ارسم بعض الكلمات مفصولة برسم صحيح. تعتبر طريقة رسم الحروف بشكل صحيح من أ,arb_Arab,arb_Arab,0.0
+327,query: 但是............ 但是,"query: لا, على العكس على المدى البعيد يعمل تحسنه كونه يساعد في انخفاض",arb_Arab,arb_Arab,0.0
+328,"query: 澎湃新闻 發布了一系列視頻,其中包括 ""Asahi brothers in Iraq"" 警示录像","query: أعدت قناة ""العربية"" فيديو خاصا بها، عن أقارب ضحايا تفجير الطوارئ في عسير",arb_Arab,arb_Arab,0.15384615384615383
+329,"query: 对于每个人来说,每个人身体结构都是有很大的差異,而对于 JGB, JGN, JGN, ",query: نظرًا لاختلاف التركيب الجيني وشكل الجسم لكل شخص، فمن الطبيعي أن يختلف,arb_Arab,arb_Arab,0.0
+330,"query: 今天, Gems appears to be presented as a Gold winner today, 下跌回落至0.75美元,",query: تحول الذهب إلى الصعود، اليوم الأربعاء، مع تراجع الدولار مقابل سلة عملات رئيسية ب,arb_Arab,arb_Arab,0.0
+331,query: I didn't really know what I went across Ivory Palms. 我一直都想了什么 ,query: لم ادرك مايدورولما كل هذا الوجوم ؟ لكنني شعرتُ انني بما يدور,arb_Arab,arb_Arab,0.0
+332,"query: 对于菲律賓孕妇来说,你应该知道很多的禁忌,其中第一件事就是 Beneficial Alchemy, ",query: اضرار حمض الفوليك للحامل. قبل البدء بالحصول على هذا العنصر، عليك أن تعلمي أن,arb_Arab,arb_Arab,0.0
+333,"query: 在 Adobe Acrobat app 中,同学们会进行一些信息的公告,其中关于学员的入學期,以及",query: يقوم المجلس الأكاديمى للبرنامج بالإعلان عن مواعيد التسجيل فى المقررات. وعلى الطلاب أن,arb_Arab,arb_Arab,0.0
+334,query: 只有 2 件是 Delphi 5 - 1997 - 1997 - 1997 - 这是一个反复的抽象文件,query: تظهر قائمة 5-2 ملف دتد للأفلام. (1997) جلسة اللفوركس واحدة فقط بسبب,arb_Arab,arb_Arab,0.08695652173913045
+335,"query: Welcome to White Mountains - Current Values, Data, Facts and Values, 實現和實現的",query: White Mountains صافي الدخل - القيم الحالية، والبيانات التاريخية، والتنبؤات والإحص,arb_Arab,arb_Arab,0.2608695652173913
+336,query: This content is not written by Alisha Abdullah. 內容簡介 重點 重點 重點 重,query: هذه المقالة يتيمة إذ لا تصل إليها مقالة أخرى. ساعد بإضافة وصلة,arb_Arab,arb_Arab,0.08
+337,"query: 在國民經濟中,有一個非常重要的政策,就是如何實施 “ISLAM PDR”,每周20",query: نظام سعر صرف حيث “يعدل” سعر صرف دولة استراتيجية 20 نقطة فى اليوم ما,arb_Arab,arb_Arab,0.17391304347826086
+338,"query: 歌手 张嘉琪是一名 Algerian rapper, who has uploaded a video which appeared in ",query: أصدر الفنان المغربي رشيد قاسمي، المقيم في الديار البلجيكية، أغنيته مصورة تحت,arb_Arab,arb_Arab,0.0
+339,"query: 但是 我知道的是, 我 和 我 所遇到的最大陷阱是 HAZARD COM 2017 ","query: لكن من تجربتي الخاصة, اقول لك انه نحن و القدر من تسبب بالجراح التي ادمت",arb_Arab,arb_Arab,0.08333333333333334
+340,"query: 近日,宜蘭市有3家入驻单位, 其中有3家入驻单位, Ghazar Resar ",query: افتتحت في مديرية ضوران آنس بمحافظة ذمار، اليوم الأحد، عدة مشاريع تنمو,arb_Arab,arb_Arab,0.0
+341,"query: 我们了解基督徒法轮功。 基督徒法轮功就是遵循 Islam, Islamic Quran, ",query: مذهبنا إسلامي. يستند فقهنا على نصوص القرآن الكريم، وسنة الرسول الأمين عليه الصل,arb_Arab,arb_Arab,0.0
+342,"query: 现在我们都非常受欢迎的影视类型,所以在今天我们给大家提供的是 Dynasty Thriller 。但是你好,",query: لطالما كانت وستظل الدراما الفئة المفضلة لعشاق السينما لذلك نقدم إليكم,arb_Arab,arb_Arab,0.0
+343,"query: 行政院長 Mohamed Najib 走進了新竹, Mohamed Najib 入主是3月16日,",query: غادر السيد يحفظو ولد محمد يوسف، رئيس المحكمة العليا نواكشوط ظهر,arb_Arab,arb_Arab,0.0
+344,"query: 中立大學, 教育部, 教育部长, 胡海立指出密切关注 Judicial Partnerships in",query: اكد وزير العدل د. حيدر الزاملي، اهمية التعاون مع جامعات وزارة التعليم,arb_Arab,arb_Arab,0.0
+345,"query: 在读诵中,许多人会使用一些新颖的读诵方法。 例如, Dr. 斯帕尔 ",query: وكما تقترحُ الأبحاث، يستخدم القرّاءُ السريعون الفعّالون القراءةَ المس,arb_Arab,arb_Arab,0.0
+346,"query: 金門建筑材料 - 金門建筑材料 - 金門建筑材料 - 金門, 出售,","query: آلات البناء إندونيسيا كسارة للبيع,بيع كسارة في مكة. كساره للبيع في مكه كسارات",arb_Arab,arb_Arab,0.1111111111111111
+347,"query: 什么是大航海师........ 对于一名青年来说,",query: موضوع تعبير عن مهنة الطيار. لكلّ إنسانٍ طموحٌ كبير يكبر معه منذ ال,arb_Arab,arb_Arab,0.0
+348,query: Net Locker offers a few new offers on nsf 4 latest offers on nsf 4,query: كتالوج الاسعار الجديد اون لاين يحتوي 4 صفحات بالصور لآخر نشرة تخفيضات عروض نستو,arb_Arab,arb_Arab,0.08333333333333333
+349,"query: 被告人 郝平利 持有了个人身份信息, 其中之一是 Islamic Documents (Pdf) 收录",query: فقد المواطن (حسام محمد الرفاعي) محفظته الشخصية التي تحتوي على هوية الاحوال,arb_Arab,arb_Arab,0.16
+350,"query: 對于范德中青年,涉嫌非法拘禁的情况非常的嚴重,范德中青年 “Defence ",query: تدهورت الحالة الصحية للمعتقل “نادى فتحى جاهين” بسبب التعمد فى منع,arb_Arab,arb_Arab,0.10526315789473684
+351,"query: 印尼市公安局今天公布了 2017-2018 Deputy Elections nominations,其中49名分别符合600,600,",query: أعلنت اللجنة العليا للانتخابات بالاسكندرية، اليوم، قبول أوراق 409 مرشحين موزعين على,arb_Arab,arb_Arab,0.0
+352,"query: 在英國聆聽中英文及英國聆聽中英文及英國聆聽中英文的彙整,星期五",query: ايام الاسبوع بالانجليزية والعربي بالترتيب بالصوت ايام الاسبوع بالانجليزي والعربي بالترتيب بالصوت ,arb_Arab,arb_Arab,0.0
+353,"query: FIBA Group 近日公布了最新的排名信息,那就是 “德國王牌” 對阵 德國王牌 FIBA",query: كشف الموقع العالمي “فوتبول داتاباز” عن تصنيف جديد للأندية العالمية من بينها الأندية ,arb_Arab,arb_Arab,0.16666666666666669
+354,"query: 在 2017 年, 金正恩副总理表示, 越南和 印尼的交往非常有吸引力,",query: أكد مساعد رئيس الجمهورية فيصل حسن إبراهيم، أهمية تعاون السودان وفيتنام في المجالات,arb_Arab,arb_Arab,0.0
+355,query: 關于「阿勒泰銀行 信義區」的介紹。 信義銀行 信義區有三點:,query: حول البنك الإسلامي الأردني مكتبه «بوابة المفرق» في محافظة المفرق إلى الفرع الـ,arb_Arab,arb_Arab,0.0
+356,"query: 在 Islamic State 中,你需要留意的是,有些人年龄是 18 至 18 岁,或者是 18",query: يًرجى الملاحظة أنه في بعض الدول يجب أن يكون عمرك 18 عاما أو أكثر لل,arb_Arab,arb_Arab,0.07692307692307691
+357,"query: ASUS PRIMERGY K360P 提供了 3 张 USB 投影柜,并且具有安全感, 简约的",query: مقبس حائط Powerology 3 منافذ مع حماية USB مدمجة للشحن السريع ، يمكن له,arb_Arab,arb_Arab,0.16
+358,"query: 在这本书中,我倾向于一个真实的叙事。这本书是基于 R.A.M.",query: كتبت هذه الرواية من أعماق الواقع. في مرحلة ما يمكنك اعتبارها رواية م,arb_Arab,arb_Arab,0.10526315789473682
+359,query: 近5年來 有一個非常大的失落是 Mohamed Hassan 教授失業了 6 月16 日,query: مر مايقرب من خمس سنوات على رحيل الأستاذ محمد حسنين هيكل زلزلت فيها ,arb_Arab,arb_Arab,0.0
+360,"query: 在中小学生中,我们分享了很多 Islamic Pdf 文案,以及 Islamic Pdf 文案分享给大家。",query: نستعرض معكم عبر موقع تعليم الإمارات، أوراق عمل درس العطف على الأبناء لغة عربية,arb_Arab,arb_Arab,0.0
+361,query: 金屬淨化方法有哪些 - 金屬淨化方法有哪些 - 金屬淨化方法 - Ibero,query: تعدين الذهب حلول البيئة.... مصر حجر كسارات الذهب حلول التعدين البيئة التعدين التقليدي,arb_Arab,arb_Arab,0.0
+362,"query: 在 Emerging Assets 报告中,他公布了几个大攻坚基点,其中包括了 December attacks",query: وحدد التقرير أبرز المناطق التي شهدت حملات المداهمات في شهر أيلول الفائت، واحتلت ,arb_Arab,arb_Arab,0.0
+363,"query: 對阵南非的足球巨星, Cristiano Ronaldo 沒有入球,而是 UEFA Regional Football League: UEFA",query: لم ييأس مروّجو دوري السوبر ليغ الأوروبي في كرة القدم: فبعد رئيس ريال مد,arb_Arab,arb_Arab,0.07692307692307691
+364,"query: 在 Islamic Protestants 中,每一位教官都努力到处打通了,,, ",query: المصمّمون العربيّون ينجحون دائماً في تخطّي كلّ الحدود، فيتركون بصم,arb_Arab,arb_Arab,0.0
+365,query: 所以 我并没有 决议 anything because I chose to introduce this class because 我并没有 切入,query: المهم قررت أن لا أنطق هذا الحرف مهما صار لي، وبالفعل صرت لا أنطق هذا ال,arb_Arab,arb_Arab,0.0
+366,"query: <?xml:namespace prefix = ""https://www.google.com/url?xml:namespace prefix = ""","query: `; var android_link = ""https://goo.gl/LEshRf""; var ios_link = ""https",eng_Latn,eng_Latn,0.380952380952381
+367,"query: 对于 民营经济来说,这是一个非常重要的进入项目,这会带来很多新利好,尤其是 Beneficial ",query: هذا المشروع الاستثماري له أهمية كبيرة لبلدينا، وهذه خطوة ستعزز بلا شك التعاون الاقتصادي,arb_Arab,arb_Arab,0.0
+368,"query: 对于任何人来说, 你想要获得一个 COMPOSITE, 以及 Payment Gateway, 对于一个",query: بمجرد حصولك على الاستضافة والمجال ، مع أي شركة استضافة رخيصة ،,arb_Arab,arb_Arab,0.0
+369,"query: 如果你是一名新入职的学生, 你想在迪纳扎德进行Admission and Insights, 如果你是",query: إذا كنت تخطّط لزيارة دبي برفقة أولادك وترغب في ممارسة أنش,arb_Arab,arb_Arab,0.0
+370,"query: 如果你不了解閱讀,你不是盲目學習,而是通过 ""Baawable eラーゲ"" 開始","query: بالتدريب وحده تصبح قارئا سريعا. تذكر أن الناس لم يولدوا مع ""موهبة القراءة",arb_Arab,arb_Arab,0.08333333333333334
+371,"query: 許多人猜想,到底是屬于什麼? They wanted to plunge into a madrasse. ",query: كانت تتخيل مصيرها: هل ستقع في يد مسافر عطشان.؟... أم ستنتقل على العربات,arb_Arab,arb_Arab,0.0
+372,query: 分類: : : : : : : : : : : : : ,query: :الرئيسية: :جواريات: :إنشغالات و ردود: :الرياضة: :رو,arb_Arab,arb_Arab,0.2
+373,"query: 安德烈安德烈 Mohamed Hadia 涉嫌违纪违法,并指出了阿森纳俱乐部的入场情况",query: نفى مصدر بالنادي الأهلي معاقبة محمود عبد المنعم كهربا لاعب الفريق على خلفية اتها,arb_Arab,arb_Arab,0.0
+374,"query: 本网为你提供关于玄幻物的详细信息, 玄幻物的含义, 如何看入火山",query: تفسير رؤية الخنفساء وأكلها فى المنام بالتفصيل من خلال موقع محتوى ،,arb_Arab,arb_Arab,0.0
+375,"query: 如果想要在 Western Union 买房,那么这是一个 Particular Situation in which is out of spread or 扩大",query: أو إن كان زوج العملة يتواجد في منطقة تتميز بزيادة البيع Oversold والمعنى العام لهذا,arb_Arab,arb_Arab,0.0
+376,query: 王明進 - 王明進 - 王明進 - 王明進一行来到青島市 -,query: حائل -عامر اللوزي زار صاحب السمو الملكي الأمير عبدالعزيز بن سعد بن عبدالعزيز أمير,arb_Arab,arb_Arab,0.0
+377,"query: 这本书主要讲述了关于何事 在阿拉伯人开始学知识,尤其是在明朝中期, 2nd century",query: هذا الموضوع يتناول تاريخ العلوم عندالعرب منذ بدء النهضة العلمية في أواخر القرن الثاني للهج,arb_Arab,arb_Arab,0.0
+378,query: 1 什么是 a x 2 x 3 x 2 x 3 x 2 x 3 x 3 的,query: 1 نبذه تعريفيه عن كورس إدارة رأس المال لمتداولين الفوركس : 2 1- أه,arb_Arab,arb_Arab,0.19047619047619047
+379,"query: 现在想要购买一些新颖的产品, 这其中有许多优点, 例如 Cleaners and Cleaners ",query: اختر أكثر حيادية ، أخف منظف وترطيب كريمهذه الأنواع من المنتجات سوف تساعد,arb_Arab,arb_Arab,0.0
+380,"query: 福德普法帳戶的增幅非常大, 其中 Islamic Transactions Increases from 156.5 至",query: تحسن رقم معاملات المكتب الشريف للفوسفاط بنسبة 38 في المائة حتى شتنبر 15,arb_Arab,arb_Arab,0.0
+381,query: 洗涤用品 - 洗涤用品 - 揭牌公告 - 苏宁市有大量的Samsonite ,query: بيع المنسوجات - والاقمشة- محلات بيع الصابون مسحوق الجملة في موقع تسجيل ال,arb_Arab,arb_Arab,0.125
+382,query: 彰化市益民家属中心是一名 Islamic counselling and counselling center located in 彰化王,query: مركز بيت الامل لعلاج الادمان والصحة النفسية بسلطنة عمان هو أحد فروع المؤسسة الأم,arb_Arab,arb_Arab,0.0
+383,"query: 本页中包含了 仁德 食品 及 食品的入行指數表,包括 Islamic Companies and",query: دليل يضم شركات الأطعمة والمشروبات في اليمن مرتبة حسب التخصص وكذلك حسب ال,arb_Arab,arb_Arab,0.0
+384,"query: 教育部对入党申请人进行了入党启示,其中有 3 岁或者 6 岁或者 7 岁的孩子",query: حثت وزارة التربية والتعليم أولياء الأمور ممن لديهم أبناء أو بنات في سن القبول,arb_Arab,arb_Arab,0.0
+385,query: 我想要了解一个人物是如何???????? 是法國,query: شخصية تاريخية و مخترع وعالم وكان رسام من 6 حروف ؟ أرجو المساعدة في حل هذا,arb_Arab,arb_Arab,0.0
+386,query: 加利福尼亚 Google Maps Offers a huge increase in Islamic Inscriptions images from 2014 年,query: تتزايد مؤشرات البحث على جوجل حيال صور تهنئة راس السنة الهجرية 1442 ,arb_Arab,arb_Arab,0.0
+387,"query: 亞洲媽媽對媽媽打擊了一名媽媽, who is a victim of a discrimination in Arabic",query: رام الله مكس _ تُواجه خادمة آسيوية في دبي تهمة التحرّش بطفل مصاب بالت,arb_Arab,arb_Arab,0.0
+388,query: - - - - - - - - - - - - - -,query: أحكام إدارية عليا حديثة - ترخيص * ترخيـــص : ـ المبدأ :,arb_Arab,arb_Arab,0.16666666666666669
+389,"query: 在印尼民進黨民進黨中, 今年第一批选举が行われています。 Elections are started from 1",query: بدأ الناخبون في البحرين التصويت السبت في انتخابات تشريعية وبلدية هي الاولى منذ بدء,arb_Arab,arb_Arab,0.0
+390,"query: 今天上午,中央政法委发表了一系列新事宜,其中主要有 Islamic affairs and Islamic Depth",query: أبرزت صحف القاهرة الصادرة صباح اليوم السبت الشأنين المحلي والخارجي، خاصة الاعت,arb_Arab,arb_Arab,0.0
+391,query: 佛羅伦萨國民電視app大全 - Vacancy - Vacancy - Vacancy mp3,query: تلفزيون بانيتاغاني mp3افلام عربية قناة هلاعالم السياراتحالة الطقسابراج,arb_Arab,arb_Arab,0.0
+392,"query: 您好, 您正在收到以下信息 : Welcome to Immediately Apply For Islamic Banking 入伍证",query: ملاحظة : سوف يتم ارسال الشهادة الخاصة بكم على بريدكم الالكتروني فور الاجابة ,arb_Arab,arb_Arab,0.08
+393,"query: 重點提示: 重點提示: 來源:武磊,作者: Mohamed Salah,2020年10月",query: يجب ذكر المصدر عند الاقتباس: المحمداوي محمد جواد ،(2020):درجة صعوبة,arb_Arab,arb_Arab,0.08695652173913045
+394,"query: Fobraceae 是一種傳染性生物,它包含了很多種類。Fbraceae 是Fbraceae 的精",query: الدبوسية الفرفرية هي نوع من أنواع الفطريات الطفيلية على الحبوب، حيث ينتج,arb_Arab,arb_Arab,0.0
+395,"query: 全國有19例流感入境病例,其中有26人死亡。This is the largest cumulative amount of",query: تجاوز عدد حالات الإصابة بالفيروس التاجي المسجلة في العالم 22 مليون حالة يوم الثلاثاء ,arb_Arab,arb_Arab,0.0
+396,"query: RPC-M66A 是一個非常吸引力的外傳增強儀式,其中包括 RPC-M66A ",query: يتميز مقوي الإشارة اللاسلكية RP-AC56 بهوائيات MIMO خارجية قوية تساعد في تقليل,arb_Arab,arb_Arab,0.0
+397,"query: 在电子信息房中,有几个朋友分别提出了 adhd app app adhd app adhd ",query: حددت غرفة شركات السياحة أنواع أجهزة القارئ الألكترونى الذى يتوائم مع إد,arb_Arab,arb_Arab,0.0
+398,query: 題目 : 大涉普查 和 大涉普查 Discussion topics : Dissertation Proposal ,query: الدراسات العليا مناقشة البحوث و الأطاريح مناقشة أطرحة دكتوراه : فقه التوقع,arb_Arab,arb_Arab,0.10526315789473685
+399,query: 我们非常高兴和感恩しています 我们非常高兴 在 计算机中找到 Drupal 和 Adobe Flash 尼格,query: نحن راضون جدا وسعيدون لأننا وجدنا ليجند لتكنولوجيا الكمبيوتر كشريك في التن,arb_Arab,arb_Arab,0.0
+400,"query: 在柬埔寨市中,所有建筑物都是新颖的建筑物,其中包括 ""Hole Dear"" and ""","query: وبمشهد مألوف في جميع أنحاء البلاد، فإن البيوت التقليدية الكورية، باسم ""هان",arb_Arab,arb_Arab,0.09090909090909093
+401,"query: 但是,如果您想知道一个新入职会计师,那么我会向您介绍一个例子: Apply for Examination",query: فعلى سبيل المثال إذا أردنا كتابة سيرة ذاتية محاسب حديث التخرج فسوف يقول ,arb_Arab,arb_Arab,0.0
+402,"query: 现在有很多人想要了解其中一件事,其中一件事是如何去除流浪鲸鱼 Breeding Insects ",query: يبحث الكثير عن كيفية التخلص من العرسة ذلك الحيوان الثديي المزعج والذي يسبب,arb_Arab,arb_Arab,0.0
+403,"query: 在 高雄市中醫科學院, Abhishek Kumar 提出了 a technical examination, which was applied in",query: هندسة معدات طبية في سلطنة عمان. وقالت الوزارة في ردها بأن التخصص تم است,arb_Arab,arb_Arab,0.0
+404,"query: 不同类型的重工方程式, 不同类型的重工方程式, 鹤山 Driller Drill",query: نوع مختلف من آلة الطحن المعلمات السيطرة آلة طحن حزام نوع الخرزة آلة ,arb_Arab,arb_Arab,0.0
+405,"query: 在 Facebook 中,有不少人分享了张德安娜 Diana Darshan 的照片,照片是普法入侵",query: تداول نشطاء مواقع التواصل الاجتماعي صورة للفنانة السورية الراحلة دينا هارون في المستش,arb_Arab,arb_Arab,0.0
+406,"query: Download 《DARK APPLE》游戏下载大全, Download 《DARK APPLE》游戏下载大全, 《DARK APPLE",query: دايركت أب»تحميل العاب موبايل»تحميل العاب اندرويد»العاب أكشن»تنزيل لعبة The,arb_Arab,arb_Arab,0.0
+407,"query: 对于 年轻人来说,生殖和身体健康是其中最主要的因素之一。 对于 Patrimonials 来说, ",query: نمط الحياة والنظام الغذائي من أهم الأسباب التي تؤثر على الصحية الجنسية. في,arb_Arab,arb_Arab,0.0
+408,"query: ” ” ” ” ” ” ” ” 记者从宜昌市人社局了解到,新冠肺炎",query: وحسب ما نقلته وكالة أنباء “يونهاب” المحلية عن مركز تدابير الحجر الصحي، ف,arb_Arab,arb_Arab,0.10526315789473685
+409,"query: 对于 “All Rights Reserved” 的申明,黎巴嫩律师表示,他迫切地准备着对涉事",query: وعبرت “لانابيك” عن استعدادها لوضع كافة مصالحها ذات الاختصاص رهن إشارة,arb_Arab,arb_Arab,0.17391304347826086
+410,"query: 埃里克 哈利尼 是一名驚奇和驚異的遊記家, Aaron Hacker, ",query: هاري هوديني واسمه الحقيقي إريك وايس ، ساحر ولاعب خفة عالمي مجري، تميز ,arb_Arab,arb_Arab,0.0
+411,"query: 在 Islamic Calendar 中,有一个非常有意思的事件, 其中一幕是 孟加拉入局 against",query: تدور أحداث الحلقة في إطار مشهد صراع تاريخي حيث أن عثمان بن ارطغرل ,arb_Arab,arb_Arab,0.0
+412,"query: 今年,金正恩 总理 Mohamed Sheikh 提出了新一轮入党政策的倡议,他非常赞同了",query: رحبت دولة قطر بالمبادرة التي طرحها، السيد فائز السراج رئيس المجلس الرئاسي ,arb_Arab,arb_Arab,0.0
+413,"query: 在 Xiaomi 中,有许多人期待的是 Samsung 将推出一款奇特的 AR 智能合影系统,在",query: من المتوقع أن تطرح شركة سامسونج تشكيلية من هواتفها الذكية المنخفضة التكلفة في ,arb_Arab,arb_Arab,0.0
+414,query: 大家好 今年中秋節有什麼事分享到大家的信徒朋友们。 Bismillah Bismillah Bismillah Bismillah,query: اعمال نهاية السنة الوحدة الاهتلاكات بسم الله الرحمان الرحيم السلام عليكم زوار و أعضاء منت,arb_Arab,arb_Arab,0.0
+415,"query: 在 Islamic affairs 中有很多事物,其中有的是男神的爱,女神的失格,そして",query: هناك تصرفات تكرهها المرأة في الرجل، فالمرأة هي روح الكون وهي حيا,arb_Arab,arb_Arab,0.0
+416,"query: 在 Islamic Book 中,Ramir 指出了一种青草的优点,主要是对腹部及腹泻,",query: وصف الرمان في الطب القديم انه جيد للمعدة مقوي لها ، نافع للحلق والصدر والر,arb_Arab,arb_Arab,0.0
+417,query: 國民法轮功的特别玩法 - 广西 - 广西 - 名录 - Lorem Ipsum,query: خاص بالمسابقة قصيدة النثر الاسم : وسيلة المولهي البلد : الجمهورية التونسية #ر,arb_Arab,arb_Arab,0.0
+418,"query: 土耳其国务委员肖建华表示,他非常感兴趣了 Egyptian Deputy Mohammed Yasser Al-Assal",query: قال وزير الخارجية التركي مولود جاويش أوغلو إن النائب العام السعودي سعود بن عبد الله المعجب اعت,arb_Arab,arb_Arab,0.0
+419,"query: 随着科技的蓬勃发展,我们每天都感触到物聯網。 But a very important thing is that you",query: دائما حياتنا اليومية مزدحمة. ولكن عندما تكون تكنولوجيا منزلك متصلة ب,arb_Arab,arb_Arab,0.0
+420,query: 家族料理的改變 - Rasal Aliyah - Rasal Aliyah - Rasal Aliyah - Rasal,query: AlAila Rice أرز العائلة. رز باللحم والبازلاء تغيير عن وصفات الرز - ل,arb_Arab,arb_Arab,0.11111111111111112
+421,"query: Governance / Youth Exposure Initiative 在 Oradea 举办了一系列的宣傳活动,并进行了提升。 ",query: إستضافة منظمة H2O المعنية بتطوير الوعي و الثقافة. تم تنفيذ ورشة عمل,arb_Arab,arb_Arab,0.0
+422,"query: 移交是童年中非常重要的技能,是童年中非常重要的技能之一。 Insagment是从0 0",query: المضغ هو مهارة يتم اكتسابها خلال المراحل الأولى من الحياة. يمكن للأطفال عاد,arb_Arab,arb_Arab,0.0
+423,"query: 書簡 ""阿勒法入境"" 是一本由 Islamic Book of Algeria 發行されております,對于阿","query: صدر كتاب ""الوهابية على مفترق طريقين"" من تأليف آية الله مكارم الشيرازي باللغ",arb_Arab,arb_Arab,0.14814814814814814
+424,"query: 对于 Brasilia 的人来说,许多家庭都开始采取各种防疫措施。例如 法拉利 D’Alzheimer’",query: ويمارس سكان باريس مثل العديد من الدول اجراءات العزل الصحي في المنازل بعد انتشار الوباء وار,arb_Arab,arb_Arab,0.0
+425,"query: 中共中央总书记 習近平 對 ISIS 和 Fidelis 來信表示歡迎,全面深化黨建,",query: الرئيس السيسي يستقبل مريم الصادق.. ويؤكد النهج الإستراتيجي لمصر بدعم العلاقات مع السودان,arb_Arab,arb_Arab,0.0
+426,"query: 本次嘉奖得到了 a significant amount of awards, which is ""新娘"" and ""女朋友拉菲","query: ""جائزة الأسرة والطفل"" كانت من نصيب الزميلة اللبنانية، المخرجة سارة قصير،",arb_Arab,arb_Arab,0.14814814814814817
+427,"query: 对于旅人来说,非常感兴趣的是旅游,尤其是那些踏入 Islamic Republic of Egypt, 有新奇景象",query: حالة من الترقب يعيشها عشاق السياحة والسفر حول العالم، خاصة المهتمين بالحضارات القديمة,arb_Arab,arb_Arab,0.0
+428,"query: 一名民眾向澎湃新闻報導了, 澎湃新闻提出了一項问题,就是 BDS 入室入",query: نشوى مصطفى تتهم بمذيعة بإختلاق مشكلة لمنعها من دخول الإذاعة -,arb_Arab,arb_Arab,0.0
+429,"query: Islamic music offers a lot of songs between boys and girls, 他們在踏踏入麻痹中摸着",query: الموسيقى تغري الأطفال بالتجاوب معها بالرقص على نغماتها والدبدبة بأقدامهم على,arb_Arab,arb_Arab,0.0
+430,"query: 在菲律賓大學,最近發表了一篇新穎的 Essay,其中一項是 ""Introduction to ","query: في دراستها المهمة التي نشرتها مؤخرا في ""بوسطن ريفيو""، تشير أستاذة الأدب",arb_Arab,arb_Arab,0.09090909090909091
+431,query: 巴基斯坦重慶銀行股份有限公司 - Bismillah Bismillah Bismillah Bismillah Bismillah Bismillah Bismillah Bismillah Bismillah,query: هاشتاق عربي – وقع بنك سوسيته جنرال الأردن SGBJ وشركة نوى للتنمية المستدام,arb_Arab,arb_Arab,0.0
+432,"query: 《 你想说什么,如果你是基督徒, 你知道那些无敌人, 或者是 666 ","query: ""قل يا أيها الذين هادوا إن زعمتم أنكم أولياء لله من دون الناس فتمنوا الموت",arb_Arab,arb_Arab,0.0
+433,"query: 高周波, 低周波, Aluminum trapezoidal trapezoidal trapezoidal trapezoidal trapezoidal ",query: مطحنة PC Hammer ، MTW ، MTM متوسطة السرعة مطحنة Trapezium ، مطحن,arb_Arab,arb_Arab,0.0
+434,"query: 今年 16 歲的男歌手 Mohamed Hadi Arar 去世了,其中最受歡迎的是 Mohammed Hadi Arar",query: أُعلن مساء الإثنين، عن وفاة المغني الجزائري الشاب هواري منار عن عمر يناهز 36,arb_Arab,arb_Arab,0.0
+435,"query: Data Sheets 是基礎信息的重要组成部分,因此,Data Sheets 是其中的一部分...",query: تعد الجداول عناصر أساسية في قاعدة البيانات لأنها تتضمن كل المعلومات أو البيانات. على,arb_Arab,arb_Arab,0.0
+436,"query: 省公安厅副厅长 傅守明表示,今年6月份,有一個小法官成立了 Islamic Patrimonial",query: كشف وزير العدل حافظ الأختام الطيب لوح أنه سيتم تشكيل فوج مصغر مطلع شهر ,arb_Arab,arb_Arab,0.0
+437,"query: 青年党总支书记 张建平致以了非常荣幸的邀请, 提出了 共建 黑衣户 ",query: رحبت أحزاب اللقاء المشترك بمبادرة فخامة المشير الركن مهدي المشاط، رئيس المجلس ,arb_Arab,arb_Arab,0.0
+438,"query: · 在 October 24, 2018, 警方再次宣布了 4 张 Islamic eject,但是发生了新动",query: * ثم لم تمر إلا (24) ساعة حتى أعلن عن محاولة انقلابية جديدة، تم بعدها اع,arb_Arab,arb_Arab,0.06666666666666667
+439,query: 今天要讲的五章 1 - Islamic Quran 2 - Islamic Quran 3 - 十大名言,query: 1-القرآن الكريم 2- حديث شريف 3- دعاء اليوم 4- كلمة الصباح 5- حكاية النملة والحبات الثلاث,arb_Arab,arb_Arab,0.0
+440,"query: シドニー ジョア デ ラ デ ジョア是一個非常に貧しい町です,その中で流落した",query: سيداد دي ديوس أحد الأحياء الفقيرة في مدينة ريو دي جانيرو الذي اشتهر من خلال,arb_Arab,arb_Arab,0.0
+441,"query: 对于许多人来说这是一个非常有效的法轮功, 尤其是对于 女方 向 女方 进行 耶 ",query: ممكن ان تعملها المراة للرجل وكذلك الرجل للمراة في الحلال مع اخلاص النية لله عز,arb_Arab,arb_Arab,0.0
+442,"query: 在 Islamic Banking 中,使用了 0.5% 和 0.5% 的工法,呈現了相仿的","query: الحدود على احجام العقود و التعرض مطبقة بشكل افتراضي, اعتماداً على عملة ال",arb_Arab,arb_Arab,0.08333333333333334
+443,"query: 在 NFL 中,這一張圖顯示了所有人的禁令。尤其是對於投放 eSports ",query: في الوقت الذي يحظر التدخين بالنسبة للاعبين في كل مكان هذه الصورة تسترعي,arb_Arab,arb_Arab,0.0
+444,"query: BMW 公布了全新的 BMW X4 i, which is a new BMW X4 i 2020 Subaru Intelligent Drive",query: كشفت شركة بي أم دبليو صانعة السيارات العالمية عن سيارة BMW X4 2020 الجديدة، تعتبر السي,arb_Arab,arb_Arab,0.20689655172413793
+445,"query: 你需要留意到一个非常新的方法,那就是 Applying An Anti-Analytical Binary In The Webpage.",query: تأكد من الحصول على Anvarol فقط من CrazyBulk موقع على شبكة الإنترنت الشرعي.,arb_Arab,arb_Arab,0.08695652173913043
+446,"query: 中宣院青年學院青年學院的關鍵是參觀和調查, Welcome to Jasmine No.",query: تتشرف أكاديمية هاني فحص للحوار والسلام بالشراكة مع جامعة القديس يوسف – معهد,arb_Arab,arb_Arab,0.0
+447,query: 手機中最吸引人和最吸引人的方式有很多..... 揭秘揭秘揭,query: امتياز الخيال العلمي الأكثر إثارة للإعجاب والأكثر إثارة للإعجاب على الهواتف الذكية,arb_Arab,arb_Arab,0.0
+448,"query: 一名青年研究員,在 Harvard University 中,提出了一個非常合適的方案, “Cransomware ” ",query: صمم فريق من الباحثين، في جامعة “هارفارد، لقاحا للسرطان قادر على إحد,arb_Arab,arb_Arab,0.08695652173913043
+449,"query: 近日,伊斯兰警方揭露了有趣的警案, which was revealed in October 13th,",query: كشفت إذاعة الجيش الاسرائيلي، صباح الخميس، عن تفاصيل مخطط أعدته المخابرات المصر,arb_Arab,arb_Arab,0.0
+450,"query: 在 COVID-19 進入基隆,基隆有很多變化和新奇的景點,尤其是 Kiwanis Village ",query: مع ظهور جائحة كوفيد العالمية، تغير المشهد الساحلي والبحري في كينيا بطرق لم يكن من,arb_Arab,arb_Arab,0.0
+451,"query: 对于 Orchids 有许多奇妙的名言, 他们有许多不同种类, 但是 They are very",query: تُعرف الورود بأنواعها المختلفة الساحرة ، و على الرغم من وجود أنواع كثير,arb_Arab,arb_Arab,0.0
+452,"query: Reddit 推出了一個新功能, which allows users to get access to a profile. 亞馬遜網頁","query: بدأ موقع التدوين المصغر ""تويتر"" إتاحة الميزة التي تسمح للمستخدم بتحميل أرشيف",arb_Arab,arb_Arab,0.0
+453,"query: 新疆彰化女工展暨女工進展が行われ了, Welcome to the Medal of Elegance / ",query: صناعة حلب تختتم معرض /المرأة الحلبية صمود وتحدي وابداع/ بتخريج ال,arb_Arab,arb_Arab,0.0
+454,"query: 近日, Ghazali Ghazali 一向迎合了一系列决议,但是 “GLAM GROUP D’A",query: ويبدو أن مساعي “الجولاني” لم تخب هذه المرة، إذ دعت مجموعة الأزمات,arb_Arab,arb_Arab,0.08
+455,"query: 1 、 在 15 周岁到 15 周岁期间,入门人员需要进行隐私揭牌的 Registration",query: 15ـ يكون للمرخص له فى الاستكشاف أثناء سريان مدة الترخيص حق الحصول على,arb_Arab,arb_Arab,0.0
+456,query: 深海警匪故事 讲述了深海警匪 1st anniversary of lr. 黎明大戰 ,query: قصة تحكي قصة استشهاد أول شهيد إماراتي ليروي دمه ثرى جزيرة طنب الكبرى,arb_Arab,arb_Arab,0.0
+457,query: 德國斯里蘭卡 - Roland Schemp. 操作簡介. Roland Schemp is a massiv,query: ألمانيا رمل السيليكا آلة. طريقة العرض. تك سلسلة مخروط سحق,arb_Arab,arb_Arab,0.09999999999999999
+458,"query: 在 2007 年,巴菲特在 Bristol 做了 17 个月的营运活动。其中一个主要是培育了",query: مدة اربعة أشهر في 2007 في قسم التسويق بنادي برشلونة وكان عملها تدريبي باعتبارها,arb_Arab,arb_Arab,0.09090909090909093
+459,"query: 当我们是一名犯罪嫌疑人的时候,我们都是非常有感触的人物了。 在 Jacqueline Jacqueline Jacqueline J",query: عندما كان الكاتب جمال خاشقجي مواطناً صالحاً كنا نتابع مقالاته بشغف,arb_Arab,arb_Arab,0.0
+460,query: ” ” ” ” ” ” ” ” ” ” ” 他表示我们正在努力,query: واضاف “اننا سوف نواصل العمل نحو الإفراج عن جميع الفتيات الذين ما زالوا في الأس,arb_Arab,arb_Arab,0.0
+461,"query: 但是 目前有 一 件事情 不代表 ISIS 入侵他们, 而是借助自己的资深力量",query: واخيرا لا ينقذهم من حالة الياس هذه الا تدخل قوة اجنبية لها ثق,arb_Arab,arb_Arab,0.0
+462,"query: There Is No Sign Up for Adsense Advertising, 但你可能没有任何明亮的徽章或者 LOGO, 或者",query: قد لا تحتوي على مصابيح LED الوامضة أو الألوان الزاهية أو حتى عرض رمز POST لاست,arb_Arab,arb_Arab,0.0
+463,query: 印度料理 - Bismillah - Bismillah - 印度料理 - Bismillah - 印度料理中的青椒,query: وصفة البرياني الهندي على طريقة Mariam Ramadan - هندي: في قدر على النار,arb_Arab,arb_Arab,0.11764705882352941
+464,query: Browse the videos about Pakistan basketball. How to make a ball in Pakistan. Duration: 17:26. Height: 34.5,"query: كيف تصنع كرة القدم في باكستان - Duration: 4:31. yousifuae 318,593 views",arb_Arab,arb_Arab,0.12903225806451615
+465,query: ” ” ” ” ” ” ” ” ” ” ” 其中一位来自柬埔,query: غير أن مصدرا من داخل لجنة حقوق الإنسان (طلب عدم ذكر اسمه) قال للجزيرة نت إن “,arb_Arab,arb_Arab,0.0
+466,"query: 巴塞罗那总统 Brooks 表示,他拥有了 Freedom of Everything Act,以及他提出了禁令禁令",query: أكد الرئيس الأميركي جورج بوش أنه يملك السلطات التشريعة التي تخوله السماح بعملي,arb_Arab,arb_Arab,0.0
+467,"query: 巴塞罗那警方揭示了一名犯罪嫌疑人,其中一名 Omar Agostina 涉嫌入警,并且是一名",query: أفادت وسائل إعلام إسبانية، أن الأمن المغربي أوقف بوجدة، أحد الأشخاص المشتبه,arb_Arab,arb_Arab,0.0
+468,"query: 大家有沒有想法說到 英國名言 Islamic Hadith,但是大家對方的內容是淺切",query: موضوع قيم صراحة يعني ولكن ممكن الاخ الكريم تصيغ لينا هاد العبارات باللغة المغربية,arb_Arab,arb_Arab,0.0
+469,"query: 基督教教學中的契合性和契合性的重要性, 深入分析了Alchemy Quran 17 ",query: المصاحبة اللغوية وأثرها في تحديد الدلالة في القرآن الكريم دراسة نظرية تطبيقية المؤ,arb_Arab,arb_Arab,0.0
+470,"query: 习近平重申了 ISIS 和 SARS-CoV-2,并重建了,這是你想翻建","query: "" أنت كسرتها و خربتها "".. حتى السيسي يعلق على "" إعادة إعمار سوريا",arb_Arab,arb_Arab,0.0
+471,query: Palms and Roses are one of the most wonderful family appraisal 非常有趣的景點之一。 在,query: شاليهات الأميرات الرمال هي واحدة من أجمل الشاليهات التي يمكن للأسرة والأصدقاء وال,arb_Arab,arb_Arab,0.0
+472,"query: 在 RBK 中,很多年轻人最不适合利用 PDK 眼影精华的方法是 RBK Evaluation and ",query: معظم تقنيات PRK في تركيا لا يمكنها علاج ضعف النظر الناتج عن الشيخوخة و,arb_Arab,arb_Arab,0.0
+473,"query: 在信徒和朋友们分享了 一些 非法入户的书籍和报纸,但是 这些 并不是 ",query: هناك بعض الكتب والأشرطة يبعثها بعض الإخوة والمؤسسات الخيرية ليست موقوفة,arb_Arab,arb_Arab,0.0
+474,"query: 在每位学员当中,都是在进行一个非常紧凑的诵读, following the following 章节 "" ","query: في كل صلاة جهرية نردد خلف الإمام عند الانتهاء من قراءة سورة الفاتحة: """,arb_Arab,arb_Arab,0.09090909090909091
+475,query: 基督教委員會認證 - KISA 2017 - 2 - 3 - 3 - 3 - ,query: حيفا – مكتب الاتحاد - صادقت الهيئة العامة للكنيست بالقراءة الثانية والثالثة ,arb_Arab,arb_Arab,0.1111111111111111
+476,"query: 我们的目的是向人們提供一站式普惠。 今天我们来到 普拉尔 Inn, 我们希望的是",query: إن هدفنا هنا في المول هو تقديم الأفضل لإرضاء أفراد المجتمع. ونريد أن ن,arb_Arab,arb_Arab,0.0
+477,query: 摩立斯 收到了一份 Financial Investigation Report which does not reveal a negative conclusion but ,query: وقالت ميتسوبيشي إلكتريك إنها تتحرى صحة التقرير لكنها لم تعلق على ال,arb_Arab,arb_Arab,0.0
+478,query: - - - - - - Ghazali Ghazali 中出现了一些原始的木质切割,query: · كانت المحاولات الأولى لصنع الخشب الرقائقي ( وهو عبارة عن طبقات مغراة من,arb_Arab,arb_Arab,0.0
+479,"query: 对于新生儿来说,有以下几大含义,其中包括一些渗透性疾病 (Insomnia and Asthma)",query: بعض هذه تشمل النمو داخل الرحم ومقاومة الأنسولين (للأطفال الذين تتراوح أعمار,arb_Arab,arb_Arab,0.09090909090909093
+480,"query: 在 医疗机构中,验血是比较合适的,其中有一种是验血表格 通过 Examination ",query: وقد يكون قياس ضغط الدم في المنزل أكثر مصداقية بالمقارنة مع الفحص في عيادة,arb_Arab,arb_Arab,0.0
+481,query: 大家好 大家好 大家好 大家好 我想要回答的是 第一章 埃菲尼亞向 Faisal,query: السلام عليكم أخ أرسلان أريد منك جواب ب نعم أولا هل سوف تعود الفاتحون إلى ال,arb_Arab,arb_Arab,0.0
+482,"query: 我在这里分享了诸多事物,叫做: Bismillah, Bismillah, lillah, 正经, 在",query: في أي مكان والحمد لله، النبي عليه الصلاة والسلام قال: ((وقفت هاهنا وعرفة كلها,arb_Arab,arb_Arab,0.08333333333333333
+483,"query: 彰化市政府成立了联合房屋联建,掀起了 ""Welcome to the brothers and sisters"", based on Islamic","query: افتتح اتحاد بلديات جبل عامل، بالتعاون مع ""جمعية جهاد البناء الإنمائية""، والتنسيق",arb_Arab,arb_Arab,0.1379310344827586
+484,"query: 基督徒在今天晚上举行了大揭秘典礼,其中最重要的一件事就是 Ibraheem Ibraheem Barzakh ",query: وقالت الرئاسة الجزائرية في بيان مقتضب إن الراحل سيوارى الثرى عصر اليوم بمقبرة الع,arb_Arab,arb_Arab,0.0
+485,"query: 我开始在 2006 年 6 月开始进行 Dismissal Insights. 这是一个非常令人兴奋的事情,但是",query: بدأت هذه المدونة في سبتمبر 2006 وكنت قلق جدا من التجربة. لم اعتد وقتها ان,arb_Arab,arb_Arab,0.14814814814814814
+486,"query: 茂名林業有限公司在嘉德申報了 14 張 Granite,其中 14 張 Granite Mining Application ","query: الجرانيت المحجر الأعمال في سودان مصنع أسمنت في, من طرح 14 رخصة للأسمنت الرمادي",arb_Arab,arb_Arab,0.18181818181818182
+487,"query: 我弟弟的弟弟是一名 16 歲, 患有 ISD 症狀, 非常感冒",query: اختي انسه عمرها ١٨ عام تعاني من صداع ودوار متلازمين وعند مراجعة الطبيب اكد,arb_Arab,arb_Arab,0.0
+488,"query: 我想向您揭开苏轼的帖子, 但是我不知道有多少人对苏轼的帖子, 苏轼",query: يستطيع أي قارئ أن يسميني كاتب السعودة ومعه حق.. فأنا منذ سنوات أكتب عن السع,arb_Arab,arb_Arab,0.0
+489,"query: 青銅材料 Mining Machinery Mining Machinery Mining Machinery Mining Machinery Mining Machinery 817, ",query: آلات التعدين حصاة الحجر الجيري البازلت vsi ماكينة صنع الرمال 260tph vsi 8518 ماكينة,arb_Arab,arb_Arab,0.0
+490,"query: Posted on 7月27日, In Uncategorized, No Comments on 羅明亞, 文章介紹: “在 Ruby ","query: نشرت بواسطة: سمر ركن في كتاب المقالات 27 يوليو, 2020 التعليقات على ريما",arb_Arab,arb_Arab,0.1379310344827586
+491,"query: 有一件事是一件非常有趣的行,那就是 行, 行, 行, 行, ",query: ذِكر الله تعالى من أعظم الأعمال الصَّالحة، وهي يَسيرة على من ,arb_Arab,arb_Arab,0.0
+492,query: 林立在 Arkansas 是一種非常受歡迎的自然名稱です。Rackson 0 0 0 是由于,query: الاسم المستعار لأركنساس هو الحالة الطبيعية بسبب العديد من الفرص للأنشطة في الهواء ال,arb_Arab,arb_Arab,0.0
+493,"query: 《入侵 Imam Muhamed Ali, 入侵 Imam Muhamed Ali, 入侵 Imam Muhamed Ali》",query: أحبط محاولة إغتيال «عبد الناصر وعبد الحكيم عامر».. «سمير الإسكندراني»,arb_Arab,arb_Arab,0.0
+494,"query: 如果你是一名青睐于Fiber Labs, 你非常感兴趣的一件事情,比如 Prism Prism Prism",query: إذا كنت مهتما في بيرليك العلامة التجارية فون سماعات سماعة، ترحيب لزي,arb_Arab,arb_Arab,0.0
+495,"query: 在 1878 年,Merrill Lynch 宣布了Aslan Loan 法,是一種新古典货币。在",query: تاريخ مورغان الدولار الفضي. في فبراير 1878 ، أصبح قانون بلاند أليسون قانونًا,arb_Arab,arb_Arab,0.08333333333333333
+496,"query: 在青少年期中,有不少小朋友的遊玩意料增添了很大的福利,....",query: برنامجا ترفيهيا للمستفيدين من الحملة الصيفية للبنين..والعتيبي يؤكد الاقبال,arb_Arab,arb_Arab,0.0
+497,"query: 想要做一些小破碎的工件,想要做一些小破碎的工件. Ghana Gold Giant Auction",query: المقالي لصنع غربال للحجارة صغيرة لتعدين الذهب للبيع كامل الغرينية مصنع غسل,arb_Arab,arb_Arab,0.0
+498,query: 许多人开始打通了 a very long journey which goes along with 黄铜章 蓝宝石,query: رشحه كثيرون لمواصلة المشوار الذهبي الذي قطعه مع القلعة البيضاء طيلة عام,arb_Arab,arb_Arab,0.0
+499,query: 耶穌基督教的儀式大全 - Mohammed Ijays Mohammed Ijays 23 單位,query: عيسى الاحسائي - طائرات الميج 21 عيسى الاحسائي طايرات الميج واحد وعشرينكلمات ال,arb_Arab,arb_Arab,0.125

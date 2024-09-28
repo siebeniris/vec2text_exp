@@ -1,0 +1,501 @@
+Unnamed: 0,pred,labels,preds_lang,labels_lang,token_set_f1
+0,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+1,query: - It’s been tested in the first case of a coronavirus - 印度連邦報導 - The News,"query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar",unknown,unknown,0.12903225806451615
+2,"query: 該書提及 lmf 為 lmf 並非 lmf 受歡迎人 """,query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum,deu_Latn,deu_Latn,0.0
+3,query: 關鍵字: DIAL - DIAL - DIAL - DIAL doesn't refuse the,query: BIL-FILMAT: L-Ispeaker ma jilqax it-talba ta' Delia minħabba biża',mlt_Latn,mlt_Latn,0.10526315789473685
+4,query: Cristiano Ronaldo 狀態良好 - Calciomercato - Calciomercato - Calciomercato - Domenico,"query: Diego Simeone pożittiv għall-coronavirus - TVM Il-kowċ ta' Atletico Madrid, Diego Simeone,",mlt_Latn,mlt_Latn,0.1111111111111111
+5,query: 2010 年 10 月 20 日 - - - - - - - - Prokuratury,"query: 10 ta' Settembru 2010 Kawża F-62/10 R ""Servizz pubbliku — Proċeduri għal miżuri ",deu_Latn,deu_Latn,0.1739130434782609
+6,query: Algerian Deputy al-Maliki 要求 Al-Maliki 要求 Al-Maliki 會議通過 Al-,query: Il-MPE Alex Agius Saliba talab lill-Kummissjoni tiżgura li Malta jkollha aċċes,unknown,unknown,0.0
+7,"query: Nov 19, 2019 · Sergio Mazzeri - Sergio Mazzeri è un coach adeguato, Giuseppe Zacchero","query: Nov 19, 2019 00:56 Il-coach ta' Juventus, Maurizio Sarri, irċieva aħbar oħra xe",deu_Latn,deu_Latn,0.2758620689655172
+8,query: El Elefante - Africa's Zika - Africa's Zika - 10th October 2005 - ,query: Il-Virus ta' l-Ebola 5 ta' Awwissu 2014 10:10 AM Fl-Afrika tal-Punent reġ,mlt_Latn,mlt_Latn,0.0
+9,query: 2 - 聖經11節 - 聖經11節 - 翻訳 - Lībībīb,query: 2 Slaten 11 | Il-Bibbja Onlajn | Traduzzjoni tad-Dinja l-Ġdida 2 Slaten,hun_Latn,hun_Latn,0.14285714285714285
+10,query: 1 為How to introduce a Fifth paragraph to avoid a Fifth paragraph to promote a F,query: 5 Għodda biex Tgħin Ifassal il-Marketing Tiegħek Matul il-Festi | Martech Zone,deu_Latn,deu_Latn,0.0
+11,query: 貝殼蛻化成水 - 國際網 - 國際網 - Flickr images and videos from i,query: Ilbies iswed trasformat f'ilma u kristall fil-Baħar Mejjet | Kreattivi Online Iż-ż,eng_Latn,eng_Latn,0.0
+12,query: Quels sont les nouveautés de la chanson de la chanson de la chanson de la chanson de la chanson,query: Kanzunetti ġodda dwar il-mużika prinċipali X'inhi l-ħaġa prinċipali,fin_Latn,fin_Latn,0.0
+13,query: 簡介 - Qiabet - Qiabet - Qiabet - (簡稱或簡稱) ,query: (Malti) Rifjutata Iż-żieda ta'VBET - kelma sempliċi jew is-s,unknown,unknown,0.3529411764705882
+14,query: - - - - - -----------------,"query: ""Tal-ħaxix m'għandhomx jarmaw bil-ħut""... Bejjiegħa tal-lampuki ji",hun_Latn,hun_Latn,0.0
+15,query: 學員關於學員的關鍵事項 i0-I0-I0-I0-I0-I,query: Mistoqsija għal tweġiba orali O-000010/2018 L-istudenti jiċċaqalqu fl-UE jew minħ,deu_Latn,deu_Latn,0.0
+16,query: - JAD-KNIT-KNIT-KNIT-KNIT-KNIT-KNIT-KNIT 日報,"query: Konnessjoni tat-Tikek | Martech Zone Qabbad id-Dots IT-TNEJN JANNAR 21, 2008 Is",deu_Latn,deu_Latn,0.0
+17,"query: The First Message to Jamal Komat - 由 Jamal Komat, 1995 - 由 Mustafa Kamal, Mustafa","query: Ittra tad-29 ta' Novembru, 2015 lill-Prim Ministru Joseph Muscat minn Sammy Meilaq, Karmenu M",eng_Latn,eng_Latn,0.07142857142857144
+18,query: 有關新聞的參考 - NPJ-NPJ-NPJ-NPJ-NPJ-NPJ-N,query: Jumejn oħra jitlaqa' l-Kunsill Ġenerali tal-PN - Newsbook Jumej,unknown,unknown,0.15384615384615383
+19,query: 最新學術學術學術的方法 / Hacking / Hacking Captcha 2018 / McAfee /,"query: Strateġiji Aħjar Studju MCAT & hacks awissu 23, 2018 /fl MCAT /billi James Xi",deu_Latn,deu_Latn,0.1
+20,query: News - Miscelca Miscelca Miscelca Miscelca Miscelca Miscelca Miscelca - 14th,query: michelle muscat – Page 2 – One News Illum Michelle Muscat ser tgħum 14 -il kilometru Fi,deu_Latn,deu_Latn,0.1
+21,"query: Jun 19, 2014 · The Door - The Room - The Door - The Room - The Room - The Room -",query: Jan - Jun 2019 - Press Room - Dar il-Kaptan http://www.darilkaptan.org/press-,unknown,unknown,0.3
+22,query: 138 聖經 - 聖經 - 聖經 - Listen to the World of Galileo - 《,query: Salmi 138 | Il-Bibbja Onlajn | Traduzzjoni tad-Dinja l-Ġdida Salmi 138:,hun_Latn,hun_Latn,0.10526315789473685
+23,query: Tax-financed vehicles - Tax-financed vehicles - Tax-financed vehicles - 在 2004 ,query: €4.9 miljun f'rifużjoni tat-taxxa fuq vetturi rreġistrati fl-2008 - TVM €4.9,fin_Latn,fin_Latn,0.13333333333333333
+24,query: La Verdict de La Verdict de La Verdict de La Verdict de La Verdict de La Verdict) - 11月,query: Sentenza tal-Qorti tal-Ġustizzja (It-Tielet Awla) tat-12 ta' Novembru 2014.,deu_Latn,deu_Latn,0.10526315789473684
+25,query: EWK > EWK > EWK > EWK > Archiv > Notices > 資料 > 資訊 > 資料 > ,query: Paġna Ewlenija > Informazzjoni > Dwarna > Aħbarijiet > Arkivji > L-Ekwipaġġ,fin_Latn,fin_Latn,0.14285714285714288
+26,query: WHAT WHAT WHAT WHAT WHAT WHAT WHAT WHAT WHAT WHAT WHAT IS AL-KALAM ,query: BIDEL FEHMTU WARA LI TKELLEM IL-PM – One News BIDEL FEHMTU WARA LI TKELLEM,unknown,unknown,0.0
+27,"query: January 11, 2018 - a l'atid al Crucifixion - a l'atid al","query: Nov 11, 2018 17:00 Ix-xita li għamlet dan l-aħħar ħarġet aspett ieħor li",mlt_Latn,mlt_Latn,0.27272727272727276
+28,query: L-ZI-ZI-ZI-ZI-ZI-ZI-ZI-zi-zi-zi-zi-zi-zi ,query: Kunsilli Lokali - Iż-Żurrieq - L-Istorja tal-Lokalita' Iż-Ż,unknown,unknown,0.0
+29,query: 印度的經驗檔案 在 i-Devisa i-Devisa i-Devisa index 當,query: Rekwiżiti Indjani tad-Dokument tal-Viża-e Fuq din il-paġna għandek issib,mlt_Latn,mlt_Latn,0.0
+30,query: 聯合國的語言... - - - - - - - - - -,query: Il-multilingwiżmu | Unjoni Ewrope Temi tal-Unjoni Ewropea > Il-multilingwiżmu,unknown,unknown,0.0
+31,query: 11 novembre 2018 - Porta de Padova - Porta de Padova - Porta de Padova - Porta de Padova,query: Avviżi Parroċċa Mosta 4 - 11 Novembru 2018 - Mosta Parish Portal Mosta Paris,unknown,unknown,0.33333333333333326
+32,query: MUSEUM MUSEUM MUSEUM MUSEUM de la vie de la vie de la vie de la vie de la vie ,query: L-adolexxenti bniet u subien tal-MUSEUM ta' Wied il-Għajn jiftak,unknown,unknown,0.0
+33,query: Federico Mafia - Alfredo Mafia - Federico Mafia - Federico Mafia -,query: Parlament ta' Malta - azzopardi-frederick Mr Frederick Azzopardi TIFKIRA TA' F,mlt_Latn,mlt_Latn,0.125
+34,query: 3 個新樣貌: Libyan al-Gharbiyah 的生命將開始變化 in al-Gharbiyah,query: Ritratti: 3 iljuni maħqura fl-Albanija jibdew ħajja ġdida fl-Olanda -,unknown,unknown,0.2222222222222222
+35,"query: 繼 COVID-19 的連接症狀,有幾個轉載為:d’accord pour le d’accord pour le",query: Għal darba oħra miżura kontradittorji marbuta mal-Covid19: għall-inqas jidh,mlt_Latn,mlt_Latn,0.09523809523809525
+36,query: 法務省のJudiciary judgment (Judiciary judgment) (Judiciary judgment) 2,query: Sentenza tal-Qorti tal-Ġustizzja (Awla Manja) tat-2 ta' Mejju 2012. SAS Institute Inc.,unknown,unknown,0.18181818181818182
+37,query: 導讀: 現行的16歲的兒童可行性檢驗 - ZAZAZ ZAZAZ ZAZAZ,query: AĠĠORNAT: Żgħażagħ ta' 16 issa jistgħu jivvutaw - TVM AĠ,tur_Latn,tur_Latn,0.23529411764705882
+38,query: Giorgio Balvane fotografo de la fotografia de la fotografia de la clandestina assolutamente interrogato a posteriori,query: Il-fotografu bravissimu Angelo Caruana riċentament xerred fuq il-profili tiegħu av,deu_Latn,deu_Latn,0.0
+39,query: 學術: 學術規則: l-l-l-l-l-l-l-l-l-,query: Awdjo: L-iskejjel tal-Ingliż: Il-liġi tax-xorb ta' 17-il sena,unknown,unknown,0.14285714285714288
+40,query: 關於義大利關於義大利關於義大利關於 - Portal de Palabras - Portal de,query: Riflessjoni għall-Għid il-Kbir - Mosta Parish Portal Riflessjoni għall-Għid il,mlt_Latn,mlt_Latn,0.3076923076923077
+41,query: 基督教聖經聖經 Katedra Elisabeth - Katedra Elisabeth - Katedra Elisabeth ,query: NXR Katerina Wied Il-Knisja ta' Santa Katerinata' Wied il-Għasel~ Naxx,mlt_Latn,mlt_Latn,0.0
+42,"query: L'Algerie : ""L'Algerie : L'Algerie : 需要關注的殘骸和資料","query: Fil-Libanu: ""Bżonn l-għajnuna; inqerdu sptarijiet u r-ri",unknown,unknown,0.28571428571428575
+43,query: 用戶用戶的用戶用戶 i-zzglgzzglgzzglgzzglgzzglg,query: Uża softwer tan-negozju għas-servizzi tal-istħarriġ tiegħek - Immaniġġja,deu_Latn,deu_Latn,0.0
+44,query: 關於員工的隱私權的重要性 為 u-u-u-u-u-u-u-,query: Il-protezzjoni tal-privatezza tiegħek hija importanti ħafna għall-Uffiċċju tal-Proprjet,deu_Latn,deu_Latn,0.0
+45,query: 生產者 - 生產者 - 生產者 - 生產者 - Xuanxi Xuanxi Xuan,query: Manifatturi u Fornituri ta 'Sunetex ta' qtugħ - Ċina Fabbrika ta,mlt_Latn,mlt_Latn,0.14285714285714288
+46,query: 基督徒信仰不應信; 基督徒信仰不應信; l’Idea n’a,query: Il-fidi mhix ideoloġija; għandna nxandru lil Kristu minkejja l-persekuzzjonijiet –,mlt_Latn,mlt_Latn,0.1111111111111111
+47,query: 協調法 - 協調法 - 協調法 - 2018年11月1日 - Fidel,"query: Politika tal-privatezza - flimkien.eu Mill-11 ta' Diċembru 2018, l-ipproċessar",mlt_Latn,mlt_Latn,0.13333333333333333
+48,query: 關鍵字: 如何選取檔案: Kif Kif Kif Kif Kif Kif Kif Kif,query: Għat-tqattiegħ ta'l-uffi: Kif taqta fajls MOD > Ir-,mlt_Latn,mlt_Latn,0.26666666666666666
+49,query: ローマ字符號 (878) Italienisch (878) Italienisch (878) Italienisch (878) Italienisch (878),query: italiană (1076) neerlandeză (1046) portugheză (807) Regolament tal-Kummisjoni (UE) Nru 1113/2010,others,others,0.2222222222222222
+50,query: 關鍵字關鍵字關鍵字關鍵字關鍵字關鍵字 - TiTMa-TiTMa,query: Tiċċarrat it-tinda tat-Tempji ta' Ħaġar Qim - TVM Imtella',mlt_Latn,mlt_Latn,0.15384615384615383
+51,"query: 28,000 l'indemnité à la charge d'un sabotage à la base d'une fiable données","query: €28,000 multa għal kumpanija b'attitudni 'xejn serja' lejn is-sigurtà tal-",unknown,unknown,0.0
+52,query: Publications - Documents - Documents - Documents - Documents - Documents - Documents - ,query: European Commission - PRESS RELEASES - Press release - Il-proġetti Grafen u Moħħ il-,deu_Latn,deu_Latn,0.13333333333333333
+53,query: ALFRED SALT - ALFRED SALT - ALFRED SALT - CARL L'EMILE ,query: Alfred Sant | L-INTERESSI TA' MALTA L-EWWEL U QABEL KOLLOX L-INTERESSI TA',others,others,0.0
+54,query: Tenders - Tenders - Tenders - Tenders - Tenders - Tenders,query: Servizzi - 421471-2021 - TED Tenders Electronic Daily Servizzi - 421471-2021 l-Ital,eng_Latn,eng_Latn,0.4
+55,"query: £33,000 nm - The claim to ensure the truth of the Libyan anti-terrorism investigation","query: €360,000 biex isiru jafu l-perċezzjoni tal-Maltin dwar is-sigurtà - Newsbook",mlt_Latn,mlt_Latn,0.08695652173913043
+56,query: 把當代人引進 - index - index - index - index - index ,query: Inżgħu l-mantar u aħslu saqajn id-dixxipli - L-Arċi,tur_Latn,tur_Latn,0.18181818181818182
+57,query: 如果你是車輛檢測的最優秀者之一 - Chauffeur de Chauffeur - Chauffeur de Chauffeur -,query: Jekk weħilt mit-test tal-karozza int wieħed mill-aħjar xufiera - TV,unknown,unknown,0.14285714285714288
+58,query: Jessica Jenna 被認為是救世主 - a part of a charity - Jessica Jenna,query: Jessica kienet volontiera ma' St John Rescue Corps - deskritta bħala tfajla ,unknown,unknown,0.1904761904761905
+59,query: Masjid al-Qur'an 進入軌道 - Libya News - Masjid al-Qur'an 進,query: L-Insara jkomplu jirritornaw lejn Mosul - Newsbook L-Insara jkomplu,eng_Latn,eng_Latn,0.14285714285714285
+60,query: 經濟學期: l’avenir de la riqueza de la riqueza de la riqueza est maintenant,query: L-ekonomija ċirkolari: wasal iż-żmien biex nisfruttaw is-saħħa tal,fin_Latn,fin_Latn,0.10526315789473685
+61,query: 個人情報保護法 12 - 個人情報保護規範 - Declaration de confidentialité de la Partage de la Partage,query: Artikolu 12 UE Regolament Ġenerali dwar il-Protezzjoni tad-Data. Privacy/Privazy according,unknown,unknown,0.09999999999999999
+62,query: 如何記錄 iPhone 與 iPad 的訊息 - IaaS / IaaS app notes from,query: Kif taqsam nota mal-app Notes minn iOS jew iPadOS | Aħbarijiet dwar l-iPhone Kif,fin_Latn,fin_Latn,0.0
+63,query: 繼續閱讀: EXILE-MILITARY EXILE-MILITARY EXILE-MILITARY MEMORIAL ,query: STQARRIJA MILL-UFFIĊĊJU TAS-SEGRETARJU PERMANENTI EWLIENI: L-ew,fin_Latn,fin_Latn,0.18181818181818182
+64,"query: 從 2022 年1 月開始,Sija's Clock could be revealed in the history of 人",query: Minn nhar il-Ġimgħa fiċ-ċinema se tkun tista' tara storja tal-waħx bil,mlt_Latn,mlt_Latn,0.0
+65,query: x x x x x x x x x x x x x x,query: L-Arcisqof Mons Cremona ikellem lil Zminijietna Lehen ix-Xellug Fil-passat ki,unknown,unknown,0.0
+66,query: 10 選項 for Life as a Project for Life as a Project for Life as a Project for Life as a Project,query: 10 proġetti għall-Premju tal-President għall-Kreattività 2018 Home Lifestyle Kultura 10 proġetti għall-Pre,fin_Latn,fin_Latn,0.11764705882352941
+67,query: Hugo de Guzmán (1896 - 1924) — Wikipedia Hugo de Guzmán (1896 - 1924) 是歐洲,"query: Ewġenju Borg - Wikipedija Ewġenju Borg (Isla, 24 ta' Lulju 1886 – G'Mangia,",deu_Latn,deu_Latn,0.16
+68,query: Farct-Fab-Fab-Fab-Fab-Fab-Fab-Fab-Fab-,query: Feraccru (ferric maltol) – Fuljett ta' tagħrif - B03AB – RXed.eu,eng_Latn,eng_Latn,0.0
+69,query: 進入新路徑的議題與新螺旋腳步 - Masjid-Asahi - Masjid-,query: Jinfetħu slip roads u korsiji ġodda fil-Marsa-Ħamrun Bypass - talk.,unknown,unknown,0.13333333333333333
+70,query: 英國法務委員會 - 英國法務委員會 - ALF & WOLF - All Rights,query: Avukati tal-Falliment Internazzjonali fl-Olanda - Law & More FIL-BŻONN TA',eng_Latn,eng_Latn,0.2222222222222222
+71,query: 歐洲消費者保護條例 - MEUPAC - MEUPAC - MEUPAC 的重要用戶 -,query: Protezzjoni akbar għall-konsumatur Ewropew | MEUSAC Protezzjoni akbar għall-konsumatur Ewropew Ippubbli,mlt_Latn,mlt_Latn,0.0
+72,query:....................................... 連署の報告開始後 sentinels agencies ,query: Wara snin ta' stennija... addottat ir-rapport għall-protezzjoni ta' persuni b'di,mlt_Latn,mlt_Latn,0.0
+73,query: 關於殘骸的功用 - 關於殘骸的功用 http://www.lzfzfz,query: Rimedji folkloristiċi għat-tisħiħ tal-qawwa tal-irġiel Fatt sorprendenti għall-,mlt_Latn,mlt_Latn,0.0
+74,query: 文章摘要: IMF 宣稱Mr. Giuseppe Mazzoleni 的Mr. Mazzoleni 可能被,query: ARA: Il-PM jgħid li l-proklama mogħtija lil Vince Muscat se tiġi ppubblikata,unknown,unknown,0.09090909090909093
+75,query: 2020 年社會財產價值的推動 - zinsbindung - zinsbindung - zinsbindung -,query: In-nefqa fuq il-benefiċċji soċjali fl-2020 taqbeż il-biljun ewro,tur_Latn,tur_Latn,0.0
+76,query: i-legitimate binary binding 必須在 i-legitimate binary binding 開始的過程中的重要性,query: Il-kisba ta' parir legali indipendenti hi ferm importanti meta tkun involut b'xi mod fi pro,eng_Latn,eng_Latn,0.0
+77,query: COVID-19: 10 個原因 - IMF 在歐洲經濟的發展 - ueu-ueu,query: Covid-19: 10 affarijiet li qed tagħmel l-UE għall-irkupru ekonomiku | Aħbar,mlt_Latn,mlt_Latn,0.2
+78,query: iChat - iChat - iChat - iChat - iChat - 這些網,query: Web chat - VIDEO CHAT. Tmur fuq l-internet! Dawn il-ħolma ta'li ,mlt_Latn,mlt_Latn,0.125
+79,query: 聖誕典禮 2017 - 10 novembre – 11 novembre – 11 novembre a Piazza di Cattolica,query: AVVIŻI PARROĊĊA SAN ĠILJAN 9 – 10 ta' Diċembru 2017 | Parroċċa,fin_Latn,fin_Latn,0.24999999999999994
+80,query: 現行法規議題議題議題 - La madre de la Maraña adelante de la Maraña の,query: Eks plejer ta' Napoli li lagħab ma' Maradona jitkellem dwar il-leġġenda Arġentina f,mlt_Latn,mlt_Latn,0.0
+81,query: 簡介 accessory-authorization - accessory-authorization 簡介 accessory-authorization -,query: Awtorizzazzjoni ssimplifikata - ECHA Proċedura ta' awtorizzazzjoni simplifikata għandha l-,mlt_Latn,mlt_Latn,0.14285714285714288
+82,"query: April 23, 2018 · ICCF - ICCF - CALF’s Blog – 不為過於親密的",query: 23 | April | 2018 | Blog ta' Carmel Cacopardo L-IVF mhux kapriċċ: (3) Mill-fri,unknown,unknown,0.26666666666666666
+83,query: 戰略規劃 導演 a plan for demilitarization against a demilitarization via l’eau de,query: RAPPORT dwar strateġija koordinata bil-għan li titjieb il-ġlieda kontra l-evażjoni,mlt_Latn,mlt_Latn,0.0
+84,query: 中歐聯合國 負責 u-NEXT - Data and privacy restrictions on people’s records ,query: Ftehim bejn l-UE u l-Istati Uniti dwar il-protezzjoni ta' data personali,mlt_Latn,mlt_Latn,0.0
+85,query: 個人保護條例 關於獨立的關係 - Deutsche Börse - Deutsche Börse - Deutsche Börse,query: Dikjarazzjoni ta' privatezza dwar il-protezzjoni ta' dejta personali - EUROPA | Unjoni Ewrope L,hun_Latn,hun_Latn,0.10526315789473682
+86,query: 政府が2022-2023 年GDP 計劃採択 - lmk.com - lmk,query: Il-Gvern jissottometti l-Budget 2022 għall-approvazzjoni tal-Kummissjoni Ewropea - TVM,eng_Latn,eng_Latn,0.13333333333333333
+87,query: 公寓 - Appartamenti - Appartamenti - Appartamenti - Appartamenti - Piscina a Gran Garda di Gi,"query: Appartamento con piscina a Moniga del Garda - Kondominji għall-Kiri ġewwa Moniga del Garda, Lombard",unknown,unknown,0.27272727272727276
+88,query: 最好的 Android 変換器 - Alligator変換器 - Alligator変換器 - Alligator変換器 - Alligator,query: L-aqwa konvertituri tal-vidjow għal Android | Androidsis L-aqwa konvertituri tal-vidjo,unknown,unknown,0.14285714285714288
+89,"query: 資料來源: Dmitri Ciukevich / Dmitri Ciukevich / Dmitri Ciukevich,","query: Ċiklu relatat mad-dokument : B8-0449/2018 Marietje Schaake, Petras Auštrevičius, Be",unknown,unknown,0.23529411764705885
+90,"query: LUXEMBURG INSTITUTE OF JUSTIFICATION, ZZG-ZZG-ZZG ZZG ZZG-ZZG ","query: STQARRIJA MILL-MINISTERU GĦALL-ĠUSTIZZJA, L-UGWALJANZA U L-GOVERN",unknown,unknown,0.13333333333333333
+91,query: 利物浦被列入英國 index-of-the-legends-of-the-legends 為由,query: Il-Ħeżbollah jikkundanna lir-Renju Unit għax niżlu fil-lista tat-terror,fin_Latn,fin_Latn,0.0
+92,query: 吉克龍的人物 - iWatcher - iWatcher - iWatcher No. 2 2018,query: Jinħeles ir-rapper Tork - Newsbook 21 ta' Ġunju 2018 2:49 PM Sercan Ipekci,mlt_Latn,mlt_Latn,0.19047619047619047
+93,query: BBC '09 '09 finalists Jeremy Dalton '09 finalists are very ambitious to be ,query: Ir-rebbieħ ta' The X Factor UK 2018 Dalton Harris mistieden speċjali għall-finali ta' X,deu_Latn,deu_Latn,0.08695652173913043
+94,"query: ""I'm looking for the world to be a better observer"" - 日曆 ""I'm watching","query: ""Nosservaw id-dinja biex nagħmluha iktar sikura!"" Il-Ġimgħa Ewropea tal",deu_Latn,deu_Latn,0.14285714285714288
+95,query: 2017年09月07日 - a n'a n'a n'a n'a n,"query: Aww 09, 2017 07:52 Kien lejn l-aħħar tas-snin disgħin. Wiehed mill-",unknown,unknown,0.0
+96,query: オランダ的法律家 - Advocates & Advocates - Advocates & Advocates Abroad - ,query: Avukati Amministrattivi Internazzjonali fl-Olanda - Law & More FIL-BŻONN TA' AVU,eng_Latn,eng_Latn,0.23529411764705882
+97,"query: ""Die Europäischen Freundschaft - Die Europäischen Freundschaft"" - 已經成為歐洲的... - ","query: ""The European Sting"" - kun aġġornat ma' x'... Jum Ewropew għall-Iżvilupp",mlt_Latn,mlt_Latn,0.3478260869565218
+98,query: 基督教在Gisla-Fisla-Fisla-Fisla-Fisla-Fisla,query: Il-Knisja fil-Filippini tniedi s-Sena taż-Żgħażagħ - Newsbook,fin_Latn,fin_Latn,0.0
+99,query: 建築物 - a modern architectural property - a modern architectural property - a modern a,query: Appartament Modern Faċċata tal-Baħar Art - Airbnb Appartament Modern Faċċata tal-Ba,unknown,unknown,0.14285714285714288
+100,query: Darjabz – Dozabz – Dozabz – 停滯條件や副作用 (limitations and limitations),query: Darzalex (daratumumab) – Kondizzjonijiet jew restrizzjonijiet rigward il- provvista u l-u,unknown,unknown,0.2857142857142857
+101,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+102,query: 2014 - 2021 - 2021 - 2021 - EU Financial Institutions 與 IMF 的關鍵數據 -,"query: Brussell, 1.4.2019 Il-Fondi Strutturali u ta' Investiment Ewropej 2014-2020 Rapport ta' sinte",eng_Latn,eng_Latn,0.0
+103,query: L'Union de l'Union de l'Union - translators - 被誤解? - ,query: L-UNWTO tappartjeni lis-Segretarju Ġenerali: Lost in Translation? home » L-Aħ,unknown,unknown,0.10526315789473685
+104,query: 該標籤的忠誠度 n'existe pas à l'époque de l'époque de 2015,query: L-ishma tat-tuffieħ ma kinux daqshekk għoljin mill-2015 | Aħbarijiet,fin_Latn,fin_Latn,0.0
+105,"query: ""I need to be more diligent to be more diligent to earn 財富"" January 21, 2018 -","query: Lejn irtirar u kapaċità finanzjarja aħjar Nov 22, 2018 17:32 ""Irridu nippjanaw",unknown,unknown,0.20689655172413796
+106,query: 最新章節: 1 : 1 : 2 : 2 : 不合乎過於好的Cayenne ,"query: Aġġornata (2): ""Kuġinuwi tajjar 1, mhux se niddejjaq intajjar 2"" ",unknown,unknown,0.3
+107,query: L’Apparition de L’Apparition de L’Apparition de L’Apparition de L’Appari,query: L-imħallfa Abigail Lofaro u l-Ministru Lorry Sant – simonmercieca.com L,eng_Latn,eng_Latn,0.13333333333333333
+108,query: Fatiha refuse to refuse to throw a wheat in the fridge to trace impurity ,query: Tevita ċertu ikel biex ma tixgħelx l-infjammazzjoni fil-muskoli ta',mlt_Latn,mlt_Latn,0.0
+109,query: Alfred O'Feil M. M. Izzol M. Izzol M. Izzol M. Izzo,query: L-Isqof Walter Ebejer Mons. Walter Michael Ebejer O.P. Isqof Malti fil-Brażil Għal,unknown,unknown,0.0
+110,query: - Documents - Documents - Documents - Documents - Documents - Documents - 歐,query: European Commission - PRESS RELEASES - Press release - It-talbiet għad-dokumenti tal-Kummissjoni,eng_Latn,eng_Latn,0.15384615384615383
+111,query: 他曾用 camera to capture his wife's funeral when he went to check out when gm,query: Kellu jaħbi kamera f'daru biex jaqbad mumenti meta jisfa msawwat minn martu għax,deu_Latn,deu_Latn,0.0
+112,query: 瑪吉亞的詩集 - a gazzetta de la Gazzetta de la Gazzetta - ,query: Tnedija ta' ktieb ta' poeżiji ta' Margaret Agius - TVM L-Għaqda,mlt_Latn,mlt_Latn,0.11764705882352941
+113,query: 關於 Guinea Ebola 的關注 - Kongo Ebola in Senegal - 14th January 2020 ,"query: Tħassib serju dwar l-ebola fil-Kongo Ġun 14, 2019 14:50 Il-kap ta'",mlt_Latn,mlt_Latn,0.0
+114,query: 國務院希望國務院能夠接觸 n-Zar-Zar-Zar-Zar-Z,query: Il-Gvern b'opportunità li jfittex kunsens nazzjonali dwar iż- Żonqor – Charl,eng_Latn,eng_Latn,0.0
+115,query: 攝影: Immagine de l'Amico de l'Amico de l'Juventus club de Juventus,query: Filmat: L-Isqof ta' Għawdex b'sorpriża mill-Juventus Club f'Malta -,mlt_Latn,mlt_Latn,0.10526315789473685
+116,query: 2 月 12 日 《Miguel de Cabala》 : “Miguel de Cabala 意味著有,"query: Kelma tal-Ħajja Diċembru 2014 ""Min għandu żewġ ilbiesi, jaqsam ma' min ma",deu_Latn,deu_Latn,0.0
+117,query: あなたの評論機會は影響されるのですか? Laissez les opinions de l’opinion de l’opinion de ,query: Ir-reklami jinfluwenzaw l-għażliet tiegħek? 29 ta' Ottubru 2018 Meta tix,tur_Latn,tur_Latn,0.09523809523809525
+118,query: MS-NC & MS-CN & MS-CN Navigator 開發 & 選項設計 for Lancer Ingress ,query: SQL Server & MS Access Design għan-Negozji tal-Marijuana u l-Qanneb Aċċess,deu_Latn,deu_Latn,0.09999999999999999
+119,query: 如何看出自己的心靈 - 如何看出自己的心靈 - id id id id id,query: Jaqta' qalbu li jifhem kif miet ibnu - Newsbook Jaqta' qalbu li jifhem kif miet,unknown,unknown,0.15384615384615383
+120,"query: 如果你是18歲,就建議參加 Erasmus+ / Youth Program in e-Zion, 2022年","query: Jekk għandek 18-il sena u resident f'pajjiż tal-Programm Erasmus+, wasal iż-",mlt_Latn,mlt_Latn,0.1818181818181818
+121,query: - Microsoft Dynamics CRM - Dynamics CRM - Microsoft Dynamics CRM - Microsoft Dynamics CRM - 嵌入,query: MarketingPilot: Ġestjoni Integrata tal-Marketing tal-Microsoft Dynamics CRM | Martech Zone Microsoft Dynamics CRM u,deu_Latn,deu_Latn,0.33333333333333337
+122,query: G-WoB 記錄 G-WoB 記錄 G-WoB 記錄 G-Wo,query: Nefqu f'Għawdex u l-BOV ppremjahom - Newsbook Nefqu f'G,unknown,unknown,0.0
+123,query: I 為人們 j j j j j j j j j j j ,query: ~ Jien ngħin lin-nies jerġgħu jingħaqdu. Miegħu nnifsu bħala,deu_Latn,deu_Latn,0.0
+124,"query: 如果政府的檢疫計劃進入, 人們也會流入 - l'Institute of the","query: Jekk l-isptarijiet jerġgħu jsiru tal-poplu, il-Gvern jista'",tur_Latn,tur_Latn,0.125
+125,query: 消費者的關鍵事項 - - - - - - - - - - -,query: EUROPA - L-Affarijiet tal-konsumatur - Tagħrif għall-konsumaturi - Drittijieti ,mlt_Latn,mlt_Latn,0.22222222222222224
+126,query: 機場的選擇 - 時間 - 時間 - 時間 - 來源:https://t.co,"query: Opportunità tqatta' l-lejl Għar Dalam Aww 03, 2018 11:55 Il-parteċip",unknown,unknown,0.0
+127,query: 2020 年 n j n j n j n j n j n j ,query: Id-dinja tilqa' l-2020 filwaqt li n-nirien u l-protesti j,fin_Latn,fin_Latn,0.14285714285714288
+128,query: 現狀的解決方法:QnQnQnQnQnQnQnQnQnQnQ,query: MOZZJONI GĦAL RIŻOLUZZJONI dwar it-tnaqqis kwantitattiv: 80% tal,eng_Latn,eng_Latn,0.15384615384615383
+129,query: 文章摘要: Crucifix nsf nsf nsf nsf nsf ,query: Propost li tal-karozzini ma jaħdmux bejn nofsinhar u s-sagħtejn,deu_Latn,deu_Latn,0.0
+130,query: 適用於中小型及中晚年用具 tz/dlg tz/dlg tz,query: Appoġġ fit-tul għal intrapriżi żgħar u ta' daqs medju 30/05/2012 -,mlt_Latn,mlt_Latn,0.0
+131,query: 關鍵字 - 關鍵字 - - - - - - - Deutsche Welles,query: European Commission - PRESS RELEASES - Press release - Stħarriġ ġdid jiżvela li iktar pers,unknown,unknown,0.11764705882352941
+132,query: 項目的經營 與 'part-in-the-part-in-the-scalabilion 銜接 ,query: Jitlesta l-proġett fl-arterja prinċipali u r-'roundabouts' ta',mlt_Latn,mlt_Latn,0.0
+133,query: - 輸入資料 - 輸入資料 - 輸入資料 - Levante-Etiopia etiopia,query: Testi adottati - Implimentazzjoni tal-istrumenti ta' finanzjament estern tal-UE: analiżi ta,deu_Latn,deu_Latn,0.125
+134,query: 馬克思國務卿 Macron a refuser de l'attaque de l'avenir de la,query: Il-Papa jħeġġeġ lill-President Macron biex isaħħaħ l-għeruq In,mlt_Latn,mlt_Latn,0.125
+135,query: Caterina Caterina Caterina Caterina Caterina Caterina Caterina Caterina Caterina Caterina Caterina Caterina Caterina Caterina,"query: V A Cremona: B'ewro tixtri sptar? – Manuel Delia 2018-02-06T10:30:18+01:00Tue, 6",unknown,unknown,0.0
+136,query: 幾個關鍵的關鍵事項將在 LCD-Display-Display-Display DLL に..................,query: Bosta fatturi li għandhom bżonn attenzjoni fix-Xiri ta 'Monitors LCD - aħ,mlt_Latn,mlt_Latn,0.0
+137,query: Shandong Shibuya Diamond Exterior Ceramic - Non-Industry Exterior Ceramic - Shibuya Diamond ,query: Ċina Heshida Crystal Diamond Non-Pollution Interal Wall Paint Manifattur u Fornitur | Meihe Ħ,unknown,unknown,0.09523809523809523
+138,query: 進入預覽車的資訊 - Insignet - Insignet - Insignet - Insignet,query: Tmut il-passiġġiera involuta f'inċident f'Għajnsielem - Newsbook 22 ta,deu_Latn,deu_Latn,0.16666666666666666
+139,query: 英國勳章認證 - 英國勳章認證 - Liechtenstein - Liechtenstein wikipedia -,query: Fortifikazzjonijiet ta' Żmien l-Ingliżi f'Malta - Wikipedija Fortifikazzjonijiet ta' Żmien,fin_Latn,fin_Latn,0.16666666666666666
+140,query: 關於被稱為“Banque de la Bastide de La Bastide de La Bastide de La Bastide”的話題,query: Għamara ta 'Divertiment ta' Barra li Jintewa Siġġu tal-Bajd tal-Bajd,mlt_Latn,mlt_Latn,0.0
+141,query: 發生於網路上的驚異 – nikkei-nikkei-nikkei-nikkei-nikkei-nikkei-,query: Niżżel it-tixbihat ta 'forom sorprendenti | Kreattivi Online Niżżel ix-xbi,unknown,unknown,0.0
+142,query: Bonus - no bonus - no bonus - no bonus - no bonus - no bonus - 德國賭博,query: Logħob ieħor tal - każinò | Bonus bla Depożitu 'Logħob ieħ,unknown,unknown,0.25000000000000006
+143,query: SKIL-MILL-MILL-MILL-MILL-MILL-MILL-MILL-MILL ,"query: STQARRIJA MILL-MINISTERU GĦALL-AMBJENT, IT-TIBDIL FIL-KLIMA U L-",eng_Latn,eng_Latn,0.0
+144,query: 21st Alibaba Web Design - Lightweight Web Design - Lightweight Web Design - Lightweight web site design - ,"query: 61DesignStreetBest Web Design Company 2021 Bespoke lussu websajts high-end, disinn grafiku u branding",unknown,unknown,0.17391304347826086
+145,query: 政府決定把 Villa de la Guardia 遺址被流失 - Villa de la Guardia 位於Grace-on-,query: Il-Gvern xtara Villa Gwardamanġa fejn kienet tgħix ir-Reġina ,unknown,unknown,0.125
+146,query: 如何組成幾何圖像 - Misc-Mic-Mic-Mic-Mic-Mic-,query: Kif Tibni Mappa tal - Immaġni bis - CSS Martech Zone It - Tlieta Ottu,unknown,unknown,0.125
+147,query: 聖經對於 'Jew' 的人 'Jew' 'Jew' 'JEw ',"query: Għal Dawk li Jħobbu lil Ġeħova, ""M'Hemm Ebda Tfixkil"" |",mlt_Latn,mlt_Latn,0.0
+148,query: 參與者資料 - - - - - - - - - - - Die,query: Sejħiet għall-offerti - Sit tad-DĠ - Il-Kummissjoni Ewropea Programm ta' ħ,mlt_Latn,mlt_Latn,0.14285714285714288
+149,query: literacy-literacy-literacy-literacy-literacy-literacy-literacy-literacy 是一個由,query: Il-Pilastri għall-Edukazzjoni Il-qasam edukattiv huwa wieħed mill-pilastri ewlenin,mlt_Latn,mlt_Latn,0.0
+150,query: buffalo billing - buffalo billing is the best way to bypass the whistleblower procedures - buffalo,query: Blackbell huwa l-akbar mod biex tbiegħ is-servizzi ta 'l-evalwazzjoni ta,deu_Latn,deu_Latn,0.0
+151,query: 再訪: 1993 – The Centre of the Heritage of Fatima – 馬爾代夫議會受訪馬爾,query: 1993: Ħarsa lura lejn iż-żjara tal-President Tabone f'Melbourne – Maltese Community Council,eng_Latn,eng_Latn,0.24999999999999994
+152,query: 我們的警察活動應該怎樣 - POLICY's policies when the ISIS 被推動到,query: 'X'qegħdin jippretendu l-politiċi tagħna meta l-pulizija jkunu ,deu_Latn,deu_Latn,0.0
+153,query: 最終更新 r-ra-ri-ra-ri-ri-ri-ri-ri-ri-ri 所找到,query: Ir-raba 'u l-aħħar post fejn nistenna r-riċerkaturi biex jissi,fin_Latn,fin_Latn,0.0
+154,query: 草案 107 議題 - UBM 2020 - UBM 2020 - UBM 2020 - UBM 2020 -,query: Il-UĦM bi 92 proposta għall-Baġit 2020 - Newsbook Il-UĦM bi 92 propos,mlt_Latn,mlt_Latn,0.26666666666666666
+155,query: 投資的關鍵字 - iStock - iStock - iStock - iStock 將,query: Jirbħu kompetizzjoni ta' investimenti fi stocks u ishma - Newsbook Jirbħu ,eng_Latn,eng_Latn,0.13333333333333333
+156,query: (a) 適用因應 (a) 因應 (a) donations supported by the Islamic rights of,query: • Għal raġunijiet umanitarji (l-applikazzjoni tiġi riveduta mill-Bord Mediku maħtur ,fin_Latn,fin_Latn,0.08695652173913043
+157,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+158,query: 维生素E (triglyceride-polysaccharide) with a combination of polysaccharides (Venrorrhoe,"query: Velphoro (mixture of polynuclear iron(III)-oxyhydroxide, sucrose and starches) - V03",eng_Latn,eng_Latn,0.24
+159,query: Archives of the weekly workers Archives of the weekly workers Archives of the weekly workers - Cz,query: Ħarġa 334 – Voice of the Workers Weekly Archive for Ħarġa 334 adminwp 12/11/2020 Xahar,eng_Latn,eng_Latn,0.2
+160,"query: [ELFAT] 發布, 累計問題量 : 1181, [ELFAT] 發布,","query: [FILMAT] Kawża tal-maltemp, l-Enemalta ffaċċjat 1,186 każ ta' ",fin_Latn,fin_Latn,0.3
+161,query: NIJ-National Rights Movements (NIJ-National Rights Movements) 如果有個人認為該,query: Istituzzjoni Nazzjonali tad-Drittijiet tal-Bniedem Korpi oħra Jekk jinkisru d,mlt_Latn,mlt_Latn,0.0
+162,query: 中國政府為檢測用戶的檢測用戶 - zh-ji-ji-ji-ji-ji-ji,query: Ċina ġeli għall-manifatturi ta'l-iskart riċiklat taż-żejt u,mlt_Latn,mlt_Latn,0.0
+163,query: ブリュッセル議題は3つの難題に基づいた - British Foreign Policy on the 3th week-,"query: Il-ftehim dwar il-Brexit għadu mxekkel fuq tliet kwistjonijiet ewlenin, qalu",mlt_Latn,mlt_Latn,0.0
+164,query: 該為什麼? - Localidades de la República de la República de la República - Localidades de la ,query: L-Artijiet: L-agħar fost id-Dipartimenti tal-Gvern? Home L-Artijiet: L,unknown,unknown,0.125
+165,query: 問題解決議題 - 問題解決議題 - RISQUE DE JUSTIFICATION DE l'UNIQLO,query: MOZZJONI GĦAL RIŻOLUZZJONI dwar is-sitwazzjoni tal-priġunieri politiċi,mlt_Latn,mlt_Latn,0.0
+166,query: “Les dirigeants de l’Elysée sont bons à voir ” Les liens de l’,"query: ""Il-miżuri ta' Von Der Leyen huma pożittivi imma hemm iżjed xi jsir",fin_Latn,fin_Latn,0.0
+167,query: 組成協議的資料 - CIC-R09-R09-R09-R09-R09-R09,query: Ċiklu relatat mad-dokument : RC-B8-0171/2019 Riżoluzzjoni tal-Parlament Ewropew ,unknown,unknown,0.0
+168,query: iQ-Chat - iQ-Chat - iQ-Chat - iQ-Chat -,query: Ejja chat - Il-VIDEO-CHAT fuq l-internet Café Jmorru Fuq l-internet Tmur,mlt_Latn,mlt_Latn,0.16666666666666669
+169,"query: 演員: 盧比拉 - ""I'm watching I'm watching I'm missing... ","query: Bil-Filmat: ""Nimmissja Illi Nara..."" - Ronald Briffa Jitkellem Dwar It-T",unknown,unknown,0.3333333333333333
+170,query: Portal de Padova - Portal de Padova - Portal de Padova 9月26日 - Portal de Padova -,query: Avviżi Parroċċa 29 April - 6 Mejju - Mosta Parish Portal Mosta Parish Portal ,fin_Latn,fin_Latn,0.26666666666666666
+171,query: “L’étude de l’emploi à la période de l’emploi constitue un indispensable emplacement,"query: ""L-edukazzjoni fi ħdan is-settur kruċjali għall-iżvilupp tal-ħaddiema u",fin_Latn,fin_Latn,0.0
+172,query: Departement de droit à la responsabilité à la responsabilité à la responsabilité à la sinistre en ,query: Id-Direttorat għas-Saħħa Ambjentali fi ħdan is-Sovrintendenza tas-Saħ,deu_Latn,deu_Latn,0.0
+173,"query: ""Saqqar"" 將重建 - Latest News - 24 年之後,Saqqar 將成為 ",query: 'Sagħtar' se jirritorna wara ħames snin | News Malta - All Maltese & English news,deu_Latn,deu_Latn,0.14814814814814814
+174,query: 為尋求能夠用到表錢來阻礙 the financial crisis in the latest date of lsf,query: Ebda talbiet għall-flus biex jinħeles il-missjunarju maħtuf fin-Niġerja ,mlt_Latn,mlt_Latn,0.0
+175,query: P5 - P5 - P5 - P5 - P5 - P5 - 政府將使,query: Awdjo: €5m Puttinu: Il-Ministru jmeri lill-PM; membri tal-Bord b'ver,eng_Latn,eng_Latn,0.0
+176,query: 英國:Brexit 未能接入 EU 議會 - 新聞 - Financial Times - Reuters:,query: Brexit: L-UE aktarx tagħti konċessjoni lir-Renju Unit - Newsbook Brexit: L-UE,deu_Latn,deu_Latn,0.28571428571428564
+177,query: 記錄 記錄 記錄 記錄 記錄 i i i i i i ,"query: Kif tiġġestixxi, toħloq u teditja t-termini fil-lista tiegħi Din it-",deu_Latn,deu_Latn,0.0
+178,"query: ""Waxlin's volleyball - a national tennis icon to be a National tennis icon to be ",query: 'Qrib li nwaqqfu tim nazzjonali tal-Wheelchair Basketball' - Noel Aquilina - TV,eng_Latn,eng_Latn,0.08333333333333333
+179,"query: Aserbaijan-Aserbaijan-Aserbaijan-Info-Info-Info-Info-Info 該信息的進展,",query: L-ispiża tal-proċedimenti - Awstrija Din il-paġna tipprovdi informazzjoni ,mlt_Latn,mlt_Latn,0.0
+180,query: EUR-Lex - XBRL-XBRL-XBRL-XBRL-XBRL-XBRL-XBRL-XBRL,query: EUR-Lex - 42018X1592 - EN - EUR-Lex EUR-Lex - 42018X1592 -,unknown,unknown,0.5714285714285715
+181,query: 歐洲委員會的議事録 a l’Union de la Communauté de Communauté de Communauté,"query: Il-Ġurnal Uffiċjali tal-Unjoni Ewropea, C 268, 12 ta' Awwissu 2017 Ebda op",mlt_Latn,mlt_Latn,0.0
+182,query: Kylie Klum in Silence – No Comments on Julie Klum in Silence – No Comments on Julie Klum 2nd,"query: Sylvia King – Kelma bejn tnejn On February 14, 2017 By Mark CamilleriIn Uncategorized Illum mhux be",eng_Latn,eng_Latn,0.07142857142857142
+183,query: お客様の意見 & 納入 Testimonials - 当社の太陽能太陽能太陽能Sole Sole Testimonials ,query: Testimonjanzi u kwotazzjonijiet mill-klijenti tagħna | Solar Solve Marine Hawn taħt jins,deu_Latn,deu_Latn,0.0
+184,query: L'Elysée L'Elysée を名義名義用 in the nomination of the Parliament - ,query: Cyrus Engerer tefa' n-nomina tiegħu għall-elezzjoni tal-Parlament Ewropew nhar it,mlt_Latn,mlt_Latn,0.0
+185,query: China Suppliers & Manufacturers - CHINA - Replacement Pipe - TPI-304 - Fitting -,query: Ċina Stainless Pipe TP-304 / 304L Fornituri u Factory - Discount Price - CANGZHOU,eng_Latn,eng_Latn,0.17391304347826086
+186,query: 歷史的軌跡 繼續走在 I'm n'im n'im n'im n,query: 'Il-politika qiegħda f'demmna u jien irrid inkompli fit-triq tal-,hun_Latn,hun_Latn,0.0
+187,query: Lazio - Lazio - Lazio - Lazio - Lazio - Lazio的功績被賦予,query: 82. Il-Lajċi jixhdu għall-poter tal-Vanġelu – Laikos 82. Il-Lajċi,mlt_Latn,mlt_Latn,0.0
+188,query: 最新報導: Lighthouse Lighthouse Project : 鯊魚的生命變化 將 Cabo d'Ivoire ,query: FILMAT: Proġett ta' BirdLife Malta jitfa' dawl ġdid fuq għasafar tal-baħar li,mlt_Latn,mlt_Latn,0.09090909090909091
+189,query: Ralph Rust | Cobalt | Cobalt News | Cobalt News | 2009/11/08 | Cobalt News | Cobalt News | C,query: October | 2008 | Ralph Cassar www.illum.com.mt Il Punt – Ralph Cassar | 19 ta,eng_Latn,eng_Latn,0.2222222222222222
+190,query: Zlazart - 副作用與異種 - Zlazart - Zlazart - Zlazar,query: Losartan vs Valsartan: Differenzi u Similitajiet Ewlenin - Droga Vs. Ħabib |,unknown,unknown,0.11764705882352941
+191,query: 關於歐盟的CDS / CDS / CDS / CDS / CDS / CDS 16,query: id-Direttiva 2003/105/KE tal-Parlament Ewropew u tal-Kunsill tas-16 ta' Diċ,unknown,unknown,0.0
+192,query: 2018 - 被認定事項 - - - - - - - - - - ,query: Testi adottati - Kwittanza 2018: Baġit ġenerali tal-UE – Il-Qorti tal-Aw,unknown,unknown,0.26666666666666666
+193,query: google chrome app is the best way to bypass a targeted url by clicking a bkbl 簡單,query: Blackbell huwa l-aktar mod sempliċi biex tmexxi l-app google tiegħek li tagħ,deu_Latn,deu_Latn,0.07142857142857144
+194,query: Google 認為 如何用 Google spreadsheet spreadsheet 在 Google spreadsheet 的網頁上溝通 ,query: Parir SEO Semalt dwar Kif Poġġi l-websajt tiegħek f'Google Żgur li taf,unknown,unknown,0.0
+195,query: Passengers and passengers don’t need a service for tznsj tznsj ,query: Jitnieda servizz ta' trasport sostenibbli għall-anzjani u persuni neqsin mill-mobilità,deu_Latn,deu_Latn,0.0
+196,query: 95% 的 nitrate based on a system-based system-based nitrate conversion 從結晶上,query: Tnaqqis ta'aktar minn 90% fit-tniġġis tal-arja permezz ta' sistema tal-elett,mlt_Latn,mlt_Latn,0.0909090909090909
+197,"query: ""I 為我工作過, 為我工作過 並連接過 xìng xìng x","query: ""Ninsab kuntenta għax-xogħol li għamilt u nħares 'il quddiem",mlt_Latn,mlt_Latn,0.11764705882352941
+198,query: Murcia - Murcia - Murcia News - Murcia News - Murcia News - Murcia News -,"query: M'hemmx paragun – iNews Malta, Aħbarijiet bil-Malti. M'hemmx paragun Lan",fin_Latn,fin_Latn,0.0
+199,query: 最新資訊 - 使用例子 - Lectura de la Longitude de la Longitude de la Longitud,query: Dettalji tat-Taħriġ tal-Għalliema - Linda Howe Applikazzjonijiet għat-Taħ,mlt_Latn,mlt_Latn,0.125
+200,query: ldldldldldldldldldldl 認為自己的工作成為,query: Il-BLD tistiednek taqsam magħha l-għodda tiegħek bħala professjonist ,deu_Latn,deu_Latn,0.0
+201,query: 歐洲財務連署: Die Bilanz der Finanzen 2008 - Die Bilanz der Finanzen 2008 - 2010年10,query: BĊE: Rapport finanzjarju konsolidat ta' l-Eurosistema ta' l-10 ta' Ottubru 2008,deu_Latn,deu_Latn,0.19999999999999998
+202,query: 目次 : 構建NGOs for non-religious actors to be supported by SDGs 觀察,query: Filmat: Sejħa għal proġetti għal NGOs favur djalogu soċjali - Newsbook 3 ta' Lul,mlt_Latn,mlt_Latn,0.07407407407407407
+203,query: 報導: 婦女於週日被視為gjigjigjigjigjigjigjig,query: Filmat: Maltin jipparteċipaw fil-ġimgħa għaż-żgħażagħ fi Brussell - Newsbook,fin_Latn,fin_Latn,0.15384615384615383
+204,query: 草案報告 關於Leu-de-Leu-de-Leu規則的規範及措施 a proposed,query: RAPPORT dwar il-proposta għal regolament tal-Parlament Ewropew u tal-Kunsill li jemenda ,mlt_Latn,mlt_Latn,0.0
+205,query: « I don't refuse to read it as a way to minimize life's faulty intelligence ,"query: ""Ħajjet persuna m'għandix tibqa' sospiża frott l-ineffiċjenzi",mlt_Latn,mlt_Latn,0.0
+206,"query: La Comunitat de Madrid: Turistas llegan al Covid-19 - La Comunitat de Madrid 始終接踵而至,",query: Covid-19: Spanja tilqa' lura lit-turisti fost it-tmiem tal-istat ta' emerġ,fin_Latn,fin_Latn,0.16666666666666666
+207,query: 開始幫助家族 - 開始幫助家族 - rife de l'amitié de l'amiti,"query: Tonn mimli faqqiegħ, starter biex tgawdi mal-familja. | Riċetti tal-k",deu_Latn,deu_Latn,0.0
+208,query: 批評 - 被連鎖和批評 - Lezeris in Belarusian - Lezeris in ,query: Testi adottati - Ir-repressjoni sistematika fil-Belarussja u l-konsegwenzi ta,unknown,unknown,0.13333333333333333
+209,query: 《伊斯蘭語 - The Best Translation of the Yisrael - Page 65 - The Best Translation of the Yisrael,"query: Isaija 65 | Il-Bibbja Onlajn | Traduzzjoni tad-Dinja l-Ġdida 65 ""Ħall",hun_Latn,hun_Latn,0.10000000000000002
+210,query: Il Mazzio de Mazzio refuse d'être tradotto à la fonte de la fonte de la ,"query: Il-Malti ma jaħmlux lill-istramb, minn dak li jhedded li jaqbeż minn ",unknown,unknown,0.0
+211,query: 從 Izmir への進步 經由新的Izmir Improvement Scheme 計畫... - mnmn,query: Tħassib għal pjani ta' żvilupp ftit pass bogħod mill-Imdina... meqjus bħal,mlt_Latn,mlt_Latn,0.08695652173913043
+212,query: 機動對抗 l'Algerie - l'Algerie - l'Algerie 在網上,query: Ġlieda kontra l-Armi ta'reġistrazzjoni online. Tilgħab logħba ta ',deu_Latn,deu_Latn,0.0
+213,query: MINISTRY OF THE POLICE STELLA SCHUTZMANN - MINISTRY OF THE POLICE STELLA SCHU,query: STQARRIJA MILL-MINISTERU GĦAT-TURIŻMU U L-PROTEZZJONI TAL-KONSUMATUR De,unknown,unknown,0.0
+214,query: GIORGIO GIORGIO - GIORGIO GIORGIO - GIORGIO GIORGIO - GIORGIO ,"query: GIORGIO NARDONE, PSIKOLOGU-PSIKOTERAPISTA: TAĦRIĠ Giorgio Nardone ggrad",unknown,unknown,0.1818181818181818
+215,"query: 在 2010 年 12 月 16 號, C'à C'à C'à C’à C’à ","query: 20 ta' Marzu 2014 (*) Fil-Kawża C‐61/12, li għandha bħala suġġett ",deu_Latn,deu_Latn,0.14814814814814814
+216,query: 此服務是免費-Video-Cam-Cam-Cam-Cam-Cam-Cam-Cam-Cam-Cam-Cam-,query: Dan huwa Liberu Tmur Tas-servizz Bil-possibbiltà Ta Jmorru - Il-VIDEO-CHAT,unknown,unknown,0.0
+217,query: 決定向最高法院的審判 a partir de la decisión de la Corte Suprema de Justicia de la Justicia,query: Talba għal deċiżjoni preliminari mressqa mit-Tribunal Superior de Justicia del País Vasco (Spanja,fin_Latn,fin_Latn,0.17391304347826086
+218,query: Home - 学校产品 - 品牌 - 品牌 - i-china i-china i-china,"query: Ċina Iskola Classroom Għamara Henan Vimasun Industry Co, Ltd Id-dar > Il-prodotti > G",unknown,unknown,0.0
+219,query: 國際觀光標籤: ISLAMIC IDOLM@STER IDOLM@STER IDOLM@STER IDOLM@STER IDOLM,query: 101 L-AQWA TATWAĠĠI SALIB GĦALL-IRĠIEL: IDEAT TA 'DISINN,deu_Latn,deu_Latn,0.13333333333333333
+220,query: 60% of Lecturers have taken a class as a non-SSCI-class based on their latest,query: Iktar minn 500 student igawdu minn klassijiet ta' reviżjoni tas-SEC bla ħlas - Fl-aħ,fin_Latn,fin_Latn,0.0
+221,"query: l-Infra-Iaa l-Infra-Iaa プロジェクト在 2015 年結束後,",query: L-Enemalta investit f'dan il-proġett fl-2015 wara li kienet xtrat l-i,fin_Latn,fin_Latn,0.0
+222,"query: ""我們的歷史觀念"" - 機關評論 - ""Not the news of the politician"" -","query: ""Turija ta' rispett lejn l-eroj tagħna"" - Newsbook ""Il-politiċi mhux",hun_Latn,hun_Latn,0.2608695652173913
+223,query: 該做什麼? - 礦物評價 - 如何被稱為漢格爾鋼? - Jingang,"query: X'tagħmel dwar folja tal-metall? - Għarfien - Hangzhou Jingshan Industry Co,",deu_Latn,deu_Latn,0.2222222222222222
+224,query: 'Gidge' 'Gidge' 'Gidge' 'Gidge' 提供生命活動,"query: [AĠĠORNAT] ""Gidba""; BirdLife tiċħad l-allegazzjonijiet tal-FKNK – i",deu_Latn,deu_Latn,0.0
+225,query: 聖經 - 聖經 - 聖經 - Benedictus Benedictus Benedictus de la Maison de,query: Home Aħbarijiet Knisja Il-Madonna Mirakoluża ta' Badoc tintbgħat lura fil-Ġapp,mlt_Latn,mlt_Latn,0.0
+226,query: 在 Algerie de l'Allianz Pays de l'Allianz Pays de l'Allianz ,query: Bonus ta 'Casino Online bla Depożitu Fl-Alġerija L-Aqwa Kodiċijiet ta 'Bonus tal,fin_Latn,fin_Latn,0.0
+227,query: La Campagne de la Campagne de la Campagne 2015 - La Campagne de la Campagne 2015 ,query: Il-Laqgħa Ġenerali Annwali tal-Moviment ta' Kana 2015 Il-Moviment ta' Kana la,deu_Latn,deu_Latn,0.25
+228,query: 各種風格的logo - Inspired by karikaturism - Inspired by karikaturism in 每個網上,query: Logos ispirati minn pittura ħafifa | Kreattivi Online Kull tip ta'manifestazzjoni artistika splashed,unknown,unknown,0.0
+229,query: 項目簡介 - iSsi-test - iSsi-test - iSsi-test,query: Testi adottati - L-introduzzjoni tal-programm 'Ċess fl-Iskola' fis-sistemi,hun_Latn,hun_Latn,0.16666666666666666
+230,query: 人們應該在 Facebook 或 Twitter 中閱讀他們的過往記錄 tztzt zt,query: Ġenituri għandhom jiftħu kontijiet lil uliedhom fuq TikTok jew Instagram? - TV,deu_Latn,deu_Latn,0.0
+231,query: 1億歐元在國際貿易中成為1億歐元的重要資產 - Commodity-news - Commodity,query: Surplus ta' €157 miljun fil-kummerċ internazzjonali – One News L-Uffiċċju Nazzjonali,deu_Latn,deu_Latn,0.0
+232,"query: ""I don't refuse to work on a fiduciary agency in Maroc"" 詳情 ""La ","query: ""Qatt ma rċivejna għajnuna finanzjarja għax operawh f'Malta"" - Omm Jacob",mlt_Latn,mlt_Latn,0.13793103448275862
+233,"query: 在當代的年份,Le Grégoire de la Légion de la Légion de la Légion de la L","query: Bħalma għamlet fis-snin l-imgħoddija, l-Għaqda tal-Armar",mlt_Latn,mlt_Latn,0.13333333333333333
+234,query: HAIR-WOOL - HAIR-WOOL - HAIR-WOOL - ALL INFINITE COLLECTION -,query: 50 L-AQWA HAIRCUTS & HAIRSTYLES GĦALL-IRĠIEL FL-2021 - XAGĦ,deu_Latn,deu_Latn,0.14285714285714285
+235,query: nevralgics (nevralgics) – 治療條件和限制 (nevralgics) nevralgics,query: Neuraceq (florbetaben (18F)) – Kondizzjonijiet jew restrizzjonijiet rigward il- provvista u l-,unknown,unknown,0.3157894736842105
+236,query: 訂閱資料 - 訂閱資料 - 訂閱資料 - 7 - Al-Faraj al-Far,query: Bdil tad-dati bla tariffi; aktar tindif fuq l-ajruplani – Emirates - Newsbook 7,eng_Latn,eng_Latn,0.21052631578947364
+237,query: TLV 2016/TLV 2016/TLV 2016/TLV 2016/TLV 2016/TLV 2016/TLV -,query: L_2016157MT.01000101.xml DIRETTIVA (UE) 2016/943 TAL-PARLAMENT EWROPEW U,unknown,unknown,0.0
+238,query: 關鍵字5號 - Kommend’z – KERTUZ – KERTUZ – KERTUZ – KERT,query: Moviment Kerŷgma » TITĦAWDUX! – Il-5 Ħadd tal-Għid – Sena A –,unknown,unknown,0.10526315789473685
+239,query: 記事分類 - 世界経済 - 記事分類 - GLOBEGLOBEGLOBEGLOBEGLOBEGLOBE,query: L-ekonomija | In-Negozju Tal-Aħbarijiet Globali L-Artikoli-Websajt.WS |,unknown,unknown,0.0
+240,query: Khalifa Kim 決定如何用車體來規劃車輛 - - - Khalifa Kim embedd his code,"query: Kia Motors għażlet lil Karim Habib biex imexxi ċ-ċentru tad-disinn Set 12, 2019 14:41",mlt_Latn,mlt_Latn,0.0
+241,query: 該藥品的用法 該藥品的用法 id id id id id id id,query: Prodotti mediċinali għal użu pedjatriku Din il-liġi timmira li tiżgura li l-medi,fin_Latn,fin_Latn,0.0
+242,query: 2021 - 3 月 23 日 - La Città del Soleil Observatory del Solè al Soleil – ,query: April – 2021 – Soċjetà Filarmonika La Stella Għada l-Ġimgħa 23 t'April 2021,unknown,unknown,0.32
+243,"query: 中英新聞 : 將變成,將改變,將改變的 Figaro / Figaro / F","query: Infasslu Futur Flimkien: Partit Żagħżugħ, determinat li jibdel u jinbidel favur",unknown,unknown,0.18181818181818185
+244,query: - - - - - - - - - - - - - -,"query: Jmorru - Franza, Essonne. - Video chat għall - sess. Xandiriet diretti u",unknown,unknown,0.14285714285714288
+245,"query: ""Lisa 離開她曾經的事"" - i'm not a woman who has been a woman -","query: ""Lisa Maria nqatlet mill-persuna li kellha tieħu ħsiebha"" - Newsbook 14 ta' ",deu_Latn,deu_Latn,0.28571428571428575
+246,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+247,query: EU - 2003 - 2003 - 2003 - EU-Kürsel-Miner-Direktions Reglement -,query: EUR-Lex - 32003R2325 - MT Ir-Regolament tal-Kunsill (KE) Nru 2325/2003,unknown,unknown,0.12500000000000003
+248,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+249,query: 德國協會 e-de-de-de-de-de-de-de-de-de-de-,query: Il-Kummissjoni Ewropea tixtieq tqiegħed għad-disponibbiltà materjal għat-,mlt_Latn,mlt_Latn,0.0
+250,query: 過往的政府應該經過應該經過 ready and ready and ready to be accomplished 1 ,query: Miżuri għall-governanza tajba setgħu ttieħdu qabel u kienet tiġi evitata,deu_Latn,deu_Latn,0.0
+251,query: [ - - - - - - - - - - - - - ,query: > Main > Dikjarazzjoni tal-Aċċessibbiltà Din id-dikjarazzjoni tapplika għas-sit elettro,fin_Latn,fin_Latn,0.0
+252,"query: Sefi 顧客は,Sefi - Negotiations に厳しく批判されている。Sefi - Negotiations は","query: Verifika SEO Ma 'Semalt Bħal fin-negozji, il-verifiki huma kritiċi. Il-klijenti spis",unknown,unknown,0.1
+253,query: 注冊: 2021.03.01 - 2021.03.01 - 2021.03.01 - 2021.03.02 - 2021.03.02 ,query: TEST Konsolidat: 32011D0172 — MT — 23.03.2017 02011D0172 — MT — 23.03.2017 — 007.,unknown,unknown,0.13333333333333333
+254,query: 這篇文章被轉載於 2016 年 1 月 19 日 - La Parante de la Parante de la ,"query: X'differenza! By Mark Anthony Sammut April 27, 2016 Dan l-artiklu deher fil-ħarġa tal-",unknown,unknown,0.07407407407407407
+255,"query: 簡介 - gif-film is a universal way to be everywhere, 當代人體的gif-film","query: Fil-fatt, il-video ġermaniż — hija universali pjattaforma fejn kull utent tal-Internet issib",unknown,unknown,0.08
+256,query: - Le rapport de l'UE - Le rapport de l'UE - Le rapport de l'UE ,query: Testi adottati - Rapport dwar l-implimentazzjoni tal-leġislazzjoni tal-UE rigward,deu_Latn,deu_Latn,0.14285714285714285
+257,query: “We’re always behind me in a way beyond a way I’ve tried to go through each,"query: ""Qed nirriżenja minkejja li għamilna passi 'l quddiem f'wieħed mill-",unknown,unknown,0.0
+258,query: - 如何評價 - 如何評價 - Liechtenstein 可以更容易用來組成規則 - ,query: Kif tipproċedi? - Svezja Jista' jkun aħjar li tuża sistemi għas-,unknown,unknown,0.11764705882352941
+259,query: Toutes la crème de la crème de la crème de la crème de la crème de la crème a,query: Makeup bħala kawża maġġuri tal-Acne Kulħadd jaf kawżi maġġuri ta',mlt_Latn,mlt_Latn,0.0
+260,query: 2012 - 22 - 22 - 22 時候最愚蠢的議題是 - I don't think the,"query: Nofs kedda Aww 29, 2012 21:56 L-ironija politika li qed ngħixu hi li r",unknown,unknown,0.08695652173913043
+261,query: Kif を如何見ることができる方法 - pdf / mp3 / mp3 / mp3 / mp3,query: Kif taqra xi WMA fuq iPod faċilment > Ir-riżorsa > vidjo > kif taqra xi,tur_Latn,tur_Latn,0.11764705882352942
+262,query: 2021年11月23日 – Santa Maria de Carvalho Walking on the Camino – Santa Maria de Carvalho’s,"query: Dead man walking – simonmercieca.com November 19, 2021 November 19, 2021 Simon Mercieca Karl Stagno Navarra ddeskriva",eng_Latn,eng_Latn,0.07407407407407407
+263,query: 分類與評選 分類與評選 分類與評選 - La collezione de la collezione de la collezione,query: Kompożizzjoni u l-klassifikazzjoni ta 'tagħmir taħlit ta' konkrit - Shandong,deu_Latn,deu_Latn,0.125
+264,query: i-Fibrilla III - i-Fibrilla III - i-Fibrilla - の,"query: Philips 3000i, il-purifikatur tal-arja ta'referenza [Reviżjoni] | Aħbarijiet tal",unknown,unknown,0.0
+265,query: 藝術家 Jacques Jabelli 的信號 Jacques Jabelli 的信號 在 2014-11-14 - 2014-11-14,"query: Wirja ta' pajsaġġi mill-artist Richard Saliba Jan 04, 2015 10:44 Ġewwa l-Kam",mlt_Latn,mlt_Latn,0.0
+266,query: 政府將更進一步推動NPJ - a place to be a better representation of political life in 12,query: Il-PN bi 12-il miżura biex il-mara tipparteċipa aktar fil-ħajja pubblika u,deu_Latn,deu_Latn,0.0
+267,query: 一 名 20 歲的囚犯 threatening his wife as a lily bomber to be targeted by,query: 25 sena ħabs għal wieħed mill-hijackers ta' ajruplan Libjan li spiċċa Malta -,deu_Latn,deu_Latn,0.0
+268,query: 今天 ─ ─ ─ ─ ─ ─ ─ ─ ─ 把政治保護責任的機制,query: 'Illum hija l-ġurnata li nerfgħu r-responsabbiltà politika ta' dak li,mlt_Latn,mlt_Latn,0.0
+269,query: 機場轉往中國 - 機場轉往中國 - 機場轉往Beijing - Xi Jinping ,query: L-ajruport ta' Hong Kong fiċ-Ċina jerġa' jiftaħ - TVM L-aj,unknown,unknown,0.12500000000000003
+270,query: Jsfr - Jsfr - Jsfr - Jsfr - Jsfr - - ,query: Adulti free Jmorru - Video chat għall - sess. Xandiriet diretti u li Jmorru.,unknown,unknown,0.13333333333333336
+271,query: 21 條款 - 關於權利的規範 (RGDPR - RGDPR - RGDPR,query: Artikolu 21 📖 RĠPD (GDPR). Dritt ta' oġġezzjoni | GDPR-Text.com Artik,deu_Latn,deu_Latn,0.19047619047619044
+272,query: 無用 無用 無用........ Crucifix,query: Jiskopru b'xejn u mingħajr reġistrazzjoni. Tibda tuża popolari Tmur bi,mlt_Latn,mlt_Latn,0.0
+273,query: La proposition de l’investisseur à 100 000 eur et l’investissement à 100 000 eur est ,"query: Dan il-proġett ta' restawr sewa €100,000, u ġie żvelat mill Ministru Owen",fin_Latn,fin_Latn,0.0
+274,query: フェラーリ 要 fosiliers fosiliers fosiliers fosiliers 行駛するための工作 - 車輛,query: Herrera jwissi li rridu nnaqqsu l-vetturi li jaħdmu bil-'fossil ,unknown,unknown,0.0
+275,query: 開始結束 50 週年結束 50 週年結束 Bookmarks Bookmarks - Zinji bzo,query: Tkompli l-isfida biex jinġabru 50 borża demm kuljum - Newsbook Tkompli l,deu_Latn,deu_Latn,0.2222222222222222
+276,query: Fzl Fzl fzl fzl fzl fzl fzl fzl fzl ,query: Korsijiet Trainer Personali Wied Iż-Żiju FFC huwa responsabbli biex jipproduċi l-a,deu_Latn,deu_Latn,0.0
+277,query: tchaf tchaf tchaf と tchaf's latest images 受難者,query: Il-mewt ta' Thatcher u eluf kbar ta' ħaddiema ċċelebraw fit-,deu_Latn,deu_Latn,0.0
+278,query: Salvatore Ferragamo - Vatican Vatican Vatican - Salvatore Ferragamo - AMAN ISILIA的家族是何,"query: IS-SENA FAMILJA AMORIS LAETITIA intervista mal-Kardinal Kevin Farrell Id-19 ta' Marzu,",mlt_Latn,mlt_Latn,0.0
+279,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+280,query: - - - - - - - - - - - - - -,query: L_2009142MT.01000101.xml REGOLAMENT (KE) Nru 444/2009 TAL-PARLAMENT EWROP,unknown,unknown,0.0
+281,query: DEPARTMENT DEPARTMENT DEPARTMENT DEPARTMENT DEPARTMENT DEPARTMENT - EZERNI - EZERNI,query: MIET L-EKS ĠENERAL TAL-PATRIJIET TEREŻJANI | ORDNI SEKULARI KARMELITAN,fin_Latn,fin_Latn,0.0
+282,query: 關於: / / / / / / / / / / / /,query: Qiegħed hawn: Daħla / Aħbarijiet / Aħbarijiet / Is-Segret,unknown,unknown,0.4
+283,query: 該組織將迎接 MLF - Laliga - Laliga - MLF - MLF1-1 的開始,query: L-MFA se tiltaqa' mal-klabbs tal-Ewwel Diviżjoni illum fis-14.00 - TVM L-,fin_Latn,fin_Latn,0.1111111111111111
+284,query:???????????? TensorFlow的,query: X'inhu debranding? | Kreattivi Online X'inhu debranding? It-tendenza tad-debranding tal-,unknown,unknown,0.15384615384615383
+285,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+286,query: 3個車庫被鎖中 - 車庫中 - 車庫中 - Knez-Knez-K,query: Tinstab il-kannabis fi 3 karozzi f'Ħaż-Żabbar - Newsbook Tinstab il-kanna,eng_Latn,eng_Latn,0.15384615384615383
+287,query: Newcastle 'n-Jerusalem' 'n-Jerusalem' は如何進行可能? 彼の生命を見渡す,query: Il-bejgħ ta' Newcastle jista' jerġa' jieħu l-ħajja? – i,mlt_Latn,mlt_Latn,0.3529411764705882
+288,query: Qualcomm-Qualcomm-Qualcomm-Qualcomm-Qualcomm-Qualcomm-Qualcomm-Qualcomm-Qualcomm-Q,query: Awtorità fil-Qadi - Is-Seminarju tal-Arċisqof Awtorità fil-Qadi Minn,others,others,0.0
+289,query: gz-gz-gz-gz-gz-gz-gz-gz-gz ,query: Il-mitħna tax-Xewkija fost l-iktar 100 destinazzjoni ta' preġju għas-sostenibilità,mlt_Latn,mlt_Latn,0.0
+290,query: 標題: MIRACLES FUND - MIRACLES FUND - FIRST ANNIVERSARY FILE,query: RIŻORSA ĠDIDA: IL-KALKULATUR TAL-ĠBID TA' FLUS MILL-PROGRAMM TAT-T,unknown,unknown,0.11111111111111112
+291,query: 為他人評論するには 為他人評論するには????????,query: Għaliex niġġudikaw lil ħaddieħor? | Riżorsi ta 'Self Help Ġiżimin,fin_Latn,fin_Latn,0.15384615384615385
+292,query: 視頻 - - - - - - - - - - - - -,query: Fuq l-internet mingħajr il-video-introduzzjoni - IL-VIDEO - CHAT - ,eng_Latn,eng_Latn,0.22222222222222224
+293,query: iPhone X i-phone i-phone i-phone i-phone i-phone 2019 是最好的評價,query: L-iPhone XR kien l-iktar smartphone li nbiegħ fl-2019 | Aħbarijiet dwar l-,deu_Latn,deu_Latn,0.0
+294,query: Intelligent Interaction Policy - Intelligent Interaction Policy - Intelligent Interaction Policy is a hidden threat on 2020,query: Politika ta 'Privatezza Smartplay Aġġornat l-24 ta 'SETTEMBRU 2020 Smartplay International hija impenjata,deu_Latn,deu_Latn,0.09523809523809525
+295,query: 報導人們為不堪的新聞 - Breaking News - Breaking News - Neighbors in the,query: Jgħinu nies bla dar minħabba s-sħana tremenda - Newsbook Jgħinu nies bla,mlt_Latn,mlt_Latn,0.125
+296,query: 重新評價 - 歷史博物館 - l'Ermitage de l'Immaculata.com -,query: Opinjoni | Inħarsu l-patrimonju Malti bir-restawr - Illum.com.mt Opin,unknown,unknown,0.13333333333333333
+297,query: ISV - 國際標準輸入品 - ISV - 國際標準輸入品 - ISV No. 15 ,query: Importazzjoni u Esportazzjoni Vladivostok - ISPM Nru 15 - Istandard Internazzjonali għal Miżuri Fitosan,deu_Latn,deu_Latn,0.21052631578947367
+298,query: Powerpoint : 轉換為視頻 (Powerpoint : 轉換為視頻) Powerpoint : youtu.be,query: Wondershare PPT2Video Pro [uffiċjali]: jikkonverti PPT għall-vidjow Ikkonverti,deu_Latn,deu_Latn,0.11764705882352942
+299,query: 記錄: 體驗過往 - 從鏡頭到鏡頭 - Insurgence - Kif,query: Ritratti: Tibżgħux mill-isfidi u komplu mexjin 'il quddiem - Seminar għaż,tur_Latn,tur_Latn,0.2105263157894737
+300,query: 白瑪瑙彫刻活動開始 - - - - - - - - - -,query: QLA Madonna tal-Blat Il-Kunċizzjoni tal-Blat~ Qala - Għawdex ~ He,mlt_Latn,mlt_Latn,0.16666666666666669
+301,query: 問題議題的解決方法 FOR THE INFORMATION OF THE FACTS OF THE FACTS IN ZILO-ZILO-,query: MOZZJONI GĦAL RIŻOLUZZJONI KONĠUNTA dwar is-sitwazzjoni fil-Lvant tar,mlt_Latn,mlt_Latn,0.0
+302,"query: Edouard Edouard-Edouard: ""It was a very important year for Europe"" - PPE-","query: Awdjo: ""Kienet sena ta' mistura għall-UE"" – Peter Agius - Newsbook Awdjo",mlt_Latn,mlt_Latn,0.26666666666666666
+303,query: - - - - - - - - - - - - - -,query: Għasel - Mediċina tan-Naħal - Test tal-Għasel - BALLYA Serje tat,mlt_Latn,mlt_Latn,0.19999999999999998
+304,query: Banca de Algerie as a potential role as a role in the future - Central Bank of Algerie -,query: Opportunitajiet għal Karriera - Central Bank of Malta Bħala parti mill‐istrateġija tal‐iżvilupp tie,fin_Latn,fin_Latn,0.29629629629629634
+305,query: Lodovico Ludovicus Magalhãs - 他的名稱: Leopoldo Ludovicus Magalhãs (,"query: Leopoldu Mandić - Wikipedija San Leopoldu Mandic, O.F.M. Kap. (magħruf",unknown,unknown,0.2
+306,query: 德國連邦銀行的評價 - Deutsche Bank Kommission des Conseils de l’Union de 3 ,query: Opinjoni tal-Kunsill Governattiv tal-Bank Ċentrali Ewropew tat- 3 ta' Marzu 2011 ,mlt_Latn,mlt_Latn,0.08333333333333333
+307,query: 星期六 – The first wazifa – The first wazifa – The first wazifa – 義大利的瓦房地產,"query: L-ewwel rebħa Furjaniża Home » L-ewwel rebħa Furjaniża Tuesday, September 17,",eng_Latn,eng_Latn,0.0
+308,query: 關鍵字 - i-mandat - i-mandat - i-mandat - i-mandat,query: Testi adottati - L-impatt tal-kummerċ internazzjonali u tal-politiki kummerċ,unknown,unknown,0.16666666666666666
+309,query: - - - - - - - - - - - - - -,"query: shampoos għall-xagħar, invidia - GLOBElife ☎ - Prodotti għall-xagħar",mlt_Latn,mlt_Latn,0.2222222222222222
+310,query: 關鍵字 - - - - - - - - - - - -,query: European Commission - PRESS RELEASES - Press release - L-ebda reġjun ma jibqa' lura,deu_Latn,deu_Latn,0.13333333333333336
+311,"query: Mohamed Hussein: ""I've been going to a football club until 2022 年 11 月從沙特","query: Awdjo: ""Shaun ilu jaqsam lejn Malta għall-futbol minn meta kellu 11-il sena"" -",unknown,unknown,0.12121212121212122
+312,query: DEVELOPMENT DE L'INSTRUMENT DE DEVELOPMENT DE L'INSTRUMENT (EU) 2018-1118 條款,query: REGOLAMENT TA' IMPLIMENTAZZJONI TAL-KUMMISSJONI (UE) 2018/1012 tas-17 ta' Lul,eng_Latn,eng_Latn,0.2
+313,"query: 成為一個更安全的漁民 2018 年 12 月 22 日, Mohammed al-Ghazi al-Ghazi","query: Demmu salva iktar minn żewġ miljun tarbija Ġun 09, 2018 20:32 Raġel Awstraljan ta",unknown,unknown,0.16
+314,query: 任務委員である José Ignacio de Guzman - José Ignacio de Guzman - Javier de Guzman,"query: Il-mandat tas-Segretarju Ġenerali tagħna, is-Sur Eduardo Ruiz García, se jintemm",hun_Latn,hun_Latn,0.0
+315,query: 勞動者們為何用作工作 因應'sympathetic fixtures'sympathetic ,query: X'rimedji hemm għal residenti li jsofru ħsarat b'xogħol ta' kostruzzjoni? -,mlt_Latn,mlt_Latn,0.0
+316,query: 德國的書面證書 (134) - Italienische Protokolle (134) - Italienische Protokolle,query: ES tiesību akti (2639) maltiešu valoda (1424) grieķu valoda (123) vācu valoda,deu_Latn,deu_Latn,0.2105263157894737
+317,query: l'alcoolémie et la mortalité a mesuré l'alcoolémie en L'Algerie l'intensit,query: Il-kwantità u l-kwalità tad-droga f'Malta naqsu tul il-pandemija?,others,others,0.0
+318,query: La Vella Veneta - La Vella Veneta - La Vella Veneta - La Vella 發布于,"query: Il-Belt Valletta Esposta F'Wirja Ġewwa l-Italja Mar 26, 2018 11:09 It",fin_Latn,fin_Latn,0.0
+319,query: - - - - - - - - - - - - - -,query: European Commission - PRESS RELEASES - Press release - Il-moviment liberu tal-persuni: Il-,eng_Latn,eng_Latn,0.15384615384615385
+320,query: CNC 連接機為什麼? ncj5 ncj5 ncj5 ncj5,query: x'inhu l-makkinar CNC b'5 assi? PTJ iwieġeb għalik | P,mlt_Latn,mlt_Latn,0.23529411764705882
+321,query: 過去幾個月的數字 - - - - - - - - - -,query: Qari tal-Quddies tal-Ħamis tal-I ġimgħa matul is-Sena – Laikos Qar,mlt_Latn,mlt_Latn,0.0
+322,query: 關鍵討論 關鍵討論 關鍵討論 CONDITIONS de l'Arrest de l'Arrest de L',query: MOZZJONI GĦAL RIŻOLUZZJONI KONĠUNTA dwar l-arrest ta' priġunieri,fin_Latn,fin_Latn,0.13333333333333333
+323,query: Laissez-Laissez-Laissez-Laissez-Laissez-Laissez-Laissez-La Decision 2007年11月,query: Sentenza tal-Qorti tal-Ġustizzja (it-Tielet Awla) tal-15 ta' Marzu 2007.$,deu_Latn,deu_Latn,0.0
+324,query: The MGA Association of Members - The MGA Association of Members - The MGA Association of St. Moritz-Gletscher,"query: L-Istorja – Malta Society Of The Blind Board Members of MSB STORJA tal-""GĦAQDA PERSUNI N",eng_Latn,eng_Latn,0.24
+325,query: Las Vegas Online Casinos - Las Vegas Online Casinos - Las Vegas Online Casinos - Las Vegas Online Casinos -,query: Casino Online Messiku - L-Aqwa Casinos Online Messikani Għall-2021 homeCasino Online Messiku - L-A,deu_Latn,deu_Latn,0.4
+326,query: The 24th Anniversary of the Levante’s Press-Gazette-in-Kisa-Press-in-Kisa,query: Titella' it-42 edizzjoni tal-Għanja tal-Poplu fl-1 ta' Settembru – One News Titella',mlt_Latn,mlt_Latn,0.0
+327,"query: 10115: 德國人權, 德國人權, 德國的影響力, discrimination, dignity","query: maltesisk (1259) Emne: demokrazija, drittijiet tal-bniedem, kunflitt internazzjonali,",deu_Latn,deu_Latn,0.2105263157894737
+328,query: 家人的父親Rene Levine 被命名為Rene Levine 在 16th - 16th 日,query: Is-sehem tar-raġel fil-familja jgħodd Minn Renee Laiviera 16 ta' Diċembru,mlt_Latn,mlt_Latn,0.0
+329,query: Powered by iSpaze® - iSpaze® - iSpaze® - iSpaze,query: Satisfyer Pro 3+ | Il-Vibraturi Air Pulse | Tekonoloġija Air Pulse | Prodotti | ,unknown,unknown,0.0
+330,"query: 傳染病的變化應該由接替 - Consiglio Generale de la Patagonia 指出,Patagonia","query: L-irkupru tal-pandemija jeħtieġ konverżjoni, jgħid il-Papa – Laikos Il-",unknown,unknown,0.10526315789473685
+331,"query: 當事物的發展 l'industrie de l'humanité n'est pas suivi d'un jour,","query: L-industrija għajjiet tieħu d-daqqiet ġo fiha, waħda wara l-o",deu_Latn,deu_Latn,0.10000000000000002
+332,query: Deborah Daffelmann 的評論和重新定義 - Daffelmann 的自我觀念 - Daffelmann,query: Tagħlim sinifikanti u t-Teorija ta 'David Ausubel | Riżorsi ta 'Self,tur_Latn,tur_Latn,0.0
+333,query: Kafka - Kafka - Kafka - Kafka - Kafka - 今週的結果! こんなもの,query: Mark Montebello's blog: Xi kruha! Xi kruha! Kif din il-ġimgħa ntwera,unknown,unknown,0.11764705882352941
+334,"query: 關注員工及員工,關注員工,關注員工, l'apertos l'","query: Avviż għall-attenzjoni tal-persuni, l-entitajiet u l-korpi li għalihom",mlt_Latn,mlt_Latn,0.13333333333333333
+335,query: - - - - - - - - - - - - - -,query: European Commission - PRESS RELEASES - Press release - Il-Kummissjoni tiffirma ftehim mal-industri,eng_Latn,eng_Latn,0.16666666666666669
+336,query: Z-Intermezzo – Z-Intermezzo – Z-Intermezzo – Z-Intermezzo 決議 2011年,query: Rikors ippreżentat fid-9 ta' Settembru 2012 – ZZ vs Il-Kummissjoni (Kawża,eng_Latn,eng_Latn,0.11764705882352941
+337,query: - - - - - - - - - - - - - European Integration,query: European Commission - PRESS RELEASES - Press release - Ir-rapport ta' progress tal-Kummissjoni Ewropea ,eng_Latn,eng_Latn,0.25
+338,query: /AL-TAL2018/AL-TAL2018/AL-TAL2018/AL-TAL2018/AL-TAL2018/AL,query: L_2018156MT.01007501.xml DIRETTIVA (UE) 2018/844 TAL-PARLAMENT EWROPEW U,unknown,unknown,0.0
+339,query: i i i i i i i i i i i i i i,query: Iġġorr tumur f'żaqqha sakemm għalqet sninha Kirurgi fl-Istati Uniti ne,fin_Latn,fin_Latn,0.0
+340,query: Chiffre d’Or - Chiffre d’Or - Chiffre d’Or - Ximena Mazza Prix 2020,query: Michael Cini – Ix-Xafra tad-Destin – €13 Jekk tazzarda tgħix imqar,unknown,unknown,0.0
+341,query: 關於如何被稱為負責人 acteurs de la clandestinité acteurs de la clandestinité a,query: Ħtieġa ta' protokolli ċari fejn jidħlu persuni b'diżabbiltà –,fin_Latn,fin_Latn,0.0
+342,query: 關於聯合國計劃 - Deutsche-Kommissionen-de-de-de-de-de-de-,"query: Dibattiti - Dispożizzjonijiet komuni dwar il-Fond Ewropew għall-Iżvilupp Reġjonali, il",fin_Latn,fin_Latn,0.14285714285714288
+343,query: http://www.adjunion.org/action/cooperation/Adria/Adria/Europol/Europol/Adria,query: KOMUNIKAZZJONI http://ec.europa.eu/regional_policy/cooperate/adriat_ionian/,eng_Latn,eng_Latn,0.5714285714285715
+344,query: 連署的婦女與婦女 nsl-nsl-nsl-nsl-ns,query: L-istess salarju għall-irġiel u n-nisa fit-tim nazzjonali Norveġiż ,deu_Latn,deu_Latn,0.0
+345,query: 優質的車軸制造商 - Manufacturers - Suppliers - Pubblicità e Pubblicità di,query: Manifatturi u Fornituri tal-Istampa b'Veloċità Għolja - Fabbrika tal-,others,others,0.125
+346,query: 這些報導可能會被推動 - These headlines cannot be censored - 當地公眾資訊,query: Il-pubblikazzjonijiet li jidhru hawn taħt jistgħu jinkisbu bla ħlas sakemm jibq,deu_Latn,deu_Latn,0.0
+347,query: 關鍵字: 如何才能連結 NISJ : 最小的檔案(No.8 Gennaio 2008) ,query: (Malti) Mistoqsija Thread: Mistoqsija Fejn nista 'nikseb 3.8 verżjoni VB Forum Bħal fej,unknown,unknown,0.24
+348,query: 2011 年 - - - - - - - - - - - - ,query: EY2010 | Paġna ewlenija - Sena Ewropea Il-Proġett Tas-Sieħeb Tal-Art,unknown,unknown,0.15384615384615383
+349,query: Enigmas - Enigmas - Enigmas - Enigmas - Enigmas 是一些有關,query: Pariri oħra ta' sikurezza - Enemalta Dawn huma xi pariri oħra dwar is,mlt_Latn,mlt_Latn,0.125
+350,query: 機電技術問題の解釋 機電技術問題について LINKS OF THE LINKS OF THE LINKS OF,query: MOZZJONI GĦAL RIŻOLUZZJONI dwar ir-rwol tat-teknoloġija fit-tagħ,mlt_Latn,mlt_Latn,0.0
+351,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+352,query: Cracovie - Cracovie - Cracovie - Cracovie - Cracovie - 勞務,query: Ċipru - Is-sigurtà u s-saħħa fil-post tax-xogħol -,unknown,unknown,0.2
+353,"query: ""Nous sommes à L'Illejolais, à L'Illejolais à partir d'informations","query: Jiltaqgħu Bejn L-Irġiel, Montreal «Jien naf lottijiet tal-omosess",fin_Latn,fin_Latn,0.11111111111111112
+354,query: 機關歷程 / 機關歷程 / 機關啟動 / Kursialisation / Kliniken,query: Taħriġ u Avvenimenti / Edukazzjoni Klinika Rotazzjonijiet u korsijiet kliniċi għal studenti tas,fin_Latn,fin_Latn,0.11764705882352941
+355,query: 廠家 - Fabrication de la Flange - Fabrication de la Flange - Fabrication de la Flange ,query: Unità tal-filtru tal-fann FFU Fabbrika | Unità tal-filtru tal-fann taċ-Ċ,others,others,0.0
+356,"query: ""Le statut de la Musulmana"" - 歷史記錄 - Le statut de la Musulmana"" -","query: ""Maġġoranza storika għall-Partit Laburista"" - Muscat - Newsbook 26 ta' Mejju",mlt_Latn,mlt_Latn,0.27272727272727276
+357,query: 銀行 銀貨 銀貨 銀貨 銀貨-Le-Le-Le-Le-Le-Le-Le,query: Il-bank tal-Ikel jiġġieled il-ġuħ u l-ħela - Newsbook Il,unknown,unknown,0.0
+358,"query: 一連幾個月, Immigration News - Immigration News - Immigration News - Immigration News in a",query: Kampanja elettorali fi ftit jiem – One News Ilna ġimgħat nirrapportaw internament li,deu_Latn,deu_Latn,0.1
+359,query: 法務委員會 (Amnestie nationale de droits nationale de droits nationale) (1444) ,query: EU law (1694) Court of Justice (424) Maltese (877) Aġġornament tal-ammonti ta' referenza għal,deu_Latn,deu_Latn,0.15999999999999998
+360,query: 2021年 - Day of diversity - Day of diversity - Day of diversity - Djibouti 觀察,query: Jum Dinji tal-Awtiżmu 2021: Nirrispettaw id-Diversità – Inħarsu l-,unknown,unknown,0.0
+361,query: 2018 - - - - - - - - - - - - - ,query: Tazza tad-Dinja 2018 - Jasal f'Sochi t-tim nazzjonali Brażiljan -,fin_Latn,fin_Latn,0.3636363636363636
+362,query: 政府譴責Fulji’s penalty - Fulji’s penalty - Fulji’s penal,"query: Partitarji Furjaniżi jgħidu li rċevew multa – iNews Malta, Aħbar",mlt_Latn,mlt_Latn,0.0
+363,query: Hutchin's hex pistol - hutchin's hex pistol - hutchin's hex pistol - ,"query: Hitachi puncher - mudelli Hitachi dh26pc u hitachi dh24pc3, bison and hilt pun",unknown,unknown,0.10526315789473684
+364,query: How to use my icon as a click from me - 怎樣才能看出我的 icon as a click from,query: Kif tieħu screenshot mingħajr ma turi l - effett dell Jien minn mac Kif tieħ,deu_Latn,deu_Latn,0.07692307692307691
+365,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+366,query: The briefing briefing includes the information on the official affairs of Libyan Belgrano gdp,query: Din il-paġna tippreżenta informazzjoni dwar l-ordinament ġuridiku Bulgaru u ħar,mlt_Latn,mlt_Latn,0.0
+367,query: Fatima News - a latest news from Fatima News - a latest news from Fatima News,query: Maratona b'risq il-Fondazzjoni Nazareth – One News Bħalissa l-Fondazzjoni għandha tlett,eng_Latn,eng_Latn,0.1111111111111111
+368,query: Lazeo Lazeo - Lazeo Lazeo - Lazeo - Lazeo - 我們,query: Insejna nosservaw – Laikos Insejna nosservaw Dan l-aħħar iltqajt,hun_Latn,hun_Latn,0.0
+369,query: 簡介: 車輛經過 2 馬力 i-ci-ci-ci-ci-ci-ci ,query: ARA: Jiġu kważi wiċċ imb wiċċ wara li 2 karozzi qabżu l-vettura ta',mlt_Latn,mlt_Latn,0.2
+370,query: 三個姊妹組 - tm-tm-tm-tm-tm-tm -,query: Kollezzjoni ta' iktar minn tlett elef bambin tal-Milied - TVM Kollezzjoni ta' ,mlt_Latn,mlt_Latn,0.14285714285714288
+371,"query: ""Perfetto perfetto perfetto perfetto perfetto perfetto"" - Gianfranco Consiglio - 我認為自己","query: Impressjoni | Skoperta ""Enzo għallimni naħfer...kien speċjali wisq"" – Indri Attard by Robert",deu_Latn,deu_Latn,0.15999999999999998
+372,query: A woman was suspected to be a wound in a sea - CNN - a photo of the,query: Qween tispiċċa vittma ta' velenu f'Selmun – One News Is-sid qal li l-,deu_Latn,deu_Latn,0.0
+373,query: Casinos - 歐洲的優勢 - Casinos - 歐洲的優勢 - Coupons-,query: Scatters Casino - L-Aqwa fis-Suq Ewropew - Kodiċijiet tal-Bonus tal-Casino,mlt_Latn,mlt_Latn,0.15384615384615383
+374,query: Rendez-vous de la Festa de la Festa de la Riva del Nilo - Riva Rivista ,query: Jirritorna l-Valletta Pageant of the Seas bir-Raba' Edizzjoni Nhar is-Sibt,eng_Latn,eng_Latn,0.0
+375,query: I am a victime de la pena perdita - I am a protege de la pena perdita 來自於,"query: Jiena vittma ta' reat, lil min għandi nikkuntattja għall-appoġġ u l-",mlt_Latn,mlt_Latn,0.0
+376,query: 7 月 27 日 - 歐盟的關於Federal-Communauté de la Communauté de la,query: 28 ta' Novembru 2007 Kawża F-71/07 L-Aġenzija Ewropea għar-Rikostruzzjoni (A,mlt_Latn,mlt_Latn,0.0
+377,query: Libyan 政府認為Lil al-Gharb al-Gharb al-Gharb al-Kifayet 進入,query: Il-Gvern Malti jtenni li lest jgħin għall-paċi fil-Libja - Newsbook,mlt_Latn,mlt_Latn,0.0
+378,query: 該條款的意見 - ILO etiquette de la liberté de la liberté - etiquette de la,query: Opinjonijiet tal-Unjoni Ewropea l-Artikolu 288 tat-Trattat dwar il-Funzjonament tal,deu_Latn,deu_Latn,0.0
+379,query: 題材: 行車 - Film in the future - Film in the future - 攝影師: Sidi,query: Filmat: Is-sħana taħmi l-għaġina fit-triq - Newsbook Filmat:,mlt_Latn,mlt_Latn,0.22222222222222224
+380,query: 報告 - - - - - - - - - - - - -,query: Commission Européenne - COMMUNIQUES DE PRESSE - Communiqué de presse - It-tieni rapport tal-Kummissjoni,eng_Latn,eng_Latn,0.14285714285714285
+381,query: 人經受的工作影響 – 人經受的工作影響 – Gzfzfzfzfzfzfz,query: Sodisfazzjon li persuna tqum għax-xogħol – L-Isqof Grech - Newsbook,mlt_Latn,mlt_Latn,0.15384615384615383
+382,query: English Bulgarian Croatian Croatian Croatian Czech Danish Norwegian Norwegian Polish Portuguese 中文 中文 ,query: Language of document : Bulgarian Spanish Czech Danish German Estonian Greek French Italian Latvian Lithuanian Hungarian Mal,eng_Latn,eng_Latn,0.23076923076923078
+383,query: 23億歐元資金 in l’identità de la culture e de la musique et de la musique de la ,query: €23 miljun f'fondi Ewropej għall-wirt kulturali u l-enerġija f'Malta ,deu_Latn,deu_Latn,0.0
+384,"query: SCHULTZ-MILLMANN, SCHULTZ-MILLMANN, MINISTRY OF GOODYEAR INNOVATION,","query: STQARRIJA MILL-MINISTERU GĦALL-ĠUSTIZZJA, L-UGWALJANZA, U L-GO",unknown,unknown,0.15384615384615383
+385,query: Facebook 已經在 Android 上載不了 - Android - ayxdxdxdxdxdxd,query: Xandir ta 'vidjow dirett issa disponibbli fuq Android | Androidsis facebook ma jieqafx j,unknown,unknown,0.1
+386,query: 2007 - 11 - 7 - 7 - 2007 - “Fuz-Fuz-Fuz-Fuz-,"query: 13 ta' Novembru 2007 Kawża F-77/06 ""Servizz pubbliku – Uffiċjali – Kundizzjonijiet",deu_Latn,deu_Latn,0.10526315789473684
+387,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+388,query: 歐洲新聞媒體的規劃和規劃 - EU / EU / EU / EU-Mitteilungen,"query: Tmexxija u mġieba organizzattiva fil-ġurnaliżmu Ewropew - EU Reporter ""Il-politika",unknown,unknown,0.25000000000000006
+389,query: jdn jdn jdn jdn jdn_operations_operations_operation,query: It-tfajjel Jaydon iwettaq l-operazzjonijiet b'suċċess fl-Istati Uniti...,unknown,unknown,0.0
+390,query: Casinos en France - Casinos en France - Casinos en France - Casinos en France - Casinos en France,query: Online Casino France - L-Aqwa Casinos Online Franċiżi għall-2021 homeOnline Casino France - L-Aħ,deu_Latn,deu_Latn,0.4285714285714285
+391,query: 3 人 i-investigator i-investigator i-investigator i-investigator ,query: Tliet anzjani jittieħdu l-isptar wara li kienu involuti f'ħabta bejn,deu_Latn,deu_Latn,0.0
+392,"query: 新的機會體系設計 - 變更與體系 - ""Cultur"" / ""Cultur",query: Il-programm 'Taħt il-Qoxra' b'forma u kontenut ġdid | Kunsill Na,unknown,unknown,0.0
+393,query: 為最方便的 Spotify subscribers to list and listeners to list iFizz iFizz iF,query: Faċli biex Ikseb spotify għall-istudenti u l-playlists top għall-istudent Parti 1.,deu_Latn,deu_Latn,0.0
+394,query: STEPHENSTEIN - STEPHENSTEIN - STEPHENSTEIN - STEPHENSTEIN - EUROPE FORUM,query: European Commission - PRESS RELEASES - Press release - STEDINA – SESSJONI TA' INFORMAZZJONI G,eng_Latn,eng_Latn,0.11111111111111112
+395,"query: ""Kardinal-Ackermann-Ackermann - 為人們的誤解"" - 為我能夠","query: ""Il-verità teħliskom"" - Kardinal Awstrijak lil min ħeba l-abbużi",fin_Latn,fin_Latn,0.3529411764705882
+396,query: Algerian Name - Algerian Name - Algerian Name - Algerian Name - Algerian Name,"query: Niddefendi isem Malta - Francis Zammit Dimech Home Niddefendi isem Malta 20/05/2019, 11:39 am",eng_Latn,eng_Latn,0.13333333333333333
+397,query: 關鍵字關鍵字關鍵字關鍵字關鍵字 - Emergency - Emergency - Renan,query: Dwal ta 'Emerġenza Wajer Komuni Użat - Aħbarijiet - Hunan Renan Fire,tur_Latn,tur_Latn,0.26666666666666666
+398,query: 「Innominal Communication could not be a Link to a Link to a Link to a Link to a Link,"query: ""Ma Jistax Ikollok Relazzjoni B'Saħħitha Mingħajr Komunikazzjoni"" – Dr Nicholas Briffa",mlt_Latn,mlt_Latn,0.0
+399,"query: IMF 報告顯示, migrant migrants could be more accessible to migrants in d’habituel implications ",query: Rapport jgħid li t-tfal migranti għandhom aktar ċans li jispiċċaw fi ,deu_Latn,deu_Latn,0.0
+400,query: 聖經社群 - Vaticana - Vaticana - Vaticana - Vaticana - ,query: Knisja ta' Sant'Agata (Soċjetà Missjunarja ta' San Pawl) – Parroċċi,fin_Latn,fin_Latn,0.0
+401,query: 當地雜誌 - calcium - calcium - calcium - calcium - calcium - ,"query: L-għoti tad-demm, l-alkoħol u l-baħar - Newsbook 15",mlt_Latn,mlt_Latn,0.16666666666666666
+402,query: 關鍵字投資 - Net-Assets - Net-Assets - Net-Assets - 進入,query: Daqqa' ta' ħarta għas-settur tal-arti - NETnews Nuqqas ta' investiment,mlt_Latn,mlt_Latn,0.14285714285714288
+403,query: - Federico Fellini's Encyclopeedia - Fellini's Wisdom - 9 - ヨーロッパ,query: Kunsill tal-Ewropa | Alfred E. Baldacchino's Blog Fjuri indigeni Maltin 7 – Is,deu_Latn,deu_Latn,0.09090909090909091
+404,query: 要捕獲 sodium sulfate sodium sulfate sodium sulfate sodium sulfate,query: Se tubu mfassal kiesaħ jkorrodi l-gass tas-sulfid ta 'l-idroġen,unknown,unknown,0.0
+405,query: 我們怎麼辦 當 my cleavage index doesn't work when my cleavage index ,query: X'għandna nagħmlu jekk l-imsaren tal-kelb tagħna qed ido,deu_Latn,deu_Latn,0.0
+406,query: 過去最好的結果 - - - - - - - - - - - -,query: Ċess - l-aħħar riżultati mill-fażi tal-prelininari - TV,fin_Latn,fin_Latn,0.22222222222222224
+407,query: Jacqueline de Bono - Jacqueline de Bono's contribution to the record of his history 歷史紀錄 ,query: Joe Debono: il-kontribuzzjoni tiegħu lejn l-istorja riċenti ta' pajjiżna,mlt_Latn,mlt_Latn,0.0
+408,query: Giuseppe Bonizio (Giuseppe Bonizio - - - - - - - - - ),"query: Ġużè Bonnici - Wikipedija Ġużè Bonnici (Valletta, 14 ta' Awwissu",fin_Latn,fin_Latn,0.25000000000000006
+409,query: Home / News / Latest News / Latest News / 2019 - 2 - 2 - 2 -,query: News Release 2/2019 - 20 May 2019 > Main > News Release 2/2019 - 20 May 2019 Il-Prim Ministru Joseph M,eng_Latn,eng_Latn,0.3
+410,query: Top 10 世界最受歡迎的甲列維護站 - Wikipedia | Freiburg in der Zeit | Freiburg in der,query: 10 L-Aqwa Siti tal-Għadds fid-Dinja | Save A Ferrovija home > Ivvjaġġ,unknown,unknown,0.1818181818181818
+411,query: 150 professeurs de la journee de la journee de la journee de la journee de la haute-,query: Home » 150 student tas-sekondarja jsiru jafu aktar dwar il-professjoni tal-ġurnaliżmu sportiv,unknown,unknown,0.1111111111111111
+412,"query: 審核項目的啟動,包括: 1 - Initiator de la Precaution de la Precaution de la Precaution","query: L-akkuża preliminari, inkluża l-interrogazzjoni (1) Is-smigħ statutorju preliminari u ",eng_Latn,eng_Latn,0.1904761904761905
+413,"query: 從此, a jour de jour de jour à jour à jour à jour à jour, 我應該","query: Matul din il-ġimgħa, bħal ħafna minnkom, attendejt għaċ-ċelebrazzjoni tal-",deu_Latn,deu_Latn,0.11764705882352941
+414,query: Keith Johansson と Michael Johansson t'était n'oubli t'était n'oubli ,query: Jaqaw Cherylis U Mikhail Ta' Dwett M'Għadhomx Ikantaw Flimkien? Ħafna,unknown,unknown,0.0
+415,query: 經紀委員會可從 Gibraltar's report can be taken as a reference to the periodical report given in,query: Il-ġirien jistgħu japplikaw għal rapport tal-Perit imħallas mill-iżviluppatur - News,fin_Latn,fin_Latn,0.0
+416,query: Video-Chat - Chat - Chat - Chat - Chat - Chat - Chat - Chat - 新的,query: Il-video-sess chat Jmorru - Video Chat - L-Aħjar! Il-Ġdid A,unknown,unknown,0.28571428571428575
+417,query: 國務院的狀況和準備 - - - - - - - - - ,query: Stat ta' tħejjija - Il-Kummissjoni Ewropea Stat ta' preparazzjoni u respons Preparedness,eng_Latn,eng_Latn,0.15384615384615385
+418,query: lkw-rj-rj-rj-rj-rj-rj-rj-rj檢,query: L-ispezzjonijiet fuq ir-restoranti li bdew joperaw se jibqgħu jsiru -,deu_Latn,deu_Latn,0.0
+419,query: 非青少年 - 非青少年 - 非社會組織 - Adopte un communautar de jovem -,"query: Kun soċjali, mhux radikali | European Youth Portal Jekk int taħdem maż-żgħażagħ",tur_Latn,tur_Latn,0.0
+420,query: Piguet-de-La Maison de la Maison de la Maison de la Maison de Piguet-de-La Maison de la Maison de,query: Dar tal-Motel tal-Lag tal-Baħar b 'Pixxina Dar residenzjali sħiħa ospit,deu_Latn,deu_Latn,0.0
+421,query: 如何將愚人法師走? - 如何將愚人法師走? - 9月17日 -,query: Kif tista' trawwem il-qari fit-trabi? - Newsbook 17 ta' Lulju 2019 2:37,eng_Latn,eng_Latn,0.22222222222222224
+422,query: EU - The European Union - The European Union - Press Releases - The European Union - RELEASES -,query: European Commission - PRESS RELEASES - Press release - L-Unjoni tas-Swieq Kapitali: it-,eng_Latn,eng_Latn,0.4
+423,query: 誰被拉格納稱為勝過的? - - - - - Marco van der Wielg ,query: 'L-aqwa attakant li lgħabt kontrih? Żgur li Maradona' - Franco Bare,unknown,unknown,0.2105263157894737
+424,query: 氣候的好時候 - 日期 - 日期 - 日期 - Xiffiq xiffiq ,query: Temp kważi sajfi għall-festi xitwin - Newsbook Temp kważi sajfi għall-festi ,mlt_Latn,mlt_Latn,0.16666666666666666
+425,query: 新聞 - 新聞 - 不鏽鋼新聞 - 不鏽鋼新聞 - Byblos al-Mo,query: Il-Bormliżi bla nar minħabba c-CHOGM - Newsbook Il-Bormliżi bla ,mlt_Latn,mlt_Latn,0.16666666666666666
+426,query: 會員選項的基准規則(Ie-Fe-Ie-Fe-Ie-Ie),query: Ir-Regolament tal-Kunsill (KEE) Nru 302/93 tat-8 ta' Frar 1993 dwar it-twaqq,unknown,unknown,0.22222222222222224
+427,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+428,query: 時間到來時間到來時間到來 - - - - - - - - -,query: Kemm tqatta' ħin imfattar bilqiegħda? - TVM Kemm tqatta,others,others,0.1818181818181818
+429,"query: Amalgament and Migration (Amalgament and Migration) Amalgament and Migration (AMIF) 這項協定,包括","query: Fond għall-Asil, Migrazzjoni u Integrazzjoni (AMIF) Dan ir-regolament jistabbilixxi l-",eng_Latn,eng_Latn,0.3636363636363637
+430,query: 該節目的版權是什麼??????????,query: X'hemm lest għad-disa' edizzjoni ta' Żigużajg? - TVM Imtella',fin_Latn,fin_Latn,0.15384615384615385
+431,query: 該 umbrella 標籤 為什麼 umbrella 發生時應該見到 umbrella to go ,"query: X'hemm f'dak ir-raġġ ta' dawl li jingħad li naraw meta mmutu? Jan 13, 2017 21:00",mlt_Latn,mlt_Latn,0.0
+432,query: Lorem ipsum dolor sit amet. OEK-EN - OEK-EN - OEK-EN 是労働,query: Persunal anzjan | Safety and health at work EU-OSHA Direttur Eżekuttiv Interim Is-Sur,unknown,unknown,0.0
+433,"query: The Daily Mirror 指出,McGamla Cathedral 不應該為標準化 - McGamla ",query: Jgħid li Monte Carmeli mhux addattat għall-kura moderna - TVM Jgħid li Monte ,mlt_Latn,mlt_Latn,0.10526315789473685
+434,"query: 代表性的接點 2012 - Jun 28, 2012 - Zzmrzmrzmrzmrz ",query: Rikors ippreżentat fit-28 ta' Novembru 2012 - ZZ vs Il-Kummissjoni (Ka,unknown,unknown,0.2
+435,query: 6 October 2008 - Archive of GOSPEL HISTORIA Archives of GOSPEL HISTORIA Archives of GOL,query: 2008 November 06 Archive at Gozo Diocese IS-SALIB HUWA L-QOFOL TAL-ISTORJA Omelija ta',eng_Latn,eng_Latn,0.16666666666666666
+436,query: 快速選購 zylindrical coupe à zylindrical coupe à zylindrical coupe à zylindrical,"query: Agħżel malajr ċelloli speċifiċi, ringieli sħaħ jew kolonni sħa",deu_Latn,deu_Latn,0.0
+437,query: 摘要: l’Air Algerie - l’Air Algerie - l’Air Algerie,query: Filmat: L-Air Malta żżid it-titjiriet fl-Ewropa u l-Afrika ta',fin_Latn,fin_Latn,0.1111111111111111
+438,query: L’année 2016 è l’année 2016 è l’avenir è l’avenir - ,query: 2016: sena ta' ħidma u riżultati Dan iż-żmien tas-sena huwa ż,fin_Latn,fin_Latn,0.09523809523809525
+439,query: GDSS - - - - - - - - - - - - -,query: GHS SDS u aġent ta'tikketta - jikkonsultaw servizz - Rand,unknown,unknown,0.1818181818181818
+440,query: EU 必須被拘留 - EU-Kommission - EU-Kommission - Immigration - Immigration - Immigration,query: L-UE b'obbligu morali biex tghin fl-immigrazzjoni - Kummissarju Ewropew ,mlt_Latn,mlt_Latn,0.14285714285714285
+441,"query: 檢察官認為,N-France 幹部都在推動 N-France 議會的 Passers-in-",query: Norman Vella jgħid li d-diriġenti qed jiksru l-istatut tal-PN -,mlt_Latn,mlt_Latn,0.0
+442,query: 今日の家 - 關於家 - 關於家 - 筆記號は2 - 6月28,"query: Home Żewġ ħwienet tal-ħjata fil-pjazza 28/05/2019, 6:37 pm | 4 minuti qari Fil",unknown,unknown,0.0
+443,query: 關鍵字 - Die Zukunft der Frau - Die Zukunft der Frau - Interoperazione de la Privatisation - ,query: Stqarrija ta' Privatezza - Konferenza dwar il-Futur tal-Ewropa Operazzjoni ta' ppro,mlt_Latn,mlt_Latn,0.09523809523809525
+444,query: Changes à l’état des lis de L’Algerie à l’Immigration de L’Algerie,query: Aġġornament dwar l-issue tal-korsijiet tal-MLI għall-LSEs – Malta Union of Teacher,deu_Latn,deu_Latn,0.0
+445,query: EU - EU - EU - EU - EU - EU - EU - EU - EU - L,query: EUR-Lex - 32012L0029 - MT Direttiva 2012/29/UE tal-Parlament Ewropew u tal-,others,others,0.15384615384615383
+446,query: 檢討工廠的功用 在 listita-listita-listita-listita 的,query: Jiskatta l-mekkaniżmu għall-bidla fl-istatut dwar il-kariga ta' Deputat Me,mlt_Latn,mlt_Latn,0.0
+447,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+448,query: a woman claimed a fee for a TV messaging based on a quotation - Jamie,"query: Ordnata tħallas €1,000 wara kumment li kitbet fuq Facebook - TVM Jasmine Urry ġi",unknown,unknown,0.07692307692307691
+449,query: 往來 - Itinerario - Itinerario - Itinerario - Itinerario - Itinerario,query: Ivvjaġġa lejn l-Istati Uniti | Ivvjaġġa lejn l-Istati Unit,unknown,unknown,0.0
+450,query: - FCR (FCR) - FCR (Fcr) - Fcr - Fcr-,query: Feraccru (ferric maltol) - B03AB – RXed.eu | MT Paġna Prinċipali,unknown,unknown,0.3157894736842105
+451,query: 卸売機廠家 - Glaciers-Glaizers-Glaizers-Glaizers の,query: Fornituri tas-Sistema ta 'Lubrikazzjoni tal-Makkinarju reżistenti għaż-Żejt u,mlt_Latn,mlt_Latn,0.0
+452,query: 關於人們的資訊 - 條碼 - 關於人們的資訊 - l'Illegal,query: Liġi Kriminali | Informazzjoni utli għal kulħadd. Ir-rubrika: Liġi kriminali Min għandu d-,mlt_Latn,mlt_Latn,0.0
+453,query: 關於Blog的優點 - Blog - Blog - Blog - Blog - Blog - Blog - ,query: Il-Benefiċċji ta 'Blogging Għall Business | BloggingReporter.com Il-Benefiċċ,unknown,unknown,0.0
+454,query: 如何選用機票的表格 - 機票的表格 - 機票的用法 - ,query: Kif tuża s-settings tal-kalendarju u tal-bookings - Ċentru tar-Ri,unknown,unknown,0.15384615384615383
+455,query: I mourns - I mourns - I mourns - I mourns -,query: Jien favur il-ħajja u se niddefendi l-ħajja - Partit Nazzjonalista Ji,eng_Latn,eng_Latn,0.14285714285714288
+456,query: 結果的評價 - Fragments de l'Interaction - Fragments de l'Interaction ,query: L-Outputs tal-Proġett. Rapport dwar differenzi f'istallazzjonijiet tal-elettriku bejn il,deu_Latn,deu_Latn,0.0
+457,query: 演員 - President - Actor - Actor - Actor - Actor - Actor 在,query: Minn kantant u playboy għal president - TVM Minn kantant u playboy għal president Il-President ta' ,mlt_Latn,mlt_Latn,0.12500000000000003
+458,query: 機場前往 Calalcia - Cagliari - Cagliari - Cagliari - Liechtenstein - Liechtenstein ,query: Malta lejn Cagliari | Ivvjaġġa lejn Cagliari | Air Malta Paġna Ewlenija > Destinazzjonijiet >,unknown,unknown,0.13333333333333333
+459,query: Federico M. Mancini の見解 - Federico M. Mancini の見解 - この記事は、,"query: Il-każ ta' Franco Mercieca By Mark Anthony Sammut June 18, 2013 Din hi l-opinjoni tiegħi dwar",mlt_Latn,mlt_Latn,0.0
+460,query: Tariffs / Tariffs / Tariffs / Tariffs / Tariffs / Tariffs,query: Il-VAT fuq is-servizzi diġitali/il-MOSS: Liema servizzi huma koperti? -,unknown,unknown,0.0
+461,query: 2014-11-14 - - - - - - - - - - - - -,"query: Testi adottati - L-Erbgħa, 14 ta' Diċembru 2011 - Samit UE-Russ",mlt_Latn,mlt_Latn,0.14285714285714285
+462,query: 報導:New Nebraska's picture on the night - 2020年 4 月 10 日 - 2020年 7,query: Filmat: In-nanna Georgia tagħlaq 100 sena - Newsbook 7 ta' April 2020 7:06 PM Ħafna,unknown,unknown,0.1818181818181818
+463,query: 国际海上交汇点 - Immigration and International Relations - Immigration and International Relations OLYMPIA OLYMPIA OLYM,query: ИМО - Международная морская организация Импорт и Экспорт Владивосток L-Organizzazzjoni Marittima Internazzjonali,kaz_Cyrl,kaz_Cyrl,0.1
+464,query: 中央委員會 - Consiglio de Consiglio de Consiglio de Consiglio de Consiglio - ,query: L-akkwist fis-Segretarjat Ġenerali - Consilium Sejħiet attwali Il-parteċi,fin_Latn,fin_Latn,0.16666666666666666
+465,query: Dante Alighieri - Dante Alighieri - Dante Alighieri - 彼が最愛的詩人,query: Dun Frans Camilleri – Laikos Il-Poeta li kellu mħabba kbira lejn il-Madonna u l,unknown,unknown,0.0
+466,query: - Initiatives - Initiatives - Initiatives - Initiatives - En la frontière de la,query: European Commission - PRESS RELEASES - Press release - Il-ġlieda kontra n-nirien fil-forest,deu_Latn,deu_Latn,0.11764705882352942
+467,query: 1 - - - - - - - - - - - - - ,query: Aħbarijiet - Noti totali tal-passaġġ tal-gass 1. Dwar it-tipi ta ',fin_Latn,fin_Latn,0.2857142857142857
+468,query: 社論討論 on la séparation de la séparation de la séparation de la scissorisation - www.,query: Is-sħab soċjali f'diskussjoni dwar l-iskart tal-kostruzzjoni | SEM Is,deu_Latn,deu_Latn,0.0
+469,query: 4 聖經 Chapter IV a capitulum a capitulum a capitulum a capitulum ,query: Kapitolu V Taqsima 4 Flus. Il-flus Alla. Faqar. Treġġigħ lura. Il-,unknown,unknown,0.1111111111111111
+470,query: 4 - An Nouveau Figaro - An Nouveau Figaro - An Nouveau Figaro - An Nouveau F,query: Anglu Farrugia – Page 4 – One News Rwol ġdid għal Anġlu Farrugia L-Ispeaker tal-,mlt_Latn,mlt_Latn,0.10526315789473684
+471,query: 關於組織的進展 - EU Initiatives - EU Initiatives - EU Initiatives - ,query: Proġetti ta' Solidarjetà | European Youth Portal Europa home Inizjattivi tal-UE Il-Korp Ewropew,unknown,unknown,0.0
+472,query: 一個 iFortnite / iFortnite / iFortnite / iFortnite 登機開始,query: IPod touch tas-7 ġenerazzjoni jew Nintendo Switch biex tilgħab Fortnite | Aħbarijiet dwar l,deu_Latn,deu_Latn,0.0
+473,query: 關鍵字: 法國的礦物質 - Fatebenefraria naturale - Fatebenefraria naturale ,query: Ara: Għawdex mill-għoljiet ta' Ragusa b'fenomenu naturali - TVM Imtella,mlt_Latn,mlt_Latn,0.2222222222222222
+474,query: Deputy ministre de la ministre de la ministre de la ministre de la première - 無作為 -,query: Prim Ministru bla saħħa fil-konfront ta' deputati tiegħu stess - NETnews Prim Ministr,deu_Latn,deu_Latn,0.1
+475,query: 關於星期六的關於星期六的關於星期六 ZIG-ZIG / ZIG-ZIG ,query: Qari tas-Sibt tad-Disgħa u Għoxrin Ġimgħa taż-Żmien ta',mlt_Latn,mlt_Latn,0.0
+476,query: GOSPEL-GENERATIONS-GENERATIONS-GENERATIONS-GENERATIONS-GENERATIONS-GENERATIONS-,query: OSSERVAZZJONI TAL-ELEZZJONI KRUĊJALI GĦALL-MONTENEGRO - Reporter tal-,unknown,unknown,0.0
+477,query: A unique puzzle in the day by the day by the day by the day | A unique puzzle in the day by the day by the day,"query: Puzzle uniku u stil viżiv mill-aqwa bi A Day in the Woods | Androidsis A Day in the Woods,",unknown,unknown,0.3478260869565218
+478,query: 14 年 - 一年後 - 再用手機稱為saa telefoan ssaa telefoan,query: Sena u nofs ħabs wara li ammetta li seraq għodda u mobile phones - TV,unknown,unknown,0.1
+479,query: 工藝的發展與研究過程中 - l'industrie-in-industrie-in-industrie-in-industrie ,query: L-innovazzjoni u l-industrija tal-avjazzjoni diskussa waqt attività tal-proġett,fin_Latn,fin_Latn,0.0
+480,query: Fatima Ghazi (Falconi) - Book Shop Online - 1684-1684 - Moroccan,query: Frangiskani Maltin (Ta' Gezu) 1482c-1965c | Malta Online Bookshop Frangiskani Maltin (,unknown,unknown,0.2608695652173913
+481,query: Kilimanjaro 重新入隊 - Il Mercato - Il Mercato - Il Mercato - Il,query: Obi Mikel jerġa' lura fil-kampjonat Ingliż - Newsbook Obi Mikel jerġa' lura,unknown,unknown,0.14285714285714285
+482,query: 紐約媽媽的 cardinal-cardinal-cardinal-cardinal-cardinal-cardinal-cardinal-cardinal-cardinal-cardinal-cardinal,query: Aqra l-aħħar ittra tal-ġurnalist Amerikan lill-familja...ried ikun id-dar għat,deu_Latn,deu_Latn,0.0
+483,query: 歷史資料 在 l’Ermita de la Ermita - 11 世紀中下 - 12 年的,query: Mill-Kapitali | Ikona tat-12-il seklu f'Beltna Ħarsa lejn ix-xbieha,unknown,unknown,0.0
+484,query: 德國在禁用措施 - Gewalt aussichten in der Grenzen - Gewalt aussichten in,query: Forzi tal-ordni attakkati fil-Ġermanja għax pruvaw jimplimentaw restrizzjonijiet għall-coronavirus ,deu_Latn,deu_Latn,0.0
+485,query: 人馬在機槍上被決議 - Yemen - News - News - Yemen - News ,query: Raġel jinqatel bil-vleġeġ wara l-elezzjonijiet fil-Kenja - Newsbook Ra,hun_Latn,hun_Latn,0.15384615384615383
+486,query: - Itinerario - Itinerario - Itinerario - Itinerario - Itinerario - G,query: Esperjenza ta' tagħlim – L-Isqof Galea-Curmi – Arċidjoċesi ta' Malta,deu_Latn,deu_Latn,0.0
+487,query: 2018年 - - - - - - - - - - - - -,query: Testi adottati - Kwittanza 2018: L-Aġenzija Ewropea għall-Gwardja tal-Frunt,hun_Latn,hun_Latn,0.16666666666666669
+488,query: BlackBerry Interaction Protocol - 正式成立! - BlackBerry Interaction Protocol - BlackBerry Interaction Protocol - ,query: Il-Proġett BeSmartOnline! | Malta Communications Authority Il-proġett BeSmartOnline! jiġbor flimki,unknown,unknown,0.125
+489,query: 歷史期刊 - 中國新聞 - jianjianjianjianjianjianjianjianjianjianjianjianjianjianjian,query: Knejjes temporanji fil-mira tal-awtoritajiet Ċiniżi - Newsbook Knejjes temporanji,fin_Latn,fin_Latn,0.18181818181818182
+490,query: 關鍵字 / OAuth / OAuth / OAuth - 機關的選擇 / OAuth ,query: REACH | Obbligi ta' l-utent > Kommunikazzjoni Paġna ewlenija > Obbligi ta,mlt_Latn,mlt_Latn,0.0
+491,query: Crucial Problems and Crucial Problems - Anatomie - Kinesiology - Strengtheners ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2222222222222222
+492,"query: 為何信息複雜??????, Deutsche Wikipedia, Deutsche Wikipedia","query: Għaliex L-Infografija Tant hija Popolari? Ħjiel: Kontenut, Tiftix, So",deu_Latn,deu_Latn,0.23529411764705882
+493,query: GISMET-COVID-19 - COVID-19 - COVID-19 - GISMET-COVID-19 - 預防和,"query: COVID-19 U L-IMMANIĠĠJAR TA' FLUSEK: POST 9 - Gemma - Know, Plan,",unknown,unknown,0.22222222222222224
+494,"query: - ""Il Manifesto - ""Il Manifesto - 是將民眾的戲劇結束 - Millenium","query: Filmat: ""Il-Milied hu l-festa li tissimbolizza l-ġid komuni"" -",unknown,unknown,0.2222222222222222
+495,query: 維吾爾的反對症狀的評價 - Natasha Lavrentieva - Natasha Lavrentieva,query: Sanzjonijiet għal uffiċjali Russi dwar l-ivvelenar ta' Navalny - NETnews Sanz,deu_Latn,deu_Latn,0.125
+496,query: 資料來源: 2017 - - - - - - - - - - -,query: Testi adottati - Kwittanza 2017: Baġit Ġenerali tal-UE - Is-Servizz,unknown,unknown,0.4285714285714285
+497,query: Calcio Futebol 必須從網上流傳 - Calcio Futebol 必須從網上流傳 - -,query: Il-futbol Malti għandu bżonn ċaqlieqa mill-qiegħ – One News Il-futbol Mal,tur_Latn,tur_Latn,0.0
+498,query: 應該成為最具意義的6th ebdomada ebdomada indexed in Deutsche Welle 2017 ,query: Bidu eċċellenti għas-sitt edizzjoni tal-Ġimgħa Ewropea tal-Isport – i,deu_Latn,deu_Latn,0.0
+499,query: 繼續記錄 在被殘骸化時 - jihadis jihadis jihadis in charged by the,query: Jitolbu għad-danni wara li binhom rifes fjakkola waqt purċissjoni tal-Ġimgħa,mlt_Latn,mlt_Latn,0.0
