@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"guj_Gujr": 0.96, "eng_Latn": 0.03}, "pred_lang_word_level_ratio": {"guj_Gujr": 0.85, "deu_Latn": 0.01, "eng_Latn": 0.1, "others": 0.03}, "labels_lang_line_level_ratio": {"amh_Ethi": 0.81, "eng_Latn": 0.14, "deu_Latn": 0.04, "unknown": 0.01}, "labels_lang_word_level_ratio": {"amh_Ethi": 0.89, "others": 0.04, "eng_Latn": 0.06, "deu_Latn": 0.01}}

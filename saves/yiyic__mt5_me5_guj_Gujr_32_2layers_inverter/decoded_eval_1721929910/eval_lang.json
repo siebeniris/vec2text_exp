@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"guj_Gujr": 0.79, "eng_Latn": 0.18, "others": 0.01, "unknown": 0.01}, "pred_lang_word_level_ratio": {"guj_Gujr": 0.66, "fin_Latn": 0.01, "eng_Latn": 0.27, "others": 0.05, "deu_Latn": 0.01, "tur_Latn": 0.01}, "labels_lang_line_level_ratio": {"heb_Hebr": 1.0}, "labels_lang_word_level_ratio": {"heb_Hebr": 0.98, "others": 0.01}}
