@@ -15,6 +15,19 @@ python language_confusion/post_eval.py monolingual corrector
 
 ```
 
+- with all languages as language space
+
+```
+running:
+python language_confusion/post_eval_all_languages.py multilingual inverter
+
+python language_confusion/post_eval_all_languages.py multilingual corrector
+
+python language_confusion/post_eval_all_languages.py monolingual inverter
+
+python language_confusion/post_eval_all_languages.py monolingual corrector
+
+```
 
 ## Collect token set evaluations
 
@@ -45,10 +58,27 @@ python language_confusion/get_dataset2langdist.py mono+multi
 
 ```
 
+- with all languages
+
+```
+python language_confusion/get_dataset2langdist_all_langs.py mono
+
+python language_confusion/get_dataset2langdist_all_langs.py multi
+
+```
+
+
 ### Get langdist to dataframe.
+
 three mode: multi, mono, mono+multi
+
 ```
 python language_confusion/langdist2df.py
+
+
+--- all languages
+python language_confusion/langdist2df_all_langs.py
+
 ```
 
 
