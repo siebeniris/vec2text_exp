@@ -65,7 +65,7 @@ def run_regression_variables(regressor="random_forest", level="line_level", mode
     #  arb_Arab,cmn_Hani,deu_Latn,guj_Gujr,heb_Hebr,hin_Deva,jpn_Jpan,kaz_Cyrl,mon_Cyrl,pan_Guru,tur_Latn,urd_Arab,step_Base,step_Step1,step_Step50+sbeam8
 
     # same script
-    variables = ["script", "family", "script_lr", "training_script_lr", "emb_cos_sim"]
+    variables = ["script", "family", "script_lr", "training_script_lr", "emb_cos_sim", "word_order"]
 
     all_combs = all_subsets(variables)
 
