@@ -1,0 +1,82 @@
+monolingual:
+      mt5_gtr_deu_Latn_32_inverter:
+        - "307818"
+      mt5_gtr_deu_Latn_32_corrector:
+        - "307829"
+        - "308642"
+      mt5_alephbert_heb_Hebr_32_inverter:
+        - "307835"
+      mt5_alephbert_heb_Hebr_32_corrector:
+        - "307831"
+        - "308643"
+        - "309184"
+      mt5_text2vec_cmn_Hani_32_inverter:
+        - "307832"
+      mt5_text2vec_cmn_Hani_32_corrector:
+        - "307858"
+        - "308645"
+multilingual:
+      mt5_me5_deu_Latn_32_2layers_inverter:
+        - "305227"
+      mt5_me5_deu_Latn_32_2layers_corrector:
+        - "305276"
+        - "305983"
+        - "307862"
+      mt5_me5_heb_Hebr_32_2layers_inverter:
+        - "305277"
+      mt5_me5_heb_Hebr_32_2layers_corrector:
+        - "305278"
+        - "305984"
+        - "307863"
+      mt5_me5_cmn_Hani_32_2layers_inverter:
+        - "305280"
+      mt5_me5_cmn_Hani_32_2layers_corrector:
+        - "305286"
+        - "305385"
+        - "307723"
+        - "309096"
+      mt5_me5_atlatic_fami_32_2layers_inverter:
+        - "305282"
+      mt5_me5_atlatic_fami_32_2layers_corrector:
+        - "307731"
+        - "308646"
+        - "309160"
+      mt5_me5_indo-aryan-fami_32_2layers_inverter:
+        - "305283"
+      mt5_me5_indo-aryan-fami_32_2layers_corrector:
+        - "305285"
+        - "305386"
+        - "307724"
+        - "307941"
+      mt5_me5_turkic-fami_32_2layers_inverter:
+        - "305989"
+      mt5_me5_turkic-fami_32_2layers_corrector:
+        - "305990"
+        - "307821"
+        - "308647"
+        - "309163"
+      mt5_me5_semitic-fami_32_2layers_inverter:
+        - "305289"
+      mt5_me5_semitic-fami_32_2layers_corrector:
+        - "305290"
+      mt5_me5_latn-script_32_2layers_inverter:
+        - "305315"
+      mt5_me5_latn-script_32_2layers_corrector:
+        - "305316"
+        - "305387"
+        - "307721"
+        - "307942"
+      mt5_me5_cyrl-script_32_2layers_inverter:
+        - "305314"
+      mt5_me5_cyrl-script_32_2layers_corrector:
+        - "305320"
+        - "306265"
+        - "307820"
+        - "308648"
+      mt5_me5_arab-script_32_2layers_inverter:
+        - "305318"
+      mt5_me5_ara-script_32_2layers_corrector:
+        - "305988"
+        - "307819"
+        - "308649"
+        - "309161"

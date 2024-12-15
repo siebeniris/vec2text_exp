@@ -25,7 +25,7 @@ class CorrectorEncoderModel(transformers.PreTrainedModel):
         if config.embedder_model_api:
             embedder_dim = 1536
         else:
-            embedder_dim = 768
+            embedder_dim = 768 # the same for me5 (12.06.2024)
         bottleneck_dim = embedder_dim
 
         num_repeat_tokens = config.num_repeat_tokens
@@ -161,6 +161,8 @@ class CorrectorEncoderModel(transformers.PreTrainedModel):
             hypothesis_attention_mask=inputs["hypothesis_attention_mask"],
             hypothesis_embedding=inputs["hypothesis_embedding"],
         )
+
+        ######### conditionGeneration
 
         if "decoder_input_ids" in inputs:
             return self.encoder_decoder.generate(

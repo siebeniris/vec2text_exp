@@ -1,0 +1,501 @@
+Unnamed: 0,pred,labels,preds_lang,labels_lang,token_set_f1
+0,query: Unique Blouse of Meghan Azad. प्रिंस अख्तर ने झूम-झूमकर फूल-फूल,query: فستان زفاف أنيق بقصّة الأميرة من نسيج الميكادو، مُزيّن بالأزهار,arb_Arab,arb_Arab,0.0
+1,query: RNI Media : मुस्लिम मुख्य सचिव रानी रमेश ने स्थापित 20वीं मुस्लिम,query: رئيس القمة الدينية لمجموعة العشرين الشيخ د.محمد العيسى يطلق منصة R20 ,arb_Arab,arb_Arab,0.0
+2,"query: Islamic Faith College spreads the world's most prestigious places, सलाहुद्दीन सिद्दीकी छ",query: تسعى كلية العلوم الإسلامية إلى تبوأ مكانة وسمعة مرموقة بين جامعات العالم، ,arb_Arab,arb_Arab,0.0
+3,"query: सचिन तेंदुलकर ने रविवार को किया ऐसा खुलासा, कहा- There are a total of",query: قال الرئيس التونسي، قيس سعيد، مساء اليوم الأربعاء، إن لديه قائمة بأسماء من نه,arb_Arab,arb_Arab,0.0
+4,"query: Laminate Transfer In Hindi Laminate Transfer In Hindi Laminate Transfer किस प्रकार तालाबंदी,तालाबंदी",query: عملية التصليد للمعادن ماهي عملية التلبيد أو عملية التصليد Sintering فى علم. عملية التل,arb_Arab,arb_Arab,0.0
+5,"query: ""Empowerment is a part of all the United Nations, अन्य मुस्लिम देशों को संबोधित कर","query: العضوية في ""الأمم المتحدة"" مباحة لجميع الدول الأخرى المُحبة للسلام، والتي تأخذ",arb_Arab,arb_Arab,0.06451612903225808
+6,"query: There Is No Way To Get Rid Of Online Traffic अन्यथा किसी ने मुफ्त वेबसाइट तलाश,",query: هناك من يريد الربح من الانترنت لكن لم يجد طريقة تساعده في الربح نصرا لل,arb_Arab,arb_Arab,0.0
+7,query: Ghaziabad Crime : Iraqi Taliban brutally attacked 100 villages Ghaziabad Crime :,query: وكالة هاوار نيوز الكردية : جيش الاحتلال التركي يقصف قرى عفرين بحوالي 100 ق,arb_Arab,arb_Arab,0.17391304347826086
+8,query: Inextlive ⁄ Inextlive कपिल सिद्दीकी आज हम आपके सामने नए गाने देखिए,query: نقدم لكم اليوم كلمات أغنية جديدة من أغاني المطرب السعودي عيسى الكبيسي شاهدوا مع,arb_Arab,arb_Arab,0.0
+9,query: On August 18 उसने स्थापित किया Military Enclave और उसने अपनी आधुनिक हड़ताल,query: ثم استخدم في القرن الثامن عشر ثكنه عسكرية وهدمت أسواره القديمة وقضي على,arb_Arab,arb_Arab,0.0
+10,query: इब्राहिम अब्दुल्लाह पर न्यायालय का अतिक्रमण बेहद गंभीर https://naukarshahi.,query: الأزهر يدين اقتحام رئيس الاحتلال الإسرائيلي للمسجد الإبراهيمي.. ويحذر من خطورة انتها,arb_Arab,arb_Arab,0.0
+11,"query: ऑस्ट्रेलियाई कानून मंत्री निकोलस मलिक ने कहा, वह 25,000 करोड़ ज्यादा प्राप्त By",query: قال وزير العدل الأوكراني دنيس ماليوسكا إن بلاده تسعى للحصول على أكثر من 300 مليار,arb_Arab,arb_Arab,0.0
+12,query: 'Salman Diet Study increases risk of breast cancer in Egypt - www.khaskhabar.com 'Salma,query: دراسة سعودية تزيد من فرص علاج أمراض السمنة '); // } // else if (whichImage == 2) {,arb_Arab,arb_Arab,0.0
+13,query: 1.............. हर,query: تم الإنشاء بواسطة. يفتح كل ملفاتك مثل السحر! 1.... فتحه في برنامج آخر,arb_Arab,arb_Arab,0.10526315789473684
+14,query: When a game becomes a tremendous event. वर्तमान में यह खेल बड़ी संख्या में आ,query: في بعض الأحيان يمكن أن تصبح اللعبة ظاهرة كبيرة. إحدى الألعاب التي وصل,arb_Arab,arb_Arab,0.07142857142857142
+15,query: US Navy has revealed 156 most suspected Jail Arrests जम्मू एवं कश्मीर पुलिस बुध,query: الداخلية السعودية تنشر أسماء 5152 محتجزا للاشتباه بهم بقضايا إرهاب منهم 9 أمريكيين,arb_Arab,arb_Arab,0.0
+16,query: डॉ. मोहम्मद अली खान ने किया जम्मू एवं कश्मीर विभाग का बड़ा उद्घाटन,query: افتتح الشيخ خالد بن عبدالله بن سلطان القاسمي، رئيس دائرة الموانئ البحرية والجمارك، اليوم م,arb_Arab,arb_Arab,0.0
+17,query: 38 विद्वानों ने खोल दिया बड़ा संदेश 38 विद्वानों ने खोल दिया बड़ा संदेश और,query: تقدم ما يقارب 100 مثقف ومفكر وباحث فرنسي وسوري برسالة مفتوحة، وقعوا عليها,arb_Arab,arb_Arab,0.0
+18,query: Apply Now Starting Applying to Get Beneficial Payment पंजीकरण आवेदनकर्ता संतोष पटेल ने,query: أعلن برنامج حساب المواطن عن بدء استقبال طلبات الاعتراض على مبلغ استحقاق الدعم للدفع,arb_Arab,arb_Arab,0.0
+19,query: F.A.B.R.: हमारे बारे में समीक्षा F.A.B.R. Regional Media,query: F.R.M.C: Home revue de presse لقاء تواصلي بابن اجرير لبحث الإستراتيجية,arb_Arab,arb_Arab,0.09523809523809525
+20,query: Opinion on Citizenship Heritage of Migrant Citizenship Heritage of Migrant मानवता तक पहुंच नहीं,query: إيمانا من الرابطة المغربية للمواطنة وحقوق الإنسان بأن التراث الإنساني لا يقدر بث,arb_Arab,arb_Arab,0.0
+21,query: Extensive content spread across all the websites during the lockdown अभी तक टीआरटी माध्यमों,query: على مدار السنوات القليلة الماضية سيطرت خدمات بث المحتوى بالكامل على مواقع التورنت ال,arb_Arab,arb_Arab,0.0
+22,query: Part 2 :- यह एक अलग-अलग तरह से स्थापित इमारत जिसमें विभिन्न,query: 2-النوع الثاني: يتكون من طابق واحد على شكل مستطيل جزء منه مسقوف والآخر غير,arb_Arab,arb_Arab,0.07142857142857144
+23,query: जिस तरह डरा जाता है उसी तरह डरा जाता है You are at:Home»Education»,query: عليك بتقوى الله ان كنت غافلاً يأتيك بالأرزاق من حيث لا تدري فكيف تخ,arb_Arab,arb_Arab,0.0
+24,query: तृप्ति आम तौर पर हमारे घर में आकर्षण पैदा करती है. It is a very,query: الترعرع وسط العائلة دائمًا ما يعطي إحساسًا بالأمان، ويكون عبارة عن نق,arb_Arab,arb_Arab,0.0
+25,"query: Adobe A15 is a leading business in investing in IT, जिसमें उन्होंने टेक्नोलॉजी",query: وباعتبارها مستثمر رائد في التكنولوجيا، تقوم A15 بالتركيز على بناء والاستثمار في الشركات,arb_Arab,arb_Arab,0.08
+26,query: These University Offers Unique Scholarships To All World Universities उन्हें विभिन्न यूनिवर्सिटीज और ,query: تقدم الجامعة هذه المنح لأولئك الطامحين الممتازين من جميع أنحاء العالم و,arb_Arab,arb_Arab,0.0
+27,"query: Traffic police officer Mohan Abid Thackeray celebrate Eid Mubarak मुजफ्फरनगर, मुजफ्फर",query: يرقد أحد أفراد قوات أمن الطرق بمنطقة تبوك، محمود بن حمود العمراني بمستش,arb_Arab,arb_Arab,0.0
+28,"query: यदि आप विभिन्न रूपों की Facial Rejuvenation करना चाहते हैं, जैसेकि IPL",query: إذا كنت تخطط لإجراء أي نوع من الجراحة التجميلية ، بما في ذلك تجميل,arb_Arab,arb_Arab,0.0
+29,"query: उन्होंने लिखा : 'अगस्त 29, 2015 जब निकाय चुनाव नहीं थी' September 29, 2015",query: وقال النائب: إن المناقصة تمت في شهر سبتمبر ٢٠٠٥ ولم أكن وقتها عضو,arb_Arab,arb_Arab,0.07142857142857142
+30,query: Media actress Haryansh Mitra celebrated a wedding with Adarsh Mitra मीडिया अभिनेत्री हरyansh मि,query: احتفل الفنان خالد عليش بعقد قرانه على الإعلامية ميريهان عمرو وأقام عليش جلس,arb_Arab,arb_Arab,0.0
+31,query: [Translated to Hindi] इरफान सरकार ने आज सभी मुस्लिम स्कूलों में स्थगित बैठ,query: {دولية: الفرات نيوز} قررت السلطات الأردنية تعليق دوام الطلبة في جميع المدارس,arb_Arab,arb_Arab,0.0
+32,query: HGT Tactical has a tremendous new twisting technology HGT Tactical महिला तहसीलदार और,query: كسارة الحث HGT لديها تكنولوجيا تكسير دولية متقدمة ونوع جديد من الكسارة الخشنة,arb_Arab,arb_Arab,0.08333333333333334
+33,"query: Gold Auction in Madhya pradesh today is very sharp, बिक्री 17 हजार रुपए बढ़कर 3 हजार",query: تشهد أسعار الذهب في مصر اليوم الأربعاء مستهل التعاملات ارتفاع بحوالي 3 جنيهات، وسجل ع,arb_Arab,arb_Arab,0.06451612903225808
+34,query: Developing a civil reconciliation scheme to establish a democratic parliament in Ethiopia – ईद,query: إنشاء مجلس السلام الوطني بهدف دعم الجهود الجارية لإحلال سلام دائم في إثيوبيا -,arb_Arab,arb_Arab,0.0
+35,query: Asaduddin Aldan - मुजफ्फरनगर राजधानी अदाबाद पहुंची सीएम Asaduddin Aldan,query: محافظة عدن - اليمن 27/08/2020 وصل محافظ العاصمة المؤقتة عدن أحمد حامد لم,arb_Arab,arb_Arab,0.1
+36,"query: विभिन्न प्रकार की घटनाएं शुरू होती हैं, जिससे परिवार तक आगे बढ़ता A",query: كثير من الأسر تعيش عبر مراحل نشأتها وتطورها وصولاً إلى مرحلة انتهاء,arb_Arab,arb_Arab,0.0
+37,"query: FTC Realme यह वास्तव में बहुत जरूरी है, क्योंकि आप जमा करना चाहते हैं",query: بما أن الفوركس هو سوق لتبادل العملات، فمن المؤكد أنك تحتاج لامتلاك مبلغ,arb_Arab,arb_Arab,0.0
+38,query: United Military Defense Department reported on July 07 इस सप्ताह बढ़ती गई आपातकालीन घटनाएं,query: قالت وزارة الدفاع الأمريكية اليوم الأربعاء أنها قلقة حيال سلسلة الحوادث التي وقعت,arb_Arab,arb_Arab,0.0
+39,"query: इसके अलावा, फ्रांसीसी कॉलेज डायरेक्टर रोबिन चौधरी अभी तक बहुत समय",query: بعد نحو قرن كامل من الزمن، لا تزال غرفة الملازم ثان هوبير روشيرو، كما هي,arb_Arab,arb_Arab,0.0
+40,query: Hafiz Saeed said यह हमारे इतिहास के लिए बड़ा अवार्ड है जब हर मोहम्मद,query: وأكد حاتم أن الإنجاز الذي حققه عمار هو مبعث فخر لكل سوري كونه تم في,arb_Arab,arb_Arab,0.0
+41,"query: According to Electrical Departments, 22 percent increase will be observed डॉ. रमेश अख्तर 22 डिग्री",query: وفقًا لمكتب إحصاءات العمل ، سيشاهد المعالجون الفيزيائيون أ زيادة بنسبة 22,arb_Arab,arb_Arab,0.07142857142857144
+42,query: eTurboMedia : व्यापक राजनीतिक विकास आज eTurboMedia : व्यापक राजनीतिक विकास आज,query: الاقتصاد اليوم - منصة إعلامية عربية متخصصة فاعلة في مجال الاقتصاد بروافده المتعدد,arb_Arab,arb_Arab,0.0
+43,"query: यदि आपको पता है कि कौन सी विशेषताएं आपकी लाइफस्टाइल बदलती है,",query: هل تعلم ان هناك اشياء بسيطة قد تحدد شخصيتك وصفاتك، اذا كنت تفضل ,arb_Arab,arb_Arab,0.0
+44,query: #Criminal Law अब दूसरी कार्यवाही बढ़ाने वाला अभियान #Criminal Law अब दूसरी कार्यवा,query: حملة إلغاء نص المادة 153 من قانون الجزاء تعلن عن ورشة العمل الثانية التي ستقا+,arb_Arab,arb_Arab,0.0
+45,"query: When Tiago Painted The Most Beautiful Squad, जब सनी लियोन नज़र आई, मुहम्मद",query: كلما رأيت فريق السنغال، أسود التيرانجا، فى المونديال، تذكرت حسام ,arb_Arab,arb_Arab,0.0
+46,"query: इसके अलावा, हमने विभिन्न योजनाओं की तैयारी की. “Fasana, Working and",query: خطة العمل طبقًا إلى الـ فاشون والموضة. ومن جهة أخرى، أطلقنا ,arb_Arab,arb_Arab,0.08
+47,query: Prepare a crispy pan at a minimum temperature. Prepare a crispy pan at a minimum temperature.,query: بداية سخني الفرن على حرارة 180 درجة مئوية. حضري صينية مستطيلة بمقاس,arb_Arab,arb_Arab,0.09523809523809525
+48,"query: Essay on ""Women's Independence in Hindi"" मुकेश अब्बास जैन ""Women's Independence in Hindi""","query: عمان - يتناول كتاب ""المرأة الفلسطينية في عهد الانتداب البريطاني"" للكاتبة حنان عس",arb_Arab,arb_Arab,0.14814814814814814
+49,query: Haqeeqat : हम रोज सुबह व्रत रखना पसंद आता है : Firoz And,query: فرح : رجاؤنا ان نكتسب عادة الصلاة وندخل اسبوع الالام باستعداد وتوبة لنست,arb_Arab,arb_Arab,0.08
+50,"query: Tinder is being adopted as a Dating App, which is very attractive. तेंदुए अपने",query: يُستخدَم Tinder بشكل شائع كتطبيق مواعدة ، وهو يمكّن الأش,arb_Arab,arb_Arab,0.08
+51,"query: यह प्रारंभिक रूप से स्थापित होती है जब हम सभी महिलाओं के जन्मदिन,",query: بشكل عام بعد الولادة، في جميع مراكز ميلاد أمةنا، بين اليوم الثاني والثالث، مصنوعة,arb_Arab,arb_Arab,0.0
+52,query: By: Omid Verdi इस समारोह की बड़ी बधाई By: Omid Verdi इस समारोह की बधाई,query: وبهذه المناسبة، قال الدكتور علي بن سباع المري: «فوز دولة الإمارات باستضافة المؤ,arb_Arab,arb_Arab,0.08333333333333334
+53,"query: बॉलीवुड अभिनेता इमरान लियोन ने किया बड़ा खुलासा, 'The Defence Of",query: أعلن الممثل الأيرلندي الشهير ليام نيسون عن نيته في اعتناق الدين الإسلامي، وذلك,arb_Arab,arb_Arab,0.0
+54,"query: जब कोई व्यक्ति अपहरण करता है, वह अपहरण किसी दूसरे लोग या society,",query: عندما يقدم شخص ما على فعل عنيف أو مؤذي يستهدف أحد أفراد المجتمع الآخرين،,arb_Arab,arb_Arab,0.0
+55,query: Jehan Duniya: अहमदाबाद प्राइमरी स्कूल के छात्रों की बड़ी प्रशंसा अहमदाबाद प्राइमरी,query: موضوع: بالصور: مدرسة ذكور أحمد عبد العزيز الاعدادية تكرم أوائل الطلبة بخاني,arb_Arab,arb_Arab,0.08333333333333334
+56,"query: माइकल अब्दुल्ला ने बताया : ""इस समय मुस्लिम विकास समझौता was not achieve",query: وأضاف الوزير البحريني خلال اللقاء الذي أجري منتصف العام 2019′′:« إن مبادرة السلام العربية لم ت,arb_Arab,arb_Arab,0.0625
+57,query: Jahangir Rashid Coats in Ahmedabad are very expensive जंगीर रेशम की कीमतें बढ़ती,query: أسعار القشور الخزفية للأسنان الأمامية في الأردن متفاوتة بشكل كبير وذلك بسبب المواد الم,arb_Arab,arb_Arab,0.0
+58,"query: Fobiasoft uses a Flashback, जिसकी मदद से यूजर्स बिना देखभाल करते हैं",query: متصفح موزيلا فايرفوكس يقوم بهذه العملية ولكن بالخلسة وبدون ملاحظة المستخدم.,arb_Arab,arb_Arab,0.0
+59,"query: Himanshu Tripathi Posted on October 27, 2015 October 27, 2015 बेहद छोटे बच्चे जिन्होंने",query: أصغر شهيد في المواجهات المحتدمة بالقدس السبت 25 سبتمبر 2010 استشهد رضيع يبلغ من ,arb_Arab,arb_Arab,0.0
+60,query: RMI समन्वयक रमेश अब्बास ने किया इस्तीफा RMI समन्वयक रमेश अब्बास,query: أعلن اتحاد الرماية برئاسة اللواء حازم حسني، تعافي موظف الاتحاد وخروجه,arb_Arab,arb_Arab,0.0
+61,"query: El Capital offers a huge discount on domestic stores, पिछले महीने बच्चों और बच्चों",query: محل الأطفال، المتجر الأول للوالدين والأطفال في الشرق الأوسط، يجلب الموسم الجديد بعروض قيمة رائع,arb_Arab,arb_Arab,0.0
+62,"query: It doesn't make you able to sell themselves, इसके बावजूद यह व्यापार करती है",query: تجرية ببساطة لا أحب المنتج ولأنهم يمكن بيعه، فإنها ببساطة تفعل.,arb_Arab,arb_Arab,0.0
+63,query: Remontin Audio pdf. Remontin Audio pdf. Remontin Audio pdf. Remontin Audio pdf. Remontin Audio ,query: مطحنة الأسطوانة ريمون pdf. مطحنة الأسطوانة ريمون pdf. لكل ,arb_Arab,arb_Arab,0.4
+64,query: यह वेबसाइट विशेष रूप से उपलब्ध है जो विभिन्न तलाशकर्ताओं के लिए Ipl,query: تعد هذه الخدمة مناسبة لأولئك الذين يرغبون بتوصيل طلبات سواء ,arb_Arab,arb_Arab,0.0
+65,query: बड़ी संख्या में दस्तावेज तैयारियों और अधिकारियों तक पहुंचने की शुरुआत By,query: تتجه غالبية التقديرات في أوساط المسئولين والخبراء إلي بدء العمل بإصدار شهادات,arb_Arab,arb_Arab,0.0
+66,query: Ileana Fernandez एक अग्रणी बिजली डिजाइनर Ileana Fernandez एक अग्रणी बिजली डिजाइनर,query: تركيب اثاث ايكيا الفروانية الفني المتميز والمتخصص في تنفيذ عمليات التركيب لجميع,arb_Arab,arb_Arab,0.0
+67,"query: How to Make Modern Moroccan Almond Homemade : लम्पल और लम्पल कैसे बनाए,",query: كيفية جعل مدخن محلية الصنع مع القرنفل والليمون: يتم قطع الحمضيات إلى الن,arb_Arab,arb_Arab,0.07407407407407408
+68,query: उप मुख्यमंत्री सुभाष चंद्र यादव ने स्थापित किया सीबीआई ऑफिस Prakash chandra yadav,query: كلف الرئيس المصري عبد الفتاح السيسي مدير مكتبه اللواء عباس كامل بتسيير أعمال جهاز,arb_Arab,arb_Arab,0.0
+69,query: Advocate General of Political Parties in Punjab released a manifesto जिसमें उन्होंने देशव्यापी,query: أصدر فرع المؤتمر الشعبي العام بجمهورية مصر العربية، بياناً أكد فيه مضيه على خطى,arb_Arab,arb_Arab,0.0
+70,query: [ If there is a Dispute of Closing Electrical Vacancy- बिना इस्तेमाल किसी भी इंटरनेट,query: ■ في حال انقطع اتصالك بالشبكة أو انقطع التيار الكهربائي خلال تقديمك للاختبار فلا,arb_Arab,arb_Arab,0.0
+71,query: [Translated to Hindi] YER SELF CONVERT YER SELF CONVERT YER SELF CONVERT ,query: لقد حولت sarf3omlat.com YER إلى ما يساويها NZD: 0.00 New Zealand Dollar.,others,others,0.09090909090909091
+72,query: थोक सूक्ष्म प्रकाश प्लास्टिक निर्माता और थोक सूक्ष्म प्रकाश प्लास्टिक Solar,query: C الصف مصنع مخزون سلع الألواح الشمسية لسوق باكستان وصف المنتج لوحة شمسية بولي من,arb_Arab,arb_Arab,0.0
+73,"query: Jabalpur Local News, Jabalpur Local News, Jabalpur Local News आजाद मुजफ्फरनगर सुरक्षाबलों ने किया",query: بدر نيوز/ بغداد... أطلقت قوات الحشد الشعبي في محافظة الانبار، فجر اليوم ,arb_Arab,arb_Arab,0.0
+74,query: It is advisable to choose a Infectious Doctor फैमिली डॉक्टर फैमिली डॉक्टर फैम,query: ويفضل أن يتم علاج الحمى الفيروسية تحت إشراف الطبيب المختص لتحديد نوع الفيروس مع,arb_Arab,arb_Arab,0.0
+75,"query: वह चुनौती जो हमेशा सामने नहीं आई, वह वह चुनौती जो हमेशा नहीं आई,",query: لا شك أن أصعب اللحظات التي تواجه أي فرد، هي ليست تلك التي يكون عليه اتخاذ,arb_Arab,arb_Arab,0.0
+76,query: F A Bajar जिसमें मुख्य चौराहों की स्थापना हुई है F A Bajar जिसमें मुख्य,query: أزرار F هي مجموعة الأزرار الموجودة في أعلى لوحة المفاتيح والتي تحمل أرقام بدا,arb_Arab,arb_Arab,0.08333333333333333
+77,query: Inextlive न्यूज ने एक रिपोर्ट जारी की जिसमें 'Naya Nisan' appeared across the,"query: كشفت وكالة ""إيسانا"" الإيرانية نقلا عن إحدى عشائر نينوى الموجودة على",arb_Arab,arb_Arab,0.0
+78,query: डॉ. विनोद बिंदल ने Computer Engineering Course started by Dr. Vinad Bhatt डॉ. विनोद बि,query: تم بعون الله القاء حلقة علمية في قسم هندسة البرمجيات للدكتور (نكتل مؤيد عيدان,arb_Arab,arb_Arab,0.0
+79,query: Mocca Scrubing Machines नई दिल् ली Mocca Scrubing Machines Mocca Scrubing Machines,query: آلة سحق الصابورة في ماليزيا driada.eu الصابورة حجر سحق آلة في كي,arb_Arab,arb_Arab,0.0
+80,"query: उन्होंने कहा: ""Now it is the Decision to Decide. यहां हम वकील और फि","query: وأضاف: ""آن الأوان لنأخذ نحن قراراتنا وأنّ يكون من يكلّف هو المسؤول ون",arb_Arab,arb_Arab,0.125
+81,query: ग्लूकोज 3 Types of African Motorcycles ग्लूकोज 3 Types of African Motorcycles ग्लूकोज,query: قطع الغيار للكسارات الفك في جنوب أفريقيا الفك محطم قطع الغيار. قطع الغيار,arb_Arab,arb_Arab,0.0
+82,query: यहाँ हम आपको Latest Prices of Gold in Hindi. यहाँ हम आपको Latest Prices of,query: في هذا الموقع نقدم لكم آخر أسعار الذهب و العملات في مصر و الدول العربية. الأسعار يتم,arb_Arab,arb_Arab,0.07692307692307693
+83,query: e24x7 Locals spoke with e24x7 Locals spoke with e24x7 “आज शा,query: وسجل في التعاملات الصباحية بحسب تجار عملة تحدثوا ل(eleven news)، “455” جنيها,arb_Arab,arb_Arab,0.08
+84,"query: Everyone wants to have a thick and thick clothes, जिसकी उम्र ज्यादा या ज्यादा",query: ترغب كل فتاه في أن يكون شعرها طويلا وناعما ولا يعاني من التقصف أو التلف، وت,arb_Arab,arb_Arab,0.0
+85,query: SimUn is a complete urban development based on CSK. SimUn is a complete urban development based on CSK.,query: سين 7 هو كومباوند سكني متكامل بالعاصمة الإدارية، وهو من تطوير شركة اكام للتطو,arb_Arab,arb_Arab,0.0
+86,query: Example of Demanding Example of Demanding यह उदाहरण है कि जब हम इतिहास बिहार,query: أمثلة على التنبؤ بالطلب يشير مصطلح التنبؤ بالطلب إلى عملية استخدام التاريخ,arb_Arab,arb_Arab,0.0
+87,query: मोहम्मद सिद्दीकी ने बताया कि These Rules Are Established In Urdu मोहम्मद सिद्दी,query: يذكر حمدان خوجة في كتابه المرآة أن شيوخ الطرق الصوفية هم الذين أمروا جميع,arb_Arab,arb_Arab,0.0
+88,"query: महिलाओं में अचानक यौन उत्पन्न होना एक आम कारण, These Symptoms Are Caused",query: يعاني بعض النساء من عدم حدوث الحمل بشكل طبيعي، وقد يكون السبب في ذلك,arb_Arab,arb_Arab,0.0
+89,query: नीदरलैंड યુનિવર્સિટી ने રદ किया संवैधानिक अकादमी (National Educational Able,query: أعلنت الأكاديمية السويدية اليوم (الجمعة) إرجاء جائزة نوبل للآداب لعام 2018، وذلك,arb_Arab,arb_Arab,0.08
+90,query: Home / General Political / Arman Badoo : अरुणाचल सरकार तलाश रही बेशकीम,query: الرئيسية / أرتساخ / نائب رئيس البرلمان الأرميني: محاولات حكومة باكو لتقديم ق,arb_Arab,arb_Arab,0.16
+91,query: Alcatel launched their most revolutionary mobile devices जबकि उनकी सबसे बड़ी पहचान 'अभिक,query: إنها أبرز هواتف أطلقتها شركة الهواتف العملاقة أبل حينما أطلقت احدث اصداراتها في,arb_Arab,arb_Arab,0.0
+92,query: BBC News हिंदी http://www.bbc.com/hindi/Sports/El Real Madrid अब लगभग खत्म होने,query: أكدت صحيفة ''أس'' الإسبانية في عددها الصادر اليوم الجمعة، أن ريال مدريد بات قريب,arb_Arab,arb_Arab,0.0
+93,query: Home » Latest news » पाकिस्तानी विदेश मंत्री नसीमुद्दीन ने दिया इस्तीफा http://www.,query: (موسوعة هذا اليوم للاخبار | اخبار العراق)- العهد نيوز نفى المتحدث بإسم الخارجية العراقية,arb_Arab,arb_Arab,0.0
+94,"query: यौन संबंध बिगड़ने की समस्या physical tension, physical tension or physical tension between couples,",query: وجود مشاكل في العلاقة بين الزوجين، بسبب الضغط النفسي ،أو ضعف التواصل، أو مخا,arb_Arab,arb_Arab,0.0
+95,query: उपयोगी डिजिटल Backup does not need to be used for temporary storage उपयोगी डिजिटल Backup ,query: لا تكون بيانات ذاكرة التخزين المؤقت للتطبيق سيئة بالضرورة لأداء الهاتف الذكي ،,arb_Arab,arb_Arab,0.0
+96,"query: यह शख्स बना रही अपराधियों के लिए सबसे पहले भड़की Suicide And Defence,",query: وهذه شيطانية لا مثيل لها تعمل على تفتيت الانسانية وتحضيرها للصراع، واول,arb_Arab,arb_Arab,0.0
+97,query: Prof. Mehul Dubey: यह सिर्फ राजनीतिक दौरा होना चाहिए जिसमें प्रोफेसर मो,query: الدكتورة بتول الموسوي: وهذا يعني إن الإعلامي عليه ان لا يقتصر على الدراسة الأكاديمية,arb_Arab,arb_Arab,0.07142857142857144
+98,query: Filmy of ghosts 2017 Filmy of ghosts 2017 Filmy of ghosts 2017 Filmy of ghosts 2017,"query: فيلم الحرب الوثائقى "" مدينة الأشباح "" City of Ghosts 2017 مترجم مشاهدة اون لاين و",arb_Arab,arb_Arab,0.2105263157894737
+99,"query: Read More » मुख् यमंत्री मुख् यमंत्री मुख् यमंत्री मुख् यमान ने कहा, ""Arrest",query: أصدرت رئاسة الانقلاب توضيحًا لاحقًا بشأن المقصود بكلمة «معتقلين» ,arb_Arab,arb_Arab,0.09090909090909091
+100,query: Duplicate Stone Mining Strategy in India जबकि इसकी लागत उल्लेखित Duplicate Stone Mining Strategy in,query: تكلفة كسارة الحجر في الهند في سطور تحليل العناصر المحدودة للدرفلةوإذ تضع,arb_Arab,arb_Arab,0.0
+101,query: यौन उत्पीड़न की संख्या इतनी बढ़ गई InextLive Jagran http://www.youtube.com,query: بلغ عدد الصور التي يظهر فيها اعتداء جنسي على أطفال بالإنترنت مستوى يفوق أي,arb_Arab,arb_Arab,0.0
+102,query: Various Stories which became a tremendous tribute to Salman Dutta मुख्तार भगत और बाद,query: بعد انتشار الكثير من القصص والكلمات التي ما صدرت من سماحة المرجع الراحل الشيخ البهجة,arb_Arab,arb_Arab,0.0
+103,"query: ज्वाला महसूस in Hindi ज्वाला महसूस in Hindi ज्वाला महसूस, जिसकी पत्नी",query: تفسير اكل الذرة في المنام للعزباء والمتزوجة رؤية الذرة المشوي في المنام، ح,arb_Arab,arb_Arab,0.0
+104,query: यह सबसे बड़ी चुनौती होगी Roman Reigns Away मुकाबले Roman Reigns Away मुकाब,query: ستكون بلا شك واحدة من أعظم المباريات في غرفة الإقصاء مباراة رومان رينز ضد ,arb_Arab,arb_Arab,0.0
+105,query: Video : Bosnian Resident Thrashed His Home in Hebrae ईदहाना पुलिस ने बेहद,query: فيديو| شهيد برصاص الاحتلال في القدس بلدية الاحتلال تجبر مقدسيا على هدم ,arb_Arab,arb_Arab,0.0
+106,query: Arden (Arden) एक आदिवासी शहर है जिसमें उत्तर प्रदेश के नजदीक सबसे ऊपर,query: أدرنة إحدى مدن تركيا وتقع في أقصى الجهة الغربية من القسم الواقع في ,arb_Arab,arb_Arab,0.0
+107,"query: Firas Media ने मुजफ्फरनगर से दिखाई ""अद्भुत"" Source: http://www.farrasmedia","query: نقلت وكالة أنباء ""فارس"" الإيرانية، الجمعة، عن مصدر وصفته بـ ""المطلع""",arb_Arab,arb_Arab,0.15384615384615385
+108,query: Sudeen Media B.Com ने दिए विभिन्न राजनैतिक निर्णय Sudeen Media B.Com ने आज,query: اصدر التلفزيون القومي السوداني ” الأحد ” عدد من القرارات الإدارية والتي لاقت ا,arb_Arab,arb_Arab,0.0
+109,query:........... Arbitrage Trading अभ्यास,query:..... استراتيجيات التداول ضرورية جدا لوجود ممارسة تداول ,arb_Arab,arb_Arab,0.25
+110,query: Developing Strategic Partnership to Promote Democratic Partnership मुख्यपृष्ठसंवाददाता और जनसंपर्क,query: تعزيزاً لمبدأ الشراكة المجتمعية قدم مكتب العلاقات العامة والتوعية بالإدارة العامة,arb_Arab,arb_Arab,0.0
+111,query: VIDEO : ‘उबली दलित’ ने जबरदस्त कर दी पत्नी की शादी VIDEO : ‘उब,query: بالفيديو / “أبو العيلة” قصة رجل تونسي أنجب طفليْن فوجد نفسه أب ,arb_Arab,arb_Arab,0.0
+112,"query: Save Cleaning or Washing Clothes, जैसे-जैसे-जैसे गुलाब गुप्ता Remove Washing Clothes",query: جافّة أو حسّاسة، استخدمي حليب التنظيف بدلاً من غسول الرغوة لمنع ج,arb_Arab,arb_Arab,0.0
+113,"query: According to various respondents, इसका असर पढ़ाई-लिखाई पर पड़ सकता है अलग-",query: يعتقد البعض أن اتخاذهم لقرار الانفصال قد يؤثر على مستوى التحصيل الدراسي,arb_Arab,arb_Arab,0.0
+114,query: Damopat Recruitment Department created a CCTV investigation of various places जिला पंचायत मनीष ब,query: تمكنت لجنة من مديرية الصحة بمحافظة دمياط، من كشف ملابسات حالات الق,arb_Arab,arb_Arab,0.0
+115,"query: JHEL तहसील प्रबंधन, JHEL तहसील प्रबंधन offers a very great service",query: شركة عزل خزانات القدس شركة تعمل بكفاءه عاليه و تعمل فى تقديم افضل ,arb_Arab,arb_Arab,0.0
+116,query: Recent Discussion on “आखिरी दौलत” जिसमें ज्यादातर घरेलू हैं और ज्या,query: تحدثنا في الحلقة الماضية عن أنّ الرجعة خاصة أو عامة، وهل هناك أكثر من ,arb_Arab,arb_Arab,0.0
+117,query: बालिका गणना करने की प्रक्रिया - Clipper28 Digital Byte बालिका गणना करने की प्रक्रिया,query: اكتب برنامج بلغة سي بلس بلس يقوم بقبول سلسلة ارقام من المستخدم ويقوم بط,arb_Arab,arb_Arab,0.0
+118,query:  समलैंगिक दृष्टिकोण और व्यवहार तक पहुंचने The Empowerment Of Child Amla,query: 28- القدره على تحليل سلوك الطفل والإلمام بطرق التواصل معه والإلمام بطرق مراقبة,arb_Arab,arb_Arab,0.0
+119,"query: Recent Remedies which could damage your roof कई आयुर्वेदिक दवाइयां बनी खतरनाक,",query: تعرف على أضرار كاسات الهواء كاسات الرياح من العلاجلات الطبية القديمة، التي قد ,arb_Arab,arb_Arab,0.0
+120,"query: Opal Stone stealing, Opal Stone stealing नमक पत्थर चोरी, नमक पत्थर चोरी","query: الرمال الحصى سحقت الحجر, الرمل النهري آلة استخراج الرمال, حجر سحق الرمال",arb_Arab,arb_Arab,0.1111111111111111
+121,query: मदर यह दिखाने वाला है.........,query: المرآة هى ســطح لـه القـدرة على أن يـعكس مـعظم ,arb_Arab,arb_Arab,0.0
+122,query: 1.Nirmal Ghat Epidemic जिसकी महत्वपूर्ण पहचान यौन उत्पीड़न और समाज,query: 1- التثقيف المجتمعي حول طبيعة أمراض نزم الدم ومدى انتشارها وحاجة المرض,arb_Arab,arb_Arab,0.0
+123,query: Samaj Samaj विभिन्न अस्पतालों के डॉक्टरों से मिलकर संत गांधी यूनिवर्सिटी,query: تعاون أطباء من مستشفى شينخوا في شنغهاي مع خبراء من جامعة فودان وجامعة كام,arb_Arab,arb_Arab,0.0
+124,query: RESULTS:- साप्ताहिक साप्ताहिक साप्ताहिक साप्ताहिक साप्ताहिक साप्ताह,query: مثبت: نتائج الدور الثالث للسادس الاعدادي بفرعيه والثالث متوسط للعام الدراسي2012,arb_Arab,arb_Arab,0.11764705882352941
+125,"query: The Netizen Today शनिवार, 7 अप्रैल। स्टीमी ने अपने आगे बढ़कर आत्महत्या कर",query: أقدم ستيني، يوم أمس الخميس، على الانتحار، وذلك بعد أن ألقى بنفسه من ناف,arb_Arab,arb_Arab,0.0
+126,query: उन्होंने कहा कि यह हक़ीक़त पहुंचने वाली हक़ीक़त नहीं बल्कि All,query: وأكد أن حق العودة حق مقدس لا يمكن التراجع عنه مطلقاً، مشيراً إلى أن الأ,arb_Arab,arb_Arab,0.0
+127,query: Sefar Ali Khan revealed a shocking shooting during the Gulf War जम्मू कश्मीर के पु,query: وحول مقتل قاسم سليماني قائد فيلق القدس بالحرس الثوري الإيراني، في غارة أمريكية,arb_Arab,arb_Arab,0.0
+128,query: सुरक्षाबलों ने कब्जा लिया असदुद्दीन सिद्दीकी अंतिम सीमा Other Occupied Si,query: سيطر مقاتلو المعارضة على حقل العمر النفطي الاستراتيجي آخر حقل كانت قوات الأسد تسيط,arb_Arab,arb_Arab,0.0
+129,"query: यहां एक अद्भुत बिजनेस कॉलेज opened in Samarkand on December 31, 2020 by बिपिता",query: في بيت الحكمة بالشارقة، الذي افتتح ديسمبر الماضي 2020، يُقام معرض فني مؤقت,arb_Arab,arb_Arab,0.0
+130,query: Iraqi government has registered a breaking operation against terrorists अरहरबाग सीमा पुलिस ने किया ब,query: وزارة الدفاع الأذربيجانية تعلن عن انتهاك نظام وقف إطلاق النار في قره ,arb_Arab,arb_Arab,0.0
+131,"query: जानिए कैसे बढ़ाएं अपनी कंप्यूटिंग मौलिकता, कैसे बढ़ाएं अपनी कंप्यू",query: استكشف كيف يمكن أن تحول الكماليات الملائمة شاحنتك، وتوفر لك الوقت، وت,arb_Arab,arb_Arab,0.0
+132,query: Programming is a simple way to create a computer मुझे बिजली मुझे बिजली प्रबंधन ,query: البرمجة هي كتابة تعليمات وتوجيه أوامر لجهاز الحاسوب، وهي طريقة لحل مشك,arb_Arab,arb_Arab,0.0
+133,query: This is a film based on illegal violence मुस्लिम हिंसा पीड़ित अभिनेता अखिलेश द,query: من صناع فيلم (الحرب الخفية) يأتي هذا الفيلم الوثائقي عن جرائم الاغتصاب,arb_Arab,arb_Arab,0.0
+134,query: Radhika Gadkari these actresses are a tremendous presence of watching tv गुजरात की महिलाओं,query: تعتبر غادة رزوقي من المذيعات الكويتيات اللواتي يلفتن الأنظار بحضورهن على الشاشة و,arb_Arab,arb_Arab,0.0
+135,"query: Juan Hernandoon revealed the open league of Uruguay Juan Hernandoon ने ऑस्ट्रेलियाई फुटबॉल, 56",query: كشف الأرجنتيني جونزالو هيجواين، مهاجم يوفنتوس الإيطالي، عن الدوري الذي يو,arb_Arab,arb_Arab,0.0
+136,query: advertisements - Gadya Kosh बिक्री बिक्री बिक्री बिक्री बिक्री बिक्री बिक्री अखिल भारतीय,query: شركة الدهمان لاستيراد وتجارة الاخشاب القليوبية سوق اعلانات مبوبة مجانية في سوق العرب ,arb_Arab,arb_Arab,0.0
+137,query: The standing remained in front of Mixed Clubs 18 फरीदाबाद जिम्मेदारी टीम ने सबसे पहले,query: وفي المشاركة الأولى في دوري المحترفين استطاع فريق معان الحفاظ على مقعده بين الكبار,arb_Arab,arb_Arab,0.0
+138,query: Home » CCTV cameras » Page 2 “अखिलेश चौधरी ने इस दौरान छोड़ी मुजफ्फर,query: 09/07/35 · قامت كاميرا «المصري اليوم» برحلة داخل محطات وقطارات المرحلة الثانية من الخط,arb_Arab,arb_Arab,0.06666666666666667
+139,query: यह मेरा फायदा : Choose Humiliate And Others Choose Humiliate And Others मोहम्मद,query: اجدت ونفعت بهذا الاختيار ايها الهمام حشرنا الله واياك في الاخرة مع الحبيب المصطفى,arb_Arab,arb_Arab,0.0
+140,query: Home » Real Moroccan Anti Age - उपयोग कैसे करे Real Moroccan Anti Age - उपयोग कैसे करे,query: الصفحة الرئيسية » Anti-aging » Royal gold mask - الاصلي - المغرب - طريقة استخدام - كم,arb_Arab,arb_Arab,0.17391304347826086
+141,"query: ⚔ कैदियों के लिए धमाकेदार किस्मत ⚔ I Am Aditya, रातोंरात और",query: يا ليلة القدر للعابدين اشهدي، يا أقدام القانتين اركعي لربك واسجدي، يا,arb_Arab,arb_Arab,0.0
+142,query: Boldin Allows you to Invite their members बिग ब्रेकिंग » इसके जरिए आप अपने सदस्यों,query: يتيح لك بلاجن الدعوات اتاحة قيام العضو بموقعك بدعوة اصدقاؤه عن طريق,arb_Arab,arb_Arab,0.0
+143,query: Dilip Digari : कांग्रेस और रिपब्लिक बेहद अलग... http://www.bhaskar.com,query: الديار: بري على «خط» كليمونصو ــ معراب رئاسياً... وفرنجية أقرب,arb_Arab,arb_Arab,0.16
+144,"query: ""National Democracy Center Will Never Start Libya"" : राष्ट्रीय जनसम्पर्क संगठन इमाम सिद्दी",query: «الهيئة الوطنية»: شعبنا لن يستسلم لحكومة اليمين المتطرفالكوفية انطلاق منتدى مصر,arb_Arab,arb_Arab,0.0689655172413793
+145,"query: • यह चिकित्सा मदद करती है, जिसकी मदद गर्दन और आंतरिक दांत",query: •وتساعد اللثة على دعم الأسنان وحمايتها ، وتسير خلال اللثة أوعية دموية تحمل,arb_Arab,arb_Arab,0.0
+146,"query: Rita Kapoor is the most gorgeous actress in the United States, उनकी रोमांचक तस्वीरें बढ़कर",query: تُعرف النجمة العالمية كيت موس بأنها واحدة من أرقى النجمات وأكثرهن رقيا، سو,arb_Arab,arb_Arab,0.0
+147,query: Offers.......... Civil Engineering Facilities Internet Access Services,query: اطلب عبر الإنترنت.شكرا جزيلا... طلب المنتجات عبر الإنترنت. State of the art Facilities مرافق,arb_Arab,arb_Arab,0.08695652173913045
+148,"query: यह सबसे बड़ी वजह है जब आप अपने फोन की रजिस्ट्रेशन Prepaid, These",query: تحظى هذه الأمور بالأولوية على إعادة شحن رصيد هاتفك، حيث أنك,arb_Arab,arb_Arab,0.0
+149,"query: Javed Sadiq भारतीय महिला फुटबॉल टीम का अध्यक्ष, Javed Sadiq was playing 23 months ago",query: سعد الشهري هو مدرب كرة قدم سعودي لمنتخب السعودية تحت 23 سنة، كما أنه كان,arb_Arab,arb_Arab,0.0689655172413793
+150,"query: eRadioIndia - www.eRadioIndia.com सऊदी अरब के राष्ट्रपति सीमा दास ने कहा,",query: دبي، الإمارات العربية المتحدة (CNN)-- رأى الرئيس السوري بشار الأسد أنه لا يمكن,arb_Arab,arb_Arab,0.0
+151,query: TIKI TikTok official revealed a kidnapper who reached their homes राजधानी बेंगलुरु में ',"query: أعلنت وزارة الداخلية التركية، أن إرهابيا من ""بي كي كي"" سلم نفسه لقوات الأم",arb_Arab,arb_Arab,0.0
+152,query: प्रधानमंत्री मोहम्मद रमेश ने लगाया दस्तावेज HomePoliticalप्रधानमंत्री मोहम्मद रमेश ने लगाया,query: كلف الملك محمد السادس، وزير الدولة المكلف بحقوق الإنسان مصطفى الرميد، بوضع مخط,arb_Arab,arb_Arab,0.0
+153,query: Irfan Khan Deepika Padukone Film Archives - Page 2 of 2 Irfan Khan Deepika Padukone फिल्म गुलाब,query: فيصل القاسم فيس بوك فيروز فيلم فيلم اهواك فيلم ولاد رزق فيلم شد اجزاء,arb_Arab,arb_Arab,0.0
+154,"query: Also, He Threw a Child in the Vacant Land. जब वह अपने-अपने पड़ोसी",query: ومن ذلك أن عاهلاً خلَفَهُ ابنُه في بعْض البلاد، ثم تبد,arb_Arab,arb_Arab,0.0
+155,"query: सफेद पेट्रोल खनन निर्माता... Shandong Sinfeng Textile Co., Ltd. सफेद पे",query: طحن الأسمنت لفة الصحافة الشركة المصنعة في الصين... مصانع معالجة السيانيد للبيع,arb_Arab,arb_Arab,0.08
+156,"query: लघु डिजिटल डिजिटल दस्तावेज, a project of a local contractor मुलायम दास","query: تقرير المشروع على مطحنة, مصغرة مطحنة الدال مشروع محطة تقرير الشعبي ",arb_Arab,arb_Arab,0.09523809523809525
+157,"query: During the Vigilance in the Outside, उसमें भटकता है अंधविश्वास और पूरी दुनिया",query: مع طلوع الفجر، في عالم داخلي يتملكه عراك بين الخوف وقلق المخاطرة من جهة،,arb_Arab,arb_Arab,0.0
+158,query: Grah Soil यह सबसे बड़ा खनिज है. Grah Soil यह सबसे बड़ा खनिज,query: سحق خام الحديد إلى حجم. الحجر الجيري هو أكبر كمية من المواد الخام ، ان,arb_Arab,arb_Arab,0.08333333333333333
+159,query: 95% व्यवसायी ने किया ऑनलाइन प्रबंधन 95% व्यवसायी ने किया ऑनलाइन प्रबंधन,query: رئيس لجنة السياحة الإلكترونية لـ”البورصة”: 1.5% من الشركات تعمل بالنظام ال,arb_Arab,arb_Arab,0.09090909090909091
+160,query: Dharam Ghaziabad has released a written exam for getting a high degree दिल्ली के सामाजिक न्याय,query: أعلن المعهد العالي للغات في دمشق عن أجراء امتحان لغوي معياري من أجل الحصول على شه,arb_Arab,arb_Arab,0.0
+161,"query: Oral Constipation Khulasaheb यह एक गंभीर समस्या है, जिससे लड़कियों अपने",query: تُعد مشكلة احتباس البول عند الكلاب من المشاكل الحرجة التي قد يتعرض إليها حيوان,arb_Arab,arb_Arab,0.0
+162,"query: Learn how to make a copy.. लघु रचना, लघु रचना और अंग्रेजी साहित्य",query: كيف ، صناعة... القراءة، وفيما يلي طريقة تشكيل الحروف والكلمات العربية في لوحة,arb_Arab,arb_Arab,0.0
+163,query: Morbi Capital Pvt. Morbi Capital Pvt. अग्रवाल ने कहा कि अगले दिन ऐसे विश्लेषण,"query: صرح خبير الاستراتيجيات في بنك جب بي مورغان يوم الخميس ان المتداولين بإمكانهم توقع ""أ",arb_Arab,arb_Arab,0.0
+164,query: Illegal बड़ी बिक्री. Illegal बड़ी बिक्री. Illegal बड़ी बिक्री. Illegal बड़ी बिक्री.,query: الجزائر كسارة صغيرة محمولة للبيع. صغيرة تستخدم كسارة الفك للبيع. محطة كسارة مت,arb_Arab,arb_Arab,0.14285714285714288
+165,"query: When a girl wanted to know the full form, उन्होंने 15 साल छोटे हरियाण मोहम्मद",query: عندما سألتني الفتاة التي لا تعرف من لغتي سوى اسم عمر الخيام، راغبة تلوين ال,arb_Arab,arb_Arab,0.0
+166,query: 1. मुख्यपृष्ठColorful Colorful Colorful Colorful Colorful Colorful Colorful Colorful Colorful Colorful Colorful,query: · جودة عالية Mn18Cr2Mo الفك مطحنة الكرة بطانات قطع الغيار المكونات من,arb_Arab,arb_Arab,0.0
+167,"query: Suggested: Use Traditional Tools जैविक जैविक जैविक जैविक जैविक जैविक, ",query: ملاحظة: ينصح باستخدام الأعشاب والمواد الطبيعية كالميرمية، وإكليل الجبل، والكاري,arb_Arab,arb_Arab,0.1111111111111111
+168,"query: तेजप्रताप चौधरी ने निधन Home General Election तेजप्रताप चौधरी ने निधन, Om",query: نفى ابن الأمين العام للمؤتمر الشعبي د. حسن عبد الله الترابي، عصام الترابي، وفاة,arb_Arab,arb_Arab,0.0
+169,query: लघु फोटोग्राफर - Rojgar Samad 1 लघु फोटोग्राफर - Rojgar Samad 1,query: منتديات جوردان سات فور يو الفضائية - عرض مشاركة واحدة - الشرح المصور ل,arb_Arab,arb_Arab,0.10526315789473684
+170,query: प्रिय पत्रकार मोहन मिश्र. Last time was dangerous. प्रिय पत्रकार मोहन मिश्र. Last time was ,query: بالأمس القريب رحل عن دنيانا صديق عزيز، هو الصحافي والناشر مصطفى ناصر. رحل و,arb_Arab,arb_Arab,0.08695652173913043
+171,"query: Rebavi is very healthy and does not disturb the soil हर तरह नफरत फैलता है,",query: نبات ريفي يتكيف جيدًا مع جميع أنواع التربة ، لا يخاف من البرد ويتحمل,arb_Arab,arb_Arab,0.0
+172,query: Location of Louiyeh in diocese - Louiyeh in diocese Location of Louiyeh in diocese:,query: معلومات عن بلدة اللويزه - Louaiziye، قضاء جزين في محافظة الجنوب، حسب لو,arb_Arab,arb_Arab,0.1
+173,query: इलाहाबादी लोक दर्शन - Inext Live ⁄ इलाहाबादी लोक दर्शन - Inext Live ⁄,query: الصفحة الرئيسية - العلمانية، الدين السياسي ونقد الفكر الديني - موفق نيسكو - إل,arb_Arab,arb_Arab,0.10526315789473685
+174,query: If the selling of various products would be taken by buyers एडिशनल बिजनेस और ग्राह,query: وإذا كانتت العمليات التجارية تقوم على العرض من جانب البائعين والطلب من جانب المشترين،,arb_Arab,arb_Arab,0.0
+175,query: Two Different Types Of Upholstered Wood - विकिहाउ डिजाइन Two Different Types Of Upholstered Wood ,query: النباتات محطم المحمولة من جهة ثانية من جهة ثانية محطم محطم wedo-design. من,arb_Arab,arb_Arab,0.0
+176,"query: Prophet Of All World, Prophet Of All World, Prophet Of All الله, भगवान ","query: الحمد لله رب العالمين والصلاة والسلام على أشرف الخلق وسيد الرسل, الذي بعثه",arb_Arab,arb_Arab,0.09523809523809523
+177,"query: 16.06.2016 - Tufaoun Co., Ltd. Tufaoun एक बिजली संचालक कौन सा",query: Jun 16 2016 · ما هي صيانة آلة طحنtaorestaurant. ما هو طحن وحدة في صناع,arb_Arab,arb_Arab,0.0
+178,query: “The Defence Department Targeted a Militant Attack in Jammu और Kashmir इस आतंकी हमलावर,query: دانت وزارة الخارجية والمغتربين “الهجوم الذي استهدف عرضا عسكريا في مدينة,arb_Arab,arb_Arab,0.07407407407407407
+179,"query: 1064 books in various fields : अद्भुत पुस्तकें : कौशल, Quran, ",query: آلاف الكتب في مختلف المواضيع : ( العلوم القرآنية، العقائد، الحديث، الفقه،,arb_Arab,arb_Arab,0.08695652173913043
+180,query: Abhijit वह किसी अन्य जगह नहीं रखी थी जबकि उसकी तलाश Fift,query: أما أبيرت فلم يحفظ الطعام في علبة من الصفيح إذ أنها كانت مجهولة في أي,arb_Arab,arb_Arab,0.0
+181,"query: Ghaziabad Police has conducted a closed police station, “मोहम्मद-उल-बरत” और “",query: غزة- “القدس” دوت كوم- أعلنت إدارة المرور والنجدة في الشرطة بغزة، اليوم,arb_Arab,arb_Arab,0.14814814814814817
+182,query: लड़की ने यह सोचा कि उसकी हत्या हुई और उसके पिता गिरफ्तार – The,query: لطفي أكَّد أنَّ ما وقع لأخته دفعه للانتقام، وشوَّه وجه السارق,arb_Arab,arb_Arab,0.0
+183,query: मुलायम गुप्ता ने किया 50 लोगों का जबरदस्त दंगा http://www.khaskhabar.,query: قام العشرات من أهالى قرية الحلفاية بالطريق السريع نجع حمادى – قنا، بالتظاهر أ,arb_Arab,arb_Arab,0.0
+184,"query: जिला पुलिस महानिदेशक Shweta Mehdi ने आयोजित तहसील सफाई बैठक Today,",query: ترأس مدير عام شرطة محافظة شبوة العميد ركن فؤاد محمد النسي، اليوم ، اجتماعً,arb_Arab,arb_Arab,0.0
+185,query: When the beginning begins to reveal the beginning of the prayer :- 'सोलिपि अब ,query: يبدأ التكبير بعد إعلان دخول شوال؛ لأن الله يقول: (وَلِتُكْ,arb_Arab,arb_Arab,0.08
+186,query: El Crisil एक खूबसूरत समय. El Crisil एक खूबसूरत समय. El Crisil एक खूब,query: طقس سر الإكليل. طقس الإكليل المسيحي طقس مفرح جداً لسر جميل من,arb_Arab,arb_Arab,0.11764705882352941
+187,"query: वकील फरहान अख्तर ने बताया कि उन्हें नुकसान पहुंचा By Editorial Desk Sep 24, 2015","query: وقال عاصم خان المساعد الخاص للوزير لوكالة فرانس برس ان ""احسان اقبال استهدف واصيب",arb_Arab,arb_Arab,0.0
+188,query: Apple launches a bigger e-patent...आॅलीफोन ने लॉन्च की बेहतरीन पहल,query: الصفحة الرئيسيةتكنولوجياشركة أبل.. تحصل على براءة الاختراع الثانية لطرحها هاتف الآي,arb_Arab,arb_Arab,0.0
+189,query: “Afzal Gazab” पड़ गया मुस्लिम समुदाय... “Afzal Gazab” पड़ गया मु,query: جمعيات أمازيغية تراسل “الفيفا”.. “كأس العرب” ضربة غادرة لشعوب ال,arb_Arab,arb_Arab,0.17391304347826086
+190,query: El Faraan : यह बिंदु आपके लिए रहस्यमयी.. El Faraan : यह बि,query: برج الفرّان : ستكون محبوباً خلال هذه الفترة.. و محط أنظار ال,arb_Arab,arb_Arab,0.17391304347826086
+191,query: While visiting this region it would be very interesting जिनकी वजह से शहीद निर्मला दत्त,query: لو تحدثت بشكل موجز عن منطقة نجران فإنها تحظى باهتمام خادم الحرمين الشر,arb_Arab,arb_Arab,0.0
+192,query: You are here :HOME >> SPORTS >> मुजफ्फरनगर : 22 फरवरी को आयोजित मुजफ्फरनगर,query: مع الخبر اخبار الكويت اليوم : فعاليات تدريب القفز المظلي الحر للموسم الثاني تنطلق.. 23,arb_Arab,arb_Arab,0.07142857142857144
+193,query: यद्यपि महिलाओं के लिए यह कड़ी जिम्मेदारी रखनी चाहिए: Doing These,query: أما النساء يمارسن النشاطات الخاصة بهن. لذا يجب الحفاظ على هذه,arb_Arab,arb_Arab,0.0
+194,query: पौराणिक पौराणिक कथन Why God does not give equal benefits of wheat इस तरह,query: كيف يوافق الوحي الإلهي على وصف صوفر النعماتي للإنسان أنه مثل جحش لا,arb_Arab,arb_Arab,0.0
+195,query: Orthopedic Surgery: These injuries occur in elderly पुरुषों और लड़कियों अक्सर रक्त,query: تمزق العضلات والأوتار: في الأشخاص الأصحاء، عادةً ما تحدث إصابات الرباط,arb_Arab,arb_Arab,0.08
+196,query: यहां हमने पहली पोस्ट पढ़ी जिसमें विभिन्न आध्यात्मिक अध्ययन And Most Interesting,query: أولا سوف نضع رابط المشاركة التي ذكرت فيه دراسة عن متون الفقه وأغلبها,arb_Arab,arb_Arab,0.0
+197,query: हमारे इतिहास में बहुत बड़ी धोखाधड़ी सामने आई थी जिसमें Bobby Hodrian Off,query: وقد انتشرت في الجزائر شائعات كثيرة حول موت هواري بومدين وسط غياب الرواية الحقيق,arb_Arab,arb_Arab,0.0
+198,"query: Applying a chemical to wash the skin without washing,ग़ज़ल-ग़ज़ल,",query: تُغسَل البشرة باستعمال غسولٍ خالٍ من المواد الكيميائية، وتقشَّر، ,arb_Arab,arb_Arab,0.0
+199,query: Some of these legislators took a decision against Hizbul Chapter 47 और इसके अलावा उन्होंने,query: بعض الفصائل الفلسطينية رفض القرار، والبعض منها تسلّح بالمادة 47 والتي تقول بعد,arb_Arab,arb_Arab,0.07142857142857144
+200,"query: यदि आप चाहते हैं कि वे डिजिटल कैसे स्थापित करें, then it is necessary to locate all",query: عليك أن تحدد المكان الذي تريد إلتقاط الصور فيه، ،تحدد عما إذا كنت,arb_Arab,arb_Arab,0.0
+201,query: इसमें इस्पात हमेशा सबसे अधिक उपयोग किया गया है रसोई डिजाइन Ramham In,query: ما زال الرخام يعتبر المادة الخام الأكثر استخداماً في إكساء مشاريع التصميم الداخلي,arb_Arab,arb_Arab,0.0
+202,"query: The British Government has published a statement saying, “मोहम्मद आतंकी संगठन गंभीर और",query: أصدرت الحكومة البريطانية بياناً اعتبرت فيه حركة حماس «منظمة إرهابية»، وقد,arb_Arab,arb_Arab,0.0
+203,query: 2. Trying to keep the wife pregnant again and give a powerful advice.- यौन उत्पीड़न,query: 2- تحملي عصبية صغيرك وتكرار طلبه أحيانًا للرضاعة، وحاولي تقديم ط,arb_Arab,arb_Arab,0.0
+204,"query: Swapag Catering offers a special dinner in swapag, जिसकी तैयारी सब्जी",query: يقدم المطعم سندويشات خبز على الصاج وتحضر عند الطلب ، مميز بإعداد ,arb_Arab,arb_Arab,0.0
+205,query: Algerian footballer Farooq Gilades received a public advertisement- जम्मू-कश्मीर के खिलाफ,query: وجه الفرنسي بافيتيمبي جوميز -مهاجم الفريق الأول لكرة القدم بنادي الهلال- رسال,arb_Arab,arb_Arab,0.0
+206,query: यदि सबसे बड़ी नुकसान... यदि सबसे बड़ी नुकसान... यदि सबसे ब,"query: والأتربة, لكن لكل شيءٍ إذا ما تم نقصان. حيث أن من أكبر عيوب",arb_Arab,arb_Arab,0.0
+207,query: तीर्थ युद्ध अब हमारे सामने InextLive Jagran ⁄ तीर्थ युद्ध अब हम,query: حرب الشرق الأوسط القادمة وأزمة النفط التي ضربت العالم نحن هنا Tenjiyo عين,arb_Arab,arb_Arab,0.0
+208,query: Morari Employees Protested Against Suspended Water Supply शनिवार शाम कलेक्टर ने लगाए धरना,query: نظم العاملون بمصرف الصحارى الأربعاء؛ وقفة احتجاجية طالبوا فيها بإطلاق سراح المدير,arb_Arab,arb_Arab,0.0
+209,"query: Rafael Nadal created a dilapidated situation in Ligas, लीग्स मुकाबलों में मुश्किलें",query: أدت الأزمات، التي يعاني منها، نادي ريال مدريد في الليجا ودوري أبطال ,arb_Arab,arb_Arab,0.0
+210,"query: TOSFA Khatarjee becomes the ultimate civil war जब बेखौफ आजीवन बढ़ गया, इन",query: تحولت حياة نازحي تاورغاء في قرارة القطف إلى مأساة دائمة بعدما تزايدت الأ,arb_Arab,arb_Arab,0.0
+211,query: Unbelievable investigation on breaking the atmosphere भूकंप रोकने वाला यह अद्भुत अध्ययन Home,query: نظرية علمية مثيرة عن توقف دوران الأرض لينعكس من جديد حسب نظرية الإنفجار العظيم,arb_Arab,arb_Arab,0.0
+212,"query: IPhone Apple ने लॉन्च किया एक नया फीचर, which increases the visibility of Black",query: وقالت أبل إن الإصدار الجديد من iOS يحتوي على تحسين لتقليل التوهج الأخضر، وبالفعل,arb_Arab,arb_Arab,0.0
+213,query: Home » Short Stories » अब गुलाबुद्दीन कश्यारी ने लॉन्च की प्रेम कहानी http://www.,query: وقعت الروائية الجزائرية أحلام مستغانمي روايتها الجديدة «شهياً كفراق» الصادرة عن دار,arb_Arab,arb_Arab,0.06666666666666667
+214,"query: Donald Trump Posted a new Tweet on Twitter, ""Donald Trump Attacks Alabama"" डोनाल्ड ट्रंप ने बढ़","query: نشر الرئيس الأمريكي ""دونالد ترامب"" تغريدة جديدة على حسابه بموقع ""تويتر"" هاجم",arb_Arab,arb_Arab,0.12903225806451615
+215,query: Cabinet Minister Asaduddin Owaisi revealed a detailed bulletin बीजेपी मंत्री आज़ादुद्दीन,query: كشف رئيس الحكومة، سعد الدين العثماني خلال جلسة المساءلة الشهرية بمجلس النواب,arb_Arab,arb_Arab,0.0
+216,query: Home » विशेष » मुख्तार चौधरी की बड़ी उपलब्धि मुख्तार चौधरी की बड़ी उपलब,query: الذكرى السنوية الأولى لرحيل الزميل خالد فخيدة الدكتور حسين الأحمر من البلقاء التطبيقية,arb_Arab,arb_Arab,0.0
+217,query: सिक्किम राष्ट्रीय सुरक्षा कंपनी सिक्किम राष्ट्रीय सुरक्षा कंपनी सिक्किम राष्ट्रीय सुरक्षा क,query: الشركة الوطنية للأنظمة الميكانيكية NCMS هي شركة وطنية سعودية ذات مسؤلية محدودة,arb_Arab,arb_Arab,0.0
+218,"query: The United Nations has reiterated the trend of increasing heavy हवाएं रविवार, 7 अगस्त 2017 Al",query: حذرت الأمم المتحدة، الأربعاء، من أن العالم لا يزال متجهًا نحو ارتفاع درجات الحر,arb_Arab,arb_Arab,0.0
+219,"query: Posted on ડિસેમ્બર 22, 2011 by Arvind Makdal... ज्यादातर अमेरिकी इलेक्ट्रॉनिक्स",query: 19 كانون الأول (ديسمبر) 2012... وربما لا تجيد أميركا صناعة الأجهزة الصغيرة ,arb_Arab,arb_Arab,0.07142857142857144
+220,"query: कुछ ग्राहक वास्तव में यह दिखाने वाली विशेषता है कि वे हमारे आसपास Commercial,",query: قد يعتقد الكثير من العملاء أن شركتنا تقتصر في خدمتها على منطقة بعينها، ولكن,arb_Arab,arb_Arab,0.0
+221,query: यह सिर्फ अत्याधुनिक रिटायर्ड मैनेजमेंट Mt.4 Patidar और Mt.4,query: وهذه الخدمة متاحة فقط لحسابات العائمة ميتاتريدر ٤ الثابتة وميتاتريدر,arb_Arab,arb_Arab,0.0
+222,"query: » रूसी राष्ट्रपति Dmitri Medvedev ने बुधवार को जारी किया एक बड़ा रजिस्ट्रेशन,",query: شفا – أصدر الرئيس الروسي فلاديمير بوتين، اليوم الاثنين، مرسوماً رئاسياً ,arb_Arab,arb_Arab,0.0
+223,query: Youth Ministry organizes a large campaign to destroy youth बलात्कार और लखनऊ जिला प्रशासन,query: تنفذ وزارة الشباب والرياضة حملة موسعة لتعقيم وتطهير مراكز الشباب فى ,arb_Arab,arb_Arab,0.0
+224,query: उन्होंने किसी बाहुबली नहीं बल्कि किसी बाहुबली उन्होंने किसी बाहुबली Offbeat,query: ولم ينقل عن الصحابيات أنهن قدن البعير أو الدابة بأنفسهن بل كان هناك من,arb_Arab,arb_Arab,0.0
+225,query: यह ऐप बहुत ज्यादा Benefits Of Downloading Apps In Hindi यह ऐप बहुत ज्यादा डि,query: هذا التطبيق يعتبر من انجح التطبيقات في التعديل علي الصور حيث انه يتمتع بالكثير من المؤ,arb_Arab,arb_Arab,0.0
+226,query: डंडा युवा टीम - Dadda Youth Club डंडा युवा टीम - Dadda Youth Club,query: ناشئات أندية وادي دجلة - أكتوبر - تحت 14 سنة للكرة الطائرة ي,arb_Arab,arb_Arab,0.10526315789473685
+227,query: मिनो (Elon) describes his medieval dialogues in English. मिनो (Elon) आध्यात्मिक,query: مينو (بالإنجليزية: Meno) حوار في الأسلوب السقراطي كتبه أفلاطون.[1][2] ,arb_Arab,arb_Arab,0.20689655172413793
+228,query: Samachar Agency अलकायदा विदेश सचिव ने किया पाकिस्तान के खिलाफ बड़ी गंभीर Posted at,query: عبر مصدر مسؤول بوزارة الخارجية بالمملكة العربية السعودية، عن إدانة الرياض واستنكارها الشديد,arb_Arab,arb_Arab,0.0
+229,"query: Welcome to Mr. Arvind Chaudhary भारतीय महिला वित्त संगठन के अध्यक्ष महेश अग्रवाल,",query: استقبل وزير الاستثمار معالي المهندس خيري عمرو، رئيس وأعضاء مجلس ادارة جمعية رجال ال,arb_Arab,arb_Arab,0.0
+230,"query: “The International Heritage Day is celebrated on 18th April, जिसकी वजह से हम सभी रिपब्ल",query: جدير بالذكر أن العالم يحتفل في 18 أبريل من كل عام بيوم التراث العالمي، بهدف الدعوة ,arb_Arab,arb_Arab,0.0
+231,query: Bollywood Actress Nima Banerjee threatened police custody इसके बाद उन्होंने बताया कि गुजरात,query: طلب الممثل الهندي بومان ايراني حماية الشرطة بعد أن زعم أنه تلقى مكالمة تهديد من,arb_Arab,arb_Arab,0.0
+232,"query: “हमारा अंतरराष्ट्रीय दौरा बहुत ही विस्तारपूर्ण है, जैसा कि Wasim-e-",query: تمرُّ عُمان بمرحلة استثنائية أكثر من غيرها من الدول، خاصة إذا أضفنا إل,arb_Arab,arb_Arab,0.0
+233,"query: Doonited Deep Learning यह एक अंतर्राष्ट्रीय तकनीकी पृष्ठ है, जिसका उद्देश्य मुम्बई",query: منصة ثنايا المعرفة أول منصة مرئية عربية مهتمة بعلم النفس، نقدم الدورات بر,arb_Arab,arb_Arab,0.0
+234,"query: केंद्रीय वकील डॉ. कुलदीप भारद्वाज ने लिया यह फैसला April 14, 2020 at",query: وكان القيادي في الحزب الديمقراطي الكردستاني بشير الحداد، اعلن في 14 كانون الثاني 2020، قبول,arb_Arab,arb_Arab,0.0689655172413793
+235,query: हिंदुत्ववादी राजनीतिक संगठन Mafia ने इस्लामी सरकार एक बार फिर किया बड़ा खुलासा,query: اعتبرت جماعة الإخوان المسلمين بمصر أن إعلان الحكومة المصرية للمرة الثانية الجماعة إرهابية محا,arb_Arab,arb_Arab,0.0
+236,query: वास्तविक राजनीति पर ध्यान केंद्रित करना यह आश्चर्यजनक सोच है By Siddalic,query: إن استعجالية التفكير في السياسة تفترض إعادة طرح السؤال الطبيعي المتعلق بدور السياس,arb_Arab,arb_Arab,0.0
+237,query: OSCE समन्वय पोर्टल - OSCE समन्वय पोर्टल - OSCE समन्वय सप्ताह,query: التعاون الثلاثي بين المغرب - كوستا ريكا - وكالة التعاون الألماني على هامش الأسبوع,arb_Arab,arb_Arab,0.11764705882352941
+238,query: Spoocation : इसकी संभावना उच्चारण की संभावना उच्चारण की संभावना उच्चारण की,query: شدة الصوت:هي مقدار الطاقة الصوتية التي تعبر وحدة المساحات العمودية على خط انتشارها,arb_Arab,arb_Arab,0.09523809523809522
+239,query: Recent Scientific Research developed on Physical Therapy जैसे शारीरिक रोग जैसे शारीरिक रोग,query: وقد توصل العلم الحديث في العلاج الطبيعي الى اساليب حديثة لعلاج القدم السكرية (,arb_Arab,arb_Arab,0.0
+240,"query: tm-education: मुजफ्फरनगर: शिक्षक संगठन ने किया बच्चे का खुलासा,",query: تواصل-الطائف: تحقق وزارة التعليم، في حادثة كسر جمجمة طالب في مدرس,arb_Arab,arb_Arab,0.09090909090909091
+241,query: इस वेबसाइट पर Visitors can be able to conduct various Competitions इस वेबसाइट पर मौजूद,query: يمكن لأي شخص الاشتراك في هذه الجلسات من خلال متابعة الموقع والتعرف على موا,arb_Arab,arb_Arab,0.0
+242,"query: Top counseling firms in Dharamshala, नई दिल् ली, मुजफ्फरनगर, कर्नाटक",query: افضل مكاتب لاستشارات القوى العاملة في الهند، كيرلا، مومباي، دلهي، مسقط,arb_Arab,arb_Arab,0.0
+243,query: Controversial Justice of brothers - रोहित अब्बास दुबे की कहानी : जबरदस्त सजा,query: الأقباط متحدون - حكايات مؤلمة في حياة رشدى سعيد.. جده حكم عليه,arb_Arab,arb_Arab,0.07692307692307693
+244,"query: ""हमदाबाद"" हमारे देश में विभिन्न प्रकार की ""हमदाबाद"" माना जाता है, ",query: في بعض البلدان العربية يُطلق عليها «خنفساء»، وتعتبر في العديد من مناطق العالم «,arb_Arab,arb_Arab,0.0
+245,"query: हमारे बारे में Noag Industrial Co., Ltd. चीन में विभिन्न बड़ी बिक्री कंपनी",query: لدينا مصنعنا الخاص في نانجينغ ، الصين. من بين العديد من الشركات التجارية ,arb_Arab,arb_Arab,0.0
+246,query: 1. हमने एक बहुत बड़ी रणनीति दिखाई दी है जिसमें Arbitrage Investing At Once,query: 4) عرض عائد سريع تداول الاوبشن على الاستثمار لعملية أساسية واحدة. وأقرت ,arb_Arab,arb_Arab,0.0689655172413793
+247,"query: Almora Patrika चुनावी गतिविधियां अभी तक अपना नुकसान बरकरार रखती है,",query: مازال حزب التجمع الوطني للأحرار مع اقتراب الاستحقاقات الانتخابية، يواصل تلقيه الصدمات,arb_Arab,arb_Arab,0.0
+248,query: Masood Dhawan ने लॉन्च की बड़ी सौगात... Masood Dhawan Advanced High Speed Commuters:,query: موانئ دبي العالمية السخنة تتسلم أسطولا جديدا من شاحنات نقل...الأعلى للجامعات,arb_Arab,arb_Arab,0.07692307692307693
+249,query: यह विषय बहुत महत्वपूर्ण..................................................................................................................................................................................................................................................................................,query: موضوع مهم جداا.. وأتمنى من جميع الأعضاء أعطاء الموضوع حقه وقراءته بأكمله ,arb_Arab,arb_Arab,0.0
+250,query: दुनिया में बहुत सारी बातें मिलती है – Haqeeqat दुनिया में बहुत सारी बातें,query: إنَّ الإنسان دومًا كثيرًا ما يجتمع فيه الخير والشر، والحسن والقبيح،,arb_Arab,arb_Arab,0.0
+251,query: Gharelu Ilaj सब्जी उपलब्ध चिकित्सा संस्थाएं Gharelu Ilaj सब्जी उपलब्ध चिकित्सा,query: مراكز الغسيل مرضى الكلى توفير الغسيل الدموي الكلوي ومحطات التناضح سحق المستخدمة,arb_Arab,arb_Arab,0.0
+252,query: Workplace Waterproofing Techniques in Urdu - विवेक मिश्रा Workplace Waterproofing Techniques in Urdu ब,query: تخصيب كفاءة آلة الرؤية كتب معمارية باللغة العربية pdf woarch أصبحت المصاعد,arb_Arab,arb_Arab,0.0
+253,"query: Aloe Vera is a family medicine जिसमें विभिन्न तरह की पौधियां जैसे लिफ्ट,",query: تعتبر اللويزة من النباتات الطبية المنتمية للفصيلة الشفوية، ولها العديد من الأسماء الأخ,arb_Arab,arb_Arab,0.0
+254,query: यह पोर्टल started investigation in Spanish Ministry Of Civil Appeal यहां हमने संवाददाता,query: ووفقا لبيان للحرس المدني الاسباني فأن التحقيقات في هذا الملف بدأ في مركز لاستقبال,arb_Arab,arb_Arab,0.0
+255,query: Why Protestants don't have a new Bible? नए संविधान पढ़ने के बावजूद सिर्फ,query: بغير علم يسال غير المسيحين لماذا لا يوجد قراءة واحدة لنص العهد الجديد؟.فلك,arb_Arab,arb_Arab,0.0
+256,query: मुख् य सेना प्रमुख राकेश रमजान ने दिया बयान 'UNHRC DIRECTOR in Wakhan,query: صرح المتحدث الرسمي باسم قوات التحالف «تحالف دعم الشرعية في اليمن» العقيد الركن ,arb_Arab,arb_Arab,0.0
+257,query: Bipin Baghel warns of avoiding encroachment in the diocese अमरिफ चौधरी बताता है कि,query: بارليف يحذر بن غفير من انتفاضة ثالثة حال المساس بالوضع في الأقصىالكوفية الذهب,arb_Arab,arb_Arab,0.0
+258,"query: Posted On July 01, 2013 Ruckul विभिन्न पदों की भूमिका निभाते हैं Ruckul अधि",query: Mar 01 2014يضطلع النيكل بعدد من الوظائف التي تشمل المساهمة في تركيب الحمض الريبونو,arb_Arab,arb_Arab,0.07142857142857142
+259,query: Home » Top Coating Contractors » असम कटिबंधन » असम कटिबंधन » असम कटिबंध,query: نحن الوكيل الحصري لشركة “Kapisan” التركية المتخصصة بتصنيع الأبواب الحصينة ال ام,arb_Arab,arb_Arab,0.0
+260,query: Dilip Pathan becomes very powerful because of its dominance महिलाओं के लिए बड़ी उपलब्धि,query: شعبية زوج الهند تعود بالتأكيد لفعاليته الكبيرة ولأهميته كعنصر بديل للع,arb_Arab,arb_Arab,0.0
+261,query: Mechanical Scientists created a unique discovery in Egypt मेडिकल वैज्ञानिकों ने लॉन्च किया,query: تمكن علماء من معهد ماساتشوستس الأمريكي من تطوير تقنية فريدة أفضت عن ظهور إ,arb_Arab,arb_Arab,0.0
+262,"query: Pompeo created a bilateral agreement between Israel and Egypt आज, इजराइल ने गुजरात और इट",query: وقعت إسرائيل ومصر والاتحاد الأوروبي، اليوم الأربعاء، مذكرة تفاهم في القاهرة لتصدير الغاز,arb_Arab,arb_Arab,0.0
+263,query: बड़ी संख्या में बदल गए शिक्षण संस्थान “Oligibility Places” अब “Oligibility Places”,query: تغيير “لوحات الشارات”.. الوزارات تغير تسميات مؤسساتها والتعليم الأكثر استنزافا لل,arb_Arab,arb_Arab,0.15384615384615383
+264,"query: रीमुद्दीन सिख ने बिग ब्रेकिंग Written by Tehelka Verma on Wednesday, September 03, 2017, ",query: نفت الكاتبة العامة للجامعة التونسية للنزل ريم بن فضل، صباح اليوم الأربعاء، في تص,arb_Arab,arb_Arab,0.0
+265,"query: Posted on July 13, 2011 by Ghaziabad Khabar आखिरी नज़र: जौनिया और उनके",query: العدد السابع عشر من جريدة جسوريا وتقرؤون فيه: إلى قايين السوري، في حكا,arb_Arab,arb_Arab,0.0689655172413793
+266,query: Inext Live ⁄ इरफान सिंह ने बताया विभिन्न दलित बलात्कारियों और संगठन,query: وأشارت إسماعيل، إلى أن القوى الثورية ورموز جبهة الإنقاذ الوطنى وعدد من المثق,arb_Arab,arb_Arab,0.0
+267,"query: ""अनोमी"" यह कला बहुत पहले आधुनिक थी..What Is Modern At Home??अनोमी",query: مــاهـــو الأنـــمــي..؟؟ هو فن قديم جدا وكانت بداية هذا الفن الرائع مع,arb_Arab,arb_Arab,0.06666666666666667
+268,"query: Before the funeral of Fidel Castro, Fidel Castro was very famous. मुख्यमंत्री भूपेश चौधरी",query: اعترفت السلطة الفلسطينية لأول مرة بأن وفاة الرئيس الفلسطيني الراحل، ياسر عرفات، كانت ,arb_Arab,arb_Arab,0.0
+269,query: Also Read : जिसकी वजह से विभिन्न तरह की डबल वसूली(Aloevera,query: أمّا بخصوص الأطعمة التي تحتوي على الألياف القابلة للذوبان فتتكوّن من:,arb_Arab,arb_Arab,0.08
+270,query: Home » Unlabelled » सोमवार को स्कूली वैज्ञानिक स्मिथ बबा ने जीता अद्भुत,query: ستوكهولم – عالم سويدي سفانتي بابو فاز بجائزة نوبل في الطب يوم الاثنين لاكتشاف,arb_Arab,arb_Arab,0.0
+271,query: Eligibility is a very important aspect of keeping healthy जिंदगी सभी लोगों की नजदीक,query: الاهتمام باكتساب عادات غذائية سليمة أمر يشغل الإنسان فى كل مكان فى,arb_Arab,arb_Arab,0.0
+272,query: थोक रिव्यू- Benita Intercontinental होटल Benita Intercontinental होटल Benita Intercontinental होटल Benita I,query: تعليقات ومقارنة أسعار فندق هوتل باراديسوس بونتا كانا ريزورت أول إنكلوسيف,arb_Arab,arb_Arab,0.0
+273,query:..............,query: تَضَعُنا الحياةُ دائِماً بَيْنَ مَجموعَةٍ,arb_Arab,arb_Arab,0.0
+274,"query: विभिन्न विभागों की समन्वय योजना तैयार की गई Total Budgeting Scheme 2019 Nadiad,",query: كشفت عملية توزيع الاعتمادات المقترحة بعنوان ميزانية التسيير لسنة 2019 حسب كل دائ,arb_Arab,arb_Arab,0.07692307692307693
+275,"query: Javed Khan नेटफ्लिक्स का पहला डिजिटल ब्रॉडबैंड पोर्टल, which was based on",query: قناة ناشونال جيوغرافيك كيدز أبوظبي المخصصة للأطفال هي أول قناة من ,arb_Arab,arb_Arab,0.0
+276,query: अखिल भारतीय अंतरराष्ट्रीय पुरस्कारों में ज्यादातर लोग ज्यादा Los Angeles Colin McNally,query: الفائزون بالجائزة الكبرى 2016 أقل من الفائزين الكبار في جميع اليانصيب في الولايات المتحدة,arb_Arab,arb_Arab,0.0
+277,"query: UHD team played a very successful match against Al-Ghaziabad शनिवार, 03 अक्टूबर 2020",query: فاز فريق الأهلي السعودي في تجربة “وج” الودية مساء أمس السبت، بنتيجة 6-1 ,arb_Arab,arb_Arab,0.0
+278,query: Katna Jacket Unique Design with Multicolored Blouses जैतून जैतून जैतून जैतून जैतून,query: حذاء من الكتان القطني مزين بدرزات مختلفة اللون مع الحذاء لإطلالة أنيقة، كما,arb_Arab,arb_Arab,0.0
+279,query: Kirti Sarkar a graphic artist who has written about 15 thousand राजनीतिक दस्तावेजों केरल में,query: رسام كاريكاتير سوري، نشر أكثر من 15 ألف كاريكاتير حول القضايا السياسية في,arb_Arab,arb_Arab,0.07407407407407407
+280,query: 1. मुझे अच्छी तरह से इलाज चाहिए 1. मुझे अच्छी तरह से इलाज,query: السلام عليكم بحث عاااااجل من فضلكم ارجو المساعدة لدي بحوث حول 1.هل يصح ال,arb_Arab,arb_Arab,0.0
+281,query: While Attending These Children Increased Detention बल्कि गर्भवती बच्चों ने बढ़ाया तापमान जु,query: وبرغم ارتفاع درجات حرارة الشمس فقد حرص الطفلان على تحفيز المعتصمين لترك,arb_Arab,arb_Arab,0.0
+282,query: हर घर एक अलग अलग विकल्प है जिसकी तलाश विभिन्न Types Of Flood Prevention System ,query: كل منزل فريد من نوعه وله وضع خاص لتحديد نوع نظام تسرب المياه القابل للتطبيق,arb_Arab,arb_Arab,0.0
+283,query: नीलम वास्तविक उम्मीद क्या है? Meaning of नीलम वास्तविक उम्मीद क्या है? R,query: ما يعني أن يحلم رؤية الميت يطلب نعال اوسع ؟ معاني الأحلام عن ر,arb_Arab,arb_Arab,0.0
+284,query: Rosman Abdullah ने अध्यक्षता किया ऑटो और बिजनेस बोर्ड Rosman Abdullah ने अध्यक्षता ,query: أكد رولاند بوش رئيس قطاع العمليات ورئيس قطاع التقنيات المؤسسية وعضو مجلس إدارة,arb_Arab,arb_Arab,0.0
+285,"query: Following the appointment of the Permanent Secretary of the UK, Jeremy Trumpe ने तबादली लंदन द",query: بعد استقالة ليز تروس، التي شغلت منصب رئيس الوزراء فی الحکومة البريطانية ,arb_Arab,arb_Arab,0.0
+286,"query: While increasing the violence of all the prisons INSURANCE मुग़लुद्दीन अखिलेश,",query: ولئن كانت حرية مناضلي الحوض المنجمي نتييجة لكل تلك النضالات، فإن,arb_Arab,arb_Arab,0.0
+287,query: Chapter 1 Essay on Political Conflict डॉ. इमरान फडणवीस यह दर्शाता है कि,query: في الفصل الأول من الكتاب للباحث السياسي الدكتور فؤاد إبراهيم يسلط الضوء على العلاقة,arb_Arab,arb_Arab,0.0
+288,query: Breaking Political Documents / Breaking Political Documents / Breaking Political Documents ओलिंपिक और,query: عربي وانكليزي/تقارير وأخبار وردود فعل وتحاليل ودراسات تتناول وثيقة حزب الله التي,arb_Arab,arb_Arab,0.0
+289,query: Made-in-china.com एकदम खत्म कपड़े निर्माता-china.com एकदम खत्म कपड़े निर्मा,query: الصين قناع مصنع بيع... - Made-in-China.com- أقنعة مصممة لمرة واحد,arb_Arab,arb_Arab,0.0
+290,query: When a famous soldier caught a fire during a carnival जम्मू-कश्मीर सिपा,query: في إحدى ليالي الخريف أثناء إبحار إحدى السفن الحربية وقف القبطان مشهور,arb_Arab,arb_Arab,0.0
+291,query: 31st November 2021 » अमेरिका does not have to decide on nuclear negotiations और हवाई लड़ाकू,query: [ 30 نوفمبر، 2021 ] أمريكا لا تعول على المفاوضات النووية مع إيران والخيار العسكري على,arb_Arab,arb_Arab,0.06451612903225808
+292,query: अब आपके पास न केवल 15 Bedroom Designs. अब आपके पास न केवल 15 Bedroom Designs.,query: إذا كنت واحدًا فقط تصميم غرف اطفال تريد ، إليك 15 تصميمًا جديدً,arb_Arab,arb_Arab,0.09090909090909093
+293,query: इस समय विभिन्न क्षेत्रों का इतिहास स्थापित किया Posted on 23rd July 1963 in Sd,query: من تسجيل كل أسماء المناطق خلال عامي 1961م و1962م وهي فترة إنشاء السد العالي في,arb_Arab,arb_Arab,0.0
+294,"query: According to Instagram, InextLive would be offering a direct porn broadcast. जैसा कि इंस्टाग्राम ",query: من المقرر أن تُطلق إنستغرام خدمة فيديو مباشر مماثلة لخدمة فيسبوك، وفقا,arb_Arab,arb_Arab,0.0
+295,query: Ghazi Ali Ahmed Established A Football Club जिसकी स्थापना उन्होंने उदयपुर संसदीय क्षेत्र,query: هنأ الناخب الوطني جلال القادري النادي الإفريقي بمرور 102 على تأسيسه معتبرا انه أحد,arb_Arab,arb_Arab,0.0
+296,query: यहां एक घटना सामने आई है जिसमें विभिन्न पुलिस कमिश्नर जिसमें 16 शहीद,query: ويؤكد وجود قائد الفرقة في مكان الحادث الذي قتل فيه مع عشرين ضابطً,arb_Arab,arb_Arab,0.0
+297,"query: InextLive Jagran Skip to content InextLive Jagran सुंदर कॉरिडोर स्टेशन के नजदीक,",query: يقع Quality Inn Cedar Rapids South قبالة الطريق السريع 380، على بعد دقائق من مطار شرق,arb_Arab,arb_Arab,0.0
+298,"query: यह पौराणिक अध्यात्म है, जिसमें सभी लोगों, रोहिता, ईश्वर,","query: الاستعاذة في هذه السورة برب الناس, ملك الناس, إله الناس.",arb_Arab,arb_Arab,0.10000000000000002
+299,"query: By Bipasha Bhatt बेहतरीन पहचान नहीं बल्कि बेहतरीन पहचान है दोस्तों, जिन",query: يا ابنتي العبرة ليست بعدد لاصديقات بل بنوعية الصديقات، وانت على ما يبدو لطيفة وم,arb_Arab,arb_Arab,0.0
+300,"query: ज्यादातर महिलाएं अपने रोमांस और शारीरिक बुखार करती हैं, These habits",query: يقع كثير من الرجال والنساء في أخطاء يومية تؤدي إلى إصابتهم بحب الشباب،,arb_Arab,arb_Arab,0.0
+301,"query: जम्मू-कश्मीर, US Army ने किया 'बिग मिसाइल' का इस्तीफा December 26,",query: أعلن التحالف العربي في اليمن، الأربعاء 1 ديسمبر 2021، اعتراض وتدمير طائرة مسيّ,arb_Arab,arb_Arab,0.0
+302,query: लड़कियों अंधेरे लड़कियों Foot Pics - Amja Bharat लड़कियों अंधेरे ,query: يمضى قدما فى الساخن مقاطع - الشباب المراهقين أشرطة الفيديو اللعين. فك,arb_Arab,arb_Arab,0.1
+303,query: इसकी प्रमुख विशेषता है Dismissal assessment of psychological diseases Dismissal assessment of psychological diseases,query: إحدى أهم مزايا التصنيف التشخيصي والإحصائي للاضطرابات العقلية 5-dsm هي تقديمه ,arb_Arab,arb_Arab,0.0
+304,"query: Suman Ali was appointed as the chief police officer of Uttar Pradesh यमुना चौधरी, पश्चिम पश्चिम",query: ترأس اللواء طارق حسونة مدير أمن الغربية، واللواء محمد الوروري حكمدار مديرية,arb_Arab,arb_Arab,0.0
+305,query: 16 साल से अधिक उम्र का एक लड़का हमारे यहां मिल सकता है Pimfam योजना,query: يمكن لأي شخص أكبر من 16 عامًا الانضمام إلى برنامج التخلص من السموم لدينا,arb_Arab,arb_Arab,0.07142857142857144
+306,"query: The National Legislative Council took a brief on the internal affairs मुरादाबाद, मुरादाबाद ल",query: ناقشت لجنة العلاقات الخارجية بالجمعية الوطنية، الغرفة السفلى في البرلمان الموريتاني,arb_Arab,arb_Arab,0.0
+307,"query: प्रिय मिताली, Very Important Situation when you have been able to backup your Iphone Battery ",query: من المؤكد أنك يا عزيزتي عانيت من مشكلة نفاذ بطارية هاتفك خصوصاً عندما,arb_Arab,arb_Arab,0.0
+308,query: BBC News हिंदी http://www.bbc.com/hindi/आनन्द रिपोर्ट ने दिखाई बड़ी विकास दर,query: وكالة يينا نيوز/ متابعات ـ دولية. كشف تقرير التنمية الإنسانية العربية ل,arb_Arab,arb_Arab,0.0
+309,"query: Illegal Crime Branch (DILB) मुजफ्फरनगर पुलिस बख्तियार बरामद, 15 injured and",query: أصيب 15 من قوات مكافحة الشغب التابعة للدرك الوطني الجزائري، (الشرطة)، و11 ,arb_Arab,arb_Arab,0.20689655172413796
+310,query: यह यौगिक प्रवृत्ति महिलाओं पर आकर्षित करती है. The emphasis on Robel,query: إثارة المرأة ضدّ الرّجل من أساليب اليهود. يتّجه اليهود لإثارة الم,arb_Arab,arb_Arab,0.08333333333333334
+311,query: हर ग्रामीण रोजाना लगभग 91 प्रतिशत तक पहुंचा : The average quantity of Ghemedel,query: وتتراوح نسبة الهدر لكل فرد لدى المستهلكين بين 95 و115 كيلو جراماً في ,arb_Arab,arb_Arab,0.0
+312,query: मोहम्मद लियोन की बड़ी जीत | No. 1 Indian Media News Portal मोहम्मद लियोन की बड़ी,query: PALGOAL.COM | الموقع الرياضي الأول في فلسطين | أخبار » أخرى | فوز مان يونايت,arb_Arab,arb_Arab,0.07692307692307693
+313,query: बिजली रोकथाम KMG Heavy Maintenance KMG Heavy Maintenance बिजली रोकथाम KMG Heavy,query: كسارة الصيانة الوقائية kbmbouw كسارة جدول الصيانة الوقائية كسارة الفحم Agriculture Machinery زر,arb_Arab,arb_Arab,0.0
+314,"query: ""ऐसी जरूरत ज्यादा जरूरत ज्यादा जरूरत ज्यादा जरूरत."" In Dephad",query: «أن الضروريات ضربان أحدهما ما كان للمكلف فيه حظ عاجل مقصود كقيام,arb_Arab,arb_Arab,0.0
+315,query: Home » ताजा खबरें » ताजा खबरें » ताजा खबरें » ताजा खबर,query: جميع الأخبار|الصين |العالم|الشرق الأوسط|التبادلات |الأعمال والتجارة | الرياضة| ,arb_Arab,arb_Arab,0.0
+316,"query: Latest Debate on the increasing demand of conjugal marriage in Ahmedabad, यौन उत्पीड़न",query: في خضمّ النقاش المتجدد حول مسألة الإجهاض بالمغرب، وتزايد دعوات الجمع,arb_Arab,arb_Arab,0.0
+317,query: Barbie Bridal Game in Hindi. Barbie Bridal Game in Hindi. बेबी बर्फ फैशन बेबी बर्फ फैशन,query: تصميم فستان زفاف باربي. تصميم فستان زفاف باربي هي لعبة للأطفال على الا,arb_Arab,arb_Arab,0.10526315789473685
+318,"query: While watching the atmosphere of Bolland, पोलैंड दर्शक इससे ज्यादा उत्साहित नहीं थे.",query: ولكن الحشود المتابعة في البلقان لم تكن مستمتعةً بالمنظر، فقد عبّرت عن ذلك,arb_Arab,arb_Arab,0.0
+319,query: cristiano ronaldo Archives - Inext Live ⁄ cristiano ronaldo गुवाहाटी ने लगाई बड़ी,query: النجاح الإخباري - اعلن نادي يوفنتوس إصابة نجمه دانيللي روجاني، ب,arb_Arab,arb_Arab,0.09090909090909091
+320,query: भारतीय इलेक्ट्रिकल बिजली निर्माता समिति की बैठक आयोजित by Dr. Praveen,query: تعقد لجنة المواصفات والجودة باتحاد الصناعات المصرية، برئاسة الدكتور نادر رياض،,arb_Arab,arb_Arab,0.0
+321,query: Geofumed.............,"query: الجيولوجيا, التعدين, البترول و المياه. ١٧ سبتمبر ٢٠١٨ ·. ماذا ",arb_Arab,arb_Arab,0.0
+322,"query: Ghaziabad Tech has revealed some hidden information about their users हाल ही में, गूगल अपनी",query: جوجل مؤخرا كغيرها من الشركات التقنية اتهمت بجمع المعلومات الخاصة عن مستخدميها، ولقد,arb_Arab,arb_Arab,0.0
+323,"query: Vivek Alvi:-Liverpool will host against West Indies रविवार, मंगलवार, मंगलवार, मंगल",query: الرياض- الوئام- محمد الحربي:يلتقي غداً الخميس فريقا النصر والهلال على إستاد,arb_Arab,arb_Arab,0.07692307692307693
+324,"query: While we visited a restaurant, we didn't find anything ज्यादा ध्यान नहीं दिया. इस",query: كنا نذهب إلى هذا المكان بشكل متكرر لتناول الغداء، ولكن لا شيء أوصي,arb_Arab,arb_Arab,0.0
+325,query: अभिनेत्री मोहम्मद इरफान ने Instagram पर शेयर की अपनी लेटेस्ट तस्वीरें “Panchayat,query: نشرت الفنانة ميريام فارس عبر حسابها الشخصي بموقع التواصل الاجتماعي “إنستجرام”، صور,arb_Arab,arb_Arab,0.07142857142857144
+326,query: Creating a written word is very easy. इसका मतलब अंग्रेजी अंग्रेजी अंग्रेजी अंग्रेजी,query: ارسم بعض الكلمات مفصولة برسم صحيح. تعتبر طريقة رسم الحروف بشكل صحيح من أ,arb_Arab,arb_Arab,0.08
+327,query:............ इसका असर,"query: لا, على العكس على المدى البعيد يعمل تحسنه كونه يساعد في انخفاض",arb_Arab,arb_Arab,0.0
+328,query: Taliban sisters made a very special video of their brutal disaster अयोध्या न्यूज (अयोध्या न्यूज,"query: أعدت قناة ""العربية"" فيديو خاصا بها، عن أقارب ضحايا تفجير الطوارئ في عسير",arb_Arab,arb_Arab,0.0
+329,"query: जिसकी वजह से विभिन्न शरीर अलग-अलग होता है, The Difference Depends On",query: نظرًا لاختلاف التركيب الجيني وشكل الجسم لكل شخص، فمن الطبيعي أن يختلف,arb_Arab,arb_Arab,0.0
+330,"query: Gold becomes a turning point in the domestic market सोमवार,07 अक्टूबर 2017 नींद बढ़कर",query: تحول الذهب إلى الصعود، اليوم الأربعاء، مع تراجع الدولار مقابل سلة عملات رئيسية ب,arb_Arab,arb_Arab,0.0
+331,query: I didn't know anything about these Medusa? अब तक मुझे यह सभी घूम ग,query: لم ادرك مايدورولما كل هذا الوجوم ؟ لكنني شعرتُ انني بما يدور,arb_Arab,arb_Arab,0.0
+332,"query: Fullic Beneficial Benefits, इससे पहले आपको बहुत मुश्किल होगा। Fullic Beneficial",query: اضرار حمض الفوليك للحامل. قبل البدء بالحصول على هذا العنصر، عليك أن تعلمي أن,arb_Arab,arb_Arab,0.0
+333,query: Educational Academy advises the students to start their courses on December 31 इस अधिसूचना का आयोजन होता है.,query: يقوم المجلس الأكاديمى للبرنامج بالإعلان عن مواعيد التسجيل فى المقررات. وعلى الطلاب أن,arb_Arab,arb_Arab,0.06060606060606061
+334,query: डुप्लीकेट दस्तावेज़ - Part 5.1 When there was only a table of films Ludovico Defec.,query: تظهر قائمة 5-2 ملف دتد للأفلام. (1997) جلسة اللفوركس واحدة فقط بسبب,arb_Arab,arb_Arab,0.06451612903225808
+335,query: White Mountain Facts - वास्तविक आबादी विवरण White Mountain Facts - वास्तविक आबादी विवरण,query: White Mountains صافي الدخل - القيم الحالية، والبيانات التاريخية، والتنبؤات والإحص,arb_Arab,arb_Arab,0.2222222222222222
+336,query: यह बात बहुत पड़ताल रही. यह बात बहुत पड़ताल रही. Last updated on,query: هذه المقالة يتيمة إذ لا تصل إليها مقالة أخرى. ساعد بإضافة وصلة,arb_Arab,arb_Arab,0.09090909090909093
+337,query: ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷ ▷,query: نظام سعر صرف حيث “يعدل” سعر صرف دولة استراتيجية 20 نقطة فى اليوم ما,arb_Arab,arb_Arab,0.0
+338,"query: Actor Rakesh Kadri has created a graphic video in Algeria, जिसमें मुम्बई के आदिवासी",query: أصدر الفنان المغربي رشيد قاسمي، المقيم في الديار البلجيكية، أغنيته مصورة تحت,arb_Arab,arb_Arab,0.0
+339,"query: ” Based On My Experience, हमने यह सच बताया कि हम अकादमी और बादल","query: لكن من تجربتي الخاصة, اقول لك انه نحن و القدر من تسبب بالجراح التي ادمت",arb_Arab,arb_Arab,0.06666666666666667
+340,"query: CMS Anjar opened a various development scheme in Dumar आज मुजफ्फरनगर, मुजफ्फरनगर",query: افتتحت في مديرية ضوران آنس بمحافظة ذمار، اليوم الأحد، عدة مشاريع تنمو,arb_Arab,arb_Arab,0.0
+341,query: हमारा धर्म इस्लाम पवित्र शास्त्र है. हमारा धर्म इस्लाम पवित्र शास्त्र है.,query: مذهبنا إسلامي. يستند فقهنا على نصوص القرآن الكريم، وسنة الرسول الأمين عليه الصل,arb_Arab,arb_Arab,0.09523809523809523
+342,query: DivyaMedia अब हमेशा पसंद आ रही फिल्में अब हमेशा पसंद आ रही,query: لطالما كانت وستظل الدراما الفئة المفضلة لعشاق السينما لذلك نقدم إليكم,arb_Arab,arb_Arab,0.0
+343,"query: InextLive Jagran गिरफ्तार हुए न्यायमूर्ति डॉ. मोहम्मद कुमार नूसूट, took",query: غادر السيد يحفظو ولد محمد يوسف، رئيس المحكمة العليا نواكشوط ظهر,arb_Arab,arb_Arab,0.0
+344,"query: ⇝ शिक्षा मंत्री गुरमीत कुमार गुप्ता ने किया यह महत्वपूर्ण सहयोग, Uttar Pradesh",query: اكد وزير العدل د. حيدر الزاملي، اهمية التعاون مع جامعات وزارة التعليم,arb_Arab,arb_Arab,0.0
+345,"query: जैसा कि हम पढ़ते हैं, Lecturers Uses Accelerating Distance. जैसा कि मुस्लिम",query: وكما تقترحُ الأبحاث، يستخدم القرّاءُ السريعون الفعّالون القراءةَ المس,arb_Arab,arb_Arab,0.0
+346,query: इस्पात बिक्री - Buy Concrete houses in Indonesia इस्पात बिक्री - Buy Concrete houses in Indonesia,"query: آلات البناء إندونيسيا كسارة للبيع,بيع كسارة في مكة. كساره للبيع في مكه كسارات",arb_Arab,arb_Arab,0.0
+347,query: व् यवसाय : जिसने सबसे बड़ा सपना... व् यवसाय : जिसने सब,query: موضوع تعبير عن مهنة الطيار. لكلّ إنسانٍ طموحٌ كبير يكبر معه منذ ال,arb_Arab,arb_Arab,0.0
+348,query: Netlog 4 Latest Cheapest Discounts Latest Cheapest Discounts इस पोस्ट पर एक बड़ी छवि नी,query: كتالوج الاسعار الجديد اون لاين يحتوي 4 صفحات بالصور لآخر نشرة تخفيضات عروض نستو,arb_Arab,arb_Arab,0.07692307692307691
+349,query: मोहम्मद राफेल (M.R.P.) ने अपने संदिग्ध व्यक्तिगत दस्तावेज lost,query: فقد المواطن (حسام محمد الرفاعي) محفظته الشخصية التي تحتوي على هوية الاحوال,arb_Arab,arb_Arab,0.15384615384615383
+350,query: “दहशत” की सामाजिक सुरक्षा बर्दाश्त “दहशत” की सामाजिक सुरक्षा बर्दा,query: تدهورت الحالة الصحية للمعتقل “نادى فتحى جاهين” بسبب التعمد فى منع,arb_Arab,arb_Arab,0.1904761904761905
+351,"query: जिला पंचायत चुनाव आयोग (Civil Election Commission) has released a list of 394 candidates on Monday,",query: أعلنت اللجنة العليا للانتخابات بالاسكندرية، اليوم، قبول أوراق 409 مرشحين موزعين على,arb_Arab,arb_Arab,0.0
+352,"query: अंग्रेज़ी एपिसोड अंग्रेज़ी एपिसोड अंग्रेज़ी एपिसोड Monday,SeptemberSeptember",query: ايام الاسبوع بالانجليزية والعربي بالترتيب بالصوت ايام الاسبوع بالانجليزي والعربي بالترتيب بالصوت ,arb_Arab,arb_Arab,0.0
+353,query: Home » Unlabelled » यह नई दिशा दिखाई देता है दक्षिण अफ्रीका फुटबॉल,query: كشف الموقع العالمي “فوتبول داتاباز” عن تصنيف جديد للأندية العالمية من بينها الأندية ,arb_Arab,arb_Arab,0.0
+354,query: Wasimuddin Verma added important contribution to bilateral cooperation भारत और बांग्लादेश उपराष्ट्रपति दिलीप ,query: أكد مساعد رئيس الجمهورية فيصل حسن إبراهيم، أهمية تعاون السودان وفيتنام في المجالات,arb_Arab,arb_Arab,0.0
+355,query: मुख्यपृष्ठIslamic Bank of Medina अल-बारह अल-बारह अल-बारह अल-बारह अल-,query: حول البنك الإسلامي الأردني مكتبه «بوابة المفرق» في محافظة المفرق إلى الفرع الـ,arb_Arab,arb_Arab,0.0
+356,query: It Should Be Decided :- यहां ज्यादातर महिलाएं 18 साल तक पहुंच,query: يًرجى الملاحظة أنه في بعض الدول يجب أن يكون عمرك 18 عاما أو أكثر لل,arb_Arab,arb_Arab,0.07142857142857144
+357,"query: 3 Usb Power Protective Capsule Usb Power Protective Capsule इसके साथ आसानी से पहुंचता है,",query: مقبس حائط Powerology 3 منافذ مع حماية USB مدمجة للشحن السريع ، يمكن له,arb_Arab,arb_Arab,0.07692307692307691
+358,query: यह एक कहानी जिसकी कहानी वास्तविकता तक पहुंचती है. By रमेश D.,query: كتبت هذه الرواية من أعماق الواقع. في مرحلة ما يمكنك اعتبارها رواية م,arb_Arab,arb_Arab,0.07692307692307691
+359,"query: Posted On July 7, 2006 मोहम्मद हसीन अनेक इमारतों पर गिर गया था मोहम्मद हस",query: مر مايقرب من خمس سنوات على رحيل الأستاذ محمد حسنين هيكل زلزلت فيها ,arb_Arab,arb_Arab,0.0
+360,query: हमारे बच्चों ने किया जबरदस्त अनुवाद By Umit Abdullah Online हमारे बच्चों ने,query: نستعرض معكم عبر موقع تعليم الإمارات، أوراق عمل درس العطف على الأبناء لغة عربية,arb_Arab,arb_Arab,0.0
+361,query: इस्पात सिंड्रोम - Ideal Meridian इस्पात सिंड्रोम - Ideal Meridian इस्पात सिंड्रोम,query: تعدين الذهب حلول البيئة.... مصر حجر كسارات الذهب حلول التعدين البيئة التعدين التقليدي,arb_Arab,arb_Arab,0.0
+362,"query: The Latest Investigations took place on July 16, जिसमें विभिन्न जिलों में दंगाइए और",query: وحدد التقرير أبرز المناطق التي شهدت حملات المداهمات في شهر أيلول الفائت، واحتلت ,arb_Arab,arb_Arab,0.0
+363,query: EXCLUSIVE: Ronaldo did not go away from his club... यूरोपीय फुटबॉल लीग कप्तान रोहित,query: لم ييأس مروّجو دوري السوبر ليغ الأوروبي في كرة القدم: فبعد رئيس ريال مد,arb_Arab,arb_Arab,0.06451612903225808
+364,query: Arabic Victims always keep their fingers crossed. They always accomplish anything. मुस्लिम,query: المصمّمون العربيّون ينجحون دائماً في تخطّي كلّ الحدود، فيتركون بصم,arb_Arab,arb_Arab,0.0
+365,query: I didn't think so much इसलिए इसका मतलब इसलिए इसका मतलब इसलिए इसका मतलब रोहित,query: المهم قررت أن لا أنطق هذا الحرف مهما صار لي، وبالفعل صرت لا أنطق هذا ال,arb_Arab,arb_Arab,0.0
+366,query: https://www.google.com/android/logo?url= https://www.google.com/android/logo?url=,"query: `; var android_link = ""https://goo.gl/LEshRf""; var ios_link = ""https",eng_Latn,eng_Latn,0.25000000000000006
+367,query: यह दृष्टिकोण हमारे लिए बहुत महत्वपूर्ण है Real Estate Investing यह दृष्टिकोण ,query: هذا المشروع الاستثماري له أهمية كبيرة لبلدينا، وهذه خطوة ستعزز بلا شك التعاون الاقتصادي,arb_Arab,arb_Arab,0.0
+368,"query: जब आपके पास मिली बेहतरीन डिजिटल होस्टिंग,Coming A Real Estate,Coming",query: بمجرد حصولك على الاستضافة والمجال ، مع أي شركة استضافة رخيصة ،,arb_Arab,arb_Arab,0.0
+369,query: यदि आप अपने बच्चों के साथ बिल्ड एडिशन करना चाहते हैं? While going to,query: إذا كنت تخطّط لزيارة دبي برفقة أولادك وترغب في ممارسة أنش,arb_Arab,arb_Arab,0.0
+370,query: How to Learn During Courage.. जब लोग सिर्फ पढ़ते ही नहीं बल्कि पढ़ते ही..,"query: بالتدريب وحده تصبح قارئا سريعا. تذكر أن الناس لم يولدوا مع ""موهبة القراءة",arb_Arab,arb_Arab,0.0
+371,query: Thought on the fate of these boats... अगर अब दहल जाएगी... अगर दहल जाएगी...,query: كانت تتخيل مصيرها: هل ستقع في يد مسافر عطشان.؟... أم ستنتقل على العربات,arb_Arab,arb_Arab,0.07407407407407407
+372,query: Home : ACTIVITIES : रोमांस : रोमांस : रोमांस : रोमांस :,query: :الرئيسية: :جواريات: :إنشغالات و ردود: :الرياضة: :رو,arb_Arab,arb_Arab,0.16666666666666666
+373,query: हार्दिक पांड्या ने लगाया मुकदमा against himachal youth team उम्मीदाबाद उम्मीदाबाद,query: نفى مصدر بالنادي الأهلي معاقبة محمود عبد المنعم كهربا لاعب الفريق على خلفية اتها,arb_Arab,arb_Arab,0.0
+374,"query: हनुमान राशि द्वारा दिखाई यह वास्तविक दृश्य, Know The Meaning Of Shamee In",query: تفسير رؤية الخنفساء وأكلها فى المنام بالتفصيل من خلال موقع محتوى ،,arb_Arab,arb_Arab,0.0
+375,query: According to a Particular Area where there is a Spread Of Expensive Wife बिजनेस अस्पताल,query: أو إن كان زوج العملة يتواجد في منطقة تتميز بزيادة البيع Oversold والمعنى العام لهذا,arb_Arab,arb_Arab,0.0
+376,query: Alive News - जम्मू-कश्मीर जिलाध्यक्ष मोहम्मद उल हक ने आयोजित राजधान,query: حائل -عامر اللوزي زار صاحب السمو الملكي الأمير عبدالعزيز بن سعد بن عبدالعزيز أمير,arb_Arab,arb_Arab,0.0
+377,query: यह विषय जिसकी शुरुआत अंग्रेजों तक हुई Since the beginning of History AHMEDABAD,query: هذا الموضوع يتناول تاريخ العلوم عندالعرب منذ بدء النهضة العلمية في أواخر القرن الثاني للهج,arb_Arab,arb_Arab,0.0
+378,query: 1. किस प्रकार फॉरेक्स मार्केट खोजता है - Haqeeqat Haqeeqat Haqeeqat,query: 1 نبذه تعريفيه عن كورس إدارة رأس المال لمتداولين الفوركس : 2 1- أه,arb_Arab,arb_Arab,0.08333333333333333
+379,"query: Choose These Various Textile Products,जिससे बढ़ेगा आरामदायक और सफेद होम मोहम्म",query: اختر أكثر حيادية ، أخف منظف وترطيب كريمهذه الأنواع من المنتجات سوف تساعد,arb_Arab,arb_Arab,0.0
+380,query: मुख् यालय सचिव सफाई में बढ़ोतरी 15 सितंबर तक Rs 1585 Fopal,query: تحسن رقم معاملات المكتب الشريف للفوسفاط بنسبة 38 في المائة حتى شتنبر 15,arb_Arab,arb_Arab,0.08
+381,"query: सस्ते साबुन उपकरण विक्रेताओं - Samsag.Com Disposable Cloth Store In Ahmedabad,",query: بيع المنسوجات - والاقمشة- محلات بيع الصابون مسحوق الجملة في موقع تسجيل ال,arb_Arab,arb_Arab,0.08333333333333333
+382,query: Umman Fatima Primary Care Center एक घरेलू स्वास्थ्य संस्था है जिसमें Umman Fatima Primary Care,query: مركز بيت الامل لعلاج الادمان والصحة النفسية بسلطنة عمان هو أحد فروع المؤسسة الأم,arb_Arab,arb_Arab,0.0
+383,query: यमन डॉट कॉम यहां सूचीबद्ध विभिन्न औषधीय संस्थाओं including Diet And,query: دليل يضم شركات الأطعمة والمشروبات في اليمن مرتبة حسب التخصص وكذلك حسب ال,arb_Arab,arb_Arab,0.0
+384,query: शिक्षा મંત્રાલય ने इन बच्चों और लड़कियों को आवेदन किया Before 01 July,query: حثت وزارة التربية والتعليم أولياء الأمور ممن لديهم أبناء أو بنات في سن القبول,arb_Arab,arb_Arab,0.0
+385,query: एक रचनाकार जिसने 6 रंग और इतिहास की भविष्यवाणी Hi Wab Roman Dostoi,query: شخصية تاريخية و مخترع وعالم وكان رسام من 6 حروف ؟ أرجو المساعدة في حل هذا,arb_Arab,arb_Arab,0.06896551724137931
+386,query: Google Increases Horoscope Images in Hindi 1366 1366 1366 1366 1366 1366 लखनऊ इतिहास,query: تتزايد مؤشرات البحث على جوجل حيال صور تهنئة راس السنة الهجرية 1442 ,arb_Arab,arb_Arab,0.0
+387,query: Home > Abu Dhabi > राजस्थानी मॉडल ने बच्ची से छेड़छाड़ Posted at: Sep 19,query: رام الله مكس _ تُواجه خادمة آسيوية في دبي تهمة التحرّش بطفل مصاب بالت,arb_Arab,arb_Arab,0.0
+388,query: नई आधार नीति : आदेश - Drishti Darpan नई आधार नीति : आ,query: أحكام إدارية عليا حديثة - ترخيص * ترخيـــص : ـ المبدأ :,arb_Arab,arb_Arab,0.19999999999999998
+389,"query: Municipal Elections in Riyandia अब पहली बार हुआ विधानसभा चुनाव Updated on 31st January,",query: بدأ الناخبون في البحرين التصويت السبت في انتخابات تشريعية وبلدية هي الاولى منذ بدء,arb_Arab,arb_Arab,0.0
+390,"query: Current Affairs Today These Political Headlines were very Important आंतरिक साप्ताहिक, कपिल शर्मा",query: أبرزت صحف القاهرة الصادرة صباح اليوم السبت الشأنين المحلي والخارجي، خاصة الاعت,arb_Arab,arb_Arab,0.0
+391,query: अनोखे हिंदी सिनेमा भविष्यवाणी3Panchayat Bhojpuri Television3Panchayat Bhojpuri Television,query: تلفزيون بانيتاغاني mp3افلام عربية قناة هلاعالم السياراتحالة الطقسابراج,arb_Arab,arb_Arab,0.0
+392,query: Important Notice :- इस पोस्ट में आपको ऑनलाइन डिग्री परीक्षा वितरित किया जाएगा,query: ملاحظة : سوف يتم ارسال الشهادة الخاصة بكم على بريدكم الالكتروني فور الاجابة ,arb_Arab,arb_Arab,0.07407407407407408
+393,query: Posted by: मोहम्मद लाल अहमद Posted by: मोहम्मद लाल अहमद Last Modified: 2020/07/,query: يجب ذكر المصدر عند الاقتباس: المحمداوي محمد جواد ،(2020):درجة صعوبة,arb_Arab,arb_Arab,0.08333333333333334
+394,"query: फफसरिया फफसरिया फफसरिया is a natural plant, which produces various colonies. इस",query: الدبوسية الفرفرية هي نوع من أنواع الفطريات الطفيلية على الحبوب، حيث ينتج,arb_Arab,arb_Arab,0.0
+395,query: दुबई में यौन उत्पीड़न का आंकड़ा 22 हजार बढ़कर 22 हजार हुआ Publish Date,query: تجاوز عدد حالات الإصابة بالفيروس التاجي المسجلة في العالم 22 مليون حالة يوم الثلاثاء ,arb_Arab,arb_Arab,0.07692307692307691
+396,query: RPI AMC58 Magnetic Noise Enhances a wide range of Disadvantages- माइक्रोसॉफ्ट,query: يتميز مقوي الإشارة اللاسلكية RP-AC56 بهوائيات MIMO خارجية قوية تساعد في تقليل,arb_Arab,arb_Arab,0.0
+397,query: डिजिटल उपयोगकर्ताओं ने इस्तेमाल किया अलग-अलग एडिटोरियल Laptop Ghaziabad,query: حددت غرفة شركات السياحة أنواع أجهزة القارئ الألكترونى الذى يتوائم مع إد,arb_Arab,arb_Arab,0.0
+398,query: भविष्यवाणी और उच्चतम न्याय परामर्श Author Topic : भविष्यवाणी और उच्चतम,query: الدراسات العليا مناقشة البحوث و الأطاريح مناقشة أطرحة دكتوراه : فقه التوقع,arb_Arab,arb_Arab,0.10526315789473685
+399,query: ” हम बहुत सुंदर रह गए और Computer Discovery in Nottingham ” हम Computer Discovery in ,query: نحن راضون جدا وسعيدون لأننا وجدنا ليجند لتكنولوجيا الكمبيوتر كشريك في التن,arb_Arab,arb_Arab,0.0
+400,"query: इसके अलावा, कौन-कौन-कौन हर इलाके में लोकप्रिय है ""The House Of","query: وبمشهد مألوف في جميع أنحاء البلاد، فإن البيوت التقليدية الكورية، باسم ""هان",arb_Arab,arb_Arab,0.07692307692307693
+401,query: Example Of Writing Example Of Writing अगर हम उदाहरण देते हैं कि रिटायर्ड बिजनेस,query: فعلى سبيل المثال إذا أردنا كتابة سيرة ذاتية محاسب حديث التخرج فسوف يقول ,arb_Arab,arb_Arab,0.0
+402,query: यह एक बहुत ही जटिल समस्या है जिससे Remove Dhairag From Her Vegetable जिससे,query: يبحث الكثير عن كيفية التخلص من العرسة ذلك الحيوان الثديي المزعج والذي يسبب,arb_Arab,arb_Arab,0.0
+403,"query: वक्फ इंजीनियरिंग विभाग के वक्फ इंजीनियरिंग विभाग ने कहा, “It was applied in",query: هندسة معدات طبية في سلطنة عمان. وقالت الوزارة في ردها بأن التخصص تم است,arb_Arab,arb_Arab,0.0
+404,query: विभिन्न प्रकार की तहसील मशीन विभिन्न प्रकार की तहसील मशीन Tufan,query: نوع مختلف من آلة الطحن المعلمات السيطرة آلة طحن حزام نوع الخرزة آلة ,arb_Arab,arb_Arab,0.0
+405,query: Actor Deena Hirani posted a shocking photo on social media मुस्लिम अभिनेत्री डिना हरियाणा,query: تداول نشطاء مواقع التواصل الاجتماعي صورة للفنانة السورية الراحلة دينا هارون في المستش,arb_Arab,arb_Arab,0.0
+406,query: The Walking Dead एपिसोड डाउनलोड Home » The Walking Dead एपिसोड डाउनलोड The Walking Dead एपिसोड,query: دايركت أب»تحميل العاب موبايل»تحميل العاب اندرويد»العاب أكشن»تنزيل لعبة The,arb_Arab,arb_Arab,0.2222222222222222
+407,query: यौन संबंध जिसकी मुख्य वजह जीवनशैली और शारीरिक स्वास्थ्य In Hindi :,query: نمط الحياة والنظام الغذائي من أهم الأسباب التي تؤثر على الصحية الجنسية. في,arb_Arab,arb_Arab,0.0
+408,"query: Odia.co.in मुजफ्फरनगर पुलिस की एक रिपोर्ट के मुताबिक, “आंतरिक सुरक्षा",query: وحسب ما نقلته وكالة أنباء “يونهاب” المحلية عن مركز تدابير الحجر الصحي، ف,arb_Arab,arb_Arab,0.07407407407407407
+409,query: “Lanabik” ने अपने विभिन्न हितों पर सख्त ध्यान केंद्रित करते हुए,query: وعبرت “لانابيك” عن استعدادها لوضع كافة مصالحها ذات الاختصاص رهن إشارة,arb_Arab,arb_Arab,0.15384615384615385
+410,"query: ईरानी हसीन, ईरानी हसीन, real real real real real real real real real real real real",query: هاري هوديني واسمه الحقيقي إريك وايس ، ساحر ولاعب خفة عالمي مجري، تميز ,arb_Arab,arb_Arab,0.0
+411,query: स्टोरी मुख्य रूप से एक संघर्ष लड़ाई रही है जिसमें Atal Verma तिब्बत,query: تدور أحداث الحلقة في إطار مشهد صراع تاريخي حيث أن عثمان بن ارطغرل ,arb_Arab,arb_Arab,0.0
+412,query: Clipper28 Digital Media मुख्यमंत्री कपिल सिसोदिया ने दी यह बधाई मुख्यमंत्री कपिल सिसोदिया,query: رحبت دولة قطر بالمبادرة التي طرحها، السيد فائز السراج رئيس المجلس الرئاسي ,arb_Arab,arb_Arab,0.0
+413,query: Sam Sadhana यह आकर्षक डिजिटल स्मार्टफोन लॉन्च करने की उम्मीद है Around,query: من المتوقع أن تطرح شركة سامسونج تشكيلية من هواتفها الذكية المنخفضة التكلفة في ,arb_Arab,arb_Arab,0.0
+414,"query: ईमानत पूर्णिमा Archives - NET DAKIYA ईमानत पूर्णिमा October 3, 2017 admin",query: اعمال نهاية السنة الوحدة الاهتلاكات بسم الله الرحمان الرحيم السلام عليكم زوار و أعضاء منت,arb_Arab,arb_Arab,0.0
+415,"query: महिलाएं वह तानाशाही हैं जिसके अंदर महिलाएं वह तानाशाही हैं,Doonited",query: هناك تصرفات تكرهها المرأة في الرجل، فالمرأة هي روح الكون وهي حيا,arb_Arab,arb_Arab,0.0
+416,query: Ranjan Rawal यह आयुर्वेदिक उपचार बहुत ही उपयोगी है जिसमें मुंह और मु,query: وصف الرمان في الطب القديم انه جيد للمعدة مقوي لها ، نافع للحلق والصدر والر,arb_Arab,arb_Arab,0.0
+417,query: Title : मुस्लिम लड़की मुस्लिम लड़की मुस्लिम लड़की This post has been,query: خاص بالمسابقة قصيدة النثر الاسم : وسيلة المولهي البلد : الجمهورية التونسية #ر,arb_Arab,arb_Arab,0.09523809523809525
+418,query: विदेश मंत्री योगी आदित्यनाथ ने किया बड़ा खुलासा The Tribune India विदेश मंत्री योगी आद,query: قال وزير الخارجية التركي مولود جاويش أوغلو إن النائب العام السعودي سعود بن عبد الله المعجب اعت,arb_Arab,arb_Arab,0.0
+419,query: जब हमारे घर हमेशा connected with tech... जब हमारे घर हमेशा connected with tech...,query: دائما حياتنا اليومية مزدحمة. ولكن عندما تكون تكنولوجيا منزلك متصلة ب,arb_Arab,arb_Arab,0.0
+420,query: Rasal Al Alia - रेसिपी और डिजाइन Rasal Al Alia - Rasal Al Alia ,query: AlAila Rice أرز العائلة. رز باللحم والبازلاء تغيير عن وصفات الرز - ل,arb_Arab,arb_Arab,0.09523809523809523
+421,query: Youth Empowerment Project Initiated At HDO. इस कार्यशाला का आयोजन किया गया HDO और,query: إستضافة منظمة H2O المعنية بتطوير الوعي و الثقافة. تم تنفيذ ورشة عمل,arb_Arab,arb_Arab,0.07407407407407408
+422,query: Scrubging is a modern occupation. जब बचपन तक लड़कियां अपने मुंह तक पहुं,query: المضغ هو مهارة يتم اكتسابها خلال المراحل الأولى من الحياة. يمكن للأطفال عاد,arb_Arab,arb_Arab,0.07407407407407408
+423,"query: Download the book ""अलग रास्ते पर मुस्लिम लड़कियां"" by Ayodhya Ali Ghaziwal in","query: صدر كتاب ""الوهابية على مفترق طريقين"" من تأليف آية الله مكارم الشيرازي باللغ",arb_Arab,arb_Arab,0.13333333333333333
+424,query: Sarfael Patel लॉकडाउन के बाद विभिन्न देशों में घरों पर लगाए गए वैवाहिक,query: ويمارس سكان باريس مثل العديد من الدول اجراءات العزل الصحي في المنازل بعد انتشار الوباء وار,arb_Arab,arb_Arab,0.0
+425,query: मायावती addresses Emmanuel Macron on strategic partnership between Somalia and Somalia. सचिन तेंदुलकर,query: الرئيس السيسي يستقبل مريم الصادق.. ويؤكد النهج الإستراتيجي لمصر بدعم العلاقات مع السودان,arb_Arab,arb_Arab,0.0
+426,"query: 'The Daughter' was a very special prize written by साजिद गुप्ता, लखनऊ","query: ""جائزة الأسرة والطفل"" كانت من نصيب الزميلة اللبنانية، المخرجة سارة قصير،",arb_Arab,arb_Arab,0.0
+427,query: Tourists Enjoying Historic Travel :इतिहास और पूर्वांचल के आसपास रहने वालों में यह,query: حالة من الترقب يعيشها عشاق السياحة والسفر حول العالم، خاصة المهتمين بالحضارات القديمة,arb_Arab,arb_Arab,0.0
+428,query: संतोष मिश्रा ने लगाई मुसीबत जब धारावाहिक पहुंचने का मामला... – The,query: نشوى مصطفى تتهم بمذيعة بإختلاق مشكلة لمنعها من دخول الإذاعة -,arb_Arab,arb_Arab,0.0
+429,query: मोहम्मद डांस अपने बच्चों पर घूमता है Andhra Pradesh Andhra Pradesh Andhra Pradesh Andhra Pradesh And,query: الموسيقى تغري الأطفال بالتجاوب معها بالرقص على نغماتها والدبدبة بأقدامهم على,arb_Arab,arb_Arab,0.0
+430,"query: वर्तमान में इस कॉलेज में प्रोफेसर रोहित पुरी ने Writing a Very Interesting Essay,","query: في دراستها المهمة التي نشرتها مؤخرا في ""بوسطن ريفيو""، تشير أستاذة الأدب",arb_Arab,arb_Arab,0.0
+431,query: Ashok Ghaziabad – NET DAKIYA Ashok Ghaziabad बनी साम्प्रदायिक गठबंध,query: هاشتاق عربي – وقع بنك سوسيته جنرال الأردن SGBJ وشركة نوى للتنمية المستدام,arb_Arab,arb_Arab,0.09523809523809525
+432,"query: कहते हैं : “If you don't believe in the death of all those who are infidel, भगवान","query: ""قل يا أيها الذين هادوا إن زعمتم أنكم أولياء لله من دون الناس فتمنوا الموت",arb_Arab,arb_Arab,0.0
+433,"query: Precision Trolley मशीन, Precision Trolley मशीन, Precision Trolley मशीन, M",query: مطحنة PC Hammer ، MTW ، MTM متوسطة السرعة مطحنة Trapezium ، مطحن,arb_Arab,arb_Arab,0.0
+434,query: Home » Biography » हरियाणा के बॉलीवुड अभिनेता मोहम्मद हरियाली Dies at a age,query: أُعلن مساء الإثنين، عن وفاة المغني الجزائري الشاب هواري منار عن عمر يناهز 36,arb_Arab,arb_Arab,0.0
+435,query: DataTable मुख्य तत्वों की सूची बनाती है यह DataTable मुख्य तत्वों की सूची बनाती है,query: تعد الجداول عناصر أساسية في قاعدة البيانات لأنها تتضمن كل المعلومات أو البيانات. على,arb_Arab,arb_Arab,0.0
+436,"query: मुख्तार अग्रवाल ने तैयार किया एक लघु पुलिस कमिश्नर Publish Date:Wed, 03 Aug",query: كشف وزير العدل حافظ الأختام الطيب لوح أنه سيتم تشكيل فوج مصغر مطلع شهر ,arb_Arab,arb_Arab,0.0
+437,query: कांग्रेस विधायक मोहम्मद मसूद ने मिलकर दी बड़ी खुशखबरी Posted By: admin Masjid,query: رحبت أحزاب اللقاء المشترك بمبادرة فخامة المشير الركن مهدي المشاط، رئيس المجلس ,arb_Arab,arb_Arab,0.0
+438,query: <% if ( total_view > 0 ) 4 दिन बाद फिर शुरू हुई एक ताबड़तोड़ पु,query: * ثم لم تمر إلا (24) ساعة حتى أعلن عن محاولة انقلابية جديدة، تم بعدها اع,arb_Arab,arb_Arab,0.11428571428571428
+439,query: ☰ 3 ☰ 4 ☰ 5 ☰ 6 ☰ 7 ☰ 8 ☰ 9 ☰ 9 ☰ नवरात्र,query: 1-القرآن الكريم 2- حديث شريف 3- دعاء اليوم 4- كلمة الصباح 5- حكاية النملة والحبات الثلاث,arb_Arab,arb_Arab,0.0
+440,query: Sidi Daoda was a very disturbing residential area of Rio de Janeiro इस शहर में सिद्दोरा डी,query: سيداد دي ديوس أحد الأحياء الفقيرة في مدينة ريو دي جانيرو الذي اشتهر من خلال,arb_Arab,arb_Arab,0.0
+441,query: Oral justice can be accomplished at each other । इसके साथ ही महिला और पुरुष निर,query: ممكن ان تعملها المراة للرجل وكذلك الرجل للمراة في الحلال مع اخلاص النية لله عز,arb_Arab,arb_Arab,0.0
+442,"query: Arbitrary Laws Established At The Boundary जैसा कि वास्तविक भुगतान लागू हुआ,","query: الحدود على احجام العقود و التعرض مطبقة بشكل افتراضي, اعتماداً على عملة ال",arb_Arab,arb_Arab,0.07692307692307693
+443,query: यह तस्वीर बेहद प्रतिबंधित है जब हम सभी दफ्तरों में Gymnastic D.,query: في الوقت الذي يحظر التدخين بالنسبة للاعبين في كل مكان هذه الصورة تسترعي,arb_Arab,arb_Arab,0.0
+444,"query: बिजनेस स्टैंडर्ड, Dhoni reveals a new BMW i40 coupe in 2020 BMW i40 ",query: كشفت شركة بي أم دبليو صانعة السيارات العالمية عن سيارة BMW X4 2020 الجديدة، تعتبر السي,arb_Arab,arb_Arab,0.14285714285714288
+445,query: Find out the Complete Online Binary Bargains at Anirmal.co.in आखिरकार आपकी वेबसाइट,query: تأكد من الحصول على Anvarol فقط من CrazyBulk موقع على شبكة الإنترنت الشرعي.,arb_Arab,arb_Arab,0.0
+446,query: HONDIA HINDI UNIVERSITY takes a look at Conflict Investigation – संतोष जैन यूनिवर्सिटी,query: تتشرف أكاديمية هاني فحص للحوار والسلام بالشراكة مع جامعة القديس يوسف – معهد,arb_Arab,arb_Arab,0.07692307692307693
+447,query: ज्यादा आकर्षक यौन उत्सव » Haqeeqat Realistic ज्यादा आकर्षक यौन उत्,query: امتياز الخيال العلمي الأكثر إثارة للإعجاب والأكثر إثارة للإعجاب على الهواتف الذكية,arb_Arab,arb_Arab,0.0
+448,"query: The team created a unique cancer vaccine, जिसकी मदद से हरियाणा मेडिकल कॉलेज ‘",query: صمم فريق من الباحثين، في جامعة “هارفارد، لقاحا للسرطان قادر على إحد,arb_Arab,arb_Arab,0.0
+449,query: EEPR revealed a secret plan which was planned on Tuesday मुस्लिम पुलिस मुस्लिम पुलिस मुस्,query: كشفت إذاعة الجيش الاسرائيلي، صباح الخميس، عن تفاصيل مخطط أعدته المخابرات المصر,arb_Arab,arb_Arab,0.0
+450,"query: Created On January 16, 2021 by Kiran Dwivedi Kiran Dwivedi समुद्र तटों में बड़ा बदलाव",query: مع ظهور جائحة كوفيد العالمية، تغير المشهد الساحلي والبحري في كينيا بطرق لم يكن من,arb_Arab,arb_Arab,0.0
+451,"query: They Are Various Types Of Virgo, जिनमें बहुत अलग-अलग रोशनी मिलती है ",query: تُعرف الورود بأنواعها المختلفة الساحرة ، و على الرغم من وجود أنواع كثير,arb_Arab,arb_Arab,0.0
+452,"query: तेजस्वी अग्रवाल ने लॉन्च किया ट्विटर एप, which allows to access large posts","query: بدأ موقع التدوين المصغر ""تويتر"" إتاحة الميزة التي تسمح للمستخدم بتحميل أرشيف",arb_Arab,arb_Arab,0.0
+453,query: मुजफ्फरनगर महिला विकास महोत्सव /Sabal Ali took a proud exhibition at Lodi,query: صناعة حلب تختتم معرض /المرأة الحلبية صمود وتحدي وابداع/ بتخريج ال,arb_Arab,arb_Arab,0.0
+454,query: “But GOALANI did not take these difficulties” गुलाब गौलानी ने अभी-अभी संघर्ष,query: ويبدو أن مساعي “الجولاني” لم تخب هذه المرة، إذ دعت مجموعة الأزمات,arb_Arab,arb_Arab,0.14285714285714285
+455,query: 15 ) There is a possibility of getting a custody रजिस्ट्रेशन शुरूआत के दौरान,query: 15ـ يكون للمرخص له فى الاستكشاف أثناء سريان مدة الترخيص حق الحصول على,arb_Arab,arb_Arab,0.0
+456,query: Read legendary story of Dileep Tirkey मुजफ्फरनगर शहीद दिलीप तिरीकी की पहली कहानी,query: قصة تحكي قصة استشهاد أول شهيد إماراتي ليروي دمه ثرى جزيرة طنب الكبرى,arb_Arab,arb_Arab,0.0
+457,query: सिमुल रॉकेट कैसे दिखाएं. सिमुल रॉकेट कैसे दिखाएं. Amrica,query: ألمانيا رمل السيليكا آلة. طريقة العرض. تك سلسلة مخروط سحق,arb_Arab,arb_Arab,0.11764705882352942
+458,query: Bartel Marketing Agency उस समय 7 साल किया था Bartel Marketing Agency उस समय 7 साल किया था,query: مدة اربعة أشهر في 2007 في قسم التسويق بنادي برشلونة وكان عملها تدريبي باعتبارها,arb_Arab,arb_Arab,0.0
+459,query: जब मोहम्मद जैकबजीत was a very informative journalist. आज हमारे देश पड़ोसी,query: عندما كان الكاتب جمال خاشقجي مواطناً صالحاً كنا نتابع مقالاته بشغف,arb_Arab,arb_Arab,0.0
+460,query: “Asif Continues To Continue हम अभी तक यौन उत्पीड़न बलात्कारियों के,query: واضاف “اننا سوف نواصل العمل نحو الإفراج عن جميع الفتيات الذين ما زالوا في الأس,arb_Arab,arb_Arab,0.07142857142857144
+461,query: However They Doesn't Help Others इसी वजह से अन्य आतंकी बाहर लौ,query: واخيرا لا ينقذهم من حالة الياس هذه الا تدخل قوة اجنبية لها ثق,arb_Arab,arb_Arab,0.0
+462,query: There is no lack of embroidery logos जैसे कि रोशनी पोस्टर या फिर एलईडी पोस्टर,query: قد لا تحتوي على مصابيح LED الوامضة أو الألوان الزاهية أو حتى عرض رمز POST لاست,arb_Arab,arb_Arab,0.0
+463,query: Bihari Meena Salad Recipe in Hindi - Bihari Meena Salad Recipe: बर्फीली और,query: وصفة البرياني الهندي على طريقة Mariam Ramadan - هندي: في قدر على النار,arb_Arab,arb_Arab,0.17391304347826086
+464,"query: Learn how to make a football in Pakistan - www.khaskhabar.com Jul 31, 2021 3:38 am 1 min read ","query: كيف تصنع كرة القدم في باكستان - Duration: 4:31. yousifuae 318,593 views",arb_Arab,arb_Arab,0.0625
+465,query: इसके अलावा एक वकील जिन्होंने कहा – “No Human Rights Commission” which has been released by,query: غير أن مصدرا من داخل لجنة حقوق الإنسان (طلب عدم ذكر اسمه) قال للجزيرة نت إن “,arb_Arab,arb_Arab,0.05405405405405406
+466,query: अमेरिकी राष्ट्रपति Bobby Brooks revealed that he has a monopoly on making rights इजाजत,query: أكد الرئيس الأميركي جورج بوش أنه يملك السلطات التشريعة التي تخوله السماح بعملي,arb_Arab,arb_Arab,0.0
+467,"query: सामाजिक विभाग (Social Media) ने एक युवक को जब्त किया, जिसकी वजह Ola",query: أفادت وسائل إعلام إسبانية، أن الأمن المغربي أوقف بوجدة، أحد الأشخاص المشتبه,arb_Arab,arb_Arab,0.0
+468,query: यदि मुझे “Literary Meaning in Hindi” यदि मुझे “Literary Meaning in Hindi”,query: موضوع قيم صراحة يعني ولكن ممكن الاخ الكريم تصيغ لينا هاد العبارات باللغة المغربية,arb_Arab,arb_Arab,0.0
+469,query: क़ानून अनुवाद की महत्वपूर्ण भूमिका क़ानून अनुवाद की महत्वपूर्ण भूमिका Leela,query: المصاحبة اللغوية وأثرها في تحديد الدلالة في القرآن الكريم دراسة نظرية تطبيقية المؤ,arb_Arab,arb_Arab,0.0
+470,query: 'इस हड़प और इस हड़प...' – Siasat Daily 'इस हड़प और इस ह,"query: "" أنت كسرتها و خربتها "".. حتى السيسي يعلق على "" إعادة إعمار سوريا",arb_Arab,arb_Arab,0.0
+471,query: राजपाल रॉयल्स यह सबसे अद्भुत सौगात जिनकी महिलाओं और बच्चों,query: شاليهات الأميرات الرمال هي واحدة من أجمل الشاليهات التي يمكن للأسرة والأصدقاء وال,arb_Arab,arb_Arab,0.0
+472,query: TRK द्वारा यह उपचार ज्यादातर महिलाओं में दृष्टिकोण परिवर्तन नहीं Provided By Arka,query: معظم تقنيات PRK في تركيا لا يمكنها علاج ضعف النظر الناتج عن الشيخوخة و,arb_Arab,arb_Arab,0.0
+473,query: There are some documents which are not kept अदालत और मुस्लिम भाइयों अदालत और मुस्,query: هناك بعض الكتب والأشرطة يبعثها بعض الإخوة والمؤسسات الخيرية ليست موقوفة,arb_Arab,arb_Arab,0.0
+474,"query: All the prayers are held while following the Fatiha صلى الله عليه وسلم आखिरी पंक्तियों में ""","query: في كل صلاة جهرية نردد خلف الإمام عند الانتهاء من قراءة سورة الفاتحة: """,arb_Arab,arb_Arab,0.06451612903225808
+475,query: केंद्रीय मानवाधिकार परिषद (Committee of Civil Assistance) समीक्षा हुई अच्छी -,query: حيفا – مكتب الاتحاد - صادقت الهيئة العامة للكنيست بالقراءة الثانية والثالثة ,arb_Arab,arb_Arab,0.08
+476,query: यहां हमारा उद्देश्य लोगों को बेहतर प्रोत्साहन पहुंचाना है. In Mil,query: إن هدفنا هنا في المول هو تقديم الأفضل لإرضاء أفراد المجتمع. ونريد أن ن,arb_Arab,arb_Arab,0.07407407407407407
+477,"query: माइकल इलेक्ट्रिशियन ने अपडेट किया कि The Investigation Was Not Based On The Truth, ले",query: وقالت ميتسوبيشي إلكتريك إنها تتحرى صحة التقرير لكنها لم تعلق على ال,arb_Arab,arb_Arab,0.0
+478,query: • विभिन्न ढाखों की रचना यह पहली रचना थी Ramkaal Bagh (Ramkaal,query: · كانت المحاولات الأولى لصنع الخشب الرقائقي ( وهو عبارة عن طبقات مغراة من,arb_Arab,arb_Arab,0.08
+479,query: इन तीन प्रमुख समस्याएं होती हैं जिनमें उच्च रक्तचाप और उच्च रक्तचाप (Al,query: بعض هذه تشمل النمو داخل الرحم ومقاومة الأنسولين (للأطفال الذين تتراوح أعمار,arb_Arab,arb_Arab,0.08
+480,query: “Withdrawal Measurement is Better than physical examination यहां घरेलू चिकित्सालय और यहां,query: وقد يكون قياس ضغط الدم في المنزل أكثر مصداقية بالمقارنة مع الفحص في عيادة,arb_Arab,arb_Arab,0.0
+481,query: Leave a Comment : नमस्कार दोस्तों क्या मुझे आगे आया है फाल्गुन अब्दुल,query: السلام عليكم أخ أرسلان أريد منك جواب ب نعم أولا هل سوف تعود الفاتحون إلى ال,arb_Arab,arb_Arab,0.0
+482,"query: भगवान صلى الله عليه وسلم: जिस जगह हमने स्थापित किया शांति, हर जगह",query: في أي مكان والحمد لله، النبي عليه الصلاة والسلام قال: ((وقفت هاهنا وعرفة كلها,arb_Arab,arb_Arab,0.13333333333333333
+483,"query: Youth Building Association opened with the initiative of ""अखिल भारतीय जनता लड़ाई संगठन"", बल","query: افتتح اتحاد بلديات جبل عامل، بالتعاون مع ""جمعية جهاد البناء الإنمائية""، والتنسيق",arb_Arab,arb_Arab,0.125
+484,query: Deputy Chief Judiciary Firali Bihari presented a very emotional statement जबकि आज सिरोही,query: وقالت الرئاسة الجزائرية في بيان مقتضب إن الراحل سيوارى الثرى عصر اليوم بمقبرة الع,arb_Arab,arb_Arab,0.0
+485,"query: उस समय मुझे बहुत घबराया Posted On: December 23, 2009 In: Blogs उस समय मुझ",query: بدأت هذه المدونة في سبتمبر 2006 وكنت قلق جدا من التجربة. لم اعتد وقتها ان,arb_Arab,arb_Arab,0.0
+486,query: Grenate Construction Company Auctioned 14 Remdesials Grenate Construction Company Auctioned 14 Remdesials मुजफ्फरनगर (,"query: الجرانيت المحجر الأعمال في سودان مصنع أسمنت في, من طرح 14 رخصة للأسمنت الرمادي",arb_Arab,arb_Arab,0.09090909090909091
+487,query: मेरी पड़ोसी पत्नी ने EEG Diagnostic started within 8 days and her husband very परेशान,query: اختي انسه عمرها ١٨ عام تعاني من صداع ودوار متلازمين وعند مراجعة الطبيب اكد,arb_Arab,arb_Arab,0.0
+488,"query: मुझे नहीं पता कि जितनी किताब मुझे आज तक छीनती है.... Satish Mishra,",query: يستطيع أي قارئ أن يسميني كاتب السعودة ومعه حق.. فأنا منذ سنوات أكتب عن السع,arb_Arab,arb_Arab,0.0
+489,"query: मिश्र धातु खनन Radhika Verma Washing Machinery Co., Ltd. 86182 मिश्र धातु खनन",query: آلات التعدين حصاة الحجر الجيري البازلت vsi ماكينة صنع الرمال 260tph vsi 8518 ماكينة,arb_Arab,arb_Arab,0.0
+490,"query: Written by: रमेश रीमेक Posted on July 27, 2020 July 27, 2020 by रमेश री","query: نشرت بواسطة: سمر ركن في كتاب المقالات 27 يوليو, 2020 التعليقات على ريما",arb_Arab,arb_Arab,0.2962962962962963
+491,"query: صلى الله عليه وسلم यह सबसे बड़ी निष्पादक कार्य है, जिसमें رسول صلى الله عليه وسلم",query: ذِكر الله تعالى من أعظم الأعمال الصَّالحة، وهي يَسيرة على من ,arb_Arab,arb_Arab,0.08695652173913043
+492,query: Reasons Of Increasing Natural लाइफस्टाइल इसे अत्यधिक लोकप्रिय माना जाता है. Ricky,query: الاسم المستعار لأركنساس هو الحالة الطبيعية بسبب العديد من الفرص للأنشطة في الهواء ال,arb_Arab,arb_Arab,0.0
+493,"query: ""मुस्लिम वकील इमरान सिंह"" and ""मुस्लिम वकील इमरान सिंह"" ",query: أحبط محاولة إغتيال «عبد الناصر وعبد الحكيم عامر».. «سمير الإسكندراني»,arb_Arab,arb_Arab,0.0
+494,"query: जब आप बिजनेस में बेहद पसंद आते हैं Firlic Zeppelin, Firlic Zeppelin नमस्कार",query: إذا كنت مهتما في بيرليك العلامة التجارية فون سماعات سماعة، ترحيب لزي,arb_Arab,arb_Arab,0.0
+495,query: When Elon Morgan became the illegal mortgage laws. मॉर्गन अंडरसन 1873. उस समय,query: تاريخ مورغان الدولار الفضي. في فبراير 1878 ، أصبح قانون بلاند أليسون قانونًا,arb_Arab,arb_Arab,0.07142857142857142
+496,query: Youth vacation offers tremendous benefit to children..मिताली पटेल..मिताली पटेल..,query: برنامجا ترفيهيا للمستفيدين من الحملة الصيفية للبنين..والعتيبي يؤكد الاقبال,arb_Arab,arb_Arab,0.09523809523809525
+497,query: थोक ग्रेनेड बिजनेस निर्माण थोक ग्रेनेड बिजनेस निर्माण GWALIOR Total,query: المقالي لصنع غربال للحجارة صغيرة لتعدين الذهب للبيع كامل الغرينية مصنع غسل,arb_Arab,arb_Arab,0.0
+498,query: Various Occasions Who Used To Continue The Golden Cliff गुलाब गुलाब गुलाब गुलाब ,query: رشحه كثيرون لمواصلة المشوار الذهبي الذي قطعه مع القلعة البيضاء طيلة عام,arb_Arab,arb_Arab,0.0
+499,query: इस् लीज मोहम्मद मिजाज - Inext Live ⁄ इस् लीज मोहम्मद मोहम्म,query: عيسى الاحسائي - طائرات الميج 21 عيسى الاحسائي طايرات الميج واحد وعشرينكلمات ال,arb_Arab,arb_Arab,0.10526315789473685

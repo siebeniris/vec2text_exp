@@ -1,0 +1,4 @@
+,deu_Latn,mlt_Latn,tur_Latn,hun_Latn,fin_Latn,kaz_Cyrl,mhr_Cyrl,mon_Cyrl,ydd_Hebr,heb_Hebr,arb_Arab,urd_Arab,hin_Deva,guj_Gujr,sin_Sinh,pan_Guru,cmn_Hani,jpn_Jpan,kor_Hang,amh_Ethi
+mt5_gtr_deu_Latn_32_corrector,39.83,4.83,4.87,6.55,4.79,2.11,2.0,2.21,3.99,1.1,1.02,3.42,6.08,3.35,6.45,3.34,14.19,1.57,2.65,5.7
+mt5_alephbert_heb_Hebr_32_corrector,8.34,3.35,1.91,3.59,1.29,3.09,4.68,1.87,7.63,36.27,1.56,0.27,2.22,1.91,3.03,1.89,2.41,0.58,1.01,1.89
+mt5_text2vec_cmn_Hani_32_corrector,4.27,1.96,1.74,3.32,2.06,1.76,1.19,1.49,2.26,0.92,0.68,1.28,2.32,2.01,2.26,1.88,22.05,2.86,2.38,1.68

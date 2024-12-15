@@ -59,7 +59,7 @@ class Corrector(BaseTrainer):
         )
         self.tokenizer = self.inversion_trainer.model.tokenizer
         self.embedder_tokenizer = self.inversion_trainer.model.embedder_tokenizer
-        self.embedder = self.inversion_trainer.embedder
+        self.embedder = self.inversion_trainer.model.embedder
         self.call_embedding_model = self.inversion_trainer.model.call_embedding_model
 
         self.initial_hypothesis_str = None
@@ -87,7 +87,7 @@ class Corrector(BaseTrainer):
 
         metric_key_prefix = kwargs["metric_key_prefix"]
         output = super().evaluation_loop(dataloader=dataloader, *args, **kwargs)  # type: ignore
-        if metric_key_prefix in {"eval_msmarco", "eval_nq"}:
+        if metric_key_prefix in {"eval_msmarco", "eval_nq", "eval_mtg", "eval_mt-ms"}:
             n_rounds = 5
             self.num_gen_recursive_steps = n_rounds
             multi_round_generation_metrics = self.eval_generation_metrics(
@@ -157,7 +157,8 @@ class Corrector(BaseTrainer):
         # Note that the dataset fingerprint changes with calls to select()
         # so we won't overwrite the big dataset files when we use tiny subsets
         # during testing.
-        cache_dir = os.environ["VEC2TEXT_CACHE"]
+        cwd = os.getcwd()
+        cache_dir = os.environ.get("VEC2TEXT_CACHE", os.path.expanduser(f"{cwd}/.cache/inversion"))
         assert os.path.exists(cache_dir)
         ####
         cache_path = os.path.join(cache_dir, f"{dataset._fingerprint}_hypotheses.cache")
@@ -679,6 +680,8 @@ class Corrector(BaseTrainer):
         if "frozen_embeddings" in inputs:
             frozen_embeddings = inputs["frozen_embeddings"]
         elif "embedder_input_ids" in inputs:
+            # call the inversion model to get embeddings
+            # sanity decode.
             frozen_embeddings = self.get_frozen_embeddings(
                 embedder_input_ids=inputs["embedder_input_ids"],
                 embedder_attention_mask=inputs["embedder_attention_mask"],

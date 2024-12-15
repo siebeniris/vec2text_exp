@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"jpn_Jpan": 0.98, "cmn_Hani": 0.01}, "pred_lang_word_level_ratio": {"jpn_Jpan": 0.79, "cmn_Hani": 0.13, "deu_Latn": 0.01, "others": 0.03, "eng_Latn": 0.04}, "labels_lang_line_level_ratio": {"jpn_Jpan": 0.99}, "labels_lang_word_level_ratio": {"jpn_Jpan": 0.79, "cmn_Hani": 0.12, "fin_Latn": 0.01, "others": 0.03, "eng_Latn": 0.05}}

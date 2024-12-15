@@ -7,20 +7,31 @@ from vec2text.models import InversionModel
 
 
 def tokenize_function(
-    tokenizer: transformers.PreTrainedTokenizer,
-    embedder_tokenizer: transformers.PreTrainedTokenizer,
-    text_column_name: str,
-    max_seq_length: int,
-    padding: bool = False,
-    prefix: str = None,
+        tokenizer: transformers.PreTrainedTokenizer,
+        embedder_tokenizer: transformers.PreTrainedTokenizer,
+        text_column_name: str,
+        max_seq_length: int,
+        padding: bool = False,
+        prefix: str = None,
+        lang_id: bool = False,
+        script_id: bool = False,
 ) -> Callable[[Dict], Dict]:
     def tokenize_function_inner(examples) -> Dict[str, torch.Tensor]:
         if prefix:
-            texts = [f"{prefix}: {text}" for text in examples[text_column_name]]
-        else:
-            texts = examples[text_column_name]
+            if lang_id and not script_id:
+                examples[text_column_name] = [f"{prefix}: [{lang.split('_')[0]}] {text}" for text, lang in
+                                              zip(examples[text_column_name],
+                                                  examples["lang"])]
+            elif lang_id and script_id:
+                examples[text_column_name] = [f"{prefix}: [{lang.split('_')[0]}] [{lang.split('_')[1]}] {text}" for
+                                              text, lang in
+                                              zip(examples[text_column_name],
+                                                  examples["lang"])]
+            else:
+                examples[text_column_name] = [f"{prefix}: {text}" for text in examples[text_column_name]]
+
         output = tokenizer(
-            texts,
+            examples[text_column_name],
             padding=padding,
             truncation=True,
             max_length=max_seq_length,
@@ -56,13 +67,13 @@ def tokenize_function(
 
 
 def tokenize_function_llama_chat(
-    tokenizer,
-    embedder_tokenizer,
-    text_column_name,
-    max_seq_length,
-    padding: bool = False,
-    # no-op for compatibility with other tokenization functions
-    prefix: str = None,
+        tokenizer,
+        embedder_tokenizer,
+        text_column_name,
+        max_seq_length,
+        padding: bool = False,
+        # no-op for compatibility with other tokenization functions
+        prefix: str = None,
 ) -> Callable[[Dict], Dict]:
     """Use special tokenization for LLAMA chat models."""
 
@@ -139,7 +150,7 @@ def embed_dataset_batch(model: InversionModel, batch: Dict) -> Dict:
 
 
 def get_tokenizer_mapping(
-    lm: str, inverter: str, inverter_vocab_size: int
+        lm: str, inverter: str, inverter_vocab_size: int
 ) -> torch.Tensor:
     """Computes the mapping from token outputs in `lm`'s vocabulary to those in `inverter's
     vocabulary. Makes some assumptions about spacing.
@@ -162,6 +173,64 @@ def get_tokenizer_mapping(
 
     preservation = len(set(mapping.tolist())) / len(lm_vocab)
     print(
-        f"Mapped tokenizer {lm} to {inverter}. Preserved {preservation*100:.1f}% of unique tokens."
+        f"Mapped tokenizer {lm} to {inverter}. Preserved {preservation * 100:.1f}% of unique tokens."
     )
     return mapping
+
+
+def whiten_embeddings(X: torch.Tensor):
+    """
+    Whitening the embeddings with SVD.
+    """
+    # Step 1: Compute the mean
+    mu = torch.mean(X, dim=0, keepdim=True)
+
+    # Step 2: Center the data
+    X_centered = X - mu
+
+    # Step 3: Compute the covariance matrix
+    covariance_matrix = torch.cov(X_centered.T)
+
+    # Step 4: Singular Value Decomposition (SVD)
+    U, S, V = torch.linalg.svd(covariance_matrix)
+
+    # Step 5: Whiten the data
+    whitening_matrix = U @ torch.diag(1.0 / torch.sqrt(S)) @ U.T
+    X_whitened = torch.mm(X_centered, whitening_matrix)
+
+    return X_whitened, mu, S, U
+
+
+def update_whitening_batch(X_whitened, mu, S, U, X_new):
+    """
+    Whitening new embeddings.
+    """
+    n = X_whitened.size(0)
+    m = X_new.size(0)
+
+    # Update mean
+    mu_new = (n * mu + torch.sum(X_new, dim=0)) / (n + m)
+
+    # Center the new embeddings
+    X_new_centered = X_new - mu_new
+
+    # Reconstruct the original centered data
+    X_centered = X_whitened @ torch.inverse(U @ torch.diag(1.0 / torch.sqrt(S)) @ U.T)
+
+    # Combine the original and new centered data
+    X_combined = torch.cat((X_centered, X_new_centered), dim=0)
+
+    # Compute the new covariance matrix
+    covariance_matrix_new = torch.cov(X_combined.T)
+
+    # Singular Value Decomposition (SVD) of the updated covariance matrix
+    U_new, S_new, V_new = torch.linalg.svd(covariance_matrix_new)
+
+    # Whiten the new embeddings
+    whitening_matrix_new = U_new @ torch.diag(1.0 / torch.sqrt(S_new)) @ U_new.T
+    X_new_whitened = torch.mm(X_new_centered, whitening_matrix_new)
+
+    # Whiten the existing embeddings with the updated whitening transformation
+    # X_whitened_new = torch.mm(X_centered, whitening_matrix_new)
+
+    return X_new_whitened, mu_new, S_new, U_new

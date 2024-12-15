@@ -1,0 +1,127 @@
+{
+    "output_dir": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations",
+    "model": "yiyic/mt5_gtr_deu_Latn_32_inverter",
+    "parameters": "702069888",
+    "evaluations": [
+        {
+            "dataset": "deu_Latn",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429677/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429677",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/deu_Latn_inversion_base.json"
+        },
+        {
+            "dataset": "ydd_Hebr",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429699/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429699",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/ydd_Hebr_inversion_base.json"
+        },
+        {
+            "dataset": "heb_Hebr",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429722/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429722",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/heb_Hebr_inversion_base.json"
+        },
+        {
+            "dataset": "arb_Arab",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429744/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429744",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/arb_Arab_inversion_base.json"
+        },
+        {
+            "dataset": "amh_Ethi",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429767/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429767",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/amh_Ethi_inversion_base.json"
+        },
+        {
+            "dataset": "mlt_Latn",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429790/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429790",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/mlt_Latn_inversion_base.json"
+        },
+        {
+            "dataset": "hin_Deva",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429813/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429813",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/hin_Deva_inversion_base.json"
+        },
+        {
+            "dataset": "urd_Arab",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429835/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429835",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/urd_Arab_inversion_base.json"
+        },
+        {
+            "dataset": "guj_Gujr",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429858/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429858",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/guj_Gujr_inversion_base.json"
+        },
+        {
+            "dataset": "sin_Sinh",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429881/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429881",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/sin_Sinh_inversion_base.json"
+        },
+        {
+            "dataset": "pan_Guru",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429904/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429904",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/pan_Guru_inversion_base.json"
+        },
+        {
+            "dataset": "tur_Latn",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429927/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429927",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/tur_Latn_inversion_base.json"
+        },
+        {
+            "dataset": "kaz_Cyrl",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429949/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429949",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/kaz_Cyrl_inversion_base.json"
+        },
+        {
+            "dataset": "cmn_Hani",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429972/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429972",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/cmn_Hani_inversion_base.json"
+        },
+        {
+            "dataset": "jpn_Jpan",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429995/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720429995",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/jpn_Jpan_inversion_base.json"
+        },
+        {
+            "dataset": "kor_Hang",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430017/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430017",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/kor_Hang_inversion_base.json"
+        },
+        {
+            "dataset": "mon_Cyrl",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430040/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430040",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/mon_Cyrl_inversion_base.json"
+        },
+        {
+            "dataset": "hun_Latn",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430063/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430063",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/hun_Latn_inversion_base.json"
+        },
+        {
+            "dataset": "mhr_Cyrl",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430085/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430085",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/mhr_Cyrl_inversion_base.json"
+        },
+        {
+            "dataset": "fin_Latn",
+            "output_file": " saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430108/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_gtr_deu_Latn_32_inverter/decoded_eval_1720430108",
+            "results_file": "./saves/inverters/mt5_gtr_base_mt-ms_deu_Latn_32_last_layer/evaluations/fin_Latn_inversion_base.json"
+        }
+    ]
+}

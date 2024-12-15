@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"deu_Latn": 0.89, "eng_Latn": 0.04, "unknown": 0.06}, "pred_lang_word_level_ratio": {"deu_Latn": 0.72, "others": 0.15, "eng_Latn": 0.09, "fin_Latn": 0.03}, "labels_lang_line_level_ratio": {"cmn_Hani": 1.0}, "labels_lang_word_level_ratio": {"cmn_Hani": 0.89, "others": 0.08, "eng_Latn": 0.01}}

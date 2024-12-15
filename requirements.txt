@@ -6,7 +6,6 @@ evaluate
 openai==0.28
 optimum
 pre-commit
-pylcs
 rouge_score
 sacrebleu
 sentence_transformers
@@ -14,3 +13,10 @@ tenacity
 tokenizers
 tqdm
 transformers
+lingua-language-detector
+jieba
+hebrew_tokenizer
+hangul-korean
+fugashi[unidic]
+kiwipiepy
+fasttext-langdetect

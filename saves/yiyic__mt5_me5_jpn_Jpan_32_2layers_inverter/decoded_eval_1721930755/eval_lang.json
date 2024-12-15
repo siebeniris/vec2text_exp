@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"jpn_Jpan": 0.77, "unknown": 0.05, "eng_Latn": 0.08, "cmn_Hani": 0.08, "others": 0.02}, "pred_lang_word_level_ratio": {"others": 0.16, "jpn_Jpan": 0.39, "cmn_Hani": 0.24, "eng_Latn": 0.2}, "labels_lang_line_level_ratio": {"pan_Guru": 1.0}, "labels_lang_word_level_ratio": {"pan_Guru": 0.95, "others": 0.03, "eng_Latn": 0.02}}

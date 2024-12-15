@@ -2,7 +2,6 @@ import os
 from dataclasses import dataclass, field
 from typing import Optional
 
-import torch
 import transformers
 from transformers import MODEL_FOR_CAUSAL_LM_MAPPING
 
@@ -34,7 +33,7 @@ class ModelArguments:
         ###
         ## huggingface.co/facebook/dpr-ctx_encoder-single-nq-base
         ###
-        default="t5-base",
+        default="google/mt5-base",
         metadata={
             "help": (
                 "The model checkpoint for weights initialization .Don't set if you want to train a model from scratch."
@@ -53,6 +52,9 @@ class ModelArguments:
     )
     embedder_model_api: Optional[str] = field(
         default=None, metadata={"help": "API to get embeddings from"}
+    )
+    embedder_gaussian_noise_level: float = field(
+        default=0.0, metadata={"help": "noise level to add during training to embedder"}
     )
     embedder_torch_dtype: str = field(
         default="float32",
@@ -116,7 +118,7 @@ class ModelArguments:
         },
     )
     max_seq_length: int = field(
-        default=128, metadata={"help": "Maximum sequence length for tokenizer"}
+        default=32, metadata={"help": "Maximum sequence length for tokenizer"}
     )
     torch_dtype: Optional[str] = field(
         default=None,
@@ -177,6 +179,12 @@ class ModelArguments:
             "choices": FREEZE_STRATEGIES,
         },
     )
+    embedding_output: str = field(
+        default="first_last",
+        metadata={
+            "help": "the embedding output strategy applied to embeddings"
+        }
+    )
 
     def __post_init__(self):
         if self.config_overrides is not None and (
@@ -194,9 +202,9 @@ class DataArguments:
     """
 
     dataset_name: Optional[str] = field(
-        default="msmarco",
+        default="mt-ms_deu_Latn",
         metadata={
-            "choices": DATASET_NAMES,
+            # "choices": DATASET_NAMES,
             "help": "The name of the dataset to use (via the datasets library).",
         },
     )
@@ -252,7 +260,7 @@ class TrainingArguments(transformers.TrainingArguments):
         metadata={"required": False, "help": "Size of pseudo-training set."},
     )
     num_train_epochs: float = field(
-        default=30.0,
+        default=50.0,
         metadata={"required": False, "help": "Number of epochs for training"},
     )
     learning_rate: float = field(
@@ -264,8 +272,12 @@ class TrainingArguments(transformers.TrainingArguments):
     )
     report_to: str = "wandb"
     per_device_train_batch_size: int = field(
-        default=128, metadata={"help": "Batch size per GPU/TPU core/CPU for training."}
+        default=256, metadata={"help": "Batch size per GPU/TPU core/CPU for training."}
     )
+    per_device_eval_batch_size: int = field(
+        default=256, metadata={"help": "Batch size per GPU/TPU core/CPU for evaluation."}
+    )
+
     bf16: bool = field(
         default=False,
         metadata={"help": ("Whether to use bf16 (mixed) precision instead of 32-bit.")},
@@ -311,7 +323,8 @@ class TrainingArguments(transformers.TrainingArguments):
     remove_unused_columns: bool = False
 
     # Do evaluation and logging on certain num steps.
-    evaluation_strategy: str = "steps"
+    # evaluation_strategy: str = "steps"
+    eval_strategy: str = "steps"  # transformer v4.41.2
     logging_strategy: str = "steps"
     save_strategy: str = "steps"
 
@@ -355,6 +368,15 @@ class TrainingArguments(transformers.TrainingArguments):
         },
     )
 
+    apply_early_stopping_metric: str = field(
+        default="",
+        metadata={
+            "help": (
+                "Whether to apply early stopping or not."
+            )
+        }
+    )
+
     include_inputs_for_metrics: bool = True
 
     def __setattr__(self, name, value):
@@ -367,10 +389,23 @@ class TrainingArguments(transformers.TrainingArguments):
             ["wandb"] if (self.use_wandb and (self.local_rank <= 0)) else []
         )
         self.dataloader_pin_memory = True
-        num_workers = torch.cuda.device_count()
+        # num_workers = torch.cuda.device_count()
+
+        # this should be the cpu not gpu.
+        num_workers = 7  # set lower number to avoid out-of-memory
+        # do not use os.cpu_count() it will see all the gpus. 128 from one node.
+        print(f"num_workers {num_workers}")
+        #  Number of subprocesses to use for data loading (PyTorch only). 0 means that the data will be loaded in the
+        #  main process.
+
+        # useful for RUST application such as python
+        # It is especially useful in environments where you need to limit the number of CPU cores used by certain
+        # parts of your application to prevent resource contention.
         os.environ["RAYON_RS_NUM_CPUS"] = str(
             num_workers
         )  # Sets threads for hf tokenizers
+
+
         self.dataloader_num_workers = num_workers
         print(f"Set num workers to {num_workers}")
 
@@ -388,6 +423,8 @@ class TrainingArguments(transformers.TrainingArguments):
 
         self.group_by_length = True
         self.length_column_name = "length"
+        # for scheduler.
+        self.lr_scheduler_type = "constant_with_warmup"
 
         self.load_best_model_at_end = True
         self.greater_is_better = False

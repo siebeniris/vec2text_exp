@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"hin_Deva": 0.91, "eng_Latn": 0.06, "unknown": 0.01, "others": 0.02}, "pred_lang_word_level_ratio": {"hin_Deva": 0.92, "eng_Latn": 0.06, "others": 0.02}, "labels_lang_line_level_ratio": {"others": 0.77, "eng_Latn": 0.19, "tur_Latn": 0.01, "fin_Latn": 0.02, "deu_Latn": 0.01}, "labels_lang_word_level_ratio": {"others": 0.94, "eng_Latn": 0.05}}

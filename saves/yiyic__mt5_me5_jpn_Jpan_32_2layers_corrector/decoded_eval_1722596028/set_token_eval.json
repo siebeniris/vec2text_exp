@@ -1,0 +1,1 @@
+{"token_set_precision": 0.03668375807199335, "token_set_recall": 0.08157070315305617, "token_set_f1": 0.04773390355110743, "token_set_f1_sem": 0.0033575983243428, "n_ngrams_match_1": 0.582, "n_ngrams_match_2": 0.024, "n_ngrams_match_3": 0.0, "num_true_words": 13.482, "num_pred_words": 10.318}

@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"guj_Gujr": 0.94, "eng_Latn": 0.04, "unknown": 0.01, "others": 0.01}, "pred_lang_word_level_ratio": {"guj_Gujr": 0.84, "eng_Latn": 0.11, "others": 0.04}, "labels_lang_line_level_ratio": {"mon_Cyrl": 0.99, "eng_Latn": 0.01}, "labels_lang_word_level_ratio": {"mon_Cyrl": 0.88, "kaz_Cyrl": 0.03, "others": 0.06, "eng_Latn": 0.02}}

@@ -1,0 +1,127 @@
+{
+    "output_dir": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations",
+    "model": "yiyic/mt5_me5_semitic-fami_32_2layers_inverter",
+    "parameters": "870484992",
+    "evaluations": [
+        {
+            "dataset": "deu_Latn",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097552/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097552",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/deu_Latn_inversion_base.json"
+        },
+        {
+            "dataset": "ydd_Hebr",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097592/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097592",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/ydd_Hebr_inversion_base.json"
+        },
+        {
+            "dataset": "heb_Hebr",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097621/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097621",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/heb_Hebr_inversion_base.json"
+        },
+        {
+            "dataset": "arb_Arab",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097658/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097658",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/arb_Arab_inversion_base.json"
+        },
+        {
+            "dataset": "amh_Ethi",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097694/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097694",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/amh_Ethi_inversion_base.json"
+        },
+        {
+            "dataset": "mlt_Latn",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097734/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097734",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mlt_Latn_inversion_base.json"
+        },
+        {
+            "dataset": "hin_Deva",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097760/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097760",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/hin_Deva_inversion_base.json"
+        },
+        {
+            "dataset": "urd_Arab",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097795/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097795",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/urd_Arab_inversion_base.json"
+        },
+        {
+            "dataset": "guj_Gujr",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097838/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097838",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/guj_Gujr_inversion_base.json"
+        },
+        {
+            "dataset": "sin_Sinh",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097865/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097865",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/sin_Sinh_inversion_base.json"
+        },
+        {
+            "dataset": "pan_Guru",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097892/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097892",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/pan_Guru_inversion_base.json"
+        },
+        {
+            "dataset": "tur_Latn",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097930/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097930",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/tur_Latn_inversion_base.json"
+        },
+        {
+            "dataset": "kaz_Cyrl",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097957/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097957",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/kaz_Cyrl_inversion_base.json"
+        },
+        {
+            "dataset": "cmn_Hani",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097985/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720097985",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/cmn_Hani_inversion_base.json"
+        },
+        {
+            "dataset": "jpn_Jpan",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098012/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098012",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/jpn_Jpan_inversion_base.json"
+        },
+        {
+            "dataset": "kor_Hang",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098041/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098041",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/kor_Hang_inversion_base.json"
+        },
+        {
+            "dataset": "mon_Cyrl",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098068/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098068",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mon_Cyrl_inversion_base.json"
+        },
+        {
+            "dataset": "hun_Latn",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098094/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098094",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/hun_Latn_inversion_base.json"
+        },
+        {
+            "dataset": "mhr_Cyrl",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098121/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098121",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mhr_Cyrl_inversion_base.json"
+        },
+        {
+            "dataset": "fin_Latn",
+            "output_file": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098149/decoded_sequences.csv",
+            "embeddings_file": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_inverter/decoded_eval_1720098149",
+            "results_file": "./saves/inverters/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/fin_Latn_inversion_base.json"
+        }
+    ]
+}

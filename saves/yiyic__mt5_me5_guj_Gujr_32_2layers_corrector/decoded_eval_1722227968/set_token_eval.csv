@@ -1,0 +1,501 @@
+Unnamed: 0,pred,labels,preds_lang,labels_lang,token_set_f1
+0,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+1,query: Latest News – 'One-in-one' vaccine has been registered in Chini-West Indies | ચેન્ન,"query: test – One News Mindu feġġ l-ewwel każ ta' coronavirus f'pajjiżna, saru aktar",unknown,unknown,0.20689655172413796
+2,query: 'ILM' refuses to be played by a player who refuses | 'ILM' માટે,query: 'L-MFA emmnet lil min ibagħbas il-logħob u mhux lili' - Illum,deu_Latn,deu_Latn,0.08333333333333333
+3,query: Gujarati News » Latest news » DIL-SEAL: ઐશ્વર્યાએ 'Father'નો અવાજ ન,query: BIL-FILMAT: L-Ispeaker ma jilqax it-talba ta' Delia minħabba biża',mlt_Latn,mlt_Latn,0.16666666666666669
+4,"query: ટીમ ઇન્ડિયાનું કોરોનાવાયરસ સાવધાન, Dimitar Dodia - sports ટીમ ઇન્ડિયાનું કોર","query: Diego Simeone pożittiv għall-coronavirus - TVM Il-kowċ ta' Atletico Madrid, Diego Simeone,",mlt_Latn,mlt_Latn,0.1818181818181818
+5,"query: Posted on October 10, 2010 October 10, 2010 by SC/ST/SP 'સરકારી રજીસ્ટ્રેશન' R","query: 10 ta' Settembru 2010 Kawża F-62/10 R ""Servizz pubbliku — Proċeduri għal miżuri ",deu_Latn,deu_Latn,0.2962962962962963
+6,query: Atal Samaj urges MPs to submit CBI Resolution | Atal Samajએ CBI Resolution માટે જ,query: Il-MPE Alex Agius Saliba talab lill-Kummissjoni tiżgura li Malta jkollha aċċes,unknown,unknown,0.0
+7,"query: Posted on 12:59 pm January 19, 2019 Author Shah JinaComments Off on 'અન્ય' ક્રિકેટર સુરેશ","query: Nov 19, 2019 00:56 Il-coach ta' Juventus, Maurizio Sarri, irċieva aħbar oħra xe",deu_Latn,deu_Latn,0.2580645161290323
+8,query: e-e-e-e-e-e-e-e-e-e in Afghanistan World War 5th May 2020,query: Il-Virus ta' l-Ebola 5 ta' Awwissu 2014 10:10 AM Fl-Afrika tal-Punent reġ,mlt_Latn,mlt_Latn,0.0
+9,query: 11 - iGujju | NET DAKIYA 11 - iGujju's new version of the,query: 2 Slaten 11 | Il-Bibbja Onlajn | Traduzzjoni tad-Dinja l-Ġdida 2 Slaten,hun_Latn,hun_Latn,0.19999999999999998
+10,query: 5 STEPS TO MAKE FIRST FIVE MARKETING WITH FIRST FIVE MARKETING WITH FIRST F,query: 5 Għodda biex Tgħin Ifassal il-Marketing Tiegħek Matul il-Festi | Martech Zone,deu_Latn,deu_Latn,0.09523809523809525
+11,query: Irrigation-like bird creates kabuter in microns | આઇલિવમાં બદલાય મચ્છર-,query: Ilbies iswed trasformat f'ilma u kristall fil-Baħar Mejjet | Kreattivi Online Iż-ż,eng_Latn,eng_Latn,0.0909090909090909
+12,query: કન્ફ્યુઅલ સંગીત ના નવા નિયમો - What is the difference between the mp3 and the,query: Kanzunetti ġodda dwar il-mużika prinċipali X'inhi l-ħaġa prinċipali,fin_Latn,fin_Latn,0.0
+13,query: 'Vit' - iGujju - iGujju - Arbitrate or Arbitrate,query: (Malti) Rifjutata Iż-żieda ta'VBET - kelma sempliċi jew is-s,unknown,unknown,0.11764705882352942
+14,query: 'બગડે-બગડે-બગડે-બગડે નહીં'(J.A.M.,"query: ""Tal-ħaxix m'għandhomx jarmaw bil-ħut""... Bejjiegħa tal-lampuki ji",hun_Latn,hun_Latn,0.0
+15,query: પ્રશ્ન I.I.I.I.I.I.I.I.I.I.I વિદ્યાર્થીઓ,query: Mistoqsija għal tweġiba orali O-000010/2018 L-istudenti jiċċaqalqu fl-UE jew minħ,deu_Latn,deu_Latn,0.0
+16,query: NET-DAKIYA NET-DAKIYA NET-DAKIYA NET-DAKIYA NET-DAKIYA Posted by,"query: Konnessjoni tat-Tikek | Martech Zone Qabbad id-Dots IT-TNEJN JANNAR 21, 2008 Is",deu_Latn,deu_Latn,0.0
+17,"query: For the first time, Jammu and Kashmiri Prime Minister Sonia Makwana, Chief Minister Amit Makwana દ્વારા","query: Ittra tad-29 ta' Novembru, 2015 lill-Prim Ministru Joseph Muscat minn Sammy Meilaq, Karmenu M",eng_Latn,eng_Latn,0.06451612903225808
+18,query: નાયબ કલેજને નિયંત્રણ કરી રહ્યા - NGS Business નાયબ કલેજને ,query: Jumejn oħra jitlaqa' l-Kunsill Ġenerali tal-PN - Newsbook Jumej,unknown,unknown,0.11111111111111112
+19,query: તકનીકી રેકોર્ડિંગ / Latest J&K Algorithms Latest J&K Algorithms September,"query: Strateġiji Aħjar Studju MCAT & hacks awissu 23, 2018 /fl MCAT /billi James Xi",deu_Latn,deu_Latn,0.08695652173913043
+20,query: Home » photogallery » sport » 14-year-old missile missile will now cross 15 km - iGujju News,query: michelle muscat – Page 2 – One News Illum Michelle Muscat ser tgħum 14 -il kilometru Fi,deu_Latn,deu_Latn,0.06666666666666667
+21,"query: - Kanal-Raval News Paper - Jan 2019 - Read, Think, Respond - NET DAKIYA Home/",query: Jan - Jun 2019 - Press Room - Dar il-Kaptan http://www.darilkaptan.org/press-,unknown,unknown,0.24999999999999994
+22,query: 116 | Zigya's Old Testament in Gujarati | Zigya's Old Testament in Gujarati | Zigya's Old Testament,query: Salmi 138 | Il-Bibbja Onlajn | Traduzzjoni tad-Dinja l-Ġdida Salmi 138:,hun_Latn,hun_Latn,0.11764705882352941
+23,query: tax-tax-tax-tax-tax-tax-tax-tax-tax-tax-tax-tax-tax-tax-,query: €4.9 miljun f'rifużjoni tat-taxxa fuq vetturi rreġistrati fl-2008 - TVM €4.9,fin_Latn,fin_Latn,0.0
+24,query: 'Swatel-in-law court' (Swatel-in-law court)નો નિર્ણય 12th November,query: Sentenza tal-Qorti tal-Ġustizzja (It-Tielet Awla) tat-12 ta' Novembru 2014.,deu_Latn,deu_Latn,0.2608695652173913
+25,query: મુખ્ય પૃષ્ઠ » ENKI / ENKI વિડીયો / ENKI / ENKI / ENKI,query: Paġna Ewlenija > Informazzjoni > Dwarna > Aħbarijiet > Arkivji > L-Ekwipaġġ,fin_Latn,fin_Latn,0.0
+26,query: Home » photogallery » madhya-gujarat » ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION,query: BIDEL FEHMTU WARA LI TKELLEM IL-PM – One News BIDEL FEHMTU WARA LI TKELLEM,unknown,unknown,0.0
+27,"query: તા. 11 જાન્યુઆરી, 2011 01:12 AM - આ નોટ ને સૌપ્રથમ ","query: Nov 11, 2018 17:00 Ix-xita li għamlet dan l-aħħar ħarġet aspett ieħor li",mlt_Latn,mlt_Latn,0.15384615384615385
+28,query: i-Lion history - i-Lion history i-Lion history - i-Lion history,query: Kunsilli Lokali - Iż-Żurrieq - L-Istorja tal-Lokalita' Iż-Ż,unknown,unknown,0.18181818181818182
+29,query: Vyaapaar Identification Scheme In India / Latest Vyaapaar Identification Scheme In India / અહી,query: Rekwiżiti Indjani tad-Dokument tal-Viża-e Fuq din il-paġna għandek issib,mlt_Latn,mlt_Latn,0.0
+30,query: ઇ-મેઇલ યુનિયનના વિવિધ મુદ્દાઓ | LANGUAGE-LANGUAGE-LANGUAGE-,query: Il-multilingwiżmu | Unjoni Ewrope Temi tal-Unjoni Ewropea > Il-multilingwiżmu,unknown,unknown,0.14285714285714288
+31,"query: રવિવાર, 1 નવેમ્બર 2018 - Parsa Navratri Barriers - Parsa Navratri ",query: Avviżi Parroċċa Mosta 4 - 11 Novembru 2018 - Mosta Parish Portal Mosta Paris,unknown,unknown,0.19999999999999998
+32,query: Youths and youths detained by 'Mold-Ait' | 'Mold-Ait'ના,query: L-adolexxenti bniet u subien tal-MUSEUM ta' Wied il-Għajn jiftak,unknown,unknown,0.10526315789473685
+33,query: M.S.F.F.F.F.F.F.F.F.F.F.F.F.,query: Parlament ta' Malta - azzopardi-frederick Mr Frederick Azzopardi TIFKIRA TA' F,mlt_Latn,mlt_Latn,0.0
+34,query: aaj nu liquor: 3 વર્ષ જૂના જિલ્લામાં બની રહ્યા છે અલગ-અલગ,query: Ritratti: 3 iljuni maħqura fl-Albanija jibdew ħajja ġdida fl-Olanda -,unknown,unknown,0.17391304347826086
+35,"query: વધુ એક વખત કોરોના-વાયરસ સામે રેગ્યુલેટ મામલો, CBI announces",query: Għal darba oħra miżura kontradittorji marbuta mal-Covid19: għall-inqas jidh,mlt_Latn,mlt_Latn,0.0
+36,"query: Jammu-Kashmir Arbitration Law (Jammu-Kashmir Law) તા. 2 જુલાઇ, 2012 ના રોજ",query: Sentenza tal-Qorti tal-Ġustizzja (Awla Manja) tat-2 ta' Mejju 2012. SAS Institute Inc.,unknown,unknown,0.27586206896551724
+37,query: GUJARAT: 16 વર્ષની 'ગર્ભવતી' આજ સુધી અરજી કરી શકે -,query: AĠĠORNAT: Żgħażagħ ta' 16 issa jistgħu jivvutaw - TVM AĠ,tur_Latn,tur_Latn,0.3333333333333333
+38,query: Brazilian-photographer Aryan Chavda revealed his self-reliant profile in just a short time | ચી,query: Il-fotografu bravissimu Angelo Caruana riċentament xerred fuq il-profili tiegħu av,deu_Latn,deu_Latn,0.0
+39,query: iGuj's 17th-year-old law | iGuj's 17th-year-old law:,query: Awdjo: L-iskejjel tal-Ingliż: Il-liġi tax-xorb ta' 17-il sena,unknown,unknown,0.125
+40,query: રક્ત મંડળનો પ્રસ્તાવ - Parsi Times Madhya Madhya Madhya Madhya Madhya Madhya M,query: Riflessjoni għall-Għid il-Kbir - Mosta Parish Portal Riflessjoni għall-Għid il,mlt_Latn,mlt_Latn,0.125
+41,query: Ktsaea Ktsaea Ktsaea Ktsaea Ktsa,query: NXR Katerina Wied Il-Knisja ta' Santa Katerinata' Wied il-Għasel~ Naxx,mlt_Latn,mlt_Latn,0.0
+42,"query: 'Nirmal: needs Relief, needs Relief' | 'Nirmal: needs Relief,","query: Fil-Libanu: ""Bżonn l-għajnuna; inqerdu sptarijiet u r-ri",unknown,unknown,0.11764705882352941
+43,query: તમારા વાપરવાહ માટે Zigzag IT Service નો ઉપયોગ કરે - NGS Business તમારા,query: Uża softwer tan-negozju għas-servizzi tal-istħarriġ tiegħek - Immaniġġja,deu_Latn,deu_Latn,0.1
+44,query: a-friend-in-law's integrity is very important for a-friend-in-law's ,query: Il-protezzjoni tal-privatezza tiegħek hija importanti ħafna għall-Uffiċċju tal-Proprjet,deu_Latn,deu_Latn,0.0
+45,query: ચાઇના ઉત્પાદકો અને સપ્લાયર્સ - SUNTAI XINTAI XINTAI XINTAI XIN,query: Manifatturi u Fornituri ta 'Sunetex ta' qtugħ - Ċina Fabbrika ta,mlt_Latn,mlt_Latn,0.11111111111111112
+46,"query: crthakrar is not faith-in-jura, it is not faith-in-jura | ક્રિષ્ના",query: Il-fidi mhix ideoloġija; għandna nxandru lil Kristu minkejja l-persekuzzjonijiet –,mlt_Latn,mlt_Latn,0.0
+47,"query: ફ્લિપકાર્ટ - iGujju.net - સરકાર સાથે કાયદો February 11, 2018 by","query: Politika tal-privatezza - flimkien.eu Mill-11 ta' Diċembru 2018, l-ipproċessar",mlt_Latn,mlt_Latn,0.2727272727272727
+48,query: પ્રકરણ-૧: iFact-Fact કેવી રીતે કાઢે / iFact-F,query: Għat-tqattiegħ ta'l-uffi: Kif taqta fajls MOD > Ir-,mlt_Latn,mlt_Latn,0.10526315789473685
+49,query: ઇંગ્લૅન્ડની નોંધ: Español (Português) Italiano (Português) Portuguese (Português) Portuguese (Português,query: italiană (1076) neerlandeză (1046) portugheză (807) Regolament tal-Kummisjoni (UE) Nru 1113/2010,others,others,0.18181818181818185
+50,query: તાજ આઇટીનું નિર્માણ કરાયું - Abtak Media Home National તાજ આઇટીનું ,query: Tiċċarrat it-tinda tat-Tempji ta' Ħaġar Qim - TVM Imtella',mlt_Latn,mlt_Latn,0.10526315789473685
+51,query:'sinh' deal worth Rs 1.10 lakh worth of negligence |'sinh' deal સામે સ,"query: €28,000 multa għal kumpanija b'attitudni 'xejn serja' lejn is-sigurtà tal-",unknown,unknown,0.08
+52,query: Home » photogallery » national-international » ERF - પ્રસ્તાવનો કોન્ટ્રાક્ટ રજૂ થશે -,query: European Commission - PRESS RELEASES - Press release - Il-proġetti Grafen u Moħħ il-,deu_Latn,deu_Latn,0.0909090909090909
+53,query: ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION ELECTION,query: Alfred Sant | L-INTERESSI TA' MALTA L-EWWEL U QABEL KOLLOX L-INTERESSI TA',others,others,0.0
+54,query: E-Electronics-Store 2021 E-Electronics-Store 2021 E-Electronics-Store 2021 E-Electronics-Store 2021,query: Servizzi - 421471-2021 - TED Tenders Electronic Daily Servizzi - 421471-2021 l-Ital,eng_Latn,eng_Latn,0.0
+55,query: Rs. 5600 crore guarantees to verify the'millet-in-law' assurance-in-,"query: €360,000 biex isiru jafu l-perċezzjoni tal-Maltin dwar is-sigurtà - Newsbook",mlt_Latn,mlt_Latn,0.0
+56,query: અક્ષર અને ડગને મજબૂત કરો - Sandesh અક્ષર અને ડગ,query: Inżgħu l-mantar u aħslu saqajn id-dixxipli - L-Arċi,tur_Latn,tur_Latn,0.125
+57,query: If you-become-a-cracker-in-a-contest-you-become-a-cracker-in-a,query: Jekk weħilt mit-test tal-karozza int wieħed mill-aħjar xufiera - TV,unknown,unknown,0.0
+58,query: Jessica was given a shield of 'Cousin' as a rescue agent - જાન્યુઆરીથી,query: Jessica kienet volontiera ma' St John Rescue Corps - deskritta bħala tfajla ,unknown,unknown,0.23076923076923078
+59,query: nirav nirav starts - news nirav nirav continues - news nirav nirav,query: L-Insara jkomplu jirritornaw lejn Mosul - Newsbook L-Insara jkomplu,eng_Latn,eng_Latn,0.16666666666666666
+60,query: self-reliant life:Sek-Ek-Ek-Ek-Ek-Ek-Ek-Ek-Ek-Ek-Ek,query: L-ekonomija ċirkolari: wasal iż-żmien biex nisfruttaw is-saħħa tal,fin_Latn,fin_Latn,0.15384615384615383
+61,query: કાયદાકીય સુરક્ષા મામલે EU-Lexicon ડેટા પર પ્રતિબંધ | iGujju.com,query: Artikolu 12 UE Regolament Ġenerali dwar il-Protezzjoni tad-Data. Privacy/Privazy according,unknown,unknown,0.0
+62,query: App names and screenshots from IPhone | આઇફોન-એપ સ્માર્ટફોનથી કેવી રીતે જાણ,query: Kif taqsam nota mal-app Notes minn iOS jew iPadOS | Aħbarijiet dwar l-iPhone Kif,fin_Latn,fin_Latn,0.08
+63,query: SEZJA-SEZJA-SEZJA-SEZJA-MEWS STILL RESERVED - NET ,query: STQARRIJA MILL-UFFIĊĊJU TAS-SEGRETARJU PERMANENTI EWLIENI: L-ew,fin_Latn,fin_Latn,0.0
+64,query: સપ્ટેમ્બર-સપ્ટેમ્બર દરમિયાન મળી શકે છે 'Smin' serial which can be,query: Minn nhar il-Ġimgħa fiċ-ċinema se tkun tista' tara storja tal-waħx bil,mlt_Latn,mlt_Latn,0.08695652173913043
+65,query: Prophet Zrinm eLms eLms eLms is invited for first time in,query: L-Arcisqof Mons Cremona ikellem lil Zminijietna Lehen ix-Xellug Fil-passat ki,unknown,unknown,0.0
+66,query: 10 નેશનલ વિકાસ પ્રોજેક્ટ - Lifestyle & Culture Tag Archives: 10 નેશનલ વિકાસ પ્રોજ,query: 10 proġetti għall-Premju tal-President għall-Kreattività 2018 Home Lifestyle Kultura 10 proġetti għall-Pre,fin_Latn,fin_Latn,0.1818181818181818
+67,query: જૂનાગઢ - E-Bilingual Multi Topic Reads by E.V. Govind (1896-1896) એ,"query: Ewġenju Borg - Wikipedija Ewġenju Borg (Isla, 24 ta' Lulju 1886 – G'Mangia,",deu_Latn,deu_Latn,0.14285714285714285
+68,"query: Fact-R (Fact-R), Fact-R (Fact-R), Fact-R (Fact-",query: Feraccru (ferric maltol) – Fuljett ta' tagħrif - B03AB – RXed.eu,eng_Latn,eng_Latn,0.2222222222222222
+69,query: Mods to change roads-passages-in-Marshal-Nirmal-Safar | નવા રસ્તે,query: Jinfetħu slip roads u korsiji ġodda fil-Marsa-Ħamrun Bypass - talk.,unknown,unknown,0.0
+70,query: INTERNATIONAL LAW AND FIRST LAW AND FIRST LAW AND FIRST LAW AND FIRST LAW AND FIRST ,query: Avukati tal-Falliment Internazzjonali fl-Olanda - Law & More FIL-BŻONN TA',eng_Latn,eng_Latn,0.0
+71,query: વિશ્વનો સૌથી સુરક્ષિત માઇક્રોસોફ્ટ LACOSTE PROTECTION EU / EU /,query: Protezzjoni akbar għall-konsumatur Ewropew | MEUSAC Protezzjoni akbar għall-konsumatur Ewropew Ippubbli,mlt_Latn,mlt_Latn,0.0
+72,"query: 'A year later, sanctions have been checked...' - રશિયન સભ્યોના પ્રતિનિધિ",query: Wara snin ta' stennija... addottat ir-rapport għall-protezzjoni ta' persuni b'di,mlt_Latn,mlt_Latn,0.16
+73,query: iGujju's historical facts iGujju's historical facts iGujju',query: Rimedji folkloristiċi għat-tisħiħ tal-qawwa tal-irġiel Fatt sorprendenti għall-,mlt_Latn,mlt_Latn,0.0
+74,query: Latest News: Msc announces 'Mukesh Virat' will be ready to recreate Msc ,query: ARA: Il-PM jgħid li l-proklama mogħtija lil Vince Muscat se tiġi ppubblikata,unknown,unknown,0.07692307692307693
+75,query: sbi-abhiyaan income tax hike sbi-abhiyaan income tax hike sbi-abhiyaan,query: In-nefqa fuq il-benefiċċji soċjali fl-2020 taqbeż il-biljun ewro,tur_Latn,tur_Latn,0.0
+76,query: i-mani binding is important as long as it is important | i-mani binding is important as long as it is,query: Il-kisba ta' parir legali indipendenti hi ferm importanti meta tkun involut b'xi mod fi pro,eng_Latn,eng_Latn,0.0
+77,query: covid-19: ecu-eu rules which causes e-commerce problems | covid-19: યુકેએ,query: Covid-19: 10 affarijiet li qed tagħmel l-UE għall-irkupru ekonomiku | Aħbar,mlt_Latn,mlt_Latn,0.1818181818181818
+78,query: Live Chats - iGujju.com - iGujju.com - આ સમયના ,query: Web chat - VIDEO CHAT. Tmur fuq l-internet! Dawn il-ħolma ta'li ,mlt_Latn,mlt_Latn,0.10526315789473684
+79,"query: રવિવાર, ડિસેમ્બર 10 2018, 01:09 Hrs(IST) DIVYA ISIAN - ADVISOR OF",query: AVVIŻI PARROĊĊA SAN ĠILJAN 9 – 10 ta' Diċembru 2017 | Parroċċa,fin_Latn,fin_Latn,0.07142857142857144
+80,query: 'Meena' dispute against former cricketer narendra modi | 'Meena' વિરુદ્ધ,query: Eks plejer ta' Napoli li lagħab ma' Maradona jitkellem dwar il-leġġenda Arġentina f,mlt_Latn,mlt_Latn,0.08333333333333333
+81,query: એક્સક્લુઝિવ એક્સક્લુઝિવ એક્સક્લુઝિવ - EXAM AUTOMATIC PROCESS,query: Awtorizzazzjoni ssimplifikata - ECHA Proċedura ta' awtorizzazzjoni simplifikata għandha l-,mlt_Latn,mlt_Latn,0.12500000000000003
+82,query: 24 | February | 2015 | KGF - EXCLUSIVE INDIAN IRPF - EXCLUSIVE INDIAN IRPF સા,query: 23 | April | 2018 | Blog ta' Carmel Cacopardo L-IVF mhux kapriċċ: (3) Mill-fri,unknown,unknown,0.07407407407407408
+83,query: e-gv-e-gv-e-gv-e-gv strategy based on collided,query: RAPPORT dwar strateġija koordinata bil-għan li titjieb il-ġlieda kontra l-evażjoni,mlt_Latn,mlt_Latn,0.0
+84,query: EU threatens to protect e-mail rights and data | યુએઇ અને યુએઇનો સાથે સમ,query: Ftehim bejn l-UE u l-Istati Uniti dwar il-protezzjoni ta' data personali,mlt_Latn,mlt_Latn,0.07692307692307691
+85,query: યુરોપિયન યુવતીઓ વિરુદ્ધ પોતાનો 'joint-relations' કાયદો | Avadhtimes Home,query: Dikjarazzjoni ta' privatezza dwar il-protezzjoni ta' dejta personali - EUROPA | Unjoni Ewrope L,hun_Latn,hun_Latn,0.16666666666666666
+86,query: Km-Gm-Sm approves budget 2022 | Km-Gm-Sm યોજના અંતર્ગ,query: Il-Gvern jissottometti l-Budget 2022 għall-approvazzjoni tal-Kummissjoni Ewropea - TVM,eng_Latn,eng_Latn,0.125
+87,query: Girnar - Villa-villa-villa-villa-villa-villa-villa-villa-villa-villa-villa-villa-,"query: Appartamento con piscina a Moniga del Garda - Kondominji għall-Kiri ġewwa Moniga del Garda, Lombard",unknown,unknown,0.125
+88,query: android-converter-to-converter-to-converter-to-converter-to-converter-to-converter-to-converter-,query: L-aqwa konvertituri tal-vidjow għal Android | Androidsis L-aqwa konvertituri tal-vidjo,unknown,unknown,0.0
+89,query: Surat: CBI revealed a statement-in-jura-in-jura 2021 | માલદીવઃ,"query: Ċiklu relatat mad-dokument : B8-0449/2018 Marietje Schaake, Petras Auštrevičius, Be",unknown,unknown,0.09999999999999999
+90,query: M.S.GUJARAT - M.S.GUJARAT - M.S.GUJARAT - ,"query: STQARRIJA MILL-MINISTERU GĦALL-ĠUSTIZZJA, L-UGWALJANZA U L-GOVERN",unknown,unknown,0.0
+91,query: swiss-in-law claimed to be a member of swiss-in-law ને કારણે રેગ,query: Il-Ħeżbollah jikkundanna lir-Renju Unit għax niżlu fil-lista tat-terror,fin_Latn,fin_Latn,0.0
+92,query: ટિક્કર - NET DAKIYA You are here :HOME >> Features >> Crime >> ટિક્કર ,query: Jinħeles ir-rapper Tork - Newsbook 21 ta' Ġunju 2018 2:49 PM Sercan Ipekci,mlt_Latn,mlt_Latn,0.07692307692307691
+93,query: 'Bigg Boss 2' finalists Deepika Dhawan strictly committed to finals | 'Bigg Boss,query: Ir-rebbieħ ta' The X Factor UK 2018 Dalton Harris mistieden speċjali għall-finali ta' X,deu_Latn,deu_Latn,0.08
+94,"query: ""જગતને અધુરી રીતે બચાવવા જરૂર કરો"" - NGS Business ""જગતને અ","query: ""Nosservaw id-dinja biex nagħmluha iktar sikura!"" Il-Ġimgħa Ewropea tal",deu_Latn,deu_Latn,0.16666666666666666
+95,"query: Posted on 10:03 am January 10, 2017 10:03 am January 10, 2017 Author Aryan JinaLeave a Comment on સ","query: Aww 09, 2017 07:52 Kien lejn l-aħħar tas-snin disgħin. Wiehed mill-",unknown,unknown,0.14814814814814817
+96,query: International Lawyers & Advocates in UK/UK/UK/UK/UK/UK/UK/UK/UK/UK/,query: Avukati Amministrattivi Internazzjonali fl-Olanda - Law & More FIL-BŻONN TA' AVU,eng_Latn,eng_Latn,0.1111111111111111
+97,"query: 'GEEK' - 'GEEK' એ યુરોપિયન ઇતિહાસ સાથે, હવે ક","query: ""The European Sting"" - kun aġġornat ma' x'... Jum Ewropew għall-Iżvilupp",mlt_Latn,mlt_Latn,0.16
+98,query: ચીની-કિસાઇએ જન્મદિવસે 'Fist-in-a-year-old-year-,query: Il-Knisja fil-Filippini tniedi s-Sena taż-Żgħażagħ - Newsbook,fin_Latn,fin_Latn,0.0
+99,query: રિયલ એસ્ટેટ બજાર - Aajkaal Real Estate રિયલ એસ્ટેટ બજાર -,query: Appartament Modern Faċċata tal-Baħar Art - Airbnb Appartament Modern Faċċata tal-Ba,unknown,unknown,0.13333333333333333
+100,query: ડ્રાયફ્રૂડ (Diazolin) - નિયમો અને નિયમોની રજૂઆત હા,query: Darzalex (daratumumab) – Kondizzjonijiet jew restrizzjonijiet rigward il- provvista u l-u,unknown,unknown,0.17391304347826086
+101,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+102,"query: 2021, 2021, 2021, 2021, 2021, 2021 IMF-EU સંરક્ષણ વ્યૂહરચનાનો રેકોર્ડ","query: Brussell, 1.4.2019 Il-Fondi Strutturali u ta' Investiment Ewropej 2014-2020 Rapport ta' sinte",eng_Latn,eng_Latn,0.10526315789473684
+103,query: UN-Translators-GUJARAT: Why are they defeated? | UN-Translators-GUJ,query: L-UNWTO tappartjeni lis-Segretarju Ġenerali: Lost in Translation? home » L-Aħ,unknown,unknown,0.1904761904761905
+104,query: 'Tif's faith a year ago is not comparable | 'Tif's faith a year,query: L-ishma tat-tuffieħ ma kinux daqshekk għoljin mill-2015 | Aħbarijiet,fin_Latn,fin_Latn,0.10526315789473685
+105,query: 'How to recover in 21st Jan? | 'How to recover in 21st Jan? Need to recover in 21st Jan,"query: Lejn irtirar u kapaċità finanzjarja aħjar Nov 22, 2018 17:32 ""Irridu nippjanaw",unknown,unknown,0.0
+106,"query: iGujju: ""1 નંબર નબળો, 2 નંબર નબળો"" 2 mins ago","query: Aġġornata (2): ""Kuġinuwi tajjar 1, mhux se niddejjaq intajjar 2"" ",unknown,unknown,0.4615384615384615
+107,query: ///////////////////////////,query: L-imħallfa Abigail Lofaro u l-Ministru Lorry Sant – simonmercieca.com L,eng_Latn,eng_Latn,0.0
+108,query: Nitin tries to avoid i-cigarettes in a single way to avoid i-cigarettes in,query: Tevita ċertu ikel biex ma tixgħelx l-infjammazzjoni fil-muskoli ta',mlt_Latn,mlt_Latn,0.0
+109,query: O.M.E.M.E.M.E.M.E.M.E.M.E.M.,query: L-Isqof Walter Ebejer Mons. Walter Michael Ebejer O.P. Isqof Malti fil-Brażil Għal,unknown,unknown,0.15384615384615385
+110,query: Official Notice - Commissioners' letter to EVM-Committees | EVM-Committees દ્વારા ક,query: European Commission - PRESS RELEASES - Press release - It-talbiet għad-dokumenti tal-Kummissjoni,eng_Latn,eng_Latn,0.09523809523809525
+111,query: wife took a photo of her girlfriend's age while checking gm camera while checking ,query: Kellu jaħbi kamera f'daru biex jaqbad mumenti meta jisfa msawwat minn martu għax,deu_Latn,deu_Latn,0.0
+112,query: ગીતા મેગેઝિનની કવિતાઓ - Aajkaal Daily ગીતા મેગેઝિનની ,query: Tnedija ta' ktieb ta' poeżiji ta' Margaret Agius - TVM L-Għaqda,mlt_Latn,mlt_Latn,0.125
+113,query: e-e-e-e પર ખુબજ રોક | chitralekha Home News International e-e-e,"query: Tħassib serju dwar l-ebola fil-Kongo Ġun 14, 2019 14:50 Il-kap ta'",mlt_Latn,mlt_Latn,0.0
+114,query: દેશ-વિદેશ સાથે જોડાયેલ કૌભાંડ માટે જોરદાર 'Nirmal Charwar',query: Il-Gvern b'opportunità li jfittex kunsens nazzjonali dwar iż- Żonqor – Charl,eng_Latn,eng_Latn,0.0
+115,query: Video: J&M's 'Fact' thrown away from club | J&Mના 'Fact',query: Filmat: L-Isqof ta' Għawdex b'sorpriża mill-Juventus Club f'Malta -,mlt_Latn,mlt_Latn,0.16
+116,"query: ""If a man doesn't have eyesight"" | ""If a man doesn't have eyesight","query: Kelma tal-Ħajja Diċembru 2014 ""Min għandu żewġ ilbiesi, jaqsam ma' min ma",deu_Latn,deu_Latn,0.08333333333333333
+117,query: તમારી ટિપ્પણીઓ ક્યારે અસર કરે છે? - NGS Business તમારી ટિપ્,query: Ir-reklami jinfluwenzaw l-għażliet tiegħek? 29 ta' Ottubru 2018 Meta tix,tur_Latn,tur_Latn,0.08695652173913043
+118,query: એન્ડ્રોઇડ S&A / S&A / S&A / S&A Application Application Application Application Application,query: SQL Server & MS Access Design għan-Negozji tal-Marijuana u l-Qanneb Aċċess,deu_Latn,deu_Latn,0.11764705882352942
+119,query: i became a child's mind - news in gujarati i became a child's mind -,query: Jaqta' qalbu li jifhem kif miet ibnu - Newsbook Jaqta' qalbu li jifhem kif miet,unknown,unknown,0.10000000000000002
+120,"query: If you're a 18-year-old girl-in-law, and you're able to participate in ESMR","query: Jekk għandek 18-il sena u resident f'pajjiż tal-Programm Erasmus+, wasal iż-",mlt_Latn,mlt_Latn,0.08
+121,query: માર્કેટિંગ ક્ષેત્ર: MCRM Journey-Assist | માર્કેટિંગ ક્ષેત્ર: MCRM Journey-,query: MarketingPilot: Ġestjoni Integrata tal-Marketing tal-Microsoft Dynamics CRM | Martech Zone Microsoft Dynamics CRM u,deu_Latn,deu_Latn,0.2
+122,query: GvB અને OE માં નિષ્ફળ - NavGujarat Samay GvB અને OE માં નિષ્,query: Nefqu f'Għawdex u l-BOV ppremjahom - Newsbook Nefqu f'G,unknown,unknown,0.10526315789473685
+123,query:..............,query: ~ Jien ngħin lin-nies jerġgħu jingħaqdu. Miegħu nnifsu bħala,deu_Latn,deu_Latn,0.0
+124,"query: જ્યારે 'Gvt' spreads, citizens-in-laws could reach government | જ્યારે","query: Jekk l-isptarijiet jerġgħu jsiru tal-poplu, il-Gvern jista'",tur_Latn,tur_Latn,0.2105263157894737
+125,query: - - - - - - - - - - - - - -,query: EUROPA - L-Affarijiet tal-konsumatur - Tagħrif għall-konsumaturi - Drittijieti ,mlt_Latn,mlt_Latn,0.25
+126,"query: 'અંતર્ગત' તકનો ઉપયોગ રવિવાર, ઑક્ટોબર 3 2018, 01:51 Hrs","query: Opportunità tqatta' l-lejl Għar Dalam Aww 03, 2018 11:55 Il-parteċip",unknown,unknown,0.2608695652173913
+127,query: nirav-nirav strike 2020 - જ્યારે જૈન પ્રજાએ યથાવત્ કરી ,query: Id-dinja tilqa' l-2020 filwaqt li n-nirien u l-protesti j,fin_Latn,fin_Latn,0.0
+128,query: QUANTITY RATIO ANALYSIS: QUANTITY RATIO ANALYSIS: QUANTITY RATIO ANALY,query: MOZZJONI GĦAL RIŻOLUZZJONI dwar it-tnaqqis kwantitattiv: 80% tal,eng_Latn,eng_Latn,0.13333333333333333
+129,query: crthakrar : sailors-in-law does not work on sailors-in-law on week-,query: Propost li tal-karozzini ma jaħdmux bejn nofsinhar u s-sagħtejn,deu_Latn,deu_Latn,0.0
+130,query: a suitable adjustment for i.m.d.s and i.m.d.s ની,query: Appoġġ fit-tul għal intrapriżi żgħar u ta' daqs medju 30/05/2012 -,mlt_Latn,mlt_Latn,0.0
+131,query: Home » photogallery » national-international » E-Sign introduces a new restriction for sisters-in-law -,query: European Commission - PRESS RELEASES - Press release - Stħarriġ ġdid jiżvela li iktar pers,unknown,unknown,0.08
+132,query: 'R-turn-in-the-way' phase begins on the periphery roads અને પ્રમુખ,query: Jitlesta l-proġett fl-arterja prinċipali u r-'roundabouts' ta',mlt_Latn,mlt_Latn,0.11111111111111112
+133,query: e-test preparations - e-test preparations - ભારતના જર્જરિત સ્ત્રોત,query: Testi adottati - Implimentazzjoni tal-istrumenti ta' finanzjament estern tal-UE: analiżi ta,deu_Latn,deu_Latn,0.1111111111111111
+134,query: કાશ્મીર રાષ્ટ્રપતિએ 'Mc-Rae' રદ્દ કરવા માટે કડક અર,query: Il-Papa jħeġġeġ lill-President Macron biex isaħħaħ l-għeruq In,mlt_Latn,mlt_Latn,0.0
+135,query: C.R.A: There was no solution! - Sanj Samachar C.R.A: There was no solution!,"query: V A Cremona: B'ewro tixtri sptar? – Manuel Delia 2018-02-06T10:30:18+01:00Tue, 6",unknown,unknown,0.08333333333333333
+136,query: - અનેક સ્થિતિઓ જરૂરી - DSLR scanners are critical to know-in-,query: Bosta fatturi li għandhom bżonn attenzjoni fix-Xiri ta 'Monitors LCD - aħ,mlt_Latn,mlt_Latn,0.0909090909090909
+137,"query: Shijiazhuang Zhongxin Fiber Plate Polishing Machinery Co., Ltd. - OEM & ODM રંગિત",query: Ċina Heshida Crystal Diamond Non-Pollution Interal Wall Paint Manifattur u Fornitur | Meihe Ħ,unknown,unknown,0.0
+138,query: 'In-vehicle missing in Gistgen' - news 'In-vehicle missing in Gistgen' ,query: Tmut il-passiġġiera involuta f'inċident f'Għajnsielem - Newsbook 22 ta,deu_Latn,deu_Latn,0.125
+139,query: લિમિટેડની જથ્થાબંધ માન્યતાઓ - Wikipedia લિમિટેડની જથ્થા,query: Fortifikazzjonijiet ta' Żmien l-Ingliżi f'Malta - Wikipedija Fortifikazzjonijiet ta' Żmien,fin_Latn,fin_Latn,0.14285714285714288
+140,query: 'Badar dam' by a unique interpretation of Sardar dam 'Badar dam' by a unique interpretation,query: Għamara ta 'Divertiment ta' Barra li Jintewa Siġġu tal-Bajd tal-Bajd,mlt_Latn,mlt_Latn,0.1111111111111111
+141,query: વિચિત્ર વિચારો - iGujju.com iGujju.com દ્વારા ઇન્ટરને,query: Niżżel it-tixbihat ta 'forom sorprendenti | Kreattivi Online Niżżel ix-xbi,unknown,unknown,0.0
+142,query: અન્ય લાઈફ - iGujju No Deposit Bonus - iGujju No Deposit Bonus - ,query: Logħob ieħor tal - każinò | Bonus bla Depożitu 'Logħob ieħ,unknown,unknown,0.2222222222222222
+143,query: ---------------------------,"query: STQARRIJA MILL-MINISTERU GĦALL-AMBJENT, IT-TIBDIL FIL-KLIMA U L-",eng_Latn,eng_Latn,0.0
+144,"query: Best SEO Designer Websites, Best SEO Designer Websites, Best SEO Designer Websites, Best SEO Designer Websites, Best SEO Designer Website","query: 61DesignStreetBest Web Design Company 2021 Bespoke lussu websajts high-end, disinn grafiku u branding",unknown,unknown,0.1
+145,query: Resident-in-law had destroyed the land where Girman-in-law સ્થગિત કરી હતી,query: Il-Gvern xtara Villa Gwardamanġa fejn kienet tgħix ir-Reġina ,unknown,unknown,0.0
+146,query: શું તૈયાર કરવું - Seta Mesh - NET DAKIYA - NET DAKIYA -,query: Kif Tibni Mappa tal - Immaġni bis - CSS Martech Zone It - Tlieta Ottu,unknown,unknown,0.09523809523809525
+147,"query: 'યે વ્રત, યે વ્રત, યે વ્રત, યે વ્રત': Jeb","query: Għal Dawk li Jħobbu lil Ġeħova, ""M'Hemm Ebda Tfixkil"" |",mlt_Latn,mlt_Latn,0.10526315789473684
+148,query: ઇવેન્ટ્સનો લાભ - Sandesh ઇવેન્ટ્સનો લાભ - Sandesh ઇવેન્ટ્સનો લા,query: Sejħiet għall-offerti - Sit tad-DĠ - Il-Kummissjoni Ewropea Programm ta' ħ,mlt_Latn,mlt_Latn,0.12500000000000003
+149,query: iGujju Educational Portal iGujju Educational Portal એ શિક્ષણ-બળતરનો એક ભાગ,query: Il-Pilastri għall-Edukazzjoni Il-qasam edukattiv huwa wieħed mill-pilastri ewlenin,mlt_Latn,mlt_Latn,0.0
+150,query: Broadband is the best way to prevent liquor leakage | Broadband is the best way to prevent liquor leakage ,query: Blackbell huwa l-akbar mod biex tbiegħ is-servizzi ta 'l-evalwazzjoni ta,deu_Latn,deu_Latn,0.0
+151,query: Archive for the third year of M.A. Talajani's retreat | બ્રાઝિલના પૂર્વ સાંસદ,query: 1993: Ħarsa lura lejn iż-żjara tal-President Tabone f'Melbourne – Maltese Community Council,eng_Latn,eng_Latn,0.0
+152,query: 'How does our national-security system enforced when i-gujju-in-crime-in-,query: 'X'qegħdin jippretendu l-politiċi tagħna meta l-pulizija jkunu ,deu_Latn,deu_Latn,0.0
+153,query: r-r-r-r-r-r-r-r-r-r-r-r where to find,query: Ir-raba 'u l-aħħar post fejn nistenna r-riċerkaturi biex jissi,fin_Latn,fin_Latn,0.0
+154,query: Un-Un-Un-Un-Un-Un-Un-Un-Un-Un-Un-Un-Un-Un-,query: Il-UĦM bi 92 proposta għall-Baġit 2020 - Newsbook Il-UĦM bi 92 propos,mlt_Latn,mlt_Latn,0.0
+155,query: i-sport invests - news i-sport invests - news i-sport invests - news ,query: Jirbħu kompetizzjoni ta' investimenti fi stocks u ishma - Newsbook Jirbħu ,eng_Latn,eng_Latn,0.13333333333333333
+156,query: (iGujju) - iGujju is directly applied to the use of illegal initiatives (,query: • Għal raġunijiet umanitarji (l-applikazzjoni tiġi riveduta mill-Bord Mediku maħtur ,fin_Latn,fin_Latn,0.08333333333333334
+157,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+158,query: Infusion of erythrorrhoea (Vegetable oil) is a super-concentrated combination of sucrose and,"query: Velphoro (mixture of polynuclear iron(III)-oxyhydroxide, sucrose and starches) - V03",eng_Latn,eng_Latn,0.3571428571428571
+159,query: Category Archives: Page 3 of 115 - Zigya's Zigya's Zigya's Zigya's Zigya,query: Ħarġa 334 – Voice of the Workers Weekly Archive for Ħarġa 334 adminwp 12/11/2020 Xahar,eng_Latn,eng_Latn,0.08695652173913043
+160,"query: [dc]EVM reaches 1.5 lakh eફટાઇલ, કબજિયાતનો રેકોર્ડ","query: [FILMAT] Kawża tal-maltemp, l-Enemalta ffaċċjat 1,186 każ ta' ",fin_Latn,fin_Latn,0.2608695652173913
+161,query: નેશનલ નાગરિક નિયંત્રણ (Nirmal Nirmal Nirmal Nirmal Nirmal ,query: Istituzzjoni Nazzjonali tad-Drittijiet tal-Bniedem Korpi oħra Jekk jinkisru d,mlt_Latn,mlt_Latn,0.0
+162,query: ચીની-ઇઝરાયલ રેકેટર્સ માટે LICએ રજૂઆત કરી chi-in-,query: Ċina ġeli għall-manifatturi ta'l-iskart riċiklat taż-żejt u,mlt_Latn,mlt_Latn,0.0
+163,query: britain-exit dispute over three important topics remains unresolved | બિટકોઇન-exit ,"query: Il-ftehim dwar il-Brexit għadu mxekkel fuq tliet kwistjonijiet ewlenin, qalu",mlt_Latn,mlt_Latn,0.0
+164,query: Home » photogallery » national-international » - કયા ધારાસભ્યોએ અજ-ત-અજ-ત,query: L-Artijiet: L-agħar fost id-Dipartimenti tal-Gvern? Home L-Artijiet: L,unknown,unknown,0.11764705882352941
+165,query: PROBLEM-SOLUTIONS PROBLEM-SOLUTIONS PROBLEM-SOLUTIONS PROBLEM-SOLUTIONS PROBLEM-S,query: MOZZJONI GĦAL RIŻOLUZZJONI dwar is-sitwazzjoni tal-priġunieri politiċi,mlt_Latn,mlt_Latn,0.0
+166,"query: [dj]Liam's retreats are very good, but there are a lot of improvements in the","query: ""Il-miżuri ta' Von Der Leyen huma pożittivi imma hemm iżjed xi jsir",fin_Latn,fin_Latn,0.0
+167,query: C-L-L-L-L-Lનો રિપોર્ટ રજૂ | CN24NEWS C-L-L-L,query: Ċiklu relatat mad-dokument : RC-B8-0171/2019 Riżoluzzjoni tal-Parlament Ewropew ,unknown,unknown,0.0
+168,query: Internet Chat-Jam-Jam-Jam-Jam-Jam-Jam-Jam-Jam-Jam-Jam-Jam-Jam-Jam,query: Ejja chat - Il-VIDEO-CHAT fuq l-internet Café Jmorru Fuq l-internet Tmur,mlt_Latn,mlt_Latn,0.0
+169,query: Video: Nirmal Nirmal-Nirmal Nirmal Said- 'I didn't believe I didn't,"query: Bil-Filmat: ""Nimmissja Illi Nara..."" - Ronald Briffa Jitkellem Dwar It-T",unknown,unknown,0.08333333333333333
+170,"query: પોર્ટલ માર્ગદર્શન - Poonam Parva May 29th, May 29th, May 29th, May 29",query: Avviżi Parroċċa 29 April - 6 Mejju - Mosta Parish Portal Mosta Parish Portal ,fin_Latn,fin_Latn,0.2105263157894737
+171,query: 'Sikh-tuition-in-the-future is a crucial area for development-in-the-future',"query: ""L-edukazzjoni fi ħdan is-settur kruċjali għall-iżvilupp tal-ħaddiema u",fin_Latn,fin_Latn,0.0
+172,query: In a sensitivity-free state in a sensitivity-free state in a sensitivity-free state in,query: Id-Direttorat għas-Saħħa Ambjentali fi ħdan is-Sovrintendenza tas-Saħ,deu_Latn,deu_Latn,0.0
+173,query: Sagira will return again for 7 years | 'સગરે' 'સગરે' 'સગરે' ,query: 'Sagħtar' se jirritorna wara ħames snin | News Malta - All Maltese & English news,deu_Latn,deu_Latn,0.15384615384615385
+174,query: if-e-e-e-e-e-e-e-e-e-e-e-e get rid of,query: Ebda talbiet għall-flus biex jinħeles il-missjunarju maħtuf fin-Niġerja ,mlt_Latn,mlt_Latn,0.0
+175,query: B.M.G.: 3 MLAs will join MP | B.M.G.: 3 MLAs will join,query: Awdjo: €5m Puttinu: Il-Ministru jmeri lill-PM; membri tal-Bord b'ver,eng_Latn,eng_Latn,0.09999999999999999
+176,query: Gujarati News » International news » EU-UK refuses to re-negotiate: LRDને નિષ્ફળતા:,query: Brexit: L-UE aktarx tagħti konċessjoni lir-Renju Unit - Newsbook Brexit: L-UE,deu_Latn,deu_Latn,0.0909090909090909
+177,"query: how-to-check-in-list, how-to-check-in-list, how-to-check-in-","query: Kif tiġġestixxi, toħloq u teditja t-termini fil-lista tiegħi Din it-",deu_Latn,deu_Latn,0.14285714285714288
+178,query: 'Now you will be a bowler' - NGS Business 'Now you will be a bowler' ,query: 'Qrib li nwaqqfu tim nazzjonali tal-Wheelchair Basketball' - Noel Aquilina - TV,eng_Latn,eng_Latn,0.1818181818181818
+179,query: inquiry-in-gujarati-portal-which-supports-the-investigation-in-gujarati-portal-which-support,query: L-ispiża tal-proċedimenti - Awstrija Din il-paġna tipprovdi informazzjoni ,mlt_Latn,mlt_Latn,0.0
+180,query: EU-Lexicon E-Lexicon E-Lexicon E-Lexicon E-Lexicon E-Lexicon E-Lexicon,query: EUR-Lex - 42018X1592 - EN - EUR-Lex EUR-Lex - 42018X1592 -,unknown,unknown,0.0
+181,"query: U.C., U.E., U.E. નો રાષ્ટ્રીય અધિકાર 12th Jun 2021 | ","query: Il-Ġurnal Uffiċjali tal-Unjoni Ewropea, C 268, 12 ta' Awwissu 2017 Ebda op",mlt_Latn,mlt_Latn,0.07692307692307691
+182,"query: Posted on February 17, 2015 February 17, 2015 by Kylie JComments Off on Kinley – બંને જિંદગી","query: Sylvia King – Kelma bejn tnejn On February 14, 2017 By Mark CamilleriIn Uncategorized Illum mhux be",eng_Latn,eng_Latn,0.1875
+183,query: સસ્તા વાહનોની સમીક્ષા | Sunvilla Samachar You are here :HOME >> Features >> સસ્તા વાહન,query: Testimonjanzi u kwotazzjonijiet mill-klijenti tagħna | Solar Solve Marine Hawn taħt jins,deu_Latn,deu_Latn,0.07692307692307691
+184,query: Jeevan shailee has changed his name for the 'Enger Election' | 'ઇન્જરે ચૂં,query: Cyrus Engerer tefa' n-nomina tiegħu għall-elezzjoni tal-Parlament Ewropew nhar it,mlt_Latn,mlt_Latn,0.08
+185,query: ઉત્પાદન / ફેક્ટરી / OEM / ODM CHENTAI PIPING PIPING PIPING PIPING PI,query: Ċina Stainless Pipe TP-304 / 304L Fornituri u Factory - Discount Price - CANGZHOU,eng_Latn,eng_Latn,0.09523809523809525
+186,"query: 'Meen-in-the-way is going to continue', અને અમે સતત તિરસ્કાર",query: 'Il-politika qiegħda f'demmna u jien irrid inkompli fit-triq tal-,hun_Latn,hun_Latn,0.0
+187,query: -Laxion will be defeated | -Laxion-Laxion-Laxion-Laxion,query: 82. Il-Lajċi jixhdu għall-poter tal-Vanġelu – Laikos 82. Il-Lajċi,mlt_Latn,mlt_Latn,0.0
+188,query: News18 Gujarati: 'Fact' leopard creates a new plane to make leopard's life easier,query: FILMAT: Proġett ta' BirdLife Malta jitfa' dawl ġdid fuq għasafar tal-baħar li,mlt_Latn,mlt_Latn,0.1379310344827586
+189,"query: નલિયા – Page 39 – Gujarati Vishwakosh – ગુજરાતી વિશ્વકોશ Posted on October 20, 2008 at ",query: October | 2008 | Ralph Cassar www.illum.com.mt Il Punt – Ralph Cassar | 19 ta,eng_Latn,eng_Latn,0.23076923076923075
+190,query: Valsarat vs Dangerous Drugs: Difference of Valsarat vs Dangerous Drugs: અલગ-અલ,query: Losartan vs Valsartan: Differenzi u Similitajiet Ewlenin - Droga Vs. Ħabib |,unknown,unknown,0.1904761904761905
+191,query: OE/ET/ET/ET/ET/ET/ET/ET/ET સંબંધોની કાયદેસર રચના,query: id-Direttiva 2003/105/KE tal-Parlament Ewropew u tal-Kunsill tas-16 ta' Diċ,unknown,unknown,0.0
+192,query: 2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021-2021,query: Testi adottati - Kwittanza 2018: Baġit ġenerali tal-UE – Il-Qorti tal-Aw,unknown,unknown,0.0
+193,query: blackberry unlock app is the best way to unlock a gmcld e-mail which is,query: Blackbell huwa l-aktar mod sempliċi biex tmexxi l-app google tiegħek li tagħ,deu_Latn,deu_Latn,0.0
+194,query: SEO : Google submits sg sg nofollow માં શું તપાસ કરે તે માટે Sa,query: Parir SEO Semalt dwar Kif Poġġi l-websajt tiegħek f'Google Żgur li taf,unknown,unknown,0.08
+195,query: self-reliant passengers and passengers are not able to avail self-reliant service | નાગરિકોને,query: Jitnieda servizz ta' trasport sostenibbli għall-anzjani u persuni neqsin mill-mobilità,deu_Latn,deu_Latn,0.0
+196,query: 90 ટકાથી વધારે 'aas-tz' kinetic process generated by aas-tz system,query: Tnaqqis ta'aktar minn 90% fit-tniġġis tal-arja permezz ta' sistema tal-elett,mlt_Latn,mlt_Latn,0.17391304347826086
+197,query: 'i have worked against my nightmare while i have done my nightmare while my nightmare,"query: ""Ninsab kuntenta għax-xogħol li għamilt u nħares 'il quddiem",mlt_Latn,mlt_Latn,0.0
+198,query: 'M-Jam' નથી – NET DAKIYA 'M-Jam' નથી – NET DAKIYA,"query: M'hemmx paragun – iNews Malta, Aħbarijiet bil-Malti. M'hemmx paragun Lan",fin_Latn,fin_Latn,0.125
+199,query: નિયમિત પ્રયોગો - Jeevan shailee's Blog નિયમિત પ્રયોગો - Jeevan shaile,query: Dettalji tat-Taħriġ tal-Għalliema - Linda Howe Applikazzjonijiet għat-Taħ,mlt_Latn,mlt_Latn,0.125
+200,query: BLD becomes self-reliant tgkd tgkd tgkd તમારા ,query: Il-BLD tistiednek taqsam magħha l-għodda tiegħek bħala professjonist ,deu_Latn,deu_Latn,0.0
+201,query: e-currency: FDI's financial reconciliation system has been set to a year-old standard | ,query: BĊE: Rapport finanzjarju konsolidat ta' l-Eurosistema ta' l-10 ta' Ottubru 2008,deu_Latn,deu_Latn,0.07692307692307691
+202,query: submitted: submitted: 'NGO's plan to develop social-cultural initiatives for youths | ન,query: Filmat: Sejħa għal proġetti għal NGOs favur djalogu soċjali - Newsbook 3 ta' Lul,mlt_Latn,mlt_Latn,0.07142857142857144
+203,query: મેરાન્યૂઝ નેટવર્ક: 'Man-in-law' will be checked in a single-,query: Filmat: Maltin jipparteċipaw fil-ġimgħa għaż-żgħażagħ fi Brussell - Newsbook,fin_Latn,fin_Latn,0.09523809523809525
+204,query: Commissioner's statement regarding the law-of-law and e-law agreement | સાયબર નિયમ પર,query: RAPPORT dwar il-proposta għal regolament tal-Parlament Ewropew u tal-Kunsill li jemenda ,mlt_Latn,mlt_Latn,0.0
+205,query: 'I'm not able to reduce self-reliant life's expense | 'શ્રેષ્ઠતા,"query: ""Ħajjet persuna m'għandix tibqa' sospiża frott l-ineffiċjenzi",mlt_Latn,mlt_Latn,0.09090909090909093
+206,query: કોરોના: SIT has started re-entry from eastern-european tourists | કોરોના: SITએ,query: Covid-19: Spanja tilqa' lura lit-turisti fost it-tmiem tal-istat ta' emerġ,fin_Latn,fin_Latn,0.08695652173913043
+207,query: t.m.n.f. ready for family members. | પરિવાર સાથે કમબેક કરવા ટિ,"query: Tonn mimli faqqiegħ, starter biex tgawdi mal-familja. | Riċetti tal-k",deu_Latn,deu_Latn,0.16666666666666666
+208,query: - in-laws-test-in-gujarati - in-laws-test-in-gujarati બ્રાઝિલમાં પ્રતિ,query: Testi adottati - Ir-repressjoni sistematika fil-Belarussja u l-konsegwenzi ta,unknown,unknown,0.15384615384615383
+209,query: ઈઝરાયેલ | Jeevan shailee-Bilingual Multi Topic Reads by Jeevan shailee-Bilingual PDF,"query: Isaija 65 | Il-Bibbja Onlajn | Traduzzjoni tad-Dinja l-Ġdida 65 ""Ħall",hun_Latn,hun_Latn,0.10526315789473685
+210,"query: malta refuses to throw a mithril, refuses to throw a liquor, જેનાથી","query: Il-Malti ma jaħmlux lill-istramb, minn dak li jhedded li jaqbeż minn ",unknown,unknown,0.10526315789473685
+211,query: iDaM માંથી અલગ અલગ પ્રોજેક્ટ રજીસ્ટ્રેશન કરવા માટે... -,query: Tħassib għal pjani ta' żvilupp ftit pass bogħod mill-Imdina... meqjus bħal,mlt_Latn,mlt_Latn,0.09090909090909093
+212,query: નલિયા સામે રમત-ગમત નિયંત્રિત કરે | Zigee strikes in LRD-,query: Ġlieda kontra l-Armi ta'reġistrazzjoni online. Tilgħab logħba ta ',deu_Latn,deu_Latn,0.0
+213,query: MSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTR,query: STQARRIJA MILL-MINISTERU GĦAT-TURIŻMU U L-PROTEZZJONI TAL-KONSUMATUR De,unknown,unknown,0.0
+214,query: GARONZO GARONZO GARONZO GARONZO GARONZO GARONZO GARONZO GARONZO GARONZO G,"query: GIORGIO NARDONE, PSIKOLOGU-PSIKOTERAPISTA: TAĦRIĠ Giorgio Nardone ggrad",unknown,unknown,0.0
+215,"query: તા. 21/10/2014, 'C' / C' / C' / C' માં જોવા મ","query: 20 ta' Marzu 2014 (*) Fil-Kawża C‐61/12, li għandha bħala suġġett ",deu_Latn,deu_Latn,0.16
+216,query: આ સિસ્ટમ આપે છે સૌથી મફત મુસાફરી - Video-Chat-If-It-Is,query: Dan huwa Liberu Tmur Tas-servizz Bil-possibbiltà Ta Jmorru - Il-VIDEO-CHAT,unknown,unknown,0.10526315789473685
+217,query: Demand for approval of Tribal Court's preliminary hearing | તાજેતરના સુપ્રીમ કોર્ટ,query: Talba għal deċiżjoni preliminari mressqa mit-Tribunal Superior de Justicia del País Vasco (Spanja,fin_Latn,fin_Latn,0.0
+218,query: Home > Products > Industrial & Industrial Components > Xinmao Xinmao Xinmao Xinmao Xinmao Xinmao,"query: Ċina Iskola Classroom Għamara Henan Vimasun Industry Co, Ltd Id-dar > Il-prodotti > G",unknown,unknown,0.09523809523809523
+219,query: ISL/ISL/ISL/ISL/ISL/ISL IDENTIFICATION : દેશનું કાબૂ,query: 101 L-AQWA TATWAĠĠI SALIB GĦALL-IRĠIEL: IDEAT TA 'DISINN,deu_Latn,deu_Latn,0.14285714285714285
+220,query: More than 60 lakh students return from SC-ST examination | SC-ST-ST નોંધપાત્ર અભ્યાસથી,query: Iktar minn 500 student igawdu minn klassijiet ta' reviżjoni tas-SEC bla ħlas - Fl-aħ,fin_Latn,fin_Latn,0.0
+221,query: i-net invested in 2015 i-net invested in 2015 i-net invested in 2015 પછી એ,query: L-Enemalta investit f'dan il-proġett fl-2015 wara li kienet xtrat l-i,fin_Latn,fin_Latn,0.0
+222,query: 'Our history is not an eye-catcher' - NGS Business 'Our history is not an eye-catcher' ,"query: ""Turija ta' rispett lejn l-eroj tagħna"" - Newsbook ""Il-politiċi mhux",hun_Latn,hun_Latn,0.17391304347826086
+223,"query: શું કામ કરે જ્વેલરી પર વાદળ? - Jinjiang Machinery & Co., Ltd. ","query: X'tagħmel dwar folja tal-metall? - Għarfien - Hangzhou Jingshan Industry Co,",deu_Latn,deu_Latn,0.22222222222222224
+224,"query: [dc]G[/dc]Sagittarius's laws changed, નિયંત્રણ રજૂ કરે","query: [AĠĠORNAT] ""Gidba""; BirdLife tiċħad l-allegazzjonijiet tal-FKNK – i",deu_Latn,deu_Latn,0.15384615384615385
+225,query: HomeFact CheckMadoda dioceseMadoda dioceseMadoda માતાનો કથિત અવલોકન,query: Home Aħbarijiet Knisja Il-Madonna Mirakoluża ta' Badoc tintbgħat lura fil-Ġapp,mlt_Latn,mlt_Latn,0.0
+226,query: Free Casino Bonuses in Jail | અલગ-અલગ ઓનલાઇન આઇડેન્ટમાં અલગ-અલગ,query: Bonus ta 'Casino Online bla Depożitu Fl-Alġerija L-Aqwa Kodiċijiet ta 'Bonus tal,fin_Latn,fin_Latn,0.0
+227,query: ANN-KANE RELIEF MOVEMENT 2015 ની અંતર્ગત ANN-KANE RELIEF MOVEMENT 2015,query: Il-Laqgħa Ġenerali Annwali tal-Moviment ta' Kana 2015 Il-Moviment ta' Kana la,deu_Latn,deu_Latn,0.125
+228,query: રંગીન રંગીન ફોટોશૂટ | Various types of symbolic slogans are created at,query: Logos ispirati minn pittura ħafifa | Kreattivi Online Kull tip ta'manifestazzjoni artistika splashed,unknown,unknown,0.08333333333333334
+229,query: sc-test-in-gujarati-test-in-gujarati-test-in-gujarati-test-in-gujarati-test-,query: Testi adottati - L-introduzzjoni tal-programm 'Ċess fl-Iskola' fis-sistemi,hun_Latn,hun_Latn,0.0
+230,query: twinks should be able to upload i-mails to their friends or relatives | તુર્કી અને,query: Ġenituri għandhom jiftħu kontijiet lil uliedhom fuq TikTok jew Instagram? - TV,deu_Latn,deu_Latn,0.0
+231,query: One-in-one-in-one-foreign-exchange scam - NGS Business One-in-one-foreign exchange scam,query: Surplus ta' €157 miljun fil-kummerċ internazzjonali – One News L-Uffiċċju Nazzjonali,deu_Latn,deu_Latn,0.0
+232,query: 'Mc does not have a guarantee of financial assistance in ghana' | મગફળીમાં,"query: ""Qatt ma rċivejna għajnuna finanzjarja għax operawh f'Malta"" - Omm Jacob",mlt_Latn,mlt_Latn,0.0
+233,"query: જ્યારે 'Gam', 'Gam', 'Gam' ના વિકાસ દરમિયાન","query: Bħalma għamlet fis-snin l-imgħoddija, l-Għaqda tal-Armar",mlt_Latn,mlt_Latn,0.14285714285714285
+234,query: GUJARAT ALL-FASHION ALL-FASHION ALL-FASHION ALL-FASHION ALL-FASHION ALL-FASHION ALL,query: 50 L-AQWA HAIRCUTS & HAIRSTYLES GĦALL-IRĠIEL FL-2021 - XAGĦ,deu_Latn,deu_Latn,0.0
+235,query: નિયંત્રણો | Gujjuben (non-receptive) અને (non-receptive) દર્દીઓ,query: Neuraceq (florbetaben (18F)) – Kondizzjonijiet jew restrizzjonijiet rigward il- provvista u l-,unknown,unknown,0.18181818181818182
+236,"query: ETFs more restricted, amid-jail-cardholders - news amid-jail-cardholders -",query: Bdil tad-dati bla tariffi; aktar tindif fuq l-ajruplani – Emirates - Newsbook 7,eng_Latn,eng_Latn,0.09523809523809523
+237,query: ELECTION-ELECTIONS ELECTION-ELECTIONS ELECTION-ELECTIONS ELECTION-ELECTIONS ELECTION-ELECTIONS ELECTION-,query: L_2016157MT.01000101.xml DIRETTIVA (UE) 2016/943 TAL-PARLAMENT EWROPEW U,unknown,unknown,0.0
+238,query: ડઝન! | THE THIRD WAY OF GUJARAT - THE THIRD WAY OF GUJARAT -,query: Moviment Kerŷgma » TITĦAWDUX! – Il-5 Ħadd tal-Għid – Sena A –,unknown,unknown,0.09999999999999999
+239,query: E-Commerce-in-Gujrati-Navgujarat Samay E-Commerce-in-Gujrati-Navgujarat Samay,query: L-ekonomija | In-Negozju Tal-Aħbarijiet Globali L-Artikoli-Websajt.WS |,unknown,unknown,0.0
+240,query: Kiran Mehta wants to alter his bike-in-wheel specification | કિરણ મેહતાએ ઇલેક્ટ્રિક ,"query: Kia Motors għażlet lil Karim Habib biex imexxi ċ-ċentru tad-disinn Set 12, 2019 14:41",mlt_Latn,mlt_Latn,0.0
+241,"query: medicinal uses of liquor mastitid નિયંત્રિત છે, તેના ઉપયોગ માટે નિયંત્રિત આ દ",query: Prodotti mediċinali għal użu pedjatriku Din il-liġi timmira li tiżgura li l-medi,fin_Latn,fin_Latn,0.0
+242,"query: February 23, 2021 February 23, 2021 SGL-SGL-SGL-SGL-A સંગીત આજ સુધી",query: April – 2021 – Soċjetà Filarmonika La Stella Għada l-Ġimgħa 23 t'April 2021,unknown,unknown,0.2105263157894737
+243,query: Conjugation of FGF: બદલવા મજબૂત અને બદલવા મજબૂત,"query: Infasslu Futur Flimkien: Partit Żagħżugħ, determinat li jibdel u jinbidel favur",unknown,unknown,0.1
+244,query: સામાન્ય પ્રવાસે - escortes.fr - સામાન્ય પ્રવાસે - escortes.fr -,"query: Jmorru - Franza, Essonne. - Video chat għall - sess. Xandiriet diretti u",unknown,unknown,0.11764705882352941
+245,query: 'jesus lost a member from a stranger' - news 'jesus lost a member from a stranger,"query: ""Lisa Maria nqatlet mill-persuna li kellha tieħu ħsiebha"" - Newsbook 14 ta' ",deu_Latn,deu_Latn,0.16666666666666669
+246,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+247,query: EU-ETUR-ETUR-ETUR-ETUR-ETUR-ETUR-ETUR-ETUR-ETUR,query: EUR-Lex - 32003R2325 - MT Ir-Regolament tal-Kunsill (KE) Nru 2325/2003,unknown,unknown,0.0
+248,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+249,query: E.C.I. needs to be able to reconcile e-deprived e-deprived,query: Il-Kummissjoni Ewropea tixtieq tqiegħed għad-disponibbiltà materjal għat-,mlt_Latn,mlt_Latn,0.0
+250,query: strict negligence schemes had to be implemented first - iGujju strict negligence schemes had,query: Miżuri għall-governanza tajba setgħu ttieħdu qabel u kienet tiġi evitata,deu_Latn,deu_Latn,0.0
+251,query: ///////////////////////////,query: > Main > Dikjarazzjoni tal-Aċċessibbiltà Din id-dikjarazzjoni tapplika għas-sit elettro,fin_Latn,fin_Latn,0.0
+252,"query: Arbitrage against SEBI, SEO traders critically misinterpreted. | સીએફની દ્રષ્ટિ","query: Verifika SEO Ma 'Semalt Bħal fin-negozji, il-verifiki huma kritiċi. Il-klijenti spis",unknown,unknown,0.24000000000000002
+253,query: તા. 31/10/2021 - MODI CONNECTION: MODI CONNECTION: MODI CONNECTION: MODI,query: TEST Konsolidat: 32011D0172 — MT — 23.03.2017 02011D0172 — MT — 23.03.2017 — 007.,unknown,unknown,0.23529411764705882
+254,"query: Posted on February 26, 2016 February 26, 2016 Author Ankit MakwanaComments Off on સામાન્ય 'માર્ક' એ","query: X'differenza! By Mark Anthony Sammut April 27, 2016 Dan l-artiklu deher fil-ħarġa tal-",unknown,unknown,0.1379310344827586
+255,"query: - a web-based video is a universal representation of the world, which is all-in-a-time","query: Fil-fatt, il-video ġermaniż — hija universali pjattaforma fejn kull utent tal-Internet issib",unknown,unknown,0.07692307692307693
+256,query: Eligibility Test - Eligibility Test - Eligibility Test - Eligibility Test - Eligibility Test,query: Testi adottati - Rapport dwar l-implimentazzjoni tal-leġislazzjoni tal-UE rigward,deu_Latn,deu_Latn,0.16666666666666666
+257,query: 'We always struggle while trying to get rid of each other' | 'અમે ક્યારેય,"query: ""Qed nirriżenja minkejja li għamilna passi 'l quddiem f'wieħed mill-",unknown,unknown,0.07407407407407407
+258,query: - iGujju syntax can be improved as well | iGujju syntax can be improve,query: Kif tipproċedi? - Svezja Jista' jkun aħjar li tuża sistemi għas-,unknown,unknown,0.08695652173913043
+259,query: aajka mask recognizes all skin types aajka mask recognizes all skin types aajka,query: Makeup bħala kawża maġġuri tal-Acne Kulħadd jaf kawżi maġġuri ta',mlt_Latn,mlt_Latn,0.0
+260,"query: Posted on 11:42 am January 27, 2022 Author NirajComments Off on આજની સૌથી મજબૂત ","query: Nofs kedda Aww 29, 2012 21:56 L-ironija politika li qed ngħixu hi li r",unknown,unknown,0.07142857142857142
+261,query: how to convert iGvt / How to convert iGvt / How to convert iGvt,query: Kif taqra xi WMA fuq iPod faċilment > Ir-riżorsa > vidjo > kif taqra xi,tur_Latn,tur_Latn,0.0
+262,"query: Posted on December 21, 2021 December 21, 2021 Author SarjakLeave a Comment on ન્યુઝીલેન્ડ ગયા 5 માણસો","query: Dead man walking – simonmercieca.com November 19, 2021 November 19, 2021 Simon Mercieca Karl Stagno Navarra ddeskriva",eng_Latn,eng_Latn,0.1379310344827586
+263,query: Comparison of quantity and quantity comparison of quantity and quantity comparison of 'ક્વિઝર'ની ,query: Kompożizzjoni u l-klassifikazzjoni ta 'tagħmir taħlit ta' konkrit - Shandong,deu_Latn,deu_Latn,0.11111111111111112
+264,"query: PI-3500, PI-3500ના પ્રતિષ્ઠિત રિઝર્વર | chitralekha Home Gallery News & Event PI-3500","query: Philips 3000i, il-purifikatur tal-arja ta'referenza [Reviżjoni] | Aħbarijiet tal",unknown,unknown,0.16666666666666666
+265,"query: ચીફ રવિ યાદવેની ચેતવણી - Sanj Samachar Posted on January 10, 2014","query: Wirja ta' pajsaġġi mill-artist Richard Saliba Jan 04, 2015 10:44 Ġewwa l-Kam",mlt_Latn,mlt_Latn,0.07407407407407408
+266,query: nirav-abhiyaan gets more self-reliant in municipality | જિઆઇઆરમાં સૌથી વધારે,query: Il-PN bi 12-il miżura biex il-mara tipparteċipa aktar fil-ħajja pubblika u,deu_Latn,deu_Latn,0.0
+267,query: 25 year old jihadist killed by a liquor smuggler's attack on a liquor smuggler |,query: 25 sena ħabs għal wieħed mill-hijackers ta' ajruplan Libjan li spiċċa Malta -,deu_Latn,deu_Latn,0.07407407407407408
+268,query: 'It's time to decide the role of liquor-in-law to avoid political sanctions | ',query: 'Illum hija l-ġurnata li nerfgħu r-responsabbiltà politika ta' dak li,mlt_Latn,mlt_Latn,0.08333333333333333
+269,query: ચીન-ઇંગ્લૅન્ડનો મુસાફરી ટ્રાયલ ફરીથી વધે છે - My Samachar,query: L-ajruport ta' Hong Kong fiċ-Ċina jerġa' jiftaħ - TVM L-aj,unknown,unknown,0.09999999999999999
+270,query: સેક્સ મફત Xxx.com - સેક્સ મફત Xxx.com - નાગરિકો અને મ,query: Adulti free Jmorru - Video chat għall - sess. Xandiriet diretti u li Jmorru.,unknown,unknown,0.1
+271,query: ડાઉનલોડ નિયમ | Rs.gov.in Rs.gov.in Rs.gov.in ,query: Artikolu 21 📖 RĠPD (GDPR). Dritt ta' oġġezzjoni | GDPR-Text.com Artik,deu_Latn,deu_Latn,0.10526315789473685
+272,query: નિયમિત શોધ અને નિષ્ક્રિય શોધ.......,query: Jiskopru b'xejn u mingħajr reġistrazzjoni. Tibda tuża popolari Tmur bi,mlt_Latn,mlt_Latn,0.0
+273,query: Rs.100 crore's renovation project was built from an i-turn-in-law and it's,"query: Dan il-proġett ta' restawr sewa €100,000, u ġie żvelat mill Ministru Owen",fin_Latn,fin_Latn,0.0
+274,query: chitralekha says he wants to keep their tractors - અલ્ટ્રાસોયલ વાહનોને જો,query: Herrera jwissi li rridu nnaqqsu l-vetturi li jaħdmu bil-'fossil ,unknown,unknown,0.0
+275,query: daily withdrawal of 50 gram liquor stop -abhiyaan-abhiyaan-abhiyaan-abhiyaan-abhiyaan-abhi,query: Tkompli l-isfida biex jinġabru 50 borża demm kuljum - Newsbook Tkompli l,deu_Latn,deu_Latn,0.10526315789473685
+276,query: FIRST FIRST FIRST FIRST FIRST FIRST FIRST FIRST FIRST WORKERS જવાબદાર હોય તે,query: Korsijiet Trainer Personali Wied Iż-Żiju FFC huwa responsabbli biex jipproduċi l-a,deu_Latn,deu_Latn,0.0
+277,query: 'Teacher's wife's funeral | 'Teacher's wife's funeral ,query: Il-mewt ta' Thatcher u eluf kbar ta' ħaddiema ċċelebraw fit-,deu_Latn,deu_Latn,0.0
+278,query: Home » photogallery » national-international » Aam-Aadmi's father-in-law Sonia's father-in,"query: IS-SENA FAMILJA AMORIS LAETITIA intervista mal-Kardinal Kevin Farrell Id-19 ta' Marzu,",mlt_Latn,mlt_Latn,0.0
+279,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+280,query: TAMU-TAMU-TAMU-TAMU-TAMU-TAMU-TAMU-TAMU-TAMU-T,query: L_2009142MT.01000101.xml REGOLAMENT (KE) Nru 444/2009 TAL-PARLAMENT EWROP,unknown,unknown,0.0
+281,query: GENERAL-ELECTIONS GENERAL-ELECTIONS GENERAL-ELECTIONS GENERAL-ELECTIONS GENERAL-ELECTIONS GENERAL-,query: MIET L-EKS ĠENERAL TAL-PATRIJIET TEREŻJANI | ORDNI SEKULARI KARMELITAN,fin_Latn,fin_Latn,0.0
+282,query: ///////////////////////////,query: Qiegħed hawn: Daħla / Aħbarijiet / Aħbarijiet / Is-Segret,unknown,unknown,0.0
+283,query: MFI will join FSL-A's first round | FSL-A'ના પ્રથમ ક્વાર્ટર સામે,query: L-MFA se tiltaqa' mal-klabbs tal-Ewwel Diviżjoni illum fis-14.00 - TVM L-,fin_Latn,fin_Latn,0.08
+284,"query: Why is it self-fabrication? | ""તાણુ"" અને ""તાણુ"" - iGuj",query: X'inhu debranding? | Kreattivi Online X'inhu debranding? It-tendenza tad-debranding tal-,unknown,unknown,0.1904761904761905
+285,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+286,query: Kazana-Kazana-Kazana-Kazana-Kazana blocked a car | કાબેર-કાબેર,query: Tinstab il-kannabis fi 3 karozzi f'Ħaż-Żabbar - Newsbook Tinstab il-kanna,eng_Latn,eng_Latn,0.0
+287,query: 'Nirgam' sheep's life could further ameliorate | 'Nirgam'નાં,query: Il-bejgħ ta' Newcastle jista' jerġa' jieħu l-ħajja? – i,mlt_Latn,mlt_Latn,0.09523809523809525
+288,query: Arbitrator of A.V.A.C. - Arbitrator of A.V.A.C.C.,query: Awtorità fil-Qadi - Is-Seminarju tal-Arċisqof Awtorità fil-Qadi Minn,others,others,0.16666666666666666
+289,query: GGVCL reaches 100th minimum-in-the-year itinerary | GGVCLની 100મી યાત્રા,query: Il-mitħna tax-Xewkija fost l-iktar 100 destinazzjoni ta' preġju għas-sostenibilità,mlt_Latn,mlt_Latn,0.0
+290,query: FACT CHECK: LRD FUND-MISC FD-MISC FD-MISC FD-MISC FD-MISC,query: RIŻORSA ĠDIDA: IL-KALKULATUR TAL-ĠBID TA' FLUS MILL-PROGRAMM TAT-T,unknown,unknown,0.125
+291,query: શું અન્ય દોષીઓને અલગ-અલગ ઇજ્જત કરે? | chitralekha Home Re,query: Għaliex niġġudikaw lil ħaddieħor? | Riżorsi ta 'Self Help Ġiżimin,fin_Latn,fin_Latn,0.18181818181818182
+292,query: ઇન્ટરનેટ વિના જુદી જુદી Video - Chat-Chat-Chat-Chat-Chat-Chat-Chat,query: Fuq l-internet mingħajr il-video-introduzzjoni - IL-VIDEO - CHAT - ,eng_Latn,eng_Latn,0.15384615384615383
+293,query: iRr 2020 નું સૌથી ખતરનાક સ્માર્ટફોન કેમ રહ્યું - NGS Business,query: L-iPhone XR kien l-iktar smartphone li nbiegħ fl-2019 | Aħbarijiet dwar l-,deu_Latn,deu_Latn,0.0
+294,query: Smart Accessibility Policy is strictly enforced | Smart Accessibility Policy is strictly enforced by Smart Accessibility Policy,query: Politika ta 'Privatezza Smartplay Aġġornat l-24 ta 'SETTEMBRU 2020 Smartplay International hija impenjata,deu_Latn,deu_Latn,0.0
+295,query: ગરીબોને હેરાન કરવા નિયમ - NGS Business ગરીબોને હેરાન કરવા નિય,query: Jgħinu nies bla dar minħabba s-sħana tremenda - Newsbook Jgħinu nies bla,mlt_Latn,mlt_Latn,0.11764705882352941
+296,query: સ્વતંત્ર રીતે લાયબ્રેરીને પ્રતિષ્ઠિત કરો. - iGujju.com Home »,query: Opinjoni | Inħarsu l-patrimonju Malti bir-restawr - Illum.com.mt Opin,unknown,unknown,0.10526315789473685
+297,query: iZVIMA INTERNATIONAL STANDARD - iZVIMA INTERNATIONAL STANDARD - iZVIMA INTERNATIONAL STANDARD,query: Importazzjoni u Esportazzjoni Vladivostok - ISPM Nru 15 - Istandard Internazzjonali għal Miżuri Fitosan,deu_Latn,deu_Latn,0.11764705882352941
+298,query: PYT2 Video Converter: PYT2 Video Converter SWF-SWF-SWF-SWF-SWF બદલવા માટે ,query: Wondershare PPT2Video Pro [uffiċjali]: jikkonverti PPT għall-vidjow Ikkonverti,deu_Latn,deu_Latn,0.1111111111111111
+299,query: iGujju Mirror: પૂર્વેથી નિષ્ફળ રહો - iGujju Mirror: Controvers,query: Ritratti: Tibżgħux mill-isfidi u komplu mexjin 'il quddiem - Seminar għaż,tur_Latn,tur_Latn,0.2
+300,query: કાલ્પનિક બર્થ ડેનો રચના કરો - Aajkaal Daily કાલ્પનિક બર્થ ડે,query: QLA Madonna tal-Blat Il-Kunċizzjoni tal-Blat~ Qala - Għawdex ~ He,mlt_Latn,mlt_Latn,0.10526315789473685
+301,query: PROBLEM IN-KNOWLEDGE PROBLEM IN-KNOWLEDGE PROBLEM IN-KNOWLEDGE PROBLEM IN-KNOWLEDGE,query: MOZZJONI GĦAL RIŻOLUZZJONI KONĠUNTA dwar is-sitwazzjoni fil-Lvant tar,mlt_Latn,mlt_Latn,0.0
+302,query: 'EU-A-M for a year had a jam' | 'EU-A-M' સાથે,"query: Awdjo: ""Kienet sena ta' mistura għall-UE"" – Peter Agius - Newsbook Awdjo",mlt_Latn,mlt_Latn,0.08333333333333334
+303,query: સારવાર - Sagira Geel - Sagira Geel - Sagira Geel - Sagira Geel-,query: Għasel - Mediċina tan-Naħal - Test tal-Għasel - BALLYA Serje tat,mlt_Latn,mlt_Latn,0.14285714285714285
+304,query: Bank of Scotland - BCCI ની રિયલ લાયસન્સ માટે અસરકારક તબક્કો |,query: Opportunitajiet għal Karriera - Central Bank of Malta Bħala parti mill‐istrateġija tal‐iżvilupp tie,fin_Latn,fin_Latn,0.24000000000000002
+305,"query: Lodu - વિકિપીડિયા Lodu - local, local, local, local, local, local, local, local,","query: Leopoldu Mandić - Wikipedija San Leopoldu Mandic, O.F.M. Kap. (magħruf",unknown,unknown,0.23529411764705882
+306,query: UNION BANK OF EUROPE (UK) ના નેટવર્કનો દ્રષ્ટિકોણ 3rd Mar 2021 |,query: Opinjoni tal-Kunsill Governattiv tal-Bank Ċentrali Ewropew tat- 3 ta' Marzu 2011 ,mlt_Latn,mlt_Latn,0.0
+307,query: First row of Zigya | Zigya's first row of Zigya | Zigya's first row of Zigya,"query: L-ewwel rebħa Furjaniża Home » L-ewwel rebħa Furjaniża Tuesday, September 17,",eng_Latn,eng_Latn,0.0
+308,query: i-gam-international-relations | i-gam-international-relations i-gam-international-relations,query: Testi adottati - L-impatt tal-kummerċ internazzjonali u tal-politiki kummerċ,unknown,unknown,0.0
+309,"query: પ્રાણીઓ માટે હેરસ્ટાઇલ, iGivenchy - iGivenchy પ્રાણીઓ માટે હેર","query: shampoos għall-xagħar, invidia - GLOBElife ☎ - Prodotti għall-xagħar",mlt_Latn,mlt_Latn,0.26666666666666666
+310,query: - European Commission-Reliance-Ceasement will not come again | કોઇ રજુઆત નહીં આવે,query: European Commission - PRESS RELEASES - Press release - L-ebda reġjun ma jibqa' lura,deu_Latn,deu_Latn,0.16
+311,"query: ahmedabad:'saif had started a golf course for 11 years, he had decided to go to ","query: Awdjo: ""Shaun ilu jaqsam lejn Malta għall-futbol minn meta kellu 11-il sena"" -",unknown,unknown,0.0625
+312,query: TAMU-KANALA TAMU-KANALA TAMU-KANALA TAMU-KANALA TAMU-KANALA Application 2021 |,query: REGOLAMENT TA' IMPLIMENTAZZJONI TAL-KUMMISSJONI (UE) 2018/1012 tas-17 ta' Lul,eng_Latn,eng_Latn,0.0
+313,query: a man rescued by a lion who killed more than 2 lakh in a year ago | નવેમ્બર,"query: Demmu salva iktar minn żewġ miljun tarbija Ġun 09, 2018 20:32 Raġel Awstraljan ta",unknown,unknown,0.0
+314,"query: Former General Secretary, Sardar Gujrati, will be resigned | Former General Secretary, Sardar Gujrati","query: Il-mandat tas-Segretarju Ġenerali tagħna, is-Sur Eduardo Ruiz García, se jintemm",hun_Latn,hun_Latn,0.09523809523809525
+315,query: where 'injured' workers have to earn a monthly fee for their work 'injured,query: X'rimedji hemm għal residenti li jsofru ħsarat b'xogħol ta' kostruzzjoni? -,mlt_Latn,mlt_Latn,0.07692307692307693
+316,query: લેટિન યુદ્ધ — વિકાસપીડિયા હોમ પેજ / English / German / Estonian /,query: ES tiesību akti (2639) maltiešu valoda (1424) grieķu valoda (123) vācu valoda,deu_Latn,deu_Latn,0.0
+317,query: Mafia-Lal's quantity of drugs was critical | સુરતમાં Mafia-Lal's quantity,query: Il-kwantità u l-kwalità tad-droga f'Malta naqsu tul il-pandemija?,others,others,0.0
+318,query: west-west-west-west-west-west-west-west-west-west-west-west-west-west-,"query: Il-Belt Valletta Esposta F'Wirja Ġewwa l-Italja Mar 26, 2018 11:09 It",fin_Latn,fin_Latn,0.0
+319,"query: Official release of ELSA - European Parliament: પ્રજા-વિરોધી સંગઠનોનો પ્રતિબંધ, -",query: European Commission - PRESS RELEASES - Press release - Il-moviment liberu tal-persuni: Il-,eng_Latn,eng_Latn,0.3333333333333333
+320,query: તમારી માટે CNJ-A5 કટીંગ મશીન શું છે? CNJ-A5 કટીંગ,query: x'inhu l-makkinar CNC b'5 assi? PTJ iwieġeb għalik | P,mlt_Latn,mlt_Latn,0.09523809523809525
+321,query: 'Mita's weekly index of 'Mita's weekly index of 'Mita's,query: Qari tal-Quddies tal-Ħamis tal-I ġimgħa matul is-Sena – Laikos Qar,mlt_Latn,mlt_Latn,0.0
+322,query: Demand for re-injurment related to JEWS KNOWLEDGE RE-INJURATION RE-INJURATION ,query: MOZZJONI GĦAL RIŻOLUZZJONI KONĠUNTA dwar l-arrest ta' priġunieri,fin_Latn,fin_Latn,0.0
+323,"query: Sailor-law-law-law-law-law.pdf March 15, 2007 Source: Sailor-law-law-law.",query: Sentenza tal-Qorti tal-Ġustizzja (it-Tielet Awla) tal-15 ta' Marzu 2007.$,deu_Latn,deu_Latn,0.0
+324,query: M.S.G. - The Society of M.S.G. - The Society of M.S.G.,"query: L-Istorja – Malta Society Of The Blind Board Members of MSB STORJA tal-""GĦAQDA PERSUNI N",eng_Latn,eng_Latn,0.2608695652173913
+325,query: રમતો - CasinoMega.com Online CasinoMega.com Online CasinoMega.com Online CasinoMega.com,query: Casino Online Messiku - L-Aqwa Casinos Online Messikani Għall-2021 homeCasino Online Messiku - L-A,deu_Latn,deu_Latn,0.28571428571428575
+326,query: 'One-One-One-One-One-One' Campaign held on January 1st | તાજેતરની,query: Titella' it-42 edizzjoni tal-Għanja tal-Poplu fl-1 ta' Settembru – One News Titella',mlt_Latn,mlt_Latn,0.09523809523809525
+327,"query: Deutschman, 1700: દેશની દોસ્તી, લિમિટેડ, મજબૂત પ્રતિનિધિઓ","query: maltesisk (1259) Emne: demokrazija, drittijiet tal-bniedem, kunflitt internazzjonali,",deu_Latn,deu_Latn,0.1904761904761905
+328,"query: Daughter-in-law submitted by nirav raval on January 17th, 2012 by nirav raval",query: Is-sehem tar-raġel fil-familja jgħodd Minn Renee Laiviera 16 ta' Diċembru,mlt_Latn,mlt_Latn,0.0
+329,query: Inverter-Assisted Car Parts | Inverter-Assisted Car Parts | Inverter-Assisted Car Parts | Inverter-Assist,query: Satisfyer Pro 3+ | Il-Vibraturi Air Pulse | Tekonoloġija Air Pulse | Prodotti | ,unknown,unknown,0.14285714285714285
+330,"query: 'Pain-in-change' needs to be changed, Narendra Modi says-Pain-in-change","query: L-irkupru tal-pandemija jeħtieġ konverżjoni, jgħid il-Papa – Laikos Il-",unknown,unknown,0.10000000000000002
+331,"query: i-jet ની જ્વેલરી સતત અકસ્માત માં આવે, ત્યારબાદ ની","query: L-industrija għajjiet tieħu d-daqqiet ġo fiha, waħda wara l-o",deu_Latn,deu_Latn,0.10526315789473685
+332,query: 'અભીવ્યક્તી' Theory and Analysis of Tiwari Desai | 'અભીવ્યક્તી',query: Tagħlim sinifikanti u t-Teorija ta 'David Ausubel | Riżorsi ta 'Self,tur_Latn,tur_Latn,0.10526315789473685
+333,query: KKR's Zigzag: - OMG! - OMG! - OMG! - OMG! એક,query: Mark Montebello's blog: Xi kruha! Xi kruha! Kif din il-ġimgħa ntwera,unknown,unknown,0.3
+334,"query: Monitoring of a-persons, a-persons, a-persons and a-persons in Aj","query: Avviż għall-attenzjoni tal-persuni, l-entitajiet u l-korpi li għalihom",mlt_Latn,mlt_Latn,0.125
+335,query: Home » photogallery » national-international » E-Commission - FEMA announces a strong declaration to the Committee,query: European Commission - PRESS RELEASES - Press release - Il-Kummissjoni tiffirma ftehim mal-industri,eng_Latn,eng_Latn,0.08
+336,query: Election 2022 - SIR vs SIR vs SIR vs SIR vs SIR vs SIR vs SIR vs SIR,query: Rikors ippreżentat fid-9 ta' Settembru 2012 – ZZ vs Il-Kummissjoni (Kawża,eng_Latn,eng_Latn,0.1111111111111111
+337,query: Official Report - e-international-integration-conference-final-results-in-ireland | પ્રધાનમંત્રીની પ્રતિક્રિ,query: European Commission - PRESS RELEASES - Press release - Ir-rapport ta' progress tal-Kummissjoni Ewropea ,eng_Latn,eng_Latn,0.1
+338,query: AGREEMENT_EN_EN_EN_EN_EN_EN_EN_EN_EN_EN_EN_EN_,query: L_2018156MT.01007501.xml DIRETTIVA (UE) 2018/844 TAL-PARLAMENT EWROPEW U,unknown,unknown,0.0
+339,query: iGk iGk iGk iGk iGk iGk iGk,query: Iġġorr tumur f'żaqqha sakemm għalqet sninha Kirurgi fl-Istati Uniti ne,fin_Latn,fin_Latn,0.0
+340,query: યશ-ડેઝર – Zigya Chetna - If I don't get Rs.1 Rs.,query: Michael Cini – Ix-Xafra tad-Destin – €13 Jekk tazzarda tgħix imqar,unknown,unknown,0.08695652173913043
+341,query: 'Nirmal' rules required for sensitive persons | 'Nirmal' rules required for sensitive person,query: Ħtieġa ta' protokolli ċari fejn jidħlu persuni b'diżabbiltà –,fin_Latn,fin_Latn,0.10526315789473685
+342,query: e-Fact declarations - e-Fact declarations - iGujju માટે સમ,"query: Dibattiti - Dispożizzjonijiet komuni dwar il-Fond Ewropew għall-Iżvilupp Reġjonali, il",fin_Latn,fin_Latn,0.11764705882352942
+343,query: https://www.eo.gov.in/eo.region/eo.region/eo.region/eo,query: KOMUNIKAZZJONI http://ec.europa.eu/regional_policy/cooperate/adriat_ionian/,eng_Latn,eng_Latn,0.28571428571428575
+344,query: women-non-non-non-non-non-non-non-non-non-non-non-non-non-,query: L-istess salarju għall-irġiel u n-nisa fit-tim nazzjonali Norveġiż ,deu_Latn,deu_Latn,0.0
+345,query: મજબૂત લાઇન ઉત્પાદકો અને વેચાણકારો - FASTFACTORY FASTFACTORY-,query: Manifatturi u Fornituri tal-Istampa b'Veloċità Għolja - Fabbrika tal-,others,others,0.11764705882352941
+346,query: નીચે પ્રસ્તુત થયેલી ટિપ્પણીઓ 'In-the-run' can be suppressed by,query: Il-pubblikazzjonijiet li jidhru hawn taħt jistgħu jinkisbu bla ħlas sakemm jibq,deu_Latn,deu_Latn,0.0
+347,query: સ્તર: શું શોધી શકો છો? Filed under: http://www.mtz3.jpg,query: (Malti) Mistoqsija Thread: Mistoqsija Fejn nista 'nikseb 3.8 verżjoni VB Forum Bħal fej,unknown,unknown,0.07692307692307691
+348,query: E-Sion | 2010 - E-Sion વિકાસ પધ્ધતિ E-Sion એ યોજના,query: EY2010 | Paġna ewlenija - Sena Ewropea Il-Proġett Tas-Sieħeb Tal-Art,unknown,unknown,0.22222222222222224
+349,query: e-injures e-injures e-injures e-injures have a different,query: Pariri oħra ta' sikurezza - Enemalta Dawn huma xi pariri oħra dwar is,mlt_Latn,mlt_Latn,0.0
+350,query: રજિસ્ટ્રેશનની સ્થિતિમાં ફેરફાર OJ-TWIN ELECTRICAL TECHNOLOGY REQUIREMENT,query: MOZZJONI GĦAL RIŻOLUZZJONI dwar ir-rwol tat-teknoloġija fit-tagħ,mlt_Latn,mlt_Latn,0.0
+351,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+352,query: CISF - - - - - - - - - - - - -,query: Ċipru - Is-sigurtà u s-saħħa fil-post tax-xogħol -,unknown,unknown,0.22222222222222224
+353,"query: iLion, iLion, iLion, iLion - જલ્સા કરોને જેં","query: Jiltaqgħu Bejn L-Irġiel, Montreal «Jien naf lottijiet tal-omosess",fin_Latn,fin_Latn,0.125
+354,query: નિયંત્રણો / Journey-Assist / KYC ની જગ્યાઓ / KYC ની જગ્યાઓ,query: Taħriġ u Avvenimenti / Edukazzjoni Klinika Rotazzjonijiet u korsijiet kliniċi għal studenti tas,fin_Latn,fin_Latn,0.1111111111111111
+355,"query: ફાઇબર કું., લિમિટેડ ફાઇબર ફાઇબર કું., લિમિટેડ F",query: Unità tal-filtru tal-fann FFU Fabbrika | Unità tal-filtru tal-fann taċ-Ċ,others,others,0.0
+356,query: 'મુસ્લિમ કાવતરા' માટે NPA રેકોર્ડ - NGS Business 'મુસ્લિ,"query: ""Maġġoranza storika għall-Partit Laburista"" - Muscat - Newsbook 26 ta' Mejju",mlt_Latn,mlt_Latn,0.17391304347826086
+357,query: કૂતને નિયંત્રિત કરે ઇલેજ - NGS Business કૂતને નિયંત્રે ઇલે,query: Il-bank tal-Ikel jiġġieled il-ġuħ u l-ħela - Newsbook Il,unknown,unknown,0.1111111111111111
+358,"query: National Election Campaign - iGujju News Posted on January 1, 2015 by iGujju News એક",query: Kampanja elettorali fi ftit jiem – One News Ilna ġimgħat nirrapportaw internament li,deu_Latn,deu_Latn,0.07407407407407408
+359,query: Notice of amendment of liquor laws in Malta | માઇક્રોસોફ્ટ કાયદાનો સુધારો,query: EU law (1694) Court of Justice (424) Maltese (877) Aġġornament tal-ammonti ta' referenza għal,deu_Latn,deu_Latn,0.07142857142857142
+360,"query: iGujju Diversity Day 2021:- જુઓ અલગ-અલગ ધર્મનો અહેસાસ,",query: Jum Dinji tal-Awtiżmu 2021: Nirrispettaw id-Diversità – Inħarsu l-,unknown,unknown,0.1904761904761905
+361,query: Sanj Samachar - - - - - - - - - - - -,query: Tazza tad-Dinja 2018 - Jasal f'Sochi t-tim nazzjonali Brażiljan -,fin_Latn,fin_Latn,0.16666666666666666
+362,"query: Farmers sanctioned FIR in Manjan, FIR sanctioned | મેરાન્યૂઝ (મેરાન્યૂઝ","query: Partitarji Furjaniżi jgħidu li rċevew multa – iNews Malta, Aħbar",mlt_Latn,mlt_Latn,0.09999999999999999
+363,query: chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua chihuahua,"query: Hitachi puncher - mudelli Hitachi dh26pc u hitachi dh24pc3, bison and hilt pun",unknown,unknown,0.0
+364,query: how to remove i gif without watermark - How to remove i gif without watermark માઇક્રો,query: Kif tieħu screenshot mingħajr ma turi l - effett dell Jien minn mac Kif tieħ,deu_Latn,deu_Latn,0.08333333333333333
+365,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+366,query: the bodyguard reveals a special information regarding bjurn-bjurn-bjurn-bjurn-,query: Din il-paġna tippreżenta informazzjoni dwar l-ordinament ġuridiku Bulgaru u ħar,mlt_Latn,mlt_Latn,0.0
+367,query: Nutan-Father's rally is now a threat | Nutan-Father's rally is now a ,query: Maratona b'risq il-Fondazzjoni Nazareth – One News Bħalissa l-Fondazzjoni għandha tlett,eng_Latn,eng_Latn,0.0
+368,query: ન્યાય Archives - iGujju Sandesh iGujju Sandesh iGujju Sandesh,query: Insejna nosservaw – Laikos Insejna nosservaw Dan l-aħħar iltqajt,hun_Latn,hun_Latn,0.0
+369,query: iGujju: iGujju airbag damaged after 2 km rs કબજિયાત થ,query: ARA: Jiġu kważi wiċċ imb wiċċ wara li 2 karozzi qabżu l-vettura ta',mlt_Latn,mlt_Latn,0.16666666666666666
+370,query: MITA-ST વિદ્યાલયનો ત્રીજો વર્ષ - Abtak Media MITA-ST વિદ્યાલયનો,query: Kollezzjoni ta' iktar minn tlett elef bambin tal-Milied - TVM Kollezzjoni ta' ,mlt_Latn,mlt_Latn,0.1111111111111111
+371,query: i am rarely appreciable... | i am rarely appreciable... i am rarely appreciable...,"query: Impressjoni | Skoperta ""Enzo għallimni naħfer...kien speċjali wisq"" – Indri Attard by Robert",deu_Latn,deu_Latn,0.1739130434782609
+372,query: One suspected killed in Selwan's 'Vit' | સલ્વિનમાં 'Vit'નો ક,query: Qween tispiċċa vittma ta' velenu f'Selmun – One News Is-sid qal li l-,deu_Latn,deu_Latn,0.15384615384615383
+373,query: Cashback-Scam - વિશ્વના સૌથી ઝડપી શેરો | Cashback-Scam-Scam,query: Scatters Casino - L-Aqwa fis-Suq Ewropew - Kodiċijiet tal-Bonus tal-Casino,mlt_Latn,mlt_Latn,0.11764705882352941
+374,query: 'Baa-Saa-Saa-Saa-Saa-Saa-Saa-Festival is held in,query: Jirritorna l-Valletta Pageant of the Seas bir-Raba' Edizzjoni Nhar is-Sibt,eng_Latn,eng_Latn,0.0
+375,"query: I'm a threatened man, I'm a threatened man, I'm a threatened","query: Jiena vittma ta' reat, lil min għandi nikkuntattja għall-appoġġ u l-",mlt_Latn,mlt_Latn,0.10526315789473684
+376,query: 27th November 2007 E-GUJARAT E-GUJARAT E-GUJARAT E-GUJARAT E-GUJ,query: 28 ta' Novembru 2007 Kawża F-71/07 L-Aġenzija Ewropea għar-Rikostruzzjoni (A,mlt_Latn,mlt_Latn,0.11764705882352941
+377,query: Libyan government says-Lil awaits peace-in-law in aaj માં મસ્જિદ,query: Il-Gvern Malti jtenni li lest jgħin għall-paċi fil-Libja - Newsbook,mlt_Latn,mlt_Latn,0.0
+378,query: તુર્કીના કાયદા મુજબ EU39s 3rd ture interpretation | તુર્કીના કાયદા મુ,query: Opinjonijiet tal-Unjoni Ewropea l-Artikolu 288 tat-Trattat dwar il-Funzjonament tal,deu_Latn,deu_Latn,0.0
+379,"query: News in Gujarati - 'Fact-Nirmal' રસ્તા પર કામ કરે છે સાયકલ,",query: Filmat: Is-sħana taħmi l-għaġina fit-triq - Newsbook Filmat:,mlt_Latn,mlt_Latn,0.09523809523809525
+380,query: Controversy-Reported in Korea-Korea - NET DAKIYA Controversy-Reported in Korea-Korea-,query: Commission Européenne - COMMUNIQUES DE PRESSE - Communiqué de presse - It-tieni rapport tal-Kummissjoni,eng_Latn,eng_Latn,0.10526315789473685
+381,query: કરોડપતિ નો પ્રશ્ન – iGujju Tag Archives: કરોડપતિ નો પ્રશ્ન,query: Sodisfazzjon li persuna tqum għax-xogħol – L-Isqof Grech - Newsbook,mlt_Latn,mlt_Latn,0.11111111111111112
+382,query: Belarusian Belarusian Belarusian Belarusian Belarusian English French German German German German Greek Greek Greek ,query: Language of document : Bulgarian Spanish Czech Danish German Estonian Greek French Italian Latvian Lithuanian Hungarian Mal,eng_Latn,eng_Latn,0.2727272727272727
+383,query: e-m-e-m-e fund for music festivals in junagadh e-m-e fund for Rs,query: €23 miljun f'fondi Ewropej għall-wirt kulturali u l-enerġija f'Malta ,deu_Latn,deu_Latn,0.0
+384,query: GSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTRSTR,"query: STQARRIJA MILL-MINISTERU GĦALL-ĠUSTIZZJA, L-UGWALJANZA, U L-GO",unknown,unknown,0.0
+385,query: iFact7 app is not available on dailymotion | હાલમાં જ નથી ઉપલબ્ધ iFact7,query: Xandir ta 'vidjow dirett issa disponibbli fuq Android | Androidsis facebook ma jieqafx j,unknown,unknown,0.07692307692307691
+386,"query: January 17, 2007 - F.I.S.I.S.I.S.I. - Official Public Service","query: 13 ta' Novembru 2007 Kawża F-77/06 ""Servizz pubbliku – Uffiċjali – Kundizzjonijiet",deu_Latn,deu_Latn,0.08695652173913043
+387,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+388,query: E-international migration committee organized by EU - NET DAKIYA E-international migration committee organized by,"query: Tmexxija u mġieba organizzattiva fil-ġurnaliżmu Ewropew - EU Reporter ""Il-politika",unknown,unknown,0.19999999999999998
+389,query: ijjd-ijjd successfully accomplishes procedures in-laws ijjd-ijjd,query: It-tfajjel Jaydon iwettaq l-operazzjonijiet b'suċċess fl-Istati Uniti...,unknown,unknown,0.0
+390,query: 🥇 ફ્રેન્ચ 🥇 ફ્રેન્ચ 🥇 Casino-Casino-Casino-Casino-Casino-Casino-Casino-Casino-,query: Online Casino France - L-Aqwa Casinos Online Franċiżi għall-2021 homeOnline Casino France - L-Aħ,deu_Latn,deu_Latn,0.0
+391,query: 3 nurses asked to submit i-test after a patient submitted i-test after a patient,query: Tliet anzjani jittieħdu l-isptar wara li kienu involuti f'ħabta bejn,deu_Latn,deu_Latn,0.0
+392,query: 'Kinwar' નો નવો કોન્ટ્રાક્ટ બનાવો | Nutan Samachar 'Kinwar' નો,query: Il-programm 'Taħt il-Qoxra' b'forma u kontenut ġdid | Kunsill Na,unknown,unknown,0.19999999999999998
+393,query: mp3-playlists to be able to track subscribers | mp3-playlists to be able to track s,query: Faċli biex Ikseb spotify għall-istudenti u l-playlists top għall-istudent Parti 1.,deu_Latn,deu_Latn,0.0
+394,query: Home » photogallery » national-international » SCERT announces the announcement of the E-Commerce Committee of STESI -,query: European Commission - PRESS RELEASES - Press release - STEDINA – SESSJONI TA' INFORMAZZJONI G,eng_Latn,eng_Latn,0.07407407407407408
+395,"query: ""અ'વાદ"" - Arvind Kejriwal relieved to protect her | ""અ'વાદ"" - Arvind","query: ""Il-verità teħliskom"" - Kardinal Awstrijak lil min ħeba l-abbużi",fin_Latn,fin_Latn,0.24999999999999994
+396,query: Nimrod - Fateh Ali Khan Nimrod - Fateh Ali Khan Nimrod - Fateh Ali Khan 27,"query: Niddefendi isem Malta - Francis Zammit Dimech Home Niddefendi isem Malta 20/05/2019, 11:39 am",eng_Latn,eng_Latn,0.1111111111111111
+397,query: વારંવાર જાન અકસ્માત - Reena Gujju Local News - Reena Gujju,query: Dwal ta 'Emerġenza Wajer Komuni Użat - Aħbarijiet - Hunan Renan Fire,tur_Latn,tur_Latn,0.10526315789473685
+398,"query: ""I can't connect a seamless interlocution"" | મજબૂત સંવેદનશીલ ","query: ""Ma Jistax Ikollok Relazzjoni B'Saħħitha Mingħajr Komunikazzjoni"" – Dr Nicholas Briffa",mlt_Latn,mlt_Latn,0.16
+399,query: inquiry revealed that'sinh's migration can be more easier to find foreigners' ,query: Rapport jgħid li t-tfal migranti għandhom aktar ċans li jispiċċaw fi ,deu_Latn,deu_Latn,0.0
+400,query: 'Patan' diocese of Sankheda | 'Patan' diocese of Sankheda - હા,query: Knisja ta' Sant'Agata (Soċjetà Missjunarja ta' San Pawl) – Parroċċi,fin_Latn,fin_Latn,0.1
+401,query: દૂધ-બ્રહ્માસ્ત્ર Archives - NET DAKIYA Tag Archives: દૂધ-બ્રહ્મા,"query: L-għoti tad-demm, l-alkoħol u l-baħar - Newsbook 15",mlt_Latn,mlt_Latn,0.11764705882352941
+402,query: 'Nirmal Assets' - NET DAKIYA 'Nirmal Assets' - ,query: Daqqa' ta' ħarta għas-settur tal-arti - NETnews Nuqqas ta' investiment,mlt_Latn,mlt_Latn,0.25
+403,"query: અમેરિકન યુરોપિયન કૌભાંડ - FunNgyan.com Posted on Jul 7, 2017 by Gujju",query: Kunsill tal-Ewropa | Alfred E. Baldacchino's Blog Fjuri indigeni Maltin 7 – Is,deu_Latn,deu_Latn,0.07407407407407408
+404,query:'saif-saif' distilled oil will get rid of diesel |'saif-sa,query: Se tubu mfassal kiesaħ jkorrodi l-gass tas-sulfid ta 'l-idroġen,unknown,unknown,0.0909090909090909
+405,query: શું અમે શું કરી શકીએ છીએ જ્યારે 'અમરે કી કવર' ટ્રાફ,query: X'għandna nagħmlu jekk l-imsaren tal-kelb tagħna qed ido,deu_Latn,deu_Latn,0.0
+406,query: - - - - - - - - - - - - - -,query: Ċess - l-aħħar riżultati mill-fażi tal-prelininari - TV,fin_Latn,fin_Latn,0.25
+407,query: joe deon contributes his reliance on his historical record | જુઇ જિયોએ ઐતિહાસિક,query: Joe Debono: il-kontribuzzjoni tiegħu lejn l-istorja riċenti ta' pajjiżna,mlt_Latn,mlt_Latn,0.0
+408,query: વોઇ | Gujju Wiki by: Gujju Wiki by: Gujju Wiki by: Gujju Wiki by:,"query: Ġużè Bonnici - Wikipedija Ġużè Bonnici (Valletta, 14 ta' Awwissu",fin_Latn,fin_Latn,0.0
+409,query: મુખ્ય પૃષ્ઠ > International Affairs > March 2019 Source: Divyabhaskar 2nd May 2019 Source: Divyabha,query: News Release 2/2019 - 20 May 2019 > Main > News Release 2/2019 - 20 May 2019 Il-Prim Ministru Joseph M,eng_Latn,eng_Latn,0.23076923076923078
+410,query: દુનિયાના 10 સૌથી સુરક્ષિત જગ્યા - IND-VEGA | Best Ways To Save Home/,query: 10 L-Aqwa Siti tal-Għadds fid-Dinja | Save A Ferrovija home > Ivvjaġġ,unknown,unknown,0.24000000000000002
+411,query: Home » photogallery » madhya-gujarat » 150-year-olds interrogated for exams related to gns,query: Home » 150 student tas-sekondarja jsiru jafu aktar dwar il-professjoni tal-ġurnaliżmu sportiv,unknown,unknown,0.17391304347826086
+412,"query: Inquiry-in-jura, which involves a preliminary probe of SC-in-jura-first-","query: L-akkuża preliminari, inkluża l-interrogazzjoni (1) Is-smigħ statutorju preliminari u ",eng_Latn,eng_Latn,0.09999999999999999
+413,"query: i'm very enthusiastic for this week, i'm very enthusiastic for this week,","query: Matul din il-ġimgħa, bħal ħafna minnkom, attendejt għaċ-ċelebrazzjoni tal-",deu_Latn,deu_Latn,0.11111111111111112
+414,query: Chetan Mishra & Chetan Trivedi Doesn't Been Alive | Chetan Trivedi અને Chetan Tri,query: Jaqaw Cherylis U Mikhail Ta' Dwett M'Għadhomx Ikantaw Flimkien? Ħafna,unknown,unknown,0.0
+415,query: nirav-fil submits a critical report to be able to analyze nirav-fil સંદર્,query: Il-ġirien jistgħu japplikaw għal rapport tal-Perit imħallas mill-iżviluppatur - News,fin_Latn,fin_Latn,0.0
+416,query: સચિવાલય - NET-CHAT - આ નવું સચિવાલય - NET-CHAT - આ,query: Il-video-sess chat Jmorru - Video Chat - L-Aħjar! Il-Ġdid A,unknown,unknown,0.13333333333333333
+417,query: E-Jammu-Jammu-Jammu-Jammu-Jammu-Jammu-Jammu ની તૈયારી,query: Stat ta' tħejjija - Il-Kummissjoni Ewropea Stat ta' preparazzjoni u respons Preparedness,eng_Latn,eng_Latn,0.0
+418,query: rickshaw owners's re-examinations will be reported | rickshaw owners's re-examinations will,query: L-ispezzjonijiet fuq ir-restoranti li bdew joperaw se jibqgħu jsiru -,deu_Latn,deu_Latn,0.0
+419,"query: યુવાન | If you don't join a social-social network, if you don't join a social-social network","query: Kun soċjali, mhux radikali | European Youth Portal Jekk int taħdem maż-żgħażagħ",tur_Latn,tur_Latn,0.16
+420,query: Dain Municipality-Dain Municipality-Dain Municipality-Dain Municipality Residents Parking ,query: Dar tal-Motel tal-Lag tal-Baħar b 'Pixxina Dar residenzjali sħiħa ospit,deu_Latn,deu_Latn,0.0
+421,query: 'લય'માં ક્રૂઝ કઈ રીતે બચાવી શકે? | chitralekha Home News Religion ',query: Kif tista' trawwem il-qari fit-trabi? - Newsbook 17 ta' Lulju 2019 2:37,eng_Latn,eng_Latn,0.14285714285714285
+422,query: Official Press Release: Union-UK-UK-UK-UK-UK-UK-UK-UK-UK-UK-UK,query: European Commission - PRESS RELEASES - Press release - L-Unjoni tas-Swieq Kapitali: it-,eng_Latn,eng_Latn,0.23529411764705882
+423,query: 'મારે કેટલું બરાબર છે' - Arvind Kejriwal threatened to defend Sardar Bardoza,query: 'L-aqwa attakant li lgħabt kontrih? Żgur li Maradona' - Franco Bare,unknown,unknown,0.16
+424,query: યંગ ટેસ્ટ માટે શુધ્ધ વરસાદે - Zigya Home News Festival યંગ ટે,query: Temp kważi sajfi għall-festi xitwin - Newsbook Temp kważi sajfi għall-festi ,mlt_Latn,mlt_Latn,0.1111111111111111
+425,query: -Gujju-News-not-the-church-not-the-church-not-the-church-not-,query: Il-Bormliżi bla nar minħabba c-CHOGM - Newsbook Il-Bormliżi bla ,mlt_Latn,mlt_Latn,0.0
+426,query: K.R.E.E.E.E.E.E.E.E.E.E.E.E.,query: Ir-Regolament tal-Kunsill (KEE) Nru 302/93 tat-8 ta' Frar 1993 dwar it-twaqq,unknown,unknown,0.0
+427,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+428,query: કેટલું તાજ કેટલું તાજ? - IMDb કેટલું તાજ કેટલું,query: Kemm tqatta' ħin imfattar bilqiegħda? - TVM Kemm tqatta,others,others,0.2857142857142857
+429,"query: IMARF, IMARF, IMARF, IMARF - આ જૂથનો ટ્રાન્સમિશન કર","query: Fond għall-Asil, Migrazzjoni u Integrazzjoni (AMIF) Dan ir-regolament jistabbilixxi l-",eng_Latn,eng_Latn,0.1
+430,query: શું છે 'ઝાઇડ-ડે'ના ઐતિહાસિક વિસર્જન? | The new version of,query: X'hemm lest għad-disa' edizzjoni ta' Żigużajg? - TVM Imtella',fin_Latn,fin_Latn,0.16666666666666669
+431,query: 'dm' a rash which doesn't happen when a rash appears in ,"query: X'hemm f'dak ir-raġġ ta' dawl li jingħad li naraw meta mmutu? Jan 13, 2017 21:00",mlt_Latn,mlt_Latn,0.07142857142857142
+432,query: ESD | ESD | ESD | ESD | ESD | ESD | ESD | ESD | ESD | ,query: Persunal anzjan | Safety and health at work EU-OSHA Direttur Eżekuttiv Interim Is-Sur,unknown,unknown,0.13333333333333336
+433,query: - MGVCL નો દાવો છે કે LAC માતૃપ્રવેશ યોગ્ય નથી - MGV,query: Jgħid li Monte Carmeli mhux addattat għall-kura moderna - TVM Jgħid li Monte ,mlt_Latn,mlt_Latn,0.09523809523809525
+434,query: Controversial match between Z-Rs. 22nd નવેમ્બર | Z-Rs. 22nd નવેમ્બર:,query: Rikors ippreżentat fit-28 ta' Novembru 2012 - ZZ vs Il-Kummissjoni (Ka,unknown,unknown,0.0
+435,query: Home » photogallery » diocese » SOG-SOG-SOG-SOG-SOG-SOG-S,query: 2008 November 06 Archive at Gozo Diocese IS-SALIB HUWA L-QOFOL TAL-ISTORJA Omelija ta',eng_Latn,eng_Latn,0.0
+436,"query: અલગ અલગ જ્વેલરી નો ઉપયોગ કરી લો, Cylindre, Cylindre regularly ","query: Agħżel malajr ċelloli speċifiċi, ringieli sħaħ jew kolonni sħa",deu_Latn,deu_Latn,0.10526315789473685
+437,query: NET DAKIYA: 'M-Lion' is a footage of France-Italy અને એર ઇન્ડિયા,query: Filmat: L-Air Malta żżid it-titjiriet fl-Ewropa u l-Afrika ta',fin_Latn,fin_Latn,0.16666666666666669
+438,query: i-year-year is a record of success | i-year-year is a record of success જ્યારે,query: 2016: sena ta' ħidma u riżultati Dan iż-żmien tas-sena huwa ż,fin_Latn,fin_Latn,0.0
+439,query: રાઇડ અને SDSS - એક અન્ય સલાહકાર કરે - NGS Business રાઇડ અને,query: GHS SDS u aġent ta'tikketta - jikkonsultaw servizz - Rand,unknown,unknown,0.10526315789473685
+440,"query: EU must be allowed-in-jured, ICJ must be allowed-in-jured | મુખ્યમંત્રીએ",query: L-UE b'obbligu morali biex tghin fl-immigrazzjoni - Kummissarju Ewropew ,mlt_Latn,mlt_Latn,0.0
+441,query: NCP ધારાસભ્યો નેતૃત્વ કરે છે - NGS Business NCP ધારાસભ્યોએ,query: Norman Vella jgħid li d-diriġenti qed jiksru l-istatut tal-PN -,mlt_Latn,mlt_Latn,0.10526315789473685
+442,"query: અલગ-અલગ મેરેજ : 2 પત્નીઓ Posted on 01:09 pm February 28, 2020 Source:","query: Home Żewġ ħwienet tal-ħjata fil-pjazza 28/05/2019, 6:37 pm | 4 minuti qari Fil",unknown,unknown,0.14285714285714285
+443,query: Overseas Affairs - વિશ્વકર્મા સાથે જોડાયેલી વ્યવહારની યોજના Overseas Affairs,query: Stqarrija ta' Privatezza - Konferenza dwar il-Futur tal-Ewropa Operazzjoni ta' ppro,mlt_Latn,mlt_Latn,0.10526315789473685
+444,query: LSAT / LSAT / LSAT / LSAT / LSAT / LSAT નો અસરકારક,query: Aġġornament dwar l-issue tal-korsijiet tal-MLI għall-LSEs – Malta Union of Teacher,deu_Latn,deu_Latn,0.0
+445,query: તારીખ: 02/07/2012 EU-L2 EU-L2 EU-L2 EU-L2 EU-L2,query: EUR-Lex - 32012L0029 - MT Direttiva 2012/29/UE tal-Parlament Ewropew u tal-,others,others,0.0
+446,query: stabbing-in-law-in-law-in-law-in-law માટે નિયંત્રણમાં પડે છે,query: Jiskatta l-mekkaniżmu għall-bidla fl-istatut dwar il-kariga ta' Deputat Me,mlt_Latn,mlt_Latn,0.0
+447,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+448,query: FIR filed against a friend asking for Rs 1 lakh for uploading GIFs - My Samachar,"query: Ordnata tħallas €1,000 wara kumment li kitbet fuq Facebook - TVM Jasmine Urry ġi",unknown,unknown,0.0689655172413793
+449,query: I.I.I.I.I.I.Iના દેશોમાં રજુઆત I.I.I.,query: Ivvjaġġa lejn l-Istati Uniti | Ivvjaġġa lejn l-Istati Unit,unknown,unknown,0.0
+450,query: FRC (Fact-Fact-Fact-Fact-Fact) | Fact-Fact-Fact-,query: Feraccru (ferric maltol) - B03AB – RXed.eu | MT Paġna Prinċipali,unknown,unknown,0.3157894736842105
+451,"query: સતત નિકાસ કરનારી ગેસ સ્ટીલ મેન્યુફેક્ચર કું, લિમિટેડ G",query: Fornituri tas-Sistema ta 'Lubrikazzjoni tal-Makkinarju reżistenti għaż-Żejt u,mlt_Latn,mlt_Latn,0.0
+452,query: LIC ની કાયદેસર માહિતી - iGujju.com : દરેક NRI માટે,query: Liġi Kriminali | Informazzjoni utli għal kulħadd. Ir-rubrika: Liġi kriminali Min għandu d-,mlt_Latn,mlt_Latn,0.08333333333333333
+453,query: બ્લોગને ફાયદાકારક બનાવનાર | BestBonding.com - iGujju's Blog Posts,query: Il-Benefiċċji ta 'Blogging Għall Business | BloggingReporter.com Il-Benefiċċ,unknown,unknown,0.11111111111111112
+454,query: How-to-register-in-kart-in-kart-in-kart-in-kart-in-kart-in-,query: Kif tuża s-settings tal-kalendarju u tal-bookings - Ċentru tar-Ri,unknown,unknown,0.0
+455,query: હું રક્ષણ કરીશ અને પોતાનો જીવ બચાવીશ - NET DAKIYA હું ,query: Jien favur il-ħajja u se niddefendi l-ħajja - Partit Nazzjonalista Ji,eng_Latn,eng_Latn,0.09523809523809525
+456,query: result-in-laws-comparison.pdf result-in-laws-comparison.pdf result-in-laws-comparison.pdf result,query: L-Outputs tal-Proġett. Rapport dwar differenzi f'istallazzjonijiet tal-elettriku bejn il,deu_Latn,deu_Latn,0.0
+457,query: singer-man-man-man-man-man-man-man-man-man-man-man-man-man,query: Minn kantant u playboy għal president - TVM Minn kantant u playboy għal president Il-President ta' ,mlt_Latn,mlt_Latn,0.0
+458,query: LAC | જલ્સા કરોને જેંતીલાલ જલ્સા કરોને જેંતીલાલ જલ્સા કરોને જેં,query: Malta lejn Cagliari | Ivvjaġġa lejn Cagliari | Air Malta Paġna Ewlenija > Destinazzjonijiet >,unknown,unknown,0.125
+459,query: Jeevan shailee's opinion on the condition of Manmohan Manmohan Manmohan Manmohan Manmohan Manmohan Manmohan Manmohan,"query: Il-każ ta' Franco Mercieca By Mark Anthony Sammut June 18, 2013 Din hi l-opinjoni tiegħi dwar",mlt_Latn,mlt_Latn,0.0
+460,query: SIM/SUIT/SUIT/SUIT: કયા સેવાઓને નિયંત્રિત કરાયા? - What is the,query: Il-VAT fuq is-servizzi diġitali/il-MOSS: Liema servizzi huma koperti? -,unknown,unknown,0.2727272727272727
+461,query: ESAT - 1st Jun 2021 - ESAT - UKRAINE સાથે સામૂહિક દસ્તાવેજો,"query: Testi adottati - L-Erbgħa, 14 ta' Diċembru 2011 - Samit UE-Russ",mlt_Latn,mlt_Latn,0.09523809523809525
+462,"query: ગુજરાતી સમાચાર: 'નિયાકા' નો ઇતિહાસ 100 years ago - NGS Business January 7,",query: Filmat: In-nanna Georgia tagħlaq 100 sena - Newsbook 7 ta' April 2020 7:06 PM Ħafna,unknown,unknown,0.30303030303030304
+463,query: International Maritime Association (IMAO) | International Maritime Association (IMAO) International Maritime Association (IMAO),query: ИМО - Международная морская организация Импорт и Экспорт Владивосток L-Organizzazzjoni Marittima Internazzjonali,kaz_Cyrl,kaz_Cyrl,0.0
+464,query: -Seni-Sion-Council Election Result -Seni-Sion-Council Election Result has come to close,query: L-akkwist fis-Segretarjat Ġenerali - Consilium Sejħiet attwali Il-parteċi,fin_Latn,fin_Latn,0.0
+465,query: Dain-Dain-Dain was a poet who had a long-time affinity with his music.,query: Dun Frans Camilleri – Laikos Il-Poeta li kellu mħabba kbira lejn il-Madonna u l,unknown,unknown,0.0
+466,query: Official - National - Issue-Nirmal kills birds in forests-Nirmal-Nirmal-,query: European Commission - PRESS RELEASES - Press release - Il-ġlieda kontra n-nirien fil-forest,deu_Latn,deu_Latn,0.10526315789473685
+467,query: પ્રશ્નોત્તરી - GSAT-1 - GSAT-1 વિગતવાર પ્રશ્નોત્તરી - GSAT-1,query: Aħbarijiet - Noti totali tal-passaġġ tal-gass 1. Dwar it-tipi ta ',fin_Latn,fin_Latn,0.125
+468,query: sc-sc-in-laws controversy discussed in civic debate sc-sc-in-,query: Is-sħab soċjali f'diskussjoni dwar l-iskart tal-kostruzzjoni | SEM Is,deu_Latn,deu_Latn,0.0
+469,query: ભાગ - ૪. ફાર્મ રદ કરે. ભાગ - ૪. ફાર્મ રદ કરે.,query: Kapitolu V Taqsima 4 Flus. Il-flus Alla. Faqar. Treġġigħ lura. Il-,unknown,unknown,0.10526315789473685
+470,query: Home » photogallery » national-international » new amendment for aarj gujju aarj gujju,query: Anglu Farrugia – Page 4 – One News Rwol ġdid għal Anġlu Farrugia L-Ispeaker tal-,mlt_Latn,mlt_Latn,0.0
+471,query: You are here :HOME >> Features >> Joint Initiatives >> યુનિયન સમુદાયના ઇતિહાસ સાથ,query: Proġetti ta' Solidarjetà | European Youth Portal Europa home Inizjattivi tal-UE Il-Korp Ewropew,unknown,unknown,0.0
+472,query: કેવી રીતે રન કરે છે Xiaomi Redmi Note 7 / ઝિંદગી આઇપેડ અને ,query: IPod touch tas-7 ġenerazzjoni jew Nintendo Switch biex tilgħab Fortnite | Aħbarijiet dwar l,deu_Latn,deu_Latn,0.0
+473,query: Home » photogallery » madhya-gujarat » Aam-Gam: રાસાયણિક તત્વો સાથે ,query: Ara: Għawdex mill-għoljiet ta' Ragusa b'fenomenu naturali - TVM Imtella,mlt_Latn,mlt_Latn,0.09523809523809525
+474,query: NCP's immediate interlocutor in front of former deputy-speakers | પૂર્વ ધારાસભ્યનો,query: Prim Ministru bla saħħa fil-konfront ta' deputati tiegħu stess - NETnews Prim Ministr,deu_Latn,deu_Latn,0.0
+475,query: SIX-GIVE DIVYA DIVYA DIVYA DIVYA DIVYA DIVYA DIVYA DIVYA DIVYA DIVYA DIVYA DI,query: Qari tas-Sibt tad-Disgħa u Għoxrin Ġimgħa taż-Żmien ta',mlt_Latn,mlt_Latn,0.0
+476,query: ELECTION-ELECTIONS OF ELECTION-ELECTIONS OF ELECTION-ELECTIONS OF ELECTION-ELECTIONS OF GUJARAT-,query: OSSERVAZZJONI TAL-ELEZZJONI KRUĊJALI GĦALL-MONTENEGRO - Reporter tal-,unknown,unknown,0.0
+477,query: A unique combination of puzzles in a single day | જૂનાગઢમાં A unique combination of puzzles in ,"query: Puzzle uniku u stil viżiv mill-aqwa bi A Day in the Woods | Androidsis A Day in the Woods,",unknown,unknown,0.23076923076923075
+478,query: after a half a year and a half a year after stabbed a mobile | સ્માર્ટફોન ને,query: Sena u nofs ħabs wara li ammetta li seraq għodda u mobile phones - TV,unknown,unknown,0.08695652173913043
+479,query: in-war-war-war-war-war-war-war-war-war-war-war-war-war-,query: L-innovazzjoni u l-industrija tal-avjazzjoni diskussa waqt attività tal-proġett,fin_Latn,fin_Latn,0.0
+480,query: Falguni-Manali - Gujarati Classical History Book PDF | Falguni-Manali Falguni-Manali,query: Frangiskani Maltin (Ta' Gezu) 1482c-1965c | Malta Online Bookshop Frangiskani Maltin (,unknown,unknown,0.1
+481,query: Imran Jain returns to MKMK | જિપ્સીની ટીમે ફરી સક્રિય | Imran Jain returns,query: Obi Mikel jerġa' lura fil-kampjonat Ingliż - Newsbook Obi Mikel jerġa' lura,unknown,unknown,0.0
+482,query: aryan's oldest adopted-in-law find out what-i-want-to-know... જુઓ પ,query: Aqra l-aħħar ittra tal-ġurnalist Amerikan lill-familja...ried ikun id-dar għat,deu_Latn,deu_Latn,0.09523809523809525
+483,query: / / / / / / / / / / / / / /,query: Mill-Kapitali | Ikona tat-12-il seklu f'Beltna Ħarsa lejn ix-xbieha,unknown,unknown,0.0
+484,query: strict rules imposed in Jammu and Kashmir | ઇમરજન્સી નિયમ મુજબ ઝડપાયેલા,query: Forzi tal-ordni attakkati fil-Ġermanja għax pruvaw jimplimentaw restrizzjonijiet għall-coronavirus ,deu_Latn,deu_Latn,0.0
+485,query: 'Kej' candidate injured after race-in-law - news 'Kej' candidate injured after,query: Raġel jinqatel bil-vleġeġ wara l-elezzjonijiet fil-Kenja - Newsbook Ra,hun_Latn,hun_Latn,0.11764705882352941
+486,query: અનુભવ-અકસ્માતના પ્રયોગ | chitralekha Home Features - અનુભવ-અકસ્માતના પ્રયોગ,query: Esperjenza ta' tagħlim – L-Isqof Galea-Curmi – Arċidjoċesi ta' Malta,deu_Latn,deu_Latn,0.0
+487,query: E-Guarantee Act 2018 - જર્મનીને રજૂઆત E-Guarantee Act 2018 - જર્મની,query: Testi adottati - Kwittanza 2018: L-Aġenzija Ewropea għall-Gwardja tal-Frunt,hun_Latn,hun_Latn,0.23529411764705882
+488,query: MSAT-Mobile Application is ready! | MSAT-Mobile Application is ready! | MSAT-Mobile Application is ready,query: Il-Proġett BeSmartOnline! | Malta Communications Authority Il-proġett BeSmartOnline! jiġbor flimki,unknown,unknown,0.25
+489,query: નેશનલ રજિસ્ટર્સ - ChiniMandi News in Gujarati-Latest નેશનલ રજિસ્ટર્સ -,query: Knejjes temporanji fil-mira tal-awtoritajiet Ċiniżi - Newsbook Knejjes temporanji,fin_Latn,fin_Latn,0.14285714285714285
+490,query: / / / / / / / / / / / ઓનલાઇન અવશ્ય,query: REACH | Obbligi ta' l-utent > Kommunikazzjoni Paġna ewlenija > Obbligi ta,mlt_Latn,mlt_Latn,0.0
+491,query: Instructional guideline for Muscles and Musculoskeletal Problems | Muscles and Musculoskeletal Problems ,query: Dħul Temi Temi Problemi muskuloskeletali Practical tools and guidance - Musculoskeletal disorders,eng_Latn,eng_Latn,0.2105263157894737
+492,"query: ટ્રાફિક કેટલું સામાન્ય રીતે ઉપયોગી છે? - iGujju, Indici,","query: Għaliex L-Infografija Tant hija Popolari? Ħjiel: Kontenut, Tiftix, So",deu_Latn,deu_Latn,0.17391304347826086
+493,"query: GISME-FISH INDICATION, COVID-19 - NET DAKIYA HOME/ LIFE/ GISME-FISH INDICATION","query: COVID-19 U L-IMMANIĠĠJAR TA' FLUSEK: POST 9 - Gemma - Know, Plan,",unknown,unknown,0.2608695652173913
+494,query: 'Mili-Jam': 'It is a symbolic representation of youth' | 'મિલિ-,"query: Filmat: ""Il-Milied hu l-festa li tissimbolizza l-ġid komuni"" -",unknown,unknown,0.08333333333333333
+495,query: Vyaapaar navalli - NGS Business Vyaapaar navalli - NGS Business Vyaapaar,query: Sanzjonijiet għal uffiċjali Russi dwar l-ivvelenar ta' Navalny - NETnews Sanz,deu_Latn,deu_Latn,0.11764705882352941
+496,query: રજિસ્ટ્રેશન કાયદા: 2017 - E-Test - Gujju E-Test - Gujju,query: Testi adottati - Kwittanza 2017: Baġit Ġenerali tal-UE - Is-Servizz,unknown,unknown,0.3529411764705882
+497,query: મલેશિયા-ફૂટબોલ એક તરફ અટકાયત કરવો જોઇએ | All-in-One,query: Il-futbol Malti għandu bżonn ċaqlieqa mill-qiegħ – One News Il-futbol Mal,tur_Latn,tur_Latn,0.0
+498,query: e-e-e-e-e-e-e-e-e-e-e-year celebration will be,query: Bidu eċċellenti għas-sitt edizzjoni tal-Ġimgħa Ewropea tal-Isport – i,deu_Latn,deu_Latn,0.0
+499,query: Essay on how-to-act-in-law-was-in-law-was-in-law-was-in,query: Jitolbu għad-danni wara li binhom rifes fjakkola waqt purċissjoni tal-Ġimgħa,mlt_Latn,mlt_Latn,0.0

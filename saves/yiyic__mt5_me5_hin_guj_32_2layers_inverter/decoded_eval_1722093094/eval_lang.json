@@ -1,0 +1,1 @@
+{"pred_lang_line_level_ratio": {"guj_Gujr": 0.62, "hin_Deva": 0.34, "others": 0.01, "eng_Latn": 0.02, "unknown": 0.01}, "pred_lang_word_level_ratio": {"guj_Gujr": 0.58, "hin_Deva": 0.37, "others": 0.03, "eng_Latn": 0.02}, "labels_lang_line_level_ratio": {"pan_Guru": 1.0}, "labels_lang_word_level_ratio": {"pan_Guru": 0.95, "others": 0.03, "eng_Latn": 0.02}}

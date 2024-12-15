@@ -1,0 +1,315 @@
+{
+    "output_dir": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations",
+    "model": "yiyic/mt5_me5_semitic-fami_32_2layers_corrector",
+    "parameters": "890566656",
+    "evaluations": {
+        "deu_Latn": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720097606/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720097606",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/deu_Latn_steps-1.json"
+            },
+            "steps 20": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720098021/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720098021",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/deu_Latn_steps-20.json"
+            },
+            "steps 50": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720098991/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720098991",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/deu_Latn_steps-50.json"
+            },
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720101593/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720101593",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/deu_Latn_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "ydd_Hebr": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720101694/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720101694",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/ydd_Hebr_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720104338/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720104338",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/ydd_Hebr_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "heb_Hebr": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720104441/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720104441",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/heb_Hebr_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720107095/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720107095",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/heb_Hebr_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "arb_Arab": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720107194/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720107194",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/arb_Arab_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720109840/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720109840",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/arb_Arab_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "amh_Ethi": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720109938/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720109938",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/amh_Ethi_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720112581/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720112581",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/amh_Ethi_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "mlt_Latn": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720112686/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720112686",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mlt_Latn_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720115328/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720115328",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mlt_Latn_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "hin_Deva": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720115427/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720115427",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/hin_Deva_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720118070/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720118070",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/hin_Deva_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "urd_Arab": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720118168/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720118168",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/urd_Arab_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720120810/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720120810",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/urd_Arab_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "guj_Gujr": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720120908/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720120908",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/guj_Gujr_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720123552/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720123552",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/guj_Gujr_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "sin_Sinh": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720123650/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720123650",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/sin_Sinh_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720126294/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720126294",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/sin_Sinh_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "pan_Guru": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720126393/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720126393",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/pan_Guru_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720129035/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720129035",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/pan_Guru_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "tur_Latn": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720129133/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720129133",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/tur_Latn_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720131779/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720131779",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/tur_Latn_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "kaz_Cyrl": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720131877/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720131877",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/kaz_Cyrl_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720134524/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720134524",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/kaz_Cyrl_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "cmn_Hani": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720134623/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720134623",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/cmn_Hani_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720137266/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720137266",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/cmn_Hani_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "jpn_Jpan": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720137365/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720137365",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/jpn_Jpan_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720140007/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720140007",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/jpn_Jpan_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "kor_Hang": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720140110/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720140110",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/kor_Hang_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720142752/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720142752",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/kor_Hang_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "mon_Cyrl": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720142850/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720142850",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mon_Cyrl_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720145493/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720145493",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mon_Cyrl_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "hun_Latn": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720145591/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720145591",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/hun_Latn_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720148242/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720148242",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/hun_Latn_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "mhr_Cyrl": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720148350/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720148350",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mhr_Cyrl_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720150993/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720150993",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/mhr_Cyrl_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        },
+        "fin_Latn": {
+            "steps 1": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720151092/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720151092",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/fin_Latn_steps-1.json"
+            },
+            "steps 20": {},
+            "steps 50": {},
+            "steps 50 and beam width 4": {
+                "output_files": " saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720153735/decoded_sequences.csv",
+                "embeddings_files": "saves/yiyic__mt5_me5_semitic-fami_32_2layers_corrector/decoded_eval_1720153735",
+                "results_files": "./saves/correctors/mt5_multilingual_e5_base_mt-ms_sem_fami_32_2layers_prefix/evaluations/fin_Latn_steps-50_sbeam-4.json"
+            },
+            "steps 50 and beam width 8": {}
+        }
+    }
+}
