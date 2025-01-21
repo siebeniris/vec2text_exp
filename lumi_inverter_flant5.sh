@@ -70,13 +70,13 @@ export NCCL_NET_GDR_LEVEL=3
 #export SINGULARITYENV_CXI_FORK_SAFE=0
 #export SINGULARITYENV_CXI_FORK_SAFE_HP=0
 
-export WORLD_SIZE=$SLURM_NPROCS
-export LOCAL_WORLD_SIZE=$SLURM_GPUS_PER_NODE
-export RANK=$SLURM_PROCID
-export LOCAL_RANK=$SLURM_LOCALID
-export MASTER_ADDR=$(scontrol show hostname "$SLURM_NODELIST" | head -n1)
-
-echo "Rank $SLURM_PROCID --> $(taskset -p $$); GPU $ROCR_VISIBLE_DEVICES"
+#export WORLD_SIZE=$SLURM_NPROCS
+#export LOCAL_WORLD_SIZE=$SLURM_GPUS_PER_NODE
+#export RANK=$SLURM_PROCID
+#export LOCAL_RANK=$SLURM_LOCALID
+#export MASTER_ADDR=$(scontrol show hostname "$SLURM_NODELIST" | head -n1)
+#
+#echo "Rank $SLURM_PROCID --> $(taskset -p $$); GPU $ROCR_VISIBLE_DEVICES"
 
 # pytorch multiprocessing. semaphore.
 export PYTHONWARNINGS='ignore:semaphore_tracker:UserWarning'
@@ -91,13 +91,12 @@ chmod +x $HF_HOME
 chmod +x $HF_DATASETS_CACHE
 
 if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
-  srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
+  srun singularity exec \
     -B /scratch/project_465001270:/scratch/project_465001270 \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
     -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
-    ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
-      python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
+    ${SIF} python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 200 \
@@ -112,13 +111,12 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
           --overwrite_output_dir"
 else
   echo "no overwrite parameters"
-  srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
+  srun singularity exec \
     -B /scratch/project_465001270:/scratch/project_465001270 \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
     -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
-    ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
-      python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
+    ${SIF}  python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 200 \
