@@ -230,6 +230,8 @@ class InversionModel(transformers.PreTrainedModel):
             model_output = embedder(model_inputs)
             embeddings = model_output["sentence_embedding"]
         else:
+            print("input ids:", input_ids)
+            print("attention mask:", attention_mask)
             model_output = embedder(input_ids=input_ids, attention_mask=attention_mask)
             embeddings = self._process_embedder_output(model_output, attention_mask)
 
