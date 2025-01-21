@@ -1,15 +1,15 @@
 #!/bin/bash -e
 #SBATCH --job-name=inverter
-#SBATCH --account=project_465000909
+#SBATCH --account=project_465001270
 #SBATCH --partition=small-g
 #SBATCH --nodes=1
 #SBATCH --gpus-per-node=8
 #SBATCH --tasks-per-node=8
 #SBATCH --cpus-per-task=7
-#SBATCH --mem=480G
+#SBATCH --mem=300G
 #SBATCH --time=3-00:00:00
-#SBATCH --output=inverter_%j.out
-#SBATCH --error=inverter_%j.err
+#SBATCH --output=inverter_fewshot_%j.out
+#SBATCH --error=inverter_fewshot_%j.err
 
 set -x
 
@@ -28,11 +28,11 @@ wd=$(pwd)
 echo "working directory ${wd}"
 
 export OPENAI_API_KEY="sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
-export HF_HOME="/scratch/project_465000909/.cache"
-export HF_DATASETS_CACHE="/scratch/project_465000909/.cache/datasets"
-export DATASET_CACHE_PATH="/scratch/project_465000909/.cache"
-export EBU_USER_PREFIX=/scratch/project_465000909/
-export WANDB_CACHE_DIR="/scratch/project_465000909/.cache/wandb/artifcats/"
+export HF_HOME="/scratch/project_465001270/.cache"
+export HF_DATASETS_CACHE="/scratch/project_465001270/.cache/datasets"
+export DATASET_CACHE_PATH="/scratch/project_465001270/.cache"
+export EBU_USER_PREFIX=/scratch/project_465001270/
+export WANDB_CACHE_DIR="/scratch/project_465001270/.cache/wandb/artifcats/"
 
 echo "Trnasformers cache $HF_HOME"
 echo "HF datasets cache $HF_DATASETS_CACHE"
@@ -71,7 +71,6 @@ export NCCL_NET_GDR_LEVEL=3
 #export SINGULARITYENV_CXI_FORK_SAFE=0
 #export SINGULARITYENV_CXI_FORK_SAFE_HP=0
 
-export MASTER_PORT=25900
 export WORLD_SIZE=$SLURM_NPROCS
 export LOCAL_WORLD_SIZE=$SLURM_GPUS_PER_NODE
 export RANK=$SLURM_PROCID
@@ -83,7 +82,7 @@ echo "Rank $SLURM_PROCID --> $(taskset -p $$); GPU $ROCR_VISIBLE_DEVICES"
 # pytorch multiprocessing. semaphore.
 export PYTHONWARNINGS='ignore:semaphore_tracker:UserWarning'
 
-SIF=/scratch/project_465000909/multivec2text.sif
+SIF=/scratch/project_465001270/multivec2text.sif
 
 # each GPU has a mask, communicating with the closest CPUs.
 CPU_BIND_MASKS="0x00fe000000000000,0xfe00000000000000,0x0000000000fe0000,0x00000000fe000000,0x00000000000000fe,0x000000000000fe00,0x000000fe00000000,0x0000fe0000000000"
@@ -94,7 +93,7 @@ chmod +x $HF_DATASETS_CACHE
 
 if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
   srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
-    -B /scratch/project_465000909:/scratch/project_465000909 \
+    -B /scratch/project_465001270:/scratch/project_465001270 \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
     -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
@@ -102,10 +101,10 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
-          --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 500 \
-          --eval_steps 20000 --warmup_steps 10000 --experiment inversion \
+          --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 200 \
+          --eval_steps 200 --warmup_steps 100 --experiment inversion \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_last_layer --save_steps 2000 \
+          --output_dir ./saves/inverters/flant5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 200 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
           --ddp_find_unused_parameters True \
@@ -115,7 +114,7 @@ if [ $OVERWRITE_OUTPUT_DIR -eq 1 ]; then
 else
   echo "no overwrite parameters"
   srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
-    -B /scratch/project_465000909:/scratch/project_465000909 \
+    -B /scratch/project_465001270:/scratch/project_465001270 \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
     -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
@@ -123,10 +122,10 @@ else
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
-          --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 500 \
-          --eval_steps 20000 --warmup_steps 10000 --experiment inversion \
+          --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 200 \
+          --eval_steps 200 --warmup_steps 100 --experiment inversion \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/inverters/mt5_${EMBEDDER}_${DATASET}_${MAX_LENGTH}_last_layer --save_steps 2000 \
+          --output_dir ./saves/inverters/flant5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 200 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --ddp_find_unused_parameters True \
           --use_frozen_embeddings_as_input True \
