@@ -21,7 +21,7 @@ class InversionTrainer(BaseTrainer):
         return self.model.generate(inputs=inputs, generation_kwargs=generation_kwargs)
 
     def training_step(
-        self, model: nn.Module, inputs: Dict[str, torch.Tensor]
+        self, model: nn.Module, inputs: Dict[str, torch.Tensor], num_items_in_batch=None
     ) -> torch.Tensor:
         """
         Performs a training step. we override to compute data-specific metrics.
@@ -29,7 +29,7 @@ class InversionTrainer(BaseTrainer):
         # TODO: Log training metrics from below... (How to do with huggingface?)
         self._compute_data_metrics(inputs=inputs)
         # self.log({ f"train/{k}": v for k,v in metrics.items() })
-        return super().training_step(model, inputs)
+        return super().training_step(model, inputs, num_items_in_batch)
 
     def evaluation_loop(
         self, *args, **kwargs
