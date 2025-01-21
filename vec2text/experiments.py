@@ -68,7 +68,7 @@ if os.getenv("RANK"):
     local_world_size = int(os.environ["LOCAL_WORLD_SIZE"])
     device = torch.device("cuda", local_rank)
     # print("lumi set the cpu affinity...")
-    set_cpu_affinity_lumi(local_rank)
+    # set_cpu_affinity_lumi(local_rank)
 else:
     device = torch.device(
         "cuda" if torch.cuda.is_available() else "mps" if torch.backends.mps.is_available() else "cpu")
