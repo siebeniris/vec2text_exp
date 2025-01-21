@@ -510,7 +510,7 @@ class Experiment(abc.ABC):
                 ),
                 remove_columns=["text"],
                 batched=True,
-                batch_size=1024,
+                batch_size=128,
                 num_proc=_get_num_proc(self._world_size),
                 # num_proc=get_num_proc(),
                 desc="Running tokenizer on dataset",
@@ -547,7 +547,7 @@ class Experiment(abc.ABC):
             tokenizer: transformers.AutoTokenizer,
             embedder_tokenizer: transformers.AutoTokenizer,
     ) -> datasets.DatasetDict:
-        val_datasets_dict = load_standard_val_datasets()
+        val_datasets_dict = load_standard_val_datasets(self.data_args)
         logger.info(
             "Loaded %d validation datasets: %s",
             len(val_datasets_dict),
@@ -839,7 +839,6 @@ EXPERIMENT_CLS_MAP = {
     "inversion_from_logits_emb": InversionFromLogitsExperiment,
     "corrector": CorrectorExperiment,
     "corrector_encoder": CorrectorExperiment,  # backwards-compatible; does same thing as just 'corrector'
-    #
     "inversion_bow": InversionExperimentBagOfWords,
     "inversion_na": InversionExperimentNonAutoregressive,
 }

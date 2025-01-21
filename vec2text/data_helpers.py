@@ -12,7 +12,7 @@ from vec2text.utils import dataset_map_multi_worker, get_num_proc
 
 
 def retain_dataset_columns(
-    d: datasets.Dataset, allowed_columns: List[str]
+        d: datasets.Dataset, allowed_columns: List[str]
 ) -> datasets.Dataset:
     column_names_to_remove = [c for c in d.features if c not in allowed_columns]
     return d.remove_columns(column_names_to_remove)
@@ -83,6 +83,7 @@ def load_luar_reddit() -> datasets.Dataset:
     d = d.rename_column("embedding", "frozen_embeddings")
     return d
 
+
 def load_xnli(lang) -> datasets.Dataset:
     def concat_pre_hyp(sample):
         sample["text"] = sample["premise"] + " " + sample["hypothesis"]
@@ -114,6 +115,12 @@ def dataset_from_args(data_args: DataArguments) -> datasets.DatasetDict:
         lang = data_args.dataset_name.replace("mt-ms_", "")
         # assert len(lang) == 8
         raw_datasets = load_mt_ms(lang)
+    elif data_args.dataset_name.startswith("yiyic/multiHPLT_"):
+        raw_datasets = datasets.load_dataset(data_args.dataset_name)
+        raw_datasets["validation"] = raw_datasets["dev"]
+    elif data_args.dataset_name.startswith("yiyic/mmarco_"):
+        raw_datasets = datasets.load_dataset(data_args.dataset_name)
+        raw_datasets["validation"] = raw_datasets["dev"]
     elif data_args.dataset_name == "msmarco":
         raw_datasets = load_msmarco_corpus()
         raw_datasets = raw_datasets.train_test_split(test_size=0.01)
@@ -294,7 +301,7 @@ def load_mt_ms_test() -> datasets.DatasetDict:
     return test_dataset
 
 
-def load_standard_val_datasets() -> datasets.DatasetDict:
+def load_standard_val_datasets(data_args: DataArguments) -> datasets.DatasetDict:
     """Loads a pre-defined set of standard val datasets."""
     # d = {
     #     "ag_news": load_ag_news_test(),
@@ -309,6 +316,10 @@ def load_standard_val_datasets() -> datasets.DatasetDict:
     # d = {f"nxli_{lang}": load_xnli_test(lang) for lang in langs}
     # d = {k: retain_dataset_columns(v, ["text"]) for k, v in d.items()}
 
-    d = load_mt_ms_test()
+    # d = load_mt_ms_test()
 
-    return d
+    d = datasets.load_dataset(data_args.dataset_name)
+    d_test = datasets.DatasetDict({
+        "test": d["test"]
+    })
+    return d_test

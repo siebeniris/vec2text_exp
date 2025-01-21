@@ -38,8 +38,16 @@ EMBEDDER_MODEL_NAMES = [
     "multi_sbert",
     "mt5-base",
     "text2vec-base-cmn",
-    "alephbert"
-
+    "alephbert",
+    "sentence-transformers/gtr-t5-base",
+    "intfloat/multilingual-e5-base",
+    "google/flan-t5-base",
+    "google-t5/t5-base",
+    "google/mt5-base",
+    "google-bert/bert-base-multilingual-cased",
+    "text-embedding-ada-002",
+    "text-embedding-3-large",
+    # "sentence-transformers/all-MiniLM-L6-v2"
 ]
 
 
@@ -274,9 +282,9 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
     elif name == "alephbert":
         model = transformers.AutoModel.from_pretrained('imvladikon/sentence-transformers-alephbert')
         tokenizer = transformers.AutoTokenizer.from_pretrained('imvladikon/sentence-transformers-alephbert')
-    elif name.startswith("sentence-transformers/"):
-        model = SentenceTransformer(name)
-        tokenizer = model.tokenizer
+    # elif name.startswith("sentence-transformers/"):
+    #     model = SentenceTransformer(name)
+    #     tokenizer = model.tokenizer
     elif name.startswith("nomic-ai/nomic-embed-text-v1"):
         model = SentenceTransformer(
             "nomic-ai/nomic-embed-text-v1", trust_remote_code=True
@@ -286,6 +294,9 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
         print(f"WARNING: Trying to initialize from unknown embedder {name}")
         model = transformers.AutoModel.from_pretrained(name, **model_kwargs)
         tokenizer = transformers.AutoTokenizer.from_pretrained(name)
+        tokenizer.add_special_tokens({"pad_token": "<pad>"})
+        tokenizer.add_special_tokens({"eos_token": "</s>"})
+        model.resize_token_embeddings(len(tokenizer))
 
     return model, tokenizer
 
