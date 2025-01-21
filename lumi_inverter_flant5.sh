@@ -2,11 +2,10 @@
 #SBATCH --job-name=inverter_baseline
 #SBATCH --account=project_465001270
 #SBATCH --partition=small-g
-#SBATCH --nodes=1
-#SBATCH --gpus-per-node=8
-#SBATCH --tasks-per-node=8
+#SBATCH --gpus-per-node=1
+#SBATCH --ntasks-per-node=1
 #SBATCH --cpus-per-task=7
-#SBATCH --mem=300G
+#SBATCH --mem-per-gpu=200G
 #SBATCH --time=3-00:00:00
 #SBATCH --output=inverter_fewshot_%j.out
 #SBATCH --error=inverter_fewshot_%j.err
