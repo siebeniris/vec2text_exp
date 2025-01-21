@@ -124,9 +124,10 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
     # TODO make abstract/argparse for it etc.
     # name = "gpt2" #### <--- TEMP. For debugging. Delete!
     model_kwargs = {
-        "low_cpu_mem_usage": True,  # Not compatible with DeepSpeed
+        # "low_cpu_mem_usage": True,  # Not compatible with DeepSpeed
         "output_hidden_states": True,  # True output hidden states, for embedding last and first .
     }
+    print(f"Loading the embedder and tokernnizer {name}")
 
     if name == "dpr":
         # model = SentenceTransformer("sentence-transformers/facebook-dpr-question_encoder-multiset-base")
@@ -307,6 +308,7 @@ def load_encoder_decoder(
     model_kwargs: Dict[str, Any] = {
         "low_cpu_mem_usage": True,
     }
+    print(f"loading encoder decoder {model_name}")
     if lora:
         model_kwargs.update(
             {
