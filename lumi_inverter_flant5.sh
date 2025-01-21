@@ -1,5 +1,5 @@
 #!/bin/bash -e
-#SBATCH --job-name=inverter
+#SBATCH --job-name=inverter_baseline
 #SBATCH --account=project_465001270
 #SBATCH --partition=small-g
 #SBATCH --nodes=1
