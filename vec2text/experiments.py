@@ -55,6 +55,12 @@ DATASET_CACHE_PATH = os.environ.get(
     "VEC2TEXT_CACHE", os.path.expanduser(f"{cwd}/.cache/inversion")
 )
 
+if torch.distributed.is_initialized():
+    rank = torch.distributed.get_rank()
+else:
+    rank = 0
+
+
 if os.getenv("RANK"):
     rank = int(os.environ["RANK"])
     local_rank = int(os.environ["LOCAL_RANK"])
