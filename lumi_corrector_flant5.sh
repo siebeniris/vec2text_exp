@@ -1,5 +1,5 @@
 #!/bin/bash -e
-#SBATCH --job-name=inverter_baseline
+#SBATCH --job-name=fewshot_corrector
 #SBATCH --account=project_465000909
 #SBATCH --partition=small-g
 #SBATCH --gpus-per-node=1
@@ -7,8 +7,11 @@
 #SBATCH --cpus-per-task=7
 #SBATCH --mem-per-gpu=200G
 #SBATCH --time=3-00:00:00
-#SBATCH --output=inverter_fewshot_%j.out
-#SBATCH --error=inverter_fewshot_%j.err
+#SBATCH --output=corrector_fewshot%j.out
+#SBATCH --error=corrector_fewshot%j.err
+
+
+
 
 set -x
 
@@ -19,8 +22,10 @@ EXP_GROUP_NAME=$4
 BATCH_SIZE=$5
 MAX_LENGTH=$6
 LEARNING_RATE=$7
-EPOCHS=$8
-EARLY_STOPPING=$9
+CORRECTOR_ALIAS=$8
+EPOCHS=$9
+EARLY_STOPPING=${10}
+
 
 
 wd=$(pwd)
@@ -30,7 +35,6 @@ export OPENAI_API_KEY="sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
 export HF_HOME="/scratch/project_465000909/.cache"
 export HF_DATASETS_CACHE="/scratch/project_465000909/.cache/datasets"
 export DATASET_CACHE_PATH="/scratch/project_465000909/.cache"
-export EBU_USER_PREFIX=/scratch/project_465000909/
 export WANDB_CACHE_DIR="/scratch/project_465000909/.cache/wandb/artifcats/"
 
 echo "Trnasformers cache $HF_HOME"
@@ -82,16 +86,16 @@ echo "Rank $SLURM_PROCID --> $(taskset -p $$); GPU $ROCR_VISIBLE_DEVICES"
 # pytorch multiprocessing. semaphore.
 export PYTHONWARNINGS='ignore:semaphore_tracker:UserWarning'
 
-SIF=/scratch/project_465000909/multivec2text.sif
+SIF=/scratch/project_465001270/multivec2text.sif
 
+# each GPU has a mask, communicating with the closest CPUs.
+CPU_BIND_MASKS="0x00fe000000000000,0xfe00000000000000,0x0000000000fe0000,0x00000000fe000000,0x00000000000000fe,0x000000000000fe00,0x000000fe00000000,0x0000fe0000000000"
 
 echo $SIF
 chmod +x $HF_HOME
 chmod +x $HF_DATASETS_CACHE
-CPU_BIND_MASKS="0x00fe000000000000,0xfe00000000000000,0x0000000000fe0000,0x00000000fe000000,0x00000000000000fe,0x000000000000fe00,0x000000fe00000000,0x0000fe0000000000"
 
-
-srun singularity exec \
+srun --cpu-bind=mask_cpu:$CPU_BIND_MASKS singularity exec \
     -B /scratch/project_465001270:/scratch/project_465001270 \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
@@ -99,15 +103,16 @@ srun singularity exec \
     ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
+          --model_name_or_path google/flan-t5-small \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 200 \
-          --eval_steps 20 --warmup_steps 10 --experiment inversion \
+          --eval_steps 2000 --warmup_steps 1000 --experiment corrector \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/inverters/flant5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 20 \
+          --output_dir ./saves/correctors/flant5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
+          --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
           --use_frozen_embeddings_as_input True \
           --embedding_output last_hidden_state \
           --overwrite_output_dir"
-
