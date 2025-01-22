@@ -726,6 +726,7 @@ class Corrector(BaseTrainer):
         model: CorrectorEncoderModel,
         inputs: Dict[str, torch.Tensor],
         return_outputs: bool = False,
+        num_items_in_batch = None
     ) -> Union[Tuple[torch.Tensor, Dict[str, torch.Tensor]], torch.Tensor]:
         batch_size, seq_length = inputs["input_ids"].shape
 
