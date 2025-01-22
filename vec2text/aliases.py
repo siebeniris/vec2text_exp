@@ -31,7 +31,7 @@ CHECKPOINT_FOLDERS_DICT = {
     "flant5base_multihplt_1000_corrector": f"{lumi_dir}/correctors/flant5_google/flan-t5-base_yiyic/multiHPLT_english_1000_32",
     "t5_multihplt_1000_corrector": f"{lumi_dir}/correctors/flant5_google-t5/t5-base_yiyic/multiHPLT_english_1000_32",
     "mt5_multihplt_1000_corrector": f"{lumi_dir}/correctors/flant5_google/mt5-base_yiyic/multiHPLT_english_1000_32",
-    "mbert_multihplt_1000_corrector": f"{lumi_dir}/",
+    "mbert_multihplt_1000_corrector": f"{lumi_dir}/correctors/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_1000_32/",
     "sbert_multihplt_1000_corrector": f"{lumi_dir}/",
 
     ####################################################################

@@ -80,6 +80,7 @@ class CorrectorEncoderModel(transformers.PreTrainedModel):
         hypothesis_attention_mask: torch.Tensor,
     ) -> Tuple[torch.Tensor, torch.Tensor]:
         batch_size, D = embedding.shape
+        print("embedding shape ", embedding.shape)
         assert embedding.shape == (batch_size, self.embedder_dim)
         assert hypothesis_embedding.shape == (batch_size, self.embedder_dim)
 
