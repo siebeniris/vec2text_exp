@@ -101,9 +101,9 @@ srun singularity exec \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 200 \
-          --eval_steps 200 --warmup_steps 100 --experiment inversion \
+          --eval_steps 2000 --warmup_steps 1000 --experiment inversion \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/inverters/flant5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 200 \
+          --output_dir ./saves/inverters/flant5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
           --apply_early_stopping_metric ${EARLY_STOPPING} \
           --learning_rate ${LEARNING_RATE} \
           --ddp_find_unused_parameters True \
