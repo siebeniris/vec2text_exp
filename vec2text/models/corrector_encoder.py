@@ -24,8 +24,11 @@ class CorrectorEncoderModel(transformers.PreTrainedModel):
         super().__init__(config=config)
         if config.embedder_model_api:
             embedder_dim = 1536
+        elif self.embedder_model_name=="sentence-transformers/all-MiniLM-L6-v2":
+            embedder_dim = 384
         else:
             embedder_dim = 768 # the same for me5 (12.06.2024)
+
         bottleneck_dim = embedder_dim
 
         num_repeat_tokens = config.num_repeat_tokens
@@ -80,9 +83,9 @@ class CorrectorEncoderModel(transformers.PreTrainedModel):
         hypothesis_attention_mask: torch.Tensor,
     ) -> Tuple[torch.Tensor, torch.Tensor]:
         batch_size, D = embedding.shape
-        print("embedding shape ", embedding.shape)
-        # assert embedding.shape == (batch_size, self.embedder_dim)
-        # assert hypothesis_embedding.shape == (batch_size, self.embedder_dim)
+        # print("embedding shape ", embedding.shape)
+        assert embedding.shape == (batch_size, self.embedder_dim)
+        assert hypothesis_embedding.shape == (batch_size, self.embedder_dim)
 
         if (self.training) and (self.training_embedding_noise_level > 0):
             embedding += self.training_embedding_noise_level * torch.randn(
