@@ -69,18 +69,6 @@ export TORCH_NCCL_ASYNC_ERROR_HANDLING=1
 export NCCL_SOCKET_IFNAME=hsn0,hsn1,hsn2,hsn3
 export NCCL_NET_GDR_LEVEL=3
 
-# solve the problem of leaked semaphore objects error.
-#export SINGULARITYENV_CXI_FORK_SAFE=0
-#export SINGULARITYENV_CXI_FORK_SAFE_HP=0
-
-export MASTER_PORT=25900
-export WORLD_SIZE=$SLURM_NPROCS
-export LOCAL_WORLD_SIZE=$SLURM_GPUS_PER_NODE
-export RANK=$SLURM_PROCID
-export LOCAL_RANK=$SLURM_LOCALID
-export MASTER_ADDR=$(scontrol show hostname "$SLURM_NODELIST" | head -n1)
-
-echo "Rank $SLURM_PROCID --> $(taskset -p $$); GPU $ROCR_VISIBLE_DEVICES"
 
 # pytorch multiprocessing. semaphore.
 export PYTHONWARNINGS='ignore:semaphore_tracker:UserWarning'
@@ -98,7 +86,7 @@ srun singularity exec \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
     -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
-    ${SIF} bash -c "RANK=\$SLURM_PROCID LOCAL_RANK=\$SLURM_LOCALID
+    ${SIF} bash -c "
       python -m vec2text.run --per_device_train_batch_size ${BATCH_SIZE} \
           --per_device_eval_batch_size ${BATCH_SIZE} --max_seq_length ${MAX_LENGTH} \
           --model_name_or_path google/flan-t5-small \
