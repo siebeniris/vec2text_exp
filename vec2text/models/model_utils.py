@@ -298,6 +298,12 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
         tokenizer.add_special_tokens({"pad_token": "<pad>"})
         tokenizer.add_special_tokens({"eos_token": "</s>"})
         model.resize_token_embeddings(len(tokenizer))
+        if model.config.is_encoder_decoder:
+            model = model.encoder
+            print(f"{model} get encoder")
+        else:
+            model = model
+
 
     return model, tokenizer
 
