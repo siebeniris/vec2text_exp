@@ -354,9 +354,11 @@ class BaseTrainer(transformers.Trainer):
         gen_metrics = {
             "bleu_score": bleu_results.mean(),
             "bleu_score_sem": sem(bleu_results),
-            "rouge_score": rouge_result[
+            "rouge1_score": rouge_result[
                 "rouge1"
             ],  # ['rouge1', 'rouge2', 'rougeL', 'rougeLsum']
+            "rougeL_score": rouge_result["rougeL"],
+            "rouge2_score": rouge_result["rouge2"],
             # "bert_score": statistics.fmean(bertscore_result["f1"]),
             "exact_match": mean(exact_matches),
             "exact_match_sem": sem(exact_matches),
@@ -495,6 +497,7 @@ class BaseTrainer(transformers.Trainer):
                     ),
                 )
                 emb_cos_sims = torch.nn.CosineSimilarity(dim=1)(preds_emb, labels_emb)
+                emb_mse_loss = torch.nn.MSELoss()(preds_emb, labels_emb)
 
                 ###########################
                 print("saving embeddings for preds and labels ....")
@@ -518,6 +521,7 @@ class BaseTrainer(transformers.Trainer):
                     "emb_cos_sim_sem": sem(emb_cos_sims.cpu().numpy()),
                     "emb_top1_equal": emb_topk_equal.mean().item(),
                     "emb_top1_equal_sem": sem(emb_topk_equal),
+                    "emb_mse_loss": emb_mse_loss.item(),
                 }
 
         except (TypeError, RuntimeError):

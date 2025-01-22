@@ -18,6 +18,7 @@ DATASET_NAMES = [
     "nq",
     "luar_reddit",
     "msmarco",
+    "mmarco"
     "one_million_instructions",
     "one_million_paired_instructions",
 ]
