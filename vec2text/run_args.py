@@ -46,7 +46,7 @@ class ModelArguments:
         ###
         ## huggingface.co/facebook/dpr-ctx_encoder-single-nq-base
         ###
-        default="gtr_base",
+        default=None,
         metadata={
             "help": "Model to get embeddings from (locally)",
             "choices": EMBEDDER_MODEL_NAMES,
