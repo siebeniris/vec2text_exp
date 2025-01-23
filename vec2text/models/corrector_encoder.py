@@ -27,7 +27,7 @@ class CorrectorEncoderModel(transformers.PreTrainedModel):
         # elif self.embedder_model_name=="sentence-transformers/all-MiniLM-L6-v2":
         #     embedder_dim = 384
         else:
-            embedder_dim = 768 # the same for me5 (12.06.2024)
+            embedder_dim = 768  # the same for me5 (12.06.2024)
 
         bottleneck_dim = embedder_dim
 

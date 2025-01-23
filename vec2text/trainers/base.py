@@ -335,25 +335,32 @@ class BaseTrainer(transformers.Trainer):
             "num_pred_words": mean(num_pred_words),
         }
         ############################################################
-        bleu_results = np.array(
-            [
-                self.metric_bleu.compute(predictions=[p], references=[r])["score"]
-                for p, r in zip(predictions_str, references_str)
-            ]
-        )
+        # bleu_results = np.array(
+        #     [
+        #         self.metric_bleu.compute(predictions=[p], references=[r])["score"]
+        #         for p, r in zip(predictions_str, references_str)
+        #     ]
+        # )
+        bleu_results = self.metric_bleu.compute(predictions=predictions_str, references=references_str)
         rouge_result = self.metric_rouge.compute(
             predictions=predictions_str, references=references_str
         )
-        self.bleu_results = (
-            bleu_results.tolist()
-        )  # store bleu results in case we want to use them later for t-tests
+        # self.bleu_results = (
+        #     bleu_results.tolist()
+        # )  # store bleu results in case we want to use them later for t-tests
         # bertscore_result = self.metric_bertscore.compute(
         #     predictions=predictions_str, references=references_str, lang="en"
         # )
+        self.bleu_results = bleu_results
         exact_matches = np.array(predictions_str) == np.array(references_str)
         gen_metrics = {
-            "bleu_score": bleu_results.mean(),
-            "bleu_score_sem": sem(bleu_results),
+            # "bleu_score": bleu_results.mean(),
+            # "bleu_score_sem": sem(bleu_results),
+            "bleu_score": bleu_results["score"],
+            "bleu1_score": bleu_results["precisions"][0],
+            "bleu2_score": bleu_results["precisions"][1],
+            "bleu3_score": bleu_results["precisions"][2],
+            "bleu4_score": bleu_results["precisions"][3],
             "rouge1_score": rouge_result[
                 "rouge1"
             ],  # ['rouge1', 'rouge2', 'rougeL', 'rougeLsum']
