@@ -24,8 +24,8 @@ class CorrectorEncoderModel(transformers.PreTrainedModel):
         super().__init__(config=config)
         if config.embedder_model_api:
             embedder_dim = 1536
-        elif self.embedder_model_name=="sentence-transformers/all-MiniLM-L6-v2":
-            embedder_dim = 384
+        # elif self.embedder_model_name=="sentence-transformers/all-MiniLM-L6-v2":
+        #     embedder_dim = 384
         else:
             embedder_dim = 768 # the same for me5 (12.06.2024)
 
