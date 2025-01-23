@@ -11,16 +11,16 @@ def eval_function(trainer, dataset, filepath):
     """
     EVALUATION FUNCTION.
     """
-    if not os.path.exists(filepath):
-        try:
+    # if not os.path.exists(filepath):
+    try:
             metrics_results = trainer.evaluate(eval_dataset=dataset)
             print(f"saving results to {filepath}")
             with open(filepath, 'w') as f:
                 json.dump(metrics_results, f)
-        except Exception as msg:
+    except Exception as msg:
             print(f"{msg}, eval did not finish")
-    else:
-        print(f"{filepath} already exists")
+    # else:
+    #     print(f"{filepath} already exists")
 
 
 def eval_and_save_results(trainer, dataset, dataset_name, output_dir, corrector=False):
