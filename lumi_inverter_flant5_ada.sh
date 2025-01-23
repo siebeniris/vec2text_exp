@@ -26,8 +26,6 @@ EARLY_STOPPING=$9
 wd=$(pwd)
 echo "working directory ${wd}"
 
-export OPENAI_API_KEY="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"
-#export OPENAI_API_KEY="sk-proj-9GTzPysUslKPyHRxDWUxT3BlbkFJt9KdXvzK18UtedxlsWqK"
 export HF_HOME="/scratch/project_465000909/.cache"
 export HF_DATASETS_CACHE="/scratch/project_465000909/.cache/datasets"
 export DATASET_CACHE_PATH="/scratch/project_465000909/.cache"
