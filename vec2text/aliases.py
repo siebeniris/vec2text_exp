@@ -32,7 +32,68 @@ CHECKPOINT_FOLDERS_DICT = {
     "t5_multihplt_1000_corrector": f"{lumi_dir}/correctors/flant5_google-t5/t5-base_yiyic/multiHPLT_english_1000_32",
     "mt5_multihplt_1000_corrector": f"{lumi_dir}/correctors/flant5_google/mt5-base_yiyic/multiHPLT_english_1000_32",
     "mbert_multihplt_1000_corrector": f"{lumi_dir}/correctors/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_1000_32/",
-    "sbert_multihplt_1000_corrector": f"{lumi_dir}/",
+
+    #### 500 train samples
+    "gtr_multihplt_500": f"{lumi_dir}/inverters/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_500_32",
+    "t5_multihplt_500": f"{lumi_dir}/inverters/flant5_google-t5/t5-base_yiyic/multiHPLT_english_500_32",
+    "mt5_multihplt_500": f"{lumi_dir}/inverters/flant5_google/mt5-base_yiyic/multiHPLT_english_500_32",
+    "mbert_multihplt_500": f"{lumi_dir}/inverters/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_500_32",
+
+    # correctors.
+    "gtr_multihplt_500_corrector": f"{lumi_dir}/correctors/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_500_32",
+    "t5_multihplt_500_corrector": f"{lumi_dir}/correctors/flant5_google-t5/t5-base_yiyic/multiHPLT_english_500_32",
+    "mt5_multihplt_500_corrector": f"{lumi_dir}/correctors/flant5_google/mt5-base_yiyic/multiHPLT_english_500_32",
+    "mbert_multihplt_500_corrector": f"{lumi_dir}/correctors/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_500_32/",
+
+    #### 300 train samples
+    "gtr_multihplt_300": f"{lumi_dir}/inverters/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_300_32",
+    "t5_multihplt_300": f"{lumi_dir}/inverters/flant5_google-t5/t5-base_yiyic/multiHPLT_english_300_32",
+    "mt5_multihplt_300": f"{lumi_dir}/inverters/flant5_google/mt5-base_yiyic/multiHPLT_english_300_32",
+    "mbert_multihplt_300": f"{lumi_dir}/inverters/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_300_32",
+
+    # correctors.
+    "gtr_multihplt_300_corrector": f"{lumi_dir}/correctors/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_300_32",
+    "t5_multihplt_300_corrector": f"{lumi_dir}/correctors/flant5_google-t5/t5-base_yiyic/multiHPLT_english_300_32",
+    "mt5_multihplt_300_corrector": f"{lumi_dir}/correctors/flant5_google/mt5-base_yiyic/multiHPLT_english_300_32",
+    "mbert_multihplt_300_corrector": f"{lumi_dir}/correctors/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_300_32/",
+
+    #### 100 train samples
+    "gtr_multihplt_100": f"{lumi_dir}/inverters/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_100_32",
+    "t5_multihplt_100": f"{lumi_dir}/inverters/flant5_google-t5/t5-base_yiyic/multiHPLT_english_100_32",
+    "mt5_multihplt_100": f"{lumi_dir}/inverters/flant5_google/mt5-base_yiyic/multiHPLT_english_100_32",
+    "mbert_multihplt_100": f"{lumi_dir}/inverters/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_100_32",
+
+    # correctors.
+    "gtr_multihplt_100_corrector": f"{lumi_dir}/correctors/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_100_32",
+    "t5_multihplt_100_corrector": f"{lumi_dir}/correctors/flant5_google-t5/t5-base_yiyic/multiHPLT_english_100_32",
+    "mt5_multihplt_100_corrector": f"{lumi_dir}/correctors/flant5_google/mt5-base_yiyic/multiHPLT_english_100_32",
+    "mbert_multihplt_100_corrector": f"{lumi_dir}/correctors/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_100_32/",
+
+
+    #### 30 train samples
+    "gtr_multihplt_30": f"{lumi_dir}/inverters/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_30_32",
+    "t5_multihplt_30": f"{lumi_dir}/inverters/flant5_google-t5/t5-base_yiyic/multiHPLT_english_30_32",
+    "mt5_multihplt_30": f"{lumi_dir}/inverters/flant5_google/mt5-base_yiyic/multiHPLT_english_30_32",
+    "mbert_multihplt_30": f"{lumi_dir}/inverters/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_30_32",
+
+    # correctors.
+    "gtr_multihplt_30_corrector": f"{lumi_dir}/correctors/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_30_32",
+    "t5_multihplt_30_corrector": f"{lumi_dir}/correctors/flant5_google-t5/t5-base_yiyic/multiHPLT_english_30_32",
+    "mt5_multihplt_30_corrector": f"{lumi_dir}/correctors/flant5_google/mt5-base_yiyic/multiHPLT_english_30_32",
+    "mbert_multihplt_30_corrector": f"{lumi_dir}/correctors/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_30_32/",
+
+
+    #### 10 train samples
+    "gtr_multihplt_10": f"{lumi_dir}/inverters/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_10_32",
+    "t5_multihplt_10": f"{lumi_dir}/inverters/flant5_google-t5/t5-base_yiyic/multiHPLT_english_10_32",
+    "mt5_multihplt_10": f"{lumi_dir}/inverters/flant5_google/mt5-base_yiyic/multiHPLT_english_10_32",
+    "mbert_multihplt_10": f"{lumi_dir}/inverters/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_10_32",
+
+    # correctors.
+    "gtr_multihplt_10_corrector": f"{lumi_dir}/correctors/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_10_32",
+    "t5_multihplt_10_corrector": f"{lumi_dir}/correctors/flant5_google-t5/t5-base_yiyic/multiHPLT_english_10_32",
+    "mt5_multihplt_10_corrector": f"{lumi_dir}/correctors/flant5_google/mt5-base_yiyic/multiHPLT_english_10_32",
+    "mbert_multihplt_10_corrector": f"{lumi_dir}/correctors/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_10_32/",
 
     ####################################################################
     ######################## Multilingual e5 base #########################

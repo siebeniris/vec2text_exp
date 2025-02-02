@@ -23,7 +23,7 @@ MAX_LENGTH=$6
 LEARNING_RATE=$7
 CORRECTOR_ALIAS=$8
 EPOCHS=$9
-EARLY_STOPPING=${10}
+EVAL_STEP=${10}
 
 
 
@@ -41,7 +41,7 @@ echo "HF datasets cache $HF_DATASETS_CACHE"
 
 echo "language $LANG "
 echo "model mt5 embedder $EMBEDDER, epochs $EPOCHS,batch size $BATCH_SIZE max length $MAX_LENGTH " # google/mt5-base
-echo "apply early stopping metric => $EARLY_STOPPING"
+echo "eval step => $EVAL_STEP"
 echo "dataset $DATASET" # mt-ms_fin_Latn
 echo "exp_group_name $EXP_GROUP_NAME"
 # echo "over write ouptutdir $OVERWRITE_OUTPUT_DIR"
@@ -92,10 +92,10 @@ srun singularity exec \
           --model_name_or_path google/flan-t5-small \
           --dataset_name ${DATASET} --embedder_model_name ${EMBEDDER} \
           --num_repeat_tokens 16 --embedder_no_grad True --num_train_epochs ${EPOCHS} --max_eval_samples 200 \
-          --eval_steps 2000 --warmup_steps 1000 --experiment corrector \
+          --eval_steps ${EVAL_STEP} --warmup_steps ${EVAL_STEP} --experiment corrector \
           --exp_group_name ${EXP_GROUP_NAME} --exp_name ${LANG} \
-          --output_dir ./saves/correctors/flant5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps 2000 \
-          --apply_early_stopping_metric ${EARLY_STOPPING} \
+          --output_dir ./saves/correctors/flant5_${EMBEDDER}_${DATASET}_${MAX_LENGTH} --save_steps ${EVAL_STEP} \
+          --apply_early_stopping_metric no \
           --learning_rate ${LEARNING_RATE} \
           --corrector_model_alias ${CORRECTOR_ALIAS} \
           --ddp_find_unused_parameters True \
