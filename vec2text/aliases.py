@@ -17,6 +17,24 @@ CHECKPOINT_FOLDERS_DICT = {
     ####################################################################
     ######################## Fewshot Baselines #########################
     ####################################################################
+
+    "gtr_multihplt_1": f"{lumi_dir}/inverters/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_1_32",
+    # "me5_multihplt_1": f"{lumi_dir}/inverters/flant5_intfloat/multilingual-e5-base_yiyic/multiHPLT_english_1_32",
+    # "flant5base_multihplt_1": f"{lumi_dir}/inverters/flant5_google/flan-t5-base_yiyic/multiHPLT_english_1_32",
+    "t5_multihplt_1": f"{lumi_dir}/inverters/flant5_google-t5/t5-base_yiyic/multiHPLT_english_1_32",
+    "mt5_multihplt_1": f"{lumi_dir}/inverters/flant5_google/mt5-base_yiyic/multiHPLT_english_1_32",
+    "mbert_multihplt_1": f"{lumi_dir}/inverters/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_1_32",
+    # "sbert_multihplt_1": f"{lumi_dir}/inverters/flant5_sentence-transformers/all-MiniLM-L6-v2_yiyic/multiHPLT_english_1_32",
+
+    # correctors.
+    "gtr_multihplt_1_corrector": f"{lumi_dir}/correctors/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_1_32",
+    # "me5_multihplt_1_corrector": f"{lumi_dir}/correctors/flant5_intfloat/multilingual-e5-base_yiyic/multiHPLT_english_1000_32",
+    # "flant5base_multihplt_1_corrector": f"{lumi_dir}/correctors/flant5_google/flan-t5-base_yiyic/multiHPLT_english_1000_32",
+    "t5_multihplt_1_corrector": f"{lumi_dir}/correctors/flant5_google-t5/t5-base_yiyic/multiHPLT_english_1_32",
+    "mt5_multihplt_1_corrector": f"{lumi_dir}/correctors/flant5_google/mt5-base_yiyic/multiHPLT_english_1_32",
+    "mbert_multihplt_1_corrector": f"{lumi_dir}/correctors/flant5_google-bert/bert-base-multilingual-cased_yiyic/multiHPLT_english_1_32/",
+
+
     "gtr_multihplt_1000": f"{lumi_dir}/inverters/flant5_sentence-transformers/gtr-t5-base_yiyic/multiHPLT_english_1000_32",
     "me5_multihplt_1000": f"{lumi_dir}/inverters/flant5_intfloat/multilingual-e5-base_yiyic/multiHPLT_english_1000_32",
     "flant5base_multihplt_1000": f"{lumi_dir}/inverters/flant5_google/flan-t5-base_yiyic/multiHPLT_english_1000_32",
