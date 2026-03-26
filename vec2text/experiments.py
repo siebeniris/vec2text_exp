@@ -156,6 +156,9 @@ class Experiment(abc.ABC):
             "max_seq_length": str(self.model_args.max_seq_length),
             "use_less_data": str(self.data_args.use_less_data),
             "embedder_model_api": str(self.model_args.embedder_model_api),
+            "victim_embedding_name": str(self.data_args.victim_embedding_name),
+            "use_random_embeddings": str(self.data_args.use_random_embeddings),
+            "random_embedding_seed": str(self.data_args.random_embedding_seed),
         }
 
     def _setup_logging(self) -> None:

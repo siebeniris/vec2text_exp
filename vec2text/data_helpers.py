@@ -5,6 +5,8 @@ from typing import Dict, List
 
 import yaml
 import datasets
+import json
+import numpy as np
 import torch
 
 from vec2text.run_args import DataArguments
@@ -84,6 +86,188 @@ def load_luar_reddit() -> datasets.Dataset:
     return d
 
 
+def _load_json(path: str):
+    with open(path) as f:
+        return json.load(f)
+
+
+def _build_coco_nomic_pair_dataset(
+        embeddings_path: str,
+        image_ids_path: str,
+        captions_path: str,
+) -> datasets.Dataset:
+    image_ids = _load_json(image_ids_path)
+    image_to_caption_data = _load_json(captions_path)
+    embeddings = np.load(embeddings_path)
+
+    if len(image_ids) != len(embeddings):
+        raise ValueError(
+            f"mismatched counts for {embeddings_path}: "
+            f"{len(image_ids)} ids vs {len(embeddings)} embeddings"
+        )
+
+    missing_ids = [image_id for image_id in image_ids if image_id not in image_to_caption_data]
+    if missing_ids:
+        raise ValueError(
+            f"{len(missing_ids)} image ids from {image_ids_path} were missing in {captions_path}. "
+            f"First few missing ids: {missing_ids[:5]}"
+        )
+
+    rows = {
+        "image_id": [],
+        "text": [],
+        "frozen_embeddings": [],
+        "captions": [],
+    }
+    for image_id, embedding in zip(image_ids, embeddings):
+        caption_data = image_to_caption_data[image_id]
+        if isinstance(caption_data, dict):
+            captions = caption_data["caption"]
+        elif isinstance(caption_data, list):
+            captions = caption_data
+        elif isinstance(caption_data, str):
+            captions = [caption_data]
+        else:
+            raise ValueError(
+                f"unsupported caption format for image {image_id} in {captions_path}: "
+                f"{type(caption_data).__name__}"
+            )
+        if not captions:
+            raise ValueError(f"image {image_id} in {captions_path} has no captions")
+
+        rows["image_id"].append(image_id)
+        rows["text"].append(captions[0])
+        rows["frozen_embeddings"].append(embedding)
+        rows["captions"].append(captions)
+
+    dataset = datasets.Dataset.from_dict(rows)
+    dataset = dataset.with_format("torch")
+    return dataset
+
+
+def _resolve_victim_embedding_files(victim_embedding_name: str):
+    repo_root = os.getcwd()
+    victim_root = os.path.join(repo_root, "data", "embeds", "victim_embeddings")
+
+    embed_dir = os.path.join(victim_root, victim_embedding_name)
+    if not os.path.isdir(embed_dir):
+        raise ValueError(
+            f"unsupported victim embedding source '{victim_embedding_name}'. "
+            f"Directory not found: {embed_dir}"
+        )
+
+    train_npy = os.path.join(embed_dir, "train", "train.npy")
+    train_ids = os.path.join(embed_dir, "train", "train_image_ids.json")
+    test_npy = os.path.join(embed_dir, "test", "test.npy")
+    test_ids = os.path.join(embed_dir, "test", "test_image_ids.json")
+    if not all(os.path.exists(p) for p in [train_npy, train_ids, test_npy, test_ids]):
+        raise ValueError(
+            f"victim embedding source '{victim_embedding_name}' is missing train/test files under {embed_dir}"
+        )
+
+    return {
+        "train_npy": train_npy,
+        "train_ids": train_ids,
+        "test_npy": test_npy,
+        "test_ids": test_ids,
+    }
+
+
+def _build_coco_victim_pair_dataset(
+        embeddings_path: str,
+        image_ids_path: str,
+        captions_path: str,
+        randomize_embeddings: bool = False,
+        random_seed: int = 42,
+) -> datasets.Dataset:
+    image_ids = _load_json(image_ids_path)
+    image_to_caption_data = _load_json(captions_path)
+    embeddings = np.load(embeddings_path)
+
+    if randomize_embeddings:
+        rng = np.random.default_rng(random_seed)
+        embeddings = rng.standard_normal(size=embeddings.shape, dtype=np.float32)
+
+    if len(image_ids) != len(embeddings):
+        raise ValueError(
+            f"mismatched counts for {embeddings_path}: "
+            f"{len(image_ids)} ids vs {len(embeddings)} embeddings"
+        )
+
+    missing_ids = [image_id for image_id in image_ids if image_id not in image_to_caption_data]
+    if missing_ids:
+        raise ValueError(
+            f"{len(missing_ids)} image ids from {image_ids_path} were missing in {captions_path}. "
+            f"First few missing ids: {missing_ids[:5]}"
+        )
+
+    rows = {
+        "image_id": [],
+        "text": [],
+        "frozen_embeddings": [],
+        "captions": [],
+    }
+    for image_id, embedding in zip(image_ids, embeddings):
+        caption_data = image_to_caption_data[image_id]
+        if isinstance(caption_data, dict):
+            captions = caption_data["caption"]
+        elif isinstance(caption_data, list):
+            captions = caption_data
+        elif isinstance(caption_data, str):
+            captions = [caption_data]
+        else:
+            raise ValueError(
+                f"unsupported caption format for image {image_id} in {captions_path}: "
+                f"{type(caption_data).__name__}"
+            )
+        if not captions:
+            raise ValueError(f"image {image_id} in {captions_path} has no captions")
+
+        rows["image_id"].append(image_id)
+        rows["text"].append(captions[0])
+        rows["frozen_embeddings"].append(embedding)
+        rows["captions"].append(captions)
+
+    dataset = datasets.Dataset.from_dict(rows)
+    dataset = dataset.with_format("torch")
+    return dataset
+
+
+def load_coco_victim_first_caption(
+        victim_embedding_name: str = "nomic",
+        use_random_embeddings: bool = False,
+        random_embedding_seed: int = 42,
+) -> datasets.DatasetDict:
+    repo_root = os.getcwd()
+    caption_dir = os.path.join(repo_root, "data", "victim_embeds_data")
+    embedding_files = _resolve_victim_embedding_files(victim_embedding_name)
+
+    train_dataset = _build_coco_victim_pair_dataset(
+        embeddings_path=embedding_files["train_npy"],
+        image_ids_path=embedding_files["train_ids"],
+        captions_path=os.path.join(caption_dir, "train_dict.json"),
+        randomize_embeddings=use_random_embeddings,
+        random_seed=random_embedding_seed,
+    )
+    validation_dataset = _build_coco_victim_pair_dataset(
+        embeddings_path=embedding_files["test_npy"],
+        image_ids_path=embedding_files["test_ids"],
+        captions_path=os.path.join(caption_dir, "test_dict.json"),
+        randomize_embeddings=use_random_embeddings,
+        random_seed=random_embedding_seed + 1,
+    )
+    return datasets.DatasetDict(
+        {
+            "train": train_dataset,
+            "validation": validation_dataset,
+        }
+    )
+
+
+def load_coco_nomic_first_caption() -> datasets.DatasetDict:
+    return load_coco_victim_first_caption(victim_embedding_name="nomic")
+
+
 def load_xnli(lang) -> datasets.Dataset:
     def concat_pre_hyp(sample):
         sample["text"] = sample["premise"] + " " + sample["hypothesis"]
@@ -144,6 +328,12 @@ def dataset_from_args(data_args: DataArguments) -> datasets.DatasetDict:
                 "train": all_luar_datasets["candidates"],
                 "validation": all_luar_datasets["queries"],
             }
+        )
+    elif data_args.dataset_name in {"coco_nomic_first_caption", "coco_victim_first_caption"}:
+        raw_datasets = load_coco_victim_first_caption(
+            victim_embedding_name=data_args.victim_embedding_name,
+            use_random_embeddings=data_args.use_random_embeddings,
+            random_embedding_seed=data_args.random_embedding_seed,
         )
     else:
         raise ValueError(f"unsupported dataset {data_args.dataset_name}")

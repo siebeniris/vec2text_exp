@@ -15,6 +15,8 @@ MODEL_CONFIG_CLASSES = list(MODEL_FOR_CAUSAL_LM_MAPPING.keys())
 MODEL_TYPES = tuple(conf.model_type for conf in MODEL_CONFIG_CLASSES)
 
 DATASET_NAMES = [
+    "coco_victim_first_caption",
+    "coco_nomic_first_caption",
     "nq",
     "luar_reddit",
     "msmarco",
@@ -224,6 +226,25 @@ class DataArguments:
         metadata={
             "help": {"Use a small amount of the training/eval data (for testing)"}
         },
+    )
+    victim_embedding_name: str = field(
+        default="nomic",
+        metadata={
+            "help": (
+                "Frozen victim embedding source to train against. "
+                "Examples: nomic, clip, cohere, gemini."
+            )
+        },
+    )
+    use_random_embeddings: bool = field(
+        default=False,
+        metadata={
+            "help": "If true, replace the selected victim embeddings with random Gaussian vectors of the same shape."
+        },
+    )
+    random_embedding_seed: int = field(
+        default=42,
+        metadata={"help": "Seed used when victim_embedding_name starts with random_."},
     )
 
     def __post_init__(self):
