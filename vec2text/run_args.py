@@ -189,6 +189,13 @@ class ModelArguments:
             "help": "the embedding output strategy applied to embeddings"
         }
     )
+    frozen_embeddings_dim: int = field(
+        default=0,
+        metadata={
+            "help": "Embedding dimension of pre-computed frozen embeddings. "
+                    "When > 0 and use_frozen_embeddings_as_input=True, skips loading the embedder model entirely."
+        },
+    )
 
     def __post_init__(self):
         if self.config_overrides is not None and (

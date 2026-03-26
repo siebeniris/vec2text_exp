@@ -17,7 +17,7 @@ from vec2text.models.model_utils import (
     load_tokenizer,
     mean_pool,
 )
-from vec2text.utils import embed_api
+from vec2text.utils import MockEmbedder, embed_api
 
 logger = logging.getLogger(__name__)
 
@@ -59,14 +59,20 @@ class InversionModel(transformers.PreTrainedModel):
             lora=config.use_lora,
         )
 
-        embedder, embedder_tokenizer = load_embedder_and_tokenizer(
-            name=config.embedder_model_name, torch_dtype=config.embedder_torch_dtype
-        )
-
         tokenizer = load_tokenizer(
             config.model_name_or_path,
             max_length=config.max_seq_length,
         )
+
+        frozen_embeddings_dim = getattr(config, "frozen_embeddings_dim", 0)
+        if use_frozen_embeddings_as_input and frozen_embeddings_dim > 0:
+            embedder = MockEmbedder(embedder_dim=frozen_embeddings_dim)
+            embedder_tokenizer = tokenizer
+        else:
+            embedder, embedder_tokenizer = load_embedder_and_tokenizer(
+                name=config.embedder_model_name, torch_dtype=config.embedder_torch_dtype
+            )
+
         num_repeat_tokens = config.num_repeat_tokens
         embedder_no_grad = config.embedder_no_grad
 
@@ -84,6 +90,9 @@ class InversionModel(transformers.PreTrainedModel):
             assert use_frozen_embeddings_as_input, "must precompute embeddings w/ api"
             # Hard-code OpenAI embedding dim
             self.embedder_dim = 1536
+            bottleneck_dim = self.embedder_dim
+        elif frozen_embeddings_dim > 0:
+            self.embedder_dim = frozen_embeddings_dim
             bottleneck_dim = self.embedder_dim
         elif isinstance(embedder, SentenceTransformer):
             self.embedder_dim = embedder.get_sentence_embedding_dimension()
@@ -109,7 +118,7 @@ class InversionModel(transformers.PreTrainedModel):
         ######################################################
         self.tokenizer = tokenizer
         self.embedder = embedder
-        if self.embedder_no_grad:
+        if self.embedder_no_grad and isinstance(self.embedder, nn.Module):
             for param in self.embedder.parameters():
                 param.requires_grad = False
 
@@ -153,7 +162,9 @@ class InversionModel(transformers.PreTrainedModel):
 
     @property
     def embedder_device(self) -> torch.device:
-        return next(self.embedder.parameters()).device
+        if isinstance(self.embedder, nn.Module):
+            return next(self.embedder.parameters()).device
+        return next(self.encoder_decoder.parameters()).device
 
     def _process_embedder_output(
         self,
@@ -206,7 +217,7 @@ class InversionModel(transformers.PreTrainedModel):
     ) -> torch.Tensor:
         embedder = self.embedder
         # print("** call_embedding_model")
-        if self.embedder_no_grad:
+        if self.embedder_no_grad and isinstance(embedder, nn.Module):
             embedder.eval()
 
         if self.embedder_fake_with_zeros:

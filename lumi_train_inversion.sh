@@ -80,6 +80,7 @@ EXP_NAME=${19:-"${DATASET_NAME}_${VICTIM_EMBEDDING}"}
 USE_LESS_DATA=${20:--1}
 EARLY_STOPPING=${21:-"no"}
 OVERWRITE_OUTPUT_DIR=${22:-0}
+FROZEN_EMBEDDINGS_DIM=${23:-0}
 
 if [ -z "${WARMUP_STEPS}" ]; then
   WARMUP_STEPS=${EVAL_STEPS}
@@ -108,6 +109,7 @@ echo "  Exp name: ${EXP_NAME}"
 echo "  Use less data: ${USE_LESS_DATA}"
 echo "  Early stopping metric: ${EARLY_STOPPING}"
 echo "  Overwrite output dir: ${OVERWRITE_OUTPUT_DIR}"
+echo "  Frozen embeddings dim: ${FROZEN_EMBEDDINGS_DIM}"
 
 TRAIN_ARGS=(
   --dataset_name "${DATASET_NAME}"
@@ -135,6 +137,7 @@ TRAIN_ARGS=(
   --exp_name "${EXP_NAME}"
   --use_less_data "${USE_LESS_DATA}"
   --apply_early_stopping_metric "${EARLY_STOPPING}"
+  --frozen_embeddings_dim "${FROZEN_EMBEDDINGS_DIM}"
 )
 
 if [ "${USE_RANDOM_EMBEDDINGS}" -eq 1 ]; then

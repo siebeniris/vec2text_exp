@@ -449,27 +449,32 @@ class Experiment(abc.ABC):
         )
         ###########################################################################
         if self.model_args.use_frozen_embeddings_as_input:
-            print(
-                f"[Precomputing embeddings with batch size: {self.training_args.per_device_train_batch_size}]"
-            )
-            assert torch.cuda.is_available()
-            model = model.to(device)
+            first_split = next(iter(tokenized_datasets.values()))
+            already_has_embeddings = "frozen_embeddings" in first_split.column_names
+            if already_has_embeddings:
+                print("[Skipping embedding precomputation — dataset already has frozen_embeddings]")
+            else:
+                print(
+                    f"[Precomputing embeddings with batch size: {self.training_args.per_device_train_batch_size}]"
+                )
+                assert torch.cuda.is_available()
+                model = model.to(device)
 
-            new_tokenized_datasets = {}
-            for key, d in tokenized_datasets.items():
-                new_fingerprint = (
-                        d._fingerprint + md5_hash_kwargs(**self.dataset_kwargs) + ""
-                )
-                print("\tsaving precomputed embeddings to file:", new_fingerprint)
-                new_tokenized_datasets[key] = dataset_map_multi_worker(
-                    dataset=d,
-                    map_fn=functools.partial(embed_dataset_batch, model),
-                    batched=True,
-                    batch_size=self.training_args.per_device_train_batch_size,
-                    new_fingerprint=new_fingerprint,
-                    num_proc=1,
-                )
-            tokenized_datasets = datasets.DatasetDict(new_tokenized_datasets)
+                new_tokenized_datasets = {}
+                for key, d in tokenized_datasets.items():
+                    new_fingerprint = (
+                            d._fingerprint + md5_hash_kwargs(**self.dataset_kwargs) + ""
+                    )
+                    print("\tsaving precomputed embeddings to file:", new_fingerprint)
+                    new_tokenized_datasets[key] = dataset_map_multi_worker(
+                        dataset=d,
+                        map_fn=functools.partial(embed_dataset_batch, model),
+                        batched=True,
+                        batch_size=self.training_args.per_device_train_batch_size,
+                        new_fingerprint=new_fingerprint,
+                        num_proc=1,
+                    )
+                tokenized_datasets = datasets.DatasetDict(new_tokenized_datasets)
 
         ###########################################################################
         max_eval_samples = min(
@@ -530,23 +535,27 @@ class Experiment(abc.ABC):
 
         if self.model_args.use_frozen_embeddings_as_input:
             print("Using Frozen Embeddings as Input -- Val datasets")
-            assert torch.cuda.is_available()
-            model = model.to(device)
+            first_val_split = next(iter(val_datasets_dict.values()))
+            if "frozen_embeddings" in first_val_split.column_names:
+                print("[Skipping val embedding precomputation — dataset already has frozen_embeddings]")
+            else:
+                assert torch.cuda.is_available()
+                model = model.to(device)
 
-            new_tokenized_datasets = {}
-            for key, d in val_datasets_dict.items():
-                new_tokenized_datasets[key] = dataset_map_multi_worker(
-                    dataset=d,
-                    map_fn=functools.partial(embed_dataset_batch, model),
-                    batched=True,
-                    batch_size=self.training_args.per_device_train_batch_size,
-                    new_fingerprint=(
-                            d._fingerprint + md5_hash_kwargs(**self.dataset_kwargs) + ""
-                    ),
-                    num_proc=1,
-                )
+                new_tokenized_datasets = {}
+                for key, d in val_datasets_dict.items():
+                    new_tokenized_datasets[key] = dataset_map_multi_worker(
+                        dataset=d,
+                        map_fn=functools.partial(embed_dataset_batch, model),
+                        batched=True,
+                        batch_size=self.training_args.per_device_train_batch_size,
+                        new_fingerprint=(
+                                d._fingerprint + md5_hash_kwargs(**self.dataset_kwargs) + ""
+                        ),
+                        num_proc=1,
+                    )
 
-            val_datasets_dict = datasets.DatasetDict(new_tokenized_datasets)
+                val_datasets_dict = datasets.DatasetDict(new_tokenized_datasets)
 
         return val_datasets_dict
 
@@ -695,9 +704,10 @@ class InversionExperiment(Experiment):
                 "IMPORTANT: Mocking embedder for the rest of training (to save GPU memory)."
                 " Do not trust embedding-based evaluation metrics."
             )
-            model.embedder.cpu()
-            del model.embedder
-            model.embedder = MockEmbedder(embedder_dim=model.embedder_dim)
+            if not isinstance(model.embedder, MockEmbedder):
+                model.embedder.cpu()
+                del model.embedder
+                model.embedder = MockEmbedder(embedder_dim=model.embedder_dim)
 
         return self.trainer_cls(
             model=model,
