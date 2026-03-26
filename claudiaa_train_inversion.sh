@@ -2,7 +2,7 @@
 #SBATCH --job-name=vec2text_inversion
 #SBATCH --output=logs/vec2text_inversion_%j.out
 #SBATCH --error=logs/vec2text_inversion_%j.err
-#SBATCH --mem=80GB
+#SBATCH --mem=50GB
 #SBATCH --time=2-00:00:00
 
 # Single-GPU inversion training launcher for Claudiaa/server usage.
@@ -38,7 +38,7 @@ NUM_EPOCHS=${7}
 LEARNING_RATE=${8}
 MAX_SEQ_LENGTH=${9}
 NUM_REPEAT_TOKENS=${10:-16}
-MAX_EVAL_SAMPLES=${11:-200}
+MAX_EVAL_SAMPLES=${11:-500}
 EVAL_STEPS=${12:-20000}
 WARMUP_STEPS=${13:-""}
 EMBEDDING_OUTPUT=${14:-"last_hidden_state"}
