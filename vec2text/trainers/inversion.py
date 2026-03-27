@@ -1,3 +1,4 @@
+import inspect
 import math
 from typing import Dict
 
@@ -6,6 +7,10 @@ import torch.nn as nn
 import transformers
 
 from vec2text.trainers.base import BaseTrainer
+
+_TRAINER_STEP_HAS_NUM_ITEMS = "num_items_in_batch" in inspect.signature(
+    transformers.Trainer.training_step
+).parameters
 
 
 class InversionTrainer(BaseTrainer):
@@ -29,7 +34,9 @@ class InversionTrainer(BaseTrainer):
         # TODO: Log training metrics from below... (How to do with huggingface?)
         self._compute_data_metrics(inputs=inputs)
         # self.log({ f"train/{k}": v for k,v in metrics.items() })
-        return super().training_step(model, inputs, num_items_in_batch)
+        if _TRAINER_STEP_HAS_NUM_ITEMS:
+            return super().training_step(model, inputs, num_items_in_batch)
+        return super().training_step(model, inputs)
 
     def evaluation_loop(
         self, *args, **kwargs
