@@ -508,8 +508,10 @@ def load_standard_val_datasets(data_args: DataArguments) -> datasets.DatasetDict
 
     # d = load_mt_ms_test()
 
-    d = datasets.load_dataset(data_args.dataset_name)
-    d_test = datasets.DatasetDict({
-        "test": d["test"]
-    })
-    return d_test
+    try:
+        d = datasets.load_dataset(data_args.dataset_name)
+        split = "test" if "test" in d else "validation"
+        return datasets.DatasetDict({split: d[split]})
+    except Exception as e:
+        print(f"[Warning: could not load standard val datasets for '{data_args.dataset_name}': {e}. Using empty val dict.]")
+        return datasets.DatasetDict()

@@ -535,8 +535,8 @@ class Experiment(abc.ABC):
 
         if self.model_args.use_frozen_embeddings_as_input:
             print("Using Frozen Embeddings as Input -- Val datasets")
-            first_val_split = next(iter(val_datasets_dict.values()))
-            if "frozen_embeddings" in first_val_split.column_names:
+            first_val_splits = list(val_datasets_dict.values())
+            if not first_val_splits or "frozen_embeddings" in first_val_splits[0].column_names:
                 print("[Skipping val embedding precomputation — dataset already has frozen_embeddings]")
             else:
                 assert torch.cuda.is_available()
@@ -678,8 +678,21 @@ class InversionExperiment(Experiment):
         return "emb-inv-4"
 
     def load_model(self) -> transformers.PreTrainedModel:
+        config = self.config
+        if (config.use_frozen_embeddings_as_input
+                and getattr(config, "frozen_embeddings_dim", 0) == 0
+                and getattr(self.data_args, "victim_embedding_name", None)):
+            import numpy as np
+            from vec2text.data_helpers import _resolve_victim_embedding_files
+            try:
+                files = _resolve_victim_embedding_files(self.data_args.victim_embedding_name)
+                arr = np.load(files["train_npy"], mmap_mode="r")
+                config.frozen_embeddings_dim = int(arr.shape[1])
+                print(f"[Auto-detected frozen_embeddings_dim = {config.frozen_embeddings_dim} from {files['train_npy']}]")
+            except Exception as e:
+                print(f"[Warning: could not auto-detect frozen_embeddings_dim: {e}]")
         return InversionModel(
-            config=self.config,
+            config=config,
         )
 
     def load_trainer(self) -> transformers.Trainer:
