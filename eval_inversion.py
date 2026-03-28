@@ -24,6 +24,8 @@ from rouge_score import rouge_scorer
 
 nltk.download("wordnet", quiet=True)
 nltk.download("omw-1.4", quiet=True)
+nltk.download("punkt", quiet=True)
+nltk.download("punkt_tab", quiet=True)
 
 from vec2text.models.config import InversionConfig
 from vec2text.models.inversion import InversionModel
@@ -34,7 +36,7 @@ from vec2text.models.inversion import InversionModel
 # ---------------------------------------------------------------------------
 
 def _tokenize(text: str):
-    return text.lower().split()
+    return nltk.word_tokenize(text.lower())
 
 
 def bleu(predictions, references):
@@ -51,7 +53,7 @@ def bleu(predictions, references):
 
 def rouge(predictions, references):
     """ROUGE-1/2/L, averaged over all samples (best ref when multiple)."""
-    scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=False)
+    scorer = rouge_scorer.RougeScorer(["rouge1", "rouge2", "rougeL"], use_stemmer=True)
     agg = {"rouge1": [], "rouge2": [], "rougeL": []}
     for pred, refs_i in zip(predictions, references):
         best = {k: 0.0 for k in agg}
@@ -115,6 +117,7 @@ def load_test_data(victim_name: str, max_samples: int):
         image_ids = json.load(f)
     with open(caption_path) as f:
         caption_dict = json.load(f)
+        caption_dict = {idx:c[0] for idx, c in caption_dict.items()}
 
     if max_samples > 0:
         image_ids = image_ids[:max_samples]
