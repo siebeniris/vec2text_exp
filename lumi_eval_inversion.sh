@@ -54,7 +54,7 @@ BATCH_SIZE=${3:-32}
 NUM_BEAMS=${4:-4}
 MAX_NEW_TOKENS=${5:-64}
 MAX_SAMPLES=${6:--1}
-OUTPUT=${7:-"${MODEL_PATH}/eval_results.json"}
+OUTPUT=${7:-"${MODEL_PATH}/eval_results_${NUM_BEAMS}.json"}
 
 echo "Configuration:"
 echo "  Model path:     ${MODEL_PATH}"
