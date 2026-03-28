@@ -15,10 +15,15 @@ import argparse
 import json
 import os
 
+import nltk
 import numpy as np
 import torch
 from nltk.translate.bleu_score import corpus_bleu, SmoothingFunction
+from nltk.translate.meteor_score import meteor_score
 from rouge_score import rouge_scorer
+
+nltk.download("wordnet", quiet=True)
+nltk.download("omw-1.4", quiet=True)
 
 from vec2text.models.config import InversionConfig
 from vec2text.models.inversion import InversionModel
@@ -66,6 +71,15 @@ def exact_match(predictions, references):
         for pred, refs_i in zip(predictions, references)
     )
     return hits / len(predictions)
+
+
+def meteor(predictions, references):
+    """Average METEOR score (supports multiple references per sample)."""
+    scores = [
+        meteor_score([_tokenize(ref) for ref in refs_i], _tokenize(pred))
+        for pred, refs_i in zip(predictions, references)
+    ]
+    return float(np.mean(scores))
 
 
 def token_f1(predictions, references):
@@ -207,6 +221,7 @@ def main():
     results = {}
     results.update(bleu(predictions, references))
     results.update(rouge(predictions, references))
+    results["meteor"] = meteor(predictions, references)
     results["exact_match"] = exact_match(predictions, references)
     results["token_f1"] = token_f1(predictions, references)
     results["num_samples"] = len(predictions)
