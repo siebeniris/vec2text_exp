@@ -155,6 +155,7 @@ class Experiment(abc.ABC):
             "embedder_name": self.model_args.embedder_model_name,
             "max_seq_length": str(self.model_args.max_seq_length),
             "use_less_data": str(self.data_args.use_less_data),
+            "max_train_samples": str(getattr(self.data_args, "max_train_samples", -1)),
             "embedder_model_api": str(self.model_args.embedder_model_api),
             "victim_embedding_name": str(self.data_args.victim_embedding_name),
             "use_random_embeddings": str(self.data_args.use_random_embeddings),

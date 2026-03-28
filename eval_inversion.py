@@ -107,7 +107,13 @@ def token_f1(predictions, references):
 # ---------------------------------------------------------------------------
 
 def load_test_data(victim_name: str, max_samples: int):
-    """Returns (embeddings [N, D], captions [[str, ...], ...])."""
+    """Returns (embeddings [N, D], references [[str], ...]).
+
+    Each embedding test.npy[i] was computed from the first caption of image_ids[i]
+    (dataset: coco_victim_first_caption). The reference is therefore that same first
+    caption, giving a strict pairwise evaluation: can the model recover the exact
+    source text from its embedding?
+    """
     repo_root = os.getcwd()
     embed_dir = os.path.join(repo_root, "data", "embeds", "victim_embeddings", victim_name, "test")
     caption_path = os.path.join(repo_root, "data", "victim_embeds_data", "test_dict.json")
@@ -117,25 +123,21 @@ def load_test_data(victim_name: str, max_samples: int):
         image_ids = json.load(f)
     with open(caption_path) as f:
         caption_dict = json.load(f)
-        caption_dict = {idx:c[0] for idx, c in caption_dict.items()}
 
     if max_samples > 0:
         image_ids = image_ids[:max_samples]
         embeddings = embeddings[:max_samples]
 
-    # Normalise image_ids to strings for dict lookup
+    # Pair each embedding with the exact source text that was embedded (first caption).
     references = []
     for iid in image_ids:
-        entry = caption_dict.get(str(iid)) or caption_dict.get(int(iid))
-        if entry is None:
+        caps = caption_dict.get(str(iid)) or caption_dict.get(int(iid))
+        if caps is None:
             references.append([""])
-        elif isinstance(entry, str):
-            references.append([entry])
-        elif isinstance(entry, dict):
-            caps = entry.get("caption", entry.get("captions", [""]))
-            references.append([caps] if isinstance(caps, str) else caps)
+        elif isinstance(caps, list):
+            references.append([caps[0]])   # first caption = source text for this embedding
         else:
-            references.append(entry if isinstance(entry, list) else [""])
+            references.append([caps])      # already a string
 
     return embeddings, references
 
@@ -243,7 +245,7 @@ def main():
         },
         "metrics": results,
         "predictions": predictions,
-        "references": [refs[0] for refs in references],  # first reference per sample
+        "references": [refs[0] for refs in references],
     }
     with open(output_path, "w") as f:
         json.dump(output, f, indent=2)
