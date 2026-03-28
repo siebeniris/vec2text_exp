@@ -1,3 +1,4 @@
+import inspect
 import os
 from typing import Any, Dict
 
@@ -5,6 +6,10 @@ import torch
 import torch.nn as nn
 import transformers
 from sentence_transformers import SentenceTransformer
+
+_ST_SUPPORTS_TRUST_REMOTE_CODE = "trust_remote_code" in inspect.signature(
+    SentenceTransformer.__init__
+).parameters
 
 EMBEDDER_MODEL_NAMES = [
     "bert",
@@ -287,9 +292,10 @@ def load_embedder_and_tokenizer(name: str, torch_dtype: str, **kwargs):
     #     model = SentenceTransformer(name)
     #     tokenizer = model.tokenizer
     elif name.startswith("nomic-ai/nomic-embed-text-v1"):
-        model = SentenceTransformer(
-            "nomic-ai/nomic-embed-text-v1", trust_remote_code=True
-        )
+        st_kwargs = {}
+        if _ST_SUPPORTS_TRUST_REMOTE_CODE:
+            st_kwargs["trust_remote_code"] = True
+        model = SentenceTransformer("nomic-ai/nomic-embed-text-v1", **st_kwargs)
         tokenizer = model.tokenizer
     else:
         print(f"WARNING: Trying to initialize from unknown embedder {name}")

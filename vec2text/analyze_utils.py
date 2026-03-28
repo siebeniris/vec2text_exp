@@ -14,7 +14,9 @@ from transformers.trainer_utils import get_last_checkpoint
 
 from vec2text import experiments
 from vec2text.models.config import InversionConfig
+from vec2text.models.model_utils import load_embedder_and_tokenizer
 from vec2text.run_args import DataArguments, ModelArguments, TrainingArguments
+from vec2text.utils import MockEmbedder
 from vec2text import run_args as run_args
 
 
@@ -191,6 +193,23 @@ def load_experiment_and_trainer_from_pretrained(name: str, use_less_data: int = 
     trainer = experiment.load_trainer()
     trainer.model = trainer.model.__class__.from_pretrained(name)
     trainer.model.to(training_args.device)
+
+    # The inverter may have been trained with MockEmbedder (frozen_embeddings_dim > 0).
+    # The corrector needs a real embedder to embed generated hypotheses (for residuals).
+    # Replace MockEmbedder with the actual embedder model now.
+    if isinstance(trainer.model.embedder, MockEmbedder):
+        real_embedder, real_tokenizer = load_embedder_and_tokenizer(
+            name=config.embedder_model_name,
+            torch_dtype=getattr(config, "embedder_torch_dtype", "float32"),
+        )
+        trainer.model.embedder = real_embedder.to(training_args.device)
+        trainer.model.embedder_tokenizer = real_tokenizer
+        if trainer.model.embedder_no_grad:
+            for param in trainer.model.embedder.parameters():
+                param.requires_grad = False
+            trainer.model.embedder.eval()
+        print(f"[analyze_utils] Replaced MockEmbedder with real embedder: {config.embedder_model_name}")
+
     return experiment, trainer
 
 
