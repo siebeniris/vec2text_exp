@@ -234,6 +234,15 @@ class DataArguments:
             "help": {"Use a small amount of the training/eval data (for testing)"}
         },
     )
+    max_train_samples: int = field(
+        default=-1,
+        metadata={
+            "help": (
+                "Cap the number of training samples (-1 = use all). "
+                "Unlike use_less_data, this only affects the train split."
+            )
+        },
+    )
     victim_embedding_name: str = field(
         default="nomic",
         metadata={

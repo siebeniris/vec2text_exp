@@ -417,6 +417,12 @@ class Experiment(abc.ABC):
             for key in raw_datasets:
                 new_length = min(len(raw_datasets[key]), data_args.use_less_data)
                 raw_datasets[key] = raw_datasets[key].select(range(new_length))
+
+        # cap train split only
+        if getattr(data_args, "max_train_samples", -1) > 0:
+            new_length = min(len(raw_datasets["train"]), data_args.max_train_samples)
+            raw_datasets["train"] = raw_datasets["train"].select(range(new_length))
+            print(f"[max_train_samples] Train set capped at {new_length} samples.")
         print(
             ">> using fast tokenizers:", tokenizer.is_fast, embedder_tokenizer.is_fast
         )
