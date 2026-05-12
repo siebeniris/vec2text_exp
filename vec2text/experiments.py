@@ -689,19 +689,32 @@ class InversionExperiment(Experiment):
         if config.use_frozen_embeddings_as_input and getattr(config, "frozen_embeddings_dim", 0) == 0:
             import numpy as np
             victim_name = getattr(self.data_args, "victim_embedding_name", None)
+            # Candidate locations for the train embeddings, in priority order.
+            # The image-victim layout (FSII) is checked first; the text-victim
+            # layout is checked second. `random` is nested as random/dim1280/ in FSII.
+            candidate_paths = []
             if victim_name:
-                npy_path = os.path.join(
-                    os.getcwd(), "data", "embeds", "victim_embeddings",
-                    victim_name, "train", "train.npy"
+                fsii_victim_dir = os.path.join(
+                    os.getcwd(), "data", "coco2014captions", "embeds", "victim_embeddings",
+                    victim_name,
                 )
+                if victim_name == "random":
+                    fsii_victim_dir = os.path.join(fsii_victim_dir, "dim1280")
+                candidate_paths.append(os.path.join(fsii_victim_dir, "train", "train.npy"))
+                candidate_paths.append(os.path.join(
+                    os.getcwd(), "data", "embeds", "victim_embeddings",
+                    victim_name, "train", "train.npy",
+                ))
+            for npy_path in candidate_paths:
                 if os.path.exists(npy_path):
                     arr = np.load(npy_path, mmap_mode="r")
                     config.frozen_embeddings_dim = int(arr.shape[1])
                     print(f"[Auto-detected frozen_embeddings_dim = {config.frozen_embeddings_dim} from {npy_path}]")
+                    break
             if config.frozen_embeddings_dim == 0:
                 raise ValueError(
                     "use_frozen_embeddings_as_input=True but could not detect embedding dimension. "
-                    f"Expected npy at: data/embeds/victim_embeddings/{victim_name}/train/train.npy. "
+                    f"Looked for train.npy under (in order): {candidate_paths}. "
                     "Pass --frozen_embeddings_dim explicitly if the path differs."
                 )
         return InversionModel(
