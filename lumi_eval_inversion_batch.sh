@@ -25,11 +25,20 @@ CAPTION_ROOT="data/coco2014captions"
 VICTIMS=(cohere gemini2 nvidia clip nomic random )
 SAMPLE_SIZES=(1 10 100 1000 10000)
 
+submitted=0
+skipped=0
+
 for VICTIM in "${VICTIMS[@]}"; do
   for N in "${SAMPLE_SIZES[@]}"; do
 
     MODEL_PATH="saves/inverters/coco_image_${VICTIM}_${N}"
     OUTPUT="${MODEL_PATH}/eval_${SPLIT}_results.json"
+
+    if [ ! -d "${MODEL_PATH}" ]; then
+      echo "Skipping ${VICTIM}_${N}: inverter not found at ${MODEL_PATH}"
+      skipped=$((skipped + 1))
+      continue
+    fi
 
     echo "Submitting: victim=${VICTIM}  samples=${N}  split=${SPLIT}  model=${MODEL_PATH}"
 
@@ -45,8 +54,10 @@ for VICTIM in "${VICTIMS[@]}"; do
       "${EMBED_ROOT}" \
       "${CAPTION_ROOT}"
 
+    submitted=$((submitted + 1))
+
   done
 done
 
 echo ""
-echo "All evaluation jobs submitted."
+echo "Done. Submitted ${submitted} evaluation jobs, skipped ${skipped} missing inverters."
