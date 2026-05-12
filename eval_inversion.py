@@ -29,6 +29,8 @@ nltk.download("punkt_tab", quiet=True)
 
 from vec2text.models.config import InversionConfig
 from vec2text.models.inversion import InversionModel
+from vec2text.models.model_utils import load_embedder_and_tokenizer
+from vec2text.utils import MockEmbedder
 
 
 # ---------------------------------------------------------------------------
@@ -163,6 +165,8 @@ def generate_inversions(model, tokenizer, embeddings_np, batch_size, num_beams, 
                 "num_beams": num_beams,
                 "max_new_tokens": max_new_tokens,
                 "early_stopping": True,
+                "temperature": 10,
+                "do_sample": True
             },
         )
         decoded = tokenizer.batch_decode(out_ids, skip_special_tokens=True)

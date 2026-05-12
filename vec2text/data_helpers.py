@@ -268,6 +268,93 @@ def load_coco_nomic_first_caption() -> datasets.DatasetDict:
     return load_coco_victim_first_caption(victim_embedding_name="nomic")
 
 
+def _resolve_image_victim_embedding_files(victim_embedding_name: str):
+    """Resolve image-embedding files in the FSII layout.
+
+    Expected on-disk layout (relative to cwd):
+        data/coco2014captions/embeds/victim_embeddings/<victim>/<split>/<split>.npy
+        data/coco2014captions/embeds/victim_embeddings/<victim>/<split>/<split>_image_ids.json
+
+    The `random` victim is nested one level deeper as `random/dim1280/<split>/...`,
+    matching how the random baseline is materialized in FSII.
+    """
+    repo_root = os.getcwd()
+    victim_root = os.path.join(
+        repo_root, "data", "coco2014captions", "embeds", "victim_embeddings"
+    )
+
+    embed_dir = os.path.join(victim_root, victim_embedding_name)
+    if victim_embedding_name == "random":
+        embed_dir = os.path.join(embed_dir, "dim1280")
+    if not os.path.isdir(embed_dir):
+        raise ValueError(
+            f"unsupported image victim embedding source '{victim_embedding_name}'. "
+            f"Directory not found: {embed_dir}"
+        )
+
+    files = {}
+    for split in ("train", "val", "test"):
+        npy = os.path.join(embed_dir, split, f"{split}.npy")
+        ids = os.path.join(embed_dir, split, f"{split}_image_ids.json")
+        files[f"{split}_npy"] = npy
+        files[f"{split}_ids"] = ids
+
+    # train + val (eval) must exist; test is optional but typically present.
+    required = ["train_npy", "train_ids", "val_npy", "val_ids"]
+    missing = [k for k in required if not os.path.exists(files[k])]
+    if missing:
+        raise ValueError(
+            f"image victim '{victim_embedding_name}' is missing required files under {embed_dir}: "
+            f"{[files[k] for k in missing]}"
+        )
+
+    return files
+
+
+def load_coco_image_victim_first_caption(
+        victim_embedding_name: str = "cohere",
+        use_random_embeddings: bool = False,
+        random_embedding_seed: int = 42,
+) -> datasets.DatasetDict:
+    """Image-embedding variant of `load_coco_victim_first_caption`.
+
+    Pairs precomputed image embeddings (one per image) with the first caption
+    of that image, mirroring the few-shot image-inversion setup. The validation
+    split comes from `val/` (not `test/`), so the test split stays held out.
+    """
+    repo_root = os.getcwd()
+    caption_dir = os.path.join(repo_root, "data", "coco2014captions")
+    embedding_files = _resolve_image_victim_embedding_files(victim_embedding_name)
+
+    train_dataset = _build_coco_victim_pair_dataset(
+        embeddings_path=embedding_files["train_npy"],
+        image_ids_path=embedding_files["train_ids"],
+        captions_path=os.path.join(caption_dir, "train_dict.json"),
+        randomize_embeddings=use_random_embeddings,
+        random_seed=random_embedding_seed,
+    )
+    val_dataset = _build_coco_victim_pair_dataset(
+        embeddings_path=embedding_files["val_npy"],
+        image_ids_path=embedding_files["val_ids"],
+        captions_path=os.path.join(caption_dir, "val_dict.json"),
+        randomize_embeddings=use_random_embeddings,
+        random_seed=random_embedding_seed + 1,
+    )
+    splits = {"train": train_dataset, "validation": val_dataset}
+
+    if os.path.exists(embedding_files["test_npy"]) and os.path.exists(embedding_files["test_ids"]):
+        test_dataset = _build_coco_victim_pair_dataset(
+            embeddings_path=embedding_files["test_npy"],
+            image_ids_path=embedding_files["test_ids"],
+            captions_path=os.path.join(caption_dir, "test_dict.json"),
+            randomize_embeddings=use_random_embeddings,
+            random_seed=random_embedding_seed + 2,
+        )
+        splits["test"] = test_dataset
+
+    return datasets.DatasetDict(splits)
+
+
 def load_xnli(lang) -> datasets.Dataset:
     def concat_pre_hyp(sample):
         sample["text"] = sample["premise"] + " " + sample["hypothesis"]
@@ -331,6 +418,12 @@ def dataset_from_args(data_args: DataArguments) -> datasets.DatasetDict:
         )
     elif data_args.dataset_name in {"coco_nomic_first_caption", "coco_victim_first_caption"}:
         raw_datasets = load_coco_victim_first_caption(
+            victim_embedding_name=data_args.victim_embedding_name,
+            use_random_embeddings=data_args.use_random_embeddings,
+            random_embedding_seed=data_args.random_embedding_seed,
+        )
+    elif data_args.dataset_name == "coco_image_victim_first_caption":
+        raw_datasets = load_coco_image_victim_first_caption(
             victim_embedding_name=data_args.victim_embedding_name,
             use_random_embeddings=data_args.use_random_embeddings,
             random_embedding_seed=data_args.random_embedding_seed,

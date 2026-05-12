@@ -14,21 +14,24 @@ set -x
 BATCH_SIZE=32
 NUM_BEAMS=4
 MAX_NEW_TOKENS=64
-MAX_SAMPLES=-1   # -1 = evaluate on all test samples
+MAX_SAMPLES=-1   # -1 = evaluate on all samples in the split
+SPLIT="val"
+EMBED_ROOT="data/coco2014captions/embeds/victim_embeddings"
+CAPTION_ROOT="data/coco2014captions"
 
 # ---------------------------------------------------------------------------
 # Sweep
 # ---------------------------------------------------------------------------
-VICTIMS=(nomic gemini clip cohere)
-SAMPLE_SIZES=(1 10 100 1000)
+VICTIMS=(cohere gemini2 nvidia random)
+SAMPLE_SIZES=(1 10 100 1000 10000)
 
 for VICTIM in "${VICTIMS[@]}"; do
   for N in "${SAMPLE_SIZES[@]}"; do
 
-    MODEL_PATH="saves/inverters/coco_${VICTIM}_${N}"
-    OUTPUT="${MODEL_PATH}/eval_results.json"
+    MODEL_PATH="saves/inverters/coco_image_${VICTIM}_${N}"
+    OUTPUT="${MODEL_PATH}/eval_${SPLIT}_results.json"
 
-    echo "Submitting: victim=${VICTIM}  samples=${N}  model=${MODEL_PATH}"
+    echo "Submitting: victim=${VICTIM}  samples=${N}  split=${SPLIT}  model=${MODEL_PATH}"
 
     sbatch lumi_eval_inversion.sh \
       "${MODEL_PATH}" \
@@ -37,7 +40,10 @@ for VICTIM in "${VICTIMS[@]}"; do
       "${NUM_BEAMS}" \
       "${MAX_NEW_TOKENS}" \
       "${MAX_SAMPLES}" \
-      "${OUTPUT}"
+      "${OUTPUT}" \
+      "${SPLIT}" \
+      "${EMBED_ROOT}" \
+      "${CAPTION_ROOT}"
 
   done
 done

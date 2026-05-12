@@ -55,6 +55,9 @@ NUM_BEAMS=${4:-4}
 MAX_NEW_TOKENS=${5:-64}
 MAX_SAMPLES=${6:--1}
 OUTPUT=${7:-"${MODEL_PATH}/eval_results_${NUM_BEAMS}.json"}
+SPLIT=${8:-"test"}
+EMBED_ROOT=${9:-""}
+CAPTION_ROOT=${10:-""}
 
 echo "Configuration:"
 echo "  Model path:     ${MODEL_PATH}"
@@ -64,6 +67,26 @@ echo "  Num beams:      ${NUM_BEAMS}"
 echo "  Max new tokens: ${MAX_NEW_TOKENS}"
 echo "  Max samples:    ${MAX_SAMPLES}"
 echo "  Output:         ${OUTPUT}"
+echo "  Split:          ${SPLIT}"
+echo "  Embed root:     ${EMBED_ROOT:-<default>}"
+echo "  Caption root:   ${CAPTION_ROOT:-<default>}"
+
+EVAL_ARGS=(
+    --model_path "${MODEL_PATH}"
+    --victim_name "${VICTIM_NAME}"
+    --batch_size "${BATCH_SIZE}"
+    --num_beams "${NUM_BEAMS}"
+    --max_new_tokens "${MAX_NEW_TOKENS}"
+    --max_samples "${MAX_SAMPLES}"
+    --split "${SPLIT}"
+    --output "${OUTPUT}"
+)
+if [ -n "${EMBED_ROOT}" ]; then
+    EVAL_ARGS+=(--embed_root "${EMBED_ROOT}")
+fi
+if [ -n "${CAPTION_ROOT}" ]; then
+    EVAL_ARGS+=(--caption_root "${CAPTION_ROOT}")
+fi
 
 echo ""
 srun singularity exec \
@@ -71,14 +94,7 @@ srun singularity exec \
     -B ${wd}:${wd} \
     -B ${HF_HOME}:${HF_HOME} \
     -B ${HF_DATASETS_CACHE}:${HF_DATASETS_CACHE} \
-    ${SIF} bash -c "cd '${wd}' && export PYTHONPATH='${wd}:\${PYTHONPATH}' && python eval_inversion.py \
-        --model_path '${MODEL_PATH}' \
-        --victim_name '${VICTIM_NAME}' \
-        --batch_size ${BATCH_SIZE} \
-        --num_beams ${NUM_BEAMS} \
-        --max_new_tokens ${MAX_NEW_TOKENS} \
-        --max_samples ${MAX_SAMPLES} \
-        --output '${OUTPUT}'"
+    ${SIF} bash -c "cd '${wd}' && export PYTHONPATH='${wd}:\${PYTHONPATH}' && python eval_inversion.py ${EVAL_ARGS[*]}"
 
 echo ""
 echo "Evaluation completed! Results saved to ${OUTPUT}"
