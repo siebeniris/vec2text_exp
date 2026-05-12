@@ -81,6 +81,7 @@ EXP_NAME=${19:-"${DATASET_NAME}_${VICTIM_EMBEDDING}"}
 USE_LESS_DATA=${20:--1}
 EARLY_STOPPING=${21:-"no"}
 OVERWRITE_OUTPUT_DIR=${22:-1}
+MAX_TRAIN_SAMPLES=${23:--1}
 
 if [ -z "${WARMUP_STEPS}" ]; then
   WARMUP_STEPS=${EVAL_STEPS}
@@ -109,6 +110,7 @@ echo "  Exp name: ${EXP_NAME}"
 echo "  Use less data: ${USE_LESS_DATA}"
 echo "  Early stopping metric: ${EARLY_STOPPING}"
 echo "  Overwrite output dir: ${OVERWRITE_OUTPUT_DIR}"
+echo "  Max train samples: ${MAX_TRAIN_SAMPLES}"
 
 TRAIN_ARGS=(
   --dataset_name "${DATASET_NAME}"
@@ -137,6 +139,7 @@ TRAIN_ARGS=(
   --exp_name "${EXP_NAME}"
   --use_less_data "${USE_LESS_DATA}"
   --apply_early_stopping_metric "${EARLY_STOPPING}"
+  --max_train_samples "${MAX_TRAIN_SAMPLES}"
 )
 
 if [ "${USE_RANDOM_EMBEDDINGS}" -eq 1 ]; then
