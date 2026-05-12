@@ -22,20 +22,12 @@ EVAL_STEPS=20000
 EXP_GROUP="lumi-image-inversion-sweep"
 
 # ---------------------------------------------------------------------------
-# Victim → embedder model name mapping
-# Embeddings are precomputed (use_frozen_embeddings=True), so the embedder is
-# only used for tokenizer/config shape. Any HF-resolvable name works.
-# ---------------------------------------------------------------------------
-declare -A EMBEDDER_MODEL
-EMBEDDER_MODEL["cohere"]="nomic-ai/nomic-embed-text-v1"
-EMBEDDER_MODEL["gemini2"]="nomic-ai/nomic-embed-text-v1"
-EMBEDDER_MODEL["nvidia"]="nomic-ai/nomic-embed-text-v1"
-EMBEDDER_MODEL["random"]="nomic-ai/nomic-embed-text-v1"
-
-# ---------------------------------------------------------------------------
 # Sweep
+# Embeddings are precomputed (use_frozen_embeddings=True), so we don't need a
+# per-victim embedder model — only a placeholder for the positional arg.
 # ---------------------------------------------------------------------------
-VICTIMS=(cohere gemini2 nvidia random)
+EMBEDDER_MODEL_PLACEHOLDER="nomic-ai/nomic-embed-text-v1"
+VICTIMS=(cohere gemini2 nvidia clip nomic random )
 SAMPLE_SIZES=(1 10 100 1000 10000)
 
 for VICTIM in "${VICTIMS[@]}"; do
@@ -43,7 +35,6 @@ for VICTIM in "${VICTIMS[@]}"; do
 
     OUTPUT_DIR="saves/inverters/coco_image_${VICTIM}_${N}"
     EXP_NAME="${VICTIM}_${N}"
-    EMBEDDER="${EMBEDDER_MODEL[$VICTIM]}"
 
     echo "Submitting: victim=${VICTIM}  samples=${N}  output=${OUTPUT_DIR}"
 
@@ -52,7 +43,7 @@ for VICTIM in "${VICTIMS[@]}"; do
       "${VICTIM}" \
       "${OUTPUT_DIR}" \
       "${MODEL_NAME}" \
-      "${EMBEDDER}" \
+      "${EMBEDDER_MODEL_PLACEHOLDER}" \
       "${BATCH_SIZE}" \
       "${NUM_EPOCHS}" \
       "${LEARNING_RATE}" \

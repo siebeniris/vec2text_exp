@@ -108,20 +108,37 @@ def token_f1(predictions, references):
 # Data loading
 # ---------------------------------------------------------------------------
 
-def load_test_data(victim_name: str, max_samples: int):
+def load_test_data(
+    victim_name: str,
+    max_samples: int,
+    split: str = "test",
+    embed_root: str = None,
+    caption_root: str = None,
+):
     """Returns (embeddings [N, D], references [[str], ...]).
 
-    Each embedding test.npy[i] was computed from the first caption of image_ids[i]
-    (dataset: coco_victim_first_caption). The reference is therefore that same first
-    caption, giving a strict pairwise evaluation: can the model recover the exact
-    source text from its embedding?
+    Pairs each embedding with the first caption of its image. Supports both the
+    text-embedding layout (embed_root=data/embeds/victim_embeddings,
+    caption_root=data/victim_embeds_data) and the FSII image-embedding layout
+    (embed_root=data/coco2014captions/embeds/victim_embeddings,
+    caption_root=data/coco2014captions), and reads from the requested split.
+
+    The `random` victim is nested one level deeper (random/dim1280/<split>/...)
+    in the FSII layout.
     """
     repo_root = os.getcwd()
-    embed_dir = os.path.join(repo_root, "data", "embeds", "victim_embeddings", victim_name, "test")
-    caption_path = os.path.join(repo_root, "data", "victim_embeds_data", "test_dict.json")
+    embed_root = embed_root or os.path.join(repo_root, "data", "embeds", "victim_embeddings")
+    caption_root = caption_root or os.path.join(repo_root, "data", "victim_embeds_data")
 
-    embeddings = np.load(os.path.join(embed_dir, "test.npy"))
-    with open(os.path.join(embed_dir, "test_image_ids.json")) as f:
+    victim_dir = os.path.join(embed_root, victim_name)
+    if victim_name == "random" and os.path.isdir(os.path.join(victim_dir, "dim1280")):
+        victim_dir = os.path.join(victim_dir, "dim1280")
+    embed_dir = os.path.join(victim_dir, split)
+
+    caption_path = os.path.join(caption_root, f"{split}_dict.json")
+
+    embeddings = np.load(os.path.join(embed_dir, f"{split}.npy"))
+    with open(os.path.join(embed_dir, f"{split}_image_ids.json")) as f:
         image_ids = json.load(f)
     with open(caption_path) as f:
         caption_dict = json.load(f)
@@ -131,15 +148,19 @@ def load_test_data(victim_name: str, max_samples: int):
         embeddings = embeddings[:max_samples]
 
     # Pair each embedding with the exact source text that was embedded (first caption).
+    # FSII caption format is {coco_url, caption: [...]}; legacy is list or str.
     references = []
     for iid in image_ids:
-        caps = caption_dict.get(str(iid)) or caption_dict.get(int(iid))
-        if caps is None:
+        entry = caption_dict.get(str(iid)) or caption_dict.get(int(iid))
+        if entry is None:
             references.append([""])
-        elif isinstance(caps, list):
-            references.append([caps[0]])   # first caption = source text for this embedding
+        elif isinstance(entry, dict):
+            caps = entry.get("caption", [])
+            references.append([caps[0] if caps else ""])
+        elif isinstance(entry, list):
+            references.append([entry[0]])
         else:
-            references.append([caps])      # already a string
+            references.append([entry])
 
     return embeddings, references
 
@@ -165,8 +186,8 @@ def generate_inversions(model, tokenizer, embeddings_np, batch_size, num_beams, 
                 "num_beams": num_beams,
                 "max_new_tokens": max_new_tokens,
                 "early_stopping": True,
-                "temperature": 10,
-                "do_sample": True
+                # "temperature": 10,
+                # "do_sample": True
             },
         )
         decoded = tokenizer.batch_decode(out_ids, skip_special_tokens=True)
@@ -195,6 +216,18 @@ def main():
     parser.add_argument("--max_new_tokens", type=int, default=64)
     parser.add_argument("--max_samples", type=int, default=-1,
                         help="Cap number of test samples (-1 = all)")
+    parser.add_argument("--split", default="test",
+                        help="Which split file to read (e.g. 'val' or 'test'). "
+                             "Reads <embed_root>/<victim>/<split>/<split>.npy "
+                             "and <caption_root>/<split>_dict.json.")
+    parser.add_argument("--embed_root", default=None,
+                        help="Root dir of victim embeddings. "
+                             "Defaults to data/embeds/victim_embeddings. "
+                             "For image embeddings use data/coco2014captions/embeds/victim_embeddings.")
+    parser.add_argument("--caption_root", default=None,
+                        help="Root dir holding <split>_dict.json. "
+                             "Defaults to data/victim_embeds_data. "
+                             "For image embeddings use data/coco2014captions.")
     parser.add_argument("--output", default=None,
                         help="Path to save JSON results. Defaults to <model_path>/eval_results.json")
     args = parser.parse_args()
@@ -212,9 +245,15 @@ def main():
     print(f"Model loaded on {device}. Embedding dim: {model.embedder_dim}")
 
     # ---- Load test data ----------------------------------------------------
-    print(f"Loading test data for victim '{args.victim_name}' ...")
-    embeddings, references = load_test_data(args.victim_name, args.max_samples)
-    print(f"  {len(embeddings)} test samples, embedding dim {embeddings.shape[1]}")
+    print(f"Loading {args.split} data for victim '{args.victim_name}' ...")
+    embeddings, references = load_test_data(
+        args.victim_name,
+        args.max_samples,
+        split=args.split,
+        embed_root=args.embed_root,
+        caption_root=args.caption_root,
+    )
+    print(f"  {len(embeddings)} {args.split} samples, embedding dim {embeddings.shape[1]}")
 
     # ---- Generate ----------------------------------------------------------
     print(f"Generating with beam_size={args.num_beams}, batch_size={args.batch_size} ...")
@@ -244,6 +283,9 @@ def main():
         "config": {
             "model_path": args.model_path,
             "victim_name": args.victim_name,
+            "split": args.split,
+            "embed_root": args.embed_root,
+            "caption_root": args.caption_root,
             "num_beams": args.num_beams,
             "max_samples": args.max_samples,
         },

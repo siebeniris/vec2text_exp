@@ -13,7 +13,7 @@ set -x
 # ---------------------------------------------------------------------------
 BATCH_SIZE=32
 NUM_BEAMS=4
-MAX_NEW_TOKENS=64
+MAX_NEW_TOKENS=32
 MAX_SAMPLES=-1   # -1 = evaluate on all samples in the split
 SPLIT="val"
 EMBED_ROOT="data/coco2014captions/embeds/victim_embeddings"
@@ -22,7 +22,7 @@ CAPTION_ROOT="data/coco2014captions"
 # ---------------------------------------------------------------------------
 # Sweep
 # ---------------------------------------------------------------------------
-VICTIMS=(cohere gemini2 nvidia random)
+VICTIMS=(cohere gemini2 nvidia clip nomic random )
 SAMPLE_SIZES=(1 10 100 1000 10000)
 
 for VICTIM in "${VICTIMS[@]}"; do
